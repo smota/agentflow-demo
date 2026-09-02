@@ -1,42 +1,52 @@
-# Issue #2: chore: establish Agentflow governance and durable project foundation
+# Issue #4: feat: publish a real-data searchable preview
 
 **Epic:** #1
 
 ## Background & Problem Statement
 
-The empty demo repository needs mandatory policy, repeatable setup, GitHub governance and durable execution records before application implementation.
+Awesome resources are scattered across huge lists. Readers need one searchable, attributed catalogue, and deployment viability must be established early.
 
 ## Requirements
 
-- Pin Agentflow v1.0.0 at d61b3ca71189f872a6fd78373076f2aab787f2e0 and initialize through its supported CLI.
-- Keep every project-controlled local write inside the demo repository.
-- Use work branches into development and release promotion to main.
-- Establish specification, acceptance matrix, validation, recovery instructions and issue-linked delivery history.
-- Preserve the distinction between the released framework and newer source-only contracts.
+Discover public Awesome resource-list repositories with at least 50,000 observed stars. Locally parse a licensed initial subset into a static catalogue. Publish a basic working search app on free Streamlit Cloud.
 
 ## Technical Design
 
-Install the pinned source in ignored .tooling/agentflow and run its init on this empty target. Commit installed governance and lock metadata. Seed project-owned configuration for Python/Streamlit and a Node-based workflow validator. Store transient execution state under ignored .agent-runs, durable summaries in GitHub, and stable documentation under docs/demo. No credentials, global configuration changes or external rollback receipt.
+Architecture council compares static JSON, SQLite and hosted crawling. Prefer a small static catalogue, deterministic local Markdown parser and Streamlit UI. Record source query, observed stars, revision and license. Freeze runtime dependencies; CI runs pytest and AppTest.
+
+## Business logic
+
+- **BR-1 (rule):** Only independently discovered public Awesome lists with at least 50,000 observed stars contribute resources.
+- **BR-2 (rule):** Extraction runs locally and output preserves source provenance; hosted app reads only the committed snapshot.
+- **BR-3 (rule):** Case-insensitive search returns matching resources and source links.
+- **BR-4 (error):** Unsafe links and malformed source content must not execute or enter the published catalogue.
 
 ## Acceptance criteria
 
-- [ ] Required policies and validators installed and read.
-- [ ] Approved goal, milestones and recovery instructions recorded.
-- [ ] Foundation validators pass.
-- [ ] GitHub phase handovers, issue-scoped commit and PR verified.
+### Feature-specific
+
+- [ ] AC-1 (BR-1): Discovery manifest records query, timestamps, stars and inclusion/exclusion decisions; every included source passes threshold.
+- [ ] AC-2 (BR-2): Catalogue contains real extracted resources and source revision/license provenance; app runs without crawler credentials.
+- [ ] AC-3 (BR-3): Search and no-result paths pass AppTest and browser smoke.
+- [ ] AC-4 (BR-4): Parser and URL-negative tests pass; untrusted text is escaped.
+
+### Standard compliance
+
+- [ ] Architecture council objections resolved and role evidence published.
+- [ ] v0.1.0 release and actual public deployment verified.
 
 ## Test plan
 
-Run the pinned framework doctor, specification validation, project configuration validation and installed workflow checks. Independently review the adoption diff before merge.
+Unit tests for URL/Markdown parsing and threshold. Catalogue validation. AppTest search/empty state. Local and hosted browser smoke. Inspect release identity separately from CI.
 
 ## Workflow classification
 
 - **Profile:** standard
-- **Risk:** low
+- **Risk:** medium
 - **Effort:** medium
-- **Change surfaces:** docs, infra
+- **Change surfaces:** UI, data, infra
 
-Empty-repository policy bootstrap. Single-agent multi-role with read-only advisory review as needed. No human security gate is represented as satisfied by simulation.
+Public read-only catalogue: no user data, auth, billing or sensitive database migration. Stakeholder simulation is advisory, not real human approval.
 
 ## Open questions
 
