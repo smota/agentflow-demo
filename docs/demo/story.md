@@ -145,7 +145,21 @@ version footer alone is not proof that every imported module is fresh.
 | Early preview | [Issue #4](https://github.com/smota/agentflow-demo/issues/4), [PR #8](https://github.com/smota/agentflow-demo/pull/8), [v0.1.0](https://github.com/smota/agentflow-demo/releases/tag/v0.1.0) |
 | UX | [Issue #5](https://github.com/smota/agentflow-demo/issues/5), [PR #10](https://github.com/smota/agentflow-demo/pull/10), [v0.2.0](https://github.com/smota/agentflow-demo/releases/tag/v0.2.0) |
 | Recovery | [Issue #6](https://github.com/smota/agentflow-demo/issues/6), [PR #12](https://github.com/smota/agentflow-demo/pull/12), [v0.3.0](https://github.com/smota/agentflow-demo/releases/tag/v0.3.0) |
-| Acceptance | [Issue #7](https://github.com/smota/agentflow-demo/issues/7), [acceptance matrix](acceptance.md), candidate/stable receipts follow verification |
+| Acceptance | [Issue #7](https://github.com/smota/agentflow-demo/issues/7), [PR #14](https://github.com/smota/agentflow-demo/pull/14), [candidate](https://github.com/smota/agentflow-demo/releases/tag/v1.0.0-rc.1), [stable release](https://github.com/smota/agentflow-demo/releases/tag/v1.0.0), [acceptance matrix](acceptance.md) |
+
+## 10. Candidate and stable are separate gates
+
+The verified candidate was tagged `v1.0.0-rc.1` at
+`4b2130e95413919a7dbc166d25a563c570b6c0c9` after local checks, review and
+all required PR checks. It was explicitly a feature-branch prerelease, not a
+claim of hosted RC or stable acceptance. The planned readiness gate returned to
+implementation for the stable version/notes, followed by repeated validation.
+No feature, catalogue or dependency changed between candidate and stable code.
+
+The [stable release](https://github.com/smota/agentflow-demo/releases/tag/v1.0.0)
+and [final issue receipt](https://github.com/smota/agentflow-demo/issues/7) hold the
+post-promotion commit/tag/hosted checks. This avoids pretending that publication
+was already verified when the release commit was written.
 
 Final publication is not inferred from this narrative. The final issue and
 GitHub release retain exact commit/tag/data/hosted checks after they execute.
