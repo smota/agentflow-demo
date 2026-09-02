@@ -1,5 +1,5 @@
 {
-  "ciCommands": ["npm run check:workflow"],
+  "ciCommands": ["npm run check:workflow", "python -m pytest -q --basetemp=.cache/pytest", "python -m tools.crawl validate"],
   "branching": {
     "trunk": "main",
     "releaseCandidate": null,
@@ -31,6 +31,6 @@
     "plan-before-edit": {"requiredFor": ["architect", "developer-planning", "developer"], "fallback": "framework-emulated"},
     "workflow-orchestration": {"preferred": "framework", "allowNative": true},
     "bounded-loop": {"allowedLoops": ["review-loop", "test-fix-loop"], "maxIterationsDefault": 3, "requiresStopCondition": true},
-    "delegated-subagents": {"default": "optional", "maxParallel": 3, "readOnlyByDefault": true, "singleWriterRule": true}
+    "delegated-subagents": {"default": "optional", "maxParallel": 3, "readOnlyByDefault": true, "singleWriterRule": true, "executionTargets": {"codex-cli": "native"}}
   }
 }

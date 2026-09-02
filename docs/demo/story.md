@@ -26,6 +26,31 @@ The workstation's npm wrapper printed guidance without running tests. Direct use
 of the installed npm CLI then ran the actual workflow checks successfully. This
 is a harness-aware fallback, not a bypass of a failed validator.
 
+## 4. A real-data preview before polish
+
+The [architecture council](architecture.md) used two fresh-context, read-only Codex
+seats. Their objections became implementation requirements: actual license review,
+safe token extraction, complete attribution and resource budgets. Static JSON won;
+live hosted crawling was rejected because it violated the local-only contract.
+
+The generic capability resolver initially refused a council because delegation was
+not declared. This actual desktop harness had already demonstrated a helper, so
+the project registered that capability and reran resolution successfully. This is
+an environment-specific declaration, not a universal claim about Codex.
+
+Two GitHub searches discovered 39 candidates. Three independently qualified CC0
+lists produced 3,037 unique resources from 3,058 source occurrences. The
+[source review](source-review.md) pins revisions, licenses and the accepted digest.
+Thirty-one tests pass, including offline AppTest, unsafe URLs, parser fixtures,
+threshold boundaries and rejection of a stale publication digest. The browser
+separately verified 105 terminal-search results and the empty state.
+
+![First local preview, v0.1.0](images/v0.1-local.png)
+
+This screenshot is actual local execution, not a mockup or proof of public hosting.
+The first UI intentionally leaves density, filters and shareable journeys for #5.
+
 ## Evidence still to come
 
-Architecture/data council, local ingestion, early public preview, UX council and screenshots, exploratory testing, review/rework, recovery exercise, release council and final publication. These are pending, not completed claims.
+Early public deployment, UX council/refinement, broader exploratory testing,
+interruption recovery, release council and final publication remain pending.
