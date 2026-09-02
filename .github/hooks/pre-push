@@ -1,0 +1,35 @@
+#!/usr/bin/env node
+import { classifyBranch, loadProjectConfig } from '../../lib/branch-strategy.mjs'
+
+let input = ''
+for await (const chunk of process.stdin) {
+  input += chunk
+}
+
+for (const line of input.split(/\r?\n/)) {
+  if (line.trim().length === 0) {
+    continue
+  }
+
+  const parts = line.trim().split(/\s+/)
+  const remoteRef = parts[2] ?? ''
+  const remoteBranch = remoteRef.replace(/^refs\/heads\//, '')
+  const branchInfo = classifyBranch(remoteBranch, loadProjectConfig())
+
+  if (branchInfo.classification === 'protected') {
+    process.stderr.write(
+      [
+        '',
+        `  ERROR: direct push to '${remoteRef}' is not allowed.`,
+        '  Trunk branches receive changes via pull requests only (see AGENTS.md branch discipline section).',
+        '  Open a pull request from an issue branch instead.',
+        '  Promotion between environments happens via manual pull request, never a direct push.',
+        '',
+        '',
+      ].join('\n'),
+    )
+    process.exit(1)
+  }
+}
+
+process.exit(0)
