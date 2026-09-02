@@ -65,3 +65,43 @@ Feature work targets development; release promotion targets main. Main/developme
 ## Recovery exercise
 
 At a completed phase, freeze a checkpoint and evidence digest. A read-only fresh-context helper reconstructs the next action using these documents and GitHub without receiving the prior conversation. Compare its reconstruction with the recorded contract. A separate deterministic test rejects changed candidate digests and resumes an interrupted crawler without duplicate records. Identify replay/simulation versus actual interruption explicitly in the story.
+
+### Local crawler commands
+
+Use the project environment. `build` only stages a candidate; it never publishes.
+Choose a new lowercase run ID for a new discovery observation. Reusing a run ID
+resumes its pinned inputs, not current GitHub state.
+
+```powershell
+.venv/Scripts/python.exe -m tools.crawl build --run-id refresh-20260902
+.venv/Scripts/python.exe -m tools.crawl validate
+# Review staged source licenses/content and copy its full digest before publishing:
+.venv/Scripts/python.exe -m tools.crawl publish --expected-digest <reviewed-digest>
+```
+
+The recovery exercise requires the local raw caches from the original crawl;
+they are intentionally not committed. A fresh clone can run all fixture tests,
+or perform a new local build with its own GitHub CLI authorization. Do not claim
+that cached replay works without those inputs.
+
+```powershell
+# Expected injected exit after one durable source checkpoint:
+.venv/Scripts/python.exe -m tools.crawl build --run-id recovery-example --replay-published --interrupt-after 1
+# Resume and then repeat to verify idempotence:
+.venv/Scripts/python.exe -m tools.crawl build --run-id recovery-example --replay-published
+.venv/Scripts/python.exe -m tools.crawl build --run-id recovery-example --replay-published
+```
+
+Expected output for this snapshot: 3,037 resources and digest
+`6765f04bb900eaf6d868e070613d7800faf2d0bec5d5d0577a65d23dc894d5f3`.
+Published file SHA-256 is
+`25804156edbe403dfb684556e84445c345d1b8530cb119dc613b021fc748c90b` in
+the original Windows checkout; checkout line-ending conversion can change the
+file-byte hash without changing the canonical catalogue digest.
+
+If engine/checkpoint/raw-input identity changes, do not edit hashes to force
+acceptance: investigate, preserve evidence and use a new run ID after review.
+If `.agent-runs/crawler.lock` exists, inspect its recorded PID with `Get-Process`
+and confirm no crawler is active. Never delete an active/unknown lock. For a
+confirmed dead owner, move the exact lock file to a uniquely named incident file
+within `.agent-runs/`, then retry. No automatic stale-age unlock is implemented.
