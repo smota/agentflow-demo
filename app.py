@@ -134,7 +134,7 @@ elif state["view"] == "Sources":
 else:
     st.subheader("A small app. An observable delivery process.")
     st.write("Built with Agentflow: explicit role passes, advisory councils, review returns, tests and versioned releases. Crawling happens locally; this app only reads the published snapshot. Stakeholder personas are agent-simulated, not human sign-off.")
-    st.markdown("**The path so far:** pinned framework installation → architecture council → real-data preview → failed CI and repair → public v0.1.0 → UX council and refinement.")
+    st.markdown("**The delivery path:** pinned framework installation → architecture council → early public preview → failed CI and repair → UX refinement → interrupted-rebuild and fresh-context recovery → release council and versioned acceptance. Exact checks and publication receipts are linked below.")
     st.link_button("Follow the illustrated delivery story ↗", "https://github.com/smota/agentflow-demo/blob/main/docs/demo/story.md")
     st.link_button("Explore the GitHub workstream ↗", "https://github.com/smota/agentflow-demo/issues/1")
     st.link_button("Versions and releases ↗", "https://github.com/smota/agentflow-demo/releases")

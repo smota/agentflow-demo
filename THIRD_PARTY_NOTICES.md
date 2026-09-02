@@ -10,7 +10,7 @@ are recorded in agent-framework-lock.json; authored application files and
 project documentation are separate from that managed inventory.
 
 No upstream NOTICE file was present in the pinned release. Resource catalogue
-source attribution and licenses will be recorded with the catalogue; this
+source attribution and licenses are recorded with the catalogue; this
 framework notice does not license third-party linked resources.
 
 The preview includes catalogue extracts from sindresorhus/awesome,

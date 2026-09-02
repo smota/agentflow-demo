@@ -38,8 +38,15 @@ def matching_occurrences(item: dict, source: str, topic: str) -> list[dict]:
 
 
 def discover(resources: list[dict], state: dict) -> list[dict]:
-    found = [r for r in search(resources, state["q"])
-             if matching_occurrences(r, state["source"], state["topic"])]
+    found = []
+    for resource in resources:
+        for occurrence in matching_occurrences(resource, state["source"], state["topic"]):
+            # Match, display and sort the same source context, without mutating the catalogue.
+            view = {**resource, "title": occurrence["title"],
+                    "description": occurrence["description"], "occurrences": [occurrence]}
+            if search([view], state["q"]):
+                found.append(view)
+                break
     return sorted(found, key=lambda r: (r["title"].casefold(), r["url"]),
                   reverse=state["sort"] == "Title Z–A")
 

@@ -1,58 +1,60 @@
-# Issue #6: feat: make local refresh and delivery recovery reliable
+# Issue #7: qa: verify publication and the complete delivery story
 
 **Epic:** #1
 
 ## Background & Problem Statement
 
-Local refresh and unattended delivery must survive interruption without losing the
-last good catalogue or duplicating external actions.
+Completion requires both a usable public application and an honest, reproducible
+execution story. Current feature slices are complete; final release acceptance remains.
 
 ## Requirements
 
-Resumable local refresh, atomic publication, deterministic deduplication, pinned
-provenance validation and stale-candidate rejection. Fresh-context reconstruction
-from durable GitHub and checkout evidence; no heartbeat.
+Audit the goal matrix, run a bounded QA/operations/evidence release council, resolve
+blocking findings, finish illustrated documentation and rollback instructions,
+publish a release candidate then stable release, and verify public identity.
 
 ## Technical Design
 
-A single-writer project-local lock and checksummed run checkpoint retain discovery,
-pinned revisions and completed source results. Resume validates engine/input
-identity and raw hashes. Deterministic fault injection and cached published-input
-replay exercise the same processing loop without changing the live snapshot.
+Keep the validated catalogue and dependency lock unchanged. Create a tagged
+1.0.0-rc.1 candidate on the feature branch after tests/review/CI; do not merge
+that candidate as stable. The readiness gate returns to implementation for the
+stable version/notes, reruns checks, then promotes through development to main.
 
 ## Acceptance criteria
 
 ### Feature-specific
 
-- [ ] AC-1 (BR-1): Interrupted refresh resumes without duplicates; errors preserve last-good catalogue.
-- [ ] AC-2 (BR-2): Changed candidate/input or engine identity invalidates stale acceptance/resume.
-- [ ] AC-3 (BR-3): Fresh-context read-only helper reconstructs branch, issue, commit, findings and next action without conversation history.
-- [ ] AC-4 (BR-4): Concurrent writers fail closed and retry/recovery boundaries are documented.
+- [ ] AC-1 (BR-1): Every goal matrix item maps to concrete current evidence.
+- [ ] AC-2 (BR-2): Release council objections are resolved or explicitly deferred as follow-up issues.
+- [ ] AC-3 (BR-3): Illustrated story and install/run/refresh/recovery/rollback instructions are accurate.
+- [ ] AC-4 (BR-4): Candidate and stable releases exist; final main commit, catalogue and public app agree.
+- [ ] AC-5 (BR-5): Goal issues have verified closeout; local tracked worktree is clean.
 
 ### Standard compliance
 
-- [ ] Real versus injected interruption is identified explicitly with commands and results.
-- [ ] v0.3.0 release and public version verified.
+- [ ] Full workflow, unit, AppTest, catalogue and public browser checks pass.
+- [ ] Simulated stakeholders and untested limitations remain explicit; no heartbeat.
 
 ## Business logic
 
-- **BR-1 (rule):** Partial work never replaces published data; completed source checkpoints are replay-safe.
-- **BR-2 (rule):** Publication requires the exact reviewed digest; resume requires unchanged pinned input and engine identity.
-- **BR-3 (rule):** GitHub workflow evidence outranks local scratch; recovery must inspect actual checkout/remote state before action.
-- **BR-4 (rule):** Only one crawler writer; transient requests retry at most three times, authorization/rate limits do not blindly retry.
+- **BR-1 (rule):** Planned or historical checks do not establish current final acceptance.
+- **BR-2 (rule):** Councils advise; standard-profile self-review stays explicit and no human gate is fabricated.
+- **BR-3 (rule):** Documentation describes supported project-local commands, evidence and rollback boundaries.
+- **BR-4 (rule):** Publication identity requires separate tag, release, commit and actual hosted UI checks.
+- **BR-5 (rule):** Closeout follows verified publication, preserving unrelated work and all user folder constraints.
 
 ## Test plan
 
-Interrupted real cached-input replay, malformed/corrupt checkpoint and raw input,
-stale digest, duplicate source processing, exclusive lock and retry regressions.
-Fresh-context reconstruction from GitHub and committed documents only.
+Full automated suite and validators; actual browser search/filter/share/source/story,
+keyboard and responsive checks. Review release/tag refs, immutable catalogue digest
+and public version with local server stopped. Verify clean tracked checkout.
 
 ## Workflow classification
 
 - **Profile:** standard
 - **Risk:** medium
 - **Effort:** medium
-- **Change surfaces:** data, tooling, docs
+- **Change surfaces:** UI, docs, release
 
 ## Open questions
 

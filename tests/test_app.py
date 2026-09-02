@@ -1,5 +1,6 @@
 import socket
 import json
+from urllib.parse import parse_qs, urlsplit
 from pathlib import Path
 from streamlit.testing.v1 import AppTest
 
@@ -62,3 +63,23 @@ def test_ambiguous_query_parameters():
     assert not app.exception
     assert app.text_input(key="query").value == ""
     assert app.selectbox(key="source").value == "All sources"
+
+
+def test_generated_share_reopens_complete_context():
+    path = Path(__file__).resolve().parents[1] / "app.py"
+    app = AppTest.from_file(path, default_timeout=20)
+    app.query_params.update({"q": "a", "source": "sindresorhus/awesome-nodejs",
+                             "topic": "Command-line apps", "sort": "Title Z–A", "page": "2"})
+    app.run()
+    assert not app.exception
+    assert any("Page 2 of 2" in c.value for c in app.caption)
+    expected = app.session_state.discovery.copy()
+    next(b for b in app.button if b.label == "Share this search").click().run()
+    params = {k: v[0] for k, v in parse_qs(urlsplit(app.code[0].value).query).items()}
+    reopened = AppTest.from_file(path, default_timeout=20)
+    reopened.query_params.update(params)
+    reopened.run()
+    assert not reopened.exception
+    assert reopened.session_state.discovery == expected
+    assert reopened.text_input(key="query").value == "a"
+    assert reopened.selectbox(key="topic").value == "Command-line apps"
