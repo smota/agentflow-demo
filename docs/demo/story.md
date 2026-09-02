@@ -92,8 +92,26 @@ including offline AppTest, URL normalization, reset, view persistence and page
 bounds. Real browser checks at 320 and 390 pixels found no horizontal overflow;
 keyboard Enter applied search and Tab reached the native filter disclosure.
 
+The [v0.2.0 release](https://github.com/smota/agentflow-demo/releases/tag/v0.2.0)
+and hosted mobile layout were subsequently verified at main commit
+`9a62a713f45c6f3701211e421591fba1626952b9`, with the unchanged catalogue digest.
+
+## 8. Stop, reconstruct, resume
+
+The [recovery exercise](recovery-results.md) deliberately exited the local
+crawler after its first saved source. Resume verified that source and completed
+the remaining two; repeated replay produced the same 3,037 resources and digest.
+Published bytes never changed. After a code refinement, the older checkpoint
+was correctly rejected for engine mismatch; a new named run passed again.
+
+Next, the parent froze changes and gave a fresh-context read-only Codex helper
+only the repository location and recovery instructions. Without conversation or
+scratch, it recovered the exact issue, branch, commit, findings and next action
+from committed files and GitHub. All five matched. The parent then resumed and
+reran 67 tests. This demonstrates recoverable workflow evidence—not an OS crash,
+human review, or cross-platform role alternation.
+
 ## Evidence still to come
 
-Recovery exercise, release council and final acceptance remain pending. The
-v0.2 public deployment is verified separately after promotion, not inferred from
-these local screenshots.
+Release council and final acceptance remain pending. v0.3.0 public acceptance is
+recorded separately after its protected promotion and release.
