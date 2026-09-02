@@ -2,7 +2,17 @@
 
 A resource library built from publicly discovered Awesome lists with **50,000+ observed GitHub stars**. Crawling and processing run locally; the public Streamlit app serves a versioned, read-only catalogue.
 
-**Status:** v0.1.0 preview prepared locally; public deployment verification pending.
+[Open the live application](https://awesomeawesomeness.streamlit.app/) ·
+[Releases](https://github.com/smota/agentflow-demo/releases) ·
+[Acceptance evidence](docs/demo/acceptance.md)
+
+The public app is deployed independently of this computer. The current checkout
+version is in package.json; the running version and catalogue digest appear in
+the app footer. Release closeout is recorded in the linked GitHub workstream.
+
+![AwesomeAwesomeness desktop discovery](docs/demo/images/v0.2-desktop.png)
+
+Actual v0.2 browser screenshot; later release checks are recorded separately.
 
 - [Approved goal and acceptance matrix](docs/demo/goal.md)
 - [Delivery story](docs/demo/story.md)
@@ -21,22 +31,35 @@ npm run check:workflow
 
 ## Run the app
 
-Use Python 3.11 in a project-local environment:
+Use Python 3.11 in a project-local environment. From this repository in PowerShell:
 
-```sh
+```powershell
+$demoRoot = (Get-Location).Path
+New-Item -ItemType Directory -Force .cache/tmp, .cache/pip | Out-Null
+$env:TEMP = Join-Path $demoRoot '.cache/tmp'
+$env:TMP = $env:TEMP
+$env:PIP_CACHE_DIR = Join-Path $demoRoot '.cache/pip'
+$env:PYTHONDONTWRITEBYTECODE = '1'
 python -m venv .venv
-# Windows: .venv/Scripts/python.exe; POSIX: .venv/bin/python
 .venv/Scripts/python.exe -m pip install -r requirements.txt
-.venv/Scripts/python.exe -m streamlit run app.py
+.venv/Scripts/python.exe -m streamlit run app.py --server.address=127.0.0.1
 ```
 
-For tests/local ingestion, install requirements-dev.txt instead. The crawler is
+For tests/local ingestion, use the same cache environment and install the locked
+development dependencies instead:
+
+```powershell
+.venv/Scripts/python.exe -m pip install -r requirements-dev.txt
+```
+
+On POSIX, use `.venv/bin/python` and equivalent project-local environment variables.
+The crawler is
 never imported by the hosted entrypoint. No API key or model is needed.
 
 ```sh
 .venv/Scripts/python.exe -m pytest -q --basetemp=.cache/pytest
 .venv/Scripts/python.exe -m tools.crawl validate
-.venv/Scripts/python.exe -m tools.crawl build
+.venv/Scripts/python.exe -m tools.crawl build --run-id refresh-20260902
 # Review data/staging/catalogue.json and pinned raw/license evidence first.
 .venv/Scripts/python.exe -m tools.crawl publish --expected-digest <reviewed-digest>
 ```

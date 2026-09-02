@@ -103,3 +103,12 @@ def test_stale_publication_preserves_last_good(tmp_path, monkeypatch):
     with pytest.raises(ValueError, match="Stale acceptance"):
         publish("not-the-reviewed-digest")
     assert published.read_text() == "last-good"
+
+
+@pytest.mark.parametrize("field", ["title", "description", "category"])
+def test_occurrence_text_shape(field):
+    data = load_catalogue(Path("data/catalogue.json"))
+    data["resources"][0]["occurrences"][0][field] = None
+    data["digest"] = digest({k: v for k, v in data.items() if k != "digest"})
+    with pytest.raises(ValueError, match="occurrence text"):
+        validate_catalogue(data)

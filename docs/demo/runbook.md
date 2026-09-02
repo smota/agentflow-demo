@@ -27,10 +27,12 @@ From the demo root in PowerShell, restore the ignored source only if absent:
 
 ```powershell
 $demoRoot = (Get-Location).Path
-New-Item -ItemType Directory -Force .cache/tmp, .cache/npm, .tooling | Out-Null
+New-Item -ItemType Directory -Force .cache/tmp, .cache/npm, .cache/pip, .tooling | Out-Null
 $env:TEMP = Join-Path $demoRoot '.cache/tmp'
 $env:TMP = $env:TEMP
 $env:npm_config_cache = Join-Path $demoRoot '.cache/npm'
+$env:PIP_CACHE_DIR = Join-Path $demoRoot '.cache/pip'
+$env:PYTHONDONTWRITEBYTECODE = '1'
 if (!(Test-Path .tooling/agentflow)) {
   git clone --branch v1.0.0 --depth 1 https://github.com/smota/agentflow-sdlc.git .tooling/agentflow
   if ($LASTEXITCODE) { throw 'Framework clone failed' }
@@ -50,6 +52,23 @@ $demoNode = mise which node
 
 Runtime discovery is workstation-specific; package.json and CI use the portable npm script. Caches remain ignored. No `init` is needed on a fresh clone: managed files and lock are already committed.
 
+For Python 3.11, after the project-local cache variables above are set:
+
+```powershell
+python -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements-dev.txt
+.venv/Scripts/python.exe -m pip check
+.venv/Scripts/python.exe -m streamlit run app.py --server.address=127.0.0.1
+```
+
+Use requirements.txt instead for the hosted/runtime-only dependency set. Do not
+install globally. This workstation used its existing Python 3.11 runtime and
+project-local uv cache to create/sync the same locked environment.
+
+After changing imported Python modules, restart the local Streamlit process before
+final browser acceptance. Hot reload and an updated version footer alone do not
+prove every imported helper is fresh; verify the changed behavior explicitly.
+
 ## Checkpoint policy
 
 Record current issue/role, branch/commit, last accepted action, input/output digests, relevant test evidence, open rework, remote object IDs and next safe action after every role and before/after external mutations. Commit coherent issue-scoped increments. The checkpoint is a recovery aid, not authority or evidence that tests passed.
@@ -61,6 +80,40 @@ Use bounded network timeouts and at most three retries with backoff for transien
 ## Release policy
 
 Feature work targets development; release promotion targets main. Main/development are not implementation workspaces. Check PR body, CI, merge commit, issue closure, tag, GitHub release and running Streamlit version separately. Keep last-good code/data available. Do not claim production acceptance from local green tests alone.
+
+### Guarded rollback procedure (documented, not executed)
+
+Open an incident issue and record the bad promotion commit and desired known-good
+tag. Preserve any dirty work before branching. Inspect first:
+
+```powershell
+git status --short
+git fetch origin --tags
+git show --no-patch --format=fuller <known-good-tag>
+git rev-list -n 1 <known-good-tag>
+gh release view <known-good-tag> --json tagName,targetCommitish,isDraft,isPrerelease
+git diff --stat <known-good-tag> origin/main
+```
+
+Verify the release/tag target and desired package/dependency/catalogue contents.
+Do not reset or force-push protected branches. With a clean worktree, create an
+incident-scoped work branch from origin/main and revert the exact bad promotion
+merge after inspecting its parents:
+
+```powershell
+git switch -c work/rollback-<incident> origin/main
+git show --no-patch --format=%P <bad-promotion-merge>
+git revert -m 1 <bad-promotion-merge>
+```
+
+The `-m 1` example is only for a verified main promotion merge whose first parent
+is the prior main. For another history shape, plan the exact revert; do not copy
+this command blindly. Inspect the resulting app, locks and data against the
+known-good tree, assign a new patch version, run all checks and open a full
+incident PR into development. Promote through a reviewed main PR with required
+checks, publish a new release, then verify hosted search/version/digest independently.
+Never move existing tags, publish a partial catalogue or infer recovery from CI
+alone. Record both the incident and hosted recovery receipts.
 
 ## Recovery exercise
 

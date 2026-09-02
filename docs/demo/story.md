@@ -111,7 +111,42 @@ from committed files and GitHub. All five matched. The parent then resumed and
 reran 67 tests. This demonstrates recoverable workflow evidence—not an OS crash,
 human review, or cross-platform role alternation.
 
-## Evidence still to come
+The [v0.3.0 release](https://github.com/smota/agentflow-demo/releases/tag/v0.3.0)
+was verified against main commit `ac4a81cb07e23cc6e60f0f2f737c7d7bce051a77`
+and the actual public footer, independently of the local recovery exercise.
 
-Release council and final acceptance remain pending. v0.3.0 public acceptance is
-recorded separately after its protected promotion and release.
+## 9. The final council still finds something real
+
+Three fresh-context read-only [release advisors](release-council.md) covered QA,
+operations and evidence integrity. One found a concrete mismatch: crates.io's
+Registries occurrence was called Crates, but the UI still used the canonical
+Cargo title from another section. A committed regression failed on Cargo, then
+passed after matching, displaying and sorting one coherent occurrence. The
+catalogue bytes did not need to change.
+
+Operations caught a documentation gap: pip's cache was not explicitly contained
+by the installation commands. QA required complete share/provenance and keyboard
+journeys, not only screenshot inspection. Those became [exploratory checks](exploratory-qa.md),
+an automated generated-link roundtrip and guarded [run/rollback instructions](runbook.md).
+The suite now has 72 tests. Stakeholders remain explicitly simulated; these are
+actual advisory contexts, not fabricated human approvals.
+
+A final browser check exposed stale local runtime behavior while fresh-process
+tests passed. Review withdrew a premature browser-pass summary and returned the
+work. Restarting the server, without another code change, made the exact Crates
+query pass. The [QA record](exploratory-qa.md) retains both observations. An updated
+version footer alone is not proof that every imported module is fresh.
+
+## Follow the evidence
+
+| Cycle | Work and publication |
+| --- | --- |
+| Foundation | [Issue #2](https://github.com/smota/agentflow-demo/issues/2), [PR #3](https://github.com/smota/agentflow-demo/pull/3), review return and repaired setup |
+| Early preview | [Issue #4](https://github.com/smota/agentflow-demo/issues/4), [PR #8](https://github.com/smota/agentflow-demo/pull/8), [v0.1.0](https://github.com/smota/agentflow-demo/releases/tag/v0.1.0) |
+| UX | [Issue #5](https://github.com/smota/agentflow-demo/issues/5), [PR #10](https://github.com/smota/agentflow-demo/pull/10), [v0.2.0](https://github.com/smota/agentflow-demo/releases/tag/v0.2.0) |
+| Recovery | [Issue #6](https://github.com/smota/agentflow-demo/issues/6), [PR #12](https://github.com/smota/agentflow-demo/pull/12), [v0.3.0](https://github.com/smota/agentflow-demo/releases/tag/v0.3.0) |
+| Acceptance | [Issue #7](https://github.com/smota/agentflow-demo/issues/7), [acceptance matrix](acceptance.md), candidate/stable receipts follow verification |
+
+Final publication is not inferred from this narrative. The final issue and
+GitHub release retain exact commit/tag/data/hosted checks after they execute.
+No heartbeat or operating-system scheduler was installed.

@@ -100,6 +100,10 @@ def validate_catalogue(data: dict) -> None:
         for occurrence in item["occurrences"]:
             if occurrence["source"] not in sources or occurrence.get("line", 0) < 1:
                 raise ValueError("Invalid occurrence provenance")
+            if (not occurrence.get("title") or
+                    any(not isinstance(occurrence.get(field), str)
+                        for field in ("title", "description", "category"))):
+                raise ValueError("Invalid occurrence text")
     if len(json.dumps(data, ensure_ascii=False).encode()) > MAX_BYTES:
         raise ValueError("Catalogue byte budget exceeded")
 
