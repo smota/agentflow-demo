@@ -1,4 +1,6 @@
 from urllib.parse import parse_qs, urlsplit
+from pathlib import Path
+from awesome.catalogue import load_catalogue
 import pytest
 from awesome.navigation import DEFAULTS, discover, matching_occurrences, normalize, page_slice, share_url
 
@@ -26,9 +28,19 @@ def test_normalization_and_round_trip():
 
 def test_same_occurrence_and_deterministic_sort():
     item = {"title": "a", "url": "https://a.example/", "description": "", "occurrences":
-            [{"source": "A", "category": "X"}, {"source": "B", "category": "Y"}]}
+            [{"source": "A", "category": "X", "title": "a", "description": ""},
+             {"source": "B", "category": "Y", "title": "a", "description": ""}]}
     assert not discover([item], {**DEFAULTS, "source": "A", "topic": "Y"})
     assert matching_occurrences(item, "B", "Y") == [item["occurrences"][1]]
-    other = {**item, "title": "A", "url": "https://b.example/"}
-    assert discover([other, item], DEFAULTS) == [item, other]
-    assert discover([item, other], {**DEFAULTS, "sort": "Title Z–A"}) == [other, item]
+    other = {**item, "url": "https://b.example/"}
+    assert [r["url"] for r in discover([other, item], DEFAULTS)] == [item["url"], other["url"]]
+    assert [r["url"] for r in discover([item, other], {**DEFAULTS, "sort": "Title Z–A"})] == [other["url"], item["url"]]
+
+
+def test_real_corpus_uses_filtered_occurrence_text_and_search():
+    data = load_catalogue(Path(__file__).resolve().parents[1] / "data/catalogue.json")
+    state = {**DEFAULTS, "source": "rust-unofficial/awesome-rust", "topic": "Registries"}
+    result = next(r for r in discover(data["resources"], state) if r["url"] == "https://crates.io/")
+    assert result["title"] == "Crates"
+    assert result["description"] == "The official public registry for Rust/Cargo."
+    assert discover([result], {**state, "q": "official public registry"})
