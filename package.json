@@ -1,0 +1,9 @@
+{
+  "name": "awesomeawesomeness",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:workflow": "node scripts/validate-spec.mjs && node scripts/validate-sdlc-config.mjs && node scripts/validate-branch-strategy.mjs && node scripts/validate-role-routing.mjs && node scripts/validate-extension-packs.mjs --allow-empty"
+  }
+}
