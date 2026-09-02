@@ -58,7 +58,42 @@ exist on a fresh checkout. PR readiness returned to implementation rather than
 waiving the failure. The test harness now creates its contained parent and refuses
 temporary paths outside the project's cache. This is a real failure/rework path.
 
+## 6. Publish early—and verify the setting, not the click
+
+[v0.1.0](https://github.com/smota/agentflow-demo/releases/tag/v0.1.0) is live at
+[AwesomeAwesomeness](https://awesomeawesomeness.streamlit.app/). The deployment
+form defaulted to Python 3.14. An initial semantic selection did not persist;
+the action guard stopped deployment. Inspection of the visible menu, followed by
+reopening the saved settings, confirmed Python 3.11 before submission. No guard
+was bypassed. The deployed app independently showed the expected version and
+catalogue digest, 105 terminal matches and the empty state. It still served 546
+rust matches after the local server was stopped.
+
+## 7. A council changes the experience
+
+The [UX council](ux-decisions.md) used two fresh-context read-only Codex advisors,
+simulating designer and UX/QA stakeholders—not actual human reviewers. The real
+mobile baseline exposed overlapping host controls and search below the first
+screen. Code inspection also found column-major keyboard order and misleading
+first-occurrence metadata. These findings became implementation and regression
+tests, not cosmetic approval.
+
+The refined layout uses a compact hero, inline statistics, native expandable
+filters and one row-ordered semantic grid. Source and topic must match the same
+occurrence. Sharing is deliberate: a warning explains that query text goes into
+the link. No automatic secret-detection claim is made.
+
+![Refined desktop discovery](images/v0.2-desktop.png)
+
+![Refined mobile discovery at 390 pixels](images/v0.2-mobile.png)
+
+These are actual local v0.2 candidate screenshots. Forty-eight tests pass,
+including offline AppTest, URL normalization, reset, view persistence and page
+bounds. Real browser checks at 320 and 390 pixels found no horizontal overflow;
+keyboard Enter applied search and Tab reached the native filter disclosure.
+
 ## Evidence still to come
 
-Early public deployment, UX council/refinement, broader exploratory testing,
-interruption recovery, release council and final publication remain pending.
+Recovery exercise, release council and final acceptance remain pending. The
+v0.2 public deployment is verified separately after promotion, not inferred from
+these local screenshots.
