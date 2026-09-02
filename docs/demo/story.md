@@ -50,6 +50,14 @@ separately verified 105 terminal-search results and the empty state.
 This screenshot is actual local execution, not a mockup or proof of public hosting.
 The first UI intentionally leaves density, filters and shareable journeys for #5.
 
+## 5. CI found what the warm workspace hid
+
+The first Linux [preview CI run](https://github.com/smota/agentflow-demo/actions/runs/33677222773)
+passed 30 tests but failed one fixture: the configured test-temp parent did not
+exist on a fresh checkout. PR readiness returned to implementation rather than
+waiving the failure. The test harness now creates its contained parent and refuses
+temporary paths outside the project's cache. This is a real failure/rework path.
+
 ## Evidence still to come
 
 Early public deployment, UX council/refinement, broader exploratory testing,
