@@ -1,50 +1,58 @@
-# Issue #5: feat: refine the discovery experience through UX review
+# Issue #6: feat: make local refresh and delivery recovery reliable
 
 **Epic:** #1
 
 ## Background & Problem Statement
 
-The initial preview needs an editorial, accessible discovery experience rather than an undifferentiated list.
+Local refresh and unattended delivery must survive interruption without losing the
+last good catalogue or duplicating external actions.
 
 ## Requirements
 
-Search, topic/source filters, sort, pagination, shareable queries, source details, freshness and delivery-story navigation. Desktop and narrow-screen visual review by a bounded UX council.
+Resumable local refresh, atomic publication, deterministic deduplication, pinned
+provenance validation and stale-candidate rejection. Fresh-context reconstruction
+from durable GitHub and checkout evidence; no heartbeat.
 
 ## Technical Design
 
-Streamlit-native controls with restrained project CSS, warm paper/ink/teal palette, resource cards, clear provenance and empty/reset states. Preserve text escaping and read-only runtime.
+A single-writer project-local lock and checksummed run checkpoint retain discovery,
+pinned revisions and completed source results. Resume validates engine/input
+identity and raw hashes. Deterministic fault injection and cached published-input
+replay exercise the same processing loop without changing the live snapshot.
 
 ## Acceptance criteria
 
 ### Feature-specific
 
-- [ ] AC-1 (BR-1): Search, topic/source filters and sort return correct records and usable reset/empty states.
-- [ ] AC-2 (BR-2): Query parameters preserve searches and source selection across a new browser session; invalid parameters are safe.
-- [ ] AC-3 (BR-3): Desktop and narrow layouts expose results and keyboard-usable controls without horizontal overflow.
-- [ ] AC-4 (BR-4): Source detail and story views expose provenance, limits and verified delivery evidence.
+- [ ] AC-1 (BR-1): Interrupted refresh resumes without duplicates; errors preserve last-good catalogue.
+- [ ] AC-2 (BR-2): Changed candidate/input or engine identity invalidates stale acceptance/resume.
+- [ ] AC-3 (BR-3): Fresh-context read-only helper reconstructs branch, issue, commit, findings and next action without conversation history.
+- [ ] AC-4 (BR-4): Concurrent writers fail closed and retry/recovery boundaries are documented.
 
 ### Standard compliance
 
-- [ ] UX council findings have explicit dispositions and screenshots.
-- [ ] v0.2.0 release/deployment version verified.
+- [ ] Real versus injected interruption is identified explicitly with commands and results.
+- [ ] v0.3.0 release and public version verified.
 
 ## Business logic
 
-- **BR-1 (rule):** Discovery combines literal search, topic and source filters with explicit sort and pagination.
-- **BR-2 (rule):** Shareable URLs encode only validated public search state, never secrets or personal data.
-- **BR-3 (rule):** Layout must remain usable on desktop and narrow screens, with accessible labels and visible focus.
-- **BR-4 (rule):** Source and delivery evidence must be accessible without implying endorsement or live crawling.
+- **BR-1 (rule):** Partial work never replaces published data; completed source checkpoints are replay-safe.
+- **BR-2 (rule):** Publication requires the exact reviewed digest; resume requires unchanged pinned input and engine identity.
+- **BR-3 (rule):** GitHub workflow evidence outranks local scratch; recovery must inspect actual checkout/remote state before action.
+- **BR-4 (rule):** Only one crawler writer; transient requests retry at most three times, authorization/rate limits do not blindly retry.
 
 ## Test plan
 
-AppTest filters, sorting, pagination, reset, query parameters and source pages. Browser keyboard and narrow layout exploration, visual inspection and regression tests for findings.
+Interrupted real cached-input replay, malformed/corrupt checkpoint and raw input,
+stale digest, duplicate source processing, exclusive lock and retry regressions.
+Fresh-context reconstruction from GitHub and committed documents only.
 
 ## Workflow classification
 
 - **Profile:** standard
 - **Risk:** medium
 - **Effort:** medium
-- **Change surfaces:** UI, docs
+- **Change surfaces:** data, tooling, docs
 
 ## Open questions
 

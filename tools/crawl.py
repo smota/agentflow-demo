@@ -6,8 +6,10 @@ import base64
 import hashlib
 import json
 import os
+import re
 import subprocess
 import time
+from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -35,7 +37,10 @@ def now() -> str:
 def atomic_json(path: Path, data: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(".tmp")
-    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    with temporary.open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+        handle.flush()
+        os.fsync(handle.fileno())
     os.replace(temporary, path)
 
 
@@ -149,22 +154,76 @@ def merge_records(records: list[dict]) -> list[dict]:
     return sorted(merged.values(), key=lambda x: (x["title"].casefold(), x["url"]))
 
 
-def build() -> dict:
-    candidates, runs = discover()
-    sources, records = [], []
-    for candidate in candidates:
-        if candidate["decision"] != "selected":
-            continue
-        if not qualifies(candidate):
-            raise ValueError("Selected source below threshold or not public/list")
-        repo = candidate["id"]
-        revision = github(f"repos/{repo}/commits/{quote(candidate['default_branch'], safe='')}")["sha"]
+@contextmanager
+def writer_lock():
+    path = ROOT / ".agent-runs/crawler.lock"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        handle = path.open("x", encoding="utf-8")
+    except FileExistsError:
+        raise RuntimeError("Crawler writer lock exists; inspect its owner before recovery") from None
+    try:
+        with handle:
+            json.dump({"pid": os.getpid(), "started_at": now()}, handle)
+            handle.flush()
+            os.fsync(handle.fileno())
+        yield
+    finally:
+        path.unlink()
+
+
+def engine_digest() -> str:
+    code_root = Path(__file__).resolve().parents[1]
+    return hashlib.sha256(Path(__file__).read_bytes() +
+                          (code_root / "awesome/catalogue.py").read_bytes()).hexdigest()
+
+
+def raw_directory(repo: str, revision: str) -> Path:
+    if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repo) or not re.fullmatch(r"[0-9a-f]{40}", revision):
+        raise ValueError("Invalid pinned source identity")
+    return ROOT / "data/raw" / repo.replace("/", "--") / revision
+
+
+def verified_raw(source: dict) -> bytes:
+    cache = raw_directory(source["id"], source["revision"])
+    raw = (cache / "README.md").read_bytes()
+    license_raw = (cache / "LICENSE.txt").read_bytes()
+    if (len(raw) > MAX_README or hashlib.sha256(raw).hexdigest() != source["readme_sha256"]
+            or hashlib.sha256(license_raw).hexdigest() != source["license_sha256"]):
+        raise ValueError("Pinned raw input changed; resume rejected")
+    return raw
+
+
+def checkpoint_save(path: Path, state: dict) -> None:
+    atomic_json(path, {**state, "checkpoint_digest": digest(state)})
+
+
+def checkpoint_load(path: Path) -> dict:
+    if path.stat().st_size > 32 * 1024 * 1024:
+        raise ValueError("Checkpoint exceeds budget")
+    state = json.loads(path.read_text(encoding="utf-8"))
+    checksum = state.pop("checkpoint_digest", None)
+    if checksum != digest(state) or state.get("engine_digest") != engine_digest():
+        raise ValueError("Checkpoint or engine changed; start a new reviewed run")
+    return state
+
+
+def source_records(candidate: dict, revision: str, replay_source: dict | None = None) -> tuple[dict, list[dict]]:
+    if not qualifies(candidate):
+        raise ValueError("Selected source below threshold or not public/list")
+    repo = candidate["id"]
+    if replay_source:
+        source = dict(replay_source)
+        raw = verified_raw(source)
+    else:
         readme = github(f"repos/{repo}/readme?ref={revision}")
         license_data = github(f"repos/{repo}/license?ref={revision}")
         if readme["size"] > MAX_README:
             raise ValueError("README exceeds budget")
-        raw = base64.b64decode(readme["content"])
-        license_raw = base64.b64decode(license_data["content"])
+        raw = base64.b64decode(readme["content"], validate=False)
+        license_raw = base64.b64decode(license_data["content"], validate=False)
+        if len(raw) > MAX_README or len(license_raw) > MAX_README:
+            raise ValueError("Source byte budget exceeded")
         license_text = license_raw.decode("utf-8")
         if license_data["license"]["spdx_id"] != "CC0-1.0" or "CC0 1.0 Universal" not in license_text:
             raise ValueError("License outside reviewed CC0 policy")
@@ -172,42 +231,103 @@ def build() -> dict:
                   "readme_path": readme["path"], "readme_sha256": hashlib.sha256(raw).hexdigest(),
                   "license": "CC0-1.0", "license_path": license_data["path"],
                   "license_text": license_text, "license_sha256": hashlib.sha256(license_raw).hexdigest()}
-        extracted = extract(raw.decode("utf-8"), repo)
-        if not extracted:
-            raise ValueError(f"No supported records in {repo}")
-        source["extracted_occurrences"] = len(extracted)
-        sources.append(source)
-        records.extend(extracted)
-        cache = ROOT / "data/raw" / repo.replace("/", "--") / revision
+        cache = raw_directory(repo, revision)
         cache.mkdir(parents=True, exist_ok=True)
         (cache / "README.md").write_bytes(raw)
         (cache / "LICENSE.txt").write_bytes(license_raw)
-        print(f"{repo}: {len(extracted)} occurrences, {candidate['stars']} stars, revision {revision}")
-    data = {"format_version": 1, "generated_at": now(), "discovery": runs, "candidates": candidates,
-            "coverage": "Three reviewed CC0 lists; primary Markdown list-item links only. Not exhaustive.",
-            "sources": sources, "resources": merge_records(records)}
-    data["digest"] = digest(data)
-    validate_catalogue(data)
-    atomic_json(STAGING, data)
-    return data
+    extracted = extract(raw.decode("utf-8"), repo)
+    if not extracted:
+        raise ValueError(f"No supported records in {repo}")
+    source["extracted_occurrences"] = len(extracted)
+    return source, extracted
+
+
+def build(run_id: str = "refresh", replay_published: bool = False, interrupt_after: int | None = None) -> dict:
+    if not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,63}", run_id):
+        raise ValueError("Run ID must be 1–64 lowercase letters, digits or hyphens")
+    if interrupt_after is not None and interrupt_after < 1:
+        raise ValueError("Interruption boundary must be positive")
+    with writer_lock():
+        path = ROOT / ".agent-runs/crawl" / run_id / "checkpoint.json"
+        if path.exists():
+            state = checkpoint_load(path)
+            if state["replay_published"] != replay_published:
+                raise ValueError("Run mode changed; use a new run ID")
+            if replay_published:
+                accepted = json.loads(PUBLISHED.read_text(encoding="utf-8"))
+                validate_catalogue(accepted)
+                if accepted["digest"] != state["accepted_digest"]:
+                    raise ValueError("Accepted replay input changed")
+        else:
+            if replay_published:
+                accepted = json.loads(PUBLISHED.read_text(encoding="utf-8"))
+                validate_catalogue(accepted)
+                candidates, runs = accepted["candidates"], accepted["discovery"]
+                revisions = {s["id"]: s["revision"] for s in accepted["sources"]}
+            else:
+                candidates, runs = discover()
+                selected = [c for c in candidates if c["decision"] == "selected"]
+                if not selected or any(not qualifies(c) for c in selected):
+                    raise ValueError("Selected source below threshold or not public/list")
+                revisions = {c["id"]: github(f"repos/{c['id']}/commits/{quote(c['default_branch'], safe='')}")["sha"]
+                             for c in selected}
+            state = {"schema_version": 1, "engine_digest": engine_digest(), "replay_published": replay_published,
+                     "accepted_digest": accepted["digest"] if replay_published else None,
+                     "generated_at": accepted["generated_at"] if replay_published else now(),
+                     "candidates": candidates, "discovery": runs, "revisions": revisions, "completed": {},
+                     "replay_sources": {s["id"]: s for s in accepted["sources"]} if replay_published else {}}
+            checkpoint_save(path, state)
+        sources, records = [], []
+        processed = 0
+        for candidate in state["candidates"]:
+            if candidate["decision"] != "selected":
+                continue
+            repo = candidate["id"]
+            if repo in state["completed"]:
+                completed = state["completed"][repo]
+                verified_raw(completed["source"])
+                print(f"Resume: verified completed source {repo}")
+            else:
+                source, extracted = source_records(candidate, state["revisions"][repo], state["replay_sources"].get(repo))
+                completed = {"source": source, "records": extracted}
+                state["completed"][repo] = completed
+                checkpoint_save(path, state)
+                processed += 1
+                print(f"Checkpoint: {repo}, {len(extracted)} occurrences")
+                if interrupt_after is not None and processed >= interrupt_after:
+                    raise InterruptedError("Injected interruption after durable source checkpoint; published catalogue untouched")
+            sources.append(completed["source"])
+            records.extend(completed["records"])
+        data = {"format_version": 1, "generated_at": state["generated_at"], "discovery": state["discovery"],
+                "candidates": state["candidates"],
+                "coverage": "Three reviewed CC0 lists; primary Markdown list-item links only. Not exhaustive.",
+                "sources": sources, "resources": merge_records(records)}
+        data["digest"] = digest(data)
+        validate_catalogue(data)
+        atomic_json(STAGING, data)
+        return data
 
 
 def publish(expected: str) -> dict:
-    data = json.loads(STAGING.read_text(encoding="utf-8"))
-    validate_catalogue(data)
-    if data["digest"] != expected:
-        raise ValueError("Stale acceptance: reviewed candidate digest has changed")
-    atomic_json(PUBLISHED, data)
-    return data
+    with writer_lock():
+        data = json.loads(STAGING.read_text(encoding="utf-8"))
+        validate_catalogue(data)
+        if data["digest"] != expected:
+            raise ValueError("Stale acceptance: reviewed candidate digest has changed")
+        atomic_json(PUBLISHED, data)
+        return data
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=["build", "publish", "validate"])
     parser.add_argument("--expected-digest")
+    parser.add_argument("--run-id", default="refresh")
+    parser.add_argument("--replay-published", action="store_true")
+    parser.add_argument("--interrupt-after", type=int)
     args = parser.parse_args()
     if args.command == "build":
-        result = build()
+        result = build(args.run_id, args.replay_published, args.interrupt_after)
     elif args.command == "publish":
         if not args.expected_digest:
             parser.error("publish requires --expected-digest after content/license review")
