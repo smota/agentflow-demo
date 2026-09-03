@@ -18,13 +18,15 @@ and bounded for Streamlit Community Cloud. Derive everything from the loaded ind
 
 ## Business logic
 
-- **BR-1:** Dashboard denominators and unknown counts are explicit; no historical trend is inferred.
-- **BR-2:** Comparison accepts at most four current eligible lists and preserves metric units/observation meaning.
-- **BR-3:** Dashboard filters and comparison selections normalize safely, survive share/reopen and reset predictably.
-- **BR-4:** Aggregate rendering uses the index only; detail shards remain lazy and no hosted network/AI processing is added.
-- **BR-5:** Desktop and 390px mobile layouts retain readable labels, keyboard access, contrast and bounded chart density.
+- **BR-1 (rule):** Dashboard denominators and unknown counts are explicit; no historical trend is inferred.
+- **BR-2 (rule):** Comparison accepts at most four current eligible lists and preserves metric units/observation meaning.
+- **BR-3 (rule):** Dashboard filters and comparison selections normalize safely, survive share/reopen and reset predictably.
+- **BR-4 (rule):** Aggregate rendering uses the index only; detail shards remain lazy and no hosted network/AI processing is added.
+- **BR-5 (rule):** Desktop and 390px mobile layouts retain readable labels, keyboard access, contrast and bounded chart density.
 
 ## Acceptance criteria
+
+### Feature-specific
 
 - [ ] AC-1 (BR-1): KPIs and topic/freshness charts show their population, known/unknown coverage and observation date.
 - [ ] AC-2 (BR-2): Two-to-four-list comparison renders an accessible equivalent table plus bounded metric charts.
