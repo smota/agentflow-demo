@@ -34,3 +34,4 @@ jobs:
       - run: python -m pip install -r requirements-dev.txt
       - run: python -m pytest -q --basetemp=.cache/pytest
       - run: python -m tools.crawl validate
+      - run: python -m tools.lists validate

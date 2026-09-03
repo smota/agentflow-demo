@@ -1,44 +1,47 @@
-# Issue #17: chore: transition demo to current Agentflow delivery contracts
+# Issue #20: fix: discover Awesome lists at 100 stars without a source allowlist
 
 **Epic:** #16
 
 ## Background & Problem Statement
 
-The legacy Agentflow installation must be explicitly retired before supported fresh adoption of the current merged delivery revision.
+V1 discovered awesome-selfhosted but a three-source review allowlist incorrectly marked it and other unreviewed repositories non-lists. Discovery, eligibility and content permissions need independent states.
 
 ## Requirements
 
-Preserve the application, history and project ownership. Pin upstream60a0e800dc4d4ce9476c72231a0b853998131213; use current roles, skills and validation, project-contained receipts and no global/outside-folder writes.
+Use broad public awesome search plus awesome/awesome-list topics with at least100 observed stars, including forks explicitly and retaining their identity. Exhaust partitioned page sets within stated GitHub limitations, retain candidate decisions, and locally generate a list-first index plus immutable detail shards. Preserve live v1 until preview promotion.
 
 ## Technical Design
 
-Reviewed digest177095e9f3f718354e663e0b416bcd9622bc9b17c12c5acf271b564627ad3e9b covers335 pristine managed files:171 refreshed project-support files,146 retired obsolete files,18 retired overlaps for fresh133-file github-profile adoption. Archive exact prior bytes and lock in ignored project-local storage. Official adopt plan/apply writes the v2 lock and contained receipt. Replace CI/adapter entrypoints deliberately. Verify installation and fixture rollback separately.
+Pure schema/classification/parser in awesome/lists.py; local resumable tools/lists.py. Date partitions with star tie-breaks stay below1,000results; saturated unsplittable buckets remain unresolved. Page checkpoints, stable-ID dedup, observation interval and reconciliation receipts. Batch GraphQL read-only public README observations pinned to the same commit as content history; partial errors remain per-repository pending. No repository code execution or arbitrary linked URL fetching. Immutable content-addressed detail shards validate before the index pointer switches atomically. Unknown licenses permit metadata/link-only presentation, not blanket exclusion or full-text republication. Original taxonomy preserved; normalized topics additional and derived.
 
 ## Business logic
 
-- **BR-1 (rule):** Preserve application/data/history and authored configuration; no fabricated ownership or bypassed guards.
-- **BR-2 (rule):** Bind fresh adoption to its current preview and store receipts in the demo folder.
-- **BR-3 (rule):** Latest means the verified merged source revision, not a new published release claim.
+- **BR-1 (rule):** At least100 stars, public and evidence of actual curated list;99 fails. No fixed source allowlist.
+- **BR-2 (rule):** Exhaust every selected partition/page or report incomplete; pending/error is not excluded or zero.
+- **BR-3 (rule):** Local processing only; preserve provenance, safe links and permissions; publish validated current candidate.
+- **BR-4 (rule):** Recovery preserves completed inputs, rejects changed engine/candidate and leaves last-good publication intact.
 
 ## Acceptance criteria
 
 ### Feature-specific
 
-- [ ] AC-1 (BR-1): Hashed retirement inventory and recoverable original bytes match; application regressions pass.
-- [ ] AC-2 (BR-2): Official fresh adoption and contained receipt verified, no current conflicts, rollback exercised in a fixture.
-- [ ] AC-3 (BR-3): Current role/skill/configuration/CI entrypoints and source identity are documented and validated.
+- [ ] AC-1 (BR-1): Boundary/classifier regressions pass, including selfhosted and awesome-named non-list apps, badges, tables and directory lists.
+- [ ] AC-2 (BR-2): Partition/page/tie/dedup/partial-response tests pass; live query receipts reconcile without top-N or global completeness claims.
+- [ ] AC-3 (BR-3): Index/detail validate observed metrics, original taxonomy, derived topics, safe source provenance and explicit missing/permission states.
+- [ ] AC-4 (BR-4): Interrupted/resumed crawl is idempotent; stale engine, missing/wrong shard and stale publication rejected; v1 tests remain green.
 
 ## Test plan
 
-Ownership inventory, official adoption preview/apply/verify, contained fixture rollback, configuration/workflow checks,72 baseline app tests and independent migration audit.
+Boundary/classification/Markdown/table fixtures; fake API capped/tied/incomplete/paginated results; partial GraphQL aliases; digest/atomic publication/unknown metrics/link safety; injected interruption and exact resume. Separately record actual GitHub search/enrichment observations.
 
 ## Workflow classification
 
 - **Profile:** standard
 - **Risk:** medium
-- **Effort:** medium
-- **Change surfaces:** tooling, docs
+- **Effort:** large
+- **Change surfaces:** public-catalogue, local-tooling
+- **Collaboration:** architecture council for public contract; single writer, read-only advice and explicit self-review. Public metadata is not sensitive user-data migration.
 
 ## Open questions
 
-None: supported explicit retirement/fresh adoption confirmed in upstream breaking-change policy and migration council. Actual acceptance waits for validation.
+GitHub search is not transactional: expose observation interval and reconciliation discrepancies. Unsupported content remains visible with its reason. Reproduction permissions do not determine list inclusion. Keep v1 validation independent until actual v2 migration.

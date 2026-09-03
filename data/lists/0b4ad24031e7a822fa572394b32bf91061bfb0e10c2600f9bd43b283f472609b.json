@@ -1,0 +1,2392 @@
+{
+  "format_version": 2,
+  "repository_id": "191515681",
+  "name": "kdeldycke/awesome-iam",
+  "revision": "ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4",
+  "readme_path": "readme.md",
+  "readme_sha256": "59283898700bdf37649c67766e8ace46ecd5ab1cbba04d5503c94bada6c96831",
+  "sections": [
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "path": [
+        "Overview"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#overview",
+      "entries": 3
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "level": 2,
+      "path": [
+        "Security"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#security",
+      "entries": 4
+    },
+    {
+      "id": "account-management",
+      "title": "Account Management",
+      "level": 2,
+      "path": [
+        "Account Management"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#account-management",
+      "entries": 6
+    },
+    {
+      "id": "cryptography",
+      "title": "Cryptography",
+      "level": 2,
+      "path": [
+        "Cryptography"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#cryptography",
+      "entries": 5
+    },
+    {
+      "id": "identifiers",
+      "title": "Identifiers",
+      "level": 3,
+      "path": [
+        "Cryptography",
+        "Identifiers"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#identifiers",
+      "entries": 4
+    },
+    {
+      "id": "zero-trust-network",
+      "title": "Zero-trust Network",
+      "level": 2,
+      "path": [
+        "Zero-trust Network"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#zero-trust-network",
+      "entries": 5
+    },
+    {
+      "id": "machine-identity",
+      "title": "Machine Identity",
+      "level": 2,
+      "path": [
+        "Machine Identity"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#machine-identity",
+      "entries": 2
+    },
+    {
+      "id": "authentication",
+      "title": "Authentication",
+      "level": 2,
+      "path": [
+        "Authentication"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#authentication",
+      "entries": 3
+    },
+    {
+      "id": "password-based-auth",
+      "title": "Password-based auth",
+      "level": 2,
+      "path": [
+        "Password-based auth"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#password-based-auth",
+      "entries": 9
+    },
+    {
+      "id": "multi-factor-auth",
+      "title": "Multi-factor auth",
+      "level": 2,
+      "path": [
+        "Multi-factor auth"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#multi-factor-auth",
+      "entries": 13
+    },
+    {
+      "id": "sms-based",
+      "title": "SMS-based",
+      "level": 3,
+      "path": [
+        "Multi-factor auth",
+        "SMS-based"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#sms-based",
+      "entries": 5
+    },
+    {
+      "id": "password-less-auth",
+      "title": "Password-less auth",
+      "level": 2,
+      "path": [
+        "Password-less auth"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#password-less-auth",
+      "entries": 2
+    },
+    {
+      "id": "webauthn",
+      "title": "WebAuthn",
+      "level": 3,
+      "path": [
+        "Password-less auth",
+        "WebAuthn"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#webauthn",
+      "entries": 2
+    },
+    {
+      "id": "security-key",
+      "title": "Security key",
+      "level": 3,
+      "path": [
+        "Password-less auth",
+        "Security key"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#security-key",
+      "entries": 4
+    },
+    {
+      "id": "public-key-infrastructure-pki",
+      "title": "Public-Key Infrastructure (PKI)",
+      "level": 3,
+      "path": [
+        "Password-less auth",
+        "Public-Key Infrastructure (PKI)"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#public-key-infrastructure-pki",
+      "entries": 5
+    },
+    {
+      "id": "jwt",
+      "title": "JWT",
+      "level": 3,
+      "path": [
+        "Password-less auth",
+        "JWT"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#jwt",
+      "entries": 9
+    },
+    {
+      "id": "authorization",
+      "title": "Authorization",
+      "level": 2,
+      "path": [
+        "Authorization"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#authorization",
+      "entries": 0
+    },
+    {
+      "id": "policy-models",
+      "title": "Policy models",
+      "level": 3,
+      "path": [
+        "Authorization",
+        "Policy models"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#policy-models",
+      "entries": 8
+    },
+    {
+      "id": "rbac-frameworks",
+      "title": "RBAC frameworks",
+      "level": 3,
+      "path": [
+        "Authorization",
+        "RBAC frameworks"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#rbac-frameworks",
+      "entries": 4
+    },
+    {
+      "id": "abac-frameworks",
+      "title": "ABAC frameworks",
+      "level": 3,
+      "path": [
+        "Authorization",
+        "ABAC frameworks"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#abac-frameworks",
+      "entries": 4
+    },
+    {
+      "id": "rebac-frameworks",
+      "title": "ReBAC frameworks",
+      "level": 3,
+      "path": [
+        "Authorization",
+        "ReBAC frameworks"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#rebac-frameworks",
+      "entries": 5
+    },
+    {
+      "id": "aws-policy-tools",
+      "title": "AWS policy tools",
+      "level": 3,
+      "path": [
+        "Authorization",
+        "AWS policy tools"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#aws-policy-tools",
+      "entries": 6
+    },
+    {
+      "id": "macaroons",
+      "title": "Macaroons",
+      "level": 3,
+      "path": [
+        "Authorization",
+        "Macaroons"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#macaroons",
+      "entries": 3
+    },
+    {
+      "id": "other-tools",
+      "title": "Other tools",
+      "level": 3,
+      "path": [
+        "Authorization",
+        "Other tools"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#other-tools",
+      "entries": 1
+    },
+    {
+      "id": "oauth2--openid",
+      "title": "OAuth2 & OpenID",
+      "level": 2,
+      "path": [
+        "OAuth2 & OpenID"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#oauth2--openid",
+      "entries": 17
+    },
+    {
+      "id": "saml",
+      "title": "SAML",
+      "level": 2,
+      "path": [
+        "SAML"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#saml",
+      "entries": 7
+    },
+    {
+      "id": "secret-management",
+      "title": "Secret Management",
+      "level": 2,
+      "path": [
+        "Secret Management"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#secret-management",
+      "entries": 7
+    },
+    {
+      "id": "hardware-security-module-hsm",
+      "title": "Hardware Security Module (HSM)",
+      "level": 3,
+      "path": [
+        "Secret Management",
+        "Hardware Security Module (HSM)"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#hardware-security-module-hsm",
+      "entries": 5
+    },
+    {
+      "id": "trust--safety",
+      "title": "Trust & Safety",
+      "level": 2,
+      "path": [
+        "Trust & Safety"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#trust--safety",
+      "entries": 3
+    },
+    {
+      "id": "user-identity",
+      "title": "User Identity",
+      "level": 3,
+      "path": [
+        "Trust & Safety",
+        "User Identity"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#user-identity",
+      "entries": 7
+    },
+    {
+      "id": "fraud",
+      "title": "Fraud",
+      "level": 3,
+      "path": [
+        "Trust & Safety",
+        "Fraud"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#fraud",
+      "entries": 4
+    },
+    {
+      "id": "moderation",
+      "title": "Moderation",
+      "level": 3,
+      "path": [
+        "Trust & Safety",
+        "Moderation"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#moderation",
+      "entries": 4
+    },
+    {
+      "id": "threat-intelligence",
+      "title": "Threat Intelligence",
+      "level": 3,
+      "path": [
+        "Trust & Safety",
+        "Threat Intelligence"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#threat-intelligence",
+      "entries": 12
+    },
+    {
+      "id": "captcha",
+      "title": "Captcha",
+      "level": 3,
+      "path": [
+        "Trust & Safety",
+        "Captcha"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#captcha",
+      "entries": 5
+    },
+    {
+      "id": "blocklists",
+      "title": "Blocklists",
+      "level": 2,
+      "path": [
+        "Blocklists"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#blocklists",
+      "entries": 2
+    },
+    {
+      "id": "hostnames-and-subdomains",
+      "title": "Hostnames and Subdomains",
+      "level": 3,
+      "path": [
+        "Blocklists",
+        "Hostnames and Subdomains"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#hostnames-and-subdomains",
+      "entries": 8
+    },
+    {
+      "id": "emails",
+      "title": "Emails",
+      "level": 3,
+      "path": [
+        "Blocklists",
+        "Emails"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#emails",
+      "entries": 5
+    },
+    {
+      "id": "reserved-ids",
+      "title": "Reserved IDs",
+      "level": 3,
+      "path": [
+        "Blocklists",
+        "Reserved IDs"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#reserved-ids",
+      "entries": 2
+    },
+    {
+      "id": "profanity",
+      "title": "Profanity",
+      "level": 3,
+      "path": [
+        "Blocklists",
+        "Profanity"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#profanity",
+      "entries": 2
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy",
+      "level": 2,
+      "path": [
+        "Privacy"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#privacy",
+      "entries": 4
+    },
+    {
+      "id": "anonymization",
+      "title": "Anonymization",
+      "level": 3,
+      "path": [
+        "Privacy",
+        "Anonymization"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#anonymization",
+      "entries": 4
+    },
+    {
+      "id": "gdpr",
+      "title": "GDPR",
+      "level": 3,
+      "path": [
+        "Privacy",
+        "GDPR"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#gdpr",
+      "entries": 5
+    },
+    {
+      "id": "uxui",
+      "title": "UX/UI",
+      "level": 2,
+      "path": [
+        "UX/UI"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#uxui",
+      "entries": 10
+    },
+    {
+      "id": "competitive-analysis",
+      "title": "Competitive Analysis",
+      "level": 2,
+      "path": [
+        "Competitive Analysis"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#competitive-analysis",
+      "entries": 7
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "path": [
+        "History"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#history",
+      "entries": 1
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "footnotes",
+      "title": "Footnotes",
+      "level": 2,
+      "path": [
+        "Footnotes"
+      ],
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#footnotes",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "The EnterpriseReady SaaS Feature Guides",
+      "url": "https://www.enterpriseready.io/",
+      "category": "overview",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "IAM is hard. It's really hard.",
+      "url": "https://web.archive.org/web/20200809095434/https://twitter.com/kmcquade3/status/1291801858676228098",
+      "category": "overview",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "IAM Is The Real Cloud Lock-In",
+      "url": "https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/",
+      "category": "overview",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Enterprise Information Security",
+      "url": "https://infosec.mozilla.org/",
+      "category": "security",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Cloud Vulnerabilities",
+      "url": "https://web.archive.org/web/20250529050934/https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF",
+      "category": "security",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Cartography",
+      "url": "https://github.com/lyft/cartography",
+      "category": "security",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Open guide to AWS Security and IAM",
+      "url": "https://github.com/open-guides/og-aws#security-and-iam",
+      "category": "security",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "As a user, I want…",
+      "url": "https://mobile.twitter.com/oktopushup/status/1030457418206068736",
+      "category": "account-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Things end users care about but programmers don't",
+      "url": "https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/",
+      "category": "account-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Separate the account, user and login/auth details",
+      "url": "https://news.ycombinator.com/item?id=21151830",
+      "category": "account-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Identity Beyond Usernames",
+      "url": "https://lord.io/blog/2020/usernames/",
+      "category": "account-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Kratos",
+      "url": "https://github.com/ory/kratos",
+      "category": "account-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "UserFrosting",
+      "url": "https://github.com/userfrosting/UserFrosting",
+      "category": "account-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Cryptographic Right Answers",
+      "url": "https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html",
+      "category": "cryptography",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Real World Crypto Symposium",
+      "url": "https://web.archive.org/web/20260428040052/https://rwc.iacr.org/",
+      "category": "cryptography",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "An Overview of Cryptography",
+      "url": "https://www.garykessler.net/library/crypto.html",
+      "category": "cryptography",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Papers we love: Cryptography",
+      "url": "https://github.com/papers-we-love/papers-we-love/blob/master/cryptography/README.md",
+      "category": "cryptography",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Lifetimes of cryptographic hash functions",
+      "url": "http://valerieaurora.org/hash.html",
+      "category": "cryptography",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Security Recommendations for Any Device that Depends on Randomly-Generated Numbers",
+      "url": "https://www.av8n.com/computer/htm/secure-random.htm",
+      "category": "identifiers",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "RFC #4122: UUID - Security Considerations",
+      "url": "https://www.rfc-editor.org/rfc/rfc4122#section-6",
+      "category": "identifiers",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Identifiers",
+      "url": "https://adileo.github.io/awesome-identifiers/",
+      "category": "identifiers",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Awesome GUID",
+      "url": "https://github.com/secretGeek/AwesomeGUID",
+      "category": "identifiers",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "BeyondCorp: A New Approach to Enterprise Security",
+      "url": "https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf",
+      "category": "zero-trust-network",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "What is BeyondCorp? What is Identity-Aware Proxy?",
+      "url": "https://web.archive.org/web/20251205052156/https://medium.com/google-cloud/what-is-beyondcorp-what-is-identity-aware-proxy-de525d9b3f90",
+      "category": "zero-trust-network",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "oathkeeper",
+      "url": "https://github.com/ory/oathkeeper",
+      "category": "zero-trust-network",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Pomerium",
+      "url": "https://github.com/pomerium/pomerium",
+      "category": "zero-trust-network",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "heimdall",
+      "url": "https://github.com/dadrus/heimdall",
+      "category": "zero-trust-network",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "SPIFFE/SPIRE",
+      "url": "https://github.com/spiffe/spire",
+      "category": "machine-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "NanoMDM",
+      "url": "https://github.com/micromdm/nanomdm",
+      "category": "machine-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "API Tokens: A Tedious Survey",
+      "url": "https://fly.io/blog/api-tokens-a-tedious-survey/",
+      "category": "authentication",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "A Child's Garden of Inter-Service Authentication Schemes",
+      "url": "https://web.archive.org/web/20200507173734/https://latacora.micro.blog/a-childs-garden/",
+      "category": "authentication",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Scaling backend authentication at Facebook",
+      "url": "https://www.youtube.com/watch?v=kY-Bkv3qxMc",
+      "category": "authentication",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "The new NIST password guidance",
+      "url": "https://pciguru.wordpress.com/2019/03/11/the-new-nist-password-guidance/",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Password Storage Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Password expiration is dead",
+      "url": "https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Practical Recommendations for Stronger, More Usable Passwords",
+      "url": "http://www.andrew.cmu.edu/user/nicolasc/publications/Tan-CCS20.pdf",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Banks, Arbitrary Password Restrictions and Why They Don't Matter",
+      "url": "https://www.troyhunt.com/banks-arbitrary-password-restrictions-and-why-they-dont-matter/",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Dumb Password Rules",
+      "url": "https://github.com/dumb-password-rules/dumb-password-rules",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Password Manager Resources",
+      "url": "https://github.com/apple/password-manager-resources",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "A Well-Known URL for Changing Passwords",
+      "url": "https://github.com/WICG/change-password-url",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "How to change the hashing scheme of already hashed user's passwords",
+      "url": "https://news.ycombinator.com/item?id=20109360",
+      "category": "password-based-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Breaking Password Dependencies: Challenges in the Final Mile at Microsoft",
+      "url": "https://www.youtube.com/watch?v=B_mhJO2qHlQ",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Passwords: 2FA, U2F and Google Advanced Protection",
+      "url": "https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "A Comparative Long-Term Study of Fallback Authentication",
+      "url": "https://maximiliangolla.com/files/2019/papers/usec2019-30-wip-fallback-long-term-study-finalv5.pdf",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Secrets, Lies, and Account Recovery: Lessons from the Use of Personal Knowledge Questions at Google",
+      "url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43783.pdf",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "How effective is basic account hygiene at preventing hijacking",
+      "url": "https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Your Pa$$word doesn't matter",
+      "url": "https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Your-Pa-word-doesn-t-matter/ba-p/731984",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "Attacking Google Authenticator",
+      "url": "https://unix-ninja.com/p/attacking_google_authenticator",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "Compromising online accounts by cracking voicemail systems",
+      "url": "https://www.martinvigo.com/voicemailcracker/",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Getting 2FA Right in 2019",
+      "url": "https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "2FA is missing a key feature",
+      "url": "https://syslog.ravelin.com/2fa-is-missing-a-key-feature-c781c3861db",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "SMS Multifactor Authentication in Antarctica",
+      "url": "https://brr.fyi/posts/sms-mfa",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Authelia",
+      "url": "https://github.com/authelia/authelia",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "Kanidm",
+      "url": "https://github.com/kanidm/kanidm",
+      "category": "multi-factor-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "SMS 2FA auth is deprecated by NIST",
+      "url": "https://techcrunch.com/2016/07/25/nist-declares-the-age-of-sms-based-2-factor-authentication-over/",
+      "category": "sms-based",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "SMS: The most popular and least secure 2FA method",
+      "url": "https://www.allthingsauth.com/2018/02/27/sms-the-most-popular-and-least-secure-2fa-method/",
+      "category": "sms-based",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Is SMS 2FA Secure? No.",
+      "url": "https://www.issms2fasecure.com/",
+      "category": "sms-based",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "Hackers Hit Twitter C.E.O. Jack Dorsey in a 'SIM Swap.' You're at Risk, Too.",
+      "url": "https://archive.ph/AhNAI",
+      "category": "sms-based",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "AT&T rep handed control of his cellphone account to a hacker",
+      "url": "https://www.theregister.com/2017/07/10/att_falls_for_hacker_tricks/",
+      "category": "sms-based",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "An argument for passwordless",
+      "url": "https://web.archive.org/web/20190515230752/https://biarity.gitlab.io/2018/02/23/passwordless/",
+      "category": "password-less-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Magic Links – Are they Actually Outdated?",
+      "url": "https://zitadel.com/blog/magic-links",
+      "category": "password-less-auth",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "WebAuthn guide",
+      "url": "https://webauthn.guide/",
+      "category": "webauthn",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "Clearing up some misconceptions about Passkeys",
+      "url": "https://www.stavros.io/posts/clearing-up-some-passkeys-misconceptions/",
+      "category": "webauthn",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "Webauthn and security keys",
+      "url": "https://www.imperialviolet.org/2018/03/27/webauthn.html",
+      "category": "security-key",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "Getting started with security keys",
+      "url": "https://web.archive.org/web/20260401133706/https://paulstamatiou.com/getting-started-with-security-keys/",
+      "category": "security-key",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "OpenSK",
+      "url": "https://github.com/google/OpenSK",
+      "category": "security-key",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "YubiKey Guide",
+      "url": "https://github.com/drduh/YubiKey-Guide",
+      "category": "security-key",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "PKI for busy people",
+      "url": "https://gist.github.com/hoffa/5a939fd0f3bcd2a6a0e4754cb2cf3f1b",
+      "category": "public-key-infrastructure-pki",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "Everything you should know about certificates and PKI but are too afraid to ask",
+      "url": "https://smallstep.com/blog/everything-pki.html",
+      "category": "public-key-infrastructure-pki",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "lemur",
+      "url": "https://github.com/Netflix/lemur",
+      "category": "public-key-infrastructure-pki",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "CFSSL",
+      "url": "https://github.com/cloudflare/cfssl",
+      "category": "public-key-infrastructure-pki",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "JA4+",
+      "url": "https://github.com/FoxIO-LLC/ja4",
+      "category": "public-key-infrastructure-pki",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to JSON Web Tokens",
+      "url": "https://jwt.io/introduction/",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "Learn how to use JWT for Authentication",
+      "url": "https://github.com/dwyl/learn-json-web-tokens",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "Using JSON Web Tokens as API Keys",
+      "url": "https://auth0.com/blog/using-json-web-tokens-as-api-keys/",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "Hardcoded secrets, unverified tokens, and other common JWT mistakes",
+      "url": "https://web.archive.org/web/2021/https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "Adding JSON Web Token API Keys to a DenyList",
+      "url": "https://auth0.com/blog/denylist-json-web-token-api-keys/",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "Stop using JWT for sessions",
+      "url": "http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "JWT, JWS and JWE for Not So Dummies!",
+      "url": "https://web.archive.org/web/20221112173931/https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "JOSE is a Bad Standard That Everyone Should Avoid",
+      "url": "https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "JWT.io",
+      "url": "https://jwt.io/",
+      "category": "jwt",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "Why Authorization is Hard",
+      "url": "https://www.osohq.com/post/why-authorization-is-hard",
+      "category": "policy-models",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "The never-ending product requirements of user authorization",
+      "url": "https://alexolivier.me/posts/the-never-ending-product-requirements-of-user-authorization",
+      "category": "policy-models",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "RBAC like it was meant to be",
+      "url": "https://tailscale.com/blog/rbac-like-it-was-meant-to-be/",
+      "category": "policy-models",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "The Case for Granular Permissions",
+      "url": "https://cerbos.dev/blog/the-case-for-granular-permissions",
+      "category": "policy-models",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "In Search For a Perfect Access Control System",
+      "url": "https://web.archive.org/web/20240421203937/https://goteleport.com/blog/access-controls/",
+      "category": "policy-models",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "GCP's IAM syntax is better than AWS's",
+      "url": "https://web.archive.org/web/20251208231427/https://ucarion.com/iam-operation-syntax",
+      "category": "policy-models",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "Semantic-based Automated Reasoning for AWS Access Policies using SMT",
+      "url": "https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf",
+      "category": "policy-models",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "Authorization Academy",
+      "url": "https://www.osohq.com/academy",
+      "category": "policy-models",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "Athenz",
+      "url": "https://github.com/yahoo/athenz",
+      "category": "rbac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "Biscuit",
+      "url": "https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/",
+      "category": "rbac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "Cerbos",
+      "url": "https://github.com/cerbos/cerbos",
+      "category": "rbac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "FerrisKey",
+      "url": "https://github.com/ferriskey/ferriskey",
+      "category": "rbac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "Keto",
+      "url": "https://github.com/ory/keto",
+      "category": "abac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "Ladon",
+      "url": "https://github.com/ory/ladon",
+      "category": "abac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "Casbin",
+      "url": "https://github.com/casbin/casbin",
+      "category": "abac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "Open Policy Agent",
+      "url": "https://github.com/open-policy-agent/opa",
+      "category": "abac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "Zanzibar: Google's Consistent, Global Authorization System",
+      "url": "https://web.archive.org/web/20191207160155/https://ai.google/research/pubs/pub48190",
+      "category": "rebac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "SpiceDB",
+      "url": "https://github.com/authzed/spicedb",
+      "category": "rebac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "Permify",
+      "url": "https://github.com/Permify/permify",
+      "category": "rebac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "Topaz",
+      "url": "https://github.com/aserto-dev/topaz",
+      "category": "rebac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "Open Policy Administration Layer",
+      "url": "https://github.com/permitio/opal",
+      "category": "rebac-frameworks",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "An AWS IAM Security Tooling Reference",
+      "url": "https://ramimac.me/aws-iam-tools-2024",
+      "category": "aws-policy-tools",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L397",
+      "line": 397,
+      "properties": {}
+    },
+    {
+      "title": "Become an AWS IAM Policy Ninja",
+      "url": "https://www.youtube.com/watch?v=y7-fAT3z8Lo",
+      "category": "aws-policy-tools",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L399",
+      "line": 399,
+      "properties": {}
+    },
+    {
+      "title": "AWS IAM Roles, a tale of unnecessary complexity",
+      "url": "https://infosec.rodeo/posts/thoughts-on-aws-iam/",
+      "category": "aws-policy-tools",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L401",
+      "line": 401,
+      "properties": {}
+    },
+    {
+      "title": "Policy Sentry",
+      "url": "https://github.com/salesforce/policy_sentry",
+      "category": "aws-policy-tools",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L403",
+      "line": 403,
+      "properties": {}
+    },
+    {
+      "title": "IAM Floyd",
+      "url": "https://github.com/udondan/iam-floyd",
+      "category": "aws-policy-tools",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L405",
+      "line": 405,
+      "properties": {}
+    },
+    {
+      "title": "IAMbic",
+      "url": "https://github.com/noqdev/iambic",
+      "category": "aws-policy-tools",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "Google's Macaroons in Five Minutes or Less",
+      "url": "https://web.archive.org/web/20240521142227/https://blog.bren2010.io/blog/googles-macaroons",
+      "category": "macaroons",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud",
+      "url": "https://web.archive.org/web/20191009113323/https://ai.google/research/pubs/pub41892",
+      "category": "macaroons",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L415",
+      "line": 415,
+      "properties": {}
+    },
+    {
+      "title": "Google paper's author compares Macaroons and JWTs",
+      "url": "https://news.ycombinator.com/item?id=14294463",
+      "category": "macaroons",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "Gubernator",
+      "url": "https://github.com/gubernator-io/gubernator",
+      "category": "other-tools",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "Descope",
+      "url": "https://www.descope.com/?utm_source=awesome-iam&utm_medium=referral&utm_campaign=awesome-iam-oss-sponsorship",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "Awesome OpenID Connect",
+      "url": "https://github.com/cerberauth/awesome-openid-connect",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "An Illustrated Guide to OAuth and OpenID Connect",
+      "url": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "OAuth 2 Simplified",
+      "url": "https://aaronparecki.com/oauth-2-simplified/",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "OAuth 2.0 and OpenID Connect (in plain English)",
+      "url": "https://www.youtube.com/watch?v=996OiexHze0",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "OAuth in one picture",
+      "url": "https://mobile.twitter.com/kamranahmedse/status/1276994010423361540",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "How to Implement a Secure Central Authentication Service in Six Steps",
+      "url": "https://shopify.engineering/implement-secure-central-authentication-service-six-steps",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "Open-Sourcing BuzzFeed's SSO Experience",
+      "url": "https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "OAuth 2.0 Security Best Current Practice",
+      "url": "https://datatracker.ietf.org/doc/html/rfc9700",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "Hidden OAuth attack vectors",
+      "url": "https://portswigger.net/web-security/oauth",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "PKCE Explained",
+      "url": "https://www.loginradius.com/blog/engineering/pkce/",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "Hydra",
+      "url": "https://github.com/ory/hydra",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "Keycloak",
+      "url": "https://github.com/keycloak/keycloak",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "Casdoor",
+      "url": "https://github.com/casbin/casdoor",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "ZITADEL",
+      "url": "https://github.com/zitadel/zitadel",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "obligator",
+      "url": "https://github.com/lastlogin-net/obligator",
+      "category": "oauth2--openid",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "SAML vs. OAuth",
+      "url": "https://web.archive.org/web/20230327071347/https://www.cloudflare.com/learning/access-management/what-is-oauth/",
+      "category": "saml",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "The Difference Between SAML 2.0 and OAuth 2.0",
+      "url": "https://www.ubisecure.com/uncategorized/difference-between-saml-and-oauth/",
+      "category": "saml",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "What's the Difference Between OAuth, OpenID Connect, and SAML?",
+      "url": "https://www.okta.com/identity-101/whats-the-difference-between-oauth-openid-connect-and-saml/",
+      "category": "saml",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "The Beer Drinker's Guide to SAML",
+      "url": "https://duo.com/blog/the-beer-drinkers-guide-to-saml",
+      "category": "saml",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "SAML is insecure by design",
+      "url": "https://joonas.fi/2021/08/saml-is-insecure-by-design/",
+      "category": "saml",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "The Difficulties of SAML Single Logout",
+      "url": "https://shibboleth.atlassian.net/wiki/spaces/CONCEPT/pages/928645229/SLOIssues",
+      "category": "saml",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "The SSO Wall of Shame",
+      "url": "https://sso.tax/",
+      "category": "saml",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L481",
+      "line": 481,
+      "properties": {}
+    },
+    {
+      "title": "Secret at Scale at Netflix",
+      "url": "https://www.youtube.com/watch?v=K0EOPddWpsE",
+      "category": "secret-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L487",
+      "line": 487,
+      "properties": {}
+    },
+    {
+      "title": "High Availability in Google's Internal KMS",
+      "url": "https://www.youtube.com/watch?v=5T_c-lqgjso",
+      "category": "secret-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L489",
+      "line": 489,
+      "properties": {}
+    },
+    {
+      "title": "HashiCorp Vault",
+      "url": "https://github.com/hashicorp/vault",
+      "category": "secret-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "Infisical",
+      "url": "https://github.com/Infisical/infisical",
+      "category": "secret-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L493",
+      "line": 493,
+      "properties": {}
+    },
+    {
+      "title": "sops",
+      "url": "https://github.com/mozilla/sops",
+      "category": "secret-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L495",
+      "line": 495,
+      "properties": {}
+    },
+    {
+      "title": "gitleaks",
+      "url": "https://github.com/zricethezav/gitleaks",
+      "category": "secret-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L497",
+      "line": 497,
+      "properties": {}
+    },
+    {
+      "title": "trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "category": "secret-management",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L499",
+      "line": 499,
+      "properties": {}
+    },
+    {
+      "title": "HSM: What they are and why it's likely that you've (indirectly) used one today",
+      "url": "https://web.archive.org/web/20260404010649/https://rwc.iacr.org/2015/Slides/RWC-2015-Hampton.pdf",
+      "category": "hardware-security-module-hsm",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "Tidbits on AWS Cloud HSM hardware",
+      "url": "https://news.ycombinator.com/item?id=16759383",
+      "category": "hardware-security-module-hsm",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L507",
+      "line": 507,
+      "properties": {}
+    },
+    {
+      "title": "Keystone",
+      "url": "https://github.com/keystone-enclave/keystone",
+      "category": "hardware-security-module-hsm",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "Project Oak",
+      "url": "https://github.com/project-oak/oak",
+      "category": "hardware-security-module-hsm",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "Everybody be cool, this is a robbery!",
+      "url": "https://www.sstic.org/2019/presentation/hsm/",
+      "category": "hardware-security-module-hsm",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "Trust and safety 101",
+      "url": "https://www.csoonline.com/article/3206127/trust-and-safety-101.html",
+      "category": "trust--safety",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L521",
+      "line": 521,
+      "properties": {}
+    },
+    {
+      "title": "What the Heck is Trust and Safety?",
+      "url": "https://www.linkedin.com/pulse/what-heck-trust-safety-kenny-shi",
+      "category": "trust--safety",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "Awesome List of Billing and Payments: Fraud links",
+      "url": "https://github.com/kdeldycke/awesome-billing#fraud",
+      "category": "trust--safety",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L527",
+      "line": 527,
+      "properties": {}
+    },
+    {
+      "title": "The Laws of Identity",
+      "url": "https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf",
+      "category": "user-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L535",
+      "line": 535,
+      "properties": {}
+    },
+    {
+      "title": "How Uber Got Lost",
+      "url": "https://archive.ph/hvjKl",
+      "category": "user-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "A Comparison of Personal Name Matching: Techniques and Practical Issues",
+      "url": "http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf",
+      "category": "user-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L539",
+      "line": 539,
+      "properties": {}
+    },
+    {
+      "title": "Statistically Likely Usernames",
+      "url": "https://github.com/insidetrust/statistically-likely-usernames",
+      "category": "user-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "Facebook Dangerous Individuals and Organizations List",
+      "url": "https://theintercept.com/document/facebook-dangerous-individuals-and-organizations-list-reproduced-snapshot/",
+      "category": "user-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L543",
+      "line": 543,
+      "properties": {}
+    },
+    {
+      "title": "Ballerine",
+      "url": "https://github.com/ballerine-io/ballerine",
+      "category": "user-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L545",
+      "line": 545,
+      "properties": {}
+    },
+    {
+      "title": "Sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "category": "user-identity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L547",
+      "line": 547,
+      "properties": {}
+    },
+    {
+      "title": "After Car2Go eased its background checks, 75 of its vehicles were stolen in one day.",
+      "url": "https://web.archive.org/web/20230526073109/https://www.bloomberg.com/news/articles/2019-07-11/mercedes-thieves-showed-just-how-vulnerable-car-sharing-can-be",
+      "category": "fraud",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L553",
+      "line": 553,
+      "properties": {}
+    },
+    {
+      "title": "Investigation into the Unusual Signups",
+      "url": "https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf",
+      "category": "fraud",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "MIDAS: Detecting Microcluster Anomalies in Edge Streams",
+      "url": "https://github.com/bhatiasiddharth/MIDAS",
+      "category": "fraud",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L557",
+      "line": 557,
+      "properties": {}
+    },
+    {
+      "title": "Gephi",
+      "url": "https://github.com/gephi/gephi",
+      "category": "fraud",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L559",
+      "line": 559,
+      "properties": {}
+    },
+    {
+      "title": "Still Logged In: What AR and VR Can Learn from MMOs",
+      "url": "https://youtu.be/kgw8RLHv1j4?t=534",
+      "category": "moderation",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L565",
+      "line": 565,
+      "properties": {}
+    },
+    {
+      "title": "You either die an MVP or live long enough to build content moderation",
+      "url": "https://mux.com/blog/you-either-die-an-mvp-or-live-long-enough-to-build-content-moderation/",
+      "category": "moderation",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L567",
+      "line": 567,
+      "properties": {}
+    },
+    {
+      "title": "The despair and darkness of people will get to you",
+      "url": "https://restofworld.org/2020/facebook-international-content-moderators/",
+      "category": "moderation",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L569",
+      "line": 569,
+      "properties": {}
+    },
+    {
+      "title": "The Cleaners",
+      "url": "https://thoughtmaybe.com/the-cleaners/",
+      "category": "moderation",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L571",
+      "line": 571,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Threat Intelligence",
+      "url": "https://github.com/hslatman/awesome-threat-intelligence",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L577",
+      "line": 577,
+      "properties": {}
+    },
+    {
+      "title": "SpiderFoot",
+      "url": "https://github.com/poppopjmp/spiderfoot",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L579",
+      "line": 579,
+      "properties": {}
+    },
+    {
+      "title": "OSINT Stuff Tool Collection",
+      "url": "https://github.com/cipher387/osint_stuff_tool_collection",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L581",
+      "line": 581,
+      "properties": {}
+    },
+    {
+      "title": "Maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L583",
+      "line": 583,
+      "properties": {}
+    },
+    {
+      "title": "Standards related to Threat Intelligence",
+      "url": "https://www.threat-intelligence.eu/standards/",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L585",
+      "line": 585,
+      "properties": {}
+    },
+    {
+      "title": "MISP taxonomies and classification",
+      "url": "https://www.misp-project.org/taxonomies.html",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L587",
+      "line": 587,
+      "properties": {}
+    },
+    {
+      "title": "Browser Fingerprinting: A survey",
+      "url": "https://arxiv.org/pdf/1905.01051.pdf",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L589",
+      "line": 589,
+      "properties": {}
+    },
+    {
+      "title": "The challenges of file formats",
+      "url": "https://speakerdeck.com/ange/the-challenges-of-file-formats",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L591",
+      "line": 591,
+      "properties": {}
+    },
+    {
+      "title": "SecLists",
+      "url": "https://github.com/danielmiessler/SecLists",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L593",
+      "line": 593,
+      "properties": {}
+    },
+    {
+      "title": "PhishingKitTracker",
+      "url": "https://github.com/neonprimetime/PhishingKitTracker",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L595",
+      "line": 595,
+      "properties": {}
+    },
+    {
+      "title": "PhoneInfoga",
+      "url": "https://github.com/sundowndev/PhoneInfoga",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L597",
+      "line": 597,
+      "properties": {}
+    },
+    {
+      "title": "Confusable Homoglyphs",
+      "url": "https://git.sr.ht/~valhalla/confusable_homoglyphs",
+      "category": "threat-intelligence",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L599",
+      "line": 599,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Captcha",
+      "url": "https://github.com/ZYSzys/awesome-captcha",
+      "category": "captcha",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L605",
+      "line": 605,
+      "properties": {}
+    },
+    {
+      "title": "reCaptcha",
+      "url": "https://www.google.com/recaptcha",
+      "category": "captcha",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L607",
+      "line": 607,
+      "properties": {}
+    },
+    {
+      "title": "You (probably) don't need ReCAPTCHA",
+      "url": "https://web.archive.org/web/20190611190134/https://kevv.net/you-probably-dont-need-recaptcha/",
+      "category": "captcha",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L609",
+      "line": 609,
+      "properties": {}
+    },
+    {
+      "title": "Anubis",
+      "url": "https://github.com/TecharoHQ/anubis",
+      "category": "captcha",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L611",
+      "line": 611,
+      "properties": {}
+    },
+    {
+      "title": "Anti-captcha",
+      "url": "https://anti-captcha.com/",
+      "category": "captcha",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L613",
+      "line": 613,
+      "properties": {}
+    },
+    {
+      "title": "Bloom Filter",
+      "url": "https://en.wikipedia.org/wiki/Bloom_filter",
+      "category": "blocklists",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L619",
+      "line": 619,
+      "properties": {}
+    },
+    {
+      "title": "How Radix trees made blocking IPs 5000 times faster",
+      "url": "https://web.archive.org/web/2021/https://blog.sqreen.com/demystifying-radix-trees/",
+      "category": "blocklists",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L621",
+      "line": 621,
+      "properties": {}
+    },
+    {
+      "title": "hosts",
+      "url": "https://github.com/StevenBlack/hosts",
+      "category": "hostnames-and-subdomains",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L627",
+      "line": 627,
+      "properties": {}
+    },
+    {
+      "title": "nextdns/metadata",
+      "url": "https://github.com/nextdns/metadata",
+      "category": "hostnames-and-subdomains",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L629",
+      "line": 629,
+      "properties": {}
+    },
+    {
+      "title": "The Public Suffix List",
+      "url": "https://github.com/publicsuffix/list",
+      "category": "hostnames-and-subdomains",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L631",
+      "line": 631,
+      "properties": {}
+    },
+    {
+      "title": "Country IP Blocks",
+      "url": "https://github.com/herrbischoff/country-ip-blocks",
+      "category": "hostnames-and-subdomains",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L633",
+      "line": 633,
+      "properties": {}
+    },
+    {
+      "title": "#1",
+      "url": "https://gist.github.com/artgon/5366868",
+      "category": "hostnames-and-subdomains",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L635",
+      "line": 635,
+      "properties": {}
+    },
+    {
+      "title": "common-domain-prefix-suffix-list.tsv",
+      "url": "https://gist.github.com/erikig/826f49442929e9ecfab6d7c481870700",
+      "category": "hostnames-and-subdomains",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L637",
+      "line": 637,
+      "properties": {}
+    },
+    {
+      "title": "xkeyscorerules100.txt",
+      "url": "https://gist.github.com/sehrgut/324626fa370f044dbca7",
+      "category": "hostnames-and-subdomains",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L639",
+      "line": 639,
+      "properties": {}
+    },
+    {
+      "title": "AMF site blocklist",
+      "url": "https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-noires-et-mises-en-garde",
+      "category": "hostnames-and-subdomains",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L641",
+      "line": 641,
+      "properties": {}
+    },
+    {
+      "title": "Burner email providers",
+      "url": "https://github.com/wesbos/burner-email-providers",
+      "category": "emails",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L645",
+      "line": 645,
+      "properties": {}
+    },
+    {
+      "title": "MailChecker",
+      "url": "https://github.com/FGRibreau/mailchecker",
+      "category": "emails",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L647",
+      "line": 647,
+      "properties": {}
+    },
+    {
+      "title": "check-if-email-exists",
+      "url": "https://github.com/reacherhq/check-if-email-exists",
+      "category": "emails",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L649",
+      "line": 649,
+      "properties": {}
+    },
+    {
+      "title": "Temporary Email Address Domains",
+      "url": "https://gist.github.com/adamloving/4401361",
+      "category": "emails",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L651",
+      "line": 651,
+      "properties": {}
+    },
+    {
+      "title": "gman",
+      "url": "https://github.com/benbalter/gman",
+      "category": "emails",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L653",
+      "line": 653,
+      "properties": {}
+    },
+    {
+      "title": "General List of Reserved Words",
+      "url": "https://gist.github.com/stuartpb/5710271",
+      "category": "reserved-ids",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L657",
+      "line": 657,
+      "properties": {}
+    },
+    {
+      "title": "Hostnames and usernames to reserve",
+      "url": "https://ldpreload.com/blog/names-to-reserve",
+      "category": "reserved-ids",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L659",
+      "line": 659,
+      "properties": {}
+    },
+    {
+      "title": "List of Dirty, Naughty, Obscene, and Otherwise Bad Words",
+      "url": "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+      "category": "profanity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L663",
+      "line": 663,
+      "properties": {}
+    },
+    {
+      "title": "profanity-check",
+      "url": "https://github.com/vzhou842/profanity-check",
+      "category": "profanity",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L665",
+      "line": 665,
+      "properties": {}
+    },
+    {
+      "title": "Paper we love: Privacy",
+      "url": "https://github.com/papers-we-love/papers-we-love/tree/master/privacy",
+      "category": "privacy",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L671",
+      "line": 671,
+      "properties": {}
+    },
+    {
+      "title": "Have I been Pwned?",
+      "url": "https://haveibeenpwned.com/",
+      "category": "privacy",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "Automated security testing for Software Developers",
+      "url": "https://fahrplan.events.ccc.de/camp/2019/Fahrplan/system/event_attachments/attachments/000/003/798/original/security_cccamp.pdf",
+      "category": "privacy",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L675",
+      "line": 675,
+      "properties": {}
+    },
+    {
+      "title": "Email marketing regulations around the world",
+      "url": "https://github.com/threeheartsdigital/email-marketing-regulations",
+      "category": "privacy",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L677",
+      "line": 677,
+      "properties": {}
+    },
+    {
+      "title": "The False Allure of Hashing for Anonymization",
+      "url": "https://web.archive.org/web/20220927004103/https://goteleport.com/blog/hashing-for-anonymization/",
+      "category": "anonymization",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L683",
+      "line": 683,
+      "properties": {}
+    },
+    {
+      "title": "Four cents to deanonymize: Companies reverse hashed email addresses",
+      "url": "https://freedom-to-tinker.com/2018/04/09/four-cents-to-deanonymize-companies-reverse-hashed-email-addresses/",
+      "category": "anonymization",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L685",
+      "line": 685,
+      "properties": {}
+    },
+    {
+      "title": "Why differential privacy is awesome",
+      "url": "https://desfontain.es/privacy/differential-privacy-awesomeness.html",
+      "category": "anonymization",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L687",
+      "line": 687,
+      "properties": {}
+    },
+    {
+      "title": "Presidio",
+      "url": "https://github.com/microsoft/presidio",
+      "category": "anonymization",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L689",
+      "line": 689,
+      "properties": {}
+    },
+    {
+      "title": "GDPR Tracker",
+      "url": "https://gdpr.eu/",
+      "category": "gdpr",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L695",
+      "line": 695,
+      "properties": {}
+    },
+    {
+      "title": "GDPR Developer Guide",
+      "url": "https://github.com/LINCnil/GDPR-Developer-Guide",
+      "category": "gdpr",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L697",
+      "line": 697,
+      "properties": {}
+    },
+    {
+      "title": "GDPR – A Practical guide for Developers",
+      "url": "https://techblog.bozho.net/gdpr-practical-guide-developers/",
+      "category": "gdpr",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L699",
+      "line": 699,
+      "properties": {}
+    },
+    {
+      "title": "Dark Patterns after the GDPR",
+      "url": "https://arxiv.org/pdf/2001.02479.pdf",
+      "category": "gdpr",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L701",
+      "line": 701,
+      "properties": {}
+    },
+    {
+      "title": "GDPR Enforcement Tracker",
+      "url": "http://enforcementtracker.com/",
+      "category": "gdpr",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L703",
+      "line": 703,
+      "properties": {}
+    },
+    {
+      "title": "The 2020 State of SaaS Product Onboarding",
+      "url": "https://userpilot.com/saas-product-onboarding/",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L709",
+      "line": 709,
+      "properties": {}
+    },
+    {
+      "title": "User Onboarding Teardowns",
+      "url": "https://www.useronboard.com/user-onboarding-teardowns/",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L711",
+      "line": 711,
+      "properties": {}
+    },
+    {
+      "title": "Discover UI Design Decisions Of Leading Companies",
+      "url": "https://goodui.org/leaks/",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L713",
+      "line": 713,
+      "properties": {}
+    },
+    {
+      "title": "Conversion Optimization",
+      "url": "https://web.archive.org/web/2020/https://www.nickkolenda.com/conversion-optimization-psychology/#cro-tactic11",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L715",
+      "line": 715,
+      "properties": {}
+    },
+    {
+      "title": "11 Tips for Better Signup / Login UX",
+      "url": "https://learnui.design/blog/tips-signup-login-ux.html",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L717",
+      "line": 717,
+      "properties": {}
+    },
+    {
+      "title": "Don't get clever with login forms",
+      "url": "http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L719",
+      "line": 719,
+      "properties": {}
+    },
+    {
+      "title": "Why are the username and password on two different pages?",
+      "url": "https://www.twilio.com/blog/why-username-and-password-on-two-different-pages",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L721",
+      "line": 721,
+      "properties": {}
+    },
+    {
+      "title": "HTML attributes to improve your users' two factor authentication experience",
+      "url": "https://www.twilio.com/blog/html-attributes-two-factor-authentication-autocomplete",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L723",
+      "line": 723,
+      "properties": {}
+    },
+    {
+      "title": "Remove password masking",
+      "url": "http://passwordmasking.com/",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L725",
+      "line": 725,
+      "properties": {}
+    },
+    {
+      "title": "For anybody who thinks \"I could build that in a weekend,\" this is how Slack decides to send a notification",
+      "url": "https://twitter.com/ProductHunt/status/979912670970249221",
+      "category": "uxui",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L727",
+      "line": 727,
+      "properties": {}
+    },
+    {
+      "title": "Best-of Digital Identity",
+      "url": "https://github.com/jruizaranguren/best-of-digital-identity",
+      "category": "competitive-analysis",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L733",
+      "line": 733,
+      "properties": {}
+    },
+    {
+      "title": "AWS Security, Identity & Compliance announcements",
+      "url": "https://aws.amazon.com/new/?whats-new-content-all.sort-by=item.additionalFields.postDateTime&whats-new-content-all.sort-order=desc&awsf.whats-new-categories=marketing-marchitecture%23security-identity-and-compliance",
+      "category": "competitive-analysis",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L735",
+      "line": 735,
+      "properties": {}
+    },
+    {
+      "title": "GCP IAM release notes",
+      "url": "https://cloud.google.com/iam/docs/release-notes",
+      "category": "competitive-analysis",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L737",
+      "line": 737,
+      "properties": {}
+    },
+    {
+      "title": "Unofficial Weekly Google Cloud Platform newsletter",
+      "url": "https://www.gcpweekly.com/",
+      "category": "competitive-analysis",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L739",
+      "line": 739,
+      "properties": {}
+    },
+    {
+      "title": "DigitalOcean Accounts changelog",
+      "url": "http://docs.digitalocean.com/release-notes/accounts/",
+      "category": "competitive-analysis",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L741",
+      "line": 741,
+      "properties": {}
+    },
+    {
+      "title": "163 AWS services explained in one line each",
+      "url": "https://web.archive.org/web/20260301070017/https://adayinthelifeof.nl/2020/05/20/aws.html#discovering-aws",
+      "category": "competitive-analysis",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L743",
+      "line": 743,
+      "properties": {}
+    },
+    {
+      "title": "Google Cloud Developer's Cheat Sheet",
+      "url": "https://github.com/gregsramblings/google-cloud-4-words#the-google-cloud-developers-cheat-sheet",
+      "category": "competitive-analysis",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L745",
+      "line": 745,
+      "properties": {}
+    },
+    {
+      "title": "cryptoanarchy.wiki",
+      "url": "https://cryptoanarchy.wiki/",
+      "category": "history",
+      "source_url": "https://github.com/kdeldycke/awesome-iam/blob/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4/readme.md#L749",
+      "line": 749,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 233,
+  "unique_links": 233,
+  "category_count": 44,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by kdeldycke/awesome-iam contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/kdeldycke/awesome-iam/tree/ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4",
+  "digest": "0b4ad24031e7a822fa572394b32bf91061bfb0e10c2600f9bd43b283f472609b"
+}

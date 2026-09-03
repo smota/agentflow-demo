@@ -1,0 +1,2082 @@
+{
+  "format_version": 2,
+  "repository_id": "895801050",
+  "name": "appcypher/awesome-mcp-servers",
+  "revision": "280218b4bba97a49facf929f8012dec5e30384b6",
+  "readme_path": "README.md",
+  "readme_sha256": "1345bae910873dea7c40d1f8765a6f192a1db8d5f5c4c59c10b3e7ecae63908a",
+  "sections": [
+    {
+      "id": "awesome-mcp-servers",
+      "title": "Awesome MCP Servers",
+      "level": 1,
+      "path": [
+        "Awesome MCP Servers"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#awesome-mcp-servers",
+      "entries": 0
+    },
+    {
+      "id": "-security-warning",
+      "title": "⚠️ Security Warning",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "⚠️ Security Warning"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-security-warning",
+      "entries": 0
+    },
+    {
+      "id": "examples-of-supported-clients",
+      "title": "Examples of Supported Clients",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "Examples of Supported Clients"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#examples-of-supported-clients",
+      "entries": 14
+    },
+    {
+      "id": "server-implementations",
+      "title": "Server Implementations",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "Server Implementations"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#server-implementations",
+      "entries": 0
+    },
+    {
+      "id": "tools--utilities",
+      "title": "Tools & Utilities",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "Tools & Utilities"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#tools--utilities",
+      "entries": 0
+    },
+    {
+      "id": "-a-namefile-systemsafile-systems",
+      "title": "📂 <a name=\"file-systems\"></a>File Systems",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "📂 <a name=\"file-systems\"></a>File Systems"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namefile-systemsafile-systems",
+      "entries": 7
+    },
+    {
+      "id": "-a-namevirtualizationasandbox--virtualization",
+      "title": "📦 <a name=\"virtualization\"></a>Sandbox & Virtualization",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "📦 <a name=\"virtualization\"></a>Sandbox & Virtualization"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namevirtualizationasandbox--virtualization",
+      "entries": 3
+    },
+    {
+      "id": "-a-nameversion-controlaversion-control",
+      "title": "🔄 <a name=\"version-control\"></a>Version Control",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🔄 <a name=\"version-control\"></a>Version Control"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameversion-controlaversion-control",
+      "entries": 6
+    },
+    {
+      "id": "-a-namecloud-storageacloud-storage",
+      "title": "☁ <a name=\"cloud-storage\"></a>Cloud Storage",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "☁ <a name=\"cloud-storage\"></a>Cloud Storage"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namecloud-storageacloud-storage",
+      "entries": 4
+    },
+    {
+      "id": "-a-namedocument-processinga-document-processing",
+      "title": "🗒️ <a name=\"document-processing\"></a> Document Processing",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🗒️ <a name=\"document-processing\"></a> Document Processing"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namedocument-processinga-document-processing",
+      "entries": 1
+    },
+    {
+      "id": "-a-namedatabasesadatabases",
+      "title": "🗄️ <a name=\"databases\"></a>Databases",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🗄️ <a name=\"databases\"></a>Databases"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namedatabasesadatabases",
+      "entries": 19
+    },
+    {
+      "id": "-a-namecommunicationacommunication",
+      "title": "💬 <a name=\"communication\"></a>Communication",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "💬 <a name=\"communication\"></a>Communication"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namecommunicationacommunication",
+      "entries": 6
+    },
+    {
+      "id": "-a-namemonitoringamonitoring",
+      "title": "📈 <a name=\"monitoring\"></a>Monitoring",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "📈 <a name=\"monitoring\"></a>Monitoring"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namemonitoringamonitoring",
+      "entries": 6
+    },
+    {
+      "id": "-a-namesearch-webasearch--web",
+      "title": "🔍 <a name=\"search-web\"></a>Search & Web",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🔍 <a name=\"search-web\"></a>Search & Web"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namesearch-webasearch--web",
+      "entries": 23
+    },
+    {
+      "id": "-a-namelocation-servicesalocation-services",
+      "title": "🗺️ <a name=\"location-services\"></a>Location Services",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🗺️ <a name=\"location-services\"></a>Location Services"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namelocation-servicesalocation-services",
+      "entries": 5
+    },
+    {
+      "id": "-a-namemarketingamarketing",
+      "title": "🎯 <a name=\"marketing\"></a>Marketing",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🎯 <a name=\"marketing\"></a>Marketing"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namemarketingamarketing",
+      "entries": 5
+    },
+    {
+      "id": "-a-namenote-takinganote-taking",
+      "title": "📝 <a name=\"note-taking\"></a>Note Taking",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "📝 <a name=\"note-taking\"></a>Note Taking"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namenote-takinganote-taking",
+      "entries": 10
+    },
+    {
+      "id": "-a-namecloud-platformsacloud-platforms",
+      "title": "⚡ <a name=\"cloud-platforms\"></a>Cloud Platforms",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "⚡ <a name=\"cloud-platforms\"></a>Cloud Platforms"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namecloud-platformsacloud-platforms",
+      "entries": 5
+    },
+    {
+      "id": "-a-nameworkflow-automationaworkflow-automation",
+      "title": "⚙️ <a name=\"workflow-automation\"></a>Workflow Automation",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "⚙️ <a name=\"workflow-automation\"></a>Workflow Automation"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameworkflow-automationaworkflow-automation",
+      "entries": 2
+    },
+    {
+      "id": "-a-namesystem-automationasystem-automation",
+      "title": "🤖 <a name=\"system-automation\"></a>System Automation",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🤖 <a name=\"system-automation\"></a>System Automation"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namesystem-automationasystem-automation",
+      "entries": 5
+    },
+    {
+      "id": "-a-namesocial-mediaasocial-media",
+      "title": "📱 <a name=\"social-media\"></a>Social Media",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "📱 <a name=\"social-media\"></a>Social Media"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namesocial-mediaasocial-media",
+      "entries": 5
+    },
+    {
+      "id": "-a-namegamingagaming",
+      "title": "🎮 <a name=\"gaming\"></a>Gaming",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🎮 <a name=\"gaming\"></a>Gaming"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namegamingagaming",
+      "entries": 3
+    },
+    {
+      "id": "-a-namefinanceafinance",
+      "title": "💹 <a name=\"finance\"></a>Finance",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "💹 <a name=\"finance\"></a>Finance"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namefinanceafinance",
+      "entries": 9
+    },
+    {
+      "id": "-a-nameresearch-dataaresearch--data",
+      "title": "🧬 <a name=\"research-data\"></a>Research & Data",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🧬 <a name=\"research-data\"></a>Research & Data"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameresearch-dataaresearch--data",
+      "entries": 5
+    },
+    {
+      "id": "-a-nameai-servicesaai-services",
+      "title": "🤝 <a name=\"ai-services\"></a>AI Services",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🤝 <a name=\"ai-services\"></a>AI Services"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameai-servicesaai-services",
+      "entries": 10
+    },
+    {
+      "id": "-a-namedevelopment-toolsadevelopment-tools",
+      "title": "💻 <a name=\"development-tools\"></a>Development Tools",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "💻 <a name=\"development-tools\"></a>Development Tools"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namedevelopment-toolsadevelopment-tools",
+      "entries": 20
+    },
+    {
+      "id": "-a-namedata-visualizationadata-visualization",
+      "title": "📊 <a name=\"data-visualization\"></a>Data Visualization",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "📊 <a name=\"data-visualization\"></a>Data Visualization"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namedata-visualizationadata-visualization",
+      "entries": 5
+    },
+    {
+      "id": "-a-nameidentityaidentity",
+      "title": "🆔 <a name=\"identity\"></a>Identity",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🆔 <a name=\"identity\"></a>Identity"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameidentityaidentity",
+      "entries": 1
+    },
+    {
+      "id": "-a-nameaggregatorsaaggregators",
+      "title": "🔗 <a name=\"aggregators\"></a>Aggregators",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🔗 <a name=\"aggregators\"></a>Aggregators"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameaggregatorsaaggregators",
+      "entries": 4
+    },
+    {
+      "id": "-a-namelanguagealanguage--translation",
+      "title": "💬 <a name=\"language\"></a>Language & Translation",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "💬 <a name=\"language\"></a>Language & Translation"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namelanguagealanguage--translation",
+      "entries": 1
+    },
+    {
+      "id": "-a-namesecurityasecurity",
+      "title": "🔒 <a name=\"security\"></a>Security",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🔒 <a name=\"security\"></a>Security"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namesecurityasecurity",
+      "entries": 9
+    },
+    {
+      "id": "-a-nameiotaiot",
+      "title": "🔌 <a name=\"iot\"></a>IoT",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🔌 <a name=\"iot\"></a>IoT"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameiotaiot",
+      "entries": 1
+    },
+    {
+      "id": "-a-nameart-literatureaart--literature",
+      "title": "🧑‍🎨 <a name=\"art-literature\"></a>Art & Literature",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🧑‍🎨 <a name=\"art-literature\"></a>Art & Literature"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameart-literatureaart--literature",
+      "entries": 1
+    },
+    {
+      "id": "-a-namee-commerceae-commerce",
+      "title": "🛒 <a name=\"e-commerce\"></a>E-Commerce",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🛒 <a name=\"e-commerce\"></a>E-Commerce"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namee-commerceae-commerce",
+      "entries": 2
+    },
+    {
+      "id": "-a-namedata-platformsadata-platforms",
+      "title": "📦 <a name=\"data-platforms\"></a>Data Platforms",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "📦 <a name=\"data-platforms\"></a>Data Platforms"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-namedata-platformsadata-platforms",
+      "entries": 1
+    },
+    {
+      "id": "-a-nameroboticsarobotics--physical-ai",
+      "title": "🤖 <a name=\"robotics\"></a>Robotics & Physical AI",
+      "level": 2,
+      "path": [
+        "Awesome MCP Servers",
+        "🤖 <a name=\"robotics\"></a>Robotics & Physical AI"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#-a-nameroboticsarobotics--physical-ai",
+      "entries": 1
+    },
+    {
+      "id": "tools--utilities-1",
+      "title": "Tools & Utilities",
+      "level": 1,
+      "path": [
+        "Tools & Utilities"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#tools--utilities-1",
+      "entries": 0
+    },
+    {
+      "id": "server-managers",
+      "title": "Server Managers",
+      "level": 3,
+      "path": [
+        "Tools & Utilities",
+        "Server Managers"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#server-managers",
+      "entries": 5
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 3,
+      "path": [
+        "Tools & Utilities",
+        "License"
+      ],
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "<div align=\"center\"><img src=\"https://github.com/user-attachments/assets/b0ea1e57-df16-4b04-9276-1980e17ab6ec\" height=\"20\"/></div>",
+      "url": "https://www.claudedesktop.com/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://zed.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_icon.d67dc948.webp&w=64&q=100\" height=\"20\"/></div>",
+      "url": "https://zed.dev/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://storage.googleapis.com/sourcegraph-assets/docs/images/cody/cody-logomark-default.svg\" height=\"20\"/></div>",
+      "url": "https://sourcegraph.com/cody",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://cdn.prod.website-files.com/663e06c56841363663ffbbcf/664c918ec47bacdd3acdc167_favicon%408x.png\" height=\"20\"/></div>",
+      "url": "https://sourcegraph.com/cody",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://github.com/user-attachments/assets/211d0c2b-04de-471e-b1ed-97da94a58d82\" height=\"20\"/></div>",
+      "url": "https://github.com/Upsonic/gpt-computer-assistant",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/danny-avila/LibreChat/0855677a36d76cafa5e064b7e346eb3f74c6af2a/client/public/assets/logo.svg\" height=\"20\"/></div>",
+      "url": "https://www.librechat.ai/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://cursor.com/favicon.ico\" height=\"20\"/></div>",
+      "url": "https://www.cursor.com/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://www.enconvo.com/favicon.ico\" height=\"20\"/></div>",
+      "url": "https://www.enconvo.com/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://block.github.io/goose/img/logo_light.png\" height=\"20\"/></div>",
+      "url": "https://block.github.io/goose/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/evilsocket/search/refs/heads/main/logo.png\" height=\"20\"/></div>",
+      "url": "https://github.com/evilsocket/nerve",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/mcp-router/mcp-router/refs/heads/main/static/img/logo.svg\" height=\"20\"/></div>",
+      "url": "https://mcp-router.net/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pietrozullo/mcp-use/refs/heads/main/docs/favicon.svg\" height=\"20\"/></div>",
+      "url": "https://github.com/pietrozullo/mcp-use",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://wassist.app/whatsmcp.png\" height=\"20\"/></div>",
+      "url": "https://wassist.app/mcp/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "<div align=\"center\"><img src=\"https://github.com/user-attachments/assets/7d5442e5-4542-4942-afde-a55d5288a40c\" height=\"20\"/></div>",
+      "url": "https://code.visualstudio.com/",
+      "category": "examples-of-supported-clients",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Backup",
+      "url": "https://github.com/hexitex/MCP-Backup-Server",
+      "category": "-a-namefile-systemsafile-systems",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "FileStash",
+      "url": "https://github.com/mickael-kerjean/filestash/tree/master/server/plugin/plg_handler_mcp",
+      "category": "-a-namefile-systemsafile-systems",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "FileSystem",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+      "category": "-a-namefile-systemsafile-systems",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "FileSystem",
+      "url": "https://github.com/mark3labs/mcp-filesystem-server",
+      "category": "-a-namefile-systemsafile-systems",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Everything Search",
+      "url": "https://github.com/mamertofabian/mcp-everything-search",
+      "category": "-a-namefile-systemsafile-systems",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "fast-filesystem-mcp",
+      "url": "https://github.com/efforthye/fast-filesystem-mcp",
+      "category": "-a-namefile-systemsafile-systems",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "llm-context",
+      "url": "https://github.com/cyberchitta/llm-context.py",
+      "category": "-a-namefile-systemsafile-systems",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Microsandbox",
+      "url": "https://github.com/microsandbox/microsandbox",
+      "category": "-a-namevirtualizationasandbox--virtualization",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "E2B",
+      "url": "https://github.com/e2b-dev/mcp-server",
+      "category": "-a-namevirtualizationasandbox--virtualization",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Docker",
+      "url": "https://github.com/QuantGeekDev/docker-mcp",
+      "category": "-a-namevirtualizationasandbox--virtualization",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/github/github-mcp-server",
+      "category": "-a-nameversion-controlaversion-control",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/kurdin/github-repos-manager-mcp",
+      "category": "-a-nameversion-controlaversion-control",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "GitLab",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab",
+      "category": "-a-nameversion-controlaversion-control",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Git",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+      "category": "-a-nameversion-controlaversion-control",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Phabricator",
+      "url": "https://github.com/baba786/phabricator-mcp-server",
+      "category": "-a-nameversion-controlaversion-control",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Gitingest-MCP",
+      "url": "https://github.com/puravparab/Gitingest-MCP",
+      "category": "-a-nameversion-controlaversion-control",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Google Drive",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive",
+      "category": "-a-namecloud-storageacloud-storage",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Box",
+      "url": "https://developer.box.com/guides/box-mcp/",
+      "category": "-a-namecloud-storageacloud-storage",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "VideoDB",
+      "url": "https://github.com/video-db/agent-toolkit/tree/main/modelcontextprotocol",
+      "category": "-a-namecloud-storageacloud-storage",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft 365",
+      "url": "https://github.com/softeria/ms-365-mcp-server",
+      "category": "-a-namecloud-storageacloud-storage",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Adeu",
+      "url": "https://github.com/dealfluence/adeu",
+      "category": "-a-namedocument-processinga-document-processing",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "PostgreSQL",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "SQLite",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "DuckDB",
+      "url": "https://github.com/ktanaka101/mcp-server-duckdb",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Excel",
+      "url": "https://github.com/haris-musa/excel-mcp-server",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "BigQuery",
+      "url": "https://github.com/LucasHild/mcp-server-bigquery",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "BigQuery",
+      "url": "https://github.com/ergut/mcp-bigquery-server",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Neon",
+      "url": "https://github.com/neondatabase/mcp-server-neon",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Qdrant",
+      "url": "https://github.com/qdrant/mcp-server-qdrant/",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "MongoDB",
+      "url": "https://github.com/kiliczsh/mcp-mongo-server",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "MongoDB Lens",
+      "url": "https://github.com/furey/mongodb-lens",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "MySQL",
+      "url": "https://github.com/designcomputer/mysql_mcp_server",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "Airtable",
+      "url": "https://github.com/domdomegg/airtable-mcp-server",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Snowflake",
+      "url": "https://github.com/isaacwasserman/mcp-snowflake-server",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "DBUtils",
+      "url": "https://github.com/donghao1393/mcp-dbutils",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "TiDB",
+      "url": "https://github.com/c4pt0r/mcp-server-tidb",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "NocoDB",
+      "url": "https://github.com/edwinbernadus/nocodb-mcp-server",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Couchbase",
+      "url": "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Redis",
+      "url": "https://github.com/redis/mcp-redis",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "VideoDB Director",
+      "url": "https://github.com/video-db/agent-toolkit/tree/main/modelcontextprotocol",
+      "category": "-a-namedatabasesadatabases",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Slack",
+      "url": "https://github.com/korotovsky/slack-mcp-server",
+      "category": "-a-namecommunicationacommunication",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "LINE Official Account",
+      "url": "https://github.com/line/line-bot-mcp-server",
+      "category": "-a-namecommunicationacommunication",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Linear",
+      "url": "https://github.com/jerhadf/linear-mcp-server",
+      "category": "-a-namecommunicationacommunication",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Atlassian",
+      "url": "https://github.com/sooperset/mcp-atlassian",
+      "category": "-a-namecommunicationacommunication",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Carbon Voice",
+      "url": "https://github.com/PhononX/cv-mcp-server",
+      "category": "-a-namecommunicationacommunication",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "ntfy",
+      "url": "https://github.com/gitmotion/ntfy-me-mcp",
+      "category": "-a-namecommunicationacommunication",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Metoro",
+      "url": "https://github.com/metoro-io/metoro-mcp-server",
+      "category": "-a-namemonitoringamonitoring",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Raygun",
+      "url": "https://github.com/MindscapeHQ/mcp-server-raygun",
+      "category": "-a-namemonitoringamonitoring",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Sentry",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sentry",
+      "category": "-a-namemonitoringamonitoring",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "sslmon",
+      "url": "https://github.com/firesh/sslmon-mcp",
+      "category": "-a-namemonitoringamonitoring",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Signoz",
+      "url": "https://github.com/DrDroidLab/signoz-mcp-server",
+      "category": "-a-namemonitoringamonitoring",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "VictoriaMetrics",
+      "url": "https://github.com/VictoriaMetrics-Community/mcp-victoriametrics",
+      "category": "-a-namemonitoringamonitoring",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Puppeteer",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Brave Search",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Bright Data",
+      "url": "https://github.com/luminati-io/brightdata-mcp",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Dumpling AI",
+      "url": "https://github.com/Dumpling-AI/mcp-server-dumplingai",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Fetch",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "Kagi Search",
+      "url": "https://github.com/ac3xx/mcp-servers-kagi",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "Exa Search",
+      "url": "https://github.com/exa-labs/exa-mcp-server",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "NYTimes",
+      "url": "https://github.com/angheljf/nyt",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Google News",
+      "url": "https://github.com/ChanMeng666/server-google-news",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Scrapeless",
+      "url": "https://github.com/scrapeless-ai/scrapeless-mcp-server",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Search1API",
+      "url": "https://github.com/fatwang2/search1api-mcp",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "RivalSearchMCP",
+      "url": "https://github.com/damionrashford/RivalSearchMCP",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "Tavily",
+      "url": "https://github.com/Tomatio13/mcp-server-tavily",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "ArXiv",
+      "url": "https://github.com/blazickjp/arxiv-mcp-server",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "PapersWithCode",
+      "url": "https://github.com/hbg/mcp-paperswithcode",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "Playwright",
+      "url": "https://github.com/executeautomation/mcp-playwright",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Websearch",
+      "url": "https://github.com/mnhlt/WebSearch-MCP",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "Browser Control",
+      "url": "https://github.com/eyalzh/browser-control-mcp",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Apify Actors",
+      "url": "https://github.com/apify/actors-mcp-server",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "RAG Web Browser",
+      "url": "https://github.com/apify/mcp-server-rag-web-browser",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Skyvern",
+      "url": "https://github.com/Skyvern-AI/skyvern/tree/main/integrations/mcp",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Ihor-Sokoliuk/MCP-SearXNG",
+      "url": "https://github.com/ihor-sokoliuk/mcp-searxng",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "mcp-server-webcrawl",
+      "url": "https://github.com/pragmar/mcp-server-webcrawl",
+      "category": "-a-namesearch-webasearch--web",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Campertunity",
+      "url": "https://github.com/campertunity/mcp-server",
+      "category": "-a-namelocation-servicesalocation-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Google Maps",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps",
+      "category": "-a-namelocation-servicesalocation-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "IPLocate",
+      "url": "https://github.com/iplocate/mcp-server-iplocate",
+      "category": "-a-namelocation-servicesalocation-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "IP2Location.io",
+      "url": "https://github.com/ip2location/mcp-ip2location-io",
+      "category": "-a-namelocation-servicesalocation-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "QGIS",
+      "url": "https://github.com/jjsantos01/qgis_mcp",
+      "category": "-a-namelocation-servicesalocation-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Agent Mindshare",
+      "url": "https://agentmindshare.com/",
+      "category": "-a-namemarketingamarketing",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Open Strategy Partners Marketing Tools",
+      "url": "https://github.com/open-strategy-partners/osp_marketing_tools",
+      "category": "-a-namemarketingamarketing",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "Fathom Analytics",
+      "url": "https://github.com/mackenly/mcp-fathom-analytics",
+      "category": "-a-namemarketingamarketing",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Facebook Ads",
+      "url": "https://github.com/gomarble-ai/facebook-ads-mcp-server",
+      "category": "-a-namemarketingamarketing",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Google Ads",
+      "url": "https://github.com/gomarble-ai/google-ads-mcp-server",
+      "category": "-a-namemarketingamarketing",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Apple Books",
+      "url": "https://github.com/vgnshiyer/apple-books-mcp",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "eBook-mcp",
+      "url": "https://github.com/onebirdrocks/ebook-mcp",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "Obsidian",
+      "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Obsidian",
+      "url": "https://github.com/calclavia/mcp-obsidian",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Notion",
+      "url": "https://github.com/danhilse/notion_mcp",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Notion",
+      "url": "https://github.com/suekou/mcp-notion-server",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "Apple Notes",
+      "url": "https://github.com/sirmews/apple-notes-mcp",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Slite",
+      "url": "https://github.com/fajarmf/slite-mcp",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Todoist",
+      "url": "https://github.com/abhiz123/todoist-mcp-server",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Google Keep",
+      "url": "https://github.com/feuerdev/keep-mcp",
+      "category": "-a-namenote-takinganote-taking",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Cloudflare",
+      "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "category": "-a-namecloud-platformsacloud-platforms",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes",
+      "url": "https://github.com/strowk/mcp-k8s-go",
+      "category": "-a-namecloud-platformsacloud-platforms",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes",
+      "url": "https://github.com/weibaohui/k8m",
+      "category": "-a-namecloud-platformsacloud-platforms",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "MKP",
+      "url": "https://github.com/StacklokLabs/mkp",
+      "category": "-a-namecloud-platformsacloud-platforms",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "Tinybird",
+      "url": "https://github.com/tinybirdco/mcp-tinybird",
+      "category": "-a-namecloud-platformsacloud-platforms",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "Make",
+      "url": "https://github.com/integromat/make-mcp-server",
+      "category": "-a-nameworkflow-automationaworkflow-automation",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "Taskade MCP",
+      "url": "https://github.com/taskade/mcp",
+      "category": "-a-nameworkflow-automationaworkflow-automation",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "Shell",
+      "url": "https://github.com/rusiaaman/wcgw",
+      "category": "-a-namesystem-automationasystem-automation",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "Windows CLI",
+      "url": "https://github.com/SimonB97/win-cli-mcp-server",
+      "category": "-a-namesystem-automationasystem-automation",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "Windows Control",
+      "url": "https://github.com/Cheffromspace/nutjs-windows-control",
+      "category": "-a-namesystem-automationasystem-automation",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Command Line",
+      "url": "https://github.com/phialsbasement/cmd-mcp-server",
+      "category": "-a-namesystem-automationasystem-automation",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "Apple Shortcuts",
+      "url": "https://github.com/recursechat/mcp-server-apple-shortcuts",
+      "category": "-a-namesystem-automationasystem-automation",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "BlueSky",
+      "url": "https://github.com/keturiosakys/bluesky-context-server",
+      "category": "-a-namesocial-mediaasocial-media",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "YouTube",
+      "url": "https://github.com/anaisbetts/mcp-youtube",
+      "category": "-a-namesocial-mediaasocial-media",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "YouTube",
+      "url": "https://github.com/kimtaeyoon83/mcp-server-youtube-transcript",
+      "category": "-a-namesocial-mediaasocial-media",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "Spotify",
+      "url": "https://github.com/varunneal/spotify-mcp",
+      "category": "-a-namesocial-mediaasocial-media",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "TikTok",
+      "url": "https://github.com/Seym0n/tiktok-mcp",
+      "category": "-a-namesocial-mediaasocial-media",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "Unity Engine",
+      "url": "https://github.com/IvanMurzak/Unity-MCP",
+      "category": "-a-namegamingagaming",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "UnityEngine",
+      "url": "https://github.com/CoderGamester/mcp-unity",
+      "category": "-a-namegamingagaming",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Unity Engine",
+      "url": "https://github.com/codemaestroai/advanced-unity-mcp",
+      "category": "-a-namegamingagaming",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Octagon",
+      "url": "https://github.com/OctagonAI/octagon-mcp-server",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "CoinMarket",
+      "url": "https://github.com/anjor/coinmarket-mcp-server",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "Chargebee",
+      "url": "https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "DexPaprika",
+      "url": "https://github.com/donbagger/dexpaprika-mcp-server",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "Mercado Pago",
+      "url": "https://mcp.mercadopago.com/",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "PayPal",
+      "url": "https://github.com/paypal/agent-toolkit/tree/main/modelcontextprotocol",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "Stripe",
+      "url": "https://github.com/stripe/agent-toolkit/tree/main",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "LongPort OpenAPI",
+      "url": "https://github.com/longportapp/openapi/tree/main/mcp",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "ZBD",
+      "url": "https://github.com/zebedeeio/zbd-payments-typescript-sdk/tree/main/packages/mcp-server",
+      "category": "-a-namefinanceafinance",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "ArXiv",
+      "url": "https://github.com/blazickjp/arxiv-mcp-server",
+      "category": "-a-nameresearch-dataaresearch--data",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "Ancestry",
+      "url": "https://github.com/reeeeemo/ancestry-mcp",
+      "category": "-a-nameresearch-dataaresearch--data",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "Probe.dev",
+      "url": "https://mcp.probe.dev/",
+      "category": "-a-nameresearch-dataaresearch--data",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "OpenNutrition",
+      "url": "https://github.com/deadletterq/mcp-opennutrition",
+      "category": "-a-nameresearch-dataaresearch--data",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "Congress",
+      "url": "https://github.com/amurshak/congressMCP",
+      "category": "-a-nameresearch-dataaresearch--data",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "Agentset AI",
+      "url": "https://github.com/agentset-ai/mcp-server",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI",
+      "url": "https://github.com/pierrebrunelle/mcp-server-openai",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Compatible Chat",
+      "url": "https://github.com/pyroprompts/any-chat-completions-mcp",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "Perplexity",
+      "url": "https://github.com/tanigami/mcp-server-perplexity",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "LlamaCloud",
+      "url": "https://github.com/run-llama/mcp-server-llamacloud",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "HuggingFace Spaces",
+      "url": "https://github.com/evalstate/mcp-hfspace",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "PiAPI",
+      "url": "https://github.com/apinetwork/piapi-mcp-server",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "Chronulus AI",
+      "url": "https://github.com/ChronulusAI/chronulus-mcp",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "Creatify",
+      "url": "https://github.com/TSavo/creatify-mcp",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "ZenML",
+      "url": "https://github.com/zenml-io/mcp-zenml",
+      "category": "-a-nameai-servicesaai-services",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "CentralMind/Gateway",
+      "url": "https://github.com/centralmind/gateway",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "Currents",
+      "url": "https://github.com/currents-dev/currents-mcp",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "Octocode",
+      "url": "https://github.com/bgauryy/octocode-mcp",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "OpenAPI Schema Explorer",
+      "url": "https://github.com/kadykov/mcp-openapi-schema-explorer",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "OpenRPC",
+      "url": "https://github.com/shanejonas/openrpc-mpc-server",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "Postman",
+      "url": "https://github.com/delano/postman-mcp-server",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "QA Sphere",
+      "url": "https://github.com/Hypersequent/qasphere-mcp",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "marimo",
+      "url": "https://github.com/marimo-team/codemirror-mcp",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "Figma",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "Comet Opik",
+      "url": "https://github.com/comet-ml/opik-mcp",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L394",
+      "line": 394,
+      "properties": {}
+    },
+    {
+      "title": "VSCode Devtools",
+      "url": "https://github.com/biegehydra/BifrostMCP",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L395",
+      "line": 395,
+      "properties": {}
+    },
+    {
+      "title": "Mastra/mcp",
+      "url": "https://github.com/mastra-ai/mastra/tree/main/packages/mcp",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "Bucket",
+      "url": "https://github.com/bucketco/bucket-javascript-sdk/tree/main/packages/cli#model-context-protocol",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L397",
+      "line": 397,
+      "properties": {}
+    },
+    {
+      "title": "EdgeOne Pages",
+      "url": "https://github.com/TencentEdgeOne/edgeone-pages-mcp",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L398",
+      "line": 398,
+      "properties": {}
+    },
+    {
+      "title": "Globalping MCP",
+      "url": "https://github.com/jsdelivr/globalping-mcp-server",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L399",
+      "line": 399,
+      "properties": {}
+    },
+    {
+      "title": "GitKraken",
+      "url": "https://github.com/gitkraken/gk-cli",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L400",
+      "line": 400,
+      "properties": {}
+    },
+    {
+      "title": "https://intayer.org/fav",
+      "url": "https://intlayer.org/favicon-32x32.png",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L401",
+      "line": 401,
+      "properties": {}
+    },
+    {
+      "title": "tom28881/mcp-jira-server",
+      "url": "https://github.com/tom28881/mcp-jira-server",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L402",
+      "line": 402,
+      "properties": {}
+    },
+    {
+      "title": "Maven Tools MCP",
+      "url": "https://github.com/arvindand/maven-tools-mcp",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L403",
+      "line": 403,
+      "properties": {}
+    },
+    {
+      "title": "DefangLabs/defang",
+      "url": "https://github.com/DefangLabs/defang",
+      "category": "-a-namedevelopment-toolsadevelopment-tools",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "VegaLite",
+      "url": "https://github.com/isaacwasserman/mcp-vegalite-server",
+      "category": "-a-namedata-visualizationadata-visualization",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "Chart",
+      "url": "https://github.com/antvis/mcp-server-chart",
+      "category": "-a-namedata-visualizationadata-visualization",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "ECharts",
+      "url": "https://github.com/hustcc/mcp-echarts",
+      "category": "-a-namedata-visualizationadata-visualization",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "Mermaid",
+      "url": "https://github.com/hustcc/mcp-mermaid",
+      "category": "-a-namedata-visualizationadata-visualization",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L415",
+      "line": 415,
+      "properties": {}
+    },
+    {
+      "title": "unified-diff-mcp",
+      "url": "https://github.com/gorosun/unified-diff-mcp",
+      "category": "-a-namedata-visualizationadata-visualization",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "Keycloak",
+      "url": "https://github.com/ChristophEnglisch/keycloak-model-context-protocol",
+      "category": "-a-nameidentityaidentity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "MCPJungle",
+      "url": "https://github.com/mcpjungle/MCPJungle",
+      "category": "-a-nameaggregatorsaaggregators",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "Rube",
+      "url": "https://rube.composio.dev/",
+      "category": "-a-nameaggregatorsaaggregators",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "Pipedream",
+      "url": "https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol",
+      "category": "-a-nameaggregatorsaaggregators",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "Zapier",
+      "url": "https://zapier.com/mcp",
+      "category": "-a-nameaggregatorsaaggregators",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "Lara",
+      "url": "https://github.com/translated/lara-mcp",
+      "category": "-a-namelanguagealanguage--translation",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "Semgrep",
+      "url": "https://github.com/semgrep/mcp",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Entra ID",
+      "url": "https://github.com/hieuttmmo/entraid-mcp-server",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "Netwrix",
+      "url": "https://github.com/netwrix/mcp-server-naa",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "OSV",
+      "url": "https://github.com/StacklokLabs/osv-mcp",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "Vulert",
+      "url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/vulert.com",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L458",
+      "line": 458,
+      "properties": {}
+    },
+    {
+      "title": "CDSP",
+      "url": "https://github.com/sanyambassi/ciphertrust-manager-mcp-server",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "CAKM",
+      "url": "https://github.com/sanyambassi/thales-cdsp-cakm-mcp-server",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L460",
+      "line": 460,
+      "properties": {}
+    },
+    {
+      "title": "CRDP",
+      "url": "https://github.com/sanyambassi/thales-cdsp-crdp-mcp-server",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "CSM",
+      "url": "https://github.com/sanyambassi/thales-cdsp-csm-mcp-server",
+      "category": "-a-namesecurityasecurity",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L462",
+      "line": 462,
+      "properties": {}
+    },
+    {
+      "title": "Coreflux MQTT",
+      "url": "https://github.com/CorefluxCommunity/CorefluxMCPServer",
+      "category": "-a-nameiotaiot",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L470",
+      "line": 470,
+      "properties": {}
+    },
+    {
+      "title": "MCP Open Library",
+      "url": "https://github.com/8enSmith/mcp-open-library",
+      "category": "-a-nameart-literatureaart--literature",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L478",
+      "line": 478,
+      "properties": {}
+    },
+    {
+      "title": "Mercado Libre",
+      "url": "https://mcp.mercadolibre.com/",
+      "category": "-a-namee-commerceae-commerce",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L486",
+      "line": 486,
+      "properties": {}
+    },
+    {
+      "title": "ShopSavvy",
+      "url": "https://github.com/shopsavvy/shopsavvy-mcp-server",
+      "category": "-a-namee-commerceae-commerce",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L487",
+      "line": 487,
+      "properties": {}
+    },
+    {
+      "title": "Keboola",
+      "url": "https://github.com/keboola/keboola-mcp-server",
+      "category": "-a-namedata-platformsadata-platforms",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L495",
+      "line": 495,
+      "properties": {}
+    },
+    {
+      "title": "Bagel",
+      "url": "https://github.com/Extelligence-ai/bagel",
+      "category": "-a-nameroboticsarobotics--physical-ai",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L503",
+      "line": 503,
+      "properties": {}
+    },
+    {
+      "title": "mcp-get",
+      "url": "https://github.com/michaellatman/mcp-get",
+      "category": "server-managers",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "mxcp",
+      "url": "http://github.com/raw-labs/mxcp",
+      "category": "server-managers",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L517",
+      "line": 517,
+      "properties": {}
+    },
+    {
+      "title": "Remote MCP",
+      "url": "https://github.com/ssut/Remote-MCP",
+      "category": "server-managers",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L518",
+      "line": 518,
+      "properties": {}
+    },
+    {
+      "title": "yamcp",
+      "url": "https://github.com/hamidra/yamcp",
+      "category": "server-managers",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L519",
+      "line": 519,
+      "properties": {}
+    },
+    {
+      "title": "ToolHive",
+      "url": "https://github.com/StacklokLabs/toolhive",
+      "category": "server-managers",
+      "source_url": "https://github.com/appcypher/awesome-mcp-servers/blob/280218b4bba97a49facf929f8012dec5e30384b6/README.md#L520",
+      "line": 520,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 204,
+  "unique_links": 201,
+  "category_count": 33,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by appcypher/awesome-mcp-servers contributors.",
+  "license": null,
+  "license_url": "https://github.com/appcypher/awesome-mcp-servers/tree/280218b4bba97a49facf929f8012dec5e30384b6",
+  "digest": "dcb0929cad8efb987960dce0d276957fb45428ad556b754d1aa7b78538d30cd0"
+}

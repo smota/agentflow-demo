@@ -1,0 +1,2813 @@
+{
+  "format_version": 2,
+  "repository_id": "326066116",
+  "name": "ml-tooling/best-of-jupyter",
+  "revision": "ba55d411f0771224fcb5d2439c513f2a59dba115",
+  "readme_path": "README.md",
+  "readme_sha256": "23afee876c7b1d70ea0b110b9f34a327b5f6f69d1d21239f2c4b7bcbebdb2d4b",
+  "sections": [
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "explanation",
+      "title": "Explanation",
+      "level": 2,
+      "path": [
+        "Explanation"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#explanation",
+      "entries": 0
+    },
+    {
+      "id": "notebook-environments",
+      "title": "Notebook Environments",
+      "level": 2,
+      "path": [
+        "Notebook Environments"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#notebook-environments",
+      "entries": 25
+    },
+    {
+      "id": "interactive-widgets--visualization",
+      "title": "Interactive Widgets & Visualization",
+      "level": 2,
+      "path": [
+        "Interactive Widgets & Visualization"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#interactive-widgets--visualization",
+      "entries": 76
+    },
+    {
+      "id": "jupyter-extensions",
+      "title": "Jupyter Extensions",
+      "level": 2,
+      "path": [
+        "Jupyter Extensions"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyter-extensions",
+      "entries": 29
+    },
+    {
+      "id": "jupyter-magic",
+      "title": "Jupyter Magic",
+      "level": 2,
+      "path": [
+        "Jupyter Magic"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyter-magic",
+      "entries": 8
+    },
+    {
+      "id": "jupyter-kernels",
+      "title": "Jupyter Kernels",
+      "level": 2,
+      "path": [
+        "Jupyter Kernels"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyter-kernels",
+      "entries": 31
+    },
+    {
+      "id": "notebook-sharing--conversion",
+      "title": "Notebook Sharing & Conversion",
+      "level": 2,
+      "path": [
+        "Notebook Sharing & Conversion"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#notebook-sharing--conversion",
+      "entries": 38
+    },
+    {
+      "id": "notebook-tools",
+      "title": "Notebook Tools",
+      "level": 2,
+      "path": [
+        "Notebook Tools"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#notebook-tools",
+      "entries": 21
+    },
+    {
+      "id": "jupyterlab-renderer",
+      "title": "JupyterLab Renderer",
+      "level": 2,
+      "path": [
+        "JupyterLab Renderer"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyterlab-renderer",
+      "entries": 8
+    },
+    {
+      "id": "jupyterlab-themes",
+      "title": "JupyterLab Themes",
+      "level": 2,
+      "path": [
+        "JupyterLab Themes"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyterlab-themes",
+      "entries": 3
+    },
+    {
+      "id": "jupyterlab-extensions",
+      "title": "JupyterLab Extensions",
+      "level": 2,
+      "path": [
+        "JupyterLab Extensions"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyterlab-extensions",
+      "entries": 58
+    },
+    {
+      "id": "jupyterhub-authenticators",
+      "title": "JupyterHub Authenticators",
+      "level": 2,
+      "path": [
+        "JupyterHub Authenticators"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyterhub-authenticators",
+      "entries": 7
+    },
+    {
+      "id": "jupyterhub-spawners",
+      "title": "JupyterHub Spawners",
+      "level": 2,
+      "path": [
+        "JupyterHub Spawners"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyterhub-spawners",
+      "entries": 8
+    },
+    {
+      "id": "jupyter-components",
+      "title": "Jupyter Components",
+      "level": 2,
+      "path": [
+        "Jupyter Components"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#jupyter-components",
+      "entries": 6
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 2,
+      "path": [
+        "Others"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#others",
+      "entries": 3
+    },
+    {
+      "id": "related-resources",
+      "title": "Related Resources",
+      "level": 2,
+      "path": [
+        "Related Resources"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#related-resources",
+      "entries": 4
+    },
+    {
+      "id": "contribution",
+      "title": "Contribution",
+      "level": 2,
+      "path": [
+        "Contribution"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#contribution",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "License"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab/jupyterlab",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyterlab/ui-components",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter/notebook",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/notebook",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/jupyter/datascience-notebook",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/jupyterhub",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterhub",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterhub",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/jupyterhub/jupyterhub",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter/docker-stacks",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/jupyter/scipy-notebook",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nteract/nteract",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nteract_on_jupyter",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@nteract/messaging",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/vscode-jupyter",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/vscode-jupyter",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/vatlab/SOS",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sos-notebook",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/sos",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/kaggle/docker-python",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/kaggle/python",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nteract/hydrogen",
+      "category": "notebook-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/bokeh/bokeh",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/bokeh",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/bokeh",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@bokeh/bokehjs",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/holoviz/panel",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/panel",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/panel",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@holoviz/panel",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-widgets/ipywidgets",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipywidgets",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipywidgets",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/evidentlyai/evidently",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/evidently",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/evidently",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/matplotlib/ipympl",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipympl",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipympl",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/jupyter-matplotlib",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/bqplot/bqplot",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/bqplot",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/bqplot",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/bqplot",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mwouts/itables",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/itables",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/itables",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nteract/papermill",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/papermill",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/papermill",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/timkpaine/ipydagred3",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipydagred3",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipydagred3",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L399",
+      "line": 399,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipyregulartable",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipyregulartable",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L408",
+      "line": 408,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipyvuetify",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipyvuetify",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/jupyter-vuetify",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipyvolume",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipyvolume",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L448",
+      "line": 448,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/ipyvolume",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nglviewer/nglview",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nglview",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L464",
+      "line": 464,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nglview",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/nglview-js-widgets",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L472",
+      "line": 472,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipycanvas",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L484",
+      "line": 484,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipycanvas",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L488",
+      "line": 488,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/ipycanvas",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L492",
+      "line": 492,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/InsightSoftwareConsortium/itkwidgets",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L499",
+      "line": 499,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/itkwidgets",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L504",
+      "line": 504,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/itkwidgets",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L508",
+      "line": 508,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/itkwidgets",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L512",
+      "line": 512,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/spacetelescope/jdaviz",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L519",
+      "line": 519,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jdaviz",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L531",
+      "line": 531,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipyvue",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L536",
+      "line": 536,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipyvue",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/jupyter-vue",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L544",
+      "line": 544,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nicolaskruchten/jupyter_pivottablejs",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L551",
+      "line": 551,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pivottablejs",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L556",
+      "line": 556,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/anaconda/pivottablejs",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L560",
+      "line": 560,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L567",
+      "line": 567,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipydatagrid",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L572",
+      "line": 572,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipydatagrid",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L576",
+      "line": 576,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/ipydatagrid",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L580",
+      "line": 580,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/vega/ipyvega",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L587",
+      "line": 587,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/vega",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L592",
+      "line": 592,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/vega",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L596",
+      "line": 596,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L603",
+      "line": 603,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipysigma",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L608",
+      "line": 608,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/ipysigma",
+      "category": "interactive-widgets--visualization",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L612",
+      "line": 612,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/jupyter-server-proxy",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L664",
+      "line": 664,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-server-proxy",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L669",
+      "line": 669,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter-server-proxy",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyterlab/server-proxy",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L677",
+      "line": 677,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-server/jupyter-resource-usage",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L684",
+      "line": 684,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-resource-usage",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L689",
+      "line": 689,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nbresuse",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L693",
+      "line": 693,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyter-server/resource-usage",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L697",
+      "line": 697,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/nbgitpuller",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L704",
+      "line": 704,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nbgitpuller",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L709",
+      "line": 709,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nbgitpuller",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L713",
+      "line": 713,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/oschuett/appmode",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L720",
+      "line": 720,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/appmode",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L725",
+      "line": 725,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/appmode",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L729",
+      "line": 729,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab-contrib/jupyter-archive",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L736",
+      "line": 736,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-archive",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L741",
+      "line": 741,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter-archive",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L745",
+      "line": 745,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@hadim/jupyter-archive",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L749",
+      "line": 749,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/jupyter-rsession-proxy",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L756",
+      "line": 756,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-rsession-proxy",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L761",
+      "line": 761,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter-rsession-proxy",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L765",
+      "line": 765,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mamba-org/gator",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L772",
+      "line": 772,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mamba-gator",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L777",
+      "line": 777,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mamba_gator",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L781",
+      "line": 781,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@mamba-org/gator-lab",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L785",
+      "line": 785,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/krishnan-r/sparkmonitor",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L792",
+      "line": 792,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sparkmonitor",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L797",
+      "line": 797,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/krishnanr/sparkmonitor",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L801",
+      "line": 801,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/drillan/jupyter-black",
+      "category": "jupyter-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L808",
+      "line": 808,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-incubator/sparkmagic",
+      "category": "jupyter-magic",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L841",
+      "line": 841,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sparkmagic",
+      "category": "jupyter-magic",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L846",
+      "line": 846,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/sparkmagic",
+      "category": "jupyter-magic",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L850",
+      "line": 850,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/rasbt/watermark",
+      "category": "jupyter-magic",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L857",
+      "line": 857,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/watermark",
+      "category": "jupyter-magic",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L862",
+      "line": 862,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/watermark",
+      "category": "jupyter-magic",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L866",
+      "line": 866,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nteract/pick",
+      "category": "jupyter-magic",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L873",
+      "line": 873,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pick",
+      "category": "jupyter-magic",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L878",
+      "line": 878,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ipython/ipykernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L905",
+      "line": 905,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipykernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L910",
+      "line": 910,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/anaconda/ipykernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L914",
+      "line": 914,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Calysto/metakernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L921",
+      "line": 921,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/metakernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L926",
+      "line": 926,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/metakernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L930",
+      "line": 930,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/calysto/octave_kernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L937",
+      "line": 937,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/octave_kernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L942",
+      "line": 942,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/octave_kernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L946",
+      "line": 946,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lfortran/lfortran",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L953",
+      "line": 953,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/lfortran",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L958",
+      "line": 958,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/lfortran",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L962",
+      "line": 962,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-xeus/xeus-python",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L969",
+      "line": 969,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/xeus-python",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L974",
+      "line": 974,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/xeus-python",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L978",
+      "line": 978,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/almond-sh/almond",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L985",
+      "line": 985,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/almondsh/almond",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L990",
+      "line": 990,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/evcxr/evcxr",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L997",
+      "line": 997,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-xeus/xeus-cling",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1005",
+      "line": 1005,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/xeus-cling",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1010",
+      "line": 1010,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/SciRuby/iruby",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1017",
+      "line": 1017,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/rubydata/datascience-notebook",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1022",
+      "line": 1022,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/calysto/matlab_kernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1029",
+      "line": 1029,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/matlab_kernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1034",
+      "line": 1034,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/matlab_kernel",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1038",
+      "line": 1038,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/dotnet/interactive",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1045",
+      "line": 1045,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/JuliaLang/IJulia.jl",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1053",
+      "line": 1053,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-xeus/xeus-sqlite",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1061",
+      "line": 1061,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/xeus-sqlite",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1066",
+      "line": 1066,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/hugetim/nbstata",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1073",
+      "line": 1073,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nbstata",
+      "category": "jupyter-kernels",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1078",
+      "line": 1078,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter/nbconvert",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1125",
+      "line": 1125,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nbconvert",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1130",
+      "line": 1130,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nbconvert",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1134",
+      "line": 1134,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1141",
+      "line": 1141,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupytext",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1146",
+      "line": 1146,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupytext",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1150",
+      "line": 1150,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/jupyterlab-jupytext",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1154",
+      "line": 1154,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/voila-dashboards/voila",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1161",
+      "line": 1161,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/voila",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1166",
+      "line": 1166,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/voila",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1170",
+      "line": 1170,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyter-voila/jupyterlab-preview",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1174",
+      "line": 1174,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1181",
+      "line": 1181,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-book",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1186",
+      "line": 1186,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter-book",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1190",
+      "line": 1190,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/danielfrg/mkdocs-jupyter",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1197",
+      "line": 1197,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mkdocs-jupyter",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1202",
+      "line": 1202,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mkdocs-jupyter",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1206",
+      "line": 1206,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter/nbdime",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1213",
+      "line": 1213,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nbdime",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1218",
+      "line": 1218,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nbdime",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1222",
+      "line": 1222,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/nbdime-jupyterlab",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1226",
+      "line": 1226,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/getnikola/nikola",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1233",
+      "line": 1233,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nikola",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1238",
+      "line": 1238,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/damianavila/RISE",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1245",
+      "line": 1245,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/RISE",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1250",
+      "line": 1250,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/rise",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1254",
+      "line": 1254,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/rise-reveal",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1258",
+      "line": 1258,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter/nbviewer",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1265",
+      "line": 1265,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/jupyter/nbviewer",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1270",
+      "line": 1270,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stencila/stencila",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1277",
+      "line": 1277,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/stencila",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1282",
+      "line": 1282,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/stencila/cloud",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1286",
+      "line": 1286,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/binderhub",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1293",
+      "line": 1293,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/binderhub",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1298",
+      "line": 1298,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nteract/commuter",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1305",
+      "line": 1305,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@nteract/commuter",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1310",
+      "line": 1310,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nbgallery/nbgallery",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1317",
+      "line": 1317,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/nbgallery/nbgallery",
+      "category": "notebook-sharing--conversion",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1322",
+      "line": 1322,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter/nbformat",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1351",
+      "line": 1351,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nbformat",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1356",
+      "line": 1356,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nbformat",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1360",
+      "line": 1360,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/nbformat-schema",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1364",
+      "line": 1364,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter/nbclient",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1371",
+      "line": 1371,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nbclient",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1376",
+      "line": 1376,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nbclient",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1380",
+      "line": 1380,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter/jupyter_client",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1387",
+      "line": 1387,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-client",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1392",
+      "line": 1392,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter_client",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1396",
+      "line": 1396,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nbQA-dev/nbQA",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1403",
+      "line": 1403,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nbqa",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1408",
+      "line": 1408,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nbqa",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1412",
+      "line": 1412,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/repo2docker",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1419",
+      "line": 1419,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-repo2docker",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1424",
+      "line": 1424,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1431",
+      "line": 1431,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nbdev",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1436",
+      "line": 1436,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mljar/mercury",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1443",
+      "line": 1443,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mljar-mercury",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1448",
+      "line": 1448,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/QuantEcon/sphinxcontrib-jupyter",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1455",
+      "line": 1455,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sphinxcontrib-jupyter",
+      "category": "notebook-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1460",
+      "line": 1460,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab/jupyterlab-latex",
+      "category": "jupyterlab-renderer",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1496",
+      "line": 1496,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab_latex",
+      "category": "jupyterlab-renderer",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1501",
+      "line": 1501,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab-latex",
+      "category": "jupyterlab-renderer",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1505",
+      "line": 1505,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyterlab/latex",
+      "category": "jupyterlab-renderer",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1509",
+      "line": 1509,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab/jupyter-renderers",
+      "category": "jupyterlab-renderer",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1516",
+      "line": 1516,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-katex",
+      "category": "jupyterlab-renderer",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1521",
+      "line": 1521,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab-vega3",
+      "category": "jupyterlab-renderer",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1525",
+      "line": 1525,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyterlab/geojson-extension",
+      "category": "jupyterlab-renderer",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1529",
+      "line": 1529,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/oriolmirosa/jupyterlab_materialdarker",
+      "category": "jupyterlab-themes",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1553",
+      "line": 1553,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-materialdarker",
+      "category": "jupyterlab-themes",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1558",
+      "line": 1558,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@oriolmirosa/jupyterlab_materialdarker",
+      "category": "jupyterlab-themes",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1562",
+      "line": 1562,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1588",
+      "line": 1588,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/perspective-python",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1593",
+      "line": 1593,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/perspective",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1597",
+      "line": 1597,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@finos/perspective-jupyterlab",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1601",
+      "line": 1601,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab/jupyterlab-git",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1608",
+      "line": 1608,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-git",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1613",
+      "line": 1613,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab-git",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1617",
+      "line": 1617,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyterlab/git",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1621",
+      "line": 1621,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-lsp/jupyterlab-lsp",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1628",
+      "line": 1628,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-lsp",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1633",
+      "line": 1633,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter-lsp",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1637",
+      "line": 1637,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@krassowski/jupyterlab-lsp",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1641",
+      "line": 1641,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab/debugger",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1648",
+      "line": 1648,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyterlab/debugger",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1653",
+      "line": 1653,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab/jupyterlab-toc",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1660",
+      "line": 1660,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyterlab/toc",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1665",
+      "line": 1665,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/bokeh/jupyter_bokeh",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1672",
+      "line": 1672,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-bokeh",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1677",
+      "line": 1677,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter_bokeh",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1681",
+      "line": 1681,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@bokeh/jupyter_bokeh",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1685",
+      "line": 1685,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/elyra-ai/elyra",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1692",
+      "line": 1692,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/elyra",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1697",
+      "line": 1697,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/elyra",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1701",
+      "line": 1701,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@elyra/services",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1705",
+      "line": 1705,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1712",
+      "line": 1712,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab_code_formatter",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1717",
+      "line": 1717,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab_code_formatter",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1721",
+      "line": 1721,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@ryantam626/jupyterlab_code_formatter",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1725",
+      "line": 1725,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab-contrib/spellchecker",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1732",
+      "line": 1732,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-spellchecker",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1737",
+      "line": 1737,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab-spellchecker",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1741",
+      "line": 1741,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@ijmbarr/jupyterlab_spellchecker",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1745",
+      "line": 1745,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/rapidsai/jupyterlab-nvdashboard",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1752",
+      "line": 1752,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-nvdashboard",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1757",
+      "line": 1757,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab-nvdashboard",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1761",
+      "line": 1761,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/jupyterlab-nvdashboard",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1765",
+      "line": 1765,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deshaw/jupyterlab-execute-time",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1772",
+      "line": 1772,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-execute-time",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1777",
+      "line": 1777,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab_execute_time",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1781",
+      "line": 1781,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/jupyterlab-execute-time",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1785",
+      "line": 1785,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-widgets/jupyterlab-sidecar",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1792",
+      "line": 1792,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sidecar",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1797",
+      "line": 1797,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/sidecar",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1801",
+      "line": 1801,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-sidecar",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1805",
+      "line": 1805,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jpmorganchase/jupyter-fs",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1812",
+      "line": 1812,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter-fs",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1817",
+      "line": 1817,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter-fs",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1821",
+      "line": 1821,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1828",
+      "line": 1828,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab_templates",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1833",
+      "line": 1833,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab_templates",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1837",
+      "line": 1837,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/jupyterlab_templates",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1841",
+      "line": 1841,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1848",
+      "line": 1848,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-quickopen",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1853",
+      "line": 1853,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/@parente/jupyterlab-quickopen",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1857",
+      "line": 1857,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterlab-contrib/jupyterlab-kernelspy",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1864",
+      "line": 1864,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterlab-kernelspy",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1869",
+      "line": 1869,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterlab-kernelspy",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1873",
+      "line": 1873,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/jupyterlab-kernelspy",
+      "category": "jupyterlab-extensions",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1877",
+      "line": 1877,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/oauthenticator",
+      "category": "jupyterhub-authenticators",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1931",
+      "line": 1931,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/oauthenticator",
+      "category": "jupyterhub-authenticators",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1936",
+      "line": 1936,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/oauthenticator",
+      "category": "jupyterhub-authenticators",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1940",
+      "line": 1940,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/ltiauthenticator",
+      "category": "jupyterhub-authenticators",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1947",
+      "line": 1947,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterhub-ltiauthenticator",
+      "category": "jupyterhub-authenticators",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1952",
+      "line": 1952,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/firstuseauthenticator",
+      "category": "jupyterhub-authenticators",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1959",
+      "line": 1959,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterhub-firstuseauthenticator",
+      "category": "jupyterhub-authenticators",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1964",
+      "line": 1964,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/kubespawner",
+      "category": "jupyterhub-spawners",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1994",
+      "line": 1994,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterhub-kubespawner",
+      "category": "jupyterhub-spawners",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L1999",
+      "line": 1999,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterhub-kubespawner",
+      "category": "jupyterhub-spawners",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2003",
+      "line": 2003,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/sudospawner",
+      "category": "jupyterhub-spawners",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2010",
+      "line": 2010,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sudospawner",
+      "category": "jupyterhub-spawners",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2015",
+      "line": 2015,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyterhub/systemdspawner",
+      "category": "jupyterhub-spawners",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2022",
+      "line": 2022,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyterhub-systemdspawner",
+      "category": "jupyterhub-spawners",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2027",
+      "line": 2027,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyterhub-systemdspawner",
+      "category": "jupyterhub-spawners",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2031",
+      "line": 2031,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ipython/ipython",
+      "category": "jupyter-components",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2054",
+      "line": 2054,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipython",
+      "category": "jupyter-components",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2059",
+      "line": 2059,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ipython",
+      "category": "jupyter-components",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2063",
+      "line": 2063,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jupyter-server/jupyter_server",
+      "category": "jupyter-components",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2070",
+      "line": 2070,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jupyter_server",
+      "category": "jupyter-components",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2075",
+      "line": 2075,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jupyter_server",
+      "category": "jupyter-components",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2079",
+      "line": 2079,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md",
+      "category": "others",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2096",
+      "line": 2096,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/qtconsole",
+      "category": "others",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2101",
+      "line": 2101,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/qtconsole",
+      "category": "others",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2105",
+      "line": 2105,
+      "properties": {}
+    },
+    {
+      "title": "Best-of lists",
+      "url": "https://best-of.org/",
+      "category": "related-resources",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2121",
+      "line": 2121,
+      "properties": {}
+    },
+    {
+      "title": "best-of-ml-python",
+      "url": "https://github.com/ml-tooling/best-of-ml-python",
+      "category": "related-resources",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2122",
+      "line": 2122,
+      "properties": {}
+    },
+    {
+      "title": "awesome-jupyter",
+      "url": "https://github.com/markusschanta/awesome-jupyter",
+      "category": "related-resources",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2123",
+      "line": 2123,
+      "properties": {}
+    },
+    {
+      "title": "awesome-jupyterlab",
+      "url": "https://github.com/mauhai/awesome-jupyterlab",
+      "category": "related-resources",
+      "source_url": "https://github.com/ml-tooling/best-of-jupyter/blob/ba55d411f0771224fcb5d2439c513f2a59dba115/README.md#L2124",
+      "line": 2124,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 325,
+  "unique_links": 309,
+  "category_count": 15,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by ml-tooling/best-of-jupyter contributors.",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://github.com/ml-tooling/best-of-jupyter/tree/ba55d411f0771224fcb5d2439c513f2a59dba115",
+  "digest": "5f05ab2e1012590306a127f6a168541c16834c0e76628b3d05f9ba9225cfa69e"
+}

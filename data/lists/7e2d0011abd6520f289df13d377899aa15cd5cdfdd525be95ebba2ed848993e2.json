@@ -1,0 +1,4611 @@
+{
+  "format_version": 2,
+  "repository_id": "599716050",
+  "name": "promptslab/Awesome-Prompt-Engineering",
+  "revision": "df6c86b292af3e16e0cdb521776b2b55d3d45931",
+  "readme_path": "README.md",
+  "readme_sha256": "ef266fb963baa64bcedf0847f49bf2418590a2917a298886572abfeb936aa692",
+  "sections": [
+    {
+      "id": "-start-here",
+      "title": "🚀 Start Here",
+      "level": 2,
+      "path": [
+        "🚀 Start Here"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#-start-here",
+      "entries": 5
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "papers",
+      "title": "Papers",
+      "level": 2,
+      "path": [
+        "Papers"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#papers",
+      "entries": 0
+    },
+    {
+      "id": "major-surveys",
+      "title": "Major Surveys",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Major Surveys"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#major-surveys",
+      "entries": 9
+    },
+    {
+      "id": "prompt-optimization-and-automatic-prompting",
+      "title": "Prompt Optimization and Automatic Prompting",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Prompt Optimization and Automatic Prompting"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#prompt-optimization-and-automatic-prompting",
+      "entries": 10
+    },
+    {
+      "id": "prompt-compression",
+      "title": "Prompt Compression",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Prompt Compression"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#prompt-compression",
+      "entries": 3
+    },
+    {
+      "id": "reasoning-advances",
+      "title": "Reasoning Advances",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Reasoning Advances"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#reasoning-advances",
+      "entries": 13
+    },
+    {
+      "id": "in-context-learning",
+      "title": "In-Context Learning",
+      "level": 3,
+      "path": [
+        "Papers",
+        "In-Context Learning"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#in-context-learning",
+      "entries": 5
+    },
+    {
+      "id": "agentic-prompting-and-multi-agent-systems",
+      "title": "Agentic Prompting and Multi-Agent Systems",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Agentic Prompting and Multi-Agent Systems"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#agentic-prompting-and-multi-agent-systems",
+      "entries": 8
+    },
+    {
+      "id": "multimodal-prompting",
+      "title": "Multimodal Prompting",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Multimodal Prompting"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#multimodal-prompting",
+      "entries": 5
+    },
+    {
+      "id": "structured-output-and-format-control",
+      "title": "Structured Output and Format Control",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Structured Output and Format Control"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#structured-output-and-format-control",
+      "entries": 3
+    },
+    {
+      "id": "prompt-injection-and-security",
+      "title": "Prompt Injection and Security",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Prompt Injection and Security"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#prompt-injection-and-security",
+      "entries": 10
+    },
+    {
+      "id": "applications-of-prompt-engineering",
+      "title": "Applications of Prompt Engineering",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Applications of Prompt Engineering"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#applications-of-prompt-engineering",
+      "entries": 7
+    },
+    {
+      "id": "text-to-image-generation",
+      "title": "Text-to-Image Generation",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Text-to-Image Generation"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#text-to-image-generation",
+      "entries": 5
+    },
+    {
+      "id": "text-to-musicaudio-generation",
+      "title": "Text-to-Music/Audio Generation",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Text-to-Music/Audio Generation"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#text-to-musicaudio-generation",
+      "entries": 4
+    },
+    {
+      "id": "foundational-papers-pre-2024",
+      "title": "Foundational Papers (Pre-2024)",
+      "level": 3,
+      "path": [
+        "Papers",
+        "Foundational Papers (Pre-2024)"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#foundational-papers-pre-2024",
+      "entries": 18
+    },
+    {
+      "id": "tools-and-code",
+      "title": "Tools and Code",
+      "level": 2,
+      "path": [
+        "Tools and Code"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#tools-and-code",
+      "entries": 0
+    },
+    {
+      "id": "prompt-management-and-testing",
+      "title": "Prompt Management and Testing",
+      "level": 3,
+      "path": [
+        "Tools and Code",
+        "Prompt Management and Testing"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#prompt-management-and-testing",
+      "entries": 19
+    },
+    {
+      "id": "llm-evaluation-tools",
+      "title": "LLM Evaluation Tools",
+      "level": 3,
+      "path": [
+        "Tools and Code",
+        "LLM Evaluation Tools"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#llm-evaluation-tools",
+      "entries": 10
+    },
+    {
+      "id": "agent-frameworks",
+      "title": "Agent Frameworks",
+      "level": 3,
+      "path": [
+        "Tools and Code",
+        "Agent Frameworks"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#agent-frameworks",
+      "entries": 20
+    },
+    {
+      "id": "prompt-optimization-tools",
+      "title": "Prompt Optimization Tools",
+      "level": 3,
+      "path": [
+        "Tools and Code",
+        "Prompt Optimization Tools"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#prompt-optimization-tools",
+      "entries": 3
+    },
+    {
+      "id": "red-teaming-and-prompt-security",
+      "title": "Red Teaming and Prompt Security",
+      "level": 3,
+      "path": [
+        "Tools and Code",
+        "Red Teaming and Prompt Security"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#red-teaming-and-prompt-security",
+      "entries": 11
+    },
+    {
+      "id": "mcp-model-context-protocol",
+      "title": "MCP (Model Context Protocol)",
+      "level": 3,
+      "path": [
+        "Tools and Code",
+        "MCP (Model Context Protocol)"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#mcp-model-context-protocol",
+      "entries": 8
+    },
+    {
+      "id": "vibe-coding-and-ai-coding-assistants",
+      "title": "Vibe Coding and AI Coding Assistants",
+      "level": 3,
+      "path": [
+        "Tools and Code",
+        "Vibe Coding and AI Coding Assistants"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#vibe-coding-and-ai-coding-assistants",
+      "entries": 0
+    },
+    {
+      "id": "cli-based-coding-agents",
+      "title": "CLI-Based Coding Agents",
+      "level": 4,
+      "path": [
+        "Tools and Code",
+        "Vibe Coding and AI Coding Assistants",
+        "CLI-Based Coding Agents"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#cli-based-coding-agents",
+      "entries": 12
+    },
+    {
+      "id": "ai-code-editors--ides",
+      "title": "AI Code Editors / IDEs",
+      "level": 4,
+      "path": [
+        "Tools and Code",
+        "Vibe Coding and AI Coding Assistants",
+        "AI Code Editors / IDEs"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#ai-code-editors--ides",
+      "entries": 10
+    },
+    {
+      "id": "ide-extensions--plugins",
+      "title": "IDE Extensions / Plugins",
+      "level": 4,
+      "path": [
+        "Tools and Code",
+        "Vibe Coding and AI Coding Assistants",
+        "IDE Extensions / Plugins"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#ide-extensions--plugins",
+      "entries": 12
+    },
+    {
+      "id": "ai-coding-platforms--cloud-agents",
+      "title": "AI Coding Platforms / Cloud Agents",
+      "level": 4,
+      "path": [
+        "Tools and Code",
+        "Vibe Coding and AI Coding Assistants",
+        "AI Coding Platforms / Cloud Agents"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#ai-coding-platforms--cloud-agents",
+      "entries": 8
+    },
+    {
+      "id": "open-source-coding-agent-frameworks",
+      "title": "Open-Source Coding Agent Frameworks",
+      "level": 4,
+      "path": [
+        "Tools and Code",
+        "Vibe Coding and AI Coding Assistants",
+        "Open-Source Coding Agent Frameworks"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#open-source-coding-agent-frameworks",
+      "entries": 7
+    },
+    {
+      "id": "other-notable-repositories",
+      "title": "Other Notable Repositories",
+      "level": 3,
+      "path": [
+        "Tools and Code",
+        "Other Notable Repositories"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#other-notable-repositories",
+      "entries": 14
+    },
+    {
+      "id": "apis",
+      "title": "APIs",
+      "level": 2,
+      "path": [
+        "APIs"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#apis",
+      "entries": 0
+    },
+    {
+      "id": "openai",
+      "title": "OpenAI",
+      "level": 3,
+      "path": [
+        "APIs",
+        "OpenAI"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#openai",
+      "entries": 0
+    },
+    {
+      "id": "anthropic-claude",
+      "title": "Anthropic (Claude)",
+      "level": 3,
+      "path": [
+        "APIs",
+        "Anthropic (Claude)"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#anthropic-claude",
+      "entries": 0
+    },
+    {
+      "id": "google-gemini",
+      "title": "Google (Gemini)",
+      "level": 3,
+      "path": [
+        "APIs",
+        "Google (Gemini)"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#google-gemini",
+      "entries": 0
+    },
+    {
+      "id": "meta-llama",
+      "title": "Meta (Llama)",
+      "level": 3,
+      "path": [
+        "APIs",
+        "Meta (Llama)"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#meta-llama",
+      "entries": 0
+    },
+    {
+      "id": "other-notable-providers",
+      "title": "Other Notable Providers",
+      "level": 3,
+      "path": [
+        "APIs",
+        "Other Notable Providers"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#other-notable-providers",
+      "entries": 12
+    },
+    {
+      "id": "datasets-and-benchmarks",
+      "title": "Datasets and Benchmarks",
+      "level": 2,
+      "path": [
+        "Datasets and Benchmarks"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#datasets-and-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "major-benchmarks-20242026",
+      "title": "Major Benchmarks (2024–2026)",
+      "level": 3,
+      "path": [
+        "Datasets and Benchmarks",
+        "Major Benchmarks (2024–2026)"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#major-benchmarks-20242026",
+      "entries": 11
+    },
+    {
+      "id": "leaderboards-and-meta-benchmarks",
+      "title": "Leaderboards and Meta-Benchmarks",
+      "level": 3,
+      "path": [
+        "Datasets and Benchmarks",
+        "Leaderboards and Meta-Benchmarks"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#leaderboards-and-meta-benchmarks",
+      "entries": 3
+    },
+    {
+      "id": "prompt-and-instruction-datasets",
+      "title": "Prompt and Instruction Datasets",
+      "level": 3,
+      "path": [
+        "Datasets and Benchmarks",
+        "Prompt and Instruction Datasets"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#prompt-and-instruction-datasets",
+      "entries": 7
+    },
+    {
+      "id": "red-teaming-and-adversarial-datasets",
+      "title": "Red Teaming and Adversarial Datasets",
+      "level": 3,
+      "path": [
+        "Datasets and Benchmarks",
+        "Red Teaming and Adversarial Datasets"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#red-teaming-and-adversarial-datasets",
+      "entries": 3
+    },
+    {
+      "id": "models",
+      "title": "Models",
+      "level": 2,
+      "path": [
+        "Models"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#models",
+      "entries": 0
+    },
+    {
+      "id": "frontier-models-20252026",
+      "title": "Frontier Models (2025–2026)",
+      "level": 3,
+      "path": [
+        "Models",
+        "Frontier Models (2025–2026)"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#frontier-models-20252026",
+      "entries": 0
+    },
+    {
+      "id": "reasoning-models",
+      "title": "Reasoning Models",
+      "level": 3,
+      "path": [
+        "Models",
+        "Reasoning Models"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#reasoning-models",
+      "entries": 0
+    },
+    {
+      "id": "notable-open-source-models",
+      "title": "Notable Open-Source Models",
+      "level": 3,
+      "path": [
+        "Models",
+        "Notable Open-Source Models"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#notable-open-source-models",
+      "entries": 0
+    },
+    {
+      "id": "code-specialized-models",
+      "title": "Code-Specialized Models",
+      "level": 3,
+      "path": [
+        "Models",
+        "Code-Specialized Models"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#code-specialized-models",
+      "entries": 0
+    },
+    {
+      "id": "foundational-models-historical-reference",
+      "title": "Foundational Models (Historical Reference)",
+      "level": 3,
+      "path": [
+        "Models",
+        "Foundational Models (Historical Reference)"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#foundational-models-historical-reference",
+      "entries": 0
+    },
+    {
+      "id": "ai-content-detectors",
+      "title": "AI Content Detectors",
+      "level": 2,
+      "path": [
+        "AI Content Detectors"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#ai-content-detectors",
+      "entries": 0
+    },
+    {
+      "id": "leading-commercial-detectors",
+      "title": "Leading Commercial Detectors",
+      "level": 3,
+      "path": [
+        "AI Content Detectors",
+        "Leading Commercial Detectors"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#leading-commercial-detectors",
+      "entries": 6
+    },
+    {
+      "id": "free-and-research-detectors",
+      "title": "Free and Research Detectors",
+      "level": 3,
+      "path": [
+        "AI Content Detectors",
+        "Free and Research Detectors"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#free-and-research-detectors",
+      "entries": 7
+    },
+    {
+      "id": "watermarking-approaches",
+      "title": "Watermarking Approaches",
+      "level": 3,
+      "path": [
+        "AI Content Detectors",
+        "Watermarking Approaches"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#watermarking-approaches",
+      "entries": 1
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "level": 2,
+      "path": [
+        "Books"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#books",
+      "entries": 0
+    },
+    {
+      "id": "prompt-engineering",
+      "title": "Prompt Engineering",
+      "level": 3,
+      "path": [
+        "Books",
+        "Prompt Engineering"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#prompt-engineering",
+      "entries": 0
+    },
+    {
+      "id": "llm-application-development",
+      "title": "LLM Application Development",
+      "level": 3,
+      "path": [
+        "Books",
+        "LLM Application Development"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#llm-application-development",
+      "entries": 0
+    },
+    {
+      "id": "ai-agents",
+      "title": "AI Agents",
+      "level": 3,
+      "path": [
+        "Books",
+        "AI Agents"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#ai-agents",
+      "entries": 0
+    },
+    {
+      "id": "production-reliability-and-security",
+      "title": "Production, Reliability, and Security",
+      "level": 3,
+      "path": [
+        "Books",
+        "Production, Reliability, and Security"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#production-reliability-and-security",
+      "entries": 0
+    },
+    {
+      "id": "courses",
+      "title": "Courses",
+      "level": 2,
+      "path": [
+        "Courses"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#courses",
+      "entries": 0
+    },
+    {
+      "id": "free-short-courses",
+      "title": "Free Short Courses",
+      "level": 3,
+      "path": [
+        "Courses",
+        "Free Short Courses"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#free-short-courses",
+      "entries": 6
+    },
+    {
+      "id": "university-and-platform-courses",
+      "title": "University and Platform Courses",
+      "level": 3,
+      "path": [
+        "Courses",
+        "University and Platform Courses"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#university-and-platform-courses",
+      "entries": 5
+    },
+    {
+      "id": "free-platform-courses",
+      "title": "Free Platform Courses",
+      "level": 3,
+      "path": [
+        "Courses",
+        "Free Platform Courses"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#free-platform-courses",
+      "entries": 4
+    },
+    {
+      "id": "learn-prompting-courses",
+      "title": "Learn Prompting Courses",
+      "level": 3,
+      "path": [
+        "Courses",
+        "Learn Prompting Courses"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#learn-prompting-courses",
+      "entries": 7
+    },
+    {
+      "id": "tutorials-and-guides",
+      "title": "Tutorials and Guides",
+      "level": 2,
+      "path": [
+        "Tutorials and Guides"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#tutorials-and-guides",
+      "entries": 0
+    },
+    {
+      "id": "official-provider-guides",
+      "title": "Official Provider Guides",
+      "level": 3,
+      "path": [
+        "Tutorials and Guides",
+        "Official Provider Guides"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#official-provider-guides",
+      "entries": 7
+    },
+    {
+      "id": "community-and-independent-guides",
+      "title": "Community and Independent Guides",
+      "level": 3,
+      "path": [
+        "Tutorials and Guides",
+        "Community and Independent Guides"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#community-and-independent-guides",
+      "entries": 14
+    },
+    {
+      "id": "videos",
+      "title": "Videos",
+      "level": 2,
+      "path": [
+        "Videos"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#videos",
+      "entries": 12
+    },
+    {
+      "id": "communities",
+      "title": "Communities",
+      "level": 2,
+      "path": [
+        "Communities"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#communities",
+      "entries": 0
+    },
+    {
+      "id": "discord-servers",
+      "title": "Discord Servers",
+      "level": 3,
+      "path": [
+        "Communities",
+        "Discord Servers"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#discord-servers",
+      "entries": 7
+    },
+    {
+      "id": "reddit",
+      "title": "Reddit",
+      "level": 3,
+      "path": [
+        "Communities",
+        "Reddit"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#reddit",
+      "entries": 8
+    },
+    {
+      "id": "forums-and-platforms",
+      "title": "Forums and Platforms",
+      "level": 3,
+      "path": [
+        "Communities",
+        "Forums and Platforms"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#forums-and-platforms",
+      "entries": 6
+    },
+    {
+      "id": "github-organizations",
+      "title": "GitHub Organizations",
+      "level": 3,
+      "path": [
+        "Communities",
+        "GitHub Organizations"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#github-organizations",
+      "entries": 5
+    },
+    {
+      "id": "-autonomous-research--self-improving-agents",
+      "title": "🔬 Autonomous Research & Self-Improving Agents",
+      "level": 2,
+      "path": [
+        "🔬 Autonomous Research & Self-Improving Agents"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#-autonomous-research--self-improving-agents",
+      "entries": 0
+    },
+    {
+      "id": "general-purpose-descendants",
+      "title": "General-Purpose Descendants",
+      "level": 3,
+      "path": [
+        "🔬 Autonomous Research & Self-Improving Agents",
+        "General-Purpose Descendants"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#general-purpose-descendants",
+      "entries": 27
+    },
+    {
+      "id": "research-agent-systems",
+      "title": "Research-Agent Systems",
+      "level": 3,
+      "path": [
+        "🔬 Autonomous Research & Self-Improving Agents",
+        "Research-Agent Systems"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#research-agent-systems",
+      "entries": 24
+    },
+    {
+      "id": "platform-ports--hardware-forks",
+      "title": "Platform Ports & Hardware Forks",
+      "level": 3,
+      "path": [
+        "🔬 Autonomous Research & Self-Improving Agents",
+        "Platform Ports & Hardware Forks"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#platform-ports--hardware-forks",
+      "entries": 9
+    },
+    {
+      "id": "domain-specific-adaptations",
+      "title": "Domain-Specific Adaptations",
+      "level": 3,
+      "path": [
+        "🔬 Autonomous Research & Self-Improving Agents",
+        "Domain-Specific Adaptations"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#domain-specific-adaptations",
+      "entries": 9
+    },
+    {
+      "id": "evaluation--benchmarks",
+      "title": "Evaluation & Benchmarks",
+      "level": 3,
+      "path": [
+        "🔬 Autonomous Research & Self-Improving Agents",
+        "Evaluation & Benchmarks"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#evaluation--benchmarks",
+      "entries": 5
+    },
+    {
+      "id": "related-resources",
+      "title": "Related Resources",
+      "level": 3,
+      "path": [
+        "🔬 Autonomous Research & Self-Improving Agents",
+        "Related Resources"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#related-resources",
+      "entries": 11
+    },
+    {
+      "id": "how-to-contribute",
+      "title": "How to Contribute",
+      "level": 2,
+      "path": [
+        "How to Contribute"
+      ],
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#how-to-contribute",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "ChatGPT Prompt Engineering for Developers",
+      "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+      "category": "-start-here",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Engineering Guide by DAIR.AI",
+      "url": "https://www.promptingguide.ai/",
+      "category": "-start-here",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Prompt Engineering Guide",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "category": "-start-here",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Anthropic: Effective Context Engineering for AI Agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "category": "-start-here",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "The Prompt Report",
+      "url": "https://arxiv.org/abs/2406.06608",
+      "category": "-start-here",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "The Prompt Report: A Systematic Survey of Prompting Techniques",
+      "url": "https://arxiv.org/abs/2406.06608",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications",
+      "url": "https://arxiv.org/abs/2402.07927",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "A Survey of Prompt Engineering Methods in LLMs for Different NLP Tasks",
+      "url": "https://arxiv.org/abs/2407.12994",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "A Survey of Automatic Prompt Engineering: An Optimization Perspective",
+      "url": "https://arxiv.org/abs/2502.11560",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Prompting Methods for Large Language Models: A Survey",
+      "url": "https://arxiv.org/abs/2404.01077",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Navigate through Enigmatic Labyrinth: A Survey of Chain of Thought Reasoning",
+      "url": "https://arxiv.org/abs/2309.15402",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying Chains, Trees, and Graphs of Thoughts",
+      "url": "https://arxiv.org/abs/2401.14295",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Towards Goal-oriented Prompt Engineering for Large Language Models: A Survey",
+      "url": "https://arxiv.org/abs/2401.14043",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning LLMs",
+      "url": "https://arxiv.org/abs/2503.09567",
+      "category": "major-surveys",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "OPRO: Large Language Models as Optimizers",
+      "url": "https://arxiv.org/abs/2309.03409",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+      "url": "https://arxiv.org/abs/2310.03714",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "MIPRO: Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs",
+      "url": "https://arxiv.org/abs/2406.11695",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "TextGrad: Automatic \"Differentiation\" via Text",
+      "url": "https://arxiv.org/abs/2406.07496",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "EvoPrompt",
+      "url": "https://arxiv.org/abs/2309.08532",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Meta Prompting for AI Systems",
+      "url": "https://arxiv.org/abs/2311.11482",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Engineering a Prompt Engineer (PE²)",
+      "url": "https://arxiv.org/abs/2311.05661",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Models Are Human-Level Prompt Engineers",
+      "url": "https://arxiv.org/abs/2211.01910",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning",
+      "url": "https://arxiv.org/abs/2302.03668",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "SPO: Self-Supervised Prompt Optimization",
+      "url": "https://arxiv.org/abs/2502.06855",
+      "category": "prompt-optimization-and-automatic-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression",
+      "url": "https://arxiv.org/abs/2403.12968",
+      "category": "prompt-compression",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "LongLLMLingua",
+      "url": "https://arxiv.org/abs/2310.06839",
+      "category": "prompt-compression",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Compression for Large Language Models: A Survey",
+      "url": "https://arxiv.org/abs/2410.12388",
+      "category": "prompt-compression",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Scaling LLM Test-Time Compute Optimally",
+      "url": "https://arxiv.org/abs/2408.03314",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "s1: Simple Test-Time Scaling",
+      "url": "https://arxiv.org/abs/2501.19393",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Reasoning Language Models: A Blueprint",
+      "url": "https://arxiv.org/abs/2501.11223",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying Long Chain-of-Thought Reasoning in LLMs",
+      "url": "https://arxiv.org/abs/2502.03373",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Graph of Thoughts: Solving Elaborate Problems with LLMs",
+      "url": "https://arxiv.org/abs/2308.09687",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Tree of Thoughts: Deliberate Problem Solving with LLMs",
+      "url": "https://arxiv.org/abs/2305.10601",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "Everything of Thoughts",
+      "url": "https://arxiv.org/abs/2311.04254",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Skeleton-of-Thought",
+      "url": "https://arxiv.org/abs/2307.15337",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2201.11903",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Self-Consistency Improves Chain of Thought Reasoning",
+      "url": "https://arxiv.org/abs/2203.11171",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "url": "https://arxiv.org/abs/2205.11916",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "category": "reasoning-advances",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Many-Shot In-Context Learning",
+      "url": "https://arxiv.org/abs/2404.11018",
+      "category": "in-context-learning",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Many-Shot In-Context Learning in Multimodal Foundation Models",
+      "url": "https://arxiv.org/abs/2405.09798",
+      "category": "in-context-learning",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?",
+      "url": "https://arxiv.org/abs/2202.12837",
+      "category": "in-context-learning",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Fantastically Ordered Prompts and Where to Find Them",
+      "url": "https://arxiv.org/abs/2104.08786",
+      "category": "in-context-learning",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+      "url": "https://arxiv.org/abs/2102.09690",
+      "category": "in-context-learning",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Agentic Large Language Models: A Survey",
+      "url": "https://arxiv.org/abs/2503.23037",
+      "category": "agentic-prompting-and-multi-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+      "url": "https://arxiv.org/abs/2402.01680",
+      "category": "agentic-prompting-and-multi-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Agent Collaboration Mechanisms: A Survey of LLMs",
+      "url": "https://arxiv.org/abs/2501.06322",
+      "category": "agentic-prompting-and-multi-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "url": "https://arxiv.org/abs/2308.08155",
+      "category": "agentic-prompting-and-multi-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-World APIs",
+      "url": "https://arxiv.org/abs/2307.16789",
+      "category": "agentic-prompting-and-multi-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+      "url": "https://arxiv.org/abs/2310.06770",
+      "category": "agentic-prompting-and-multi-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "url": "https://arxiv.org/abs/2308.03688",
+      "category": "agentic-prompting-and-multi-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "PAL: Program-aided Language Models",
+      "url": "https://arxiv.org/abs/2211.10435",
+      "category": "agentic-prompting-and-multi-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Visual Prompting in Multimodal Large Language Models: A Survey",
+      "url": "https://arxiv.org/abs/2409.15310",
+      "category": "multimodal-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V",
+      "url": "https://arxiv.org/abs/2310.11441",
+      "category": "multimodal-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "A Comprehensive Survey and Guide to Multimodal Large Language Models in Vision-Language Tasks",
+      "url": "https://arxiv.org/abs/2411.06284",
+      "category": "multimodal-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "url": "https://arxiv.org/abs/2302.00923",
+      "category": "multimodal-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "From Prompt Engineering to Prompt Craft",
+      "url": "https://arxiv.org/abs/2411.13422",
+      "category": "multimodal-prompting",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of LLMs",
+      "url": "https://arxiv.org/abs/2408.02442",
+      "category": "structured-output-and-format-control",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Batch Prompting: Efficient Inference with LLM APIs",
+      "url": "https://arxiv.org/abs/2301.08721",
+      "category": "structured-output-and-format-control",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Structured Prompting: Scaling In-Context Learning to 1,000 Examples",
+      "url": "https://arxiv.org/abs/2212.06713",
+      "category": "structured-output-and-format-control",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Formalizing and Benchmarking Prompt Injection Attacks and Defenses",
+      "url": "https://arxiv.org/abs/2310.12815",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+      "url": "https://arxiv.org/abs/2404.13208",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses",
+      "url": "https://arxiv.org/abs/2406.13352",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated LLM Agents",
+      "url": "https://arxiv.org/abs/2403.02691",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "SecAlign: Defending Against Prompt Injection with Preference Optimization",
+      "url": "https://arxiv.org/abs/2410.05451",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection",
+      "url": "https://arxiv.org/abs/2504.18575",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Many-Shot Jailbreaking",
+      "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "url": "https://arxiv.org/abs/2212.08073",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Ignore Previous Prompt: Attack Techniques For Language Models",
+      "url": "https://arxiv.org/abs/2211.09527",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Artificial Intelligence and Cybersecurity: Documented Risks, Enterprise Guardrails, and Emerging Threats in 2024–2025",
+      "url": "https://www.ijfmr.com/research-paper.php?id=62200",
+      "category": "prompt-injection-and-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves",
+      "url": "https://arxiv.org/abs/2311.04205",
+      "category": "applications-of-prompt-engineering",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Legal Prompt Engineering for Multilingual Legal Judgement Prediction",
+      "url": "https://arxiv.org/abs/2212.02199",
+      "category": "applications-of-prompt-engineering",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "Conversing with Copilot: Exploring Prompt Engineering for Solving CS1 Problems",
+      "url": "https://arxiv.org/abs/2210.15157",
+      "category": "applications-of-prompt-engineering",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Commonsense-Aware Prompting for Controllable Empathetic Dialogue Generation",
+      "url": "https://arxiv.org/abs/2302.01441",
+      "category": "applications-of-prompt-engineering",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "PLACES: Prompting Language Models for Social Conversation Synthesis",
+      "url": "https://arxiv.org/abs/2302.03269",
+      "category": "applications-of-prompt-engineering",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Medical Image Segmentation Using Transformer Encoders and Prompt-Based Learning: A Systematic Review",
+      "url": "https://ieeexplore.ieee.org/document/11313186/",
+      "category": "applications-of-prompt-engineering",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "TableRAG: A Retrieval Augmented Generation Framework for Heterogeneous Document Reasoning",
+      "url": "https://arxiv.org/abs/2506.10380",
+      "category": "applications-of-prompt-engineering",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "A Taxonomy of Prompt Modifiers for Text-To-Image Generation",
+      "url": "https://arxiv.org/abs/2204.13988",
+      "category": "text-to-image-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Design Guidelines for Prompt Engineering Text-to-Image Generative Models",
+      "url": "https://arxiv.org/abs/2109.06977",
+      "category": "text-to-image-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "url": "https://arxiv.org/abs/2112.10752",
+      "category": "text-to-image-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "DALL·E: Creating Images from Text",
+      "url": "https://arxiv.org/abs/2102.12092",
+      "category": "text-to-image-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Investigating Prompt Engineering in Diffusion Models",
+      "url": "https://arxiv.org/abs/2211.15462",
+      "category": "text-to-image-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "MusicLM: Generating Music From Text",
+      "url": "https://arxiv.org/abs/2301.11325",
+      "category": "text-to-musicaudio-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "ERNIE-Music: Text-to-Waveform Music Generation with Diffusion Models",
+      "url": "https://arxiv.org/pdf/2302.04456",
+      "category": "text-to-musicaudio-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "AudioLM: A Language Modeling Approach to Audio Generation",
+      "url": "https://arxiv.org/pdf/2209.03143",
+      "category": "text-to-musicaudio-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models",
+      "url": "https://arxiv.org/pdf/2301.12661.pdf",
+      "category": "text-to-musicaudio-generation",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Language Models are Few-Shot Learners (GPT-3)",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+      "url": "https://arxiv.org/abs/2101.00190",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+      "url": "https://arxiv.org/abs/2104.08691",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm",
+      "url": "https://arxiv.org/abs/2102.07350",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Show Your Work: Scratchpads for Intermediate Computation with Language Models",
+      "url": "https://arxiv.org/abs/2112.00114",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Generated Knowledge Prompting for Commonsense Reasoning",
+      "url": "https://arxiv.org/abs/2110.08387",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Making Pre-trained Language Models Better Few-shot Learners",
+      "url": "https://aclanthology.org/2021.acl-long.295",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts",
+      "url": "https://arxiv.org/abs/2010.15980",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "How Can We Know What Language Models Know?",
+      "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00324/96460/",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT",
+      "url": "https://arxiv.org/abs/2302.11382",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Synthetic Prompting: Generating Chain-of-Thought Demonstrations for LLMs",
+      "url": "https://arxiv.org/abs/2302.00618",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Progressive Prompts: Continual Learning for Language Models",
+      "url": "https://arxiv.org/abs/2301.12314",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Successive Prompting for Decompleting Complex Questions",
+      "url": "https://arxiv.org/abs/2212.04092",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Decomposed Prompting: A Modular Approach for Solving Complex Tasks",
+      "url": "https://arxiv.org/abs/2210.02406",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "PromptChainer: Chaining Large Language Model Prompts through Visual Programming",
+      "url": "https://arxiv.org/abs/2203.06566",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Ask Me Anything: A Simple Strategy for Prompting Language Models",
+      "url": "https://paperswithcode.com/paper/ask-me-anything-a-simple-strategy-for",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Prompting GPT-3 To Be Reliable",
+      "url": "https://arxiv.org/abs/2210.09150",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "On Second Thought, Let's Not Think Step by Step! Bias and Toxicity in Zero-Shot Reasoning",
+      "url": "https://arxiv.org/abs/2212.08061",
+      "category": "foundational-papers-pre-2024",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "[Github]",
+      "url": "https://github.com/promptslab/Promptify",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Agenta-AI/agenta",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://promptlayer.com/",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://helicone.ai/",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/langgpt/LangGPT",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ianarawjo/ChainForge",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/eth-sri/lmql",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://www.promptotype.io/",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://promptpanda.io/",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://promptimize.ai/",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://promptmetheus.com/",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/krrishdholakia/betterprompt",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/thunlp/OpenPrompt",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/bigscience-workshop/promptsource",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/prompt-engine",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/agencyenterprise/PromptInject",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/GeiserX/LynxPrompt",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://flompt.dev/",
+      "category": "prompt-management-and-testing",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/confident-ai/deepeval",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/explodinggradients/ragas",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://smith.langchain.com/",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/langfuse/langfuse",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://www.braintrust.dev/",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/truera/trulens",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/comet-ml/opik",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/hidai25/eval-view",
+      "category": "llm-evaluation-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/langchain-ai/langchain",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/autogen",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openai/openai-agents-python",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/semantic-kernel",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/run-llama/llama_index",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepset-ai/haystack",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/agno-agi/agno",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/huggingface/smolagents",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mastra-ai/mastra",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google/adk-python",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/strands-agents/sdk-python",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/langflow-ai/langflow",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/n8n-io/n8n",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/langgenius/dify",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/juspay/neurolink",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/composiohq/composio",
+      "category": "agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "category": "prompt-optimization-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/zou-group/textgrad",
+      "category": "prompt-optimization-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google-deepmind/opro",
+      "category": "prompt-optimization-tools",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/NVIDIA/garak",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Azure/PyRIT",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/confident-ai/deepteam",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/protectai/llm-guard",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://www.guardrailsai.com/",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://lakera.ai/",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/meta-llama/PurpleLlama",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/sherdencooper/GPTFuzz",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/protectai/rebuff",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/agentseal/agentseal",
+      "category": "red-teaming-and-prompt-security",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "category": "mcp-model-context-protocol",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "category": "mcp-model-context-protocol",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jlowin/fastmcp",
+      "category": "mcp-model-context-protocol",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/github/github-mcp-server",
+      "category": "mcp-model-context-protocol",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "category": "mcp-model-context-protocol",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/upstash/context7",
+      "category": "mcp-model-context-protocol",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://gitmcp.io/",
+      "category": "mcp-model-context-protocol",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/modelcontextprotocol/inspector",
+      "category": "mcp-model-context-protocol",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L350",
+      "line": 350,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openai/codex",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L351",
+      "line": 351,
+      "properties": {
+        "Type": "🟣"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L352",
+      "line": 352,
+      "properties": {
+        "Type": "🟣"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L353",
+      "line": 353,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Aider-AI/aider",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L354",
+      "line": 354,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/opencode-ai/opencode",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L355",
+      "line": 355,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/block/goose",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L356",
+      "line": 356,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/charmbracelet/crush",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L357",
+      "line": 357,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/aws/amazon-q-developer-cli",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L358",
+      "line": 358,
+      "properties": {
+        "Type": "🟣"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://ampcode.com/",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L359",
+      "line": 359,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://www.jetbrains.com/junie/",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L360",
+      "line": 360,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/autohandai/code-cli",
+      "category": "cli-based-coding-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L361",
+      "line": 361,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://cursor.com/",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L369",
+      "line": 369,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://windsurf.com/",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L370",
+      "line": 370,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/zed-industries/zed",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L371",
+      "line": 371,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://www.trae.ai/",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L372",
+      "line": 372,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://antigravity.google/",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L373",
+      "line": 373,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://kiro.dev/",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L374",
+      "line": 374,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/trypear/pearai-app",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L375",
+      "line": 375,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/voideditor/void",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L376",
+      "line": 376,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/meltylabs/melty",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L377",
+      "line": 377,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/generalaction/emdash",
+      "category": "ai-code-editors--ides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L378",
+      "line": 378,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://github.com/features/copilot",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L386",
+      "line": 386,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/cline/cline",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L387",
+      "line": 387,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/continuedev/continue",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L388",
+      "line": 388,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://sourcegraph.com/cody",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L389",
+      "line": 389,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://codeium.com/",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L390",
+      "line": 390,
+      "properties": {
+        "Type": "🟣"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://aws.amazon.com/q/developer/",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L391",
+      "line": 391,
+      "properties": {
+        "Type": "🟣"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://codeassist.google/",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L392",
+      "line": 392,
+      "properties": {
+        "Type": "🟣"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://www.tabnine.com/",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L393",
+      "line": 393,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://www.augmentcode.com/",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L394",
+      "line": 394,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://www.qodo.ai/",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L395",
+      "line": 395,
+      "properties": {
+        "Type": "🟣"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/zai-org/CodeGeeX",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L396",
+      "line": 396,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/TabbyML/tabby",
+      "category": "ide-extensions--plugins",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L397",
+      "line": 397,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://devin.ai/",
+      "category": "ai-coding-platforms--cloud-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L405",
+      "line": 405,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://replit.com/products/agent",
+      "category": "ai-coding-platforms--cloud-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L406",
+      "line": 406,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stackblitz/bolt.new",
+      "category": "ai-coding-platforms--cloud-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L407",
+      "line": 407,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stackblitz-labs/bolt.diy",
+      "category": "ai-coding-platforms--cloud-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L408",
+      "line": 408,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://lovable.dev/",
+      "category": "ai-coding-platforms--cloud-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L409",
+      "line": 409,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://v0.dev/",
+      "category": "ai-coding-platforms--cloud-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L410",
+      "line": 410,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "category": "ai-coding-platforms--cloud-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L411",
+      "line": 411,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "Website",
+      "url": "https://firebase.google.com/studio",
+      "category": "ai-coding-platforms--cloud-agents",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L412",
+      "line": 412,
+      "properties": {
+        "Type": "🔵"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "category": "open-source-coding-agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L420",
+      "line": 420,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "category": "open-source-coding-agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L421",
+      "line": 421,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/langchain-ai/open-swe",
+      "category": "open-source-coding-agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L422",
+      "line": 422,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stitionai/devika",
+      "category": "open-source-coding-agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L423",
+      "line": 423,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nus-apr/auto-code-rover",
+      "category": "open-source-coding-agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L424",
+      "line": 424,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/OpenAutoCoder/Agentless",
+      "category": "open-source-coding-agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L425",
+      "line": 425,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/entropy-research/Devon",
+      "category": "open-source-coding-agent-frameworks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L426",
+      "line": 426,
+      "properties": {
+        "Type": "🟢"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/f/awesome-chatgpt-prompts",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/NirDiamant/Prompt_Engineering",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/davidkimai/Context-Engineering",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/tallesborges/agentic-system-prompts",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/taskade/awesome-vibe-coding",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openai/openai-cookbook",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/embedchain/embedchain",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/OpenBioLink/ThoughtSource",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/1broseidon/promptext",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://pricepertoken.com/",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/daxaur/openpaw",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/HoangTheQuyen/think-better",
+      "category": "other-notable-repositories",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://mistral.ai/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L500",
+      "line": 500,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://deepseek.com/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L501",
+      "line": 501,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://x.ai/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://cohere.com/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L503",
+      "line": 503,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://together.ai/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L504",
+      "line": 504,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://groq.com/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://fireworks.ai/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://openrouter.ai/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L507",
+      "line": 507,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://cerebras.ai/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L508",
+      "line": 508,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://perplexity.ai/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://aws.amazon.com/bedrock/",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://huggingface.co/docs/api-inference/index",
+      "category": "other-notable-providers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://lmarena.ai/",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L522",
+      "line": 522,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "arXiv",
+      "url": "https://arxiv.org/abs/2311.12022",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://www.swebench.com/",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "Leaderboard",
+      "url": "https://scale.com/leaderboard/swe_bench_pro_public",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L526",
+      "line": 526,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://agi.safe.ai/",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L527",
+      "line": 527,
+      "properties": {}
+    },
+    {
+      "title": "Leaderboard",
+      "url": "https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L528",
+      "line": 528,
+      "properties": {}
+    },
+    {
+      "title": "Paper",
+      "url": "https://openreview.net/forum?id=sKYHBTAxVa",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "arXiv",
+      "url": "https://arxiv.org/abs/2311.07911",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L532",
+      "line": 532,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openai/mle-bench",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openai/preparedness",
+      "category": "major-benchmarks-20242026",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L534",
+      "line": 534,
+      "properties": {}
+    },
+    {
+      "title": "Leaderboard",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "category": "leaderboards-and-meta-benchmarks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://artificialanalysis.ai/",
+      "category": "leaderboards-and-meta-benchmarks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "Leaderboard",
+      "url": "https://scale.com/leaderboard",
+      "category": "leaderboards-and-meta-benchmarks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L542",
+      "line": 542,
+      "properties": {}
+    },
+    {
+      "title": "HuggingFace",
+      "url": "https://huggingface.co/datasets/bigscience/P3",
+      "category": "prompt-and-instruction-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L548",
+      "line": 548,
+      "properties": {}
+    },
+    {
+      "title": "HuggingFace",
+      "url": "https://huggingface.co/datasets/danielrosehill/system_prompts",
+      "category": "prompt-and-instruction-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "HuggingFace",
+      "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+      "category": "prompt-and-instruction-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "Kaggle",
+      "url": "https://www.kaggle.com/datasets/ratthachat/writing-prompts",
+      "category": "prompt-and-instruction-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L554",
+      "line": 554,
+      "properties": {}
+    },
+    {
+      "title": "HuggingFace",
+      "url": "https://huggingface.co/datasets/succinctly/midjourney-prompts",
+      "category": "prompt-and-instruction-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "HuggingFace",
+      "url": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k",
+      "category": "prompt-and-instruction-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L556",
+      "line": 556,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jau123/nanobanana-trending-prompts",
+      "category": "prompt-and-instruction-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L558",
+      "line": 558,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://safetyprompts.com/",
+      "category": "red-teaming-and-adversarial-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L564",
+      "line": 564,
+      "properties": {}
+    },
+    {
+      "title": "arXiv",
+      "url": "https://arxiv.org/abs/2410.09024",
+      "category": "red-teaming-and-adversarial-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L566",
+      "line": 566,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://safetyprompts.com/",
+      "category": "red-teaming-and-adversarial-datasets",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L568",
+      "line": 568,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://gptzero.me/",
+      "category": "leading-commercial-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L642",
+      "line": 642,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://originality.ai/",
+      "category": "leading-commercial-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L643",
+      "line": 643,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://www.turnitin.com/solutions/topics/ai-writing/",
+      "category": "leading-commercial-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L644",
+      "line": 644,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://copyleaks.com/",
+      "category": "leading-commercial-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L645",
+      "line": 645,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://gowinston.ai/",
+      "category": "leading-commercial-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L646",
+      "line": 646,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://www.pangram.com/",
+      "category": "leading-commercial-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L647",
+      "line": 647,
+      "properties": {}
+    },
+    {
+      "title": "arXiv",
+      "url": "https://arxiv.org/abs/2401.12070",
+      "category": "free-and-research-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L653",
+      "line": 653,
+      "properties": {}
+    },
+    {
+      "title": "arXiv",
+      "url": "https://arxiv.org/abs/2301.11305",
+      "category": "free-and-research-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L654",
+      "line": 654,
+      "properties": {}
+    },
+    {
+      "title": "[GitHub]",
+      "url": "https://github.com/promptslab/openai-detector",
+      "category": "free-and-research-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L655",
+      "line": 655,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://sapling.ai/",
+      "category": "free-and-research-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L656",
+      "line": 656,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://quillbot.com/ai-content-detector",
+      "category": "free-and-research-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L657",
+      "line": 657,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://writer.com/ai-content-detector/",
+      "category": "free-and-research-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L658",
+      "line": 658,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://www.zerogpt.com/",
+      "category": "free-and-research-detectors",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L659",
+      "line": 659,
+      "properties": {}
+    },
+    {
+      "title": "Website",
+      "url": "https://deepmind.google/technologies/synthid/",
+      "category": "watermarking-approaches",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L665",
+      "line": 665,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT Prompt Engineering for Developers",
+      "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+      "category": "free-short-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L716",
+      "line": 716,
+      "properties": {}
+    },
+    {
+      "title": "Building Systems with the ChatGPT API",
+      "url": "https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/",
+      "category": "free-short-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L717",
+      "line": 717,
+      "properties": {}
+    },
+    {
+      "title": "AI Agents in LangGraph",
+      "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
+      "category": "free-short-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L718",
+      "line": 718,
+      "properties": {}
+    },
+    {
+      "title": "Building Agentic RAG with LlamaIndex",
+      "url": "https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/",
+      "category": "free-short-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L719",
+      "line": 719,
+      "properties": {}
+    },
+    {
+      "title": "Functions, Tools and Agents with LangChain",
+      "url": "https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/",
+      "category": "free-short-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L720",
+      "line": 720,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Engineering for Vision Models",
+      "url": "https://www.deeplearning.ai/short-courses/prompt-engineering-for-vision-models/",
+      "category": "free-short-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L721",
+      "line": 721,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Engineering Specialization (Vanderbilt)",
+      "url": "https://www.coursera.org/specializations/prompt-engineering",
+      "category": "university-and-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L725",
+      "line": 725,
+      "properties": {}
+    },
+    {
+      "title": "Generative AI with LLMs (DeepLearning.AI + AWS)",
+      "url": "https://www.coursera.org/learn/generative-ai-with-llms",
+      "category": "university-and-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L726",
+      "line": 726,
+      "properties": {}
+    },
+    {
+      "title": "Stanford CS336: Language Modeling from Scratch",
+      "url": "https://cs336.stanford.edu/",
+      "category": "university-and-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L727",
+      "line": 727,
+      "properties": {}
+    },
+    {
+      "title": "MIT 6.S191: Introduction to Deep Learning",
+      "url": "https://introtodeeplearning.com/",
+      "category": "university-and-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L728",
+      "line": 728,
+      "properties": {}
+    },
+    {
+      "title": "The Complete Prompt Engineering for AI Bootcamp",
+      "url": "https://www.udemy.com/course/prompt-engineering-for-ai/",
+      "category": "university-and-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L729",
+      "line": 729,
+      "properties": {}
+    },
+    {
+      "title": "Google Prompting Essentials",
+      "url": "https://grow.google/prompting-essentials/",
+      "category": "free-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L733",
+      "line": 733,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Azure AI Fundamentals: Generative AI",
+      "url": "https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/",
+      "category": "free-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L734",
+      "line": 734,
+      "properties": {}
+    },
+    {
+      "title": "Hugging Face LLM Course",
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "category": "free-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L735",
+      "line": 735,
+      "properties": {}
+    },
+    {
+      "title": "Hugging Face AI Agents Course",
+      "url": "https://huggingface.co/learn",
+      "category": "free-platform-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L736",
+      "line": 736,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT for Everyone",
+      "url": "https://learnprompting.org/courses/chatgpt-for-everyone",
+      "category": "learn-prompting-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L740",
+      "line": 740,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to Prompt Engineering",
+      "url": "https://learnprompting.org/courses/introduction_to_prompt_engineering",
+      "category": "learn-prompting-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L741",
+      "line": 741,
+      "properties": {}
+    },
+    {
+      "title": "Advanced Prompt Engineering",
+      "url": "https://learnprompting.org/courses/advanced-prompt-engineering",
+      "category": "learn-prompting-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L742",
+      "line": 742,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to Prompt Hacking",
+      "url": "https://learnprompting.org/courses/intro-to-prompt-hacking",
+      "category": "learn-prompting-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L743",
+      "line": 743,
+      "properties": {}
+    },
+    {
+      "title": "Advanced Prompt Hacking",
+      "url": "https://learnprompting.org/courses/advanced-prompt-hacking",
+      "category": "learn-prompting-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L744",
+      "line": 744,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to Generative AI Agents for Business Professionals",
+      "url": "https://learnprompting.org/courses/introduction-to-agents",
+      "category": "learn-prompting-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L745",
+      "line": 745,
+      "properties": {}
+    },
+    {
+      "title": "AI Safety",
+      "url": "https://learnprompting.org/courses/ai-safety",
+      "category": "learn-prompting-courses",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L746",
+      "line": 746,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Prompt Engineering Guide",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "category": "official-provider-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L755",
+      "line": 755,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI GPT-4.1 Prompting Guide",
+      "url": "https://cookbook.openai.com/articles/gpt-4-1-prompting-guide",
+      "category": "official-provider-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L756",
+      "line": 756,
+      "properties": {}
+    },
+    {
+      "title": "Anthropic Prompt Engineering Overview",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "category": "official-provider-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L757",
+      "line": 757,
+      "properties": {}
+    },
+    {
+      "title": "Anthropic Claude 4 Best Practices",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices",
+      "category": "official-provider-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L758",
+      "line": 758,
+      "properties": {}
+    },
+    {
+      "title": "Anthropic: Effective Context Engineering for AI Agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "category": "official-provider-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L759",
+      "line": 759,
+      "properties": {}
+    },
+    {
+      "title": "Google Gemini Prompting Strategies",
+      "url": "https://ai.google.dev/docs/prompt_best_practices",
+      "category": "official-provider-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L760",
+      "line": 760,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Prompt Engineering in Azure AI Studio",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering",
+      "category": "official-provider-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L761",
+      "line": 761,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Engineering Guide (DAIR.AI / promptingguide.ai)",
+      "url": "https://www.promptingguide.ai/",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L765",
+      "line": 765,
+      "properties": {}
+    },
+    {
+      "title": "Learn Prompting (learnprompting.org)",
+      "url": "https://learnprompting.org/",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L766",
+      "line": 766,
+      "properties": {}
+    },
+    {
+      "title": "IBM 2026 Guide to Prompt Engineering",
+      "url": "https://www.ibm.com/think/prompt-engineering",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L767",
+      "line": 767,
+      "properties": {}
+    },
+    {
+      "title": "Anthropic Interactive Tutorial",
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L768",
+      "line": 768,
+      "properties": {}
+    },
+    {
+      "title": "Lilian Weng's Prompt Engineering Guide",
+      "url": "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L769",
+      "line": 769,
+      "properties": {}
+    },
+    {
+      "title": "Google Prompt Engineering Guide (68-page PDF)",
+      "url": "https://www.reddit.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L770",
+      "line": 770,
+      "properties": {}
+    },
+    {
+      "title": "DigitalOcean: Prompt Engineering Best Practices",
+      "url": "https://www.digitalocean.com/resources/articles/prompt-engineering-best-practices",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L771",
+      "line": 771,
+      "properties": {}
+    },
+    {
+      "title": "Aakash Gupta: Prompt Engineering in 2025",
+      "url": "https://news.aakashg.com/",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L772",
+      "line": 772,
+      "properties": {}
+    },
+    {
+      "title": "Best practices for prompt engineering with OpenAI API",
+      "url": "https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L773",
+      "line": 773,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Cookbook",
+      "url": "https://github.com/openai/openai-cookbook",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L774",
+      "line": 774,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Prompt Engineering Docs",
+      "url": "https://microsoft.github.io/prompt-engineering",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L775",
+      "line": 775,
+      "properties": {}
+    },
+    {
+      "title": "DALLE Prompt Book",
+      "url": "https://dallery.gallery/the-dalle-2-prompt-book",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L776",
+      "line": 776,
+      "properties": {}
+    },
+    {
+      "title": "Best 100+ Stable Diffusion Prompts",
+      "url": "https://mpost.io/best-100-stable-diffusion-prompts-the-most-beautiful-ai-text-to-image-prompts",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L777",
+      "line": 777,
+      "properties": {}
+    },
+    {
+      "title": "Vibe Engineering (Manning)",
+      "url": "https://www.manning.com/books/vibe-engineering",
+      "category": "community-and-independent-guides",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L778",
+      "line": 778,
+      "properties": {}
+    },
+    {
+      "title": "Andrej Karpathy: \"Deep Dive into LLMs\" & \"How I Use LLMs\"",
+      "url": "https://www.youtube.com/@AndrejKarpathy",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L785",
+      "line": 785,
+      "properties": {}
+    },
+    {
+      "title": "Karpathy: \"Software in the Era of AI\" (YC AI Startup School)",
+      "url": "https://karpathy.ai/",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L786",
+      "line": 786,
+      "properties": {}
+    },
+    {
+      "title": "Karpathy: Neural Networks: Zero to Hero",
+      "url": "https://www.youtube.com/@AndrejKarpathy",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L787",
+      "line": 787,
+      "properties": {}
+    },
+    {
+      "title": "3Blue1Brown: Neural Networks Series",
+      "url": "https://www.youtube.com/@3blue1brown",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L788",
+      "line": 788,
+      "properties": {}
+    },
+    {
+      "title": "AI Explained",
+      "url": "https://www.youtube.com/@aiexplained-official",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L789",
+      "line": 789,
+      "properties": {}
+    },
+    {
+      "title": "Sam Witteveen",
+      "url": "https://www.youtube.com/@samwitteveen",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L790",
+      "line": 790,
+      "properties": {}
+    },
+    {
+      "title": "Matthew Berman",
+      "url": "https://www.youtube.com/@matthew_berman",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L791",
+      "line": 791,
+      "properties": {}
+    },
+    {
+      "title": "DeepLearning.AI YouTube",
+      "url": "https://www.youtube.com/@Deeplearningai",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L792",
+      "line": 792,
+      "properties": {}
+    },
+    {
+      "title": "Lex Fridman Podcast (AI Episodes)",
+      "url": "https://www.youtube.com/@lexfridman",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L793",
+      "line": 793,
+      "properties": {}
+    },
+    {
+      "title": "ICSE 2025: AIware Prompt Engineering Tutorial",
+      "url": "https://conf.researchr.org/details/icse-2025/icse-2025-tutorials/",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L794",
+      "line": 794,
+      "properties": {}
+    },
+    {
+      "title": "CMU Advanced NLP 2022: Prompting",
+      "url": "https://youtube.com/watch?v=5ef83Wljm-M",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L795",
+      "line": 795,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT: 5 Prompt Engineering Secrets For Beginners",
+      "url": "https://www.youtube.com/watch?v=2zg3V66-Fzs",
+      "category": "videos",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L796",
+      "line": 796,
+      "properties": {}
+    },
+    {
+      "title": "Learn Prompting",
+      "url": "https://learnprompting.org/discord",
+      "category": "discord-servers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L805",
+      "line": 805,
+      "properties": {}
+    },
+    {
+      "title": "PromptsLab Discord",
+      "url": "https://discord.gg/m88xfYMbK6",
+      "category": "discord-servers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L806",
+      "line": 806,
+      "properties": {}
+    },
+    {
+      "title": "Midjourney",
+      "url": "https://discord.gg/midjourney",
+      "category": "discord-servers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L807",
+      "line": 807,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Discord",
+      "url": "https://discord.gg/openai",
+      "category": "discord-servers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L808",
+      "line": 808,
+      "properties": {}
+    },
+    {
+      "title": "Anthropic Discord",
+      "url": "https://discord.gg/anthropic",
+      "category": "discord-servers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L809",
+      "line": 809,
+      "properties": {}
+    },
+    {
+      "title": "Hugging Face Discord",
+      "url": "https://discord.gg/huggingface",
+      "category": "discord-servers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L810",
+      "line": 810,
+      "properties": {}
+    },
+    {
+      "title": "FlowGPT",
+      "url": "https://flowgpt.com/",
+      "category": "discord-servers",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L811",
+      "line": 811,
+      "properties": {}
+    },
+    {
+      "title": "r/PromptEngineering",
+      "url": "https://reddit.com/r/PromptEngineering",
+      "category": "reddit",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L815",
+      "line": 815,
+      "properties": {}
+    },
+    {
+      "title": "r/ChatGPT",
+      "url": "https://reddit.com/r/ChatGPT",
+      "category": "reddit",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L816",
+      "line": 816,
+      "properties": {}
+    },
+    {
+      "title": "r/LocalLLaMA",
+      "url": "https://reddit.com/r/LocalLLaMA",
+      "category": "reddit",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L817",
+      "line": 817,
+      "properties": {}
+    },
+    {
+      "title": "r/ClaudeAI",
+      "url": "https://reddit.com/r/ClaudeAI",
+      "category": "reddit",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L818",
+      "line": 818,
+      "properties": {}
+    },
+    {
+      "title": "r/MachineLearning",
+      "url": "https://reddit.com/r/MachineLearning",
+      "category": "reddit",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L819",
+      "line": 819,
+      "properties": {}
+    },
+    {
+      "title": "r/OpenAI",
+      "url": "https://reddit.com/r/OpenAI",
+      "category": "reddit",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L820",
+      "line": 820,
+      "properties": {}
+    },
+    {
+      "title": "r/StableDiffusion",
+      "url": "https://reddit.com/r/StableDiffusion",
+      "category": "reddit",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L821",
+      "line": 821,
+      "properties": {}
+    },
+    {
+      "title": "r/ChatGPTPromptGenius",
+      "url": "https://reddit.com/r/ChatGPTPromptGenius",
+      "category": "reddit",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L822",
+      "line": 822,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Developer Community",
+      "url": "https://community.openai.com/",
+      "category": "forums-and-platforms",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L827",
+      "line": 827,
+      "properties": {}
+    },
+    {
+      "title": "Hugging Face Community",
+      "url": "https://huggingface.co/",
+      "category": "forums-and-platforms",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L828",
+      "line": 828,
+      "properties": {}
+    },
+    {
+      "title": "DeepLearning.AI Community",
+      "url": "https://community.deeplearning.ai/",
+      "category": "forums-and-platforms",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L829",
+      "line": 829,
+      "properties": {}
+    },
+    {
+      "title": "LessWrong",
+      "url": "https://www.lesswrong.com/",
+      "category": "forums-and-platforms",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L830",
+      "line": 830,
+      "properties": {}
+    },
+    {
+      "title": "AI Alignment Forum",
+      "url": "https://www.alignmentforum.org/",
+      "category": "forums-and-platforms",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L831",
+      "line": 831,
+      "properties": {}
+    },
+    {
+      "title": "CivitAI",
+      "url": "https://civitai.com/",
+      "category": "forums-and-platforms",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L832",
+      "line": 832,
+      "properties": {}
+    },
+    {
+      "title": "LangChain",
+      "url": "https://github.com/langchain-ai",
+      "category": "github-organizations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L836",
+      "line": 836,
+      "properties": {}
+    },
+    {
+      "title": "Promptslab",
+      "url": "https://github.com/promptslab",
+      "category": "github-organizations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L837",
+      "line": 837,
+      "properties": {}
+    },
+    {
+      "title": "Hugging Face",
+      "url": "https://github.com/huggingface",
+      "category": "github-organizations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L838",
+      "line": 838,
+      "properties": {}
+    },
+    {
+      "title": "DSPy (Stanford NLP)",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "category": "github-organizations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L839",
+      "line": 839,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI",
+      "url": "https://github.com/openai",
+      "category": "github-organizations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L840",
+      "line": 840,
+      "properties": {}
+    },
+    {
+      "title": "kayba-ai/recursive-improve",
+      "url": "https://github.com/kayba-ai/recursive-improve",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L850",
+      "line": 850,
+      "properties": {}
+    },
+    {
+      "title": "vukrosic/auto-research",
+      "url": "https://github.com/vukrosic/auto-research",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L851",
+      "line": 851,
+      "properties": {}
+    },
+    {
+      "title": "uditgoenka/autoresearch",
+      "url": "https://github.com/uditgoenka/autoresearch",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L852",
+      "line": 852,
+      "properties": {}
+    },
+    {
+      "title": "leo-lilinxiao/codex-autoresearch",
+      "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L853",
+      "line": 853,
+      "properties": {}
+    },
+    {
+      "title": "junjunjunbong/research-loop",
+      "url": "https://github.com/junjunjunbong/research-loop",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L854",
+      "line": 854,
+      "properties": {}
+    },
+    {
+      "title": "SeeleAI/Thoth",
+      "url": "https://github.com/SeeleAI/Thoth",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L855",
+      "line": 855,
+      "properties": {}
+    },
+    {
+      "title": "supratikpm/gemini-autoresearch",
+      "url": "https://github.com/supratikpm/gemini-autoresearch",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L856",
+      "line": 856,
+      "properties": {}
+    },
+    {
+      "title": "davebcn87/pi-autoresearch",
+      "url": "https://github.com/davebcn87/pi-autoresearch",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L857",
+      "line": 857,
+      "properties": {}
+    },
+    {
+      "title": "drivelineresearch/autoresearch-claude-code",
+      "url": "https://github.com/drivelineresearch/autoresearch-claude-code",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L858",
+      "line": 858,
+      "properties": {}
+    },
+    {
+      "title": "greyhaven-ai/autocontext",
+      "url": "https://github.com/greyhaven-ai/autocontext",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L859",
+      "line": 859,
+      "properties": {}
+    },
+    {
+      "title": "Necmttn/ax",
+      "url": "https://github.com/Necmttn/ax",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L860",
+      "line": 860,
+      "properties": {}
+    },
+    {
+      "title": "jmilinovich/goal-md",
+      "url": "https://github.com/jmilinovich/goal-md",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L861",
+      "line": 861,
+      "properties": {}
+    },
+    {
+      "title": "james-s-tayler/lazy-developer",
+      "url": "https://github.com/james-s-tayler/lazy-developer",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L862",
+      "line": 862,
+      "properties": {}
+    },
+    {
+      "title": "mutable-state-inc/autoresearch-at-home",
+      "url": "https://github.com/mutable-state-inc/autoresearch-at-home",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L863",
+      "line": 863,
+      "properties": {}
+    },
+    {
+      "title": "zkarimi22/autoresearch-anything",
+      "url": "https://github.com/zkarimi22/autoresearch-anything",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L864",
+      "line": 864,
+      "properties": {}
+    },
+    {
+      "title": "Entrpi/autoresearch-everywhere",
+      "url": "https://github.com/Entrpi/autoresearch-everywhere",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L865",
+      "line": 865,
+      "properties": {}
+    },
+    {
+      "title": "ShengranHu/ADAS",
+      "url": "https://github.com/ShengranHu/ADAS",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L866",
+      "line": 866,
+      "properties": {}
+    },
+    {
+      "title": "MaximeRobeyns/self_improving_coding_agent",
+      "url": "https://github.com/MaximeRobeyns/self_improving_coding_agent",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L867",
+      "line": 867,
+      "properties": {}
+    },
+    {
+      "title": "peterskoett/self-improving-agent",
+      "url": "https://github.com/peterskoett/self-improving-agent",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L868",
+      "line": 868,
+      "properties": {}
+    },
+    {
+      "title": "metauto-ai/HGM",
+      "url": "https://github.com/metauto-ai/HGM",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L869",
+      "line": 869,
+      "properties": {}
+    },
+    {
+      "title": "gepa-ai/gepa",
+      "url": "https://github.com/gepa-ai/gepa",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L870",
+      "line": 870,
+      "properties": {}
+    },
+    {
+      "title": "sentient-agi/EvoSkill",
+      "url": "https://github.com/sentient-agi/EvoSkill",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L871",
+      "line": 871,
+      "properties": {}
+    },
+    {
+      "title": "MrTsepa/autoevolve",
+      "url": "https://github.com/MrTsepa/autoevolve",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L872",
+      "line": 872,
+      "properties": {}
+    },
+    {
+      "title": "HKUDS/ClawTeam",
+      "url": "https://github.com/HKUDS/ClawTeam",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L873",
+      "line": 873,
+      "properties": {}
+    },
+    {
+      "title": "Orchestra-Research/AI-Research-SKILLs",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L874",
+      "line": 874,
+      "properties": {}
+    },
+    {
+      "title": "WecoAI/aideml",
+      "url": "https://github.com/WecoAI/aideml",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L875",
+      "line": 875,
+      "properties": {}
+    },
+    {
+      "title": "weco.ai",
+      "url": "https://weco.ai/",
+      "category": "general-purpose-descendants",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L876",
+      "line": 876,
+      "properties": {}
+    },
+    {
+      "title": "aiming-lab/AutoResearchClaw",
+      "url": "https://github.com/aiming-lab/AutoResearchClaw",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L880",
+      "line": 880,
+      "properties": {}
+    },
+    {
+      "title": "OpenRaiser/NanoResearch",
+      "url": "https://github.com/OpenRaiser/NanoResearch",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L881",
+      "line": 881,
+      "properties": {}
+    },
+    {
+      "title": "kaust-ark/ARK",
+      "url": "https://github.com/kaust-ark/ARK",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L882",
+      "line": 882,
+      "properties": {}
+    },
+    {
+      "title": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L883",
+      "line": 883,
+      "properties": {}
+    },
+    {
+      "title": "skyllwt/AutoSci",
+      "url": "https://github.com/skyllwt/AutoSci",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L884",
+      "line": 884,
+      "properties": {}
+    },
+    {
+      "title": "Sibyl-Research-Team/AutoResearch-SibylSystem",
+      "url": "https://github.com/Sibyl-Research-Team/AutoResearch-SibylSystem",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L885",
+      "line": 885,
+      "properties": {}
+    },
+    {
+      "title": "eimenhmdt/autoresearcher",
+      "url": "https://github.com/eimenhmdt/autoresearcher",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L886",
+      "line": 886,
+      "properties": {}
+    },
+    {
+      "title": "hyperspaceai/agi",
+      "url": "https://github.com/hyperspaceai/agi",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L887",
+      "line": 887,
+      "properties": {}
+    },
+    {
+      "title": "Human-Agent-Society/CORAL",
+      "url": "https://github.com/Human-Agent-Society/CORAL",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L888",
+      "line": 888,
+      "properties": {}
+    },
+    {
+      "title": "SakanaAI/AI-Scientist",
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L889",
+      "line": 889,
+      "properties": {}
+    },
+    {
+      "title": "SakanaAI/AI-Scientist-v2",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L890",
+      "line": 890,
+      "properties": {}
+    },
+    {
+      "title": "AweAI-Team/AiScientist",
+      "url": "https://github.com/AweAI-Team/AiScientist",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L891",
+      "line": 891,
+      "properties": {}
+    },
+    {
+      "title": "HKUDS/AI-Researcher",
+      "url": "https://github.com/HKUDS/AI-Researcher",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L892",
+      "line": 892,
+      "properties": {}
+    },
+    {
+      "title": "openags/Auto-Research",
+      "url": "https://github.com/openags/Auto-Research",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L893",
+      "line": 893,
+      "properties": {}
+    },
+    {
+      "title": "SamuelSchmidgall/AgentLaboratory",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L894",
+      "line": 894,
+      "properties": {}
+    },
+    {
+      "title": "AgentRxiv",
+      "url": "https://agentrxiv.github.io/",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L895",
+      "line": 895,
+      "properties": {}
+    },
+    {
+      "title": "JinheonBaek/ResearchAgent",
+      "url": "https://github.com/JinheonBaek/ResearchAgent",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L896",
+      "line": 896,
+      "properties": {}
+    },
+    {
+      "title": "du-nlp-lab/MLR-Copilot",
+      "url": "https://github.com/du-nlp-lab/MLR-Copilot",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L897",
+      "line": 897,
+      "properties": {}
+    },
+    {
+      "title": "MASWorks/ML-Agent",
+      "url": "https://github.com/MASWorks/ML-Agent",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L898",
+      "line": 898,
+      "properties": {}
+    },
+    {
+      "title": "PouriaRouzrokh/LatteReview",
+      "url": "https://github.com/PouriaRouzrokh/LatteReview",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L899",
+      "line": 899,
+      "properties": {}
+    },
+    {
+      "title": "LitLLM/LitLLM",
+      "url": "https://github.com/LitLLM/LitLLM",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L900",
+      "line": 900,
+      "properties": {}
+    },
+    {
+      "title": "Agent Laboratory",
+      "url": "https://agentlaboratory.github.io/",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L901",
+      "line": 901,
+      "properties": {}
+    },
+    {
+      "title": "happyhappy-jun/writing-driven-autoresearch",
+      "url": "https://github.com/happyhappy-jun/writing-driven-autoresearch",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L902",
+      "line": 902,
+      "properties": {}
+    },
+    {
+      "title": "AutoResearch-Factory/Agon",
+      "url": "https://github.com/AutoResearch-Factory/Agon",
+      "category": "research-agent-systems",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L903",
+      "line": 903,
+      "properties": {}
+    },
+    {
+      "title": "gianfrancopiana/openclaw-autoresearch",
+      "url": "https://github.com/gianfrancopiana/openclaw-autoresearch",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L907",
+      "line": 907,
+      "properties": {}
+    },
+    {
+      "title": "miolini/autoresearch-macos",
+      "url": "https://github.com/miolini/autoresearch-macos",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L908",
+      "line": 908,
+      "properties": {}
+    },
+    {
+      "title": "trevin-creator/autoresearch-mlx",
+      "url": "https://github.com/trevin-creator/autoresearch-mlx",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L909",
+      "line": 909,
+      "properties": {}
+    },
+    {
+      "title": "jsegov/autoresearch-win-rtx",
+      "url": "https://github.com/jsegov/autoresearch-win-rtx",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L910",
+      "line": 910,
+      "properties": {}
+    },
+    {
+      "title": "iii-hq/n-autoresearch",
+      "url": "https://github.com/iii-hq/n-autoresearch",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L911",
+      "line": 911,
+      "properties": {}
+    },
+    {
+      "title": "lucasgelfond/autoresearch-webgpu",
+      "url": "https://github.com/lucasgelfond/autoresearch-webgpu",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L912",
+      "line": 912,
+      "properties": {}
+    },
+    {
+      "title": "tonitangpotato/autoresearch-engram",
+      "url": "https://github.com/tonitangpotato/autoresearch-engram",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L913",
+      "line": 913,
+      "properties": {}
+    },
+    {
+      "title": "Colab/Kaggle T4 port",
+      "url": "https://github.com/karpathy/autoresearch/issues/208",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L914",
+      "line": 914,
+      "properties": {}
+    },
+    {
+      "title": "ArmanJR-Lab/autoautoresearch",
+      "url": "https://github.com/ArmanJR-Lab/autoautoresearch",
+      "category": "platform-ports--hardware-forks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L915",
+      "line": 915,
+      "properties": {}
+    },
+    {
+      "title": "mattprusak/autoresearch-genealogy",
+      "url": "https://github.com/mattprusak/autoresearch-genealogy",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L919",
+      "line": 919,
+      "properties": {}
+    },
+    {
+      "title": "ArchishmanSengupta/autovoiceevals",
+      "url": "https://github.com/ArchishmanSengupta/autovoiceevals",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L920",
+      "line": 920,
+      "properties": {}
+    },
+    {
+      "title": "chrisworsey55/atlas-gic",
+      "url": "https://github.com/chrisworsey55/atlas-gic",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L921",
+      "line": 921,
+      "properties": {}
+    },
+    {
+      "title": "RightNow-AI/autokernel",
+      "url": "https://github.com/RightNow-AI/autokernel",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L922",
+      "line": 922,
+      "properties": {}
+    },
+    {
+      "title": "ElliotXie/autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L923",
+      "line": 923,
+      "properties": {}
+    },
+    {
+      "title": "Agent-Analytics/autoresearch-growth",
+      "url": "https://github.com/Agent-Analytics/autoresearch-growth",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L924",
+      "line": 924,
+      "properties": {}
+    },
+    {
+      "title": "Rkcr7/autoresearch-sudoku",
+      "url": "https://github.com/Rkcr7/autoresearch-sudoku",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L925",
+      "line": 925,
+      "properties": {}
+    },
+    {
+      "title": "jeongph/autospec",
+      "url": "https://github.com/jeongph/autospec",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L926",
+      "line": 926,
+      "properties": {}
+    },
+    {
+      "title": "vlasenkoalexey/tpu_performance_autoresearch_wiki",
+      "url": "https://github.com/vlasenkoalexey/tpu_performance_autoresearch_wiki",
+      "category": "domain-specific-adaptations",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L927",
+      "line": 927,
+      "properties": {}
+    },
+    {
+      "title": "snap-stanford/MLAgentBench",
+      "url": "https://github.com/snap-stanford/MLAgentBench",
+      "category": "evaluation--benchmarks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L931",
+      "line": 931,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI/mle-bench",
+      "url": "https://github.com/openai/mle-bench",
+      "category": "evaluation--benchmarks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L932",
+      "line": 932,
+      "properties": {}
+    },
+    {
+      "title": "chchenhui/mlrbench",
+      "url": "https://github.com/chchenhui/mlrbench",
+      "category": "evaluation--benchmarks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L933",
+      "line": 933,
+      "properties": {}
+    },
+    {
+      "title": "gersteinlab/ML-Bench",
+      "url": "https://github.com/gersteinlab/ML-Bench",
+      "category": "evaluation--benchmarks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L934",
+      "line": 934,
+      "properties": {}
+    },
+    {
+      "title": "THUDM/AgentBench",
+      "url": "https://github.com/THUDM/AgentBench",
+      "category": "evaluation--benchmarks",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L935",
+      "line": 935,
+      "properties": {}
+    },
+    {
+      "title": "ai-agents-2030/awesome-deep-research-agent",
+      "url": "https://github.com/ai-agents-2030/awesome-deep-research-agent",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L939",
+      "line": 939,
+      "properties": {}
+    },
+    {
+      "title": "YoungDubbyDu/LLM-Agent-Optimization",
+      "url": "https://github.com/YoungDubbyDu/LLM-Agent-Optimization",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L940",
+      "line": 940,
+      "properties": {}
+    },
+    {
+      "title": "VoltAgent/awesome-ai-agent-papers",
+      "url": "https://github.com/VoltAgent/awesome-ai-agent-papers",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L941",
+      "line": 941,
+      "properties": {}
+    },
+    {
+      "title": "masamasa59/ai-agent-papers",
+      "url": "https://github.com/masamasa59/ai-agent-papers",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L942",
+      "line": 942,
+      "properties": {}
+    },
+    {
+      "title": "tmgthb/Autonomous-Agents",
+      "url": "https://github.com/tmgthb/Autonomous-Agents",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L943",
+      "line": 943,
+      "properties": {}
+    },
+    {
+      "title": "HKUST-KnowComp/Awesome-LLM-Scientific-Discovery",
+      "url": "https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L944",
+      "line": 944,
+      "properties": {}
+    },
+    {
+      "title": "openags/Awesome-AI-Scientist-Papers",
+      "url": "https://github.com/openags/Awesome-AI-Scientist-Papers",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L945",
+      "line": 945,
+      "properties": {}
+    },
+    {
+      "title": "agenticscience.github.io",
+      "url": "https://agenticscience.github.io/",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L946",
+      "line": 946,
+      "properties": {}
+    },
+    {
+      "title": "dspy.ai/GEPA",
+      "url": "https://dspy.ai/api/optimizers/GEPA/overview/",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L947",
+      "line": 947,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Cookbook: Self-Evolving Agents",
+      "url": "https://developers.openai.com/cookbook/examples/partners/self_evolving_agents/autonomous_agent_retraining",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L948",
+      "line": 948,
+      "properties": {}
+    },
+    {
+      "title": "WecoAI/awesome-autoresearch",
+      "url": "https://github.com/WecoAI/awesome-autoresearch",
+      "category": "related-resources",
+      "source_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/blob/df6c86b292af3e16e0cdb521776b2b55d3d45931/README.md#L949",
+      "line": 949,
+      "properties": {}
+    }
+  ],
+  "properties": [
+    "Type"
+  ],
+  "entry_count": 455,
+  "unique_links": 444,
+  "category_count": 51,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by promptslab/Awesome-Prompt-Engineering contributors.",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/promptslab/Awesome-Prompt-Engineering/tree/df6c86b292af3e16e0cdb521776b2b55d3d45931",
+  "digest": "7e2d0011abd6520f289df13d377899aa15cd5cdfdd525be95ebba2ed848993e2"
+}

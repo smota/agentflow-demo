@@ -1,0 +1,920 @@
+{
+  "format_version": 2,
+  "repository_id": "188432386",
+  "name": "LirongWu/awesome-graph-self-supervised-learning",
+  "revision": "16e4a2032fc103a82778f9e7097e068554fda1cc",
+  "readme_path": "README.md",
+  "readme_sha256": "fddd920ef3ee928a0768e5462a92fb06b40614960582869dc06367b76b0c38f4",
+  "sections": [
+    {
+      "id": "awesome-graph-self-supervised-learning",
+      "title": "Awesome Graph Self-Supervised Learning",
+      "level": 1,
+      "path": [
+        "Awesome Graph Self-Supervised Learning"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#awesome-graph-self-supervised-learning",
+      "entries": 0
+    },
+    {
+      "id": "why-self-supervised",
+      "title": "Why Self-Supervised?",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Why Self-Supervised?"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#why-self-supervised",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Overview"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#overview",
+      "entries": 0
+    },
+    {
+      "id": "training-strategy",
+      "title": "Training Strategy",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Training Strategy"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#training-strategy",
+      "entries": 0
+    },
+    {
+      "id": "contrastive-learning",
+      "title": "Contrastive Learning",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Contrastive Learning"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#contrastive-learning",
+      "entries": 0
+    },
+    {
+      "id": "global-global-contrasting",
+      "title": "Global-Global Contrasting",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Contrastive Learning",
+        "Global-Global Contrasting"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#global-global-contrasting",
+      "entries": 6
+    },
+    {
+      "id": "context-context-contrasting",
+      "title": "Context-Context Contrasting",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Contrastive Learning",
+        "Context-Context Contrasting"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#context-context-contrasting",
+      "entries": 1
+    },
+    {
+      "id": "local-local-contrasting",
+      "title": "Local-Local Contrasting",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Contrastive Learning",
+        "Local-Local Contrasting"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#local-local-contrasting",
+      "entries": 16
+    },
+    {
+      "id": "local-global-contrasting",
+      "title": "Local-Global Contrasting",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Contrastive Learning",
+        "Local-Global Contrasting"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#local-global-contrasting",
+      "entries": 5
+    },
+    {
+      "id": "local-context-contrasting",
+      "title": "Local-Context Contrasting",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Contrastive Learning",
+        "Local-Context Contrasting"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#local-context-contrasting",
+      "entries": 7
+    },
+    {
+      "id": "context-global-contrasting",
+      "title": "Context-Global Contrasting",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Contrastive Learning",
+        "Context-Global Contrasting"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#context-global-contrasting",
+      "entries": 6
+    },
+    {
+      "id": "generative-learning",
+      "title": "Generative Learning",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Generative Learning"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#generative-learning",
+      "entries": 0
+    },
+    {
+      "id": "graph-autoencoding",
+      "title": "Graph Autoencoding",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Generative Learning",
+        "Graph Autoencoding"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#graph-autoencoding",
+      "entries": 11
+    },
+    {
+      "id": "graph-autoregression",
+      "title": "Graph Autoregression",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Generative Learning",
+        "Graph Autoregression"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#graph-autoregression",
+      "entries": 1
+    },
+    {
+      "id": "predictive-learning",
+      "title": "Predictive Learning",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Predictive Learning"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#predictive-learning",
+      "entries": 0
+    },
+    {
+      "id": "node-property-prediction",
+      "title": "Node Property Prediction",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Predictive Learning",
+        "Node Property Prediction"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#node-property-prediction",
+      "entries": 1
+    },
+    {
+      "id": "context-based-prediction",
+      "title": "Context-based Prediction",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Predictive Learning",
+        "Context-based Prediction"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#context-based-prediction",
+      "entries": 12
+    },
+    {
+      "id": "self-training",
+      "title": "Self-Training",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Predictive Learning",
+        "Self-Training"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#self-training",
+      "entries": 6
+    },
+    {
+      "id": "domain-knowledge-based-prediction",
+      "title": "Domain Knowledge-based Prediction",
+      "level": 4,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Predictive Learning",
+        "Domain Knowledge-based Prediction"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#domain-knowledge-based-prediction",
+      "entries": 3
+    },
+    {
+      "id": "a-summary-of-methodology-details",
+      "title": "A Summary of Methodology Details",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "A Summary of Methodology Details"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#a-summary-of-methodology-details",
+      "entries": 0
+    },
+    {
+      "id": "a-summary-of-implementation-details",
+      "title": "A Summary of Implementation Details",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "A Summary of Implementation Details"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#a-summary-of-implementation-details",
+      "entries": 0
+    },
+    {
+      "id": "a-summary-of-common-graph-datasets",
+      "title": "A Summary of Common Graph Datasets",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "A Summary of Common Graph Datasets"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#a-summary-of-common-graph-datasets",
+      "entries": 0
+    },
+    {
+      "id": "a-summary-of-open-source-codes",
+      "title": "A Summary of Open-source Codes",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "A Summary of Open-source Codes"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#a-summary-of-open-source-codes",
+      "entries": 0
+    },
+    {
+      "id": "contribute",
+      "title": "Contribute",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Contribute"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#contribute",
+      "entries": 0
+    },
+    {
+      "id": "feedback",
+      "title": "Feedback",
+      "level": 2,
+      "path": [
+        "Awesome Graph Self-Supervised Learning",
+        "Feedback"
+      ],
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#feedback",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "[pdf]",
+      "url": "https://proceedings.neurips.cc/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Paper.pdf",
+      "category": "global-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2010.12609.pdf",
+      "category": "global-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2011.04419.pdf",
+      "category": "global-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2101.05486.pdf",
+      "category": "global-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2107.12576",
+      "category": "global-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2009.05923.pdf",
+      "category": "global-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.09963.pdf",
+      "category": "context-context-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2311.02357",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.04131.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2010.14945.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2102.13085.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2106.03569",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1904.06316.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2002.01169.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2009.00934.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2009.07111.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2102.06514.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2103.14958.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2105.09111",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2102.12380.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2012.11336.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2101.11525.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1911.12247.pdf",
+      "category": "local-local-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1809.10341.pdf",
+      "category": "local-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2102.07810.pdf",
+      "category": "local-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/5985/5841",
+      "category": "local-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf",
+      "category": "local-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1911.08538.pdf",
+      "category": "local-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2311.02357",
+      "category": "local-context-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2009.10273.pdf",
+      "category": "local-context-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1905.12265.pdf",
+      "category": "local-context-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2009.06946.pdf",
+      "category": "local-context-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://openreview.net/forum?id=DAaaaqPv9-q",
+      "category": "local-context-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2101.06448.pdf",
+      "category": "local-context-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2009.05204",
+      "category": "local-context-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2012.12533.pdf",
+      "category": "context-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1908.01000.pdf",
+      "category": "context-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2101.08170.pdf",
+      "category": "context-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/1505.05192",
+      "category": "context-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2103.13125.pdf",
+      "category": "context-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://www.preprints.org/manuscript/202103.0337/v1",
+      "category": "context-global-contrasting",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2311.02357",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2205.10803.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "http://proceedings.mlr.press/v119/you20a/you20a.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.10141.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1905.12265.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2011.07267.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.02380.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2001.05140.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3437963.3441738",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2102.05034.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1906.00346.pdf",
+      "category": "graph-autoencoding",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403237",
+      "category": "graph-autoregression",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.10141.pdf",
+      "category": "node-property-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2003.01604.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.10141.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.10141.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.10141.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.10141.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://openreview.net/forum?id=9az9VKjOx00",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1905.13728.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2007.08294.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2007.11192.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.10141.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2006.10141.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2104.07917.pdf",
+      "category": "context-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/11604",
+      "category": "self-training",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "http://proceedings.mlr.press/v119/you20a/you20a.pdf",
+      "category": "self-training",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2009.01674.pdf",
+      "category": "self-training",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://deepai.org/publication/multi-stage-self-supervised-learning-for-graph-convolutional-networks",
+      "category": "self-training",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/1905.13728.pdf",
+      "category": "self-training",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2007.04777.pdf",
+      "category": "self-training",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://drug.ai.tencent.com/publications/GROVER.pdf",
+      "category": "domain-knowledge-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://drug.ai.tencent.com/publications/GROVER.pdf",
+      "category": "domain-knowledge-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "http://proceedings.mlr.press/v119/yasunaga20a/yasunaga20a.pdf",
+      "category": "domain-knowledge-based-prediction",
+      "source_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/blob/16e4a2032fc103a82778f9e7097e068554fda1cc/README.md#L272",
+      "line": 272,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 75,
+  "unique_links": 62,
+  "category_count": 12,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by LirongWu/awesome-graph-self-supervised-learning contributors.",
+  "license": null,
+  "license_url": "https://github.com/LirongWu/awesome-graph-self-supervised-learning/tree/16e4a2032fc103a82778f9e7097e068554fda1cc",
+  "digest": "d79c3691a84dd57dcb257b9cb3a1aa8a9f5be406c827763da21dd24913c147dd"
+}

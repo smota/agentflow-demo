@@ -1,0 +1,1203 @@
+{
+  "format_version": 2,
+  "repository_id": "230675887",
+  "name": "lirantal/nodejs-cli-apps-best-practices",
+  "revision": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
+  "readme_path": "README.md",
+  "readme_sha256": "7bd0d9e6ad68807ba0bd014439ed5b5ead726d7f65d6b9b8bb4a349f7af9f7af",
+  "sections": [
+    {
+      "id": "why-this-guide",
+      "title": "Why this guide?",
+      "level": 3,
+      "path": [
+        "Why this guide?"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#why-this-guide",
+      "entries": 0
+    },
+    {
+      "id": "features",
+      "title": "Features:",
+      "level": 3,
+      "path": [
+        "Features:"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#features",
+      "entries": 2
+    },
+    {
+      "id": "why-me",
+      "title": "Why me?",
+      "level": 3,
+      "path": [
+        "Why me?"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#why-me",
+      "entries": 0
+    },
+    {
+      "id": "the-team-",
+      "title": "The Team ✨",
+      "level": 3,
+      "path": [
+        "The Team ✨"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#the-team-",
+      "entries": 0
+    },
+    {
+      "id": "1-command-line-experience",
+      "title": "1 Command Line Experience",
+      "level": 1,
+      "path": [
+        "1 Command Line Experience"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#1-command-line-experience",
+      "entries": 0
+    },
+    {
+      "id": "11-respect-posix-args",
+      "title": "1.1 Respect POSIX args",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.1 Respect POSIX args"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#11-respect-posix-args",
+      "entries": 5
+    },
+    {
+      "id": "12-build-empathic-clis",
+      "title": "1.2 Build empathic CLIs",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.2 Build empathic CLIs"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#12-build-empathic-clis",
+      "entries": 0
+    },
+    {
+      "id": "13-stateful-data",
+      "title": "1.3 Stateful data",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.3 Stateful data"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#13-stateful-data",
+      "entries": 2
+    },
+    {
+      "id": "14-provide-a-colorful-experience",
+      "title": "1.4 Provide a colorful experience",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.4 Provide a colorful experience"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#14-provide-a-colorful-experience",
+      "entries": 4
+    },
+    {
+      "id": "15-rich-interactions",
+      "title": "1.5 Rich interactions",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.5 Rich interactions"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#15-rich-interactions",
+      "entries": 4
+    },
+    {
+      "id": "16-hyperlinks-everywhere",
+      "title": "1.6 Hyperlinks everywhere",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.6 Hyperlinks everywhere"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#16-hyperlinks-everywhere",
+      "entries": 1
+    },
+    {
+      "id": "17-zero-configuration",
+      "title": "1.7 Zero configuration",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.7 Zero configuration"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#17-zero-configuration",
+      "entries": 2
+    },
+    {
+      "id": "18-respect-posix-signals",
+      "title": "1.8 Respect POSIX signals",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.8 Respect POSIX signals"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#18-respect-posix-signals",
+      "entries": 0
+    },
+    {
+      "id": "19-provide-helpful-help",
+      "title": "1.9 Provide helpful help",
+      "level": 3,
+      "path": [
+        "1 Command Line Experience",
+        "1.9 Provide helpful help"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#19-provide-helpful-help",
+      "entries": 2
+    },
+    {
+      "id": "2-distribution",
+      "title": "2 Distribution",
+      "level": 1,
+      "path": [
+        "2 Distribution"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#2-distribution",
+      "entries": 0
+    },
+    {
+      "id": "21-prefer-a-small-dependency-footprint",
+      "title": "2.1 Prefer a small dependency footprint",
+      "level": 3,
+      "path": [
+        "2 Distribution",
+        "2.1 Prefer a small dependency footprint"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#21-prefer-a-small-dependency-footprint",
+      "entries": 1
+    },
+    {
+      "id": "22-use-the-shrinkwrap-luke",
+      "title": "2.2 Use the shrinkwrap, Luke",
+      "level": 3,
+      "path": [
+        "2 Distribution",
+        "2.2 Use the shrinkwrap, Luke"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#22-use-the-shrinkwrap-luke",
+      "entries": 3
+    },
+    {
+      "id": "23-cleanup-configuration-files",
+      "title": "2.3 Cleanup configuration files",
+      "level": 3,
+      "path": [
+        "2 Distribution",
+        "2.3 Cleanup configuration files"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#23-cleanup-configuration-files",
+      "entries": 0
+    },
+    {
+      "id": "3-interoperability",
+      "title": "3 Interoperability",
+      "level": 1,
+      "path": [
+        "3 Interoperability"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#3-interoperability",
+      "entries": 0
+    },
+    {
+      "id": "31-accept-input-as-stdin",
+      "title": "3.1 Accept input as STDIN",
+      "level": 3,
+      "path": [
+        "3 Interoperability",
+        "3.1 Accept input as STDIN"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#31-accept-input-as-stdin",
+      "entries": 0
+    },
+    {
+      "id": "32-enable-structured-output",
+      "title": "3.2 Enable structured output",
+      "level": 3,
+      "path": [
+        "3 Interoperability",
+        "3.2 Enable structured output"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#32-enable-structured-output",
+      "entries": 0
+    },
+    {
+      "id": "33-cross-platform-etiquette",
+      "title": "3.3 Cross-platform etiquette",
+      "level": 3,
+      "path": [
+        "3 Interoperability",
+        "3.3 Cross-platform etiquette"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#33-cross-platform-etiquette",
+      "entries": 0
+    },
+    {
+      "id": "wrongly-spawning-a-command",
+      "title": "Wrongly spawning a command",
+      "level": 4,
+      "path": [
+        "3 Interoperability",
+        "3.3 Cross-platform etiquette",
+        "Wrongly spawning a command"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#wrongly-spawning-a-command",
+      "entries": 0
+    },
+    {
+      "id": "shell-interpreters-vary",
+      "title": "Shell interpreters vary",
+      "level": 4,
+      "path": [
+        "3 Interoperability",
+        "3.3 Cross-platform etiquette",
+        "Shell interpreters vary"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#shell-interpreters-vary",
+      "entries": 0
+    },
+    {
+      "id": "avoid-concatenating-paths",
+      "title": "Avoid concatenating paths",
+      "level": 4,
+      "path": [
+        "3 Interoperability",
+        "3.3 Cross-platform etiquette",
+        "Avoid concatenating paths"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#avoid-concatenating-paths",
+      "entries": 0
+    },
+    {
+      "id": "avoid-chaining-commands-with-semicolons",
+      "title": "Avoid chaining commands with semicolons",
+      "level": 4,
+      "path": [
+        "3 Interoperability",
+        "3.3 Cross-platform etiquette",
+        "Avoid chaining commands with semicolons"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#avoid-chaining-commands-with-semicolons",
+      "entries": 0
+    },
+    {
+      "id": "34-support-configuration-precedence",
+      "title": "3.4 Support configuration precedence",
+      "level": 3,
+      "path": [
+        "3 Interoperability",
+        "3.4 Support configuration precedence"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#34-support-configuration-precedence",
+      "entries": 1
+    },
+    {
+      "id": "35-gate-interactive-behavior",
+      "title": "3.5 Gate interactive behavior",
+      "level": 3,
+      "path": [
+        "3 Interoperability",
+        "3.5 Gate interactive behavior"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#35-gate-interactive-behavior",
+      "entries": 1
+    },
+    {
+      "id": "36-distinguish-stdout-from-stderr",
+      "title": "3.6 Distinguish STDOUT from STDERR",
+      "level": 3,
+      "path": [
+        "3 Interoperability",
+        "3.6 Distinguish STDOUT from STDERR"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#36-distinguish-stdout-from-stderr",
+      "entries": 0
+    },
+    {
+      "id": "37-provide-shell-completion",
+      "title": "3.7 Provide shell completion",
+      "level": 3,
+      "path": [
+        "3 Interoperability",
+        "3.7 Provide shell completion"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#37-provide-shell-completion",
+      "entries": 5
+    },
+    {
+      "id": "4-accessibility",
+      "title": "4 Accessibility",
+      "level": 1,
+      "path": [
+        "4 Accessibility"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#4-accessibility",
+      "entries": 0
+    },
+    {
+      "id": "41-containerize-the-cli",
+      "title": "4.1 Containerize the CLI",
+      "level": 3,
+      "path": [
+        "4 Accessibility",
+        "4.1 Containerize the CLI"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#41-containerize-the-cli",
+      "entries": 0
+    },
+    {
+      "id": "42-graceful-degradation",
+      "title": "4.2 Graceful degradation",
+      "level": 3,
+      "path": [
+        "4 Accessibility",
+        "4.2 Graceful degradation"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#42-graceful-degradation",
+      "entries": 0
+    },
+    {
+      "id": "43-nodejs-versions-compatibility",
+      "title": "4.3 Node.js versions compatibility",
+      "level": 3,
+      "path": [
+        "4 Accessibility",
+        "4.3 Node.js versions compatibility"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#43-nodejs-versions-compatibility",
+      "entries": 0
+    },
+    {
+      "id": "44-shebang-autodetect-the-nodejs-runtime",
+      "title": "4.4 Shebang autodetect the Node.js runtime",
+      "level": 3,
+      "path": [
+        "4 Accessibility",
+        "4.4 Shebang autodetect the Node.js runtime"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#44-shebang-autodetect-the-nodejs-runtime",
+      "entries": 0
+    },
+    {
+      "id": "5-testing",
+      "title": "5 Testing",
+      "level": 1,
+      "path": [
+        "5 Testing"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#5-testing",
+      "entries": 0
+    },
+    {
+      "id": "51-put-no-trust-in-locales",
+      "title": "5.1 Put no trust in locales",
+      "level": 3,
+      "path": [
+        "5 Testing",
+        "5.1 Put no trust in locales"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#51-put-no-trust-in-locales",
+      "entries": 0
+    },
+    {
+      "id": "6-errors",
+      "title": "6 Errors",
+      "level": 1,
+      "path": [
+        "6 Errors"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#6-errors",
+      "entries": 0
+    },
+    {
+      "id": "61-trackable-errors",
+      "title": "6.1 Trackable errors",
+      "level": 3,
+      "path": [
+        "6 Errors",
+        "6.1 Trackable errors"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#61-trackable-errors",
+      "entries": 0
+    },
+    {
+      "id": "62-actionable-errors",
+      "title": "6.2 Actionable errors",
+      "level": 3,
+      "path": [
+        "6 Errors",
+        "6.2 Actionable errors"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#62-actionable-errors",
+      "entries": 0
+    },
+    {
+      "id": "63-provide-debug-mode",
+      "title": "6.3 Provide debug mode",
+      "level": 3,
+      "path": [
+        "6 Errors",
+        "6.3 Provide debug mode"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#63-provide-debug-mode",
+      "entries": 1
+    },
+    {
+      "id": "64-proper-use-of-exit-codes",
+      "title": "6.4 Proper use of exit codes",
+      "level": 3,
+      "path": [
+        "6 Errors",
+        "6.4 Proper use of exit codes"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#64-proper-use-of-exit-codes",
+      "entries": 0
+    },
+    {
+      "id": "65-effortless-bug-reports",
+      "title": "6.5 Effortless bug reports",
+      "level": 3,
+      "path": [
+        "6 Errors",
+        "6.5 Effortless bug reports"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#65-effortless-bug-reports",
+      "entries": 0
+    },
+    {
+      "id": "7-development",
+      "title": "7 Development",
+      "level": 1,
+      "path": [
+        "7 Development"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#7-development",
+      "entries": 0
+    },
+    {
+      "id": "71-use-a-bin-object",
+      "title": "7.1 Use a bin object",
+      "level": 3,
+      "path": [
+        "7 Development",
+        "7.1 Use a bin object"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#71-use-a-bin-object",
+      "entries": 0
+    },
+    {
+      "id": "72-use-relative-paths",
+      "title": "7.2 Use relative paths",
+      "level": 3,
+      "path": [
+        "7 Development",
+        "7.2 Use relative paths"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#72-use-relative-paths",
+      "entries": 0
+    },
+    {
+      "id": "73-use-the-files-field",
+      "title": "7.3 Use the files field",
+      "level": 3,
+      "path": [
+        "7 Development",
+        "7.3 Use the files field"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#73-use-the-files-field",
+      "entries": 0
+    },
+    {
+      "id": "8-analytics",
+      "title": "8 Analytics",
+      "level": 1,
+      "path": [
+        "8 Analytics"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#8-analytics",
+      "entries": 0
+    },
+    {
+      "id": "81-strict-opt-in-analytics",
+      "title": "8.1 Strict Opt-in Analytics",
+      "level": 3,
+      "path": [
+        "8 Analytics",
+        "8.1 Strict Opt-in Analytics"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#81-strict-opt-in-analytics",
+      "entries": 0
+    },
+    {
+      "id": "9-versioning",
+      "title": "9 Versioning",
+      "level": 1,
+      "path": [
+        "9 Versioning"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#9-versioning",
+      "entries": 0
+    },
+    {
+      "id": "91-include-a---version-flag",
+      "title": "9.1. Include a --version Flag",
+      "level": 3,
+      "path": [
+        "9 Versioning",
+        "9.1. Include a --version Flag"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#91-include-a---version-flag",
+      "entries": 0
+    },
+    {
+      "id": "92-use-semantic-versioning",
+      "title": "9.2. Use Semantic Versioning",
+      "level": 3,
+      "path": [
+        "9 Versioning",
+        "9.2. Use Semantic Versioning"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#92-use-semantic-versioning",
+      "entries": 0
+    },
+    {
+      "id": "93-provide-version-information-in-a-packagejson-file",
+      "title": "9.3. Provide Version Information in a 'package.json' file",
+      "level": 3,
+      "path": [
+        "9 Versioning",
+        "9.3. Provide Version Information in a 'package.json' file"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#93-provide-version-information-in-a-packagejson-file",
+      "entries": 0
+    },
+    {
+      "id": "94-display-version-in-error-messages-and-help-text",
+      "title": "9.4. Display Version in Error Messages and Help Text",
+      "level": 3,
+      "path": [
+        "9 Versioning",
+        "9.4. Display Version in Error Messages and Help Text"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#94-display-version-in-error-messages-and-help-text",
+      "entries": 0
+    },
+    {
+      "id": "95-backward-compatibility",
+      "title": "9.5. Backward Compatibility",
+      "level": 3,
+      "path": [
+        "9 Versioning",
+        "9.5. Backward Compatibility"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#95-backward-compatibility",
+      "entries": 0
+    },
+    {
+      "id": "96-publish-versioned-releases-on-npm",
+      "title": "9.6. Publish Versioned Releases on npm",
+      "level": 3,
+      "path": [
+        "9 Versioning",
+        "9.6. Publish Versioned Releases on npm"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#96-publish-versioned-releases-on-npm",
+      "entries": 0
+    },
+    {
+      "id": "97-update-your-apps-version-documents",
+      "title": "9.7. Update Your App's Version Documents",
+      "level": 3,
+      "path": [
+        "9 Versioning",
+        "9.7. Update Your App's Version Documents"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#97-update-your-apps-version-documents",
+      "entries": 0
+    },
+    {
+      "id": "10-security",
+      "title": "10 Security",
+      "level": 1,
+      "path": [
+        "10 Security"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#10-security",
+      "entries": 0
+    },
+    {
+      "id": "101-minimize-argument-injection",
+      "title": "10.1 Minimize Argument Injection",
+      "level": 3,
+      "path": [
+        "10 Security",
+        "10.1 Minimize Argument Injection"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#101-minimize-argument-injection",
+      "entries": 4
+    },
+    {
+      "id": "11-appendix-cli-frameworks-and-tools",
+      "title": "11 Appendix: CLI Frameworks and Tools",
+      "level": 1,
+      "path": [
+        "11 Appendix: CLI Frameworks and Tools"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#11-appendix-cli-frameworks-and-tools",
+      "entries": 0
+    },
+    {
+      "id": "111-cli-frameworks-table",
+      "title": "11.1 CLI Frameworks Table",
+      "level": 3,
+      "path": [
+        "11 Appendix: CLI Frameworks and Tools",
+        "11.1 CLI Frameworks Table"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#111-cli-frameworks-table",
+      "entries": 13
+    },
+    {
+      "id": "112-cli-tools-table",
+      "title": "11.2 CLI Tools Table",
+      "level": 3,
+      "path": [
+        "11 Appendix: CLI Frameworks and Tools",
+        "11.2 CLI Tools Table"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#112-cli-tools-table",
+      "entries": 3
+    },
+    {
+      "id": "12-appendix-cli-educational-resources",
+      "title": "12 Appendix: CLI educational resources",
+      "level": 1,
+      "path": [
+        "12 Appendix: CLI educational resources"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#12-appendix-cli-educational-resources",
+      "entries": 1
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "12 Appendix: CLI educational resources",
+        "Contributing"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "author",
+      "title": "Author",
+      "level": 1,
+      "path": [
+        "Author"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#author",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 1,
+      "path": [
+        "License"
+      ],
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "SKILL.md",
+      "url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/skills/nodejs-cli-best-practices/",
+      "category": "features",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "🇨🇳",
+      "url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README_zh-Hans.md",
+      "category": "features",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "GNU Coding Standards",
+      "url": "https://www.gnu.org/prep/standards/html_node/Command_002dLine-Interfaces.html",
+      "category": "11-respect-posix-args",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "built-in { parseArgs } from 'node:util'",
+      "url": "https://nodejs.org/api/util.html#utilparseargsconfig",
+      "category": "11-respect-posix-args",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "commander",
+      "url": "https://github.com/tj/commander.js#readme",
+      "category": "11-respect-posix-args",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "yargs",
+      "url": "https://github.com/yargs/yargs",
+      "category": "11-respect-posix-args",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Optique",
+      "url": "https://optique.dev/",
+      "category": "11-respect-posix-args",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "configstore",
+      "url": "https://www.npmjs.com/package/configstore",
+      "category": "13-stateful-data",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "conf",
+      "url": "https://www.npmjs.com/package/conf",
+      "category": "13-stateful-data",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "built-in { styleText } from 'node:util'",
+      "url": "https://nodejs.org/api/util.html#utilstyletextformat-text-options",
+      "category": "14-provide-a-colorful-experience",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "chalk",
+      "url": "https://www.npmjs.com/package/chalk",
+      "category": "14-provide-a-colorful-experience",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "kleur",
+      "url": "https://www.npmjs.com/package/kleur",
+      "category": "14-provide-a-colorful-experience",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "picocolors",
+      "url": "https://www.npmjs.com/package/picocolors",
+      "category": "14-provide-a-colorful-experience",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "@inquirer/prompts",
+      "url": "https://www.npmjs.com/package/@inquirer/prompts",
+      "category": "15-rich-interactions",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "ora",
+      "url": "https://www.npmjs.com/package/ora",
+      "category": "15-rich-interactions",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "ink",
+      "url": "https://www.npmjs.com/package/ink",
+      "category": "15-rich-interactions",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "prompts",
+      "url": "https://www.npmjs.com/package/prompts",
+      "category": "15-rich-interactions",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "open",
+      "url": "https://github.com/sindresorhus/open",
+      "category": "16-hyperlinks-everywhere",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "Jest JavaScript Testing Framework",
+      "url": "https://jestjs.io/",
+      "category": "17-zero-configuration",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "Parcel",
+      "url": "https://parceljs.org/",
+      "category": "17-zero-configuration",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "docopt",
+      "url": "http://docopt.org/",
+      "category": "19-provide-helpful-help",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "Command Line Interface Guidelines: Help",
+      "url": "https://clig.dev/#help",
+      "category": "19-provide-helpful-help",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "Bundlephobia",
+      "url": "https://bundlephobia.com/",
+      "category": "21-prefer-a-small-dependency-footprint",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "ncc",
+      "url": "https://www.npmjs.com/package/@vercel/ncc",
+      "category": "22-use-the-shrinkwrap-luke",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "Do you really know how a lockfile works for yarn and npm packages?",
+      "url": "https://snyk.io/blog/making-sense-of-package-lock-files-in-the-npm-ecosystem/",
+      "category": "22-use-the-shrinkwrap-luke",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "Yarn docs: Should lockfiles be committed to the repository?",
+      "url": "https://next.yarnpkg.com/advanced/qa#should-lockfiles-be-committed-to-the-repository",
+      "category": "22-use-the-shrinkwrap-luke",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L474",
+      "line": 474,
+      "properties": {}
+    },
+    {
+      "title": "cosmiconfig",
+      "url": "https://github.com/davidtheclark/cosmiconfig",
+      "category": "34-support-configuration-precedence",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L721",
+      "line": 721,
+      "properties": {}
+    },
+    {
+      "title": "Command Line Interface Guidelines: Interactivity",
+      "url": "https://clig.dev/#interactivity",
+      "category": "35-gate-interactive-behavior",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L759",
+      "line": 759,
+      "properties": {}
+    },
+    {
+      "title": "yargs .completion()",
+      "url": "https://github.com/yargs/yargs/blob/main/docs/api.md#completioncmd-description-fn",
+      "category": "37-provide-shell-completion",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L820",
+      "line": 820,
+      "properties": {}
+    },
+    {
+      "title": "@oclif/plugin-autocomplete",
+      "url": "https://github.com/oclif/plugin-autocomplete",
+      "category": "37-provide-shell-completion",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L821",
+      "line": 821,
+      "properties": {}
+    },
+    {
+      "title": "tabtab",
+      "url": "https://github.com/mklabs/tabtab",
+      "category": "37-provide-shell-completion",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L822",
+      "line": 822,
+      "properties": {}
+    },
+    {
+      "title": "Bash Programmable Completion",
+      "url": "https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion.html",
+      "category": "37-provide-shell-completion",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L826",
+      "line": 826,
+      "properties": {}
+    },
+    {
+      "title": "npm completion",
+      "url": "https://docs.npmjs.com/cli/v11/commands/npm-completion/",
+      "category": "37-provide-shell-completion",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L827",
+      "line": 827,
+      "properties": {}
+    },
+    {
+      "title": "debug",
+      "url": "https://www.npmjs.com/package/debug",
+      "category": "63-provide-debug-mode",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1012",
+      "line": 1012,
+      "properties": {}
+    },
+    {
+      "title": "git-interface",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-GITINTERFACE-2774028",
+      "category": "101-minimize-argument-injection",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1283",
+      "line": 1283,
+      "properties": {}
+    },
+    {
+      "title": "git-pull-or-clone",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-GITPULLORCLONE-2434307",
+      "category": "101-minimize-argument-injection",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1284",
+      "line": 1284,
+      "properties": {}
+    },
+    {
+      "title": "ungit",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-UNGIT-2414099",
+      "category": "101-minimize-argument-injection",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1285",
+      "line": 1285,
+      "properties": {}
+    },
+    {
+      "title": "simple-git",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-SIMPLEGIT-2421199",
+      "category": "101-minimize-argument-injection",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1286",
+      "line": 1286,
+      "properties": {}
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/oclif",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1296",
+      "line": 1296,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/yargs",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1297",
+      "line": 1297,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/@inquirer/prompts",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1298",
+      "line": 1298,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/ink",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1299",
+      "line": 1299,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/pastel",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1300",
+      "line": 1300,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/@inkjs/ui",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1301",
+      "line": 1301,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/blessed",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1302",
+      "line": 1302,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://npmjs.org/package/prompts",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1303",
+      "line": 1303,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.org/package/vue-termui",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1304",
+      "line": 1304,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/@clack/prompts",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1305",
+      "line": 1305,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to GitHub",
+      "url": "https://github.com/TopCli",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1306",
+      "line": 1306,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to GitHub",
+      "url": "https://www.termcn.dev/",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1307",
+      "line": 1307,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/@optique/core",
+      "category": "111-cli-frameworks-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1308",
+      "line": 1308,
+      "properties": {
+        "Stars and downloads": ""
+      }
+    },
+    {
+      "title": "Installation docs",
+      "url": "https://github.com/charmbracelet/vhs#installation",
+      "category": "112-cli-tools-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1316",
+      "line": 1316,
+      "properties": {}
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/@oclif/plugin-autocomplete",
+      "category": "112-cli-tools-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1317",
+      "line": 1317,
+      "properties": {}
+    },
+    {
+      "title": "Link to npm",
+      "url": "https://www.npmjs.com/package/tabtab",
+      "category": "112-cli-tools-table",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1318",
+      "line": 1318,
+      "properties": {}
+    },
+    {
+      "title": "@simonplend",
+      "url": "https://twitter.com/simonplend",
+      "category": "12-appendix-cli-educational-resources",
+      "source_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/blob/e6374e4f64a4708cc01d3a398cb15e532ab3d847/README.md#L1324",
+      "line": 1324,
+      "properties": {}
+    }
+  ],
+  "properties": [
+    "Stars and downloads"
+  ],
+  "entry_count": 55,
+  "unique_links": 53,
+  "category_count": 18,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by lirantal/nodejs-cli-apps-best-practices contributors.",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices/tree/e6374e4f64a4708cc01d3a398cb15e532ab3d847",
+  "digest": "8686400792bd774a4247a368fc337e31c202d42d362a0468211760a220e3c98e"
+}
