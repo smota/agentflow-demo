@@ -91,6 +91,28 @@ are ignored; lock, pin, project integration and product changes are reviewed in 
 
 ## Remaining delivery
 
+The tooling increment merged as [PR19](https://github.com/smota/agentflow-demo/pull/19),
+development commit `d8bf85107011c3734bdf4b18262f32416854b590`. All required Linux
+checks passed, independently confirming the exact-byte adoption/CI bootstrap.
+Issue17 closed through the actual integration lifecycle; the public app stayed v1.
+
+[Issue20](https://github.com/smota/agentflow-demo/issues/20) now implements the
+list-first ingestion contract. Its architecture council added finite dense-partition
+handling, per-alias partial-response states, pinned identity and index-last publication.
+The initial98-test suite caught path-identity and topic-label bugs. A separate audit
+then found privacy/identity race boundaries, an incomplete engine fingerprint and
+incidental-phrase misclassification. All four were corrected with regressions;
+105tests passed and the bounded correction audit passed. This is not yet acceptance
+of live data or the UI.
+
+A live search run deliberately stopped after two durable pages and resumed against
+the same engine. Later safety fixes changed that engine. Its still-running search-only
+process was explicitly identified and stopped; the confirmed-dead writer lock was
+archived inside the demo. A new run `lists-20260903-b` starts under the corrected engine.
+The old checkpoint is retained as historical evidence, not relabelled as current or
+resumed by editing its fingerprint. No README enrichment or public replacement had
+occurred in the old run.
+
 At this checkpoint, discovery/UI2.0 and public release are not implemented or accepted.
 The live application has not been replaced. Subsequent receipts belong to the epic and
 child issue handovers; no test, deployment or recovery claim should be inferred from this plan.
