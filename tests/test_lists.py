@@ -122,3 +122,23 @@ def test_malformed_index(field, value):
     index["digest"] = digest({k: v for k, v in index.items() if k != "digest"})
     with pytest.raises(ValueError):
         validate_index(index)
+
+
+@pytest.mark.parametrize("field,value", [("name", "different/repo"), ("revision", "c"*40), ("readme_path", "other.md"), ("readme_sha256", "d"*64)])
+def test_detail_binds_exact_source_identity(field, value):
+    index, detail = build_index(); item = index["lists"][0]
+    detail[field] = value
+    detail["digest"] = digest({k: v for k, v in detail.items() if k != "digest"})
+    item["detail_digest"] = detail["digest"]
+    with pytest.raises(ValueError, match="source identity"):
+        validate_detail(detail, item)
+
+
+@pytest.mark.parametrize("target", ["sections", "entries"])
+@pytest.mark.parametrize("url", ["javascript:alert(1)", "https://example.org/not-the-source", "https://github.com/owner/awesome-tools/blob/main/README.md"])
+def test_detail_binds_safe_pinned_provenance(target, url):
+    index, detail = build_index(); item = index["lists"][0]
+    detail[target][0]["source_url"] = url
+    detail["digest"] = digest({k: v for k, v in detail.items() if k != "digest"})
+    item["detail_digest"] = detail["digest"]
+    with pytest.raises(ValueError): validate_detail(detail, item)

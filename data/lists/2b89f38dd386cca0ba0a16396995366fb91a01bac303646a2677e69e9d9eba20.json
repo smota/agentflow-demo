@@ -1,0 +1,1519 @@
+{
+  "format_version": 2,
+  "repository_id": "703597759",
+  "name": "netlas-io/netlas-cookbook",
+  "revision": "19e32d0636a5a37f3870b2138dbd97d24d64fcb6",
+  "readme_path": "README.md",
+  "readme_sha256": "cb34b5bb6528af20dbc8a71f5d05c188b254bb5d321b332e193dc22a3db035f3",
+  "sections": [
+    {
+      "id": "netlas-cookbook----omit-in-toc---",
+      "title": "Netlas CookBook <!-- omit in toc -->",
+      "level": 1,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#netlas-cookbook----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents----omit-in-toc---",
+      "title": "Table of Contents <!-- omit in toc -->",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Table of Contents <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#table-of-contents----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "simple-usage-examples",
+      "title": "Simple Usage Examples",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Simple Usage Examples"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#simple-usage-examples",
+      "entries": 6
+    },
+    {
+      "id": "getting-information-about-ip-or-domain",
+      "title": "Getting Information About IP or Domain",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Simple Usage Examples",
+        "Getting Information About IP or Domain"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#getting-information-about-ip-or-domain",
+      "entries": 0
+    },
+    {
+      "id": "search-for-non-latin-domains",
+      "title": "Search for Non-Latin Domains",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Simple Usage Examples",
+        "Search for Non-Latin Domains"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-non-latin-domains",
+      "entries": 0
+    },
+    {
+      "id": "looking-for-websites-that-contain-a-certain-word-in-their-title",
+      "title": "Looking for Websites That Contain a Certain Word in Their Title",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Simple Usage Examples",
+        "Looking for Websites That Contain a Certain Word in Their Title"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#looking-for-websites-that-contain-a-certain-word-in-their-title",
+      "entries": 0
+    },
+    {
+      "id": "search-query-syntax",
+      "title": "Search Query Syntax",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-query-syntax",
+      "entries": 0
+    },
+    {
+      "id": "filters-fields",
+      "title": "Filters (Fields)",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Filters (Fields)"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#filters-fields",
+      "entries": 0
+    },
+    {
+      "id": "logical-operators",
+      "title": "Logical Operators",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Logical Operators"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#logical-operators",
+      "entries": 0
+    },
+    {
+      "id": "ranges",
+      "title": "Ranges",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Ranges"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#ranges",
+      "entries": 0
+    },
+    {
+      "id": "wildcards",
+      "title": "Wildcards",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Wildcards"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#wildcards",
+      "entries": 0
+    },
+    {
+      "id": "fuzziness",
+      "title": "Fuzziness",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Fuzziness"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#fuzziness",
+      "entries": 0
+    },
+    {
+      "id": "regular-expressions",
+      "title": "Regular Expressions",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Regular Expressions"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#regular-expressions",
+      "entries": 0
+    },
+    {
+      "id": "other-netlasio-search-features",
+      "title": "Other Netlas.io Search Features",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Other Netlas.io Search Features"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#other-netlasio-search-features",
+      "entries": 0
+    },
+    {
+      "id": "download-results----omit-in-toc---",
+      "title": "Download Results <!-- omit in toc -->",
+      "level": 4,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Other Netlas.io Search Features",
+        "Download Results <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#download-results----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "group-results----omit-in-toc---",
+      "title": "Group Results <!-- omit in toc -->",
+      "level": 4,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Other Netlas.io Search Features",
+        "Group Results <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#group-results----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "share-results----omit-in-toc---",
+      "title": "Share Results <!-- omit in toc -->",
+      "level": 4,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Other Netlas.io Search Features",
+        "Share Results <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#share-results----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "search-history----omit-in-toc---",
+      "title": "Search History <!-- omit in toc -->",
+      "level": 4,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search Query Syntax",
+        "Other Netlas.io Search Features",
+        "Search History <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-history----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "api-requests",
+      "title": "API Requests",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#api-requests",
+      "entries": 0
+    },
+    {
+      "id": "how-to-find-the-api-key",
+      "title": "How to Find the API-key?",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "How to Find the API-key?"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#how-to-find-the-api-key",
+      "entries": 0
+    },
+    {
+      "id": "tools-for-debugging-api-requests",
+      "title": "Tools for Debugging API Requests",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Tools for Debugging API Requests"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#tools-for-debugging-api-requests",
+      "entries": 0
+    },
+    {
+      "id": "structure-of-netlas-api-json-response",
+      "title": "Structure of Netlas API JSON Response",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Structure of Netlas API JSON Response"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#structure-of-netlas-api-json-response",
+      "entries": 0
+    },
+    {
+      "id": "tools-for-working-with-data-in-json-format",
+      "title": "Tools for Working with Data in JSON Format",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Tools for Working with Data in JSON Format"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#tools-for-working-with-data-in-json-format",
+      "entries": 2
+    },
+    {
+      "id": "netlas-python-library",
+      "title": "Netlas Python Library",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Netlas Python Library"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#netlas-python-library",
+      "entries": 0
+    },
+    {
+      "id": "examples-of-response-keys-for-getting-useful-data",
+      "title": "Examples of Response Keys for Getting Useful Data",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Examples of Response Keys for Getting Useful Data"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#examples-of-response-keys-for-getting-useful-data",
+      "entries": 0
+    },
+    {
+      "id": "netlas-python-response-datatypes",
+      "title": "Netlas Python Response Datatypes",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Netlas Python Response Datatypes"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#netlas-python-response-datatypes",
+      "entries": 5
+    },
+    {
+      "id": "netlas-cli-tools",
+      "title": "Netlas CLI Tools",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Netlas CLI Tools"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#netlas-cli-tools",
+      "entries": 0
+    },
+    {
+      "id": "search-vs-download-vs-host-methods",
+      "title": "Search vs Download vs Host Methods",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Search vs Download vs Host Methods"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-vs-download-vs-host-methods",
+      "entries": 0
+    },
+    {
+      "id": "additional-request-parameters",
+      "title": "Additional Request Parameters",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Additional Request Parameters"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#additional-request-parameters",
+      "entries": 0
+    },
+    {
+      "id": "make-requests-with-python-without-netlas-python-library",
+      "title": "Make Requests with Python (without Netlas Python Library)",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Make Requests with Python (without Netlas Python Library)"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#make-requests-with-python-without-netlas-python-library",
+      "entries": 0
+    },
+    {
+      "id": "examples-for-other-programming-languages",
+      "title": "Examples for Other Programming Languages",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Examples for Other Programming Languages"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#examples-for-other-programming-languages",
+      "entries": 0
+    },
+    {
+      "id": "nodejs----omit-in-toc---",
+      "title": "NodeJS <!-- omit in toc -->",
+      "level": 4,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Examples for Other Programming Languages",
+        "NodeJS <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#nodejs----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "ruby----omit-in-toc---",
+      "title": "Ruby <!-- omit in toc -->",
+      "level": 4,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Examples for Other Programming Languages",
+        "Ruby <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#ruby----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "bash----omit-in-toc---",
+      "title": "Bash <!-- omit in toc -->",
+      "level": 4,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Examples for Other Programming Languages",
+        "Bash <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#bash----omit-in-toc---",
+      "entries": 0
+    },
+    {
+      "id": "jq-utility",
+      "title": "JQ Utility",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "JQ Utility"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#jq-utility",
+      "entries": 0
+    },
+    {
+      "id": "ai-tools-for-writing-code",
+      "title": "AI Tools for Writing Code",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "AI Tools for Writing Code"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#ai-tools-for-writing-code",
+      "entries": 0
+    },
+    {
+      "id": "code-checkers",
+      "title": "Code Checkers",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "API Requests",
+        "Code Checkers"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#code-checkers",
+      "entries": 0
+    },
+    {
+      "id": "using-netlasio-for-osint-open-source-intelligence",
+      "title": "Using Netlas.io for OSINT (Open Source Intelligence)",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#using-netlasio-for-osint-open-source-intelligence",
+      "entries": 0
+    },
+    {
+      "id": "search-persons-nickname-or-email-in-whois-contacts",
+      "title": "Search Person's Nickname or Email in WHOIS Contacts",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Search Person's Nickname or Email in WHOIS Contacts"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-persons-nickname-or-email-in-whois-contacts",
+      "entries": 0
+    },
+    {
+      "id": "search-for-persons-nickname-or-email-in-title-and-body-of-web-page",
+      "title": "Search for Person's Nickname or Email in Title and Body of Web Page",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Search for Person's Nickname or Email in Title and Body of Web Page"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-persons-nickname-or-email-in-title-and-body-of-web-page",
+      "entries": 0
+    },
+    {
+      "id": "search-for-juicy-info-files-on-subdomains-of-the-companys-website",
+      "title": "Search for \"Juicy Info Files\" on Subdomains of the Company's Website",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Search for \"Juicy Info Files\" on Subdomains of the Company's Website"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-juicy-info-files-on-subdomains-of-the-companys-website",
+      "entries": 0
+    },
+    {
+      "id": "phone-number-mentions-search",
+      "title": "Phone Number Mentions Search",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Phone Number Mentions Search"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#phone-number-mentions-search",
+      "entries": 0
+    },
+    {
+      "id": "search-file-mentions-looking-for-content-that-may-be-infringing-on-copyrights",
+      "title": "Search File Mentions (Looking for Content That May be Infringing on Copyrights)",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Search File Mentions (Looking for Content That May be Infringing on Copyrights)"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-file-mentions-looking-for-content-that-may-be-infringing-on-copyrights",
+      "entries": 0
+    },
+    {
+      "id": "domain-whois-information-gathering",
+      "title": "Domain WHOIS Information Gathering",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Domain WHOIS Information Gathering"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#domain-whois-information-gathering",
+      "entries": 0
+    },
+    {
+      "id": "search-location-in-address-tag",
+      "title": "Search Location in <address> Tag",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Search Location in <address> Tag"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-location-in-address-tag",
+      "entries": 0
+    },
+    {
+      "id": "search-author-name-in-meta-tags",
+      "title": "Search Author Name in Meta Tags",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Search Author Name in Meta Tags"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-author-name-in-meta-tags",
+      "entries": 0
+    },
+    {
+      "id": "what-other-interesting-things-can-be-found-in-the-meta-tags-of-html-document",
+      "title": "What Other Interesting Things Can Be Found in the Meta Tags of HTML Document?",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "What Other Interesting Things Can Be Found in the Meta Tags of HTML Document?"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#what-other-interesting-things-can-be-found-in-the-meta-tags-of-html-document",
+      "entries": 0
+    },
+    {
+      "id": "search-by-ftp-servers-banners-text",
+      "title": "Search by FTP Server's Banners Text",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Search by FTP Server's Banners Text"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-ftp-servers-banners-text",
+      "entries": 0
+    },
+    {
+      "id": "search-for-contact-information-in-ssl-certificates",
+      "title": "Search for Contact Information in SSL Certificates",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Search for Contact Information in SSL Certificates"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-contact-information-in-ssl-certificates",
+      "entries": 0
+    },
+    {
+      "id": "using-netlas-as-an-alternative-to-the-wayback-machine",
+      "title": "Using Netlas as an Alternative to the WayBack Machine",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "Using Netlas as an Alternative to the WayBack Machine"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#using-netlas-as-an-alternative-to-the-wayback-machine",
+      "entries": 0
+    },
+    {
+      "id": "9-ways-to-search-related-websites",
+      "title": "9 Ways to Search Related Websites",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for OSINT (Open Source Intelligence)",
+        "9 Ways to Search Related Websites"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#9-ways-to-search-related-websites",
+      "entries": 4
+    },
+    {
+      "id": "scraping-extract-data-from-web-page-body",
+      "title": "Scraping (Extract Data from Web Page Body)",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Scraping (Extract Data from Web Page Body)"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#scraping-extract-data-from-web-page-body",
+      "entries": 0
+    },
+    {
+      "id": "beatifulsoup-package",
+      "title": "Beatifulsoup Package",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Scraping (Extract Data from Web Page Body)",
+        "Beatifulsoup Package"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#beatifulsoup-package",
+      "entries": 0
+    },
+    {
+      "id": "re-package",
+      "title": "Re Package",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Scraping (Extract Data from Web Page Body)",
+        "Re Package"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#re-package",
+      "entries": 0
+    },
+    {
+      "id": "other-python-packages-for-scraping",
+      "title": "Other Python Packages for Scraping",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Scraping (Extract Data from Web Page Body)",
+        "Other Python Packages for Scraping"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#other-python-packages-for-scraping",
+      "entries": 5
+    },
+    {
+      "id": "using-netlasio-for-crypto-investigations",
+      "title": "Using Netlas.io for Crypto Investigations",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Crypto Investigations"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#using-netlasio-for-crypto-investigations",
+      "entries": 0
+    },
+    {
+      "id": "search-mining-farms",
+      "title": "Search Mining Farms",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Crypto Investigations",
+        "Search Mining Farms"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-mining-farms",
+      "entries": 0
+    },
+    {
+      "id": "search-for-websites-infected-with-cryptominers",
+      "title": "Search for Websites Infected with Cryptominers",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Crypto Investigations",
+        "Search for Websites Infected with Cryptominers"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-websites-infected-with-cryptominers",
+      "entries": 0
+    },
+    {
+      "id": "search-vulnerable-bitcoin-nodes",
+      "title": "Search Vulnerable Bitcoin Nodes",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Crypto Investigations",
+        "Search Vulnerable Bitcoin Nodes"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-vulnerable-bitcoin-nodes",
+      "entries": 0
+    },
+    {
+      "id": "using-neltas-for-pentest",
+      "title": "Using Neltas for Pentest",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#using-neltas-for-pentest",
+      "entries": 3
+    },
+    {
+      "id": "subdomain-search",
+      "title": "Subdomain Search",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Subdomain Search"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#subdomain-search",
+      "entries": 0
+    },
+    {
+      "id": "search-for-sites-with-specific-vulnerabilities",
+      "title": "Search for Sites with Specific Vulnerabilities",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search for Sites with Specific Vulnerabilities"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-sites-with-specific-vulnerabilities",
+      "entries": 0
+    },
+    {
+      "id": "search-for-sites-with-vulnerabilities-that-contain-a-certain-word-in-their-descriptions",
+      "title": "Search for Sites with Vulnerabilities That Contain a Certain Word in Their Descriptions",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search for Sites with Vulnerabilities That Contain a Certain Word in Their Descriptions"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-sites-with-vulnerabilities-that-contain-a-certain-word-in-their-descriptions",
+      "entries": 0
+    },
+    {
+      "id": "search-by-server-http-header",
+      "title": "Search by Server HTTP Header",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search by Server HTTP Header"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-server-http-header",
+      "entries": 0
+    },
+    {
+      "id": "default-logins-and-passwords----omit-in-toc---",
+      "title": "Default Logins and Passwords <!-- omit in toc -->",
+      "level": 4,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search by Server HTTP Header",
+        "Default Logins and Passwords <!-- omit in toc -->"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#default-logins-and-passwords----omit-in-toc---",
+      "entries": 4
+    },
+    {
+      "id": "search-for-vulnerable-servers-by-favicon-hash",
+      "title": "Search for Vulnerable Servers by Favicon Hash",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search for Vulnerable Servers by Favicon Hash"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-vulnerable-servers-by-favicon-hash",
+      "entries": 0
+    },
+    {
+      "id": "search-for-vulnerable-servers-by-tag-name",
+      "title": "Search for Vulnerable Servers by Tag Name",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search for Vulnerable Servers by Tag Name"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-vulnerable-servers-by-tag-name",
+      "entries": 0
+    },
+    {
+      "id": "search-for-vulnerable-servers-and-devices-near-you-or-any-other-location",
+      "title": "Search for Vulnerable Servers and Devices Near You (or Any Other Location)",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search for Vulnerable Servers and Devices Near You (or Any Other Location)"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-vulnerable-servers-and-devices-near-you-or-any-other-location",
+      "entries": 0
+    },
+    {
+      "id": "search-for-loginadmin-panels",
+      "title": "Search for Login/Admin Panels",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search for Login/Admin Panels"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-loginadmin-panels",
+      "entries": 0
+    },
+    {
+      "id": "search-for-vulnerable-database-admin-panels",
+      "title": "Search for Vulnerable Database Admin Panels",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search for Vulnerable Database Admin Panels"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-vulnerable-database-admin-panels",
+      "entries": 0
+    },
+    {
+      "id": "search-for-sites-vulnerable-to-sql-injection",
+      "title": "Search for Sites Vulnerable to SQL Injection",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Neltas for Pentest",
+        "Search for Sites Vulnerable to SQL Injection"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-sites-vulnerable-to-sql-injection",
+      "entries": 0
+    },
+    {
+      "id": "iot-search-9-basic-ways",
+      "title": "IoT Search: 9 Basic Ways",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#iot-search-9-basic-ways",
+      "entries": 0
+    },
+    {
+      "id": "search-by-title",
+      "title": "Search by Title",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Search by Title"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-title",
+      "entries": 0
+    },
+    {
+      "id": "search-inside-body",
+      "title": "Search Inside Body",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Search Inside Body"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-inside-body",
+      "entries": 0
+    },
+    {
+      "id": "search-by-port-number",
+      "title": "Search by Port Number",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Search by Port Number"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-port-number",
+      "entries": 0
+    },
+    {
+      "id": "search-by-banner",
+      "title": "Search by Banner",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Search by Banner"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-banner",
+      "entries": 0
+    },
+    {
+      "id": "search-by-favicon",
+      "title": "Search by Favicon",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Search by Favicon"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-favicon",
+      "entries": 0
+    },
+    {
+      "id": "search-by-server-headers",
+      "title": "Search by Server Headers",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Search by Server Headers"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-server-headers",
+      "entries": 0
+    },
+    {
+      "id": "search-by-cookies",
+      "title": "Search by Cookies",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Search by Cookies"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-cookies",
+      "entries": 0
+    },
+    {
+      "id": "search-by-tag",
+      "title": "Search by Tag",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Search by Tag"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-by-tag",
+      "entries": 0
+    },
+    {
+      "id": "additional-search-filters",
+      "title": "Additional Search Filters",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "IoT Search: 9 Basic Ways",
+        "Additional Search Filters"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#additional-search-filters",
+      "entries": 0
+    },
+    {
+      "id": "using-netlasio-for-darknet-research",
+      "title": "Using Netlas.io for Darknet Research",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Darknet Research"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#using-netlasio-for-darknet-research",
+      "entries": 0
+    },
+    {
+      "id": "tor-exit-nodes-search",
+      "title": "Tor Exit Nodes Search",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Darknet Research",
+        "Tor Exit Nodes Search"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#tor-exit-nodes-search",
+      "entries": 0
+    },
+    {
+      "id": "collecting-links-to-onion-sites",
+      "title": "Collecting Links to .onion Sites",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Darknet Research",
+        "Collecting Links to .onion Sites"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#collecting-links-to-onion-sites",
+      "entries": 0
+    },
+    {
+      "id": "files-backups-and-logs-directories-search",
+      "title": "Files, Backups and Logs Directories Search",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Files, Backups and Logs Directories Search"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#files-backups-and-logs-directories-search",
+      "entries": 0
+    },
+    {
+      "id": "using-netlasio-for-digital-forensics-and-incident-response",
+      "title": "Using Netlas.io for Digital Forensics and Incident Response",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Digital Forensics and Incident Response"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#using-netlasio-for-digital-forensics-and-incident-response",
+      "entries": 0
+    },
+    {
+      "id": "smtp-servers-information-gathering",
+      "title": "SMTP Servers Information Gathering",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Digital Forensics and Incident Response",
+        "SMTP Servers Information Gathering"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#smtp-servers-information-gathering",
+      "entries": 0
+    },
+    {
+      "id": "search-for-domains-that-could-potentially-be-used-for-phishing",
+      "title": "Search for Domains That Could Potentially Be Used for Phishing",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Digital Forensics and Incident Response",
+        "Search for Domains That Could Potentially Be Used for Phishing"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-domains-that-could-potentially-be-used-for-phishing",
+      "entries": 0
+    },
+    {
+      "id": "favicon-search",
+      "title": "Favicon Search",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Digital Forensics and Incident Response",
+        "Favicon Search"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#favicon-search",
+      "entries": 0
+    },
+    {
+      "id": "search-for-domains-associated-with-a-specific-subnet",
+      "title": "Search for Domains Associated with a Specific Subnet",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Digital Forensics and Incident Response",
+        "Search for Domains Associated with a Specific Subnet"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-domains-associated-with-a-specific-subnet",
+      "entries": 0
+    },
+    {
+      "id": "search-for-servers-with-malicious-software",
+      "title": "Search for Servers with Malicious Software",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Digital Forensics and Incident Response",
+        "Search for Servers with Malicious Software"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-servers-with-malicious-software",
+      "entries": 0
+    },
+    {
+      "id": "search-for-technologies-and-code-examples",
+      "title": "Search for Technologies and Code Examples",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Search for Technologies and Code Examples"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#search-for-technologies-and-code-examples",
+      "entries": 0
+    },
+    {
+      "id": "using-netlasio-for-fun-or-netstalking",
+      "title": "Using Netlas.io for Fun or Netstalking",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Using Netlas.io for Fun or Netstalking"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#using-netlasio-for-fun-or-netstalking",
+      "entries": 0
+    },
+    {
+      "id": "common-problems",
+      "title": "Common Problems",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#common-problems",
+      "entries": 0
+    },
+    {
+      "id": "error-429---too-frequent-requests",
+      "title": "Error 429 - Too Frequent Requests",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems",
+        "Error 429 - Too Frequent Requests"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#error-429---too-frequent-requests",
+      "entries": 0
+    },
+    {
+      "id": "keyerror",
+      "title": "KeyError",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems",
+        "KeyError"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#keyerror",
+      "entries": 0
+    },
+    {
+      "id": "automation-of-work-with-the-list-of-requests",
+      "title": "Automation of Work with the List of Requests",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems",
+        "Automation of Work with the List of Requests"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#automation-of-work-with-the-list-of-requests",
+      "entries": 0
+    },
+    {
+      "id": "saving-data-in-csv-format",
+      "title": "Saving Data in CSV Format",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems",
+        "Saving Data in CSV Format"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#saving-data-in-csv-format",
+      "entries": 0
+    },
+    {
+      "id": "saving-data-in-other-formats",
+      "title": "Saving Data in Other Formats",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems",
+        "Saving Data in Other Formats"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#saving-data-in-other-formats",
+      "entries": 0
+    },
+    {
+      "id": "decoding-punycode-domains",
+      "title": "Decoding Punycode Domains",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems",
+        "Decoding Punycode Domains"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#decoding-punycode-domains",
+      "entries": 0
+    },
+    {
+      "id": "what-to-do-if-search-queries-dont-return-results",
+      "title": "What to Do If Search Queries Don't Return Results?",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems",
+        "What to Do If Search Queries Don't Return Results?"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#what-to-do-if-search-queries-dont-return-results",
+      "entries": 0
+    },
+    {
+      "id": "removing-html-tags-from-http-body",
+      "title": "Removing HTML Tags from HTTP Body",
+      "level": 3,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Common Problems",
+        "Removing HTML Tags from HTTP Body"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#removing-html-tags-from-http-body",
+      "entries": 0
+    },
+    {
+      "id": "attack-surface-management",
+      "title": "Attack Surface Management",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Attack Surface Management"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#attack-surface-management",
+      "entries": 2
+    },
+    {
+      "id": "working-with-very-large-amounts-of-data",
+      "title": "Working with Very Large Amounts of Data",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Working with Very Large Amounts of Data"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#working-with-very-large-amounts-of-data",
+      "entries": 0
+    },
+    {
+      "id": "acknowledgments",
+      "title": "Acknowledgments",
+      "level": 2,
+      "path": [
+        "Netlas CookBook <!-- omit in toc -->",
+        "Acknowledgments"
+      ],
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#acknowledgments",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "→",
+      "url": "https://app.netlas.io/host/",
+      "category": "simple-usage-examples",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "→",
+      "url": "https://app.netlas.io/responses/",
+      "category": "simple-usage-examples",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "→",
+      "url": "https://app.netlas.io/domains/",
+      "category": "simple-usage-examples",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "→",
+      "url": "https://app.netlas.io/whois_ip/",
+      "category": "simple-usage-examples",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "→",
+      "url": "https://app.netlas.io/whois_domains/",
+      "category": "simple-usage-examples",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "→",
+      "url": "https://app.netlas.io/certs/",
+      "category": "simple-usage-examples",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "JSON Path Online Evaluator",
+      "url": "https://jsonpath.com/",
+      "category": "tools-for-working-with-data-in-json-format",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "JSON Path Finder",
+      "url": "https://jsonpathfinder.com/",
+      "category": "tools-for-working-with-data-in-json-format",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "Netlas Responses Search",
+      "url": "https://app.netlas.io/responses/",
+      "category": "netlas-python-response-datatypes",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L512",
+      "line": 512,
+      "properties": {}
+    },
+    {
+      "title": "Netlas DNS search",
+      "url": "https://app.netlas.io/domains/",
+      "category": "netlas-python-response-datatypes",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "Netlas Domain Whois Search",
+      "url": "https://app.netlas.io/whois_domains/",
+      "category": "netlas-python-response-datatypes",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L514",
+      "line": 514,
+      "properties": {}
+    },
+    {
+      "title": "Netlas IP Whois Search",
+      "url": "https://app.netlas.io/whois_ip/",
+      "category": "netlas-python-response-datatypes",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L515",
+      "line": 515,
+      "properties": {}
+    },
+    {
+      "title": "Netlas Certificates Search",
+      "url": "https://app.netlas.io/certs/",
+      "category": "netlas-python-response-datatypes",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L516",
+      "line": 516,
+      "properties": {}
+    },
+    {
+      "title": "->",
+      "url": "https://github.com/netlas-io/netlas-cookbook#search-file-mentions-looking-for-content-that-may-be-infringing-on-copyrights",
+      "category": "9-ways-to-search-related-websites",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1577",
+      "line": 1577,
+      "properties": {}
+    },
+    {
+      "title": "->",
+      "url": "https://github.com/netlas-io/netlas-cookbook#search-subdomains",
+      "category": "9-ways-to-search-related-websites",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1580",
+      "line": 1580,
+      "properties": {}
+    },
+    {
+      "title": "->",
+      "url": "https://github.com/netlas-io/netlas-cookbook#search-persons-nickname-or-email-in-whois-contacts",
+      "category": "9-ways-to-search-related-websites",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1582",
+      "line": 1582,
+      "properties": {}
+    },
+    {
+      "title": "->",
+      "url": "https://github.com/netlas-io/netlas-cookbook#favicon-search",
+      "category": "9-ways-to-search-related-websites",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1584",
+      "line": 1584,
+      "properties": {}
+    },
+    {
+      "title": "Scrapy",
+      "url": "https://pypi.org/project/Scrapy/",
+      "category": "other-python-packages-for-scraping",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1700",
+      "line": 1700,
+      "properties": {}
+    },
+    {
+      "title": "Selenium",
+      "url": "https://pypi.org/project/selenium/",
+      "category": "other-python-packages-for-scraping",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1701",
+      "line": 1701,
+      "properties": {}
+    },
+    {
+      "title": "Lxml",
+      "url": "https://pypi.org/project/lxml/",
+      "category": "other-python-packages-for-scraping",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1702",
+      "line": 1702,
+      "properties": {}
+    },
+    {
+      "title": "PDFtoText",
+      "url": "https://pypi.org/project/pdftotext/",
+      "category": "other-python-packages-for-scraping",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1703",
+      "line": 1703,
+      "properties": {}
+    },
+    {
+      "title": "pyChatGPT",
+      "url": "https://pypi.org/project/pyChatGPT/",
+      "category": "other-python-packages-for-scraping",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1704",
+      "line": 1704,
+      "properties": {}
+    },
+    {
+      "title": "CVE Details",
+      "url": "https://www.cvedetails.com/",
+      "category": "using-neltas-for-pentest",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1906",
+      "line": 1906,
+      "properties": {}
+    },
+    {
+      "title": "VulDB",
+      "url": "https://vuldb.com/",
+      "category": "using-neltas-for-pentest",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1907",
+      "line": 1907,
+      "properties": {}
+    },
+    {
+      "title": "OpenCVE",
+      "url": "https://www.opencve.io/",
+      "category": "using-neltas-for-pentest",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L1908",
+      "line": 1908,
+      "properties": {}
+    },
+    {
+      "title": "Default Router Login Password For Top Router Models (2023 List)",
+      "url": "https://www.softwaretestinghelp.com/default-router-username-and-password-list/",
+      "category": "default-logins-and-passwords----omit-in-toc---",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L2176",
+      "line": 2176,
+      "properties": {}
+    },
+    {
+      "title": "Default Username – Password – IP Address for Security Cameras",
+      "url": "https://www.a1securitycameras.com/blog/default-username-passwords-ip-addresses-for-surveillance-cameras/",
+      "category": "default-logins-and-passwords----omit-in-toc---",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L2177",
+      "line": 2177,
+      "properties": {}
+    },
+    {
+      "title": "The Default Passwords of Nearly Every IP Camera",
+      "url": "https://www.hackers-arise.com/post/the-default-passwords-of-nearly-every-ip-camera",
+      "category": "default-logins-and-passwords----omit-in-toc---",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L2178",
+      "line": 2178,
+      "properties": {}
+    },
+    {
+      "title": "List of default passwords from Datarecovery",
+      "url": "https://datarecovery.com/rd/default-passwords/",
+      "category": "default-logins-and-passwords----omit-in-toc---",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L2179",
+      "line": 2179,
+      "properties": {}
+    },
+    {
+      "title": "Complete Guide on Attack Surface Discovery",
+      "url": "https://netlas.io/blog/attack_surface_discovery_guide/",
+      "category": "attack-surface-management",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L3509",
+      "line": 3509,
+      "properties": {}
+    },
+    {
+      "title": "Best Attack Surface Visualization Tools",
+      "url": "https://netlas.io/blog/best_attack_surface_visualization_tools/",
+      "category": "attack-surface-management",
+      "source_url": "https://github.com/netlas-io/netlas-cookbook/blob/19e32d0636a5a37f3870b2138dbd97d24d64fcb6/README.md#L3510",
+      "line": 3510,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 31,
+  "unique_links": 26,
+  "category_count": 8,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by netlas-io/netlas-cookbook contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/netlas-io/netlas-cookbook/tree/19e32d0636a5a37f3870b2138dbd97d24d64fcb6",
+  "digest": "2b89f38dd386cca0ba0a16396995366fb91a01bac303646a2677e69e9d9eba20"
+}

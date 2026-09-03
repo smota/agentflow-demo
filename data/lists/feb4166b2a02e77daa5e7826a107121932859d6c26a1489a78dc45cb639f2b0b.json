@@ -1,0 +1,901 @@
+{
+  "format_version": 2,
+  "repository_id": "1060866328",
+  "name": "bodadotsh/npm-security-best-practices",
+  "revision": "2da89f9c4b6d9431664ab40d946062e226f78ba5",
+  "readme_path": "README.md",
+  "readme_sha256": "5dbe5820f2219b326c94948ca9d2a0e5ae1b504f3a0f1dd957294e39344f6c82",
+  "sections": [
+    {
+      "id": "npm-security-best-practices",
+      "title": "NPM Security Best Practices",
+      "level": 1,
+      "path": [
+        "NPM Security Best Practices"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#npm-security-best-practices",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "NPM Security Best Practices",
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "got-compromised",
+      "title": "Got Compromised?",
+      "level": 2,
+      "path": [
+        "NPM Security Best Practices",
+        "Got Compromised?"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#got-compromised",
+      "entries": 0
+    },
+    {
+      "id": "immediate-actions-to-take",
+      "title": "Immediate Actions to take",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "Got Compromised?",
+        "Immediate Actions to take"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#immediate-actions-to-take",
+      "entries": 0
+    },
+    {
+      "id": "case-studies",
+      "title": "Case Studies",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "Got Compromised?",
+        "Case Studies"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#case-studies",
+      "entries": 8
+    },
+    {
+      "id": "for-developers",
+      "title": "For Developers",
+      "level": 2,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#for-developers",
+      "entries": 0
+    },
+    {
+      "id": "0-helpers",
+      "title": "0. Helpers",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "0. Helpers"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#0-helpers",
+      "entries": 5
+    },
+    {
+      "id": "1-disable-lifecycle-scripts",
+      "title": "1. Disable Lifecycle Scripts",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "1. Disable Lifecycle Scripts"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#1-disable-lifecycle-scripts",
+      "entries": 0
+    },
+    {
+      "id": "ignore-scripts-vs-allowscripts",
+      "title": "ignore-scripts vs allowScripts",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "1. Disable Lifecycle Scripts",
+        "ignore-scripts vs allowScripts"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#ignore-scripts-vs-allowscripts",
+      "entries": 0
+    },
+    {
+      "id": "2-set-cooldowns--minimum-release-age",
+      "title": "2. Set Cooldowns / Minimum Release Age",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "2. Set Cooldowns / Minimum Release Age"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#2-set-cooldowns--minimum-release-age",
+      "entries": 3
+    },
+    {
+      "id": "3-include-lockfiles",
+      "title": "3. Include Lockfiles",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "3. Include Lockfiles"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#3-include-lockfiles",
+      "entries": 0
+    },
+    {
+      "id": "4-pin-dependency-versions",
+      "title": "4. Pin Dependency Versions",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "4. Pin Dependency Versions"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#4-pin-dependency-versions",
+      "entries": 0
+    },
+    {
+      "id": "override-the-transitive-dependencies",
+      "title": "Override the transitive dependencies",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "4. Pin Dependency Versions",
+        "Override the transitive dependencies"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#override-the-transitive-dependencies",
+      "entries": 0
+    },
+    {
+      "id": "5-preinstall-preventions",
+      "title": "5. Preinstall Preventions",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "5. Preinstall Preventions"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#5-preinstall-preventions",
+      "entries": 0
+    },
+    {
+      "id": "preinstall-scanners",
+      "title": "Preinstall Scanners",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "5. Preinstall Preventions",
+        "Preinstall Scanners"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#preinstall-scanners",
+      "entries": 0
+    },
+    {
+      "id": "6-runtime-protections",
+      "title": "6. Runtime Protections",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "6. Runtime Protections"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#6-runtime-protections",
+      "entries": 0
+    },
+    {
+      "id": "permission-model",
+      "title": "Permission Model",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "6. Runtime Protections",
+        "Permission Model"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#permission-model",
+      "entries": 0
+    },
+    {
+      "id": "hardened-javascript",
+      "title": "Hardened JavaScript",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "6. Runtime Protections",
+        "Hardened JavaScript"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#hardened-javascript",
+      "entries": 0
+    },
+    {
+      "id": "7-reduce-external-dependencies",
+      "title": "7. Reduce External Dependencies",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "7. Reduce External Dependencies"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#7-reduce-external-dependencies",
+      "entries": 10
+    },
+    {
+      "id": "8-isolated-development",
+      "title": "8. Isolated development",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Developers",
+        "8. Isolated development"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#8-isolated-development",
+      "entries": 0
+    },
+    {
+      "id": "for-maintainers",
+      "title": "For Maintainers",
+      "level": 2,
+      "path": [
+        "NPM Security Best Practices",
+        "For Maintainers"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#for-maintainers",
+      "entries": 0
+    },
+    {
+      "id": "9-enable-2fa",
+      "title": "9. Enable 2FA",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Maintainers",
+        "9. Enable 2FA"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#9-enable-2fa",
+      "entries": 0
+    },
+    {
+      "id": "10-create-tokens-with-limited-access",
+      "title": "10. Create Tokens with Limited Access",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Maintainers",
+        "10. Create Tokens with Limited Access"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#10-create-tokens-with-limited-access",
+      "entries": 0
+    },
+    {
+      "id": "11-generate-provenance-statements",
+      "title": "11. Generate Provenance Statements",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Maintainers",
+        "11. Generate Provenance Statements"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#11-generate-provenance-statements",
+      "entries": 0
+    },
+    {
+      "id": "trusted-publishing",
+      "title": "Trusted Publishing",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "For Maintainers",
+        "11. Generate Provenance Statements",
+        "Trusted Publishing"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#trusted-publishing",
+      "entries": 2
+    },
+    {
+      "id": "12-review-published-files",
+      "title": "12. Review Published Files",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "For Maintainers",
+        "12. Review Published Files"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#12-review-published-files",
+      "entries": 0
+    },
+    {
+      "id": "miscellaneous",
+      "title": "Miscellaneous",
+      "level": 2,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#miscellaneous",
+      "entries": 0
+    },
+    {
+      "id": "13-npm-organization",
+      "title": "13. NPM Organization",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "13. NPM Organization"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#13-npm-organization",
+      "entries": 0
+    },
+    {
+      "id": "14-alternative-registry",
+      "title": "14. Alternative Registry",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "14. Alternative Registry"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#14-alternative-registry",
+      "entries": 0
+    },
+    {
+      "id": "private-registry",
+      "title": "Private Registry",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "14. Alternative Registry",
+        "Private Registry"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#private-registry",
+      "entries": 9
+    },
+    {
+      "id": "15-audit-monitor-and-security-tools",
+      "title": "15. Audit, Monitor and Security Tools",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "15. Audit, Monitor and Security Tools"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#15-audit-monitor-and-security-tools",
+      "entries": 0
+    },
+    {
+      "id": "audit",
+      "title": "Audit",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "15. Audit, Monitor and Security Tools",
+        "Audit"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#audit",
+      "entries": 0
+    },
+    {
+      "id": "sca-tools",
+      "title": "SCA Tools",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "15. Audit, Monitor and Security Tools",
+        "SCA Tools"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#sca-tools",
+      "entries": 0
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "15. Audit, Monitor and Security Tools",
+        "GitHub"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#github",
+      "entries": 5
+    },
+    {
+      "id": "openssf-scorecard",
+      "title": "OpenSSF Scorecard",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "15. Audit, Monitor and Security Tools",
+        "OpenSSF Scorecard"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#openssf-scorecard",
+      "entries": 2
+    },
+    {
+      "id": "socketdev",
+      "title": "Socket.dev",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "15. Audit, Monitor and Security Tools",
+        "Socket.dev"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#socketdev",
+      "entries": 0
+    },
+    {
+      "id": "snyk",
+      "title": "Snyk",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "15. Audit, Monitor and Security Tools",
+        "Snyk"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#snyk",
+      "entries": 0
+    },
+    {
+      "id": "fossa",
+      "title": "FOSSA",
+      "level": 4,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "15. Audit, Monitor and Security Tools",
+        "FOSSA"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#fossa",
+      "entries": 0
+    },
+    {
+      "id": "16-support-oss",
+      "title": "16. Support OSS",
+      "level": 3,
+      "path": [
+        "NPM Security Best Practices",
+        "Miscellaneous",
+        "16. Support OSS"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#16-support-oss",
+      "entries": 5
+    },
+    {
+      "id": "star-history",
+      "title": "Star History",
+      "level": 2,
+      "path": [
+        "NPM Security Best Practices",
+        "Star History"
+      ],
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#star-history",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Aikido",
+      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "category": "case-studies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "TanStack Blog",
+      "url": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "category": "case-studies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "Socket",
+      "url": "https://socket.dev/blog/axios-npm-package-compromised",
+      "category": "case-studies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "PostHog Blog",
+      "url": "https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem",
+      "category": "case-studies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Socket",
+      "url": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
+      "category": "case-studies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Aikido",
+      "url": "https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised",
+      "category": "case-studies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Socket",
+      "url": "https://socket.dev/blog/nx-packages-compromised",
+      "category": "case-studies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "StepSecurity",
+      "url": "https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised",
+      "category": "case-studies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": ".npmrc",
+      "url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/.npmrc",
+      "category": "0-helpers",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "bunfig.toml",
+      "url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/bunfig.toml",
+      "category": "0-helpers",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "pnpm-workspace.yaml",
+      "url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/pnpm-workspace.yaml",
+      "category": "0-helpers",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "deno.json",
+      "url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/deno.json",
+      "category": "0-helpers",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": ".yarnrc.yml",
+      "url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/.yarnrc.yml",
+      "category": "0-helpers",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "https://github.com/raineorshine/npm-check-updates",
+      "url": "https://github.com/raineorshine/npm-check-updates",
+      "category": "2-set-cooldowns--minimum-release-age",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "https://github.com/renovatebot/renovate",
+      "url": "https://github.com/renovatebot/renovate",
+      "category": "2-set-cooldowns--minimum-release-age",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "https://www.stepsecurity.io",
+      "url": "https://www.stepsecurity.io/",
+      "category": "2-set-cooldowns--minimum-release-age",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "^10",
+      "url": "https://nodejs.org/en/learn/typescript/run-natively",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L501",
+      "line": 501,
+      "properties": {}
+    },
+    {
+      "title": "https://obsidian.md/blog/less-is-safer",
+      "url": "https://obsidian.md/blog/less-is-safer",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "https://kashw1n.com/blog/nodejs-2025",
+      "url": "https://kashw1n.com/blog/nodejs-2025",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "https://lyra.horse/blog/2025/08/you-dont-need-js",
+      "url": "https://lyra.horse/blog/2025/08/you-dont-need-js",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L512",
+      "line": 512,
+      "properties": {}
+    },
+    {
+      "title": "https://blog.greenroots.info/10-lesser-known-web-apis-you-may-want-to-use",
+      "url": "https://blog.greenroots.info/10-lesser-known-web-apis-you-may-want-to-use",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "https://github.com/you-dont-need/You-Dont-Need-Momentjs",
+      "url": "https://github.com/you-dont-need/You-Dont-Need-Momentjs",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L514",
+      "line": 514,
+      "properties": {}
+    },
+    {
+      "title": "https://npmgraph.js.org",
+      "url": "https://npmgraph.js.org/",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L515",
+      "line": 515,
+      "properties": {}
+    },
+    {
+      "title": "https://node-modules.dev",
+      "url": "https://node-modules.dev/",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L516",
+      "line": 516,
+      "properties": {}
+    },
+    {
+      "title": "https://github.com/webpro-nl/knip",
+      "url": "https://github.com/webpro-nl/knip",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L517",
+      "line": 517,
+      "properties": {}
+    },
+    {
+      "title": "npkill",
+      "url": "https://github.com/voidcosmos/npkill",
+      "category": "7-reduce-external-dependencies",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L518",
+      "line": 518,
+      "properties": {}
+    },
+    {
+      "title": "https://github.com/antfu/open-packages-on-npm",
+      "url": "https://github.com/antfu/open-packages-on-npm",
+      "category": "trusted-publishing",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L622",
+      "line": 622,
+      "properties": {}
+    },
+    {
+      "title": "https://github.com/sxzz/userscripts/blob/main/src/npm-trusted-publisher.md",
+      "url": "https://github.com/sxzz/userscripts/blob/main/src/npm-trusted-publisher.md",
+      "category": "trusted-publishing",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L623",
+      "line": 623,
+      "properties": {}
+    },
+    {
+      "title": "https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry",
+      "url": "https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L705",
+      "line": 705,
+      "properties": {}
+    },
+    {
+      "title": "https://github.com/verdaccio/verdaccio",
+      "url": "https://github.com/verdaccio/verdaccio",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L711",
+      "line": 711,
+      "properties": {}
+    },
+    {
+      "title": "https://verdaccio.org/docs/best/",
+      "url": "https://verdaccio.org/docs/best/",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L712",
+      "line": 712,
+      "properties": {}
+    },
+    {
+      "title": "https://www.vlt.sh/",
+      "url": "https://www.vlt.sh/",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L713",
+      "line": 713,
+      "properties": {}
+    },
+    {
+      "title": "vlt’s Serverless Registry",
+      "url": "https://docs.vlt.sh/registry",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L714",
+      "line": 714,
+      "properties": {}
+    },
+    {
+      "title": "https://jfrog.com/integrations/npm-registry",
+      "url": "https://jfrog.com/integrations/npm-registry",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L715",
+      "line": 715,
+      "properties": {}
+    },
+    {
+      "title": "https://help.sonatype.com/en/npm-registry.html",
+      "url": "https://help.sonatype.com/en/npm-registry.html",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L716",
+      "line": 716,
+      "properties": {}
+    },
+    {
+      "title": "https://cloudsmith.com/",
+      "url": "https://cloudsmith.com/",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L717",
+      "line": 717,
+      "properties": {}
+    },
+    {
+      "title": "https://pnpm.io/pnpr/",
+      "url": "https://pnpm.io/pnpr/",
+      "category": "private-registry",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L718",
+      "line": 718,
+      "properties": {}
+    },
+    {
+      "title": "Dependabot",
+      "url": "https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide",
+      "category": "github",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L777",
+      "line": 777,
+      "properties": {}
+    },
+    {
+      "title": "Software Bill of Materials (SBOMs)",
+      "url": "https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository",
+      "category": "github",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L778",
+      "line": 778,
+      "properties": {}
+    },
+    {
+      "title": "Code Scanning",
+      "url": "https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+      "category": "github",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L779",
+      "line": 779,
+      "properties": {}
+    },
+    {
+      "title": "https://docs.npmjs.com/reporting-malware-in-an-npm-package",
+      "url": "https://docs.npmjs.com/reporting-malware-in-an-npm-package",
+      "category": "github",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L784",
+      "line": 784,
+      "properties": {}
+    },
+    {
+      "title": "https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam#reporting-a-repository",
+      "url": "https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam#reporting-a-repository",
+      "category": "github",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L785",
+      "line": 785,
+      "properties": {}
+    },
+    {
+      "title": "GitHub Action",
+      "url": "https://github.com/marketplace/actions/ossf-scorecard-action",
+      "category": "openssf-scorecard",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L795",
+      "line": 795,
+      "properties": {}
+    },
+    {
+      "title": "Command Line",
+      "url": "https://github.com/ossf/scorecard#scorecard-command-line-interface",
+      "category": "openssf-scorecard",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L796",
+      "line": 796,
+      "properties": {}
+    },
+    {
+      "title": "https://github.com/sponsors",
+      "url": "https://github.com/sponsors",
+      "category": "16-support-oss",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L826",
+      "line": 826,
+      "properties": {}
+    },
+    {
+      "title": "https://opencollective.com",
+      "url": "https://opencollective.com/",
+      "category": "16-support-oss",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L827",
+      "line": 827,
+      "properties": {}
+    },
+    {
+      "title": "https://thanks.dev",
+      "url": "https://thanks.dev/",
+      "category": "16-support-oss",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L828",
+      "line": 828,
+      "properties": {}
+    },
+    {
+      "title": "https://opensourcepledge.com",
+      "url": "https://opensourcepledge.com/",
+      "category": "16-support-oss",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L829",
+      "line": 829,
+      "properties": {}
+    },
+    {
+      "title": "https://funds.ecosyste.ms",
+      "url": "https://funds.ecosyste.ms/",
+      "category": "16-support-oss",
+      "source_url": "https://github.com/bodadotsh/npm-security-best-practices/blob/2da89f9c4b6d9431664ab40d946062e226f78ba5/README.md#L830",
+      "line": 830,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 49,
+  "unique_links": 49,
+  "category_count": 9,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by bodadotsh/npm-security-best-practices contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/bodadotsh/npm-security-best-practices/tree/2da89f9c4b6d9431664ab40d946062e226f78ba5",
+  "digest": "feb4166b2a02e77daa5e7826a107121932859d6c26a1489a78dc45cb639f2b0b"
+}

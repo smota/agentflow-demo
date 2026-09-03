@@ -1,0 +1,2943 @@
+{
+  "format_version": 2,
+  "repository_id": "651692511",
+  "name": "JuDFTteam/best-of-atomistic-machine-learning",
+  "revision": "1fa15ed89b49de9f370f0406059387dedbfd9191",
+  "readme_path": "README.md",
+  "readme_sha256": "172dd5b53de2805aec6f83fbc214cbbe3e3c427a2b17738e0e381ad281d1b2fc",
+  "sections": [
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "explanation",
+      "title": "Explanation",
+      "level": 2,
+      "path": [
+        "Explanation"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#explanation",
+      "entries": 0
+    },
+    {
+      "id": "active-learning",
+      "title": "Active learning",
+      "level": 2,
+      "path": [
+        "Active learning"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#active-learning",
+      "entries": 9
+    },
+    {
+      "id": "community-resources",
+      "title": "Community resources",
+      "level": 2,
+      "path": [
+        "Community resources"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#community-resources",
+      "entries": 22
+    },
+    {
+      "id": "datasets",
+      "title": "Datasets",
+      "level": 2,
+      "path": [
+        "Datasets"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#datasets",
+      "entries": 26
+    },
+    {
+      "id": "data-structures",
+      "title": "Data Structures",
+      "level": 2,
+      "path": [
+        "Data Structures"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#data-structures",
+      "entries": 8
+    },
+    {
+      "id": "density-functional-theory-ml-dft",
+      "title": "Density functional theory (ML-DFT)",
+      "level": 2,
+      "path": [
+        "Density functional theory (ML-DFT)"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#density-functional-theory-ml-dft",
+      "entries": 13
+    },
+    {
+      "id": "educational-resources",
+      "title": "Educational Resources",
+      "level": 2,
+      "path": [
+        "Educational Resources"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#educational-resources",
+      "entries": 9
+    },
+    {
+      "id": "explainable-artificial-intelligence-xai",
+      "title": "Explainable Artificial intelligence (XAI)",
+      "level": 2,
+      "path": [
+        "Explainable Artificial intelligence (XAI)"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#explainable-artificial-intelligence-xai",
+      "entries": 1
+    },
+    {
+      "id": "electronic-structure-methods-ml-esm",
+      "title": "Electronic structure methods (ML-ESM)",
+      "level": 2,
+      "path": [
+        "Electronic structure methods (ML-ESM)"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#electronic-structure-methods-ml-esm",
+      "entries": 2
+    },
+    {
+      "id": "general-tools",
+      "title": "General Tools",
+      "level": 2,
+      "path": [
+        "General Tools"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#general-tools",
+      "entries": 25
+    },
+    {
+      "id": "generative-models",
+      "title": "Generative Models",
+      "level": 2,
+      "path": [
+        "Generative Models"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#generative-models",
+      "entries": 11
+    },
+    {
+      "id": "interatomic-potentials-ml-iap",
+      "title": "Interatomic Potentials (ML-IAP)",
+      "level": 2,
+      "path": [
+        "Interatomic Potentials (ML-IAP)"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#interatomic-potentials-ml-iap",
+      "entries": 58
+    },
+    {
+      "id": "language-models",
+      "title": "Language Models",
+      "level": 2,
+      "path": [
+        "Language Models"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#language-models",
+      "entries": 10
+    },
+    {
+      "id": "materials-discovery",
+      "title": "Materials Discovery",
+      "level": 2,
+      "path": [
+        "Materials Discovery"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#materials-discovery",
+      "entries": 12
+    },
+    {
+      "id": "mathematical-tools",
+      "title": "Mathematical tools",
+      "level": 2,
+      "path": [
+        "Mathematical tools"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#mathematical-tools",
+      "entries": 13
+    },
+    {
+      "id": "molecular-dynamics",
+      "title": "Molecular Dynamics",
+      "level": 2,
+      "path": [
+        "Molecular Dynamics"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#molecular-dynamics",
+      "entries": 18
+    },
+    {
+      "id": "probabilistic-ml",
+      "title": "Probabilistic ML",
+      "level": 2,
+      "path": [
+        "Probabilistic ML"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#probabilistic-ml",
+      "entries": 1
+    },
+    {
+      "id": "reinforcement-learning",
+      "title": "Reinforcement Learning",
+      "level": 2,
+      "path": [
+        "Reinforcement Learning"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#reinforcement-learning",
+      "entries": 0
+    },
+    {
+      "id": "representation-engineering",
+      "title": "Representation Engineering",
+      "level": 2,
+      "path": [
+        "Representation Engineering"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#representation-engineering",
+      "entries": 25
+    },
+    {
+      "id": "representation-learning",
+      "title": "Representation Learning",
+      "level": 2,
+      "path": [
+        "Representation Learning"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#representation-learning",
+      "entries": 21
+    },
+    {
+      "id": "universal-potentials",
+      "title": "Universal Potentials",
+      "level": 2,
+      "path": [
+        "Universal Potentials"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#universal-potentials",
+      "entries": 28
+    },
+    {
+      "id": "unsupervised-learning",
+      "title": "Unsupervised Learning",
+      "level": 2,
+      "path": [
+        "Unsupervised Learning"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#unsupervised-learning",
+      "entries": 2
+    },
+    {
+      "id": "visualization",
+      "title": "Visualization",
+      "level": 2,
+      "path": [
+        "Visualization"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#visualization",
+      "entries": 12
+    },
+    {
+      "id": "wavefunction-methods-ml-wft",
+      "title": "Wavefunction methods (ML-WFT)",
+      "level": 2,
+      "path": [
+        "Wavefunction methods (ML-WFT)"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#wavefunction-methods-ml-wft",
+      "entries": 4
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 2,
+      "path": [
+        "Others"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#others",
+      "entries": 0
+    },
+    {
+      "id": "contribution",
+      "title": "Contribution",
+      "level": 2,
+      "path": [
+        "Contribution"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#contribution",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "License"
+      ],
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/dpgen",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/dpgen",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/deepmodeling/dpgen",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mir-group/flare",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Bin-Cao/Bgolearn",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/Bgolearn",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/dpgen2",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/zincware/IPSuite",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ipsuite",
+      "category": "active-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/janosh/matbench-discovery",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/matbench-discovery",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lukasmasuch/best-of-ml-python",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openml/OpenML",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/naganandy/graph-based-deep-learning-literature",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ddmms/ml-peg",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ml-peg",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Garden-AI/garden",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/garden-ai",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/GT4SD/gt4sd-core",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google-deepmind/materials_discovery",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/divelab/AIRS",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/blaiszik/awesome-matchem-datasets",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Eipgen/Neural-Network-Models-for-Chemistry",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/tilde-lab/optimade.science",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/neurreps/awesome-neural-geometry",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/sedaoturak/data-resources-for-materials-science",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/AI4QC/AI_for_Science_paper_collection",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/smsharma/awesome-neural-sbi",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/deepmodeling-projects",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/kdmsit/Awesome-Crystal-GNNs",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/blaiszik/ml_publication_charts",
+      "category": "community-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/facebookresearch/fairchem",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L405",
+      "line": 405,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/fairchem-core",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/facebookresearch/fairchem",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/fairchem-core",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Materials-Consortia/optimade-python-tools",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/optimade",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/optimade",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/materialsproject/MPContribs",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mpcontribs-client",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L450",
+      "line": 450,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Materials-Consortia/OPTIMADE",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jla-gardner/load-atoms",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/load-atoms",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L470",
+      "line": 470,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/divelab/AIRS",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/AIRI-Institute/nablaDFT",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L485",
+      "line": 485,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/materialyzeai/matpes",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L493",
+      "line": 493,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/matpes",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L498",
+      "line": 498,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mpds-io/mpds-api",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mpds_client",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openmm/spice-dataset",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L517",
+      "line": 517,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openkim/kim-api",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/AIS-Square",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/NRC-Mila/OBELiX",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/obelix-data",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L546",
+      "line": 546,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Ramprasad-Group/polyVERSE",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L553",
+      "line": 553,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Jesperkemist/perovskitedatabase",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L561",
+      "line": 561,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/aimat-lab/visual_graph_datasets",
+      "category": "datasets",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L569",
+      "line": 569,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/dpdata",
+      "category": "data-structures",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L605",
+      "line": 605,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/dpdata",
+      "category": "data-structures",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L610",
+      "line": 610,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/deepmodeling/dpdata",
+      "category": "data-structures",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L614",
+      "line": 614,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/metatensor/metatensor",
+      "category": "data-structures",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L621",
+      "line": 621,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/metatensor",
+      "category": "data-structures",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L626",
+      "line": 626,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/materialsproject/pyrho",
+      "category": "data-structures",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L633",
+      "line": 633,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mp-pyrho",
+      "category": "data-structures",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L638",
+      "line": 638,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/dmlc/dlpack",
+      "category": "data-structures",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L645",
+      "line": 645,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google-research/google-research",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L665",
+      "line": 665,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mala-project/mala",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/andreagrisafi/SALTED",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L681",
+      "line": 681,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/cider-dft/CiderPress",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L689",
+      "line": 689,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ciderpress",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L694",
+      "line": 694,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/divelab/AIRS",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L701",
+      "line": 701,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/QuantumLab-ZY/HamGNN",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L709",
+      "line": 709,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lcmd-epfl/Q-stack",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L717",
+      "line": 717,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ACEsuit/ACEhamiltonians.jl",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L725",
+      "line": 725,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/dftio",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L733",
+      "line": 733,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Xiaoxun-Gong/DeepH-E3",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L741",
+      "line": 741,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/StefanoSanvitoGroup/MLdensity",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L749",
+      "line": 749,
+      "properties": {}
+    },
+    {
+      "title": "fairchem",
+      "url": "https://github.com/FAIR-Chem/fairchem",
+      "category": "density-functional-theory-ml-dft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L768",
+      "line": 768,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lab-cosmo/atomistic-cookbook",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L800",
+      "line": 800,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/chaitjo/geometric-gnn-dojo",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L808",
+      "line": 808,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/whitead/dmol-book",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L816",
+      "line": 816,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/schwallergroup/ai4chem_course",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L824",
+      "line": 824,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/GDS-Education-Community-of-Practice/DSECOP",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L832",
+      "line": 832,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ceriottm/iam-notebooks",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L840",
+      "line": 840,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/aronwalsh/MLforMaterials",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L848",
+      "line": 848,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ACEsuit/mace-tutorials",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L856",
+      "line": 856,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/tutorials",
+      "category": "educational-resources",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L864",
+      "line": 864,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/aimat-lab/graph_attention_student",
+      "category": "explainable-artificial-intelligence-xai",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L903",
+      "line": 903,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/DeePTB",
+      "category": "electronic-structure-methods-ml-esm",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L925",
+      "line": 925,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/dptb",
+      "category": "electronic-structure-methods-ml-esm",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L930",
+      "line": 930,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/rdkit/rdkit",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L953",
+      "line": 953,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/rdkit",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L958",
+      "line": 958,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/rdkit/rdkit",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L962",
+      "line": 962,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepchem/deepchem",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L969",
+      "line": 969,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/deepchem",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L974",
+      "line": 974,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/deepchem",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L978",
+      "line": 978,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/deepchemio/deepchem",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L982",
+      "line": 982,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/hackingmaterials/matminer",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L989",
+      "line": 989,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/matminer",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L994",
+      "line": 994,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/matminer",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L998",
+      "line": 998,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/libAtoms/QUIP",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1005",
+      "line": 1005,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/quippy-ase",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1010",
+      "line": 1010,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/libatomsquip/quip",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1014",
+      "line": 1014,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/usnistgov/jarvis",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1021",
+      "line": 1021,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jarvis-tools",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1026",
+      "line": 1026,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jarvis-tools",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1030",
+      "line": 1030,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/materialyzeai/maml",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1037",
+      "line": 1037,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/maml",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1042",
+      "line": 1042,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/scikit-learn-contrib/scikit-matter",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1049",
+      "line": 1049,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/skmatter",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1054",
+      "line": 1054,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/skmatter",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1058",
+      "line": 1058,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/dralgroup/mlatom",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1065",
+      "line": 1065,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mlatom",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1070",
+      "line": 1070,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/uw-cmg/MAST-ML",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1077",
+      "line": 1077,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/divelab/AIRS",
+      "category": "general-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1085",
+      "line": 1085,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/GT4SD/gt4sd-core",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1118",
+      "line": 1118,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/gt4sd",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1123",
+      "line": 1123,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/hspark1212/MOFTransformer",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1130",
+      "line": 1130,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/moftransformer",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1135",
+      "line": 1135,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/xiaohang007/SLICES",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1142",
+      "line": 1142,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/slices",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1147",
+      "line": 1147,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/xiaohang07/slices",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1151",
+      "line": 1151,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/atomistic-machine-learning/schnetpack-gschnet",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1158",
+      "line": 1158,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/RokasEl/simgen",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1166",
+      "line": 1166,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/simgen",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1171",
+      "line": 1171,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/LigandPro/Matcha",
+      "category": "generative-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1178",
+      "line": 1178,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/facebookresearch/fairchem",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1209",
+      "line": 1209,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/fairchem-core",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1214",
+      "line": 1214,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/deepmd-kit",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1221",
+      "line": 1221,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/deepmd-kit",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1226",
+      "line": 1226,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/deepmodeling/deepmd-kit",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1230",
+      "line": 1230,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/deepmodeling/deepmd-kit",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1234",
+      "line": 1234,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mir-group/nequip",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1241",
+      "line": 1241,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nequip",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1246",
+      "line": 1246,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nequip",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1250",
+      "line": 1250,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/aiqm/torchani",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1257",
+      "line": 1257,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/torchani",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1262",
+      "line": 1262,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/torchani",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1266",
+      "line": 1266,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/materialyzeai/matcalc",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1273",
+      "line": 1273,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/matcalc",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1278",
+      "line": 1278,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ACEsuit/mace",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1285",
+      "line": 1285,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/metatensor/metatrain",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1293",
+      "line": 1293,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/metatrain",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1298",
+      "line": 1298,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/torchmd/torchmd-net",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1305",
+      "line": 1305,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/torchmd-net",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1310",
+      "line": 1310,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stfc/janus-core",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1317",
+      "line": 1317,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/janus-core",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1322",
+      "line": 1322,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/autoatml/autoplex",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1329",
+      "line": 1329,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/autoplex",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1334",
+      "line": 1334,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openkim/kliff",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1341",
+      "line": 1341,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/kliff",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1346",
+      "line": 1346,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/kliff",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1350",
+      "line": 1350,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mir-group/allegro",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1357",
+      "line": 1357,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openmm/NNPOps",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1365",
+      "line": 1365,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nnpops",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1370",
+      "line": 1370,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/libAtoms/workflow",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1377",
+      "line": 1377,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/apax-hub/apax",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1385",
+      "line": 1385,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/apax",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1390",
+      "line": 1390,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/learningmatter-mit/NeuralForceField",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1397",
+      "line": 1397,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Teoroo-CMC/PiNN",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1405",
+      "line": 1405,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/teoroo/pinn",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1410",
+      "line": 1410,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/vldgroup/graph-pes",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1417",
+      "line": 1417,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/graph-pes",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1422",
+      "line": 1422,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/basf/mlipx",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1429",
+      "line": 1429,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mlipx",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1434",
+      "line": 1434,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stfc/aiida-mlip",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1441",
+      "line": 1441,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/aiida-mlip",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1446",
+      "line": 1446,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/calorine",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1453",
+      "line": 1453,
+      "properties": {}
+    },
+    {
+      "title": "GitLab",
+      "url": "https://gitlab.com/materials-modeling/calorine",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1457",
+      "line": 1457,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ICAMS/python-ace",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1465",
+      "line": 1465,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/python-ace",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1470",
+      "line": 1470,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ACEsuit/mace-jax",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1477",
+      "line": 1477,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/MMunibas/Asparagus",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1485",
+      "line": 1485,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/TinkerTools/tinker-hp",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1493",
+      "line": 1493,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/deepmd-gnn",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1501",
+      "line": 1501,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mcaroba/turbogap",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1509",
+      "line": 1509,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/bigd4/PyNEP",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1517",
+      "line": 1517,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/libAtoms/GAP",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1525",
+      "line": 1525,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lanl/ALF",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1533",
+      "line": 1533,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ACEsuit/ACEfit.jl",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1541",
+      "line": 1541,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/atomicarchitects/equiformer_v2",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1549",
+      "line": 1549,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/RowleyGroup/MLXDM",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1557",
+      "line": 1557,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/materialyzeai/matml",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1565",
+      "line": 1565,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/materialsvirtuallab/matml",
+      "category": "interatomic-potentials-ml-iap",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1570",
+      "line": 1570,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1634",
+      "line": 1634,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/paper-qa",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1639",
+      "line": 1639,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lamalab-org/chembench",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1646",
+      "line": 1646,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/chembench",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1651",
+      "line": 1651,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/usnistgov/atomgpt",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1658",
+      "line": 1658,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/atomgpt",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1663",
+      "line": 1663,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/molskill",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1670",
+      "line": 1670,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/msr-ai4science/molskill",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1675",
+      "line": 1675,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/chiang-yuan/llamp",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1682",
+      "line": 1682,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/vertaix/LLM-Prop",
+      "category": "language-models",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1690",
+      "line": 1690,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/WMD-group/SMACT",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1727",
+      "line": 1727,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/smact",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1732",
+      "line": 1732,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/smact",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1736",
+      "line": 1736,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/mattergen",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1743",
+      "line": 1743,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/LopezGroup-ICIQ/care",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1751",
+      "line": 1751,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/care-crn",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1756",
+      "line": 1756,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google-deepmind/materials_discovery",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1763",
+      "line": 1763,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/CompRhys/aviary",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1771",
+      "line": 1771,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/aalto-boss",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1779",
+      "line": 1779,
+      "properties": {}
+    },
+    {
+      "title": "GitLab",
+      "url": "https://gitlab.com/cest-group/boss",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1783",
+      "line": 1783,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/agox",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1791",
+      "line": 1791,
+      "properties": {}
+    },
+    {
+      "title": "GitLab",
+      "url": "https://gitlab.com/agox/agox",
+      "category": "materials-discovery",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1795",
+      "line": 1795,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/NVIDIA/cuEquivariance",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1821",
+      "line": 1821,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/cuequivariance",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1826",
+      "line": 1826,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/cuequivariance",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1830",
+      "line": 1830,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google-deepmind/kfac-jax",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1837",
+      "line": 1837,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/kfac-jax",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1842",
+      "line": 1842,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PASSIONLab/OpenEquivariance",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1849",
+      "line": 1849,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/openequivariance",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1854",
+      "line": 1854,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lab-cosmo/sphericart",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1861",
+      "line": 1861,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sphericart",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1866",
+      "line": 1866,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ACEsuit/Polynomials4ML.jl",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1873",
+      "line": 1873,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/risi-kondor/GElib",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1881",
+      "line": 1881,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lab-cosmo/toolbox",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1889",
+      "line": 1889,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/risi-kondor/cnine",
+      "category": "mathematical-tools",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1897",
+      "line": 1897,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jax-md/jax-md",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1922",
+      "line": 1922,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jax-md",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1927",
+      "line": 1927,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/TorchSim/torch-sim",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1934",
+      "line": 1934,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/torch-sim-atomistic",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1939",
+      "line": 1939,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/brucefan1983/GPUMD",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1946",
+      "line": 1946,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/luigibonati/mlcolvar",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1954",
+      "line": 1954,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mlcolvar",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1959",
+      "line": 1959,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openmm/openmm-ml",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1966",
+      "line": 1966,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/openmm-ml",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1971",
+      "line": 1971,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/FitSNAP/FitSNAP",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1978",
+      "line": 1978,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/fitsnap3",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1983",
+      "line": 1983,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openmm/openmm-torch",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1990",
+      "line": 1990,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/openmm-torch",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L1995",
+      "line": 1995,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/DMFF",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2002",
+      "line": 2002,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/molmod/psiflow",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2010",
+      "line": 2010,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mir-group/pair_nequip_allegro",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2018",
+      "line": 2018,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ICAMS/lammps-user-pace",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2026",
+      "line": 2026,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/chiang-yuan/muse",
+      "category": "molecular-dynamics",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2034",
+      "line": 2034,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/janosh/thermo",
+      "category": "probabilistic-ml",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2056",
+      "line": 2056,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/cdk/cdk",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2085",
+      "line": 2085,
+      "properties": {}
+    },
+    {
+      "title": "Maven",
+      "url": "https://search.maven.org/artifact/org.openscience.cdk/cdk-bundle",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2090",
+      "line": 2090,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/SINGROUP/dscribe",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2101",
+      "line": 2101,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/dscribe",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2106",
+      "line": 2106,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/dscribe",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2110",
+      "line": 2110,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/hachmannlab/chemml",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2117",
+      "line": 2117,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/chemml",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2122",
+      "line": 2122,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/WMD-group/ElementEmbeddings",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2129",
+      "line": 2129,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ElementEmbeddings",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2134",
+      "line": 2134,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/elementembeddings",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2138",
+      "line": 2138,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/metatensor/featomic",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2145",
+      "line": 2145,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PhasesResearchLab/pySIPFENN",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2153",
+      "line": 2153,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pysipfenn",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2158",
+      "line": 2158,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pysipfenn",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2162",
+      "line": 2162,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/drcassar/glasspy",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2169",
+      "line": 2169,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/glasspy",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2174",
+      "line": 2174,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/rouyang2017/SISSO",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2181",
+      "line": 2181,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/WMD-group/PDynA",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2189",
+      "line": 2189,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pdyna",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2194",
+      "line": 2194,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/capoe/benchml",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2201",
+      "line": 2201,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/benchml",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2206",
+      "line": 2206,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/NU-CUCIS/ElemNet",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2213",
+      "line": 2213,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ChemAI-Lab/molpipx",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2221",
+      "line": 2221,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Rutgers-ZRG/libfp",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2229",
+      "line": 2229,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/libAtoms/soap_turbo",
+      "category": "representation-engineering",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2237",
+      "line": 2237,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pyg-team/pytorch_geometric",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2273",
+      "line": 2273,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/materialyzeai/matgl",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2281",
+      "line": 2281,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/matgl",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2286",
+      "line": 2286,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/materialsvirtuallab/matgl",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2290",
+      "line": 2290,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/e3nn/e3nn",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2297",
+      "line": 2297,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/e3nn",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2302",
+      "line": 2302,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/e3nn",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2306",
+      "line": 2306,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/atomistic-machine-learning/schnetpack",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2313",
+      "line": 2313,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/schnetpack",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2318",
+      "line": 2318,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/e3nn/e3nn-jax",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2325",
+      "line": 2325,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/e3nn-jax",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2330",
+      "line": 2330,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/usnistgov/alignn",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2337",
+      "line": 2337,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/alignn",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2342",
+      "line": 2342,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ORNL/HydraGNN",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2349",
+      "line": 2349,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/Graphormer",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2357",
+      "line": 2357,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lanl/hippynn",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2365",
+      "line": 2365,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/NatLabRockies/nfp",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2373",
+      "line": 2373,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/FabianFuchsML/se3-transformer-public",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2381",
+      "line": 2381,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/masashitsubaki/molecularGNN_smiles",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2389",
+      "line": 2389,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/omron-sinicx/crystalframer",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2397",
+      "line": 2397,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/usccolumbia/deeperGATGNN",
+      "category": "representation-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2405",
+      "line": 2405,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/deepmd-kit",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2477",
+      "line": 2477,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/deepmd-kit",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2482",
+      "line": 2482,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/deepmd-kit",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2486",
+      "line": 2486,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/deepmodeling/deepmd-kit",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2490",
+      "line": 2490,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepmodeling/deepmd-kit",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2497",
+      "line": 2497,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/deepmd-kit",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2502",
+      "line": 2502,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/deepmd-kit",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2506",
+      "line": 2506,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/deepmodeling/deepmd-kit",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2510",
+      "line": 2510,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/facebookresearch/fairchem",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2517",
+      "line": 2517,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/fairchem-core",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2522",
+      "line": 2522,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/facebookresearch/fairchem",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2529",
+      "line": 2529,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/fairchem-core",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2534",
+      "line": 2534,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ACEsuit/mace-foundations",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2541",
+      "line": 2541,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mace-torch",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2546",
+      "line": 2546,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/mattersim",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2553",
+      "line": 2553,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mattersim",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2558",
+      "line": 2558,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/MDIL-SNU/SevenNet",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2565",
+      "line": 2565,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sevenn",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2570",
+      "line": 2570,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/orbital-materials/orb-models",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2577",
+      "line": 2577,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/orb-models",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2582",
+      "line": 2582,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lab-cosmo/upet",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2589",
+      "line": 2589,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pet-mad",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2594",
+      "line": 2594,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pet-mad",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2598",
+      "line": 2598,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/CederGroupHub/chgnet",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2605",
+      "line": 2605,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/chgnet",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2610",
+      "line": 2610,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ICAMS/grace-tensorpotential",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2617",
+      "line": 2617,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/atomind-ai/mlip-arena",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2625",
+      "line": 2625,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ASK-Berkeley/EScAIP",
+      "category": "universal-potentials",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2633",
+      "line": 2633,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/sissa-data-science/DADApy",
+      "category": "unsupervised-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2656",
+      "line": 2656,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/dadapy",
+      "category": "unsupervised-learning",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2661",
+      "line": 2661,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/materialsproject/crystaltoolkit",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2688",
+      "line": 2688,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/crystal-toolkit",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2693",
+      "line": 2693,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/janosh/pymatviz",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2700",
+      "line": 2700,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pymatviz",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2705",
+      "line": 2705,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/janosh/matterviz",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2712",
+      "line": 2712,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/elementari",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2717",
+      "line": 2717,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lab-cosmo/chemiscope",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2724",
+      "line": 2724,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/chemiscope",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2729",
+      "line": 2729,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/zincware/ZnDraw",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2736",
+      "line": 2736,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/zndraw",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2741",
+      "line": 2741,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/usnistgov/atomvision",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2748",
+      "line": 2748,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/atomvision",
+      "category": "visualization",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2753",
+      "line": 2753,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/deepqmc/deepqmc",
+      "category": "wavefunction-methods-ml-wft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2768",
+      "line": 2768,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/deepqmc",
+      "category": "wavefunction-methods-ml-wft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2773",
+      "line": 2773,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google-deepmind/ferminet",
+      "category": "wavefunction-methods-ml-wft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2780",
+      "line": 2780,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/bytedance/jaqmc",
+      "category": "wavefunction-methods-ml-wft",
+      "source_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/blob/1fa15ed89b49de9f370f0406059387dedbfd9191/README.md#L2788",
+      "line": 2788,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 330,
+  "unique_links": 310,
+  "category_count": 22,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by JuDFTteam/best-of-atomistic-machine-learning contributors.",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/tree/1fa15ed89b49de9f370f0406059387dedbfd9191",
+  "digest": "f5af965c1ca4b6ce9e3e00a760cb4e950bb238cdd1978562af592177add8951f"
+}

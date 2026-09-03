@@ -1,0 +1,3613 @@
+{
+  "format_version": 2,
+  "repository_id": "327929724",
+  "name": "ml-tooling/best-of-python-dev",
+  "revision": "9cfce6c2b7e2628d73342008632c74f8ecb01659",
+  "readme_path": "README.md",
+  "readme_sha256": "2f28c3479e261f43ef6f501aa6c755c6125058d783286323b1191fb4e648f8f6",
+  "sections": [
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "explanation",
+      "title": "Explanation",
+      "level": 2,
+      "path": [
+        "Explanation"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#explanation",
+      "entries": 0
+    },
+    {
+      "id": "linters--style-checkers",
+      "title": "Linters & Style Checkers",
+      "level": 2,
+      "path": [
+        "Linters & Style Checkers"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#linters--style-checkers",
+      "entries": 56
+    },
+    {
+      "id": "type-checkers",
+      "title": "Type checkers",
+      "level": 2,
+      "path": [
+        "Type checkers"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#type-checkers",
+      "entries": 4
+    },
+    {
+      "id": "code-formatters",
+      "title": "Code Formatters",
+      "level": 2,
+      "path": [
+        "Code Formatters"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#code-formatters",
+      "entries": 9
+    },
+    {
+      "id": "code-refactoring",
+      "title": "Code Refactoring",
+      "level": 2,
+      "path": [
+        "Code Refactoring"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#code-refactoring",
+      "entries": 21
+    },
+    {
+      "id": "code-security",
+      "title": "Code Security",
+      "level": 2,
+      "path": [
+        "Code Security"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#code-security",
+      "entries": 11
+    },
+    {
+      "id": "virtual-environments",
+      "title": "Virtual Environments",
+      "level": 2,
+      "path": [
+        "Virtual Environments"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#virtual-environments",
+      "entries": 9
+    },
+    {
+      "id": "dependency--package-managers",
+      "title": "Dependency & Package Managers",
+      "level": 2,
+      "path": [
+        "Dependency & Package Managers"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#dependency--package-managers",
+      "entries": 25
+    },
+    {
+      "id": "code-metrics--complexity",
+      "title": "Code Metrics & Complexity",
+      "level": 2,
+      "path": [
+        "Code Metrics & Complexity"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#code-metrics--complexity",
+      "entries": 8
+    },
+    {
+      "id": "logging",
+      "title": "Logging",
+      "level": 2,
+      "path": [
+        "Logging"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#logging",
+      "entries": 42
+    },
+    {
+      "id": "shell",
+      "title": "Shell",
+      "level": 2,
+      "path": [
+        "Shell"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#shell",
+      "entries": 2
+    },
+    {
+      "id": "documentation",
+      "title": "Documentation",
+      "level": 2,
+      "path": [
+        "Documentation"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#documentation",
+      "entries": 35
+    },
+    {
+      "id": "debugging-tools",
+      "title": "Debugging Tools",
+      "level": 2,
+      "path": [
+        "Debugging Tools"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#debugging-tools",
+      "entries": 17
+    },
+    {
+      "id": "testing-tools",
+      "title": "Testing Tools",
+      "level": 2,
+      "path": [
+        "Testing Tools"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#testing-tools",
+      "entries": 85
+    },
+    {
+      "id": "code-packaging",
+      "title": "Code Packaging",
+      "level": 2,
+      "path": [
+        "Code Packaging"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#code-packaging",
+      "entries": 21
+    },
+    {
+      "id": "build-tools",
+      "title": "Build Tools",
+      "level": 2,
+      "path": [
+        "Build Tools"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#build-tools",
+      "entries": 32
+    },
+    {
+      "id": "system-monitoring--profiling",
+      "title": "System Monitoring & Profiling",
+      "level": 2,
+      "path": [
+        "System Monitoring & Profiling"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#system-monitoring--profiling",
+      "entries": 30
+    },
+    {
+      "id": "ast-tools",
+      "title": "AST Tools",
+      "level": 2,
+      "path": [
+        "AST Tools"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#ast-tools",
+      "entries": 9
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 2,
+      "path": [
+        "Others"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#others",
+      "entries": 3
+    },
+    {
+      "id": "related-resources",
+      "title": "Related Resources",
+      "level": 2,
+      "path": [
+        "Related Resources"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#related-resources",
+      "entries": 1
+    },
+    {
+      "id": "contribution",
+      "title": "Contribution",
+      "level": 2,
+      "path": [
+        "Contribution"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#contribution",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "License"
+      ],
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/ruff",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/ruff",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pylint",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pylint",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PyCQA/flake8",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flake8",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/wemake-services/wemake-python-styleguide",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/wemake-python-styleguide",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/beartype/beartype",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/beartype",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/beartype",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/davidhalter/parso",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/parso",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/parso",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PyCQA/pycodestyle",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pycodestyle",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pycodestyle",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/openstack/hacking",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/hacking",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mypy-protobuf",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mypy-protobuf",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/gforcada/flake8-isort",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8-isort",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flake8-isort",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PyCQA/flake8-bugbear",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8-bugbear",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flake8-bugbear",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/adamchainz/flake8-comprehensions",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8-comprehensions",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flake8-comprehensions",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pylint-django",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pylint-django",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/peterjc/flake8-black",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8-black",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flake8-black",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PyCQA/flake8-commas",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8-commas",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/gforcada/flake8-builtins",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8-builtins",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flake8-builtins",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mgedmin/check-manifest",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/check-manifest",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/check-manifest",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/andreoliwa/nitpick",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nitpick",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PyCQA/flake8-import-order",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8-import-order",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flake8-import-order",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/MartinThoma/flake8-simplify",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flake8-simplify",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flake8-simplify",
+      "category": "linters--style-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Microsoft/pyright",
+      "category": "type-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "npm",
+      "url": "https://www.npmjs.com/package/pyright",
+      "category": "type-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/facebook/pyre-check",
+      "category": "type-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pyre-check",
+      "category": "type-checkers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/psf/black",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/black",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/black",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PyCQA/isort",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/isort",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/isort",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/google/yapf",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L484",
+      "line": 484,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/yapf",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L489",
+      "line": 489,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/yapf",
+      "category": "code-formatters",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L493",
+      "line": 493,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/davidhalter/jedi",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/jedi",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L518",
+      "line": 518,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/jedi",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L522",
+      "line": 522,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jendrikseipp/vulture",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/vulture",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L534",
+      "line": 534,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/vulture",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L538",
+      "line": 538,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/python-rope/rope",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L545",
+      "line": 545,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/rope",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/rope",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L554",
+      "line": 554,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L561",
+      "line": 561,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/autoflake",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L566",
+      "line": 566,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/autoflake",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L570",
+      "line": 570,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/asottile/pyupgrade",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L577",
+      "line": 577,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pyupgrade",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L582",
+      "line": 582,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pyupgrade",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L586",
+      "line": 586,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/asottile/add-trailing-comma",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L593",
+      "line": 593,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/add-trailing-comma",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L598",
+      "line": 598,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L605",
+      "line": 605,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/unimport",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L610",
+      "line": 610,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/elmotec/massedit",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L617",
+      "line": 617,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/massedit",
+      "category": "code-refactoring",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L622",
+      "line": 622,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PyCQA/bandit",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L648",
+      "line": 648,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/bandit",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L653",
+      "line": 653,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/bandit",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L657",
+      "line": 657,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pyupio/safety",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L664",
+      "line": 664,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/safety",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L669",
+      "line": 669,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/safety",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/sqlmapproject/sqlmap",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L680",
+      "line": 680,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sqlmap",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L685",
+      "line": 685,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/dlint-py/dlint",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L692",
+      "line": 692,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/dlint",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L697",
+      "line": 697,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/dlint",
+      "category": "code-security",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L701",
+      "line": 701,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pypa/virtualenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L721",
+      "line": 721,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/virtualenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L726",
+      "line": 726,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/virtualenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L730",
+      "line": 730,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pypa/pipenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L737",
+      "line": 737,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pipenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L742",
+      "line": 742,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pipenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L746",
+      "line": 746,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ekalinin/nodeenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L753",
+      "line": 753,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nodeenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L758",
+      "line": 758,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nodeenv",
+      "category": "virtual-environments",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L762",
+      "line": 762,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pypa/pip",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L785",
+      "line": 785,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pip",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L790",
+      "line": 790,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pip",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L794",
+      "line": 794,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pypa/pipx",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L801",
+      "line": 801,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pipx",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L806",
+      "line": 806,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pipx",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L810",
+      "line": 810,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/jazzband/pip-tools",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L817",
+      "line": 817,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pip-tools",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L822",
+      "line": 822,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pip-tools",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L826",
+      "line": 826,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pdm-project/pdm",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L833",
+      "line": 833,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pdm",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L838",
+      "line": 838,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pdm",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L842",
+      "line": 842,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/conda/conda",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L849",
+      "line": 849,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/conda",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L854",
+      "line": 854,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/conda",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L858",
+      "line": 858,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/python-poetry/poetry",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L865",
+      "line": 865,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/poetry",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L870",
+      "line": 870,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/poetry",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L874",
+      "line": 874,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/bndr/pipreqs",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L881",
+      "line": 881,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pipreqs",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L886",
+      "line": 886,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pipreqs",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L890",
+      "line": 890,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mamba-org/mamba",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L897",
+      "line": 897,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mamba",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L902",
+      "line": 902,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/David-OConnor/pyflow",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L909",
+      "line": 909,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pyflow",
+      "category": "dependency--package-managers",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L914",
+      "line": 914,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PyCQA/mccabe",
+      "category": "code-metrics--complexity",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L932",
+      "line": 932,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mccabe",
+      "category": "code-metrics--complexity",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L937",
+      "line": 937,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mccabe",
+      "category": "code-metrics--complexity",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L941",
+      "line": 941,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "code-metrics--complexity",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L948",
+      "line": 948,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/prospector",
+      "category": "code-metrics--complexity",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L953",
+      "line": 953,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/prospector",
+      "category": "code-metrics--complexity",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L957",
+      "line": 957,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/tonybaloney/wily",
+      "category": "code-metrics--complexity",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L964",
+      "line": 964,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/wily",
+      "category": "code-metrics--complexity",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L969",
+      "line": 969,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/tqdm/tqdm",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L988",
+      "line": 988,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/tqdm",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L993",
+      "line": 993,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/tqdm",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L997",
+      "line": 997,
+      "properties": {}
+    },
+    {
+      "title": "Docker Hub",
+      "url": "https://hub.docker.com/r/tqdm/tqdm",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1001",
+      "line": 1001,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Textualize/rich",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1008",
+      "line": 1008,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/rich",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1013",
+      "line": 1013,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/rich",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1017",
+      "line": 1017,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Delgan/loguru",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1024",
+      "line": 1024,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/loguru",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1029",
+      "line": 1029,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/loguru",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1033",
+      "line": 1033,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/hynek/structlog",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1040",
+      "line": 1040,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/structlog",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1045",
+      "line": 1045,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/structlog",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1049",
+      "line": 1049,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/getsentry/sentry-python",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1056",
+      "line": 1056,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sentry-sdk",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1061",
+      "line": 1061,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/sentry-sdk",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1065",
+      "line": 1065,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/astanin/python-tabulate",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1072",
+      "line": 1072,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/tabulate",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1077",
+      "line": 1077,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/tabulate",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1081",
+      "line": 1081,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/madzak/python-json-logger",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1088",
+      "line": 1088,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/python-json-logger",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1093",
+      "line": 1093,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/python-json-logger",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1097",
+      "line": 1097,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/borntyping/python-colorlog",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1104",
+      "line": 1104,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/colorlog",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1109",
+      "line": 1109,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/colorlog",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1113",
+      "line": 1113,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/xolox/python-coloredlogs",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1120",
+      "line": 1120,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/coloredlogs",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1125",
+      "line": 1125,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/anaconda/coloredlogs",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1129",
+      "line": 1129,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/rsalmei/alive-progress",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1136",
+      "line": 1136,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/alive-progress",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1141",
+      "line": 1141,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/alive-progress",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1145",
+      "line": 1145,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/WoLpH/python-progressbar",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1152",
+      "line": 1152,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/progressbar2",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1157",
+      "line": 1157,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/progressbar2",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1161",
+      "line": 1161,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/cknd/stackprinter",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1168",
+      "line": 1168,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/stackprinter",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1173",
+      "line": 1173,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/stackprinter",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1177",
+      "line": 1177,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Qix-/better-exceptions",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1184",
+      "line": 1184,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/better-exceptions",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1189",
+      "line": 1189,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/shobrook/rebound",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1196",
+      "line": 1196,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/rebound",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1201",
+      "line": 1201,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/rebound",
+      "category": "logging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1205",
+      "line": 1205,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/xxh/xxh",
+      "category": "shell",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1228",
+      "line": 1228,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/xxh-xxh",
+      "category": "shell",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1233",
+      "line": 1233,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/squidfunk/mkdocs-material",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1250",
+      "line": 1250,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mkdocs-material",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1255",
+      "line": 1255,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mkdocs-material",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1259",
+      "line": 1259,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mkdocs/mkdocs",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1266",
+      "line": 1266,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mkdocs",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1271",
+      "line": 1271,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mkdocs",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1275",
+      "line": 1275,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/readthedocs/sphinx_rtd_theme",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1282",
+      "line": 1282,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sphinx_rtd_theme",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1287",
+      "line": 1287,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/sphinx_rtd_theme",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1291",
+      "line": 1291,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mkdocstrings/mkdocstrings",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1298",
+      "line": 1298,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mkdocstrings",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1303",
+      "line": 1303,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mkdocstrings",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1307",
+      "line": 1307,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mkdocstrings/griffe",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1314",
+      "line": 1314,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/griffe",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1319",
+      "line": 1319,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/griffe",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1323",
+      "line": 1323,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/tox-dev/sphinx-autodoc-typehints",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1330",
+      "line": 1330,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sphinx-autodoc-typehints",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1335",
+      "line": 1335,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/sphinx-autodoc-typehints",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1339",
+      "line": 1339,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1346",
+      "line": 1346,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sphinx-autobuild",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1351",
+      "line": 1351,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/sphinx-autobuild",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1355",
+      "line": 1355,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/clayrisser/sphinx-markdown-builder",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1362",
+      "line": 1362,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/sphinx-markdown-builder",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1367",
+      "line": 1367,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pdoc3/pdoc",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1374",
+      "line": 1374,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pdoc3",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1379",
+      "line": 1379,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/anaconda/pdoc3",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1383",
+      "line": 1383,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/econchick/interrogate",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1390",
+      "line": 1390,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/interrogate",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1395",
+      "line": 1395,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1402",
+      "line": 1402,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/blacken-docs",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1407",
+      "line": 1407,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/blacken-docs",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1411",
+      "line": 1411,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/lazydocs",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1418",
+      "line": 1418,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/lazydocs",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1423",
+      "line": 1423,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/timvink/mkdocs-print-site-plugin",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1430",
+      "line": 1430,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mkdocs-print-site-plugin",
+      "category": "documentation",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1435",
+      "line": 1435,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/gruns/icecream",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1466",
+      "line": 1466,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/icecream",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1471",
+      "line": 1471,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/icecream",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1475",
+      "line": 1475,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/eliben/pyelftools",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1482",
+      "line": 1482,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pyelftools",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1487",
+      "line": 1487,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pyelftools",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1491",
+      "line": 1491,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/alexmojaki/snoop",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1498",
+      "line": 1498,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/snoop",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1503",
+      "line": 1503,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/snoop",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1507",
+      "line": 1507,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pdbpp/pdbpp",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1514",
+      "line": 1514,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pdbpp",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1519",
+      "line": 1519,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pdbpp",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1523",
+      "line": 1523,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ionelmc/python-hunter",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1530",
+      "line": 1530,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/hunter",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1535",
+      "line": 1535,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/hunter",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1539",
+      "line": 1539,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/alexmojaki/birdseye",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1546",
+      "line": 1546,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/birdseye",
+      "category": "debugging-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1551",
+      "line": 1551,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1578",
+      "line": 1578,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1583",
+      "line": 1583,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1587",
+      "line": 1587,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/microsoft/playwright-python",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1594",
+      "line": 1594,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/playwright",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1599",
+      "line": 1599,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/HypothesisWorks/hypothesis",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1606",
+      "line": 1606,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/hypothesis",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1611",
+      "line": 1611,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/hypothesis",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1615",
+      "line": 1615,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/tox-dev/tox",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1622",
+      "line": 1622,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/tox",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1627",
+      "line": 1627,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/tox",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1631",
+      "line": 1631,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest-asyncio",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1638",
+      "line": 1638,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-asyncio",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1643",
+      "line": 1643,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-asyncio",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1647",
+      "line": 1647,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/robotframework/robotframework",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1654",
+      "line": 1654,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/robotframework",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1659",
+      "line": 1659,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/robotframework",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1663",
+      "line": 1663,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest-cov",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1670",
+      "line": 1670,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-cov",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1675",
+      "line": 1675,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-cov",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1679",
+      "line": 1679,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest-mock",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1686",
+      "line": 1686,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-mock",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1691",
+      "line": 1691,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-mock",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1695",
+      "line": 1695,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest-xdist",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1702",
+      "line": 1702,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-xdist",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1707",
+      "line": 1707,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-xdist",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1711",
+      "line": 1711,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/asweigart/pyautogui",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1718",
+      "line": 1718,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pyautogui",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1723",
+      "line": 1723,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pyautogui",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1727",
+      "line": 1727,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ionelmc/pytest-benchmark",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1734",
+      "line": 1734,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-benchmark",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1739",
+      "line": 1739,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-benchmark",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1743",
+      "line": 1743,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1750",
+      "line": 1750,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nox",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1755",
+      "line": 1755,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nox",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1759",
+      "line": 1759,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest-bdd",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1766",
+      "line": 1766,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-bdd",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1771",
+      "line": 1771,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-bdd",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1775",
+      "line": 1775,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lk-geimfari/mimesis",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1782",
+      "line": 1782,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/mimesis",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1787",
+      "line": 1787,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/mimesis",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1791",
+      "line": 1791,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/spulec/freezegun",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1798",
+      "line": 1798,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/freezegun",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1803",
+      "line": 1803,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/freezegun",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1807",
+      "line": 1807,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Teemu/pytest-sugar",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1814",
+      "line": 1814,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-sugar",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1819",
+      "line": 1819,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-sugar",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1823",
+      "line": 1823,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest-html",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1830",
+      "line": 1830,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-html",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1835",
+      "line": 1835,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-html",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1839",
+      "line": 1839,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/airspeed-velocity/asv",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1846",
+      "line": 1846,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/asv",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1851",
+      "line": 1851,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/asv",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1855",
+      "line": 1855,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/nose-devs/nose2",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1862",
+      "line": 1862,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nose2",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1867",
+      "line": 1867,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nose2",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1871",
+      "line": 1871,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest-randomly",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1878",
+      "line": 1878,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-randomly",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1883",
+      "line": 1883,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-randomly",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1887",
+      "line": 1887,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/TheKevJames/coveralls-python",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1894",
+      "line": 1894,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/coveralls",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1899",
+      "line": 1899,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/coveralls",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1903",
+      "line": 1903,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pytest-dev/pytest-testinfra",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1910",
+      "line": 1910,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-testinfra",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1915",
+      "line": 1915,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-testinfra",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1919",
+      "line": 1919,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/tarpas/pytest-testmon",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1926",
+      "line": 1926,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-testmon",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1931",
+      "line": 1931,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-testmon",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1935",
+      "line": 1935,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/joeyespo/pytest-watch",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1942",
+      "line": 1942,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-watch",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1947",
+      "line": 1947,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-watch",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1951",
+      "line": 1951,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/gabrielcnr/pytest-datadir",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1958",
+      "line": 1958,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-datadir",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1963",
+      "line": 1963,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-datadir",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1967",
+      "line": 1967,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/CleanCut/green",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1974",
+      "line": 1974,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/green",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1979",
+      "line": 1979,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/green",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1983",
+      "line": 1983,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/avast/pytest-docker",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1990",
+      "line": 1990,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-docker",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L1995",
+      "line": 1995,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Erotemic/xdoctest",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2002",
+      "line": 2002,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/xdoctest",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2007",
+      "line": 2007,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/xdoctest",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2011",
+      "line": 2011,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/man-group/pytest-plugins",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2018",
+      "line": 2018,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pytest-virtualenv",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2023",
+      "line": 2023,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pytest-shutil",
+      "category": "testing-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2027",
+      "line": 2027,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pyinstaller/pyinstaller",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2057",
+      "line": 2057,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pyinstaller",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2062",
+      "line": 2062,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pyinstaller",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2066",
+      "line": 2066,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Nuitka/Nuitka",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2073",
+      "line": 2073,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/nuitka",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2078",
+      "line": 2078,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/nuitka",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2082",
+      "line": 2082,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/beeware/briefcase",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2089",
+      "line": 2089,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/briefcase",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2094",
+      "line": 2094,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2101",
+      "line": 2101,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pex",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2106",
+      "line": 2106,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/marcelotduarte/cx_Freeze",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2113",
+      "line": 2113,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/cx_freeze",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2118",
+      "line": 2118,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/cx_freeze",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2122",
+      "line": 2122,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/py2exe/py2exe",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2129",
+      "line": 2129,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/py2exe",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2134",
+      "line": 2134,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ronaldoussoren/py2app",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2141",
+      "line": 2141,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/py2app",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2146",
+      "line": 2146,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/linkedin/shiv",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2153",
+      "line": 2153,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/shiv",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2158",
+      "line": 2158,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/conda/constructor",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2165",
+      "line": 2165,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/anaconda/constructor",
+      "category": "code-packaging",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2170",
+      "line": 2170,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pypa/setuptools",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2192",
+      "line": 2192,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/setuptools",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2197",
+      "line": 2197,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/setuptools",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2201",
+      "line": 2201,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pypa/wheel",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2208",
+      "line": 2208,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/wheel",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2213",
+      "line": 2213,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/wheel",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2217",
+      "line": 2217,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pypa/twine",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2224",
+      "line": 2224,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/twine",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2229",
+      "line": 2229,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/twine",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2233",
+      "line": 2233,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pyinvoke/invoke",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2240",
+      "line": 2240,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/invoke",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2245",
+      "line": 2245,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/invoke",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2249",
+      "line": 2249,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2256",
+      "line": 2256,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/setuptools_scm",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2261",
+      "line": 2261,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/setuptools_scm",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2265",
+      "line": 2265,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/SCons/scons",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2272",
+      "line": 2272,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/scons",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2277",
+      "line": 2277,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/scons",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2281",
+      "line": 2281,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pypa/flit",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2288",
+      "line": 2288,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/flit",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2293",
+      "line": 2293,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/flit",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2297",
+      "line": 2297,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pydoit/doit",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2304",
+      "line": 2304,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/doit",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2309",
+      "line": 2309,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/doit",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2313",
+      "line": 2313,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/buildbot/buildbot",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2320",
+      "line": 2320,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/buildbot",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2325",
+      "line": 2325,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/buildbot",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2329",
+      "line": 2329,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pybuilder/pybuilder",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2336",
+      "line": 2336,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pybuilder",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2341",
+      "line": 2341,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pybuilder",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2345",
+      "line": 2345,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/universal-build",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2352",
+      "line": 2352,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/universal-build",
+      "category": "build-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2357",
+      "line": 2357,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/giampaolo/psutil",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2376",
+      "line": 2376,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/psutil",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2381",
+      "line": 2381,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/psutil",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2385",
+      "line": 2385,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/benfred/py-spy",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2392",
+      "line": 2392,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/py-spy",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2397",
+      "line": 2397,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/py-spy",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2401",
+      "line": 2401,
+      "properties": {}
+    },
+    {
+      "title": "Cargo",
+      "url": "https://crates.io/crates/py-spy",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2405",
+      "line": 2405,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/joerick/pyinstrument",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2412",
+      "line": 2412,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pyinstrument",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2417",
+      "line": 2417,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pyinstrument",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2421",
+      "line": 2421,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/bloomberg/memray",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2428",
+      "line": 2428,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/memray",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2433",
+      "line": 2433,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/memray",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2437",
+      "line": 2437,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/plasma-umass/scalene",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2444",
+      "line": 2444,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/scalene",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2449",
+      "line": 2449,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/sumerc/yappi",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2456",
+      "line": 2456,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/yappi",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2461",
+      "line": 2461,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/yappi",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2465",
+      "line": 2465,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pythonprofilers/memory_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2472",
+      "line": 2472,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/memory_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2477",
+      "line": 2477,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/memory_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2481",
+      "line": 2481,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/fabianp/memory_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2488",
+      "line": 2488,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/memory_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2493",
+      "line": 2493,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/memory_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2497",
+      "line": 2497,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pympler/pympler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2504",
+      "line": 2504,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pympler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2509",
+      "line": 2509,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pympler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2513",
+      "line": 2513,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pyutils/line_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2520",
+      "line": 2520,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/line_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2525",
+      "line": 2525,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/line_profiler",
+      "category": "system-monitoring--profiling",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2529",
+      "line": 2529,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/alexmojaki/executing",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2553",
+      "line": 2553,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/executing",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2558",
+      "line": 2558,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/executing",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2562",
+      "line": 2562,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/serge-sans-paille/gast",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2569",
+      "line": 2569,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/gast",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2574",
+      "line": 2574,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/gast",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2578",
+      "line": 2578,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2585",
+      "line": 2585,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/asteval",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2590",
+      "line": 2590,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/asteval",
+      "category": "ast-tools",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2594",
+      "line": 2594,
+      "properties": {}
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/pre-commit/pre-commit",
+      "category": "others",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2613",
+      "line": 2613,
+      "properties": {}
+    },
+    {
+      "title": "PyPi",
+      "url": "https://pypi.org/project/pre-commit",
+      "category": "others",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2618",
+      "line": 2618,
+      "properties": {}
+    },
+    {
+      "title": "Conda",
+      "url": "https://anaconda.org/conda-forge/pre-commit",
+      "category": "others",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2622",
+      "line": 2622,
+      "properties": {}
+    },
+    {
+      "title": "Best-of lists",
+      "url": "https://best-of.org/",
+      "category": "related-resources",
+      "source_url": "https://github.com/ml-tooling/best-of-python-dev/blob/9cfce6c2b7e2628d73342008632c74f8ecb01659/README.md#L2632",
+      "line": 2632,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 420,
+  "unique_links": 406,
+  "category_count": 19,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by ml-tooling/best-of-python-dev contributors.",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://github.com/ml-tooling/best-of-python-dev/tree/9cfce6c2b7e2628d73342008632c74f8ecb01659",
+  "digest": "446f199810cf343739f2f7e0dd7d423cb763575e9adedfee0550cc3e6010df8a"
+}
