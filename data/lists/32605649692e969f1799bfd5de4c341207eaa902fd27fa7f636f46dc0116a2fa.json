@@ -1,0 +1,945 @@
+{
+  "format_version": 2,
+  "repository_id": "404924772",
+  "name": "wehos/awesome-graph-transformer",
+  "revision": "ea66f9e936677a12a6c9651b6dc8152ea666fcba",
+  "readme_path": "README.md",
+  "readme_sha256": "490912f11337cdaca6d3502bcb9f64322141e13b3e7b6e932299649ef5a8e902",
+  "sections": [
+    {
+      "id": "awesome-graph-transformer",
+      "title": "awesome-graph-transformer",
+      "level": 2,
+      "path": [
+        "awesome-graph-transformer"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#awesome-graph-transformer",
+      "entries": 0
+    },
+    {
+      "id": "notes-of-major-updates",
+      "title": "Notes of Major Updates:",
+      "level": 4,
+      "path": [
+        "awesome-graph-transformer",
+        "Notes of Major Updates:"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#notes-of-major-updates",
+      "entries": 1
+    },
+    {
+      "id": "structural-encoding--positional-encoding-for-graph-transformers",
+      "title": "Structural Encoding / Positional Encoding for Graph Transformers",
+      "level": 3,
+      "path": [
+        "awesome-graph-transformer",
+        "Structural Encoding / Positional Encoding for Graph Transformers"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#structural-encoding--positional-encoding-for-graph-transformers",
+      "entries": 0
+    },
+    {
+      "id": "absolute-positional-encoding-eg-spectral-pe-random-walk-pe",
+      "title": "Absolute Positional Encoding (e.g., spectral PE, random walk PE)",
+      "level": 4,
+      "path": [
+        "awesome-graph-transformer",
+        "Structural Encoding / Positional Encoding for Graph Transformers",
+        "Absolute Positional Encoding (e.g., spectral PE, random walk PE)"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#absolute-positional-encoding-eg-spectral-pe-random-walk-pe",
+      "entries": 4
+    },
+    {
+      "id": "relative-positional-encoding-eg-structure-aware-attention-bias-structure-aware-attention-mask",
+      "title": "Relative Positional Encoding (e.g., structure-aware attention bias, structure-aware attention mask)",
+      "level": 4,
+      "path": [
+        "awesome-graph-transformer",
+        "Structural Encoding / Positional Encoding for Graph Transformers",
+        "Relative Positional Encoding (e.g., structure-aware attention bias, structure-aware attention mask)"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#relative-positional-encoding-eg-structure-aware-attention-bias-structure-aware-attention-mask",
+      "entries": 6
+    },
+    {
+      "id": "edge-tokenization-and-subgraph-tokenization",
+      "title": "Edge Tokenization and subgraph tokenization",
+      "level": 4,
+      "path": [
+        "awesome-graph-transformer",
+        "Structural Encoding / Positional Encoding for Graph Transformers",
+        "Edge Tokenization and subgraph tokenization"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#edge-tokenization-and-subgraph-tokenization",
+      "entries": 5
+    },
+    {
+      "id": "graph-neural-networks-as-structural-encoder-ensemble-models",
+      "title": "Graph Neural Networks as Structural Encoder (Ensemble models)",
+      "level": 4,
+      "path": [
+        "awesome-graph-transformer",
+        "Structural Encoding / Positional Encoding for Graph Transformers",
+        "Graph Neural Networks as Structural Encoder (Ensemble models)"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#graph-neural-networks-as-structural-encoder-ensemble-models",
+      "entries": 6
+    },
+    {
+      "id": "scalability-of-graph-transformers-graph-transformers-on-large-graphs",
+      "title": "Scalability of Graph Transformers (Graph Transformers on Large Graphs)",
+      "level": 3,
+      "path": [
+        "awesome-graph-transformer",
+        "Scalability of Graph Transformers (Graph Transformers on Large Graphs)"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#scalability-of-graph-transformers-graph-transformers-on-large-graphs",
+      "entries": 0
+    },
+    {
+      "id": "transformers-with-sampling",
+      "title": "Transformers with Sampling",
+      "level": 4,
+      "path": [
+        "awesome-graph-transformer",
+        "Scalability of Graph Transformers (Graph Transformers on Large Graphs)",
+        "Transformers with Sampling"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#transformers-with-sampling",
+      "entries": 8
+    },
+    {
+      "id": "transformers-with-adapted-attention",
+      "title": "Transformers with Adapted Attention",
+      "level": 4,
+      "path": [
+        "awesome-graph-transformer",
+        "Scalability of Graph Transformers (Graph Transformers on Large Graphs)",
+        "Transformers with Adapted Attention"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#transformers-with-adapted-attention",
+      "entries": 10
+    },
+    {
+      "id": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "title": "Applications of Graph Transformers (Molecules, Texts, Knowledge Graphs, Recommendation, Medical, Traffic, etc)",
+      "level": 3,
+      "path": [
+        "awesome-graph-transformer",
+        "Applications of Graph Transformers (Molecules, Texts, Knowledge Graphs, Recommendation, Medical, Traffic, etc)"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "entries": 36
+    },
+    {
+      "id": "pre-training-with-graph-transformers",
+      "title": "Pre-training with Graph Transformers",
+      "level": 3,
+      "path": [
+        "awesome-graph-transformer",
+        "Pre-training with Graph Transformers"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#pre-training-with-graph-transformers",
+      "entries": 5
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "level": 3,
+      "path": [
+        "awesome-graph-transformer",
+        "Survey"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#survey",
+      "entries": 4
+    },
+    {
+      "id": "neural-architecture-search-nas-for-graph-transformers",
+      "title": "Neural Architecture Search (NAS) for Graph Transformers",
+      "level": 3,
+      "path": [
+        "awesome-graph-transformer",
+        "Neural Architecture Search (NAS) for Graph Transformers"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#neural-architecture-search-nas-for-graph-transformers",
+      "entries": 1
+    },
+    {
+      "id": "benchmarks-and-analyses",
+      "title": "Benchmarks and Analyses",
+      "level": 3,
+      "path": [
+        "awesome-graph-transformer",
+        "Benchmarks and Analyses"
+      ],
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#benchmarks-and-analyses",
+      "entries": 8
+    }
+  ],
+  "entries": [
+    {
+      "title": "survey",
+      "url": "https://arxiv.org/abs/2502.16533",
+      "category": "notes-of-major-updates",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L13",
+      "line": 13,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2106.03893",
+      "category": "absolute-positional-encoding-eg-spectral-pe-random-walk-pe",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L17",
+      "line": 17,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/pdf/2012.09699",
+      "category": "absolute-positional-encoding-eg-spectral-pe-random-walk-pe",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.5555/3618408.3618855",
+      "category": "absolute-positional-encoding-eg-spectral-pe-random-walk-pe",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2110.07875",
+      "category": "absolute-positional-encoding-eg-spectral-pe-random-walk-pe",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2106.05234",
+      "category": "relative-positional-encoding-eg-structure-aware-attention-bias-structure-aware-attention-mask",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=GNfAFN_p1d",
+      "category": "relative-positional-encoding-eg-structure-aware-attention-bias-structure-aware-attention-mask",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.5555/3618408.3619379",
+      "category": "relative-positional-encoding-eg-structure-aware-attention-bias-structure-aware-attention-mask",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L25",
+      "line": 25,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3543507.3583464",
+      "category": "relative-positional-encoding-eg-structure-aware-attention-bias-structure-aware-attention-mask",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.1145/3580305.3599451",
+      "category": "relative-positional-encoding-eg-structure-aware-attention-bias-structure-aware-attention-mask",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2310.11009",
+      "category": "relative-positional-encoding-eg-structure-aware-attention-bias-structure-aware-attention-mask",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2207.02505",
+      "category": "edge-tokenization-and-subgraph-tokenization",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2108.03348",
+      "category": "edge-tokenization-and-subgraph-tokenization",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=uagC-X9XMi8",
+      "category": "edge-tokenization-and-subgraph-tokenization",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.ijcai.org/proceedings/2023/0396.pdf",
+      "category": "edge-tokenization-and-subgraph-tokenization",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2402.04538",
+      "category": "edge-tokenization-and-subgraph-tokenization",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2106.05667",
+      "category": "graph-neural-networks-as-structural-encoder-ensemble-models",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.neurips.cc/paper/2021/file/6e67691b60ed3e4a55935261314dd534-Paper.pdf",
+      "category": "graph-neural-networks-as-structural-encoder-ensemble-models",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.mlr.press/v162/chen22r.html",
+      "category": "graph-neural-networks-as-structural-encoder-ensemble-models",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2205.12454",
+      "category": "graph-neural-networks-as-structural-encoder-ensemble-models",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3543507.3583493",
+      "category": "graph-neural-networks-as-structural-encoder-ensemble-models",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.ijcai.org/proceedings/2023/0501.pdf",
+      "category": "graph-neural-networks-as-structural-encoder-ensemble-models",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2006.12100",
+      "category": "transformers-with-sampling",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2003.01332",
+      "category": "transformers-with-sampling",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2110.13094",
+      "category": "transformers-with-sampling",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=fkjO_FKVzw",
+      "category": "transformers-with-sampling",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2210.03930",
+      "category": "transformers-with-sampling",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=8KYeilT3Ow",
+      "category": "transformers-with-sampling",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.ijcai.org/proceedings/2023/0523.pdf",
+      "category": "transformers-with-sampling",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2310.11009",
+      "category": "transformers-with-sampling",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2107.07999",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2205.12454",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2206.14337",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=sMezXGG5So",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2301.09474",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.5555/3618408.3619124",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.5555/3618408.3619718",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.ijcai.org/proceedings/2023/0263.pdf",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.ijcai.org/proceedings/2023/0244.pdf",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=hmv1LpNfXa",
+      "category": "transformers-with-adapted-attention",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://aclanthology.org/D19-1548/",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://aclanthology.org/2020.acl-main.640/",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2002.08264",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6405",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6243",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/94aef38441efa3380a3bed3faf1f9d5d-Abstract.html",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/15231a7ce4ba789d13b722cc5c955834-Abstract.html",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2006.09242",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/pdf/2105.02605.pdf",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.neurips.cc/paper/2021/file/0a4dc6dae338c9cb08947c07581f77a2-Paper.pdf",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Lin_Mesh_Graphormer_ICCV_2021_paper.html",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2110.05841",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.ijcai.org/proceedings/2021/0214",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9779215",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2201.13311",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=zNHzqZ9wrRB",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "[pper]",
+      "url": "https://arxiv.org/abs/2209.11807",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=1cJ1cbA6NLN",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://aclanthology.org/2022.naacl-main.146.pdf",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.1145/3534678.3539472",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2205.10852",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9995324",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25645",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25471",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.1145/3539597.3570409",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.1145/3539618.3591716",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3539618.3591723",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2209.14734",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=cFuMmbWiN6",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2205.10282",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2302.11050",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/pdf/2303.00233.pdf",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/pdf/2302.03038.pdf",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/pdf/2212.09724.pdf",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=F7QnIKlC1N",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=pe0Vdv7rsL",
+      "category": "applications-of-graph-transformers-molecules-texts-knowledge-graphs-recommendation-medical-traffic-etc",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2007.02835",
+      "category": "pre-training-with-graph-transformers",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2001.05140",
+      "category": "pre-training-with-graph-transformers",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3474085.3475709",
+      "category": "pre-training-with-graph-transformers",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2202.08391",
+      "category": "pre-training-with-graph-transformers",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2402.02464",
+      "category": "pre-training-with-graph-transformers",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2202.08455",
+      "category": "survey",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2209.13232",
+      "category": "survey",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2302.04181",
+      "category": "survey",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2502.16533",
+      "category": "survey",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=GcM7qfl5zY",
+      "category": "neural-architecture-search-nas-for-graph-transformers",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.neurips.cc/paper/2021/file/ec0f40c389aeef789ce03eb814facc6c-Paper.pdf",
+      "category": "benchmarks-and-analyses",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3487553.3524258",
+      "category": "benchmarks-and-analyses",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=in7XC5RcjEn",
+      "category": "benchmarks-and-analyses",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=r9hNv76KoT3",
+      "category": "benchmarks-and-analyses",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.mlr.press/v202/cai23b/cai23b.pdf",
+      "category": "benchmarks-and-analyses",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.5555/3618408.3618925",
+      "category": "benchmarks-and-analyses",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=Kg65qieiuB",
+      "category": "benchmarks-and-analyses",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=AcSChDWL6V",
+      "category": "benchmarks-and-analyses",
+      "source_url": "https://github.com/wehos/awesome-graph-transformer/blob/ea66f9e936677a12a6c9651b6dc8152ea666fcba/README.md#L132",
+      "line": 132,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 94,
+  "unique_links": 91,
+  "category_count": 12,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by wehos/awesome-graph-transformer contributors.",
+  "license": null,
+  "license_url": "https://github.com/wehos/awesome-graph-transformer/tree/ea66f9e936677a12a6c9651b6dc8152ea666fcba",
+  "digest": "32605649692e969f1799bfd5de4c341207eaa902fd27fa7f636f46dc0116a2fa"
+}

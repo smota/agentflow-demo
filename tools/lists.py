@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 from collections import Counter
 from datetime import date, timedelta, datetime, timezone
 import hashlib
@@ -144,6 +145,52 @@ class Run:
     def save(self):
         atomic_json(self.path, {**self.state, "checkpoint_digest": digest(self.state)})
 
+    def replay(self, source_id, expected_digest):
+        """New engine generation from explicitly accepted, immutable observations.
+
+        No completed classification is inherited: verified raw inputs are reparsed.
+        The source checkpoint remains byte-for-byte untouched; incomplete content
+        is fetched normally. This is not permission to resume a changed engine.
+        """
+        if not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,63}", source_id) or source_id == self.state["run_id"]:
+            raise ValueError("Invalid replay source")
+        if self.state["pages"] or self.state["candidates"] or self.state.get("replay"):
+            raise ValueError("Replay requires an empty new generation")
+        source_path = self.directory.parent / source_id / "checkpoint.json"
+        if source_path.is_symlink():
+            raise ValueError("Symlink replay source")
+        source = json.loads(source_path.read_text(encoding="utf-8"))
+        checksum = source.pop("checkpoint_digest", None)
+        if checksum != expected_digest or checksum != digest(source):
+            raise ValueError("Replay source digest mismatch")
+        if source["queries"] != list(QUERIES) or source["threshold"] != MIN_STARS or source["queue"]:
+            raise ValueError("Replay requires identical, finished discovery scope")
+        completed = {}
+        for rid, old in source["completed"].items():
+            if not old.get("detail") or old.get("public") is not True:
+                continue
+            if not re.fullmatch(r"[0-9]+", rid) or not re.fullmatch(r"[a-f0-9]{40}", old["revision"]):
+                raise ValueError("Unsafe replay identity")
+            raw_path = self.root / "data/raw/lists" / rid / old["revision"] / "README.md"
+            if raw_path.is_symlink() or not raw_path.resolve().is_relative_to((self.root / "data/raw/lists").resolve()):
+                raise ValueError("Unsafe replay input path")
+            raw = raw_path.read_bytes()
+            if hashlib.sha256(raw).hexdigest() != old["readme_sha256"]:
+                raise ValueError("Replay raw input digest mismatch")
+            text = raw.decode("utf-8-sig")
+            parsed = parse_readme(text, old["name"], old["revision"], old["readme_path"])
+            observed = {**source["metadata"][rid], **{key: old[key] for key in
+                        ("readme_path", "readme_sha256", "content_updated_at", "content_update_status")}}
+            item, detail = profile(observed, parsed, text)
+            atomic_json(self.root / "data/staging" / item["detail"], detail)
+            completed[rid] = item
+        self.state.update({key: source[key] for key in
+            ("started_at", "queries", "threshold", "queue", "pages", "partitions", "candidates", "metadata", "discovery_completed_at")})
+        self.state.update(completed=completed, errors={}, replay={"source_run": source_id,
+            "source_digest": checksum, "source_engine": source["engine"], "replayed_at": now(),
+            "raw_inputs_reparsed": len(completed)})
+        self.save()
+
     def discover(self, interrupt_after=None):
         processed = 0
         while self.state["queue"]:
@@ -225,7 +272,7 @@ class Run:
         fields = []
         for i, meta in enumerate(candidates):
             owner, name = meta["name"].split("/"); rev = meta["revision"]
-            objects = " ".join(f'f{j}:object(expression:{json.dumps(rev+":"+path)}) {{ ... on Blob {{ byteSize isBinary text }} }}' for j, path in enumerate(FILENAMES))
+            objects = " ".join(f'f{j}:object(expression:{json.dumps(rev+":"+path)}) {{ ... on Blob {{ oid byteSize isBinary text }} }}' for j, path in enumerate(FILENAMES))
             fields.append(f'r{i}:repository(owner:{json.dumps(owner)},name:{json.dumps(name)}) {{ id isPrivate {objects} }}')
         response = self.api.graphql("query { " + " ".join(fields) + " }")
         bad = {str(e.get("path", [None])[0]) for e in response.get("errors", [])}
@@ -251,11 +298,28 @@ class Run:
                     item, detail = profile(meta, None); item["reason"] = "Binary, truncated or oversized README; not counted as empty."
                 else:
                     text = blob["text"]; raw = text.encode("utf-8")
-                    if len(raw) != blob["byteSize"]:
-                        self.state["errors"][meta["id"]] = "README byte size mismatch"; continue
+                    oid = blob.get("oid", "")
+                    rendition_oid = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
+                    if len(raw) != blob["byteSize"] or (oid and rendition_oid != oid):
+                        # GitHub's text rendition can normalize source bytes. Fetch
+                        # the exact pinned blob, never relax byte-integrity checks.
+                        if not re.fullmatch(r"[a-f0-9]{40}", oid):
+                            self.state["errors"][meta["id"]] = "README byte size mismatch"; continue
+                        exact = self.api.request(f"repos/{meta['name']}/git/blobs/{oid}")
+                        try:
+                            raw = base64.b64decode(exact["content"], validate=False)
+                            if exact.get("encoding") != "base64" or len(raw) != blob["byteSize"] or hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest() != oid:
+                                raise ValueError("Pinned blob integrity mismatch")
+                            text = raw.decode("utf-8-sig")
+                        except (KeyError, ValueError, UnicodeError):
+                            self.state["errors"][meta["id"]] = "Pinned README blob integrity/encoding unavailable"; continue
                     pinned = {**meta, "readme_path": path, "readme_sha256": hashlib.sha256(raw).hexdigest(),
                               "content_updated_at": None, "content_update_status": "Pinned content fetched; path history pending"}
-                    parsed = parse_readme(text, meta["name"], meta["revision"], path)
+                    try:
+                        parsed = parse_readme(text, meta["name"], meta["revision"], path)
+                    except (ValueError, RecursionError):
+                        self.state["errors"][meta["id"]] = "README parser rejected this input; pending, not excluded"
+                        continue
                     item, detail = profile(pinned, parsed, text)
                     raw_path = self.root / "data/raw/lists" / meta["id"] / meta["revision"] / "README.md"
                     raw_path.parent.mkdir(parents=True, exist_ok=True); raw_path.write_bytes(raw)
@@ -295,6 +359,7 @@ class Run:
         index = {"format_version": 2, "min_stars": MIN_STARS, "run_id": self.state["run_id"],
             "started_at": self.state["started_at"], "generated_at": self.state.get("discovery_completed_at", self.state["started_at"]),
             "engine_digest": self.state["engine"], "queries": self.state["queries"],
+            "replay": self.state.get("replay"),
             "coverage": {"scope": "Public keyword/topic repository searches, forks included. Non-transactional GitHub observations, not a GitHub-wide census.",
                          "queued_partitions": len(self.state["queue"]), "partitions": self.state["partitions"],
                          "enrichment_pending": len(self.state["candidates"]) - len(self.state["completed"])},
@@ -328,10 +393,12 @@ def publish(expected, root=ROOT, interrupt_after=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["discover", "enrich", "stage", "publish", "validate"])
+    parser.add_argument("command", choices=["discover", "enrich", "stage", "publish", "validate", "replay"])
     parser.add_argument("--run-id", default="lists-20260903")
     parser.add_argument("--expected-digest")
     parser.add_argument("--interrupt-after", type=int)
+    parser.add_argument("--source-run")
+    parser.add_argument("--batch-size", type=int, default=32)
     args = parser.parse_args()
     lock = ROOT / ".agent-runs/list-crawler.lock"
     lock.parent.mkdir(parents=True, exist_ok=True)
@@ -352,7 +419,13 @@ def main():
             if args.command == "discover":
                 run.discover(args.interrupt_after)
             elif args.command == "enrich":
-                run.enrich(args.interrupt_after)
+                if not 1 <= args.batch_size <= 32:
+                    parser.error("--batch-size must be 1..32")
+                run.enrich(args.interrupt_after, args.batch_size)
+            elif args.command == "replay":
+                if not args.source_run or not args.expected_digest:
+                    parser.error("Replay requires --source-run and --expected-digest")
+                run.replay(args.source_run, args.expected_digest)
             result = run.stage()
         print(json.dumps({"counts": result["counts"], "digest": result["digest"]}), flush=True)
     finally:

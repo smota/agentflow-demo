@@ -1,0 +1,2292 @@
+{
+  "format_version": 2,
+  "repository_id": "273082432",
+  "name": "zwang4/awesome-machine-learning-in-compilers",
+  "revision": "8a33c568ca07f4e04be32e8e5ab9d192424777a4",
+  "readme_path": "README.md",
+  "readme_sha256": "01633e3d10f5a300d3d730d5f666d38023480975d7e6624225d4629b37ea26a6",
+  "sections": [
+    {
+      "id": "awesome-machine-learning-for-compilers-and-program-optimisation",
+      "title": "Awesome machine learning for compilers and program optimisation",
+      "level": 1,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#awesome-machine-learning-for-compilers-and-program-optimisation",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Contents"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "papers",
+      "title": "Papers",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#papers",
+      "entries": 0
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Survey"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#survey",
+      "entries": 6
+    },
+    {
+      "id": "iterative-compilation-and-compiler-option-tuning",
+      "title": "Iterative Compilation and Compiler Option Tuning",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Iterative Compilation and Compiler Option Tuning"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#iterative-compilation-and-compiler-option-tuning",
+      "entries": 29
+    },
+    {
+      "id": "instruction-level-optimisation",
+      "title": "Instruction-level Optimisation",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Instruction-level Optimisation"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#instruction-level-optimisation",
+      "entries": 17
+    },
+    {
+      "id": "auto-tuning-and-design-space-exploration",
+      "title": "Auto-tuning and Design Space Exploration",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Auto-tuning and Design Space Exploration"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#auto-tuning-and-design-space-exploration",
+      "entries": 38
+    },
+    {
+      "id": "parallelism-mapping-and-task-scheduling",
+      "title": "Parallelism Mapping and Task Scheduling",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Parallelism Mapping and Task Scheduling"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#parallelism-mapping-and-task-scheduling",
+      "entries": 17
+    },
+    {
+      "id": "domain-specific-optimisation",
+      "title": "Domain-specific Optimisation",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Domain-specific Optimisation"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#domain-specific-optimisation",
+      "entries": 9
+    },
+    {
+      "id": "languages-and-compilation",
+      "title": "Languages and Compilation",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Languages and Compilation"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#languages-and-compilation",
+      "entries": 5
+    },
+    {
+      "id": "code-size-reduction",
+      "title": "Code Size Reduction",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Code Size Reduction"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#code-size-reduction",
+      "entries": 7
+    },
+    {
+      "id": "cost-and-performance-models",
+      "title": "Cost and Performance Models",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Cost and Performance Models"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#cost-and-performance-models",
+      "entries": 15
+    },
+    {
+      "id": "learning-program-representation",
+      "title": "Learning Program Representation",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Learning Program Representation"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#learning-program-representation",
+      "entries": 30
+    },
+    {
+      "id": "ml-for-compilers-and-systems-optimisation",
+      "title": "ML for Compilers and Systems Optimisation",
+      "level": 4,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "ML for Compilers and Systems Optimisation"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#ml-for-compilers-and-systems-optimisation",
+      "entries": 17
+    },
+    {
+      "id": "memorycache-modelinganalysis",
+      "title": "Memory/Cache Modeling/Analysis",
+      "level": 3,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Papers",
+        "Memory/Cache Modeling/Analysis"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#memorycache-modelinganalysis",
+      "entries": 3
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Books"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#books",
+      "entries": 2
+    },
+    {
+      "id": "talks-and-tutorials",
+      "title": "Talks and Tutorials",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Talks and Tutorials"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#talks-and-tutorials",
+      "entries": 3
+    },
+    {
+      "id": "software",
+      "title": "Software",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Software"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#software",
+      "entries": 16
+    },
+    {
+      "id": "benchmarks-and-datasets",
+      "title": "Benchmarks and Datasets",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Benchmarks and Datasets"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#benchmarks-and-datasets",
+      "entries": 10
+    },
+    {
+      "id": "conferences",
+      "title": "Conferences",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Conferences"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#conferences",
+      "entries": 27
+    },
+    {
+      "id": "journals",
+      "title": "Journals",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "Journals"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#journals",
+      "entries": 1
+    },
+    {
+      "id": "how-to-contribute",
+      "title": "How to Contribute",
+      "level": 2,
+      "path": [
+        "Awesome machine learning for compilers and program optimisation",
+        "How to Contribute"
+      ],
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#how-to-contribute",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Machine Learning in Compiler Optimisation",
+      "url": "https://zwang4.github.io/publications/pieee18.pdf",
+      "category": "survey",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "A survey on compiler autotuning using machine learning",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3197978",
+      "category": "survey",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "A survey of machine learning for big code and naturalness",
+      "url": "https://arxiv.org/abs/1709.06182",
+      "category": "survey",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "A Taxonomy of ML for Systems Problems",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9153088",
+      "category": "survey",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "The Deep Learning Compiler: A Comprehensive Survey",
+      "url": "https://arxiv.org/abs/2002.03794",
+      "category": "survey",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "The New Compiler Stack: A Survey on the Synergy of LLMs and Compilers",
+      "url": "https://link.springer.com/article/10.1007/s42514-025-00270-x",
+      "category": "survey",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Towards Efficient Compiler Auto-tuning: Leveraging Synergistic Search Spaces",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3696443.3708961",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "SRTuner: Effective Compiler Optimization Customization by Exposing Synergistic Relations",
+      "url": "https://ieeexplore.ieee.org/document/9741263",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "Iterative Compilation Optimization Based on Metric Learning and Collaborative Filtering",
+      "url": "https://dl.acm.org/doi/full/10.1145/3480250",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Bayesian Optimization is Superior to Random Search for Machine Learning Hyperparameter Tuning: Analysis of the Black-Box Optimization Challenge 2020",
+      "url": "https://arxiv.org/pdf/2104.10201.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Bliss: auto-tuning complex applications using a pool of diverse lightweight learning models",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3453483.3454109",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Compiler Autotuning via Bayesian Optimization",
+      "url": "https://drive.google.com/file/d/1uc5d6xn3EUYXWVV8VFSdtfZ9eqvTL3k1/view",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Customized Monte Carlo Tree Search for LLVM/Polly's Composable Loop Optimization Transformations",
+      "url": "https://arxiv.org/abs/2105.04555",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Improved basic block reordering",
+      "url": "https://arxiv.org/pdf/1809.04676.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "Static Neural Compiler Optimization via Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2008.08951",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Autotuning Search Space for Loop Transformations",
+      "url": "https://arxiv.org/pdf/1809.04676.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "A Collaborative Filtering Approach for the Automatic Tuning of Compiler Optimisations",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3372799.3394361",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Autophase: Compiler phase-ordering for hls with deep reinforcement learning",
+      "url": "https://proceedings.mlsys.org/paper/2020/file/4e732ced3463d06de0ca9a15b6153677-Paper.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "FuncyTuner: Auto-tuning Scientific Applications With Per-loop Compilation",
+      "url": "https://arcb.csc.ncsu.edu/~mueller/ftp/pub/mueller/papers/icpp19.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Micomp: Mitigating the compiler phase-ordering problem using optimization sub-sequences and machine learning",
+      "url": "https://core.ac.uk/download/pdf/93751619.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Iterative Schedule Optimization for Parallelization in the Polyhedron Model",
+      "url": "https://www.infosun.fim.uni-passau.de/publications/docs/GGS+17.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Learning to superoptimize programs",
+      "url": "https://arxiv.org/abs/1611.01787v3",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Continuous learning of compiler heuristics",
+      "url": "https://dl.acm.org/doi/abs/10.1145/2400682.2400705",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating the compiler optimization phase-ordering problem using machine learning",
+      "url": "https://www.eecis.udel.edu/~cavazos/oopsla-2012.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "An evaluation of different modeling techniques for iterative compilation",
+      "url": "https://www.eecis.udel.edu/~cavazos/cases-2011.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating iterative optimization across 1000 datasets",
+      "url": "https://users.elis.ugent.be/~leeckhou/papers/pldi10.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "Iterative optimization in the polyhedral model: Part II, multidimensional time",
+      "url": "https://www.eecis.udel.edu/~cavazos/pldi-2008.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Cole: compiler optimization level exploration",
+      "url": "https://users.elis.ugent.be/~leeckhou/papers/cgo08.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "MILEPOST GCC: machine learning based research compiler",
+      "url": "http://www.fursin.net/papers/fmtp2008.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating heuristic optimization phase order search algorithms",
+      "url": "http://www.cs.fsu.edu/~whalley/papers/cgo07.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Rapidly selecting good compiler optimizations using performance counters",
+      "url": "http://ebonilla.github.io/papers/cavazos-et-al-cgo-2007.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "Using machine learning to focus iterative optimization",
+      "url": "http://homepages.inf.ed.ac.uk/bfranke/Publications/cgo-2006.pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Method-specific dynamic compilation using logistic regression",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.132.4370&rep=rep1&type=pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Predicting unroll factors using supervised classification",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.2788&rep=rep1&type=pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Fast searches for effective optimization phase sequences",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.2788&rep=rep1&type=pdf",
+      "category": "iterative-compilation-and-compiler-option-tuning",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3696443.3708931",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "RL4ReAl: Reinforcement Learning for Register Allocation",
+      "url": "https://arxiv.org/pdf/2204.02013.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Reinforcement Learning assisted Loop Distribution for Locality and Vectorization",
+      "url": "https://www.researchgate.net/publication/365475992_Reinforcement_Learning_assisted_Loop_Distribution_for_Locality_and_Vectorization",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Discovering faster matrix multiplication algorithms with reinforcement learning",
+      "url": "https://www.nature.com/articles/s41586-022-05172-4.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "A Reinforcement Learning Environment for Polyhedral Optimizations",
+      "url": "https://arxiv.org/pdf/2104.13732.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "AI Powered Compiler Techniques for DL Code Optimization",
+      "url": "https://arxiv.org/pdf/2104.05573.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "VeGen: A Vectorizer Generator for SIMD and Beyond",
+      "url": "http://groups.csail.mit.edu/commit/papers/2021/vegen.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Deep Learning-based Hybrid Graph-Coloring Algorithm for Register Allocation",
+      "url": "https://arxiv.org/abs/1912.03700",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "NeuroVectorizer: end-to-end vectorization with deep reinforcement learning",
+      "url": "https://people.eecs.berkeley.edu/~krste/papers/neurovectorizer-cgo2020.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Unleashing the Power of Learning: An Enhanced Learning-Based Approach for Dynamic Binary Translation",
+      "url": "https://www.usenix.org/system/files/atc19-song_0.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Compiler Auto-Vectorization with Imitation Learning",
+      "url": "https://papers.nips.cc/paper/9604-compiler-auto-vectorization-with-imitation-learning.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Multi-objective Exploration for Practical Optimization Decisions in Binary Translation",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3358185",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Automatic construction of inlining heuristics using machine learning.",
+      "url": "https://dl.acm.org/doi/abs/10.1109/CGO.2013.6495004",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Automatic tuning of inlining heuristics",
+      "url": "http://sc05.supercomputing.org/schedule/pdf/pap274.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Inducing heuristics to decide whether to schedule",
+      "url": "https://www.eecis.udel.edu/~cavazos/pldi-2004.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Meta optimization: Improving compiler heuristics with machine learning",
+      "url": "http://groups.csail.mit.edu/cag/metaopt/papers/metaopt-pldi03.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Learning to schedule straight-line code",
+      "url": "http://papers.nips.cc/paper/1349-learning-to-schedule-straight-line-code.pdf",
+      "category": "instruction-level-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "REASONING COMPILER: LLM-Guided Optimizations for Efficient Model Serving",
+      "url": "https://neurips.cc/virtual/2025/loc/san-diego/poster/120162",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning",
+      "url": "https://neurips.cc/virtual/2025/loc/san-diego/poster/115582",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "pyATF: Constraint-Based Auto-Tuning in Python",
+      "url": "https://doi.org/10.1145/3708493.3712682",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "IntelliGen: Instruction-Level Auto-tuning for Tensor Program with Monotonic Memory Optimization",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3696443.3708967",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Accelerated Auto-Tuning of GPU Kernels for Tensor Computations",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3650200.3656626",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Revealing Compiler Heuristics through Automated Discovery and Optimization",
+      "url": "https://www.research.ed.ac.uk/files/389049758/Revealing_computer_heuristics_SEEKER_DOA31072023_AFV_CC_BY.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "The Droplet Search Algorithm for Kernel Scheduling",
+      "url": "https://dl.acm.org/doi/10.1145/3650109",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework",
+      "url": "https://arxiv.org/pdf/2212.11142.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "(De/Re)-Compositions Expressed Systematically via MDH-Based Schedules",
+      "url": "https://doi.org/10.1145/3578360.3580269",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Autotuning Convolutions is Easier Than You Think",
+      "url": "https://dl.acm.org/doi/10.1145/3570641",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Transfer-Tuning: Reusing Auto-Schedules for Efficient Tensor Program Code Generation",
+      "url": "https://dl.acm.org/doi/10.1145/3559009.3569682",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Glimpse: Mathematical Embedding of Hardware Specification for Neural Compilation",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3489517.3530590",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "One-shot tuner for deep learning compilers",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3497776.3517774",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "A Flexible Approach to Autotuning Multi-Pass Machine Learning Compilers",
+      "url": "https://mangpo.net/papers/xla-autotuning-pact2021.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "TASO: Optimizing Deep Learning Computation with Automatic Generation of Graph Substitutions",
+      "url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/%5Bhttps:/mangpo.net/papers/xla-autotuning-pact2021.pdf%5D(https:/doi.org/10.1145/3341301.3359630)",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Value Learning for Throughput Optimization of Deep Neural Workloads",
+      "url": "https://proceedings.mlsys.org/paper/2021/file/73278a4a86960eeb576a8fd4c9ec6997-Paper.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "DynaTune: Dynamic Tensor Program Optimization in Deep Neural NetworkCompilation",
+      "url": "https://openreview.net/pdf?id=GTGb3M_KcUl",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Optimizing Memory Placement using Evolutionary Graph Reinforcement Learning",
+      "url": "https://openreview.net/pdf?id=-6vS_4Kfz0",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "GPTune: Multitask Learning for Autotuning Exascale Applications",
+      "url": "https://dl.acm.org/doi/10.1145/3437801.3441621",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "ApproxTuner: A Compiler and Runtime System for Adaptive Approximations",
+      "url": "https://dl.acm.org/doi/10.1145/3437801.3446108",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Auto-Tuning of Parallel Programs with Interdependent Tuning Parameters via Auto-Tuning Framework (ATF)",
+      "url": "https://dl.acm.org/doi/10.1145/3427093",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Chameleon: Adaptive Code Optimization for Expedited Deep Neural Network Compilation",
+      "url": "https://openreview.net/pdf?id=rygG4AVFvH",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Ansor: Generating High-Performance Tensor Programs for Deep Learning",
+      "url": "https://www.usenix.org/system/files/osdi20-zheng.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "A Pattern Based Algorithmic Autotuner for Graph Processing on GPUs",
+      "url": "https://readingxtra.github.io/docs/gpu-graph/MengPPoPP2019.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search",
+      "url": "https://arxiv.org/pdf/1812.03443.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "TVM: An automated end-to-end optimizing compiler for deep learning",
+      "url": "https://www.usenix.org/system/files/osdi18-chen.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "BOAT: Building auto-tuners with structured Bayesian optimization",
+      "url": "https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2018_2019/papers/dalibard_WWW_2017.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Cobayn: Compiler autotuning framework using bayesian networks",
+      "url": "https://groups.csail.mit.edu/commit/papers/2014/ansel-pact14-opentuner.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Autotuning algorithmic choice for input sensitivity",
+      "url": "http://groups.csail.mit.edu/commit/papers/2015/yding-pldi15-pbinput.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Fast: A fast stencil autotuning framework based on an optimal-solution space model",
+      "url": "http://www.elbagarza.com/pdfs/jia_2015_gpu.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "GPU performance and power tuning using regression trees",
+      "url": "https://dl.acm.org/doi/abs/10.1145/2751205.2751214",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Reinforcement learning-based inter-and intra-application thermal optimization for lifetime improvement of multicore systems",
+      "url": "https://cfaed.tu-dresden.de/files/user/akumar/pdf/dac2014.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Opentuner: An extensible framework for program autotuning",
+      "url": "https://groups.csail.mit.edu/commit/papers/2014/ansel-pact14-opentuner.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Taming parallel I/O complexity with auto-tuning",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.714.1995&rep=rep1&type=pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "A multi-objective auto-tuning framework for parallel codes",
+      "url": "https://www.researchgate.net/profile/Philipp_Gschwandtner/publication/235436717_A_multi-objective_auto-tuning_framework_for_parallel_codes/links/55b5d86b08aed621de02f1d9/A-multi-objective-auto-tuning-framework-for-parallel-codes.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Bandit-based optimization on graphs with application to library performance tuning",
+      "url": "https://www.icml.cc/Conferences/2009/papers/494.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Combining models and guided empirical search to optimize for multiple levels of the memory hierarchy",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.9511&rep=rep1&type=pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Active harmony: towards automated performance tuning",
+      "url": "http://www.cs.umd.edu/~hollings/papers/sc02a.pdf",
+      "category": "auto-tuning-and-design-space-exploration",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Exploration of Convolutional Neural Network models for source code classification",
+      "url": "https://doi.org/10.1016/j.engappai.2020.104075",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Autopilot: workload autoscaling at Google",
+      "url": "https://dl.acm.org/doi/10.1145/3342195.3387524",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Modeling and optimizing NUMA effects and prefetching with machine learning",
+      "url": "https://dl.acm.org/doi/10.1145/3392717.3392765",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Poise: Balancing thread-level parallelism and memory system performance in GPUs using machine learning",
+      "url": "https://homepages.inf.ed.ac.uk/vnagaraj/papers/hpca19.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Data and thread placement in NUMA architectures: A statistical learning approach",
+      "url": "https://www.mcs.anl.gov/research/projects/argo/publications/2019-icpp-denoyelle.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Code Mapping in Heterogeneous Platforms Using Deep Learning and LLVM-IR",
+      "url": "https://iris.polito.it/retrieve/handle/11583/2726074/327896/document_post_print.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Adaptive optimization for OpenCL programs on embedded heterogeneous systems",
+      "url": "https://core.ac.uk/download/pdf/83920402.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Improving spark application throughput via memory aware task co-location: A mixture of experts approach",
+      "url": "https://zwang4.github.io/publications/middleware17.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Smart multi-task scheduling for OpenCL programs on CPU/GPU heterogeneous platforms",
+      "url": "http://www.lancaster.ac.uk/staff/wangz3/publications/hipc14.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Quasar: resource-efficient and QoS-aware cluster management",
+      "url": "http://csl.stanford.edu/~christos/publications/2014.quasar.asplos.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Automatic and portable mapping of data parallel programs to opencl for gpu-based heterogeneous systems",
+      "url": "https://zwang4.github.io/publications/zheng_taco_2015.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Integrating Profile-Driven Parallelism Detection and Machine-Learning-Based Mapping",
+      "url": "https://zwang4.github.io/publications/taco14.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Portable Performance on Heterogeneous Architectures",
+      "url": "https://mangpo.net/papers/pbgpu-asplos13.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Smart, adaptive mapping of parallelism in the presence of external workload",
+      "url": "https://dl.acm.org/doi/abs/10.1109/CGO.2013.6495010",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "Partitioning streaming parallelism for multi-cores: a machine learning based approach",
+      "url": "https://zwang4.github.io/publications/pact10.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Qilin: exploiting parallelism on heterogeneous multiprocessors with adaptive mapping",
+      "url": "http://www.sphong.net/MICRO_2009.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "Mapping parallelism to multi-cores: a machine learning based approach",
+      "url": "http://llvm.org/pubs/2009-02-PPoPP-MappingParallelism.pdf",
+      "category": "parallelism-mapping-and-task-scheduling",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Seer: Predictive Runtime Kernel Selection for Irregular Problems",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10444812",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Tensor Program Optimization with Probabilistic Programs",
+      "url": "https://arxiv.org/pdf/2205.13603.pdf",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "moTuner: a compiler-based auto-tuning approach for mixed-precision operators",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3528416.3530231",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Collage: Automated Integration of Deep Learning Backends",
+      "url": "https://dl.acm.org/doi/10.1145/3559009.3569651",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Learning Nonlinear Loop Invariants with Gated Continuous Logic Networks",
+      "url": "https://www.cs.columbia.edu/~rgu/publications/pldi20-yao.pdf",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "Learning-based Memory Allocation for C++ Server Workloads",
+      "url": "https://www.cs.utexas.edu/users/mckinley/papers/llama-asplos-2020.pdf",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Bridging the gap between deep learning and sparse matrix format selection",
+      "url": "https://people.engr.ncsu.edu/xshen5/Publications/ppopp18.pdf",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Camel: Smart, Adaptive Energy Optimization for Mobile Web Interactions",
+      "url": "http://eprints.whiterose.ac.uk/155720/1/paper.pdf",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Optimizing sorting with genetic algorithms",
+      "url": "http://polaris.cs.uiuc.edu/~garzaran/doc/cgo05.pdf",
+      "category": "domain-specific-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "QiMeng-Xpiler: Transcompiling Tensor Programs for Deep Learning Systems with a Neural-Symbolic Approach",
+      "url": "https://www.usenix.org/system/files/osdi25-dong.pdf",
+      "category": "languages-and-compilation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "(De/Re)-Composition of Data-Parallel Computations via Multi-Dimensional Homomorphisms",
+      "url": "https://dl.acm.org/doi/10.1145/3665643",
+      "category": "languages-and-compilation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines",
+      "url": "https://core.ac.uk/download/pdf/20024748.pdf",
+      "category": "languages-and-compilation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "PetaBricks: a language and compiler for algorithmic choice",
+      "url": "http://people.csail.mit.edu/cychan/papers/2009pldi-petabricks.pdf",
+      "category": "languages-and-compilation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "Achieving High-performance the Functional Way: a Functional Pearl on Expressing High-performance Optimizations as Rewrite Strategies",
+      "url": "https://dl.acm.org/doi/10.1145/3408974",
+      "category": "languages-and-compilation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Learning Compiler Pass Orders using Coreset and Normalized Value Prediction",
+      "url": "https://arxiv.org/pdf/2301.05104.pdf",
+      "category": "code-size-reduction",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "POSET-RL: Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning",
+      "url": "https://ieeexplore.ieee.org/document/9804673",
+      "category": "code-size-reduction",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Exploring the space of optimization sequences for code-size reduction: insights and tools",
+      "url": "https://dl.acm.org/doi/10.1145/3446804.3446849",
+      "category": "code-size-reduction",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Using machine learning to predict the code size impact of duplication heuristics in a dynamic compiler",
+      "url": "https://dl.acm.org/doi/10.1145/3475738.3480943?sid=SCITRUS",
+      "category": "code-size-reduction",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "ANGHABENCH: a Suite with One Million Compilable C Benchmarks for Code-Size Reduction",
+      "url": "https://homepages.dcc.ufmg.br/~fernando/publications/papers/FaustinoCGO21.pdf",
+      "category": "code-size-reduction",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Reinforcement Learning Guided Software Debloating",
+      "url": "http://www.csl.sri.com/users/gehani/papers/MLSys-2019.DeepOCCAM.pdf",
+      "category": "code-size-reduction",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Optimizing for reduced code space using genetic algorithms",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.1586&rep=rep1&type=pdf",
+      "category": "code-size-reduction",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "TLP: A Deep Learning-Based Cost Model for Tensor Program Tuning",
+      "url": "https://arxiv.org/pdf/2211.03578",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Performance-Detective: Automatic Deduction of Cheap and Accurate Performance Models",
+      "url": "https://mcopik.github.io/assets/pdf/2022_ics_schmid_perf_detective.pdf",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Neural Network-based Performance Prediction for Task Migration on S-NUCA Many-Cores",
+      "url": "https://ieeexplore.ieee.org/document/9190026",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "A Deep Learning Based Cost Model for Automatic Code Optimization",
+      "url": "https://proceedings.mlsys.org/paper/2021/file/3def184ad8f4755ff269862ea77393dd-Paper.pdf",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Comparative Code Structure Analysis using Deep Learning for Performance Prediction",
+      "url": "https://arxiv.org/abs/2102.07660",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Extracting Clean Performance Models from Tainted Programs",
+      "url": "https://ieeexplore.ieee.org/document/9139798",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "PMEvo: Portable Inference of Port Mappings for Out-of-Order Processors by Evolutionary Optimization",
+      "url": "https://arxiv.org/pdf/2004.10044.pdf",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "An Active Learning Method for Empirical Modeling in Performance Tuning",
+      "url": "https://ieeexplore.ieee.org/document/9139798",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Learning to Optimize Halide with Tree Search and Random Programs",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3306346.3322967",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "Ithemal: Accurate, portable and fast basic block throughput estimation using deep neural networks",
+      "url": "http://proceedings.mlr.press/v97/mendis19a/mendis19a.pdf",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Absinthe: Learning an Analytical Performance Model to Fuse and Tile Stencil Codes in One Shot",
+      "url": "http://unixer.de/publications/img/gysi-absinthe.pdf",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Predicting new workload or CPU performance by analyzing public datasets",
+      "url": "https://yuemmawang.github.io/publications/wang-taco2019.pdf",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Automatic creation of tile size selection models",
+      "url": "http://people.rennes.inria.fr/Tomofumi.Yuki/papers/yuki-cgo2010.pdf",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "Microarchitecture sensitive empirical models for compiler optimizations",
+      "url": "https://www.csa.iisc.ac.in/~srikant/papers-theses/kapil-CGO-2007.pdf",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Accurate static estimators for program optimization",
+      "url": "https://dl.acm.org/doi/abs/10.1145/178243.178251",
+      "category": "cost-and-performance-models",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Performance Embeddings: A Similarity-Based Transfer Tuning Approach to Performance Optimization",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3533767.3534383",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Improving cross-platform binary analysis using representation learning via graph alignment",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3533767.3534383",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Program Representations for Predictive Compilation: State of Affairs in the Early 20's",
+      "url": "https://homepages.dcc.ufmg.br/~fernando/publications/papers/FaustinoJCL22.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Comparative Code Structure Analysis using Deep Learning for Performance Prediction",
+      "url": "https://arxiv.org/pdf/2102.07660.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "GraphCodeBERT: Pre-training Code Representations with Data Flow",
+      "url": "https://arxiv.org/pdf/2009.08366.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "CodeBERT:A Pre-Trained Model for Programming and Natural Languages",
+      "url": "https://www.aclweb.org/anthology/2020.findings-emnlp.139.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "IR2VEC: LLVM IR Based Scalable Program Embeddings",
+      "url": "https://dl.acm.org/doi/10.1145/3418463",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "Deep Program Structure Modeling Through Multi-Relational Graph-based Learning",
+      "url": "https://zwang4.github.io/publications/pact20.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Global Relational Models of Source Code",
+      "url": "https://openreview.net/pdf?id=B1lnbRNtwr",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Learning Semantic Program Embeddings with Graph Interval Neural Network",
+      "url": "https://arxiv.org/pdf/2005.09997.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Flow2Vec: Value-Flow-Based Precise Code Embedding",
+      "url": "https://yuleisui.github.io/publications/oopsla20.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "MISIM: An End-to-End Neural Code Similarity System",
+      "url": "https://arxiv.org/pdf/2006.05265.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Blended, precise semantic program embeddings",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3385412.3385999",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "LambdaNet: Probabilistic Type Inference using Graph Neural Networks",
+      "url": "https://arxiv.org/pdf/2005.02161.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Compiler-based graph representations for deep learning models of code",
+      "url": "https://cfaed.tu-dresden.de/files/Images/people/chair-cc/publications/2002_Brauckmann_CC.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Generative Code Modeling with Graphs",
+      "url": "https://arxiv.org/pdf/1805.08490.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "code2seq: Generating sequences from structured representations of code",
+      "url": "https://arxiv.org/pdf/1808.01400",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "code2vec: Learning distributed representations of code",
+      "url": "http://www.cs.technion.ac.il/~mbs/publications/code2vec-popl19.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "COSET: A Benchmark for Evaluating Neural Program Embeddings",
+      "url": "https://arxiv.org/pdf/1905.11445.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "Learning to Represent Programs with Graphs",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2017/11/programGraphs.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Neural Code Comprehension: A Learnable Representation of Code Semantics",
+      "url": "https://papers.nips.cc/paper/7617-neural-code-comprehension-a-learnable-representation-of-code-semantics.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "End-to-end deep learning of optimization heuristics",
+      "url": "http://homepages.inf.ed.ac.uk/hleather/publications/2017-deepopt-pact.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Semantic-aware program sampling",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2017/11/nips_2017.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "DeepCoder: Learning to write programs",
+      "url": "https://www.microsoft.com/en-us/research/uploads/prod/2017/03/main.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Convolutional neural networks over tree structures for programming language processing",
+      "url": "http://sei.pku.edu.cn/~zhanglu/Download/AAAI16.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "A Convolutional Attention Network for Extreme Summarization of Source Code",
+      "url": "http://proceedings.mlr.press/v48/allamanis16.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Structured Generative Models of Natural Source Code",
+      "url": "http://proceedings.mlr.press/v32/maddison14.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Using graph-based program characterization for predictive modeling",
+      "url": "https://www.eecis.udel.edu/~cavazos/cgo-2012.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "Automatic feature generation for machine learning based optimizing compilation",
+      "url": "http://homepages.inf.ed.ac.uk/hleather/publications/2009_autofeatures_cgo.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "A Game-Based Framework to Compare Program Classifiers and Evaders",
+      "url": "https://homepages.dcc.ufmg.br/~fernando/publications/papers/CGO23_ThaisDamasio.pdf",
+      "category": "learning-program-representation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "DFA-Net: A Compiler-Specific Neural Architecture for Robust Generalization in Data Flow Analyses",
+      "url": "https://cfaed.tu-dresden.de/files/Images/people/chair-cc/publications/2503_Brauckmann_CC.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Reductive Analysis with Compiler-Guided Large Language Models for Input-Centric Code Optimizations",
+      "url": "https://research.csc.ncsu.edu/picture/publications/papers/pldi2025",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing Deployment-Time Predictive Model Robustness for Code Analysis and Optimization",
+      "url": "https://arxiv.org/pdf/2501.00298",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "The MLIR Transform Dialect - Your compiler is more powerful than you think",
+      "url": "https://arxiv.org/pdf/2409.03864",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "Meta Large Language Model Compiler: Foundation Models of Compiler Optimization",
+      "url": "https://arxiv.org/abs/2407.02524",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "The Next 700 ML-Enabled Compiler Optimizations",
+      "url": "https://arxiv.org/pdf/2311.10800.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "BenchPress: A Deep Active Benchmark Generator",
+      "url": "https://arxiv.org/pdf/2208.06555.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Automating Reinforcement Learning Architecture Design for Code Optimization",
+      "url": "https://zwang4.github.io/publications/cc22.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Learning Semantic Representations to Verify Hardware Designs",
+      "url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/%5Bhttps:/zwang4.github.io/publications/cc22.pdf%5D(https:/proceedings.neurips.cc/paper/2021/file/c5aa65949d20f6b20e1a922c13d974e7-Paper.pdf)",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Composable and Modular Code Generation in MLIR: A Structured and Retargetable Approach to Tensor Compiler Construction",
+      "url": "https://arxiv.org/pdf/2202.03293.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Deep NLP-based co-evolvement for synthesizing code analysis from natural language",
+      "url": "https://dl.acm.org/doi/10.1145/3446804.3446852",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "MLGO: a Machine Learning Guided Compiler Optimizations Framework",
+      "url": "https://arxiv.org/abs/2101.04808",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "Towards Better Understanding of Black-box Auto-tuning: A Comparative Analysis for Storage Systems",
+      "url": "https://www.usenix.org/system/files/conference/atc18/atc18-cao.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Synthesizing Benchmarks for Predictive Modeling",
+      "url": "https://www.pure.ed.ac.uk/ws/files/29479104/2017_cgo_1.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Minimizing the cost of iterative compilation with active learning",
+      "url": "http://homepages.inf.ed.ac.uk/hleather/publications/2017-minimitercomp-cgo.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "VESPA: static profiling for binary optimization",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3485521",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "Mapping Computations in Heterogeneous Multicore Systems with Statistical Regression on Program Inputs",
+      "url": "https://homepages.dcc.ufmg.br/~fernando/publications/papers/JunioTECS21.pdf",
+      "category": "ml-for-compilers-and-systems-optimisation",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Optimizing Memory Mapping Using Deep Reinforcement Learning",
+      "url": "https://arxiv.org/pdf/2305.07440.pdf",
+      "category": "memorycache-modelinganalysis",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Learning Memory Access Patterns",
+      "url": "http://proceedings.mlr.press/v80/hashemi18a/hashemi18a.pdf",
+      "category": "memorycache-modelinganalysis",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "Static Prediction of Silent Stores",
+      "url": "https://dl.acm.org/doi/10.1145/3280848",
+      "category": "memorycache-modelinganalysis",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Automatic Tuning of Compilers Using Machine Learning",
+      "url": "https://link.springer.com/book/10.1007/978-3-319-71489-9",
+      "category": "books",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Software Automatic Tuning - From Concepts to State-of-the-Art Results",
+      "url": "https://www.springer.com/gp/book/9781441969347",
+      "category": "books",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "MLC: Machine Learning Compiler",
+      "url": "https://mlc.ai/index.html",
+      "category": "talks-and-tutorials",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Compiler 2.0: Using Machine Learning to Modernize Compiler Technology",
+      "url": "https://www.youtube.com/watch?v=a1w_NKDVdkI",
+      "category": "talks-and-tutorials",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Compiler Autotuning using Machine Learning: A State-of-the-art Review",
+      "url": "https://youtu.be/xNixKfDxDZE",
+      "category": "talks-and-tutorials",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "PROM",
+      "url": "https://github.com/HuantWang/PROM/",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "ML-Compiler-Bridge",
+      "url": "https://github.com/IITH-Compilers/ML-Compiler-Bridge",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Supersonic",
+      "url": "https://github.com/HuantWang/SUPERSONIC",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "CompilerGym",
+      "url": "https://github.com/facebookresearch/CompilerGym",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "CodeBert",
+      "url": "https://github.com/microsoft/CodeBERT",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "IR2Vec",
+      "url": "https://github.com/IITH-Compilers/IR2Vec",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "programl",
+      "url": "https://github.com/ChrisCummins/ProGraML",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "NeuroVectorizer",
+      "url": "https://github.com/intel/neuro-vectorizer",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "TVM",
+      "url": "https://tvm.apache.org/",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "MLC-LLM",
+      "url": "https://github.com/mlc-ai/mlc-llm",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "clgen",
+      "url": "https://github.com/ChrisCummins/clgen",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "COBAYN",
+      "url": "https://github.com/amirjamez/COBAYN",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "OpenTuner",
+      "url": "https://github.com/jansel/opentuner",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "ONNX-MLIR",
+      "url": "http://onnx.ai/onnx-mlir/",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "IREE",
+      "url": "https://github.com/openxla/iree",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "NEURAX",
+      "url": "https://github.com/rustnew/NEURAX",
+      "category": "software",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers",
+      "url": "https://github.com/tlc-pack/tenset",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "The Alberta Workloads for the SPEC CPU® 2017 Benchmark Suite",
+      "url": "https://webdocs.cs.ualberta.ca/~amaral/AlbertaWorkloadsForSPECCPU2017/",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "Project CodeNet",
+      "url": "https://github.com/IBM/Project_CodeNet",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "CodeXGLUE",
+      "url": "https://github.com/microsoft/CodeXGLUE",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "ANGHABENCH",
+      "url": "http://cuda.dcc.ufmg.br/angha/benchmarks",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "BHive",
+      "url": "https://github.com/ithemal/bhive",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "cBench",
+      "url": "https://ctuning.org/wiki/index.php/CTools:CBench",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "PolyBench",
+      "url": "http://web.cs.ucla.edu/~pouchet/software/polybench/",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "DeepDataFlow",
+      "url": "https://github.com/ChrisCummins/ProGraML/blob/master/programl/Documentation/DataflowDataset.md",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "devmap",
+      "url": "https://github.com/ChrisCummins/paper-end2end-dl",
+      "category": "benchmarks-and-datasets",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI",
+      "url": "https://www.sigplan.org/Conferences/PLDI/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "Architectural Support for Programming Languages and Operating Systems, ASPLOS",
+      "url": "https://asplos-conference.org/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP",
+      "url": "https://dl.acm.org/conference/ppopp",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "International Symposium on Code Generation and Optimization, CGO",
+      "url": "https://dl.acm.org/conference/cgo",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Parallel Architectures and Compilation Techniques, PACT",
+      "url": "https://dl.acm.org/conference/cgo",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "Object-oriented Programming, Systems, Languages, and Applications, OOPSLA",
+      "url": "http://www.sigplan.org/Conferences/OOPSLA/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Compiler Construction, CC",
+      "url": "https://conf.researchr.org/series/CC",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Supercomputing, ICS",
+      "url": "http://dblp.uni-trier.de/db/conf/ics/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on High Performance and Embedded Architectures and Compilers, HiPEAC",
+      "url": "http://dblp.uni-trier.de/db/conf/hipeac/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Languages, Compilers and Tools for Embedded Systems, LCTES",
+      "url": "http://dblp.uni-trier.de/db/conf/lctrts/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Computing Frontiers, CF",
+      "url": "http://dblp.uni-trier.de/db/conf/cf",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "International Parallel and Distributed Processing Symposium, IPDPS",
+      "url": "http://www.ipdps.org/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "International Conference for High Performance Computing, Networking, Storage, and Analysis, SC",
+      "url": "http://supercomputing.org/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning and Programming Languages Workshop, MAPL",
+      "url": "https://pldi20.sigplan.org/series/mapl",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "Languages and Compilers for Parallel Computing, LCPC",
+      "url": "https://dblp.org/db/conf/lcpc/index",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Learning Representations, ICLR",
+      "url": "https://dblp1.uni-trier.de/db/conf/iclr/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "Conference on Machine Learning and Systems, MLSys",
+      "url": "https://mlsys.org/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems, CASES",
+      "url": "http://dblp.uni-trier.de/db/conf/cases/index.html",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "USENIX Annul Technical Conference, ATC",
+      "url": "https://www.usenix.org/conferences/byname/131",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "USENIX Symposium on Operating Systems Design and Implementation, OSDI",
+      "url": "https://dblp.org/db/conf/osdi/index",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on High Performance Computing, Data and Analytics, HiPC",
+      "url": "http://dblp.uni-trier.de/db/conf/hipc/index.html",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Virtual Execution Environments, VEE",
+      "url": "http://dblp.uni-trier.de/db/conf/vee/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "European Conference on Computer Systems, EuroSys",
+      "url": "http://dblp.uni-trier.de/db/conf/eurosys/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "ACM Symposium on Parallelism in Algorithms and Architectures, SPAA",
+      "url": "http://dblp.uni-trier.de/db/conf/spaa/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "International Conference on Parallel Processing, ICPP",
+      "url": "http://www.wikicfp.com/cfp/program?id=1447&f=International%20Conference%20on%20Parallel%20Processing",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "International Middleware Conference, Middleware",
+      "url": "http://dblp.uni-trier.de/db/conf/middleware/",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "European Conference on Parallel Processing, Euro-Par",
+      "url": "http://www.wikicfp.com/cfp/program?id=967&f=European",
+      "category": "conferences",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "ACM Transactions on Architecture and Code Optimization, TACO",
+      "url": "https://dl.acm.org/journal/taco",
+      "category": "journals",
+      "source_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/blob/8a33c568ca07f4e04be32e8e5ab9d192424777a4/README.md#L331",
+      "line": 331,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 252,
+  "unique_links": 246,
+  "category_count": 18,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by zwang4/awesome-machine-learning-in-compilers contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/zwang4/awesome-machine-learning-in-compilers/tree/8a33c568ca07f4e04be32e8e5ab9d192424777a4",
+  "digest": "438c7763b51778fb12be2fd189981f00529fae78a6f6e93b6da870c3c9ae9ca5"
+}

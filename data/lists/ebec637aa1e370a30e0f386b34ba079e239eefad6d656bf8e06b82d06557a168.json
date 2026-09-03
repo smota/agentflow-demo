@@ -1,0 +1,4453 @@
+{
+  "format_version": 2,
+  "repository_id": "632878141",
+  "name": "onejune2018/Awesome-LLM-Eval",
+  "revision": "5b43a7e884e29339c9182d842a3dccb954a1f053",
+  "readme_path": "README.md",
+  "readme_sha256": "d67c96d3597dc38175f41d5bd5ecdc333db7158e9c9dbbe94f5a08d0fbdc8d50",
+  "sections": [
+    {
+      "id": "general",
+      "title": "General",
+      "level": 1,
+      "path": [
+        "General"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md",
+      "entries": 45
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "news",
+      "title": "News",
+      "level": 2,
+      "path": [
+        "News"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#news",
+      "entries": 9
+    },
+    {
+      "id": "anthropomorphic-taxonomy",
+      "title": "Anthropomorphic-Taxonomy",
+      "level": 2,
+      "path": [
+        "Anthropomorphic-Taxonomy"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#anthropomorphic-taxonomy",
+      "entries": 0
+    },
+    {
+      "id": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "title": "Typical Intelligence Quotient (IQ)-General Intelligence evaluation benchmarks",
+      "level": 3,
+      "path": [
+        "Anthropomorphic-Taxonomy",
+        "Typical Intelligence Quotient (IQ)-General Intelligence evaluation benchmarks"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "entries": 61
+    },
+    {
+      "id": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "title": "Typical Professional Quotient (PQ)-Professional Expertise evaluation benchmarks",
+      "level": 3,
+      "path": [
+        "Anthropomorphic-Taxonomy",
+        "Typical Professional Quotient (PQ)-Professional Expertise evaluation benchmarks"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "entries": 33
+    },
+    {
+      "id": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "title": "Typical Emotional Quotient (EQ)-Alignment Ability evaluation benchmarks",
+      "level": 3,
+      "path": [
+        "Anthropomorphic-Taxonomy",
+        "Typical Emotional Quotient (EQ)-Alignment Ability evaluation benchmarks"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "entries": 36
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "level": 2,
+      "path": [
+        "Tools"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#tools",
+      "entries": 22
+    },
+    {
+      "id": "datasets-or-benchmarks",
+      "title": "Datasets or Benchmarks",
+      "level": 2,
+      "path": [
+        "Datasets or Benchmarks"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#datasets-or-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "general",
+      "title": "General",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "General"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#general",
+      "entries": 45
+    },
+    {
+      "id": "domain",
+      "title": "Domain",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "Domain"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#domain",
+      "entries": 17
+    },
+    {
+      "id": "rag-evaluation",
+      "title": "RAG-Evaluation",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "RAG-Evaluation"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#rag-evaluation",
+      "entries": 6
+    },
+    {
+      "id": "agent-capabilities",
+      "title": "Agent-Capabilities",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "Agent-Capabilities"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#agent-capabilities",
+      "entries": 4
+    },
+    {
+      "id": "code-capabilities",
+      "title": "Code-Capabilities",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "Code-Capabilities"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#code-capabilities",
+      "entries": 3
+    },
+    {
+      "id": "multi-modalcross-modal",
+      "title": "Multi-modal/Cross-modal",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "Multi-modal/Cross-modal"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#multi-modalcross-modal",
+      "entries": 3
+    },
+    {
+      "id": "long-context",
+      "title": "Long Context",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "Long Context"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#long-context",
+      "entries": 1
+    },
+    {
+      "id": "reasoning-speed",
+      "title": "Reasoning Speed",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "Reasoning Speed"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#reasoning-speed",
+      "entries": 5
+    },
+    {
+      "id": "quantization-and-compression",
+      "title": "Quantization-and-Compression",
+      "level": 3,
+      "path": [
+        "Datasets or Benchmarks",
+        "Quantization-and-Compression"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#quantization-and-compression",
+      "entries": 1
+    },
+    {
+      "id": "demos",
+      "title": "Demos",
+      "level": 2,
+      "path": [
+        "Demos"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#demos",
+      "entries": 1
+    },
+    {
+      "id": "leaderboards",
+      "title": "Leaderboards",
+      "level": 2,
+      "path": [
+        "Leaderboards"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#leaderboards",
+      "entries": 51
+    },
+    {
+      "id": "leaderboards-for-popular-provider-performance-and-cost-2024-05-14",
+      "title": "Leaderboards for popular Provider (performance and cost, 2024-05-14)",
+      "level": 3,
+      "path": [
+        "Leaderboards",
+        "Leaderboards for popular Provider (performance and cost, 2024-05-14)"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#leaderboards-for-popular-provider-performance-and-cost-2024-05-14",
+      "entries": 1
+    },
+    {
+      "id": "papers",
+      "title": "Papers",
+      "level": 2,
+      "path": [
+        "Papers"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#papers",
+      "entries": 30
+    },
+    {
+      "id": "llm-list",
+      "title": "LLM-List",
+      "level": 2,
+      "path": [
+        "LLM-List"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#llm-list",
+      "entries": 0
+    },
+    {
+      "id": "typical-llm-details",
+      "title": "Typical LLM details",
+      "level": 3,
+      "path": [
+        "LLM-List",
+        "Typical LLM details"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#typical-llm-details",
+      "entries": 0
+    },
+    {
+      "id": "pre-trained-llm",
+      "title": "Pre-trained-LLM",
+      "level": 3,
+      "path": [
+        "LLM-List",
+        "Pre-trained-LLM"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#pre-trained-llm",
+      "entries": 20
+    },
+    {
+      "id": "instruction-finetuned-llm",
+      "title": "Instruction-finetuned-LLM",
+      "level": 3,
+      "path": [
+        "LLM-List",
+        "Instruction-finetuned-LLM"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#instruction-finetuned-llm",
+      "entries": 9
+    },
+    {
+      "id": "aligned-llm",
+      "title": "Aligned-LLM",
+      "level": 3,
+      "path": [
+        "LLM-List",
+        "Aligned-LLM"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#aligned-llm",
+      "entries": 4
+    },
+    {
+      "id": "open-llm",
+      "title": "Open-LLM",
+      "level": 3,
+      "path": [
+        "LLM-List",
+        "Open-LLM"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#open-llm",
+      "entries": 44
+    },
+    {
+      "id": "popular-llm",
+      "title": "Popular-LLM",
+      "level": 3,
+      "path": [
+        "LLM-List",
+        "Popular-LLM"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#popular-llm",
+      "entries": 0
+    },
+    {
+      "id": "frameworks-for-training",
+      "title": "Frameworks-for-Training",
+      "level": 2,
+      "path": [
+        "Frameworks-for-Training"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#frameworks-for-training",
+      "entries": 21
+    },
+    {
+      "id": "llmops",
+      "title": "LLMOps",
+      "level": 2,
+      "path": [
+        "LLMOps"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#llmops",
+      "entries": 28
+    },
+    {
+      "id": "courses",
+      "title": "Courses",
+      "level": 2,
+      "path": [
+        "Courses"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#courses",
+      "entries": 2
+    },
+    {
+      "id": "other-awesome-lists",
+      "title": "Other-Awesome-Lists",
+      "level": 2,
+      "path": [
+        "Other-Awesome-Lists"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#other-awesome-lists",
+      "entries": 19
+    },
+    {
+      "id": "licenses",
+      "title": "Licenses",
+      "level": 2,
+      "path": [
+        "Licenses"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#licenses",
+      "entries": 0
+    },
+    {
+      "id": "citation",
+      "title": "Citation",
+      "level": 2,
+      "path": [
+        "Citation"
+      ],
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#citation",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "lighteval",
+      "url": "https://github.com/huggingface/lighteval",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "CRUXEval",
+      "url": "https://arxiv.org/abs/2401.03065",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Instruction-Following-Evaluation",
+      "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "SuperCLUE-Agent",
+      "url": "https://github.com/CLUEbenchmark/SuperCLUE-Agent",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "ColossalEval",
+      "url": "https://github.com/hpcaitech/ColossalAI/tree/main/applications/ColossalEval",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "DeepEval",
+      "url": "https://github.com/mr-gpt/deepeval",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "OpenCompass",
+      "url": "https://github.com/InternLM/opencompass/tree/main",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Baichuan",
+      "url": "https://github.com/baichuan-inc/Baichuan-13B",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "AlpacaEval",
+      "url": "https://github.com/tatsu-lab/alpaca_eval",
+      "category": "news",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L93",
+      "line": 93,
+      "properties": {
+        "Task Type": "Multi-Choice Knowledge"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/microsoft/promptbench",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L94",
+      "line": 94,
+      "properties": {
+        "Task Type": "Dynamic Evaluation"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/aigc-apps/PertEval",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L95",
+      "line": 95,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/infinigence/LVEval",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L96",
+      "line": 96,
+      "properties": {
+        "Task Type": "Long Text QA"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/smartyfh/LLM-Uncertainty-Bench",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L97",
+      "line": 97,
+      "properties": {
+        "Task Type": "NLP Tasks"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/allenai/CommonGen-Eval",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L98",
+      "line": 98,
+      "properties": {
+        "Task Type": "Generation"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/open-compass/MathBench",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L99",
+      "line": 99,
+      "properties": {
+        "Task Type": "Math"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://www.kaggle.com/datasets/hemishveeraboina/aime-problem-set-1983-2024",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L100",
+      "line": 100,
+      "properties": {
+        "Task Type": "Math"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://epochai.org/files/sample_question_transcripts.zip",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L101",
+      "line": 101,
+      "properties": {
+        "Task Type": "Math"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/hkust-nlp/felm",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L102",
+      "line": 102,
+      "properties": {
+        "Task Type": "Factuality"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/Re-Align/just-eval",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L103",
+      "line": 103,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/snap-stanford/MLAgentBench",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L104",
+      "line": 104,
+      "properties": {
+        "Task Type": "ML Research"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/OpenBMB/UltraEval",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L105",
+      "line": 105,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://crfm.stanford.edu/fmti/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L106",
+      "line": 106,
+      "properties": {
+        "Task Type": "Transparency"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/RUCAIBox/BAMBOO",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L107",
+      "line": 107,
+      "properties": {
+        "Task Type": "Long Text"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2310.06762",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L108",
+      "line": 108,
+      "properties": {
+        "Task Type": "Continuous Learning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/hpcaitech/ColossalAI/tree/main/applications/ColossalEval",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L109",
+      "line": 109,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/WideDeep",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L110",
+      "line": 110,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/google/BIG-bench",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L111",
+      "line": 111,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "http://lucyeval.besteasy.com/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L112",
+      "line": 112,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "http://www.zhujiu-benchmark.com/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L113",
+      "line": 113,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/thunlp/ChatEval",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L114",
+      "line": 114,
+      "properties": {
+        "Task Type": "Chat"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://flageval.baai.ac.cn/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L115",
+      "line": 115,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://tatsu-lab.github.io/alpaca_eval/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L116",
+      "line": 116,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/idavidrein/gpqa",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L117",
+      "line": 117,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/Zayne-sprague/MuSR",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L118",
+      "line": 118,
+      "properties": {
+        "Task Type": "Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/freshllms/freshqa",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L119",
+      "line": 119,
+      "properties": {
+        "Task Type": "Knowledge"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/ruixiangcui/AGIEval",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L120",
+      "line": 120,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/salesforce/factualNLG",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L121",
+      "line": 121,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/lupantech/ScienceQA",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L122",
+      "line": 122,
+      "properties": {
+        "Task Type": "Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/Waste-Wood/e-CARE",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L123",
+      "line": 123,
+      "properties": {
+        "Task Type": "Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/suzgunmirac/BIG-Bench-Hard",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L124",
+      "line": 124,
+      "properties": {
+        "Task Type": "Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/karthikv792/LLMs-Planning",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L125",
+      "line": 125,
+      "properties": {
+        "Task Type": "Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/google-research/url-nlp/tree/main/mgsm",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L126",
+      "line": 126,
+      "properties": {
+        "Task Type": "Math"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/hendrycks/math/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L127",
+      "line": 127,
+      "properties": {
+        "Task Type": "Math"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/openai/grade-school-math",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L128",
+      "line": 128,
+      "properties": {
+        "Task Type": "Math"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/arkilpatel/SVAMP",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L129",
+      "line": 129,
+      "properties": {
+        "Task Type": "Math"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/HLR/SpartQA-baselines",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L130",
+      "line": 130,
+      "properties": {
+        "Task Type": "Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/ThomasScialom/MLSUM",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L131",
+      "line": 131,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/google-research-datasets/natural-questions",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L132",
+      "line": 132,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/facebookresearch/anli",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L133",
+      "line": 133,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/google-research-datasets/boolean-questions",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L134",
+      "line": 134,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/nyu-mll/jiant",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L135",
+      "line": 135,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L136",
+      "line": 136,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/rowanz/hellaswag",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L137",
+      "line": 137,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/allenai/winogrande",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L138",
+      "line": 138,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/ybisk/ybisk.github.io/tree/master/piqa",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L139",
+      "line": 139,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/hotpotqa/hotpot",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L140",
+      "line": 140,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/nyu-mll/GLUE-baselines",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L141",
+      "line": 141,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/allenai/OpenBookQA",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L142",
+      "line": 142,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L143",
+      "line": 143,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/allenai/aristo-leaderboard",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L144",
+      "line": 144,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/rowanz/swagaf",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L145",
+      "line": 145,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/jonathanherzig/commonsenseqa",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L146",
+      "line": 146,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L147",
+      "line": 147,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://huggingface.co/datasets/allenai/sciq",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L148",
+      "line": 148,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/mandarjoshi90/triviaqa",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L149",
+      "line": 149,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/nyu-mll/multiNLI",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L150",
+      "line": 150,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L151",
+      "line": 151,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://huggingface.co/datasets/cimec/lambada",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L152",
+      "line": 152,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://microsoft.github.io/msmarco/",
+      "category": "typical-intelligence-quotient-iq-general-intelligence-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L153",
+      "line": 153,
+      "properties": {
+        "Task Type": "Language, Reasoning"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://microsoft.github.io/BLURB/index.html",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/epic-open-source/seismometer",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/open-compass/opencompass/tree/main/opencompass/datasets/medbench/",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/MediaBrain-SJTU/GenMedicalEval",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2311.09189",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/alipay/financial_evaluation_dataset",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/SUFE-AIFLM-Lab/FinEval",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://opencompass.org.cn/",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/The-FinAI/PIXIU",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/Dai-shen/LAiW",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/open-compass/lawbench",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/HazyResearch/legalbench/",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/CSHaitao/LexEval",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/Imtiazkarimik23/SPEC5G",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/netop-team/TeleQnA",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2310.07637",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2407.09424v1",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2407.09424v1",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2402.15818",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2412.15891",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/prnshv/ORAN-Bench-13K",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma-open-telco-llm-benchmarks/",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/bytedance/FullStackBench",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/ProsusAI/stack-eval",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2404.00566",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://arxiv.org/abs/2107.03374",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/hendrycks/apps",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/FudanSELab/ClassEval",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/CoderEval/CoderEval",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/nuprl/MultiPL-E",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/microsoft/CodeXGLUE",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/seketeam/EvoCodeBench",
+      "category": "typical-professional-quotient-pq-professional-expertise-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/Angelina-Wang/difference_awareness",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L201",
+      "line": 201,
+      "properties": {
+        "Task Type": "Bias"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/BriansIDP/CASEBench",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L202",
+      "line": 202,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/centerforaisafety/HarmBench",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L204",
+      "line": 204,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/openai/simple-evals",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L205",
+      "line": 205,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_evals",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L206",
+      "line": 206,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/dsbowen/strong_reject",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L207",
+      "line": 207,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/princeton-nlp/LLMBar",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L208",
+      "line": 208,
+      "properties": {
+        "Task Type": "Instruction"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/stanford-crfm/air-bench-2024",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L209",
+      "line": 209,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://trustllmbenchmark.github.io/TrustLLM-Website/",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L210",
+      "line": 210,
+      "properties": {
+        "Task Type": "General"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/allenai/reward-bench",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L211",
+      "line": 211,
+      "properties": {
+        "Task Type": "Alignment"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/EQ-bench/EQ-Bench",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L212",
+      "line": 212,
+      "properties": {
+        "Task Type": "Emotion"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/verazuo/jailbreak_llms",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L213",
+      "line": 213,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/Princeton-SysML/Jailbreak_LLM",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L214",
+      "line": 214,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/meg-tong/sycophancy-eval",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L215",
+      "line": 215,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/AI-secure/DecodingTrust",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L216",
+      "line": 216,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/llm-attacks/llm-attacks",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L217",
+      "line": 217,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/paul-rottger/exaggerated-safety",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L218",
+      "line": 218,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/tatsu-lab/opinions_qa",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L219",
+      "line": 219,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/thu-coai/SafetyBench",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L220",
+      "line": 220,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/declare-lab/red-instruct",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L221",
+      "line": 221,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/vinid/safety-tuned-llamas",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L222",
+      "line": 222,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/PKU-Alignment/beavertails",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L223",
+      "line": 223,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/Libr-AI/do-not-answer",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L224",
+      "line": 224,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/THUDM/AlignBench",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L225",
+      "line": 225,
+      "properties": {
+        "Task Type": "Alignment"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L226",
+      "line": 226,
+      "properties": {
+        "Task Type": "Instruction"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/microsoft/TOXIGEN",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L227",
+      "line": 227,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/anthropics/hh-rlhf",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L228",
+      "line": 228,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/anthropics/hh-rlhf",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L229",
+      "line": 229,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/amazon-science/bold",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L230",
+      "line": 230,
+      "properties": {
+        "Task Type": "Bias"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/nyu-mll/BBQ",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L231",
+      "line": 231,
+      "properties": {
+        "Task Type": "Bias"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/moinnadeem/StereoSet",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L232",
+      "line": 232,
+      "properties": {
+        "Task Type": "Bias"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/hendrycks/ethics",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L233",
+      "line": 233,
+      "properties": {
+        "Task Type": "Ethics"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/allenai/real-toxicity-prompts",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L234",
+      "line": 234,
+      "properties": {
+        "Task Type": "Safety"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/nyu-mll/crows-pairs",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L235",
+      "line": 235,
+      "properties": {
+        "Task Type": "Bias"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/W4ngatang/sent-bias",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L236",
+      "line": 236,
+      "properties": {
+        "Task Type": "Bias"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://github.com/rudinger/winogender-schemas",
+      "category": "typical-emotional-quotient-eq-alignment-ability-evaluation-benchmarks",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L237",
+      "line": 237,
+      "properties": {
+        "Task Type": "Bias"
+      }
+    },
+    {
+      "title": "prometheus-eval",
+      "url": "https://github.com/prometheus-eval/prometheus-eval",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "athina-ai",
+      "url": "https://github.com/athina-ai/athina-evals",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "LeaderboardFinder",
+      "url": "https://huggingface.co/spaces/leaderboards/LeaderboardFinder",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "lighteval",
+      "url": "https://github.com/huggingface/lighteval",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "LLM Comparator",
+      "url": "https://arxiv.org/html/2402.10524v1",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Arthur Bench",
+      "url": "https://github.com/arthur-ai/bench",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "llm-benchmarker-suite",
+      "url": "https://github.com/FormulaMonks/llm-benchmarker-suite",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "autoevals",
+      "url": "https://github.com/braintrustdata/autoevals",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "EVAL",
+      "url": "https://github.com/openai/evals",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "lm-evaluation-harness",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "lm-evaluation",
+      "url": "https://github.com/AI21Labs/lm-evaluation",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "OpenCompass",
+      "url": "https://github.com/InternLM/opencompass/tree/main",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "phasellm",
+      "url": "https://github.com/wgryc/phasellm",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "LLMZoo",
+      "url": "https://github.com/FreedomIntelligence/LLMZoo",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "HELM",
+      "url": "https://github.com/stanford-crfm/helm",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "auto-evaluator",
+      "url": "https://github.com/rlancemartin/auto-evaluator",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "PandaLM",
+      "url": "https://github.com/WeOpenML/PandaLM",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "FlagEval",
+      "url": "https://github.com/FlagOpen/FlagEval",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "alpaca_eval",
+      "url": "https://github.com/tatsu-lab/alpaca_eval",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "promptflow",
+      "url": "https://github.com/microsoft/promptflow",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "DeepEval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "CONNER",
+      "url": "https://github.com/ChanLiang/CONNER",
+      "category": "tools",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "MMLU-Pro",
+      "url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "TrustLLM",
+      "url": "https://trustllmbenchmark.github.io/TrustLLM-Website/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "DyVal",
+      "url": "https://github.com/microsoft/promptbench",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "RewardBench",
+      "url": "https://github.com/allenai/reward-bench",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "LVEval",
+      "url": "https://github.com/infinigence/LVEval",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "LLM-Uncertainty-Bench",
+      "url": "https://github.com/smartyfh/LLM-Uncertainty-Bench",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Psychometrics Eval",
+      "url": "https://arxiv.org/abs/2310.16379",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "CommonGen-Eval",
+      "url": "https://github.com/allenai/CommonGen-Eval",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "felm",
+      "url": "https://github.com/hkust-nlp/felm",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "just-eval",
+      "url": "https://github.com/Re-Align/just-eval",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "EQ-Bench",
+      "url": "https://github.com/EQ-bench/EQ-Bench",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "CRUXEval",
+      "url": "https://arxiv.org/abs/2401.03065",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "MLAgentBench",
+      "url": "https://github.com/snap-stanford/MLAgentBench",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "AlignBench",
+      "url": "https://github.com/THUDM/AlignBench",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "UltraEval",
+      "url": "https://github.com/OpenBMB/UltraEval",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Instruction Following Eval",
+      "url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "LLMBar",
+      "url": "https://github.com/princeton-nlp/LLMBar",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "HalluQA",
+      "url": "https://github.com/xiami2019/HalluQA/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "FMTI",
+      "url": "https://crfm.stanford.edu/fmti/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "ColossalEval",
+      "url": "https://github.com/hpcaitech/ColossalAI/tree/main/applications/ColossalEval",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "LLMEval²",
+      "url": "https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/WideDeep",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Aviary",
+      "url": "https://github.com/ray-project/aviary",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Do-Not-Answer",
+      "url": "https://github.com/Libr-AI/do-not-answer",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "LucyEval",
+      "url": "http://lucyeval.besteasy.com/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "Zhujiu",
+      "url": "http://www.zhujiu-benchmark.com/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "ChatEval",
+      "url": "https://github.com/thunlp/ChatEval",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "FlagEval",
+      "url": "https://flageval.baai.ac.cn/#/home",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "InfoQ Evaluation",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=265117067676&idx=1&sn=b98af3bd14c9f9fbb3e7f0f8f9bb3ec&scene=21#wechat_redirect",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "COT Evaluation",
+      "url": "https://github.com/FranxYao/chain-of-thought-hub",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Z-Bench",
+      "url": "https://github.com/zhenbench/z-bench",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "zeno-build",
+      "url": "https://github.com/zeno-ml/zeno-build",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "lmsys Ranking",
+      "url": "https://lmsys.org/blog/2023-05-03-arena/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "HF Open LLM Leaderboard",
+      "url": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "AlpacaEval",
+      "url": "https://tatsu-lab.github.io/alpaca_eval/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "llm-benchmark",
+      "url": "https://github.com/jeinlee1991/chinese-llm-benchmark",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "Leaderboard",
+      "url": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "SQuAD",
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "MultiNLI",
+      "url": "https://cims.nyu.edu/~sbowman/multinli/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "LogiQA",
+      "url": "https://github.com/lgw863/LogiQA-dataset",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "HellaSwag",
+      "url": "https://rowanzellers.com/hellaswag/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "LAMBADA",
+      "url": "https://zenodo.org/record/2630551#.ZFUKS-zML0p",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "CoQA",
+      "url": "https://stanfordnlp.github.io/coqa/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "ParlAI",
+      "url": "https://github.com/facebookresearch/ParlAI",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "LIT",
+      "url": "https://pair-code.github.io/lit/",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "Adversarial NLI (ANLI)",
+      "url": "https://github.com/facebookresearch/anli",
+      "category": "general",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "seismomete",
+      "url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/github.com/epic-open-source/seismometer",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "medbench",
+      "url": "https://github.com/open-compass/opencompass/tree/main/opencompass/datasets/medbench/",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "Fin-Eva",
+      "url": "https://github.com/alipay/financial_evaluation_dataset",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "GenMedicalEval",
+      "url": "https://github.com/MediaBrain-SJTU/GenMedicalEval",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "OpenFinData",
+      "url": "https://opencompass.org.cn/",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "LAiW",
+      "url": "https://github.com/Dai-shen/LAiW",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "LawBench",
+      "url": "https://github.com/open-compass/lawbench",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "PsyEval",
+      "url": "https://arxiv.org/abs/2311.09189",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "PPTC",
+      "url": "https://github.com/gydpku/PPTC",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "LLMRec",
+      "url": "https://github.com/williamliujl/LLMRec",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "LAiW",
+      "url": "https://github.com/Dai-shen/LAiW",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "OpsEval",
+      "url": "https://arxiv.org/abs/2310.07637",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "SWE-bench",
+      "url": "https://github.com/princeton-nlp/SWE-bench",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "BLURB",
+      "url": "https://microsoft.github.io/BLURB/index.html",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "SmartPlay",
+      "url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/github.com/microsoft/SmartPlay",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "FinEval",
+      "url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/github.com/SUFE-AIFLM-Lab/FinEval",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "GSM8K",
+      "url": "https://github.com/openai/grade-school-math",
+      "category": "domain",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "BERGEN",
+      "url": "https://github.com/naver/bergen",
+      "category": "rag-evaluation",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "CRAG",
+      "url": "https://arxiv.org/abs/2406.04744",
+      "category": "rag-evaluation",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "raga-llm-hub",
+      "url": "https://github.com/raga-ai-hub/raga-llm-hub",
+      "category": "rag-evaluation",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "ARES",
+      "url": "https://github.com/stanford-futuredata/ARES",
+      "category": "rag-evaluation",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "RGB",
+      "url": "https://github.com/chen700564/RGB",
+      "category": "rag-evaluation",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "tvalmetrics",
+      "url": "https://github.com/TonicAI/tvalmetrics",
+      "category": "rag-evaluation",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "SuperCLUE-Agent",
+      "url": "https://github.com/CLUEbenchmark/SuperCLUE-Agent",
+      "category": "agent-capabilities",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "AgentBench",
+      "url": "https://github.com/THUDM/AgentBench",
+      "category": "agent-capabilities",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "AgentBench",
+      "url": "https://github.com/THUDM/AgentBench",
+      "category": "agent-capabilities",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "ToolBench",
+      "url": "https://github.com/OpenBMB/ToolBench",
+      "category": "agent-capabilities",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "McEval",
+      "url": "https://github.com/MCEVAL/McEval",
+      "category": "code-capabilities",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "SuperCLUE-Agent",
+      "url": "https://github.com/FloatAI/HumanEval-XL",
+      "category": "code-capabilities",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "DebugBench",
+      "url": "https://github.com/thunlp/DebugBench",
+      "category": "code-capabilities",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "ChartVLM",
+      "url": "https://github.com/UniModal4Reasoning/ChartVLM",
+      "category": "multi-modalcross-modal",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "ReForm-Eval",
+      "url": "https://github.com/FudanDISC/ReForm-Eval",
+      "category": "multi-modalcross-modal",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "LVLM-eHub",
+      "url": "https://github.com/OpenGVLab/Multi-Modality-Arena",
+      "category": "multi-modalcross-modal",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "InfiniteBench",
+      "url": "https://github.com/OpenBMB/InfiniteBench",
+      "category": "long-context",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "llmperf",
+      "url": "https://github.com/ray-project/llmperf",
+      "category": "reasoning-speed",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "llm-analysis",
+      "url": "https://github.com/cli99/llm-analysis",
+      "category": "reasoning-speed",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "llm-inference-benchmark",
+      "url": "https://github.com/ninehills/llm-inference-benchmark",
+      "category": "reasoning-speed",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "llm-inference-bench",
+      "url": "https://github.com/CentML/llm-inference-bench",
+      "category": "reasoning-speed",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "GPU-Benchmarks-on-LLM-Inference",
+      "url": "https://github.com/XiongjieDai/GPU-Benchmarks-on-LLM-Inference",
+      "category": "reasoning-speed",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "LLM-QBench",
+      "url": "https://github.com/ModelTC/llmc",
+      "category": "quantization-and-compression",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "Chat Arena: anonymous models side-by-side and vote for which one is better",
+      "url": "https://chat.lmsys.org/?arena",
+      "category": "demos",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L401",
+      "line": 401,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://github.com/isen-zhang/ACLUE",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://llmbench.ai/agent",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://tatsu-lab.github.io/alpaca_eval/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://huggingface.co/spaces/AngoHF/ANGO-Leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://gair-nlp.github.io/BeHonest/#leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://lmarena.ai/?leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L415",
+      "line": 415,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://github.com/jeinlee1991/chinese-llm-benchmark",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "http://www.lavicleva.com/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://rank.opencompass.org.cn/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L418",
+      "line": 418,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://qa.mpi-inf.mpg.de/compmix",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://cevalbenchmark.com/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://dreambenchplus.github.io/#leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://hkust-nlp.github.io/felm",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://flageval.baai.ac.cn/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://github.com/vectara/hallucination-leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://crfm.stanford.edu/helm/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L425",
+      "line": 425,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L426",
+      "line": 426,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://huggingface.co/spaces/optimum/llm-perf-leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L427",
+      "line": 427,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://indicodata.ai/llm",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://infi-coder.github.io/infibench",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://intercode-benchmark.github.io/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://lawbench.opencompass.org.cn/leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://openrouter.ai/rankings",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "http://llmeval.com/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://llmleaderboard.goml.io/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://openrouter.ai/rankings",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://lightchen233.github.io/m3cot.github.io/leaderboard.html",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://huggingface.co/spaces/CoreyMorris/MMLU-by-task-Leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://chuanyangjin.com/mmtom-qa-leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://matheval.ai/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://gair-nlp.github.io/OlympicArena/#leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "http://openeval.org.cn/#/rank",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://huggingface.co/spaces/uonlp/open_multilingual_llm_leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://pubmedqa.github.io/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://llmbench.ai/safety",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://scibench-ucla.github.io/#leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://github.com/HICAI-ZJU/SciKnowEval",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://fm.ai.tsinghua.edu.cn/superbench/#/leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L448",
+      "line": 448,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://www.superclueai.com/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://super.gluebenchmark.com/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L450",
+      "line": 450,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://lab.kb.se/leaderboard/results",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://nextplusplus.github.io/TAT-DQA",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://nextplusplus.github.io/TAT-QA",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://llm-evals.formula-labs.com/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://toloka.ai/llm-leaderboard/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://huggingface.co/spaces/qiantong-xu/toolbench-leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://jykoh.com/vwa",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://we-math.github.io/#leaderboard",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L458",
+      "line": 458,
+      "properties": {}
+    },
+    {
+      "title": "Source",
+      "url": "https://whoops-benchmark.github.io/",
+      "category": "leaderboards",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "Llama 3 70B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct",
+      "category": "leaderboards-for-popular-provider-performance-and-cost-2024-05-14",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/EMNLP-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2310.07289",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L515",
+      "line": 515,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2307.03109",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L517",
+      "line": 517,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2307.03109",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L519",
+      "line": 519,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://www.microsoft.com/en-us/research/publication/gpteval-nlg-evaluation-using-gpt-4-with-better-human-alignment/",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L521",
+      "line": 521,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2302.04023",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/EMNLP-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2302.12095",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L526",
+      "line": 526,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2302.06476",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L528",
+      "line": 528,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2302.06466",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L530",
+      "line": 530,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2301.13867",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2302.08081",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L535",
+      "line": 535,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2302.12095",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2301.04655",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2302.10198",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L543",
+      "line": 543,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2303.07992",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L546",
+      "line": 546,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2023-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2303.16421",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2022-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2211.09110",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L551",
+      "line": 551,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2022-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2204.00498",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L553",
+      "line": 553,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/COLING-2022-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://aclanthology.org/2022.coling-1.491",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2022-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.48550/arXiv.2212.10529",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L557",
+      "line": 557,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/EMNLP-2022-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://aclanthology.org/2022.emnlp-main.132",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L560",
+      "line": 560,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/EMNLP-2022-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://aclanthology.org/2022.emnlp-main.653",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L563",
+      "line": 563,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2022-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2202.13169",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L566",
+      "line": 566,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2021-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2107.03374",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L568",
+      "line": 568,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/ACL-2021-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.18653/v1/2021.findings-acl.36",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L570",
+      "line": 570,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2021-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2104.05861",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L572",
+      "line": 572,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/ACL_Findings-2021-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.18653/v1/2021.findings-acl.322",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L575",
+      "line": 575,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/EMNLP-2021-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://doi.org/10.18653/v1/2021.emnlp-main.598",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L577",
+      "line": 577,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2020-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2006.14799",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L580",
+      "line": 580,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/CoRR-2020-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://arxiv.org/abs/2007.15780",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L582",
+      "line": 582,
+      "properties": {}
+    },
+    {
+      "title": "<img src=https://img.shields.io/badge/ICLR-2020-blue alt=\"img\" style=\"zoom:100%; vertical-align: middle\" />",
+      "url": "https://openreview.net/forum?id=SkeHuCVFDr",
+      "category": "papers",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L584",
+      "line": 584,
+      "properties": {}
+    },
+    {
+      "title": "Paper",
+      "url": "https://arxiv.org/pdf/2101.03961.pdf",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L607",
+      "line": 607,
+      "properties": {}
+    },
+    {
+      "title": "Paper",
+      "url": "https://arxiv.org/pdf/2112.06905.pdf",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L608",
+      "line": 608,
+      "properties": {}
+    },
+    {
+      "title": "Paper",
+      "url": "https://arxiv.org/pdf/2204.02311.pdf",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L609",
+      "line": 609,
+      "properties": {}
+    },
+    {
+      "title": "Paper",
+      "url": "https://arxiv.org/pdf/2201.11990.pdf",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L610",
+      "line": 610,
+      "properties": {}
+    },
+    {
+      "title": "api",
+      "url": "https://docs.ai21.com/docs/complete-api",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L611",
+      "line": 611,
+      "properties": {}
+    },
+    {
+      "title": "api",
+      "url": "https://opt.alpa.ai/",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L612",
+      "line": 612,
+      "properties": {}
+    },
+    {
+      "title": "api",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L613",
+      "line": 613,
+      "properties": {}
+    },
+    {
+      "title": "api",
+      "url": "https://openai.com/api/",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L614",
+      "line": 614,
+      "properties": {}
+    },
+    {
+      "title": "Paper",
+      "url": "https://arxiv.org/pdf/2201.08239.pdf",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L615",
+      "line": 615,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/THUDM/GLM-130B",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L616",
+      "line": 616,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/yandex/YaLM-100B",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L617",
+      "line": 617,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/facebookresearch/llama",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L618",
+      "line": 618,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/EleutherAI/gpt-neox",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L619",
+      "line": 619,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://huggingface.co/google/ul2#:~:text=UL2%20is%20a%20unified%20framework%20for%20pretraining%20models,downstream%20fine-tuning%20is%20associated%20with%20specific%20pre-training%20schemes.",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L620",
+      "line": 620,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://huggingface.co/t5-11b",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L621",
+      "line": 621,
+      "properties": {}
+    },
+    {
+      "title": "api",
+      "url": "https://live.openbmb.org/models/bee",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L622",
+      "line": 622,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://huggingface.co/BlinkDL/rwkv-4-pile-7b",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L623",
+      "line": 623,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://huggingface.co/EleutherAI/gpt-j-6B",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L624",
+      "line": 624,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/EleutherAI/gpt-neo",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L625",
+      "line": 625,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/EleutherAI/gpt-neo",
+      "category": "pre-trained-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L626",
+      "line": 626,
+      "properties": {}
+    },
+    {
+      "title": "Paper",
+      "url": "https://arxiv.org/pdf/2210.11416.pdf",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L632",
+      "line": 632,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://huggingface.co/bigscience/bloomz",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L633",
+      "line": 633,
+      "properties": {}
+    },
+    {
+      "title": "api",
+      "url": "https://platform.openai.com/overview",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L634",
+      "line": 634,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://huggingface.co/facebook/galactica-120b",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L635",
+      "line": 635,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/togethercomputer/OpenChatKit",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L636",
+      "line": 636,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/google-research/google-research/tree/master/ul2",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L637",
+      "line": 637,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L640",
+      "line": 640,
+      "properties": {}
+    },
+    {
+      "title": "ckpt",
+      "url": "https://huggingface.co/bigscience/T0",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L641",
+      "line": 641,
+      "properties": {}
+    },
+    {
+      "title": "demo",
+      "url": "https://crfm.stanford.edu/alpaca/",
+      "category": "instruction-finetuned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L642",
+      "line": 642,
+      "properties": {}
+    },
+    {
+      "title": "Blog",
+      "url": "https://openai.com/research/gpt-4",
+      "category": "aligned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L648",
+      "line": 648,
+      "properties": {}
+    },
+    {
+      "title": "demo",
+      "url": "https://openai.com/blog/chatgpt/",
+      "category": "aligned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L649",
+      "line": 649,
+      "properties": {}
+    },
+    {
+      "title": "Paper",
+      "url": "https://arxiv.org/pdf/2209.14375.pdf",
+      "category": "aligned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L650",
+      "line": 650,
+      "properties": {}
+    },
+    {
+      "title": "demo",
+      "url": "https://poe.com/claude",
+      "category": "aligned-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L651",
+      "line": 651,
+      "properties": {}
+    },
+    {
+      "title": "LLaMA",
+      "url": "https://ai.facebook.com/blog/large-language-model-llama-meta-ai/",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L656",
+      "line": 656,
+      "properties": {}
+    },
+    {
+      "title": "Alpaca",
+      "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L657",
+      "line": 657,
+      "properties": {}
+    },
+    {
+      "title": "Flan-Alpaca",
+      "url": "https://github.com/declare-lab/flan-alpaca",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L658",
+      "line": 658,
+      "properties": {}
+    },
+    {
+      "title": "Baize",
+      "url": "https://github.com/project-baize/baize-chatbot",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L659",
+      "line": 659,
+      "properties": {}
+    },
+    {
+      "title": "Cabrita",
+      "url": "https://github.com/22-hours/cabrita",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L660",
+      "line": 660,
+      "properties": {}
+    },
+    {
+      "title": "Vicuna",
+      "url": "https://github.com/lm-sys/FastChat",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L661",
+      "line": 661,
+      "properties": {}
+    },
+    {
+      "title": "Llama-X",
+      "url": "https://github.com/AetherCortex/Llama-X",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L662",
+      "line": 662,
+      "properties": {}
+    },
+    {
+      "title": "Chinese-Vicuna",
+      "url": "https://github.com/Facico/Chinese-Vicuna",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L663",
+      "line": 663,
+      "properties": {}
+    },
+    {
+      "title": "GPTQ-for-LLaMA",
+      "url": "https://github.com/qwopqwop200/GPTQ-for-LLaMa",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L664",
+      "line": 664,
+      "properties": {}
+    },
+    {
+      "title": "GPT4All",
+      "url": "https://github.com/nomic-ai/gpt4all",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L665",
+      "line": 665,
+      "properties": {}
+    },
+    {
+      "title": "Koala",
+      "url": "https://bair.berkeley.edu/blog/2023/04/03/koala/",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L666",
+      "line": 666,
+      "properties": {}
+    },
+    {
+      "title": "BELLE",
+      "url": "https://github.com/LianjiaTech/BELLE",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L667",
+      "line": 667,
+      "properties": {}
+    },
+    {
+      "title": "StackLLaMA",
+      "url": "https://huggingface.co/blog/stackllama",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L668",
+      "line": 668,
+      "properties": {}
+    },
+    {
+      "title": "RedPajama",
+      "url": "https://github.com/togethercomputer/RedPajama-Data",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L669",
+      "line": 669,
+      "properties": {}
+    },
+    {
+      "title": "Chimera",
+      "url": "https://github.com/FreedomIntelligence/LLMZoo",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L670",
+      "line": 670,
+      "properties": {}
+    },
+    {
+      "title": "BLOOM",
+      "url": "https://huggingface.co/bigscience/bloom",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L671",
+      "line": 671,
+      "properties": {}
+    },
+    {
+      "title": "BLOOMZ&mT0",
+      "url": "https://huggingface.co/bigscience/bloomz",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L672",
+      "line": 672,
+      "properties": {}
+    },
+    {
+      "title": "Phoenix",
+      "url": "https://github.com/FreedomIntelligence/LLMZoo",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "T5",
+      "url": "https://arxiv.org/abs/1910.10683",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L675",
+      "line": 675,
+      "properties": {}
+    },
+    {
+      "title": "T0",
+      "url": "https://arxiv.org/abs/2110.08207",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L676",
+      "line": 676,
+      "properties": {}
+    },
+    {
+      "title": "OPT",
+      "url": "https://arxiv.org/abs/2205.01068",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L678",
+      "line": 678,
+      "properties": {}
+    },
+    {
+      "title": "UL2",
+      "url": "https://arxiv.org/abs/2205.05131v1",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L679",
+      "line": 679,
+      "properties": {}
+    },
+    {
+      "title": "GLM",
+      "url": "https://github.com/THUDM/GLM",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L680",
+      "line": 680,
+      "properties": {}
+    },
+    {
+      "title": "RWKV",
+      "url": "https://github.com/BlinkDL/RWKV-LM",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L681",
+      "line": 681,
+      "properties": {}
+    },
+    {
+      "title": "ChatRWKV",
+      "url": "https://github.com/BlinkDL/ChatRWKV",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L682",
+      "line": 682,
+      "properties": {}
+    },
+    {
+      "title": "StableLM",
+      "url": "https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L683",
+      "line": 683,
+      "properties": {}
+    },
+    {
+      "title": "YaLM",
+      "url": "https://medium.com/yandex/yandex-publishes-yalm-100b-its-the-largest-gpt-like-neural-network-in-open-source-d1df53d0e9a6",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L684",
+      "line": 684,
+      "properties": {}
+    },
+    {
+      "title": "GPT-Neo",
+      "url": "https://github.com/EleutherAI/gpt-neo",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L685",
+      "line": 685,
+      "properties": {}
+    },
+    {
+      "title": "GPT-J",
+      "url": "https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L686",
+      "line": 686,
+      "properties": {}
+    },
+    {
+      "title": "Dolly",
+      "url": "https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L687",
+      "line": 687,
+      "properties": {}
+    },
+    {
+      "title": "Pythia",
+      "url": "https://github.com/EleutherAI/pythia",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L689",
+      "line": 689,
+      "properties": {}
+    },
+    {
+      "title": "Dolly 2.0",
+      "url": "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L690",
+      "line": 690,
+      "properties": {}
+    },
+    {
+      "title": "OpenFlamingo",
+      "url": "https://github.com/mlfoundations/open_flamingo",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L691",
+      "line": 691,
+      "properties": {}
+    },
+    {
+      "title": "Cerebras-GPT",
+      "url": "https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L692",
+      "line": 692,
+      "properties": {}
+    },
+    {
+      "title": "GALACTICA",
+      "url": "https://github.com/paperswithcode/galai/blob/main/docs/model_card.md",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L693",
+      "line": 693,
+      "properties": {}
+    },
+    {
+      "title": "GALPACA",
+      "url": "https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-30b",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L694",
+      "line": 694,
+      "properties": {}
+    },
+    {
+      "title": "Palmyra",
+      "url": "https://huggingface.co/Writer/palmyra-base",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L696",
+      "line": 696,
+      "properties": {}
+    },
+    {
+      "title": "Camel",
+      "url": "https://huggingface.co/Writer/camel-5b-hf",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L697",
+      "line": 697,
+      "properties": {}
+    },
+    {
+      "title": "h2oGPT",
+      "url": "https://github.com/h2oai/h2ogpt",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L698",
+      "line": 698,
+      "properties": {}
+    },
+    {
+      "title": "PanGu-α",
+      "url": "https://openi.org.cn/pangu/",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L699",
+      "line": 699,
+      "properties": {}
+    },
+    {
+      "title": "Open-Assistant",
+      "url": "https://github.com/LAION-AI/Open-Assistant",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L700",
+      "line": 700,
+      "properties": {}
+    },
+    {
+      "title": "HuggingChat",
+      "url": "https://huggingface.co/chat/",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L701",
+      "line": 701,
+      "properties": {}
+    },
+    {
+      "title": "Baichuan",
+      "url": "https://github.com/baichuan-inc/Baichuan-13B",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L702",
+      "line": 702,
+      "properties": {}
+    },
+    {
+      "title": "Qwen",
+      "url": "https://github.com/QwenLM/Qwen-7B",
+      "category": "open-llm",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L703",
+      "line": 703,
+      "properties": {}
+    },
+    {
+      "title": "Accelerate",
+      "url": "https://github.com/huggingface/accelerate",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L773",
+      "line": 773,
+      "properties": {}
+    },
+    {
+      "title": "Apache MXNet",
+      "url": "https://github.com/apache/mxnet",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L774",
+      "line": 774,
+      "properties": {}
+    },
+    {
+      "title": "Caffe",
+      "url": "https://github.com/BVLC/caffe",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L775",
+      "line": 775,
+      "properties": {}
+    },
+    {
+      "title": "ColossalAI",
+      "url": "https://github.com/hpcaitech/ColossalAI",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L776",
+      "line": 776,
+      "properties": {}
+    },
+    {
+      "title": "DeepSpeed",
+      "url": "https://github.com/microsoft/DeepSpeed",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L777",
+      "line": 777,
+      "properties": {}
+    },
+    {
+      "title": "Horovod",
+      "url": "https://github.com/horovod/horovod",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L778",
+      "line": 778,
+      "properties": {}
+    },
+    {
+      "title": "Jax",
+      "url": "https://github.com/google/jax",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L779",
+      "line": 779,
+      "properties": {}
+    },
+    {
+      "title": "Kedro",
+      "url": "https://github.com/kedro-org/kedro",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L780",
+      "line": 780,
+      "properties": {}
+    },
+    {
+      "title": "Keras",
+      "url": "https://github.com/keras-team/keras",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L781",
+      "line": 781,
+      "properties": {}
+    },
+    {
+      "title": "LightGBM",
+      "url": "https://github.com/microsoft/LightGBM",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L782",
+      "line": 782,
+      "properties": {}
+    },
+    {
+      "title": "MegEngine",
+      "url": "https://github.com/MegEngine/MegEngine",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L783",
+      "line": 783,
+      "properties": {}
+    },
+    {
+      "title": "metric-learn",
+      "url": "https://github.com/scikit-learn-contrib/metric-learn",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L784",
+      "line": 784,
+      "properties": {}
+    },
+    {
+      "title": "MindSpore",
+      "url": "https://github.com/mindspore-ai/mindspore",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L785",
+      "line": 785,
+      "properties": {}
+    },
+    {
+      "title": "Oneflow",
+      "url": "https://github.com/Oneflow-Inc/oneflow",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L786",
+      "line": 786,
+      "properties": {}
+    },
+    {
+      "title": "PaddlePaddle",
+      "url": "https://github.com/PaddlePaddle/Paddle",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L787",
+      "line": 787,
+      "properties": {}
+    },
+    {
+      "title": "PyTorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L788",
+      "line": 788,
+      "properties": {}
+    },
+    {
+      "title": "PyTorch Lightning",
+      "url": "https://github.com/lightning-AI/lightning",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L789",
+      "line": 789,
+      "properties": {}
+    },
+    {
+      "title": "XGBoost",
+      "url": "https://github.com/dmlc/xgboost",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L790",
+      "line": 790,
+      "properties": {}
+    },
+    {
+      "title": "scikit-learn",
+      "url": "https://github.com/scikit-learn/scikit-learn",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L791",
+      "line": 791,
+      "properties": {}
+    },
+    {
+      "title": "TensorFlow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L792",
+      "line": 792,
+      "properties": {}
+    },
+    {
+      "title": "VectorFlow",
+      "url": "https://github.com/Netflix/vectorflow",
+      "category": "frameworks-for-training",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L793",
+      "line": 793,
+      "properties": {}
+    },
+    {
+      "title": "Byzer-LLM",
+      "url": "https://github.com/allwefantasy/byzer-llm",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L801",
+      "line": 801,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "agenta",
+      "url": "https://github.com/Agenta-AI/agenta",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L802",
+      "line": 802,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "Arize-Phoenix",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L803",
+      "line": 803,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "BudgetML",
+      "url": "https://github.com/ebhy/budgetml",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L804",
+      "line": 804,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "CometLLM",
+      "url": "https://github.com/comet-ml/comet-llm",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L805",
+      "line": 805,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "deeplake",
+      "url": "https://github.com/activeloopai/deeplake",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L806",
+      "line": 806,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "Dify",
+      "url": "https://github.com/langgenius/dify",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L807",
+      "line": 807,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "Dstack",
+      "url": "https://github.com/dstackai/dstack",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L808",
+      "line": 808,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "Embedchain",
+      "url": "https://github.com/embedchain/embedchain",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L809",
+      "line": 809,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "GPTCache",
+      "url": "https://github.com/zilliztech/GPTCache",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L810",
+      "line": 810,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "Haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L811",
+      "line": 811,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "langchain",
+      "url": "https://github.com/hwchase17/langchain",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L812",
+      "line": 812,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "LangFlow",
+      "url": "https://github.com/logspace-ai/langflow",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L813",
+      "line": 813,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "LangKit",
+      "url": "https://github.com/whylabs/langkit",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L814",
+      "line": 814,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "LiteLLM 🚅",
+      "url": "https://github.com/BerriAI/litellm/",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L815",
+      "line": 815,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "LlamaIndex",
+      "url": "https://github.com/jerryjliu/llama_index",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L816",
+      "line": 816,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "LLMApp",
+      "url": "https://github.com/pathwaycom/llm-app",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L817",
+      "line": 817,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "LLMFlows",
+      "url": "https://github.com/stoyan-stoyanov/llmflows",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L818",
+      "line": 818,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "LLMonitor",
+      "url": "https://github.com/llmonitor/llmonitor",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L819",
+      "line": 819,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "magentic",
+      "url": "https://github.com/jackmpcollins/magentic",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L820",
+      "line": 820,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "Pezzo 🕹️",
+      "url": "https://github.com/pezzolabs/pezzo",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L821",
+      "line": 821,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "promptfoo",
+      "url": "https://github.com/typpo/promptfoo",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L822",
+      "line": 822,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "prompttools",
+      "url": "https://github.com/hegelai/prompttools",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L823",
+      "line": 823,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "TrueFoundry",
+      "url": "https://www.truefoundry.com/",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L824",
+      "line": 824,
+      "properties": {
+        "Stars": "No GitHub link"
+      }
+    },
+    {
+      "title": "ReliableGPT 💪",
+      "url": "https://github.com/BerriAI/reliableGPT/",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L825",
+      "line": 825,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "Weights & Biases (Prompts)",
+      "url": "https://docs.wandb.ai/guides/prompts",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L826",
+      "line": 826,
+      "properties": {
+        "Stars": "No GitHub link"
+      }
+    },
+    {
+      "title": "xTuring",
+      "url": "https://github.com/stochasticai/xturing",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L827",
+      "line": 827,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "ZenML",
+      "url": "https://github.com/zenml-io/zenml",
+      "category": "llmops",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L828",
+      "line": 828,
+      "properties": {
+        "Stars": ""
+      }
+    },
+    {
+      "title": "大语言模型课程notebooks集-Large Language Model Course",
+      "url": "https://github.com/mlabonne/llm-course",
+      "category": "courses",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L834",
+      "line": 834,
+      "properties": {}
+    },
+    {
+      "title": "Full+Stack+LLM+Bootcamp",
+      "url": "https://ihower.tw/notes/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98-AI/Full+Stack+LLM+Bootcamp",
+      "category": "courses",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L835",
+      "line": 835,
+      "properties": {}
+    },
+    {
+      "title": "Awesome LLM",
+      "url": "https://github.com/Hannibal046/Awesome-LLM/",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L843",
+      "line": 843,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-Efficient-LLM",
+      "url": "https://github.com/horseee/Awesome-Efficient-LLM",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L844",
+      "line": 844,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-production-machine-learning",
+      "url": "https://github.com/EthicalML/awesome-production-machine-learning",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L845",
+      "line": 845,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-marketing-datascience",
+      "url": "https://github.com/underlines/awesome-marketing-datascience",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L846",
+      "line": 846,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-llm-tools",
+      "url": "https://github.com/underlines/awesome-marketing-datascience/blob/master/llm-tools.md",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L847",
+      "line": 847,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-LLM-Compression",
+      "url": "https://github.com/HuangOwen/Awesome-LLM-Compression",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L848",
+      "line": 848,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-Multimodal-Large-Language-Models",
+      "url": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L849",
+      "line": 849,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-LLMOps",
+      "url": "https://github.com/tensorchord/Awesome-LLMOps",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L850",
+      "line": 850,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-MLops",
+      "url": "https://github.com/visenger/awesome-mlops",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L851",
+      "line": 851,
+      "properties": {}
+    },
+    {
+      "title": "Awesome ChatGPT Prompts",
+      "url": "https://github.com/f/awesome-chatgpt-prompts",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L852",
+      "line": 852,
+      "properties": {}
+    },
+    {
+      "title": "awesome-chatgpt-prompts-zh",
+      "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L853",
+      "line": 853,
+      "properties": {}
+    },
+    {
+      "title": "Awesome ChatGPT",
+      "url": "https://github.com/humanloop/awesome-chatgpt",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L854",
+      "line": 854,
+      "properties": {}
+    },
+    {
+      "title": "Chain-of-Thoughts Papers",
+      "url": "https://github.com/Timothyxxx/Chain-of-ThoughtsPapers",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L855",
+      "line": 855,
+      "properties": {}
+    },
+    {
+      "title": "Instruction-Tuning-Papers",
+      "url": "https://github.com/SinclairCoder/Instruction-Tuning-Papers",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L856",
+      "line": 856,
+      "properties": {}
+    },
+    {
+      "title": "LLM Reading List",
+      "url": "https://github.com/crazyofapple/Reading_groups/",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L857",
+      "line": 857,
+      "properties": {}
+    },
+    {
+      "title": "Reasoning using Language Models",
+      "url": "https://github.com/atfortes/LM-Reasoning-Papers",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L858",
+      "line": 858,
+      "properties": {}
+    },
+    {
+      "title": "Chain-of-Thought Hub",
+      "url": "https://github.com/FranxYao/chain-of-thought-hub",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L859",
+      "line": 859,
+      "properties": {}
+    },
+    {
+      "title": "Awesome GPT",
+      "url": "https://github.com/formulahendry/awesome-gpt",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L860",
+      "line": 860,
+      "properties": {}
+    },
+    {
+      "title": "Awesome GPT-3",
+      "url": "https://github.com/elyase/awesome-gpt3",
+      "category": "other-awesome-lists",
+      "source_url": "https://github.com/onejune2018/Awesome-LLM-Eval/blob/5b43a7e884e29339c9182d842a3dccb954a1f053/README.md#L861",
+      "line": 861,
+      "properties": {}
+    }
+  ],
+  "properties": [
+    "Stars",
+    "Task Type"
+  ],
+  "entry_count": 476,
+  "unique_links": 412,
+  "category_count": 26,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by onejune2018/Awesome-LLM-Eval contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/onejune2018/Awesome-LLM-Eval/tree/5b43a7e884e29339c9182d842a3dccb954a1f053",
+  "digest": "ebec637aa1e370a30e0f386b34ba079e239eefad6d656bf8e06b82d06557a168"
+}

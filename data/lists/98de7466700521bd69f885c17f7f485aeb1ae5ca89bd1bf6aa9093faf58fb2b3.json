@@ -1,0 +1,660 @@
+{
+  "format_version": 2,
+  "repository_id": "692396820",
+  "name": "itaymigdal/awesome-injection",
+  "revision": "59b1c3ce1571519db709a9982804fc9bc093a97c",
+  "readme_path": "README.md",
+  "readme_sha256": "036f96e8fb69843442aa397322e4855eb611ce6fc8fcc5b5feacf834f3c1ee63",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 1,
+      "path": [
+        "Introduction"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#introduction",
+      "entries": 0
+    },
+    {
+      "id": "linux-injection",
+      "title": "Linux Injection",
+      "level": 1,
+      "path": [
+        "Linux Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#linux-injection",
+      "entries": 0
+    },
+    {
+      "id": "process-spawning",
+      "title": "Process Spawning",
+      "level": 2,
+      "path": [
+        "Linux Injection",
+        "Process Spawning"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#process-spawning",
+      "entries": 0
+    },
+    {
+      "id": "ld_preload",
+      "title": "LD_PRELOAD",
+      "level": 4,
+      "path": [
+        "Linux Injection",
+        "Process Spawning",
+        "LD_PRELOAD"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#ld_preload",
+      "entries": 0
+    },
+    {
+      "id": "seccomp-notifier",
+      "title": "Seccomp Notifier",
+      "level": 4,
+      "path": [
+        "Linux Injection",
+        "Process Spawning",
+        "Seccomp Notifier"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#seccomp-notifier",
+      "entries": 0
+    },
+    {
+      "id": "process-injection",
+      "title": "Process Injection",
+      "level": 2,
+      "path": [
+        "Linux Injection",
+        "Process Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#process-injection",
+      "entries": 0
+    },
+    {
+      "id": "ptrace",
+      "title": "PTRACE",
+      "level": 4,
+      "path": [
+        "Linux Injection",
+        "Process Injection",
+        "PTRACE"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#ptrace",
+      "entries": 0
+    },
+    {
+      "id": "proc-memory",
+      "title": "Proc Memory",
+      "level": 4,
+      "path": [
+        "Linux Injection",
+        "Process Injection",
+        "Proc Memory"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#proc-memory",
+      "entries": 0
+    },
+    {
+      "id": "windows-injection",
+      "title": "Windows Injection",
+      "level": 1,
+      "path": [
+        "Windows Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#windows-injection",
+      "entries": 0
+    },
+    {
+      "id": "process-spawning-1",
+      "title": "Process Spawning",
+      "level": 2,
+      "path": [
+        "Windows Injection",
+        "Process Spawning"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#process-spawning-1",
+      "entries": 0
+    },
+    {
+      "id": "process-hollowing",
+      "title": "Process Hollowing",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Process Hollowing"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#process-hollowing",
+      "entries": 0
+    },
+    {
+      "id": "transacted-hollowing",
+      "title": "Transacted Hollowing",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Transacted Hollowing"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#transacted-hollowing",
+      "entries": 0
+    },
+    {
+      "id": "process-doppelganging",
+      "title": "Process Doppelganging",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Process Doppelganging"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#process-doppelganging",
+      "entries": 0
+    },
+    {
+      "id": "process-herpaderping",
+      "title": "Process Herpaderping",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Process Herpaderping"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#process-herpaderping",
+      "entries": 0
+    },
+    {
+      "id": "process-ghosting",
+      "title": "Process Ghosting",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Process Ghosting"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#process-ghosting",
+      "entries": 0
+    },
+    {
+      "id": "early-bird",
+      "title": "Early Bird",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Early Bird"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#early-bird",
+      "entries": 0
+    },
+    {
+      "id": "entrypoint-patching",
+      "title": "EntryPoint Patching",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "EntryPoint Patching"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#entrypoint-patching",
+      "entries": 0
+    },
+    {
+      "id": "ruy-lopez",
+      "title": "Ruy-Lopez",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Ruy-Lopez"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#ruy-lopez",
+      "entries": 0
+    },
+    {
+      "id": "early-cascade-injection",
+      "title": "Early Cascade Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Early Cascade Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#early-cascade-injection",
+      "entries": 0
+    },
+    {
+      "id": "kernel-callback-table-injection",
+      "title": "Kernel Callback Table Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "Kernel Callback Table Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#kernel-callback-table-injection",
+      "entries": 0
+    },
+    {
+      "id": "pichichih0ll0wer---split-hollowing",
+      "title": "PichichiH0ll0wer - Split Hollowing",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Spawning",
+        "PichichiH0ll0wer - Split Hollowing"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#pichichih0ll0wer---split-hollowing",
+      "entries": 0
+    },
+    {
+      "id": "process-injection-1",
+      "title": "Process Injection",
+      "level": 2,
+      "path": [
+        "Windows Injection",
+        "Process Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#process-injection-1",
+      "entries": 0
+    },
+    {
+      "id": "classic-dll-injection",
+      "title": "Classic Dll Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Classic Dll Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#classic-dll-injection",
+      "entries": 0
+    },
+    {
+      "id": "classic-shellcode-injection",
+      "title": "Classic Shellcode Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Classic Shellcode Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#classic-shellcode-injection",
+      "entries": 0
+    },
+    {
+      "id": "dll-injection-via-setwindowshookex",
+      "title": "Dll Injection via SetWindowsHookEx",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Dll Injection via SetWindowsHookEx"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#dll-injection-via-setwindowshookex",
+      "entries": 0
+    },
+    {
+      "id": "reflective-dll-injection",
+      "title": "Reflective Dll Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Reflective Dll Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#reflective-dll-injection",
+      "entries": 0
+    },
+    {
+      "id": "pe-injection",
+      "title": "PE Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "PE Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#pe-injection",
+      "entries": 0
+    },
+    {
+      "id": "section-mapping-injection",
+      "title": "Section Mapping Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Section Mapping Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#section-mapping-injection",
+      "entries": 0
+    },
+    {
+      "id": "apc-queue-injection",
+      "title": "APC Queue Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "APC Queue Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#apc-queue-injection",
+      "entries": 0
+    },
+    {
+      "id": "thread-execution-hijacking",
+      "title": "Thread Execution Hijacking",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Thread Execution Hijacking"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#thread-execution-hijacking",
+      "entries": 0
+    },
+    {
+      "id": "atom-bombing-injection",
+      "title": "Atom Bombing Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Atom Bombing Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#atom-bombing-injection",
+      "entries": 0
+    },
+    {
+      "id": "mocking-jay-injection",
+      "title": "Mocking jay Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Mocking jay Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#mocking-jay-injection",
+      "entries": 0
+    },
+    {
+      "id": "listplanting-injection",
+      "title": "ListPlanting Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "ListPlanting Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#listplanting-injection",
+      "entries": 0
+    },
+    {
+      "id": "extra-window-memory-injection",
+      "title": "Extra Window Memory Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Extra Window Memory Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#extra-window-memory-injection",
+      "entries": 0
+    },
+    {
+      "id": "threadlessinject",
+      "title": "ThreadlessInject",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "ThreadlessInject"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#threadlessinject",
+      "entries": 0
+    },
+    {
+      "id": "epi",
+      "title": "EPI",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "EPI"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#epi",
+      "entries": 0
+    },
+    {
+      "id": "dllnotification-injection",
+      "title": "DllNotification Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "DllNotification Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#dllnotification-injection",
+      "entries": 0
+    },
+    {
+      "id": "d1rkinject",
+      "title": "D1rkInject",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "D1rkInject"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#d1rkinject",
+      "entries": 0
+    },
+    {
+      "id": "ntqueueapcthreadex-gadget-injection",
+      "title": "NtQueueAPCThreadEx Gadget Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "NtQueueAPCThreadEx Gadget Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#ntqueueapcthreadex-gadget-injection",
+      "entries": 0
+    },
+    {
+      "id": "dirty-vanity",
+      "title": "Dirty-Vanity",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Dirty-Vanity"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#dirty-vanity",
+      "entries": 0
+    },
+    {
+      "id": "function-stomping",
+      "title": "Function Stomping",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Function Stomping"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#function-stomping",
+      "entries": 0
+    },
+    {
+      "id": "caro-kann",
+      "title": "Caro-Kann",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Caro-Kann"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#caro-kann",
+      "entries": 0
+    },
+    {
+      "id": "stack-bombing",
+      "title": "Stack Bombing",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Stack Bombing"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#stack-bombing",
+      "entries": 0
+    },
+    {
+      "id": "ghost-injector",
+      "title": "Ghost Injector",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Ghost Injector"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#ghost-injector",
+      "entries": 0
+    },
+    {
+      "id": "ghost-writing",
+      "title": "Ghost Writing",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Ghost Writing"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#ghost-writing",
+      "entries": 0
+    },
+    {
+      "id": "ghost-writing-2",
+      "title": "Ghost Writing 2",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Ghost Writing 2"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#ghost-writing-2",
+      "entries": 0
+    },
+    {
+      "id": "mapping-injection-with-instrumentation-callback",
+      "title": "Mapping Injection with Instrumentation Callback",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Mapping Injection with Instrumentation Callback"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#mapping-injection-with-instrumentation-callback",
+      "entries": 0
+    },
+    {
+      "id": "setprocessinjection",
+      "title": "SetProcessInjection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "SetProcessInjection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#setprocessinjection",
+      "entries": 0
+    },
+    {
+      "id": "pool-party-injection",
+      "title": "Pool Party Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Pool Party Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#pool-party-injection",
+      "entries": 0
+    },
+    {
+      "id": "thread-name-calling",
+      "title": "Thread Name Calling",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Thread Name Calling"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#thread-name-calling",
+      "entries": 0
+    },
+    {
+      "id": "waiting-thread-hijacking",
+      "title": "Waiting Thread Hijacking",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Waiting Thread Hijacking"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#waiting-thread-hijacking",
+      "entries": 0
+    },
+    {
+      "id": "redirectthread-context-injection",
+      "title": "RedirectThread Context Injection",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "RedirectThread Context Injection"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#redirectthread-context-injection",
+      "entries": 0
+    },
+    {
+      "id": "overwriting-loaded-dll-entrypoint",
+      "title": "Overwriting Loaded DLL EntryPoint",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Overwriting Loaded DLL EntryPoint"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#overwriting-loaded-dll-entrypoint",
+      "entries": 0
+    },
+    {
+      "id": "living-of-the-process-by-g3tsyst3m",
+      "title": "Living Of The Process by g3tsyst3m",
+      "level": 4,
+      "path": [
+        "Windows Injection",
+        "Process Injection",
+        "Living Of The Process by g3tsyst3m"
+      ],
+      "source_url": "https://github.com/itaymigdal/awesome-injection/blob/59b1c3ce1571519db709a9982804fc9bc093a97c/README.md#living-of-the-process-by-g3tsyst3m",
+      "entries": 0
+    }
+  ],
+  "entries": [],
+  "properties": [],
+  "entry_count": 0,
+  "unique_links": 0,
+  "category_count": 0,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by itaymigdal/awesome-injection contributors.",
+  "license": null,
+  "license_url": "https://github.com/itaymigdal/awesome-injection/tree/59b1c3ce1571519db709a9982804fc9bc093a97c",
+  "digest": "98de7466700521bd69f885c17f7f485aeb1ae5ca89bd1bf6aa9093faf58fb2b3"
+}

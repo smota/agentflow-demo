@@ -65,6 +65,14 @@ the PID in `.agent-runs/list-crawler.lock` before recovering a crashed process. 
 delete an active or unknown writer lock. A changed engine/checkpoint requires a new
 reviewed run; editing its hashes to force resume is prohibited.
 
+For a reviewed engine correction, `replay` creates a new generation from a completed
+discovery checkpoint. Supply `--source-run` and its exact `--expected-digest`, plus
+a new `--run-id`. It requires identical discovery queries and threshold, verifies
+each reused raw input's SHA-256, reparses rather than copying classifications, and
+records the source engine/digest. The source checkpoint is never modified. Resume
+unfinished enrichment normally against the new generation. Replays are local
+integrity checks, not cryptographic attestations from GitHub.
+
 `--interrupt-after` injects a real local interruption after durable search pages or
 enrichment batches. Resume with the same run ID without that flag. Test and actual
 live interruption observations are recorded separately in the delivery journal.
@@ -75,3 +83,18 @@ A partial publication leaves the previous index usable. Existing generations rem
 available for recovery; cleanup requires a separate referenced-generation review.
 The free Streamlit host reads these committed files only: no crawler, credentials,
 AI inference or database service runs there.
+
+## Early snapshot versus completed enrichment
+
+The first accepted list-first generation is intentionally partial: 8,373 discovered
+candidates, 1,510 eligible lists, 6,503 pending, 360 excluded, and 5,326 still awaiting
+content enrichment. Its digest is
+`9ab420eac2c8922dee53147030a5272bd92616baa23a8e60db13ff4b78c23796`.
+Fifteen eligible records were observed at exactly 100 stars. Eligibility can change
+with better content evidence; it is not inferred from membership in a source allowlist.
+Further classification, freshness and contributor enrichment is tracked in issue22.
+
+At every promotion, validate the whole generation locally. The hosted app lazily
+validates the selected shard against the index's repository name, revision, README
+path and SHA-256, and binds category/entry source links to that exact source. A JSON
+digest alone does not make arbitrary links or inconsistent provenance acceptable.

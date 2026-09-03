@@ -8,6 +8,11 @@ from awesome.catalogue import digest
 from awesome.lists import classify, parse_readme, profile, freshness, validate_index, validate_detail, topics
 
 REV = "a" * 40
+@pytest.mark.parametrize("name", ["gege-circle/.github", "owner/_resources", "owner/-resources"])
+def test_valid_repository_punctuation(name):
+    assert parse_readme("# Resources", name, REV)["entry_count"] == 0
+
+
 MD = "# Awesome things\nA curated list of useful resources.\n\n## Tools\n" + "\n".join(
     f"- [Tool {i}](https://example.org/tool/{i}) - Descriptive prose not republished." for i in range(5))
 

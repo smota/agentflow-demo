@@ -1,0 +1,3634 @@
+{
+  "format_version": 2,
+  "repository_id": "1278930806",
+  "name": "benchflow-ai/awesome-evals",
+  "revision": "1b8928b60a9d41cbab371610d741d39a3fd50860",
+  "readme_path": "README.md",
+  "readme_sha256": "254303ef5d8a6fd7afa9550bc052e5732ed062018b7c9774cd9fb64069e7cc49",
+  "sections": [
+    {
+      "id": "awesome-agent-evals",
+      "title": "Awesome Agent Evals",
+      "level": 1,
+      "path": [
+        "Awesome Agent Evals"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#awesome-agent-evals",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "Contents"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "-must-read-starter-set-read-these-first",
+      "title": "⭐ Must-read starter set (read these first)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "⭐ Must-read starter set (read these first)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#-must-read-starter-set-read-these-first",
+      "entries": 12
+    },
+    {
+      "id": "1--why-we-need-evals",
+      "title": "1 · Why we need evals",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "1 · Why we need evals"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#1--why-we-need-evals",
+      "entries": 15
+    },
+    {
+      "id": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "title": "2 · \"If you can eval it, you have built it\" — eval ⇄ capability ⇄ RL environment",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "2 · \"If you can eval it, you have built it\" — eval ⇄ capability ⇄ RL environment"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "entries": 17
+    },
+    {
+      "id": "3--the-model--harness--skill-decomposition",
+      "title": "3 · The model / harness / skill decomposition",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "3 · The model / harness / skill decomposition"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#3--the-model--harness--skill-decomposition",
+      "entries": 17
+    },
+    {
+      "id": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "title": "4 · Observability & the output / eval space (the surfaces you can grade)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "4 · Observability & the output / eval space (the surfaces you can grade)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "entries": 11
+    },
+    {
+      "id": "5--evaluation-infrastructure-the-eval-stack-datasets-scorers-onlineoffline-tracing-ci",
+      "title": "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#5--evaluation-infrastructure-the-eval-stack-datasets-scorers-onlineoffline-tracing-ci",
+      "entries": 0
+    },
+    {
+      "id": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "title": "5a · Eval frameworks & harnesses (code-first test-runners)",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)",
+        "5a · Eval frameworks & harnesses (code-first test-runners)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#5a--eval-frameworks--harnesses-code-first-test-runners",
+      "entries": 23
+    },
+    {
+      "id": "5b--typescriptjs-native-eval-runners",
+      "title": "5b · TypeScript/JS-native eval runners",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)",
+        "5b · TypeScript/JS-native eval runners"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#5b--typescriptjs-native-eval-runners",
+      "entries": 5
+    },
+    {
+      "id": "5c--rag--retrieval-evaluation",
+      "title": "5c · RAG / retrieval evaluation",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)",
+        "5c · RAG / retrieval evaluation"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#5c--rag--retrieval-evaluation",
+      "entries": 5
+    },
+    {
+      "id": "5d--llm-as-judge--reward--verifier-libraries",
+      "title": "5d · LLM-as-judge / reward / verifier libraries",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)",
+        "5d · LLM-as-judge / reward / verifier libraries"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#5d--llm-as-judge--reward--verifier-libraries",
+      "entries": 11
+    },
+    {
+      "id": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "title": "5e · RL-environment / verifiable-reward toolkits (eval ⇄ training)",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)",
+        "5e · RL-environment / verifiable-reward toolkits (eval ⇄ training)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "entries": 9
+    },
+    {
+      "id": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "title": "5f · Observability + eval platforms (tracing · datasets · online/offline · CI)",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)",
+        "5f · Observability + eval platforms (tracing · datasets · online/offline · CI)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "entries": 18
+    },
+    {
+      "id": "5g--tracing-standards",
+      "title": "5g · Tracing standards",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "5 · Evaluation infrastructure (the eval stack: datasets, scorers, online/offline, tracing, CI)",
+        "5g · Tracing standards"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#5g--tracing-standards",
+      "entries": 9
+    },
+    {
+      "id": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "title": "6 · Benchmark vs. eval (and benchmark integrity: contamination, saturation, label errors, leaderboard gaming)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "6 · Benchmark vs. eval (and benchmark integrity: contamination, saturation, label errors, leaderboard gaming)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "entries": 32
+    },
+    {
+      "id": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "title": "7 · Evals & RL environments (verifiers, reward design, difficulty calibration, lifecycle)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "7 · Evals & RL environments (verifiers, reward design, difficulty calibration, lifecycle)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "entries": 15
+    },
+    {
+      "id": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "title": "8 · LLM-as-judge & verifiers (alignment, biases, verifiable vs judgeable)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "8 · LLM-as-judge & verifiers (alignment, biases, verifiable vs judgeable)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "entries": 26
+    },
+    {
+      "id": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "title": "9 · Agent-specific evaluation (trajectories, tool use, multi-turn, world state, multi-agent, localization)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "9 · Agent-specific evaluation (trajectories, tool use, multi-turn, world state, multi-agent, localization)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "entries": 75
+    },
+    {
+      "id": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "title": "10 · Safety / adversarial evaluation (prompt injection, jailbreaks, action-authorization, benchmark auditing)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "10 · Safety / adversarial evaluation (prompt injection, jailbreaks, action-authorization, benchmark auditing)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "entries": 27
+    },
+    {
+      "id": "-talks-podcasts--slides-transcribed--noted",
+      "title": "🎙 Talks, podcasts & slides (transcribed + noted)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "🎙 Talks, podcasts & slides (transcribed + noted)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#-talks-podcasts--slides-transcribed--noted",
+      "entries": 0
+    },
+    {
+      "id": "-conference--individual-talks",
+      "title": "🎤 Conference & individual talks",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "🎙 Talks, podcasts & slides (transcribed + noted)",
+        "🎤 Conference & individual talks"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#-conference--individual-talks",
+      "entries": 22
+    },
+    {
+      "id": "-podcast-episodes",
+      "title": "🎙 Podcast episodes",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "🎙 Talks, podcasts & slides (transcribed + noted)",
+        "🎙 Podcast episodes"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#-podcast-episodes",
+      "entries": 18
+    },
+    {
+      "id": "-university-lectures",
+      "title": "🎓 University lectures",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "🎙 Talks, podcasts & slides (transcribed + noted)",
+        "🎓 University lectures"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#-university-lectures",
+      "entries": 5
+    },
+    {
+      "id": "-slide-decks",
+      "title": "🖼 Slide decks",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "🎙 Talks, podcasts & slides (transcribed + noted)",
+        "🖼 Slide decks"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#-slide-decks",
+      "entries": 0
+    },
+    {
+      "id": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "title": "More eval talks, podcasts & lectures (annotated; deep notes in progress)",
+      "level": 3,
+      "path": [
+        "Awesome Agent Evals",
+        "🎙 Talks, podcasts & slides (transcribed + noted)",
+        "More eval talks, podcasts & lectures (annotated; deep notes in progress)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "entries": 30
+    },
+    {
+      "id": "-eval-mentions",
+      "title": "💬 Eval mentions",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "💬 Eval mentions"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#-eval-mentions",
+      "entries": 0
+    },
+    {
+      "id": "companies--landscape-eval--rl-environment-market",
+      "title": "Companies & landscape (eval / RL-environment market)",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "Companies & landscape (eval / RL-environment market)"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#companies--landscape-eval--rl-environment-market",
+      "entries": 1
+    },
+    {
+      "id": "notes-on-provenance--gaps",
+      "title": "Notes on provenance & gaps",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "Notes on provenance & gaps"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#notes-on-provenance--gaps",
+      "entries": 0
+    },
+    {
+      "id": "deep-notes",
+      "title": "Deep notes",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "Deep notes"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#deep-notes",
+      "entries": 3
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "Contributing"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "Awesome Agent Evals",
+        "License"
+      ],
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "The Second Half",
+      "url": "https://ysymyth.github.io/The-Second-Half/",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "An LLM-as-Judge Won't Save the Product, Fixing Your Process Will",
+      "url": "https://eugeneyan.com/writing/eval-process/",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Hidden Technical Debt: Agent Evaluation Infrastructure",
+      "url": "https://leehanchung.github.io/blogs/2026/06/13/hidden-technical-debt-agent-evaluation-infra/",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "LLM Evals FAQ",
+      "url": "https://hamel.dev/blog/posts/evals-faq/",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Asymmetry of Verification and Verifier's Law",
+      "url": "https://www.jasonwei.net/blog/asymmetry-of-verification-and-verifiers-law",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying Evals for AI Agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "How to Build Good Language Modeling Benchmarks",
+      "url": "https://ofir.io/How-to-Build-Good-Language-Modeling-Benchmarks/",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "AI Agents That Matter",
+      "url": "https://arxiv.org/abs/2407.01502",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Building on Evaluation Quicksand",
+      "url": "https://www.interconnects.ai/p/building-on-evaluation-quicksand",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Who Validates the Validators? (EvalGen)",
+      "url": "https://arxiv.org/abs/2404.12272",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Benches 2026 — \"LLM benchmarks in the era of agents\"",
+      "url": "https://florianbrand.com/posts/benches-2026",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "A Shared Playbook for Trustworthy Third-Party Evaluations",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations/",
+      "category": "-must-read-starter-set-read-these-first",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "The Second Half",
+      "url": "https://ysymyth.github.io/The-Second-Half/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "An LLM-as-Judge Won't Save the Product, Fixing Your Process Will",
+      "url": "https://eugeneyan.com/writing/eval-process/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Your AI Product Needs Evals",
+      "url": "https://hamel.dev/blog/posts/evals/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "A Field Guide to Rapidly Improving AI Products",
+      "url": "https://hamel.dev/blog/posts/field-guide/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "In Defense of AI Evals, for Everyone",
+      "url": "https://www.sh-reya.com/blog/in-defense-ai-evals/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "What We Learned from a Year of Building with LLMs",
+      "url": "https://applied-llms.org/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Big Tech's LLM Evals Are Just Marketing",
+      "url": "https://www.interconnects.ai/p/evals-are-marketing",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "AI Engineering pitfalls",
+      "url": "https://huyenchip.com/2025/01/16/ai-engineering-pitfalls.html",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Evals Are NOT All You Need",
+      "url": "https://www.oreilly.com/radar/evals-are-not-all-you-need/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Why AI evals are the hottest new skill for product builders",
+      "url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "How evals drive the next chapter in AI for businesses",
+      "url": "https://openai.com/index/evals-drive-next-chapter-of-ai/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Beyond vibe checks: A PM's complete guide to evals",
+      "url": "https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "A pragmatic guide to LLM evals for devs",
+      "url": "https://newsletter.pragmaticengineer.com/p/evals",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Predicting model behavior before release by simulating deployment (Deployment Simulation)",
+      "url": "https://openai.com/index/deployment-simulation/",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "evals are surprisingly often all you need",
+      "url": "https://x.com/gdb/status/1733553161884127435",
+      "category": "1--why-we-need-evals",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Asymmetry of Verification and Verifier's Law",
+      "url": "https://www.jasonwei.net/blog/asymmetry-of-verification-and-verifiers-law",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "A Taxonomy of RL Environments for LLM Agents",
+      "url": "https://leehanchung.github.io/blogs/2026/03/21/rl-environments-for-llm-agents/",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "The Life Cycle of an RL Environment",
+      "url": "https://muratbuffalo.blogspot.com/2026/06/acm-cais-conference-on-ai-and-agentic.html",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Welcome to the Era of Experience",
+      "url": "https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "RLHF Book, Ch. 16 — Evaluation",
+      "url": "https://rlhfbook.com/c/16-evaluation",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "What Comes Next with Reinforcement Learning",
+      "url": "https://www.interconnects.ai/p/what-comes-next-with-reinforcement",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "verifiers",
+      "url": "https://github.com/PrimeIntellect-ai/verifiers",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Tülu 3: Pushing Frontiers in Open Language Model Post-Training",
+      "url": "https://arxiv.org/abs/2411.15124",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+      "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Environments Hub: A Community Hub To Scale RL To Open AGI",
+      "url": "https://www.primeintellect.ai/blog/environments",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "How to fully automate software engineering",
+      "url": "https://www.mechanize.work/blog/how-to-fully-automate-software-engineering/",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Cheap RL tasks will waste compute",
+      "url": "https://www.mechanize.work/blog/cheap-rl-tasks-will-waste-compute/",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "An FAQ on Reinforcement Learning Environments",
+      "url": "https://epoch.ai/gradient-updates/state-of-rl-envs",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "RL Environments and RL for Science: Data Foundries and Multi-Agent Architectures",
+      "url": "https://newsletter.semianalysis.com/p/rl-environments-and-rl-for-science",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+      "url": "https://github.com/harbor-framework/terminal-bench",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "tau2-bench (τ²-Bench): A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "url": "https://github.com/sierra-research/tau2-bench",
+      "category": "2--if-you-can-eval-it-you-have-built-it--eval--capability--rl-environment",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Hidden Technical Debt: Agent Harness",
+      "url": "https://leehanchung.github.io/blogs/2026/05/08/hidden-technical-debt-agent-harness/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Hidden Technical Debt series (index)",
+      "url": "https://leehanchung.github.io/blogs/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Measuring AI Ability to Complete Long Tasks",
+      "url": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Turing Post interview (\"Open Models Won't Catch Up\")",
+      "url": "https://www.turingpost.com/p/nathanlambert",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Quo vadis, LLM benchmarks?",
+      "url": "https://florianbrand.com/posts/benches-2026",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "The Model is the Product",
+      "url": "https://leehanchung.github.io/talks/2025/04/23/the-model-is-the-product/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "The Model is Not the Product",
+      "url": "https://www.youtube.com/watch?v=EEw2PpL-_NM",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Agents are models using tools in a loop",
+      "url": "https://simonwillison.net/2025/May/22/tools-in-a-loop/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Equipping agents for the real world with Agent Skills",
+      "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Effective context engineering for AI agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Writing effective tools for agents — with agents",
+      "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Paving the way for agents in biology (VirBench)",
+      "url": "https://www.anthropic.com/research/agents-in-biology",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Same Model, Different Results: Why Coding Agents Aren't Interchangeable",
+      "url": "https://blog.thepete.net/blog/2025/12/10/same-model-different-results-why-coding-agents-arent-interchangeable/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Holistic Agent Leaderboard (HAL)",
+      "url": "https://hal.cs.princeton.edu/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Agent Harness Engineering",
+      "url": "https://www.oreilly.com/radar/agent-harness-engineering/",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "What comes next with open models (weights / tools / harness decomposition)",
+      "url": "https://www.interconnects.ai/p/the-next-phase-of-open-models",
+      "category": "3--the-model--harness--skill-decomposition",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Hidden Technical Debt: Agent Evaluation Infrastructure",
+      "url": "https://leehanchung.github.io/blogs/2026/06/13/hidden-technical-debt-agent-evaluation-infra/",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "The Three Pillars of AI Observability",
+      "url": "https://www.braintrust.dev/blog/three-pillars-ai-observability",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Agent Trajectory Evaluations",
+      "url": "https://arize.com/docs/ax/evaluate/evaluators/trace-and-session-evals/trace-level-evaluations/agent-trajectory-evaluations",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "AI Agent Metrics: How Elite Teams Evaluate",
+      "url": "https://galileo.ai/blog/ai-agent-metrics",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "OpenInference semantic conventions",
+      "url": "https://github.com/Arize-ai/openinference/blob/main/spec/semantic_conventions.md",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "LangSmith Evaluation / Trajectory evals",
+      "url": "https://docs.langchain.com/langsmith/evaluation",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "OpenTelemetry GenAI Semantic Conventions (agent & framework spans)",
+      "url": "https://github.com/open-telemetry/semantic-conventions-genai",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Semantic Conventions for GenAI agent and framework spans",
+      "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-agent-spans/",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Inside the LLM Call: GenAI Observability with OpenTelemetry",
+      "url": "https://opentelemetry.io/blog/2026/genai-observability/",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "W&B Weave — tracing & evaluation toolkit",
+      "url": "https://docs.wandb.ai/weave",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Laminar — open-source observability for AI agents",
+      "url": "https://laminar.sh/",
+      "category": "4--observability--the-output--eval-space-the-surfaces-you-can-grade",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Inspect AI",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "inspect_evals",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_evals",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "AISI Engineering Playbook",
+      "url": "https://engineering-playbook.aisi.org.uk/",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "lm-evaluation-harness",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "OLMES",
+      "url": "https://github.com/allenai/olmes",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "BenchFlow",
+      "url": "https://github.com/benchflow-ai/benchflow",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "lighteval",
+      "url": "https://github.com/huggingface/lighteval",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "OpenBench",
+      "url": "https://github.com/groq/openbench",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "simple-evals",
+      "url": "https://github.com/openai/simple-evals",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Evals",
+      "url": "https://github.com/openai/evals",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "DeepEval / Confident AI",
+      "url": "https://github.com/confident-ai/deepeval",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "pydantic-evals",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "openevals",
+      "url": "https://github.com/langchain-ai/openevals",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "MLflow GenAI evaluate",
+      "url": "https://mlflow.org/docs/latest/genai/eval-monitor/",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "HELM (crfm-helm)",
+      "url": "https://github.com/stanford-crfm/helm",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Giskard",
+      "url": "https://github.com/Giskard-AI/giskard-oss",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Deepchecks LLM",
+      "url": "https://github.com/deepchecks/deepchecks",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "UpTrain",
+      "url": "https://github.com/uptrain-ai/uptrain",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "HF evaluate",
+      "url": "https://github.com/huggingface/evaluate",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Harbor",
+      "url": "https://github.com/harbor-framework/harbor",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Caliper",
+      "url": "https://github.com/edonadei/caliper",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Coder Eval",
+      "url": "https://github.com/UiPath/coder_eval",
+      "category": "5a--eval-frameworks--harnesses-code-first-test-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "evalite",
+      "url": "https://github.com/mattpocock/evalite",
+      "category": "5b--typescriptjs-native-eval-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Mastra scorers",
+      "url": "https://github.com/mastra-ai/mastra",
+      "category": "5b--typescriptjs-native-eval-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "Open Multi-Agent evaluation",
+      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "category": "5b--typescriptjs-native-eval-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Vercel agent-eval",
+      "url": "https://github.com/vercel-labs/agent-eval",
+      "category": "5b--typescriptjs-native-eval-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Autoevals",
+      "url": "https://github.com/braintrustdata/autoevals",
+      "category": "5b--typescriptjs-native-eval-runners",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "TruLens",
+      "url": "https://github.com/truera/trulens",
+      "category": "5c--rag--retrieval-evaluation",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "ARES",
+      "url": "https://github.com/stanford-futuredata/ARES",
+      "category": "5c--rag--retrieval-evaluation",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "RAGChecker",
+      "url": "https://github.com/amazon-science/RAGChecker",
+      "category": "5c--rag--retrieval-evaluation",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "continuous-eval (Relari)",
+      "url": "https://github.com/relari-ai/continuous-eval",
+      "category": "5c--rag--retrieval-evaluation",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Tonic Validate",
+      "url": "https://github.com/TonicAI/tonic_validate",
+      "category": "5c--rag--retrieval-evaluation",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "RewardHarness",
+      "url": "https://github.com/TIGER-AI-Lab/RewardHarness",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "verdict",
+      "url": "https://github.com/haizelabs/verdict",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "RULER",
+      "url": "https://github.com/OpenPipe/ART",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Prometheus 2",
+      "url": "https://github.com/prometheus-eval/prometheus-eval",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Atla Selene",
+      "url": "https://github.com/atla-ai/selene-mini",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Patronus Lynx / GLIDER",
+      "url": "https://github.com/patronus-ai/Lynx-hallucination-detection",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Flow-Judge",
+      "url": "https://github.com/flowaicom/flow-judge",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "RewardBench",
+      "url": "https://github.com/allenai/reward-bench",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "JudgeBench",
+      "url": "https://github.com/ScalerLab/JudgeBench",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "reward-kit",
+      "url": "https://github.com/fw-ai-external/reward-kit",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "truescore",
+      "url": "https://github.com/SaifPunjwani/truescore",
+      "category": "5d--llm-as-judge--reward--verifier-libraries",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "verifiers",
+      "url": "https://github.com/PrimeIntellect-ai/verifiers",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Environments Hub",
+      "url": "https://github.com/PrimeIntellect-ai/community-environments",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "prime-rl",
+      "url": "https://github.com/PrimeIntellect-ai/prime-rl",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "BenchFlow",
+      "url": "https://github.com/benchflow-ai/benchflow",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "HUD",
+      "url": "https://github.com/hud-evals/hud-python",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Atropos",
+      "url": "https://github.com/NousResearch/atropos",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "verl",
+      "url": "https://github.com/volcengine/verl",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "OpenRLHF",
+      "url": "https://github.com/OpenRLHF/OpenRLHF",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "Open Reward Standard (ORS)",
+      "url": "https://docs.openreward.ai/",
+      "category": "5e--rl-environment--verifiable-reward-toolkits-eval--training",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Arize Phoenix",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Opik",
+      "url": "https://github.com/comet-ml/opik",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "W&B Weave",
+      "url": "https://github.com/wandb/weave",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Braintrust",
+      "url": "https://www.braintrust.dev/docs/start/eval-sdk",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Patronus AI",
+      "url": "https://www.patronus.ai/",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Maxim AI",
+      "url": "https://www.getmaxim.ai/",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Galileo",
+      "url": "https://galileo.ai/",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Vellum",
+      "url": "https://www.vellum.ai/",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Helicone",
+      "url": "https://github.com/helicone/helicone",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "Traceloop / OpenLLMetry",
+      "url": "https://github.com/traceloop/openllmetry",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "Langtrace",
+      "url": "https://github.com/Scale3-Labs/langtrace",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "WhyLabs / LangKit",
+      "url": "https://github.com/whylabs/langkit",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Portkey",
+      "url": "https://github.com/portkey-ai/gateway",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Datadog LLM Observability",
+      "url": "https://www.datadoghq.com/product/ai/llm-observability/",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Fiddler AI",
+      "url": "https://www.fiddler.ai/",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "PromptLayer",
+      "url": "https://www.promptlayer.com/",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "whatbroke",
+      "url": "https://github.com/arthi-arumugam-git/whatbroke",
+      "category": "5f--observability--eval-platforms-tracing--datasets--onlineoffline--ci",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "OpenInference",
+      "url": "https://github.com/Arize-ai/openinference",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "OpenTelemetry GenAI semantic conventions",
+      "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "Braintrust",
+      "url": "https://www.braintrust.dev/",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "RagaAI Catalyst",
+      "url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Cookbook — Evals",
+      "url": "https://developers.openai.com/cookbook/topic/evals",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Building a better Bugbot",
+      "url": "https://cursor.com/blog/building-bugbot",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Insights Generator: Systematic Corpus-Level Trace Diagnostics for LLM Agents",
+      "url": "https://arxiv.org/abs/2605.21347",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "Do Automated Evals Work?",
+      "url": "https://parlance-labs.com/blog/posts/auto-evals/index.html",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "PACE: A Proxy for Agentic Capability Evaluation",
+      "url": "https://arxiv.org/abs/2607.02032",
+      "category": "5g--tracing-standards",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "How to Build Good Language Modeling Benchmarks",
+      "url": "https://ofir.io/How-to-Build-Good-Language-Modeling-Benchmarks/",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "AI Agents That Matter",
+      "url": "https://arxiv.org/abs/2407.01502",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Why We No Longer Evaluate SWE-bench Verified",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "The Leaderboard Illusion",
+      "url": "https://arxiv.org/abs/2504.20879",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "The SWE-bench Illusion: When SOTA LLMs Remember Instead of Reason",
+      "url": "https://arxiv.org/abs/2506.12286",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Establishing Best Practices for Building Rigorous Agentic Benchmarks (ABC)",
+      "url": "https://arxiv.org/abs/2507.02825",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "FrontierMath Tiers 1–3 v2 (corrected)",
+      "url": "https://epoch.ai/benchmarks/frontiermath-tiers-1-3-v2",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "About 30% of Humanity's Last Exam Answers Are Wrong",
+      "url": "https://www.futurehouse.org/research-announcements/hle-exam",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Building on Evaluation Quicksand",
+      "url": "https://www.interconnects.ai/p/building-on-evaluation-quicksand",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Lost in Simulation",
+      "url": "https://arxiv.org/abs/2601.17087",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "SWE-bench: Can LMs Resolve Real-World GitHub Issues?",
+      "url": "https://arxiv.org/abs/2310.06770",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Task-Specific LLM Evals that Do & Don't Work",
+      "url": "https://eugeneyan.com/writing/evals/",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "Andrej Karpathy on evals",
+      "url": "https://x.com/karpathy/status/1896266683301659068",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "A Careful Examination of LLM Performance on Grade School Arithmetic (GSM1k)",
+      "url": "https://arxiv.org/abs/2405.00332",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks",
+      "url": "https://arxiv.org/abs/2103.14749",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Are We Done with MMLU? (MMLU-Redux)",
+      "url": "https://arxiv.org/abs/2406.04127",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "LiveCodeBench: Holistic and Contamination-Free Evaluation of LLMs for Code",
+      "url": "https://arxiv.org/abs/2403.07974",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "LiveBench: A Challenging, Contamination-Limited LLM Benchmark",
+      "url": "https://github.com/LiveBench/LiveBench",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "The LLM Evaluation Guidebook (Open LLM Leaderboard team)",
+      "url": "https://github.com/huggingface/evaluation-guidebook",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+      "url": "https://arxiv.org/abs/2510.11977",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Gaming the System: Goodhart's Law Exemplified in the AI Leaderboard Controversy",
+      "url": "https://blog.collinear.ai/p/gaming-the-system-goodharts-law-exemplified-in-ai-leaderboard-controversy",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "A Shared Playbook for Trustworthy Third-Party Evaluations",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations/",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Reward hacking is swamping model intelligence gains",
+      "url": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Token-Saving Plugins Are Mostly Stupid Idea",
+      "url": "https://turaai.net/blog#token-saving-plugins-are-mostly-stupid-idea",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "Eval awareness in Claude Opus 4.6's BrowseComp performance",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
+      "url": "https://arxiv.org/abs/2606.26158",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Search-Time Contamination in Deep Research Agents",
+      "url": "https://arxiv.org/abs/2606.05241",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents",
+      "url": "https://arxiv.org/abs/2603.11337",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking the Benchmarks: A Validity Audit of Tool-Calling Evaluation",
+      "url": "https://arxiv.org/abs/2607.02577",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "Prediction: A Frontier Open Source LLM Will Be Released On 3rd December 2026",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "category": "6--benchmark-vs-eval-and-benchmark-integrity-contamination-saturation-label-errors-leaderboard-gaming",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "RewardBench",
+      "url": "https://arxiv.org/abs/2403.13787",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "The New RL Scaling Laws",
+      "url": "https://www.interconnects.ai/p/the-new-rl-scaling-laws",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "Spurious Rewards: Rethinking Training Signals in RLVR",
+      "url": "https://arxiv.org/abs/2506.10947",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "The State of Post-Training 2025",
+      "url": "https://www.interconnects.ai/p/the-state-of-post-training-2025",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "Reward Hacking in Reinforcement Learning",
+      "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Specification gaming: the flip side of AI ingenuity",
+      "url": "https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Turn RL for Multi-Hour Agents — with Will Brown (Prime Intellect)",
+      "url": "https://www.latent.space/p/willccbb",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "Position: The Hidden Costs and Measurement Gaps of RLVR",
+      "url": "https://arxiv.org/abs/2509.21882",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "RewardBench 2: Advancing Reward Model Evaluation",
+      "url": "https://arxiv.org/abs/2506.01937",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Reward Modeling (RLHF Book, ch. 5)",
+      "url": "https://rlhfbook.com/c/05-reward-models",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "Curriculum RL from Easy to Hard Tasks Improves LLM Reasoning (E2H Reasoner)",
+      "url": "https://arxiv.org/abs/2506.06632",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
+      "url": "https://arxiv.org/abs/2512.19682",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "Verifier and Reward Design for RL Environments",
+      "url": "https://www.hud.ai/resources/verifier-reward-design-rl-environments",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+      "url": "https://arxiv.org/abs/2606.26300",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "Systematic Reward Hacking and Prime Sprints",
+      "url": "https://www.primeintellect.ai/blog/reward-hacking",
+      "category": "7--evals--rl-environments-verifiers-reward-design-difficulty-calibration-lifecycle",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating the Effectiveness of LLM-Evaluators",
+      "url": "https://eugeneyan.com/writing/llm-evaluators/",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "Creating an LLM-as-a-Judge That Drives Business Results",
+      "url": "https://hamel.dev/blog/posts/llm-judge/",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "Who Validates the Validators? (EvalGen)",
+      "url": "https://arxiv.org/abs/2404.12272",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "LLM Evals FAQ",
+      "url": "https://hamel.dev/blog/posts/evals-faq/",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "LLM-as-a-Judge: Rethinking Model-Based Evaluations",
+      "url": "https://leehanchung.github.io/blogs/2024/08/11/llm-as-a-judge/",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "url": "https://arxiv.org/abs/2306.05685",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "LLMs Instead of Human Judges? A Large-Scale Study",
+      "url": "https://arxiv.org/abs/2406.18403",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "AlignEval",
+      "url": "https://eugeneyan.com/writing/aligneval/",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "Product Evals in Three Simple Steps",
+      "url": "https://eugeneyan.com/writing/product-evals/",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "Statistics for AI/ML, Part 3 — Cohen's Kappa",
+      "url": "https://leehanchung.github.io/blogs/2025/03/03/cohen-kappa/",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "Data Flywheels for LLM Applications",
+      "url": "https://www.sh-reya.com/blog/ai-engineering-flywheel/",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "SPADE",
+      "url": "https://arxiv.org/html/2401.03038v1",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+      "url": "https://arxiv.org/abs/2404.13076",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment",
+      "url": "https://arxiv.org/abs/2303.16634",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "A Survey on LLM-as-a-Judge",
+      "url": "https://arxiv.org/abs/2411.15594",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "One Token to Fool LLM-as-a-Judge",
+      "url": "https://arxiv.org/abs/2507.08794",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "Weaver: Closing the Generation-Verification Gap with Weak Verifiers",
+      "url": "https://hazyresearch.stanford.edu/blog/2025-06-18-weaver",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "Agent-as-a-Judge: Evaluate Agents with Agents",
+      "url": "https://arxiv.org/abs/2410.10934",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains",
+      "url": "https://arxiv.org/abs/2507.09884",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing LLM-as-a-Judge with Grading Notes / From Pilot to Production with Custom Judges",
+      "url": "https://www.databricks.com/blog/pilot-production-custom-judges",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge (CALM framework)",
+      "url": "https://arxiv.org/abs/2410.02736",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Voice AI Agent Evaluation: The Complete Guide (2026)",
+      "url": "https://www.coval.ai/blog/voice-ai-agent-evaluation-guide",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Agent Judge: Solving Long-Horizon Evals for Production Agents",
+      "url": "https://www.judgmentlabs.ai/blogs/agent-judge-solving-long-context-evaluations",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "Counsel: A Meta-Evaluation Dataset for Agentic Tasks",
+      "url": "https://arxiv.org/abs/2606.21627",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "LongJudgeBench: Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation",
+      "url": "https://arxiv.org/abs/2606.01629",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents",
+      "url": "https://arxiv.org/abs/2606.09863",
+      "category": "8--llm-as-judge--verifiers-alignment-biases-verifiable-vs-judgeable",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying Evals for AI Agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "τ-bench / τ²-bench",
+      "url": "https://arxiv.org/abs/2406.12045",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking AI Agents",
+      "url": "https://sierra.ai/blog/benchmarking-ai-agents",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "GAIA: A Benchmark for General AI Assistants",
+      "url": "https://arxiv.org/abs/2311.12983",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "Patterns for Building Cybersecurity Evals",
+      "url": "https://eugeneyan.com/writing/cybersecurity-evals/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "Statistics for AI/ML, Part 4 — pass@k and Unbiased Estimator",
+      "url": "https://leehanchung.github.io/blogs/2025/09/08/pass-at-k/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "First-Principles Eval",
+      "url": "https://leehanchung.github.io/blogs/2024/05/22/first-principles-eval/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "SWE-bench grading harness",
+      "url": "https://github.com/SWE-bench/SWE-bench/blob/main/swebench/harness/grading.py",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "human-eval (pass@k estimator)",
+      "url": "https://github.com/openai/human-eval/blob/master/human_eval/evaluation.py",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+      "url": "https://arxiv.org/abs/2307.13854",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+      "url": "https://arxiv.org/abs/2404.07972",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command-Line Interfaces",
+      "url": "https://www.tbench.ai/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risk of Language Models",
+      "url": "https://arxiv.org/abs/2408.08926",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories",
+      "url": "https://arxiv.org/abs/2504.08942",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "Why Do Multi-Agent LLM Systems Fail? (MAST taxonomy)",
+      "url": "https://arxiv.org/abs/2503.13657",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting",
+      "url": "https://arxiv.org/abs/2606.08878",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "Manager Coercion Benchmark (MCB): Coercion and Deception in AI-to-AI Management",
+      "url": "https://arxiv.org/abs/2607.15434",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+      "url": "https://aclanthology.org/2024.acl-long.850/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents",
+      "url": "https://openai.com/index/browsecomp/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "LocAgent: Graph-Guided LLM Agents for Code Localization",
+      "url": "https://arxiv.org/abs/2503.09089",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+      "url": "https://arxiv.org/abs/2401.13919",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "SkillsBench",
+      "url": "https://github.com/benchflow-ai/skillsbench",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "ClawsBench",
+      "url": "https://github.com/benchflow-ai/ClawsBench",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "SWE-bench Verified",
+      "url": "https://openai.com/index/introducing-swe-bench-verified/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "SWE-bench Multimodal",
+      "url": "https://arxiv.org/abs/2410.03859",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "SWE-bench Pro",
+      "url": "https://arxiv.org/abs/2509.16941",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "SWE-Lancer",
+      "url": "https://arxiv.org/abs/2502.12115",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "SWE-Gym",
+      "url": "https://arxiv.org/abs/2412.21139",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "Multi-SWE-bench",
+      "url": "https://arxiv.org/abs/2504.02605",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "SWE-rebench",
+      "url": "https://arxiv.org/abs/2505.20411",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "RE-Bench",
+      "url": "https://arxiv.org/abs/2411.15114",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "MLE-bench",
+      "url": "https://arxiv.org/abs/2410.07095",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "PaperBench",
+      "url": "https://arxiv.org/abs/2504.01848",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "Konwinski Prize (K Prize)",
+      "url": "https://www.kaggle.com/competitions/konwinski-prize",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge",
+      "url": "https://arxiv.org/abs/2506.21506",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "Online-Mind2Web (An Illusion of Progress? Assessing the Current State of Web Agents)",
+      "url": "https://arxiv.org/abs/2504.01382",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites",
+      "url": "https://github.com/agi-inc/REAL",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "ClawBench: Can AI Agents Complete Everyday Online Tasks?",
+      "url": "https://arxiv.org/abs/2604.08523",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "WebGames: Challenging General-Purpose Web-Browsing AI Agents",
+      "url": "https://arxiv.org/abs/2502.18356",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "Berkeley Function Calling Leaderboard (BFCL) V4",
+      "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "GTA: A Benchmark for General Tool Agents",
+      "url": "https://arxiv.org/abs/2407.08713",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+      "url": "https://arxiv.org/abs/2411.07763",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+      "url": "https://arxiv.org/abs/2405.14573",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "WindowsAgentArena: Evaluating Multi-Modal OS Agents at Scale",
+      "url": "https://arxiv.org/abs/2409.08264",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "Running the Gauntlet: Re-evaluating the Capabilities of Agents Beyond Familiar Environments",
+      "url": "https://arxiv.org/abs/2606.14397",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "ST-WebAgentBench: Evaluating Safety and Trustworthiness in Web Agents",
+      "url": "https://arxiv.org/abs/2410.06703",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+      "url": "https://arxiv.org/abs/2412.14161",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+      "url": "https://arxiv.org/abs/2401.13649",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "GDPval: Evaluating AI Model Performance on Real-World Economically Valuable Tasks",
+      "url": "https://arxiv.org/abs/2510.04374",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L394",
+      "line": 394,
+      "properties": {}
+    },
+    {
+      "title": "Remote Labor Index: Measuring AI Automation of Remote Work",
+      "url": "https://arxiv.org/abs/2510.26787",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L395",
+      "line": 395,
+      "properties": {}
+    },
+    {
+      "title": "Humanity's Last Exam",
+      "url": "https://arxiv.org/abs/2501.14249",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "url": "https://github.com/OSU-NLP-Group/ScienceAgentBench",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L397",
+      "line": 397,
+      "properties": {}
+    },
+    {
+      "title": "CORE-Bench: Computational Reproducibility Agent Benchmark",
+      "url": "https://arxiv.org/abs/2409.11363",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L398",
+      "line": 398,
+      "properties": {}
+    },
+    {
+      "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+      "url": "https://arxiv.org/abs/2506.11763",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L399",
+      "line": 399,
+      "properties": {}
+    },
+    {
+      "title": "Dr. Bench: A Multidimensional Evaluation for Deep Research Agents, from Answers to Reports",
+      "url": "https://arxiv.org/abs/2510.02190",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L400",
+      "line": 400,
+      "properties": {}
+    },
+    {
+      "title": "BixBench: A Comprehensive Benchmark for LLM-based Agents in Computational Biology",
+      "url": "https://arxiv.org/abs/2503.00096",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L401",
+      "line": 401,
+      "properties": {}
+    },
+    {
+      "title": "Introducing LifeSciBench",
+      "url": "https://openai.com/index/introducing-life-sci-bench/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L402",
+      "line": 402,
+      "properties": {}
+    },
+    {
+      "title": "Gaia2 and ARE: Scaling Up Agent Environments and Evaluations",
+      "url": "https://arxiv.org/abs/2509.17158",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L403",
+      "line": 403,
+      "properties": {}
+    },
+    {
+      "title": "Vending-Bench: A Benchmark for Long-Term Coherence of Autonomous Agents",
+      "url": "https://arxiv.org/abs/2502.15840",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "ARC-AGI-2: A New Challenge for Frontier AI Reasoning Systems",
+      "url": "https://arxiv.org/abs/2505.11831",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L405",
+      "line": 405,
+      "properties": {}
+    },
+    {
+      "title": "TRAIL: Trace Reasoning and Agentic Issue Localization",
+      "url": "https://arxiv.org/abs/2505.08638",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L406",
+      "line": 406,
+      "properties": {}
+    },
+    {
+      "title": "CRMArena-Pro: Holistic Assessment of LLM Agents Across Diverse Business Scenarios",
+      "url": "https://arxiv.org/abs/2505.18878",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "Agents' Last Exam (ALE)",
+      "url": "https://arxiv.org/abs/2606.05405",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "Introducing FrontierCode",
+      "url": "https://cognition.com/blog/frontier-code",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "Open-Sourcing Harvey's Long Horizon Legal Agent Benchmark",
+      "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "CodeScaleBench: Testing coding agents on large codebases",
+      "url": "https://sourcegraph.com/blog/codescalebench-testing-coding-agents-on-large-codebases-and-multi-repo-software-engineering-tasks",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "WorkBench Revisited: Workplace Agents Two Years On",
+      "url": "https://arxiv.org/abs/2606.13715",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "TAC (Travel Agent Compassion): Your AI Travel Agent Would Book You a Bullfight",
+      "url": "https://arxiv.org/abs/2606.18142",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "Closing the loop: Evaluating and improving Replit Agent at scale",
+      "url": "https://replit.com/blog/evaluating-and-improving-agent-at-scale",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L415",
+      "line": 415,
+      "properties": {}
+    },
+    {
+      "title": "A practical guide to hill climbing",
+      "url": "https://cline.bot/blog/a-practical-guide-to-hill-climbing",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "A New Framework for Evaluating Voice Agents (EVA)",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating AI agents: Real-world lessons from building agentic systems at Amazon",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L418",
+      "line": 418,
+      "properties": {}
+    },
+    {
+      "title": "Eval-driven development: Build and evaluate reliable AI agents",
+      "url": "https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
+      "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "Behavior specs: an open standard for supervising long-horizon agents",
+      "url": "https://www.braintrust.dev/blog/behavior-specs",
+      "category": "9--agent-specific-evaluation-trajectories-tool-use-multi-turn-world-state-multi-agent-localization",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "BenchJack: Systematically Auditing AI Agent Benchmarks",
+      "url": "https://arxiv.org/abs/2605.12673",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L427",
+      "line": 427,
+      "properties": {}
+    },
+    {
+      "title": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
+      "url": "https://moogician.github.io/blog/2026/trustworthy-benchmarks-cont/",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "Towards Building Safe & Secure Agentic AI",
+      "url": "https://rdi.berkeley.edu/adv-llm-agents/slides/dawn-agentic-ai.pdf",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "Dawn Song — ICLR 2025 keynote on LLM safety",
+      "url": "https://iclr.cc/virtual/2025/invited-talk/36783",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "CyberGym",
+      "url": "https://arxiv.org/html/2506.02548v2",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "AIR-Bench 2024",
+      "url": "https://arxiv.org/abs/2407.17436v2",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "DecodingTrust",
+      "url": "https://decodingtrust.github.io/",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "RedCode",
+      "url": "https://arxiv.org/abs/2411.07781",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "AgentPoison",
+      "url": "https://arxiv.org/abs/2407.12784",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "Adding Error Bars to Evals (A Statistical Approach to LM Evaluations)",
+      "url": "https://arxiv.org/abs/2411.00640",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "url": "https://arxiv.org/abs/2406.13352",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+      "url": "https://arxiv.org/abs/2410.09024",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated LLM Agents",
+      "url": "https://arxiv.org/abs/2403.02691",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "Defeating Prompt Injections by Design (CaMeL)",
+      "url": "https://arxiv.org/abs/2503.18813",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "The lethal trifecta for AI agents: private data, untrusted content, and external communication",
+      "url": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents",
+      "url": "https://www.anthropic.com/research/shade-arena-sabotage-monitoring",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "Agentic Misalignment: How LLMs Could Be Insider Threats",
+      "url": "https://www.anthropic.com/research/agentic-misalignment",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "PyRIT — Python Risk Identification Tool for generative AI",
+      "url": "https://github.com/Azure/PyRIT",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "OWASP Top 10 for Agentic Applications (2026) + LLM Applications (2025)",
+      "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "MITRE ATLAS — Adversarial Threat Landscape for AI Systems",
+      "url": "https://atlas.mitre.org/",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/5750f91d8fb9d5c02bd8ad2c3b44456b-Paper-Conference.pdf",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L448",
+      "line": 448,
+      "properties": {}
+    },
+    {
+      "title": "Gray Swan x UK AISI Agent Red-Teaming Challenge",
+      "url": "https://app.grayswan.ai/arena/blog/agent-red-teaming-the-ai-jailbreak-showdown",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "MonitoringBench: Semi-Automated Red-Teaming for Agent Monitoring",
+      "url": "https://arxiv.org/abs/2605.09684",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
+      "url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "Measuring LLMs' impact on N-day exploits",
+      "url": "https://www.anthropic.com/research/n-days",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "RealityTest: How People Probe AI Identity and Whether Models Disclose It",
+      "url": "https://www.aisi.gov.uk/research/realitytest-how-people-probe-ai-identity-and-whether-models-disclose-it",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "category": "10--safety--adversarial-evaluation-prompt-injection-jailbreaks-action-authorization-benchmark-auditing",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "How to Construct Domain Specific LLM Evaluation Systems",
+      "url": "https://www.youtube.com/watch?v=eLXF0VojuSs",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "How to look at your data",
+      "url": "https://www.youtube.com/watch?v=jryZvCuA0Uc",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L466",
+      "line": 466,
+      "properties": {}
+    },
+    {
+      "title": "Failure is a Funnel",
+      "url": "https://www.youtube.com/watch?v=k98gDjYbSaU",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "Using LLMs as Judges: Insights, Challenges, Best Practices",
+      "url": "https://www.youtube.com/watch?v=7EGF0Mc0_os",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "Scaling Up Vibe Checks for LLMs",
+      "url": "https://www.youtube.com/watch?v=eGVDKegRdgM",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "Why LLM Data Processing Pipelines Fail",
+      "url": "https://www.youtube.com/watch?v=H-1QaLPnGsg",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L470",
+      "line": 470,
+      "properties": {}
+    },
+    {
+      "title": "Evals Are Not Unit Tests",
+      "url": "https://www.youtube.com/watch?v=L8OoYeDI_ls",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "Building Metrics that actually work (workshop)",
+      "url": "https://www.youtube.com/watch?v=jxrGodnopHo",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L472",
+      "line": 472,
+      "properties": {}
+    },
+    {
+      "title": "From Self-driving to Autonomous Voice Agents",
+      "url": "https://www.youtube.com/watch?v=kDczF4wBh8s",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzing in the GenAI Era",
+      "url": "https://www.youtube.com/watch?v=OMGPvW8TBHc",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L474",
+      "line": 474,
+      "properties": {}
+    },
+    {
+      "title": "On Engineering AI Systems that Endure the Bitter Lesson",
+      "url": "https://www.youtube.com/watch?v=qdmxApz3EJI",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "Strategies for LLM Evals (harnesses workshop)",
+      "url": "https://www.youtube.com/watch?v=89NuzmKokIk",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L476",
+      "line": 476,
+      "properties": {}
+    },
+    {
+      "title": "The Future of Evals",
+      "url": "https://www.youtube.com/watch?v=MC55hdWLq4o",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "3 Key Ideas in AI in 2025 (Verifier's Law)",
+      "url": "https://www.youtube.com/watch?v=b6Doq2fz81U",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L478",
+      "line": 478,
+      "properties": {}
+    },
+    {
+      "title": "Some Intuitions About Large Language Models",
+      "url": "https://www.youtube.com/watch?v=l898fqkjdFc",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "Deep Dive into LLMs like ChatGPT",
+      "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L480",
+      "line": 480,
+      "properties": {}
+    },
+    {
+      "title": "RLHF: Progress and Challenges",
+      "url": "https://www.youtube.com/watch?v=hhiLw5Q_UFg",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L481",
+      "line": 481,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Open Language Models",
+      "url": "https://www.youtube.com/watch?v=AdLgPmcrXwQ",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L482",
+      "line": 482,
+      "properties": {}
+    },
+    {
+      "title": "Building LLM Applications for Production",
+      "url": "https://www.youtube.com/watch?v=spamOhG7BOA",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L483",
+      "line": 483,
+      "properties": {}
+    },
+    {
+      "title": "The Model is the Product",
+      "url": "https://www.youtube.com/watch?v=4dUFIRj-BWo",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L484",
+      "line": 484,
+      "properties": {}
+    },
+    {
+      "title": "RL Environments at Scale",
+      "url": "https://www.youtube.com/watch?v=_IzZWeuTx7I",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L485",
+      "line": 485,
+      "properties": {}
+    },
+    {
+      "title": "LLM benchmarks in the time of agents",
+      "url": "https://www.youtube.com/watch?v=kmTMc-fVSXw",
+      "category": "-conference--individual-talks",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L486",
+      "line": 486,
+      "properties": {}
+    },
+    {
+      "title": "Evals, error analysis, and better prompts",
+      "url": "https://www.youtube.com/watch?v=PgzOBNse2EA",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L489",
+      "line": 489,
+      "properties": {}
+    },
+    {
+      "title": "Evals are the new PRD for AI products",
+      "url": "https://www.youtube.com/watch?v=QE_1hRLsehM",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L490",
+      "line": 490,
+      "properties": {}
+    },
+    {
+      "title": "Ep 60: 10 Things I Hate About AI Evals",
+      "url": "https://www.youtube.com/watch?v=QEk-XwrkqhI",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "Ep 50: A Field Guide to Rapidly Improving AI Products",
+      "url": "https://www.youtube.com/watch?v=rWToRi2_SeY",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L492",
+      "line": 492,
+      "properties": {}
+    },
+    {
+      "title": "Five Hard-Earned Lessons About Evals",
+      "url": "https://www.youtube.com/watch?v=a4BV0gGmXgA",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L493",
+      "line": 493,
+      "properties": {}
+    },
+    {
+      "title": "Artificial Analysis: Independent LLM Evals",
+      "url": "https://www.youtube.com/watch?v=v5mBjeX4TJ8",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L494",
+      "line": 494,
+      "properties": {}
+    },
+    {
+      "title": "Reality: The Final Eval (Vending-Bench)",
+      "url": "https://www.youtube.com/watch?v=ZAimcoJXUBo",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L495",
+      "line": 495,
+      "properties": {}
+    },
+    {
+      "title": "#5 Designing Evals",
+      "url": "https://www.youtube.com/watch?v=-N6MajRfqYw",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L496",
+      "line": 496,
+      "properties": {}
+    },
+    {
+      "title": "#16 Evaluating Prompts Across Models",
+      "url": "https://www.youtube.com/watch?v=OawyQOrlubM",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L497",
+      "line": 497,
+      "properties": {}
+    },
+    {
+      "title": "#24 Evals for Classification",
+      "url": "https://www.youtube.com/watch?v=5Fy0hBzyduU",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L498",
+      "line": 498,
+      "properties": {}
+    },
+    {
+      "title": "#34 Multimodal Evals",
+      "url": "https://www.youtube.com/watch?v=jzhVo0iAX_I",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L499",
+      "line": 499,
+      "properties": {}
+    },
+    {
+      "title": "#372 It's 2026 and We're Still Talking Evals",
+      "url": "https://www.youtube.com/watch?v=9EjWR3QpJYk",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L500",
+      "line": 500,
+      "properties": {}
+    },
+    {
+      "title": "#728 Generative Benchmarking",
+      "url": "https://www.youtube.com/watch?v=3kbiGPn0cOo",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L501",
+      "line": 501,
+      "properties": {}
+    },
+    {
+      "title": "Shaping AI Benchmarks (HELM)",
+      "url": "https://www.youtube.com/watch?v=kwkdKirqi6s",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating LLMs with Chatbot Arena",
+      "url": "https://www.youtube.com/watch?v=okHMaczHPXc",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L503",
+      "line": 503,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating AI, Designing for Non-Determinism",
+      "url": "https://www.youtube.com/watch?v=v0eTTn7ZPEc",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L504",
+      "line": 504,
+      "properties": {}
+    },
+    {
+      "title": "Karpathy: RL is terrible, why benchmarks mislead",
+      "url": "https://www.youtube.com/watch?v=-lRBpyPt79c",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "How to Build AI Evals in 2026 (Step-by-Step)",
+      "url": "https://www.youtube.com/watch?v=J7N9FMouSKg",
+      "category": "-podcast-episodes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "Towards Building Safe & Trustworthy AI Agents",
+      "url": "https://www.youtube.com/watch?v=QAgR4uQ15rc",
+      "category": "-university-lectures",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "Towards Building Safe and Secure Agentic AI",
+      "url": "https://www.youtube.com/watch?v=ti6yPE2VPZc",
+      "category": "-university-lectures",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "Measuring Agent Capabilities and Anthropic's RSP",
+      "url": "https://www.youtube.com/watch?v=6y2AnWol7oo",
+      "category": "-university-lectures",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "Open-Source and Science in the Era of Foundation Models",
+      "url": "https://www.youtube.com/watch?v=f3KKx9LWntQ",
+      "category": "-university-lectures",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L512",
+      "line": 512,
+      "properties": {}
+    },
+    {
+      "title": "CS336 Lecture 12: Evaluation",
+      "url": "https://www.youtube.com/watch?v=x-R5l2HsXqM",
+      "category": "-university-lectures",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "Judging LLMs",
+      "url": "https://www.youtube.com/watch?v=IIL2tE4n1Q0",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L522",
+      "line": 522,
+      "properties": {}
+    },
+    {
+      "title": "2025 is the Year of Evals! Just like 2024, and 2023, and …",
+      "url": "https://www.youtube.com/watch?v=CQGuvf6gSrM",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "Lessons from the Trenches: Building LLM Evals That Work IRL",
+      "url": "https://www.youtube.com/watch?v=nbZzSC5A6hs",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "The maturity phases of running evals",
+      "url": "https://www.youtube.com/watch?v=FB-MLPhL9Ms",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "Ship Real Agents: Hands-On Evals for Agentic Applications",
+      "url": "https://www.youtube.com/watch?v=Xfl50508LZM",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L526",
+      "line": 526,
+      "properties": {}
+    },
+    {
+      "title": "What Do Models Still Suck At? (BullshitBench)",
+      "url": "https://www.youtube.com/watch?v=R7A8rX-09Zw",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L527",
+      "line": 527,
+      "properties": {}
+    },
+    {
+      "title": "Perceptual Evaluations: Evals for Aesthetics",
+      "url": "https://www.youtube.com/watch?v=h5ItAJuB3Fc",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L528",
+      "line": 528,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating AI Search: A Practical Framework for Augmented AI Systems",
+      "url": "https://www.youtube.com/watch?v=wRJD0inpmjU",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "Turning Fails into Features: Zapier's Hard-Won Eval Lessons",
+      "url": "https://www.youtube.com/watch?v=blrovBxxN9o",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L530",
+      "line": 530,
+      "properties": {}
+    },
+    {
+      "title": "Why should anyone care about Evals?",
+      "url": "https://www.youtube.com/watch?v=jJ45Yz1lJao",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L531",
+      "line": 531,
+      "properties": {}
+    },
+    {
+      "title": "Mastering AI Evaluation: From Playground to Production [Evals Workshop]",
+      "url": "https://www.youtube.com/watch?v=9iN-cPnp7xg",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L532",
+      "line": 532,
+      "properties": {}
+    },
+    {
+      "title": "Databricks Co-Founder: Eval Limitations, Why China is Winning Open Source and Future of AI Infra (Ep 69)",
+      "url": "https://www.youtube.com/watch?v=ehav4XMAKLw",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "Mercor CEO: Evals Will Replace Knowledge Work, AI x Hiring Today & the Future of Data Labeling (Ep 68)",
+      "url": "https://www.youtube.com/watch?v=SOZtz8IdI2w",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L534",
+      "line": 534,
+      "properties": {}
+    },
+    {
+      "title": "CTIBench: How Good Are LLMs at Detecting Cyber Threats? (Ep 729)",
+      "url": "https://www.youtube.com/watch?v=75WqFOY3P5M",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L535",
+      "line": 535,
+      "properties": {}
+    },
+    {
+      "title": "Holistic Evaluation of Generative AI Systems (MLOps Podcast #280)",
+      "url": "https://www.youtube.com/watch?v=VJ0k0C1mGdg",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L536",
+      "line": 536,
+      "properties": {}
+    },
+    {
+      "title": "Can AIs do AI R&D? Reviewing RE-Bench Results with Neev Parikh of METR",
+      "url": "https://www.youtube.com/watch?v=SX8Mxyy_UHY",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "Can We Stop AI Deception? Apollo Research Tests OpenAI's Deliberative Alignment, w/ Marius Hobbhahn",
+      "url": "https://www.youtube.com/watch?v=I3ivZaAfDFg",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L538",
+      "line": 538,
+      "properties": {}
+    },
+    {
+      "title": "Metrics Driven Development (Ragas)",
+      "url": "https://www.youtube.com/watch?v=fw0wUC5XN-o",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L539",
+      "line": 539,
+      "properties": {}
+    },
+    {
+      "title": "R1, OpenAI's o3, and the ARC-AGI Benchmark: Insights from Mike Knoop",
+      "url": "https://www.youtube.com/watch?v=SSA8vNrFpXI",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "Sandbox breakout evals with Inspect — UK AISI (Fully Connected London '25)",
+      "url": "https://www.youtube.com/watch?v=J79pSSAENYc",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "How to align your LLM judge for better evaluations",
+      "url": "https://www.youtube.com/watch?v=AMCmhRoKnSk",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L542",
+      "line": 542,
+      "properties": {}
+    },
+    {
+      "title": "Stanford CME295 Transformers & LLMs (Autumn 2025) | Lecture 8 - LLM Evaluation",
+      "url": "https://www.youtube.com/watch?v=8fNP4N46RRo",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L543",
+      "line": 543,
+      "properties": {}
+    },
+    {
+      "title": "CS294-196 (Agentic AI MOOC) - LLM Agent Evaluations & Project Overview",
+      "url": "https://www.youtube.com/watch?v=VfOA2a0dj4w",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L544",
+      "line": 544,
+      "properties": {}
+    },
+    {
+      "title": "Agentic AI MOOC (Fall 2025) | Predictable Noise in LLM Benchmarks",
+      "url": "https://www.youtube.com/watch?v=HV8pugcFVO0",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L545",
+      "line": 545,
+      "properties": {}
+    },
+    {
+      "title": "Agent Optimization with Pydantic AI: GEPA, Evals, Feedback Loops — Samuel Colvin, Pydantic",
+      "url": "https://www.youtube.com/watch?v=A48uhxfxbsM",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L546",
+      "line": 546,
+      "properties": {}
+    },
+    {
+      "title": "Coding Evals: From Code Snippets to Codebases — Naman Jain, Cursor",
+      "url": "https://www.youtube.com/watch?v=tHN44yJoeS8",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L547",
+      "line": 547,
+      "properties": {}
+    },
+    {
+      "title": "From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval (full session host upload)",
+      "url": "https://www.youtube.com/watch?v=1X3mYUHC5GA",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L548",
+      "line": 548,
+      "properties": {}
+    },
+    {
+      "title": "Brooke Hopkins, Founder at Coval | AI Minds #073",
+      "url": "https://www.youtube.com/watch?v=e1E8vLyRIKk",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "Karthik Narasimhan - Reliable AI Agents for Tomorrow's World",
+      "url": "https://www.youtube.com/watch?v=fOAAslQUceg",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "Building and evaluating AI Agents — Sayash Kapoor, AI Snake Oil",
+      "url": "https://www.youtube.com/watch?v=d5EltXhbcfA",
+      "category": "more-eval-talks-podcasts--lectures-annotated-deep-notes-in-progress",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L551",
+      "line": 551,
+      "properties": {}
+    },
+    {
+      "title": "pavlovslist.com",
+      "url": "https://pavlovslist.com/",
+      "category": "companies--landscape-eval--rl-environment-market",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L561",
+      "line": 561,
+      "properties": {}
+    },
+    {
+      "title": "notes/articles/",
+      "url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/notes/articles/",
+      "category": "deep-notes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L576",
+      "line": 576,
+      "properties": {}
+    },
+    {
+      "title": "notes/talks/",
+      "url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/notes/talks/",
+      "category": "deep-notes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L577",
+      "line": 577,
+      "properties": {}
+    },
+    {
+      "title": "notes/papers/",
+      "url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/notes/papers/",
+      "category": "deep-notes",
+      "source_url": "https://github.com/benchflow-ai/awesome-evals/blob/1b8928b60a9d41cbab371610d741d39a3fd50860/README.md#L578",
+      "line": 578,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 406,
+  "unique_links": 392,
+  "category_count": 23,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by benchflow-ai/awesome-evals contributors.",
+  "license": "NOASSERTION",
+  "license_url": "https://github.com/benchflow-ai/awesome-evals/tree/1b8928b60a9d41cbab371610d741d39a3fd50860",
+  "digest": "9af652f8a42c41f6b316df1edb804b0c048ddaa3fb49d375c71a8619be6baaf6"
+}
