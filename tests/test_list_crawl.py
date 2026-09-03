@@ -1,9 +1,12 @@
 import json
 from pathlib import Path
+import threading
+import time
 
 import pytest
 from tools.lists import Run, split_partition, publish, atomic_json
 from awesome.catalogue import digest
+from awesome.lists import FORMAT
 from tests.test_lists import build_index
 
 
@@ -249,3 +252,98 @@ def test_replay_verifies_source_and_reparses_raw(tmp_path, monkeypatch):
     raw = tmp_path / "data/raw/lists/1" / source["revision"] / "README.md"
     raw.write_text("tampered")
     with pytest.raises(ValueError): Run("tampered", tmp_path).replay("old", checksum)
+
+
+def test_profile_history_is_pinned_bounded_public_and_resumable(tmp_path):
+    from tests.test_lists import MD, meta
+    class ProfileResponse:
+        def __init__(self): self.calls = 0
+        def graphql(self, query):
+            self.calls += 1
+            if "history(first:100" not in query:
+                return {"data": {"r0": {"id": "node1", "isPrivate": False,
+                    "f0": {"text": MD, "byteSize": len(MD.encode()), "isBinary": False}}}}
+            assert "history(first:100,path:\"README.md\")" in query and "email" not in query.casefold()
+            return {"data": {"r0": {"id": "node1", "isPrivate": False,
+                "root": {"history": {"totalCount": 121, "pageInfo": {"hasNextPage": True}, "nodes": [
+                    {"committedDate": "2026-09-02T00:00:00Z", "author": {"user": {"login": "alice", "url": "https://github.com/alice"}}},
+                    {"committedDate": "2026-08-01T00:00:00Z", "author": {"user": None}},
+                    {"committedDate": "2026-07-01T00:00:00Z", "author": {"user": {"login": "alice", "url": "https://github.com/alice"}}}]}},
+                "c0": {"oid": "b"*40}, "c1": None}}}
+    api = ProfileResponse(); run = Run("test", tmp_path, api); source = meta(id="1", node_id="node1")
+    run.state["candidates"]["1"] = source; run.content([source]); run.profiles(interrupt_after=None, batch_size=1)
+    item = run.state["completed"]["1"]
+    assert item["contributors_count"] == 1 and item["content_updated_at"] == "2026-09-02T00:00:00Z"
+    assert item["contributor_observation"]["observed_commits"] == 3 and item["contributor_observation"]["has_more"] is True
+    assert item["contributing_url"].endswith("/CONTRIBUTING.md")
+    assert api.calls == 2  # content then profile
+    Run("test", tmp_path, api).profiles(batch_size=1)
+    assert api.calls == 2
+    assert not (run.directory / "profile-checkpoint.json").exists()
+
+
+def test_partial_profile_alias_stays_retryable(tmp_path):
+    from tests.test_lists import MD, meta
+    class Response:
+        def graphql(self, query):
+            if "history(first:100" in query: return {"data": {"r0": None}, "errors": [{"path": ["r0"]}]}
+            return {"data": {"r0": {"id": "node1", "isPrivate": False,
+                "f0": {"text": MD, "byteSize": len(MD.encode()), "isBinary": False}}}}
+    run = Run("test", tmp_path, Response()); source = meta(id="1", node_id="node1")
+    run.state["candidates"]["1"] = source; run.content([source]); run.profiles(batch_size=1)
+    assert "1" not in run.state["profile_observations"] and "1" in run.state["profile_errors"]
+    assert run.state["completed"]["1"]["contributors_count"] is None
+
+
+def test_staged_index_uses_current_model_contract(tmp_path):
+    run = Run("test", tmp_path, Pages()); run.state.update(queue=[], candidates={}, discovery_completed_at="2026-09-03T00:00:00Z")
+    index = run.stage()
+    assert index["format_version"] == FORMAT
+
+
+def test_profile_interruption_uses_small_digest_bound_sidecar(tmp_path):
+    from tests.test_lists import MD, meta
+    class Response:
+        def graphql(self, query):
+            if "history(first:100" not in query:
+                return {"data": {"r0": {"id": "node1", "isPrivate": False, "f0": {"text": MD, "byteSize": len(MD.encode()), "isBinary": False}}}}
+            return {"data": {"r0": {"id": "node1", "isPrivate": False, "root": {"history": {"totalCount": 1, "pageInfo": {"hasNextPage": False}, "nodes": [{"committedDate": "2026-09-02T00:00:00Z", "author": {"user": None}}]}}, "c0": None, "c1": None}}}
+    run = Run("test", tmp_path, Response()); source = meta(id="1", node_id="node1")
+    run.state["candidates"]["1"] = source; run.content([source])
+    with pytest.raises(InterruptedError): run.profiles(interrupt_after=1, batch_size=1)
+    sidecar = json.loads((run.directory / "profile-checkpoint.json").read_text())
+    assert sidecar["digest"] == digest({k: v for k, v in sidecar.items() if k != "digest"})
+    assert len(sidecar["observations"]) == 1 and (run.directory / "profile-checkpoint.json").stat().st_size < 10_000
+    Run("test", tmp_path, Response()).profiles(batch_size=1)
+    assert not (run.directory / "profile-checkpoint.json").exists()
+
+
+def test_profile_windows_bound_concurrency_and_merge_deterministically(tmp_path):
+    from tests.test_lists import MD, meta
+    class Content:
+        def graphql(self, query):
+            return {"data": {"r0": {"id": "node1", "isPrivate": False,
+                "f0": {"text": MD, "byteSize": len(MD.encode()), "isBinary": False}}}}
+    run = Run("test", tmp_path, Content())
+    for number in range(4):
+        source = meta(id=str(number + 1), node_id="node1", name=f"owner/awesome-{number + 1}")
+        run.state["candidates"][source["id"]] = source
+        run.content([source])
+
+    class Concurrent:
+        def __init__(self):
+            self.lock = threading.Lock(); self.active = 0; self.maximum = 0
+        def graphql(self, query):
+            with self.lock:
+                self.active += 1; self.maximum = max(self.maximum, self.active)
+            time.sleep(0.03)
+            with self.lock: self.active -= 1
+            count = query.count("history(first:100")
+            value = {"id": "node1", "isPrivate": False,
+                "root": {"history": {"totalCount": 0, "pageInfo": {"hasNextPage": False}, "nodes": []}},
+                "c0": None, "c1": None}
+            return {"data": {f"r{i}": value for i in range(count)}}
+    api = Concurrent(); run.api = api
+    run.profiles(batch_size=1, workers=2)
+    assert api.maximum == 2
+    assert list(run.state["profile_observations"]) == ["1", "2", "3", "4"]

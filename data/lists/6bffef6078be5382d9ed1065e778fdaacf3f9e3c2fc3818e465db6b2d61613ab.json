@@ -1,0 +1,742 @@
+{
+  "format_version": 3,
+  "repository_id": "82483313",
+  "name": "PaulSec/awesome-windows-domain-hardening",
+  "revision": "04296417bbb8ff2cbe0b15834506a61a5b08c9a4",
+  "readme_path": "README.md",
+  "readme_sha256": "99f220ec6a440198fc8ebadc84f939d5a36c19a4d8071821c63a8d21f116769c",
+  "sections": [
+    {
+      "id": "awesome-windows-domain-hardening",
+      "title": "Awesome Windows Domain Hardening",
+      "level": 1,
+      "path": [
+        "Awesome Windows Domain Hardening"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#awesome-windows-domain-hardening",
+      "entries": 0
+    },
+    {
+      "id": "summary",
+      "title": "Summary",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Summary"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#summary",
+      "entries": 0
+    },
+    {
+      "id": "initial-foothold",
+      "title": "Initial foothold",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Initial foothold"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#initial-foothold",
+      "entries": 9
+    },
+    {
+      "id": "reconnaissance",
+      "title": "Reconnaissance",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Reconnaissance"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#reconnaissance",
+      "entries": 4
+    },
+    {
+      "id": "lateral-movement",
+      "title": "Lateral Movement",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Lateral Movement"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#lateral-movement",
+      "entries": 3
+    },
+    {
+      "id": "privilege-escalation",
+      "title": "Privilege Escalation",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Privilege Escalation"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#privilege-escalation",
+      "entries": 5
+    },
+    {
+      "id": "protect-administration-credentials",
+      "title": "Protect Administration Credentials",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Protect Administration Credentials"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#protect-administration-credentials",
+      "entries": 3
+    },
+    {
+      "id": "strengthenremove-legacy",
+      "title": "Strengthen/Remove Legacy",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Strengthen/Remove Legacy"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#strengthenremove-legacy",
+      "entries": 4
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Tools"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#tools",
+      "entries": 17
+    },
+    {
+      "id": "videos",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Videos"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#videos",
+      "entries": 9
+    },
+    {
+      "id": "slides",
+      "title": "Slides",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Slides"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#slides",
+      "entries": 5
+    },
+    {
+      "id": "additional-resources",
+      "title": "Additional resources",
+      "level": 3,
+      "path": [
+        "Awesome Windows Domain Hardening",
+        "Additional resources"
+      ],
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#additional-resources",
+      "entries": 11
+    }
+  ],
+  "entries": [
+    {
+      "title": "EMET",
+      "url": "https://support.microsoft.com/en-us/help/2458544/the-enhanced-mitigation-experience-toolkit",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "AppLocker",
+      "url": "https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "Here you go",
+      "url": "http://docshare02.docshare.tips/files/17344/173447840.pdf",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "PowerShell logging",
+      "url": "https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "Block Office macros",
+      "url": "https://blogs.technet.microsoft.com/mmpc/2016/03/22/new-feature-in-office-2016-can-block-macros-and-help-prevent-infection/",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "WEF",
+      "url": "https://blogs.technet.microsoft.com/jepayne/2015/11/23/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem/",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L25",
+      "line": 25,
+      "properties": {}
+    },
+    {
+      "title": "these file types",
+      "url": "https://support.office.com/en-us/article/blocked-attachments-in-outlook-434752e1-02d3-4e90-9124-8b81e49a8519",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "Excel file extensions",
+      "url": "https://www.vmray.com/cyber-security-blog/forgotten-ms-office-features-used-deliver-malware/",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "Preventing activation of OLE packages",
+      "url": "https://cloudblogs.microsoft.com/microsoftsecure/2016/06/14/wheres-the-macro-malware-author-are-now-using-ole-embedding-to-deliver-malicious-files/?source=mmpc",
+      "category": "initial-foothold",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "GPO",
+      "url": "https://msdn.microsoft.com/en-us/library/bb742376.aspx",
+      "category": "reconnaissance",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "(Microsoft ATA)",
+      "url": "https://www.microsoft.com/en-us/cloud-platform/advanced-threat-analytics",
+      "category": "reconnaissance",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "NetCease",
+      "url": "https://gallery.technet.microsoft.com/Net-Cease-Blocking-Net-1e8dcb5b",
+      "category": "reconnaissance",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Samri10",
+      "url": "https://gallery.technet.microsoft.com/SAMRi10-Hardening-Remote-48d94b5b",
+      "category": "reconnaissance",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "(KB2871997)",
+      "url": "https://support.microsoft.com/en-us/help/2871997/microsoft-security-advisory-update-to-improve-credentials-protection-and-management-may-13,-2014",
+      "category": "lateral-movement",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "(Microsoft LAPS)",
+      "url": "https://www.microsoft.com/en-us/download/details.aspx?id=46899",
+      "category": "lateral-movement",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "(Windows Firewall)",
+      "url": "https://technet.microsoft.com/en-us/network/bb545423.aspx",
+      "category": "lateral-movement",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "(including GPP)",
+      "url": "https://adsecurity.org/?p=2288",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "PAWs",
+      "url": "https://technet.microsoft.com/en-us/windows-server-docs/security/securing-privileged-access/privileged-access-workstations",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "(FGPP)",
+      "url": "https://technet.microsoft.com/en-us/library/cc770842%28v=ws.10%29.aspx",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Fine-Grained Password Policy",
+      "url": "https://technet.microsoft.com/en-us/library/cc770842(v=ws.10).aspx",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "LM/NTLMv1",
+      "url": "https://support.microsoft.com/en-us/help/2793313/security-guidance-for-ntlmv1-and-lm-network-authentication",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Protected Users group",
+      "url": "https://technet.microsoft.com/en-us/library/dn466518%28v=ws.11%29.aspx",
+      "category": "protect-administration-credentials",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "LLMNR",
+      "url": "https://en.wikipedia.org/wiki/Link-Local_Multicast_Name_Resolution",
+      "category": "protect-administration-credentials",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "WPAD",
+      "url": "https://en.wikipedia.org/wiki/Web_Proxy_Auto-Discovery_Protocol",
+      "category": "protect-administration-credentials",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "PingCastle",
+      "url": "https://www.pingcastle.com/",
+      "category": "strengthenremove-legacy",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "LDAP signing",
+      "url": "https://technet.microsoft.com/en-us/library/dd941832%28v=ws.10%29.aspx",
+      "category": "strengthenremove-legacy",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "SMB signing",
+      "url": "https://blogs.technet.microsoft.com/josebda/2010/12/01/the-basics-of-smb-signing-covering-both-smb1-and-smb2/",
+      "category": "strengthenremove-legacy",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "shims",
+      "url": "https://technet.microsoft.com/en-ca/library/dd837644(v=ws.10).aspx",
+      "category": "strengthenremove-legacy",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "PingCastle",
+      "url": "https://www.pingcastle.com/",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Responder",
+      "url": "https://github.com/lgandx/Responder",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "BloodHound",
+      "url": "https://github.com/BloodHoundAD/BloodHound",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "AD Control Path",
+      "url": "https://github.com/ANSSI-FR/AD-control-paths",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "PowerSploit",
+      "url": "https://github.com/PowerShellMafia/PowerSploit/",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "PowerView",
+      "url": "https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Empire",
+      "url": "https://github.com/EmpireProject/Empire",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Mimikatz",
+      "url": "https://github.com/gentilkiwi/mimikatz",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Tools Cheatsheets",
+      "url": "https://github.com/HarmJ0y/CheatSheets",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "UACME",
+      "url": "https://github.com/hfiref0x/UACME",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Windows System Internals",
+      "url": "https://technet.microsoft.com/en-us/sysinternals/bb545021.aspx",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Hardentools",
+      "url": "https://github.com/securitywithoutborders/hardentools",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "CrackMapExec",
+      "url": "https://github.com/byt3bl33d3r/CrackMapExec",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "SharpSploit",
+      "url": "https://github.com/cobbr/SharpSploit",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Rubeus",
+      "url": "https://github.com/GhostPack/Rubeus/",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Koadic",
+      "url": "https://github.com/zerosum0x0/koadic",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "SILENTTRINITY",
+      "url": "https://github.com/byt3bl33d3r/SILENTTRINITY",
+      "category": "tools",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Beyond the Mcse: Active Directory for the Security Professional",
+      "url": "https://www.youtube.com/watch?v=2w1cesS7pGY",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "BSides DC 2016 - PowerShell Security: Defending the Enterprise from the Latest Attack Platform",
+      "url": "https://www.youtube.com/watch?v=_8yBjg7bRLo&feature=youtu.be&t=106",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Six Degrees of Domain Admin... - Andy Robbins, Will Schroeder, Rohan Vazarkar",
+      "url": "https://www.youtube.com/watch?v=lxd2rerVsLo",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "111 Attacking EvilCorp Anatomy of a Corporate Hack",
+      "url": "https://www.youtube.com/watch?v=nJSMJyRNvlM&feature=youtu.be&t=16",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Red vs Blue: Modern Active Directory Attacks & Defense",
+      "url": "https://www.youtube.com/watch?v=rknpKIxT7NM",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Offensive Active Directory with Powershell",
+      "url": "https://www.youtube.com/watch?v=cXWtu-qalSs",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Advanced Incident Detection and Threat Hunting using Sysmon and Splunk",
+      "url": "https://www.youtube.com/watch?v=vv_VXntQTpE",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Real Solutions From Real Incidents: Save Money and Your Job!",
+      "url": "https://www.youtube.com/watch?v=313J20uPbcw",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "AppLocker Bypass Techniques",
+      "url": "https://www.youtube.com/watch?v=z04NXAkhI4k",
+      "category": "videos",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "From Workstation To Domain Admin - Why Secure Administration Isn't Secure",
+      "url": "https://adsecurity.org/wp-content/uploads/2018/08/us-18-Metcalf-From-Workstation-To-Domain-Admin-Why-Secure-Administration-Isnt-Secure-Final.pdf",
+      "category": "slides",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting AD Administrator Insecurities",
+      "url": "https://adsecurity.org/wp-content/uploads/2018/08/2018-DEFCON-ExploitingADAdministratorInsecurities-Metcalf.pdf",
+      "category": "slides",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "How to go from Responding to Hunting with Sysinternals Sysmon",
+      "url": "https://onedrive.live.com/view.aspx?resid=D026B4699190F1E6!2843&ithint=file%2cpptx&app=PowerPoint&authkey=!AMvCRTKB_V1J5ow",
+      "category": "slides",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "111 Attacking EvilCorp Anatomy of a Corporate Hack",
+      "url": "https://adsecurity.org/wp-content/uploads/2016/09/DerbyCon6-2016-AttackingEvilCorp-Anatomy-of-a-Corporate-Hack-Presented.pdf",
+      "category": "slides",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Real Solutions From Real Incidents: Save Money and Your Job!",
+      "url": "https://evil.plumbing/Current-version-June.pdf",
+      "category": "slides",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "ADSecurity",
+      "url": "https://adsecurity.org/",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Harmj0y's blog",
+      "url": "http://blog.harmj0y.net/",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Sysmon SecuriTay's configuration file",
+      "url": "https://github.com/SwiftOnSecurity/sysmon-config",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Explaining and adapting Tay’s Sysmon configuration",
+      "url": "https://web.archive.org/web/20170531120041/https://medium.com/@lennartkoopmann/explaining-and-adapting-tays-sysmon-configuration-27d9719a89a8",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Use of PSExec",
+      "url": "https://www.toshellandback.com/2017/02/11/psexec/",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Preventing Mimikatz attacks",
+      "url": "https://medium.com/blue-team/preventing-mimikatz-attacks-ed283e7ebdd5",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Useful list of Windows Security Log Events",
+      "url": "https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Introducing SharpSploit: A C# Post-Exploitation Library",
+      "url": "https://posts.specterops.io/introducing-sharpsploit-a-c-post-exploitation-library-5c7be5f16c51",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "From Kekeo to Rubeus",
+      "url": "http://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Windows oneliners to download remote payload and execute arbitrary code",
+      "url": "https://movaxbx.ru/2018/10/22/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/amp/",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Configuration guidance for implementing the Windows 10 and Windows Server 2016 DoD Secure Host Baseline settings.",
+      "url": "https://github.com/nsacyber/Windows-Secure-Host-Baseline",
+      "category": "additional-resources",
+      "source_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/blob/04296417bbb8ff2cbe0b15834506a61a5b08c9a4/README.md#L150",
+      "line": 150,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 70,
+  "unique_links": 69,
+  "category_count": 10,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "PaulSec",
+      "url": "https://github.com/PaulSec",
+      "contributions": 29
+    },
+    {
+      "login": "drewhjelm",
+      "url": "https://github.com/drewhjelm",
+      "contributions": 1
+    },
+    {
+      "login": "misterch0c",
+      "url": "https://github.com/misterch0c",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 33,
+    "has_more": false,
+    "path_commit_count": 33,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:45:30.668488+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by PaulSec/awesome-windows-domain-hardening contributors.",
+  "license": null,
+  "license_url": "https://github.com/PaulSec/awesome-windows-domain-hardening/tree/04296417bbb8ff2cbe0b15834506a61a5b08c9a4",
+  "digest": "6bffef6078be5382d9ed1065e778fdaacf3f9e3c2fc3818e465db6b2d61613ab"
+}

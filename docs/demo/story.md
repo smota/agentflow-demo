@@ -164,3 +164,39 @@ was already verified when the release commit was written.
 Final publication is not inferred from this narrative. The final issue and
 GitHub release retain exact commit/tag/data/hosted checks after they execute.
 No heartbeat or operating-system scheduler was installed.
+
+## 11. The list itself becomes the product
+
+The 2.0 wave began by proving why a famous list was absent: version 1 had discovered
+`awesome-selfhosted/awesome-selfhosted`, but a three-source review allowlist prevented
+it from becoming a first-class list. [Issue #21](https://github.com/smota/agentflow-demo/issues/21)
+replaced that shortcut with broad public Awesome discovery at a 100-star floor and
+published an intentionally partial alpha. Its public rollback digest remained live
+through the next long-running cycle.
+
+[Issue #22](https://github.com/smota/agentflow-demo/issues/22) made freshness mean the
+latest commit affecting the pinned README path—not generic repository activity—and
+promoted curators through a bounded sample of public GitHub identities. An advisory
+privacy/data/UX council required no contributor email fields, pinned provenance,
+explicit sample language and honest unknown states. It was same-platform simulated
+stakeholder advice, not independent or human approval.
+
+The first complete serial generation was deliberately interrupted and recovered, but
+its projected duration was excessive. A tested four-worker window replaced it without
+changing per-repository bounds or deterministic checkpoint application. Final generation
+H repeated the real one-batch interruption: eight observations survived in a 13,588-byte
+digest-bound sidecar, the 56 MB main checkpoint stayed byte-identical, the exclusive
+lock cleared and the public alpha digest did not change. Resume completed 6,377 list
+profiles with zero profile errors. The accepted snapshot contains 8,373 candidates,
+8,253 referenced list details, and digest
+`0c9ffd50682687d0071b5e81c58b7dc18ea2b8b2d3a0482cd13daba00d0deeba`.
+
+This chapter establishes the list-profile foundation. Aggregate dashboards and
+cross-list comparison remain a separate issue and release gate rather than being
+claimed by the data increment.
+
+The first source-bound verification did not pass: its legacy 60-second catalogue
+subprocess budget expired while validating the much larger snapshot, although pytest
+and pinned-framework assertions passed. Review returned the work instead of combining
+separate green evidence into a fictional pass. The harness budget was made proportional
+without changing catalogue checks, and the complete candidate was frozen and run again.

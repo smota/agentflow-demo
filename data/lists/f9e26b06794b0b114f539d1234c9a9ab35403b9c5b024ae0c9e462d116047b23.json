@@ -1,0 +1,1548 @@
+{
+  "format_version": 3,
+  "repository_id": "310804308",
+  "name": "anki-code/xonsh-cheatsheet",
+  "revision": "cb9f8508f37ade621d8416cd3804d8ce2041e98b",
+  "readme_path": "README.md",
+  "readme_sha256": "acfc0417e073f3bd93aa2653384f7307c3508fb20421029d8c4add8c2cc471d9",
+  "sections": [
+    {
+      "id": "what-is-xonsh",
+      "title": "What is Xonsh?",
+      "level": 1,
+      "path": [
+        "What is Xonsh?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#what-is-xonsh",
+      "entries": 0
+    },
+    {
+      "id": "what-does-xonsh-mean",
+      "title": "What does Xonsh mean?",
+      "level": 1,
+      "path": [
+        "What does Xonsh mean?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#what-does-xonsh-mean",
+      "entries": 0
+    },
+    {
+      "id": "install-xonsh",
+      "title": "Install Xonsh",
+      "level": 1,
+      "path": [
+        "Install Xonsh"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#install-xonsh",
+      "entries": 0
+    },
+    {
+      "id": "the-right-way",
+      "title": "The right way",
+      "level": 3,
+      "path": [
+        "Install Xonsh",
+        "The right way"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#the-right-way",
+      "entries": 0
+    },
+    {
+      "id": "install-xonsh-with-package-and-environment-management-system",
+      "title": "Install Xonsh with package and environment management system",
+      "level": 3,
+      "path": [
+        "Install Xonsh",
+        "Install Xonsh with package and environment management system"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#install-xonsh-with-package-and-environment-management-system",
+      "entries": 0
+    },
+    {
+      "id": "install-xonsh-on-macos-or-linux-using-conda",
+      "title": "Install Xonsh on macOS or Linux using conda",
+      "level": 4,
+      "path": [
+        "Install Xonsh",
+        "Install Xonsh with package and environment management system",
+        "Install Xonsh on macOS or Linux using conda"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#install-xonsh-on-macos-or-linux-using-conda",
+      "entries": 0
+    },
+    {
+      "id": "how-to-understand-the-xonsh-location",
+      "title": "How to understand the xonsh location",
+      "level": 4,
+      "path": [
+        "Install Xonsh",
+        "Install Xonsh with package and environment management system",
+        "How to understand the xonsh location"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#how-to-understand-the-xonsh-location",
+      "entries": 0
+    },
+    {
+      "id": "pipx-and-xonsh",
+      "title": "pipx and xonsh",
+      "level": 4,
+      "path": [
+        "Install Xonsh",
+        "Install Xonsh with package and environment management system",
+        "pipx and xonsh"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#pipx-and-xonsh",
+      "entries": 0
+    },
+    {
+      "id": "if-you-have-python-but-no-pip-on-your-system",
+      "title": "If you have python but no pip on your system",
+      "level": 4,
+      "path": [
+        "Install Xonsh",
+        "Install Xonsh with package and environment management system",
+        "If you have python but no pip on your system"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#if-you-have-python-but-no-pip-on-your-system",
+      "entries": 0
+    },
+    {
+      "id": "try-xonsh-without-installation",
+      "title": "Try xonsh without installation",
+      "level": 3,
+      "path": [
+        "Install Xonsh",
+        "Try xonsh without installation"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#try-xonsh-without-installation",
+      "entries": 0
+    },
+    {
+      "id": "container",
+      "title": "Container",
+      "level": 4,
+      "path": [
+        "Install Xonsh",
+        "Try xonsh without installation",
+        "Container"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#container",
+      "entries": 0
+    },
+    {
+      "id": "linux-portable-appimage-contains-both-python-3-and-xonsh-in-one-file",
+      "title": "Linux-portable AppImage contains both Python 3 and xonsh in one file",
+      "level": 4,
+      "path": [
+        "Install Xonsh",
+        "Try xonsh without installation",
+        "Linux-portable AppImage contains both Python 3 and xonsh in one file"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#linux-portable-appimage-contains-both-python-3-and-xonsh-in-one-file",
+      "entries": 0
+    },
+    {
+      "id": "xonsh-basics",
+      "title": "Xonsh basics",
+      "level": 1,
+      "path": [
+        "Xonsh basics"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#xonsh-basics",
+      "entries": 0
+    },
+    {
+      "id": "most-frequent-things-that-newcomers-totally-overlook",
+      "title": "Most frequent things that newcomers totally overlook",
+      "level": 2,
+      "path": [
+        "Xonsh basics",
+        "Most frequent things that newcomers totally overlook"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#most-frequent-things-that-newcomers-totally-overlook",
+      "entries": 0
+    },
+    {
+      "id": "1-shell-commands-also-known-as-subprocess-commands",
+      "title": "1. Shell commands, also known as subprocess commands",
+      "level": 3,
+      "path": [
+        "Xonsh basics",
+        "Most frequent things that newcomers totally overlook",
+        "1. Shell commands, also known as subprocess commands"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#1-shell-commands-also-known-as-subprocess-commands",
+      "entries": 1
+    },
+    {
+      "id": "2-strings-and-arguments-in-shell-commands",
+      "title": "2. Strings and arguments in shell commands",
+      "level": 3,
+      "path": [
+        "Xonsh basics",
+        "Most frequent things that newcomers totally overlook",
+        "2. Strings and arguments in shell commands"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#2-strings-and-arguments-in-shell-commands",
+      "entries": 0
+    },
+    {
+      "id": "123-456",
+      "title": "123 456",
+      "level": 1,
+      "path": [
+        "123 456"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#123-456",
+      "entries": 0
+    },
+    {
+      "id": "123-456-1",
+      "title": "123 456",
+      "level": 1,
+      "path": [
+        "123 456"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#123-456-1",
+      "entries": 0
+    },
+    {
+      "id": "123456",
+      "title": "123456",
+      "level": 1,
+      "path": [
+        "123456"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#123456",
+      "entries": 0
+    },
+    {
+      "id": "--argvalbr",
+      "title": "--arg=val<br>",
+      "level": 1,
+      "path": [
+        "--arg=val<br>"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#--argvalbr",
+      "entries": 0
+    },
+    {
+      "id": "andbr",
+      "title": "and:<br>",
+      "level": 1,
+      "path": [
+        "and:<br>"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#andbr",
+      "entries": 0
+    },
+    {
+      "id": "--arg-val",
+      "title": "--arg val",
+      "level": 1,
+      "path": [
+        "--arg val"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#--arg-val",
+      "entries": 0
+    },
+    {
+      "id": "--argvalbr-1",
+      "title": "--arg=\"val\"<br>",
+      "level": 1,
+      "path": [
+        "--arg=\"val\"<br>"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#--argvalbr-1",
+      "entries": 0
+    },
+    {
+      "id": "but-if-argument-quoted-entirelybr",
+      "title": "But if argument quoted entirely:<br>",
+      "level": 1,
+      "path": [
+        "But if argument quoted entirely:<br>"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#but-if-argument-quoted-entirelybr",
+      "entries": 0
+    },
+    {
+      "id": "--arg-val-1",
+      "title": "--arg val",
+      "level": 1,
+      "path": [
+        "--arg val"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#--arg-val-1",
+      "entries": 0
+    },
+    {
+      "id": "123-456brbrbr",
+      "title": "{123} [456]<br><br><br>",
+      "level": 1,
+      "path": [
+        "{123} [456]<br><br><br>"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#123-456brbrbr",
+      "entries": 0
+    },
+    {
+      "id": "syntaxerrorbr",
+      "title": "SyntaxError<br>",
+      "level": 1,
+      "path": [
+        "SyntaxError<br>"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#syntaxerrorbr",
+      "entries": 0
+    },
+    {
+      "id": "123-456-2",
+      "title": "{123} [456]",
+      "level": 1,
+      "path": [
+        "{123} [456]"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#123-456-2",
+      "entries": 0
+    },
+    {
+      "id": "3-the-process-substitution-operator--returns-output-with-universal-new-lines",
+      "title": "3. The process substitution operator $() returns output with universal new lines",
+      "level": 3,
+      "path": [
+        "{123} [456]",
+        "3. The process substitution operator $() returns output with universal new lines"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#3-the-process-substitution-operator--returns-output-with-universal-new-lines",
+      "entries": 3
+    },
+    {
+      "id": "4-threading",
+      "title": "4. Threading",
+      "level": 3,
+      "path": [
+        "{123} [456]",
+        "4. Threading"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#4-threading",
+      "entries": 0
+    },
+    {
+      "id": "operators",
+      "title": "Operators",
+      "level": 1,
+      "path": [
+        "Operators"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#operators",
+      "entries": 0
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 3,
+      "path": [
+        "Operators",
+        "Overview"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#overview",
+      "entries": 0
+    },
+    {
+      "id": "---capture-and-return-output-without-printing-stdout-and-stderr",
+      "title": "$() - capture and return output without printing stdout and stderr",
+      "level": 3,
+      "path": [
+        "Operators",
+        "$() - capture and return output without printing stdout and stderr"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#---capture-and-return-output-without-printing-stdout-and-stderr",
+      "entries": 0
+    },
+    {
+      "id": "---capture-all-and-return-object-without-printing-stdout-and-stderr",
+      "title": "!() - capture all and return object without printing stdout and stderr",
+      "level": 3,
+      "path": [
+        "Operators",
+        "!() - capture all and return object without printing stdout and stderr"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#---capture-all-and-return-object-without-printing-stdout-and-stderr",
+      "entries": 0
+    },
+    {
+      "id": "---not-capturing-return-none-print-stdout-and-stderr",
+      "title": "$[] - not capturing (return None), print stdout and stderr",
+      "level": 3,
+      "path": [
+        "Operators",
+        "$[] - not capturing (return None), print stdout and stderr"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#---not-capturing-return-none-print-stdout-and-stderr",
+      "entries": 0
+    },
+    {
+      "id": "---print-stdoutstderr-and-return-hidden-object",
+      "title": "![] - print stdout/stderr and return hidden object",
+      "level": 3,
+      "path": [
+        "Operators",
+        "![] - print stdout/stderr and return hidden object"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#---print-stdoutstderr-and-return-hidden-object",
+      "entries": 0
+    },
+    {
+      "id": "---use-python-code-as-an-argument-or-a-callable-alias",
+      "title": "@() - use Python code as an argument or a callable alias",
+      "level": 3,
+      "path": [
+        "Operators",
+        "@() - use Python code as an argument or a callable alias"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#---use-python-code-as-an-argument-or-a-callable-alias",
+      "entries": 0
+    },
+    {
+      "id": "---split-output-of-the-command-by-white-spaces-for-arguments-list",
+      "title": "@$() - split output of the command by white spaces for arguments list",
+      "level": 3,
+      "path": [
+        "Operators",
+        "@$() - split output of the command by white spaces for arguments list"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#---split-output-of-the-command-by-white-spaces-for-arguments-list",
+      "entries": 0
+    },
+    {
+      "id": "environment-variables",
+      "title": "Environment Variables",
+      "level": 1,
+      "path": [
+        "Environment Variables"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#environment-variables",
+      "entries": 0
+    },
+    {
+      "id": "aliases",
+      "title": "Aliases",
+      "level": 1,
+      "path": [
+        "Aliases"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#aliases",
+      "entries": 0
+    },
+    {
+      "id": "simple-aliases",
+      "title": "Simple aliases",
+      "level": 2,
+      "path": [
+        "Aliases",
+        "Simple aliases"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#simple-aliases",
+      "entries": 0
+    },
+    {
+      "id": "function-as-an-alias-for-group-of-commands",
+      "title": "Function as an alias for group of commands",
+      "level": 2,
+      "path": [
+        "Aliases",
+        "Function as an alias for group of commands"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#function-as-an-alias-for-group-of-commands",
+      "entries": 0
+    },
+    {
+      "id": "alias-that-returns-command",
+      "title": "Alias that returns command",
+      "level": 2,
+      "path": [
+        "Aliases",
+        "Alias that returns command"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#alias-that-returns-command",
+      "entries": 0
+    },
+    {
+      "id": "callable-aliases",
+      "title": "Callable aliases",
+      "level": 2,
+      "path": [
+        "Aliases",
+        "Callable aliases"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#callable-aliases",
+      "entries": 0
+    },
+    {
+      "id": "command-decorators",
+      "title": "Command Decorators",
+      "level": 3,
+      "path": [
+        "Aliases",
+        "Callable aliases",
+        "Command Decorators"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#command-decorators",
+      "entries": 0
+    },
+    {
+      "id": "abbrevs",
+      "title": "Abbrevs",
+      "level": 2,
+      "path": [
+        "Aliases",
+        "Abbrevs"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#abbrevs",
+      "entries": 0
+    },
+    {
+      "id": "path-strings",
+      "title": "Path strings",
+      "level": 1,
+      "path": [
+        "Path strings"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#path-strings",
+      "entries": 0
+    },
+    {
+      "id": "globbing---get-the-list-of-files-from-path-by-mask-or-regexp",
+      "title": "Globbing - get the list of files from path by mask or regexp",
+      "level": 1,
+      "path": [
+        "Globbing - get the list of files from path by mask or regexp"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#globbing---get-the-list-of-files-from-path-by-mask-or-regexp",
+      "entries": 0
+    },
+    {
+      "id": "macros",
+      "title": "Macros",
+      "level": 1,
+      "path": [
+        "Macros"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#macros",
+      "entries": 0
+    },
+    {
+      "id": "simple-macros",
+      "title": "Simple macros",
+      "level": 2,
+      "path": [
+        "Macros",
+        "Simple macros"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#simple-macros",
+      "entries": 0
+    },
+    {
+      "id": "subprocess-macros",
+      "title": "Subprocess Macros",
+      "level": 2,
+      "path": [
+        "Macros",
+        "Subprocess Macros"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#subprocess-macros",
+      "entries": 0
+    },
+    {
+      "id": "macro-block",
+      "title": "Macro block",
+      "level": 2,
+      "path": [
+        "Macros",
+        "Macro block"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#macro-block",
+      "entries": 0
+    },
+    {
+      "id": "builtin-macro-block",
+      "title": "Builtin macro Block",
+      "level": 3,
+      "path": [
+        "Macros",
+        "Macro block",
+        "Builtin macro Block"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#builtin-macro-block",
+      "entries": 0
+    },
+    {
+      "id": "custom-json-block",
+      "title": "Custom JSON block",
+      "level": 3,
+      "path": [
+        "Macros",
+        "Macro block",
+        "Custom JSON block"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#custom-json-block",
+      "entries": 0
+    },
+    {
+      "id": "custom-podman-block",
+      "title": "Custom Podman block",
+      "level": 3,
+      "path": [
+        "Macros",
+        "Macro block",
+        "Custom Podman block"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#custom-podman-block",
+      "entries": 0
+    },
+    {
+      "id": "macro-blocks-library",
+      "title": "Macro blocks library",
+      "level": 3,
+      "path": [
+        "Macros",
+        "Macro block",
+        "Macro blocks library"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#macro-blocks-library",
+      "entries": 0
+    },
+    {
+      "id": "tab-completion",
+      "title": "Tab-Completion",
+      "level": 1,
+      "path": [
+        "Tab-Completion"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#tab-completion",
+      "entries": 0
+    },
+    {
+      "id": "bind-hotkeys-in-prompt-toolkit-shell",
+      "title": "Bind hotkeys in prompt toolkit shell",
+      "level": 1,
+      "path": [
+        "Bind hotkeys in prompt toolkit shell"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#bind-hotkeys-in-prompt-toolkit-shell",
+      "entries": 0
+    },
+    {
+      "id": "xontrib---extension-or-plugin-for-xonsh",
+      "title": "Xontrib - extension or plugin for xonsh",
+      "level": 1,
+      "path": [
+        "Xontrib - extension or plugin for xonsh"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#xontrib---extension-or-plugin-for-xonsh",
+      "entries": 3
+    },
+    {
+      "id": "xontrib-as-a-bridge",
+      "title": "Xontrib as a bridge",
+      "level": 3,
+      "path": [
+        "Xontrib - extension or plugin for xonsh",
+        "Xontrib as a bridge"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#xontrib-as-a-bridge",
+      "entries": 0
+    },
+    {
+      "id": "xonsh-cli-app",
+      "title": "Xonsh CLI app",
+      "level": 1,
+      "path": [
+        "Xonsh CLI app"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#xonsh-cli-app",
+      "entries": 0
+    },
+    {
+      "id": "how-to-get-the-script-path",
+      "title": "How to get the script path",
+      "level": 3,
+      "path": [
+        "Xonsh CLI app",
+        "How to get the script path"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#how-to-get-the-script-path",
+      "entries": 0
+    },
+    {
+      "id": "unit-tests-with-xonsh-and-pytest",
+      "title": "Unit tests with xonsh and pytest",
+      "level": 1,
+      "path": [
+        "Unit tests with xonsh and pytest"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#unit-tests-with-xonsh-and-pytest",
+      "entries": 0
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 1,
+      "path": [
+        "History"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#history",
+      "entries": 0
+    },
+    {
+      "id": "interactive-mode-events",
+      "title": "Interactive mode events",
+      "level": 1,
+      "path": [
+        "Interactive mode events"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#interactive-mode-events",
+      "entries": 0
+    },
+    {
+      "id": "help",
+      "title": "Help",
+      "level": 1,
+      "path": [
+        "Help"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#help",
+      "entries": 0
+    },
+    {
+      "id": "known-issues-and-workarounds",
+      "title": "Known issues and workarounds",
+      "level": 1,
+      "path": [
+        "Known issues and workarounds"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#known-issues-and-workarounds",
+      "entries": 0
+    },
+    {
+      "id": "modulenotfounderror",
+      "title": "ModuleNotFoundError",
+      "level": 3,
+      "path": [
+        "Known issues and workarounds",
+        "ModuleNotFoundError"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#modulenotfounderror",
+      "entries": 0
+    },
+    {
+      "id": "shadowing-of-console-tools-or-shell-syntax-with-python-builtins",
+      "title": "Shadowing of console tools or shell syntax with Python builtins",
+      "level": 3,
+      "path": [
+        "Known issues and workarounds",
+        "Shadowing of console tools or shell syntax with Python builtins"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#shadowing-of-console-tools-or-shell-syntax-with-python-builtins",
+      "entries": 0
+    },
+    {
+      "id": "uncaptured-output",
+      "title": "Uncaptured output",
+      "level": 3,
+      "path": [
+        "Known issues and workarounds",
+        "Uncaptured output"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#uncaptured-output",
+      "entries": 0
+    },
+    {
+      "id": "frozen-terminal-in-interactive-tools",
+      "title": "Frozen terminal in interactive tools",
+      "level": 3,
+      "path": [
+        "Known issues and workarounds",
+        "Frozen terminal in interactive tools"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#frozen-terminal-in-interactive-tools",
+      "entries": 0
+    },
+    {
+      "id": "new-python-version",
+      "title": "New python version",
+      "level": 3,
+      "path": [
+        "Known issues and workarounds",
+        "New python version"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#new-python-version",
+      "entries": 0
+    },
+    {
+      "id": "tips-and-tricks",
+      "title": "Tips and tricks",
+      "level": 1,
+      "path": [
+        "Tips and tricks"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#tips-and-tricks",
+      "entries": 0
+    },
+    {
+      "id": "make-your-own-installable-xonsh-rc-file",
+      "title": "Make your own installable xonsh RC file",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Make your own installable xonsh RC file"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#make-your-own-installable-xonsh-rc-file",
+      "entries": 0
+    },
+    {
+      "id": "inline-scripting",
+      "title": "Inline scripting",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Inline scripting"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#inline-scripting",
+      "entries": 0
+    },
+    {
+      "id": "inline-import",
+      "title": "Inline import",
+      "level": 4,
+      "path": [
+        "Tips and tricks",
+        "Inline scripting",
+        "Inline import"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#inline-import",
+      "entries": 0
+    },
+    {
+      "id": "inline-statements",
+      "title": "Inline statements",
+      "level": 4,
+      "path": [
+        "Tips and tricks",
+        "Inline scripting",
+        "Inline statements"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#inline-statements",
+      "entries": 0
+    },
+    {
+      "id": "string-tricks",
+      "title": "String tricks",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "String tricks"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#string-tricks",
+      "entries": 0
+    },
+    {
+      "id": "triple-quotes",
+      "title": "Triple quotes",
+      "level": 5,
+      "path": [
+        "Tips and tricks",
+        "String tricks",
+        "Triple quotes"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#triple-quotes",
+      "entries": 0
+    },
+    {
+      "id": "f-strings-in-the-command",
+      "title": "f-strings in the command",
+      "level": 5,
+      "path": [
+        "Tips and tricks",
+        "String tricks",
+        "f-strings in the command"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#f-strings-in-the-command",
+      "entries": 0
+    },
+    {
+      "id": "python-walrus-operator-in-action",
+      "title": "Python walrus operator in action",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Python walrus operator in action"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#python-walrus-operator-in-action",
+      "entries": 0
+    },
+    {
+      "id": "pack-anything-into-conch",
+      "title": "Pack anything into conch",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Pack anything into conch"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#pack-anything-into-conch",
+      "entries": 0
+    },
+    {
+      "id": "check-the-command",
+      "title": "Check the command",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Check the command"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#check-the-command",
+      "entries": 0
+    },
+    {
+      "id": "command-decorators-can-be-useful-with-prefixsuffix",
+      "title": "Command decorators can be useful with prefix/suffix",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Command decorators can be useful with prefix/suffix"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#command-decorators-can-be-useful-with-prefixsuffix",
+      "entries": 0
+    },
+    {
+      "id": "run-xonsh-as-if-its-the-first-launch",
+      "title": "Run Xonsh as if it’s the first launch",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Run Xonsh as if it’s the first launch"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#run-xonsh-as-if-its-the-first-launch",
+      "entries": 0
+    },
+    {
+      "id": "set-next-command-or-suggest-one",
+      "title": "Set next command or suggest one",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Set next command or suggest one"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#set-next-command-or-suggest-one",
+      "entries": 0
+    },
+    {
+      "id": "jump-from-aliases-to-cli-apps",
+      "title": "Jump from aliases to CLI apps",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Jump from aliases to CLI apps"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#jump-from-aliases-to-cli-apps",
+      "entries": 0
+    },
+    {
+      "id": "make-interruption-tolerant-transactions",
+      "title": "Make interruption tolerant transactions",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Make interruption tolerant transactions"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#make-interruption-tolerant-transactions",
+      "entries": 0
+    },
+    {
+      "id": "using-a-text-block-in-the-command-line",
+      "title": "Using a text block in the command line",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Using a text block in the command line"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#using-a-text-block-in-the-command-line",
+      "entries": 0
+    },
+    {
+      "id": "using-semicolon-and-logical-in-captured-subprocess",
+      "title": "Using semicolon and logical in captured subprocess",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Using semicolon and logical in captured subprocess"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#using-semicolon-and-logical-in-captured-subprocess",
+      "entries": 0
+    },
+    {
+      "id": "use-prompt-instead-of-input-for-multiline-input",
+      "title": "Use prompt instead of input for multiline input",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Use prompt instead of input for multiline input"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#use-prompt-instead-of-input-for-multiline-input",
+      "entries": 0
+    },
+    {
+      "id": "using-the-name-of-the-alias-in-alias-logic",
+      "title": "Using the name of the alias in alias logic",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Using the name of the alias in alias logic"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#using-the-name-of-the-alias-in-alias-logic",
+      "entries": 0
+    },
+    {
+      "id": "turn-command-output-into-object",
+      "title": "Turn command output into object",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Turn command output into object"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#turn-command-output-into-object",
+      "entries": 0
+    },
+    {
+      "id": "turn-any-object-into-cli-tool",
+      "title": "Turn any object into CLI tool",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Turn any object into CLI tool"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#turn-any-object-into-cli-tool",
+      "entries": 0
+    },
+    {
+      "id": "transparent-callable-environment-variables",
+      "title": "Transparent callable environment variables",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Transparent callable environment variables"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#transparent-callable-environment-variables",
+      "entries": 0
+    },
+    {
+      "id": "use-env-context-manager-to-keep-command-and-namespace-clean",
+      "title": "Use env context manager to keep command and namespace clean",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Use env context manager to keep command and namespace clean"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#use-env-context-manager-to-keep-command-and-namespace-clean",
+      "entries": 0
+    },
+    {
+      "id": "ask-to-input-argument-and-with-autocomplete",
+      "title": "Ask to input argument and with autocomplete",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Ask to input argument and with autocomplete"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#ask-to-input-argument-and-with-autocomplete",
+      "entries": 0
+    },
+    {
+      "id": "from-the-shell-to-rest-api-for-one-step",
+      "title": "From the shell to REST API for one step",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "From the shell to REST API for one step"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#from-the-shell-to-rest-api-for-one-step",
+      "entries": 0
+    },
+    {
+      "id": "run-xonsh-with-clean-environment",
+      "title": "Run xonsh with clean environment",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Run xonsh with clean environment"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#run-xonsh-with-clean-environment",
+      "entries": 0
+    },
+    {
+      "id": "run-pure-xonsh-engine",
+      "title": "Run pure xonsh engine",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Run pure xonsh engine"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#run-pure-xonsh-engine",
+      "entries": 1
+    },
+    {
+      "id": "interactively-debugging-a-script",
+      "title": "Interactively debugging a script",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Interactively debugging a script"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#interactively-debugging-a-script",
+      "entries": 0
+    },
+    {
+      "id": "using-xonsh-wherever-you-go-through-the-ssh",
+      "title": "Using xonsh wherever you go through the SSH",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Using xonsh wherever you go through the SSH"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#using-xonsh-wherever-you-go-through-the-ssh",
+      "entries": 0
+    },
+    {
+      "id": "how-to-modify-a-command-before-execution",
+      "title": "How to modify a command before execution?",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "How to modify a command before execution?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#how-to-modify-a-command-before-execution",
+      "entries": 0
+    },
+    {
+      "id": "comma-separated-thousands-in-output-custom-formatter",
+      "title": "Comma separated thousands in output (custom formatter)",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Comma separated thousands in output (custom formatter)"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#comma-separated-thousands-in-output-custom-formatter",
+      "entries": 0
+    },
+    {
+      "id": "builtin-change-directory-context-manager-for-scripting",
+      "title": "Builtin change directory context manager for scripting",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Builtin change directory context manager for scripting"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#builtin-change-directory-context-manager-for-scripting",
+      "entries": 0
+    },
+    {
+      "id": "juggling-of-exit-code-using-python-substitution",
+      "title": "Juggling of exit code using python substitution",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Juggling of exit code using python substitution"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#juggling-of-exit-code-using-python-substitution",
+      "entries": 0
+    },
+    {
+      "id": "how-to-paste-and-edit-multiple-lines-of-code-while-in-interactive-mode",
+      "title": "How to paste and edit multiple lines of code while in interactive mode",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "How to paste and edit multiple lines of code while in interactive mode"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#how-to-paste-and-edit-multiple-lines-of-code-while-in-interactive-mode",
+      "entries": 0
+    },
+    {
+      "id": "waiting-for-the-job-done",
+      "title": "Waiting for the job done",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Waiting for the job done"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#waiting-for-the-job-done",
+      "entries": 0
+    },
+    {
+      "id": "do-asynchronous-task-in-interactive-prompt",
+      "title": "Do asynchronous task in interactive prompt",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Do asynchronous task in interactive prompt"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#do-asynchronous-task-in-interactive-prompt",
+      "entries": 0
+    },
+    {
+      "id": "how-to-review-the-code-instantly",
+      "title": "How to review the code instantly?",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "How to review the code instantly?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#how-to-review-the-code-instantly",
+      "entries": 0
+    },
+    {
+      "id": "how-to-trace-xonsh-code",
+      "title": "How to trace xonsh code?",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "How to trace xonsh code?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#how-to-trace-xonsh-code",
+      "entries": 0
+    },
+    {
+      "id": "from-bash-to-xonsh",
+      "title": "From Bash to Xonsh",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "From Bash to Xonsh"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#from-bash-to-xonsh",
+      "entries": 0
+    },
+    {
+      "id": "using-env-variables-with-with-inline-execalias",
+      "title": "Using env variables with with inline ExecAlias",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Using env variables with with inline ExecAlias"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#using-env-variables-with-with-inline-execalias",
+      "entries": 0
+    },
+    {
+      "id": "expert-level-how-to-inject-wrapper-into-xonsh-code",
+      "title": "Expert level: How to inject wrapper into xonsh code?",
+      "level": 3,
+      "path": [
+        "Tips and tricks",
+        "Expert level: How to inject wrapper into xonsh code?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#expert-level-how-to-inject-wrapper-into-xonsh-code",
+      "entries": 0
+    },
+    {
+      "id": "xonsh-and-windows",
+      "title": "Xonsh and Windows",
+      "level": 1,
+      "path": [
+        "Xonsh and Windows"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#xonsh-and-windows",
+      "entries": 0
+    },
+    {
+      "id": "wsl",
+      "title": "WSL",
+      "level": 2,
+      "path": [
+        "Xonsh and Windows",
+        "WSL"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#wsl",
+      "entries": 0
+    },
+    {
+      "id": "windows-environment",
+      "title": "Windows Environment",
+      "level": 2,
+      "path": [
+        "Xonsh and Windows",
+        "Windows Environment"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#windows-environment",
+      "entries": 6
+    },
+    {
+      "id": "known-issues-with-windows",
+      "title": "Known issues with Windows",
+      "level": 2,
+      "path": [
+        "Xonsh and Windows",
+        "Known issues with Windows"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#known-issues-with-windows",
+      "entries": 2
+    },
+    {
+      "id": "answers-to-the-holy-war-questions",
+      "title": "Answers to the holy war questions",
+      "level": 1,
+      "path": [
+        "Answers to the holy war questions"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#answers-to-the-holy-war-questions",
+      "entries": 0
+    },
+    {
+      "id": "bash-is-everywhere-why-xonsh",
+      "title": "Bash is everywhere! Why Xonsh?",
+      "level": 3,
+      "path": [
+        "Answers to the holy war questions",
+        "Bash is everywhere! Why Xonsh?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#bash-is-everywhere-why-xonsh",
+      "entries": 0
+    },
+    {
+      "id": "python-is-slower-why-xonsh",
+      "title": "Python is slower! Why Xonsh?",
+      "level": 3,
+      "path": [
+        "Answers to the holy war questions",
+        "Python is slower! Why Xonsh?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#python-is-slower-why-xonsh",
+      "entries": 0
+    },
+    {
+      "id": "my-fancy-prompt-in-another-shell-is-super-duper-why-xonsh",
+      "title": "My fancy prompt in another shell is super duper! Why Xonsh?",
+      "level": 3,
+      "path": [
+        "Answers to the holy war questions",
+        "My fancy prompt in another shell is super duper! Why Xonsh?"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#my-fancy-prompt-in-another-shell-is-super-duper-why-xonsh",
+      "entries": 0
+    },
+    {
+      "id": "become-a-xonsh-developer-and-contributor",
+      "title": "Become a xonsh developer and contributor",
+      "level": 1,
+      "path": [
+        "Become a xonsh developer and contributor"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#become-a-xonsh-developer-and-contributor",
+      "entries": 0
+    },
+    {
+      "id": "thank-you",
+      "title": "Thank you!",
+      "level": 1,
+      "path": [
+        "Thank you!"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#thank-you",
+      "entries": 0
+    },
+    {
+      "id": "credits",
+      "title": "Credits",
+      "level": 1,
+      "path": [
+        "Credits"
+      ],
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#credits",
+      "entries": 3
+    }
+  ],
+  "entries": [
+    {
+      "title": "xontrib-sh",
+      "url": "https://github.com/anki-code/xontrib-sh",
+      "category": "1-shell-commands-also-known-as-subprocess-commands",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "universal new lines",
+      "url": "https://www.python.org/dev/peps/pep-0278/",
+      "category": "3-the-process-substitution-operator--returns-output-with-universal-new-lines",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "xontrib-dalias",
+      "url": "https://github.com/anki-code/xontrib-dalias",
+      "category": "3-the-process-substitution-operator--returns-output-with-universal-new-lines",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L397",
+      "line": 397,
+      "properties": {}
+    },
+    {
+      "title": "splitlines",
+      "url": "https://docs.python.org/3/library/stdtypes.html#str.splitlines",
+      "category": "3-the-process-substitution-operator--returns-output-with-universal-new-lines",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L406",
+      "line": 406,
+      "properties": {}
+    },
+    {
+      "title": "Github topic",
+      "url": "https://github.com/topics/xontrib",
+      "category": "xontrib---extension-or-plugin-for-xonsh",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L1228",
+      "line": 1228,
+      "properties": {}
+    },
+    {
+      "title": "Github repositories",
+      "url": "https://github.com/search?q=xontrib-&type=repositories",
+      "category": "xontrib---extension-or-plugin-for-xonsh",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L1229",
+      "line": 1229,
+      "properties": {}
+    },
+    {
+      "title": "awesome-xontribs",
+      "url": "https://github.com/xonsh/awesome-xontribs",
+      "category": "xontrib---extension-or-plugin-for-xonsh",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L1230",
+      "line": 1230,
+      "properties": {}
+    },
+    {
+      "title": "readline",
+      "url": "https://docs.python.org/3/library/readline.html",
+      "category": "run-pure-xonsh-engine",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L1943",
+      "line": 1943,
+      "properties": {}
+    },
+    {
+      "title": "Windows Terminal",
+      "url": "https://github.com/microsoft/terminal",
+      "category": "windows-environment",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2195",
+      "line": 2195,
+      "properties": {}
+    },
+    {
+      "title": "MSYS2",
+      "url": "https://www.msys2.org/",
+      "category": "windows-environment",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2197",
+      "line": 2197,
+      "properties": {}
+    },
+    {
+      "title": "xontrib coreutils",
+      "url": "https://xon.sh/api/_autosummary/xontribs/xontrib.coreutils.html#module-xontrib.coreutils",
+      "category": "windows-environment",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2198",
+      "line": 2198,
+      "properties": {}
+    },
+    {
+      "title": "cmdix",
+      "url": "https://github.com/jaraco/cmdix",
+      "category": "windows-environment",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2199",
+      "line": 2199,
+      "properties": {}
+    },
+    {
+      "title": "pycoreutils",
+      "url": "https://github.com/davidfischer/pycoreutils",
+      "category": "windows-environment",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2200",
+      "line": 2200,
+      "properties": {}
+    },
+    {
+      "title": "Windows-specific tips and tricks",
+      "url": "https://xon.sh/platform-issues.html#windows",
+      "category": "windows-environment",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2201",
+      "line": 2201,
+      "properties": {}
+    },
+    {
+      "title": "issues",
+      "url": "https://github.com/xonsh/xonsh/issues/6175",
+      "category": "known-issues-with-windows",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2205",
+      "line": 2205,
+      "properties": {}
+    },
+    {
+      "title": "xontrib-pygitstatus",
+      "url": "https://github.com/Spitfire1900/xontrib-pygitstatus",
+      "category": "known-issues-with-windows",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2206",
+      "line": 2206,
+      "properties": {}
+    },
+    {
+      "title": "Xonsh Tutorial",
+      "url": "https://xon.sh/tutorial.html",
+      "category": "credits",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2241",
+      "line": 2241,
+      "properties": {}
+    },
+    {
+      "title": "xontrib-hist-format",
+      "url": "https://github.com/anki-code/xontrib-hist-format",
+      "category": "credits",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2242",
+      "line": 2242,
+      "properties": {}
+    },
+    {
+      "title": "xontrib template",
+      "url": "https://github.com/xonsh/xontrib-template",
+      "category": "credits",
+      "source_url": "https://github.com/anki-code/xonsh-cheatsheet/blob/cb9f8508f37ade621d8416cd3804d8ce2041e98b/README.md#L2243",
+      "line": 2243,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 19,
+  "unique_links": 19,
+  "category_count": 7,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "anki-code",
+      "url": "https://github.com/anki-code",
+      "contributions": 100
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 692,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:53:46.707717+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by anki-code/xonsh-cheatsheet contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/anki-code/xonsh-cheatsheet/tree/cb9f8508f37ade621d8416cd3804d8ce2041e98b",
+  "digest": "f9e26b06794b0b114f539d1234c9a9ab35403b9c5b024ae0c9e462d116047b23"
+}

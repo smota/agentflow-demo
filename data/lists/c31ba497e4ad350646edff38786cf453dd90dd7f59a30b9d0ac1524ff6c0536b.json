@@ -1,0 +1,3191 @@
+{
+  "format_version": 3,
+  "repository_id": "655536625",
+  "name": "OmicsML/awesome-foundation-model-single-cell-papers",
+  "revision": "87b7b0c2eca034d63bb06699c8d86d1135197564",
+  "readme_path": "README.md",
+  "readme_sha256": "21b9acf877007f9d8f6acbcf9760de4dc58d2791c0173b5778eadebf29d9234d",
+  "sections": [
+    {
+      "id": "catalog",
+      "title": "Catalog",
+      "level": 2,
+      "path": [
+        "Catalog"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#catalog",
+      "entries": 0
+    },
+    {
+      "id": "single-cell-foundation-models",
+      "title": "Single-Cell Foundation Models",
+      "level": 2,
+      "path": [
+        "Single-Cell Foundation Models"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#single-cell-foundation-models",
+      "entries": 0
+    },
+    {
+      "id": "unimodal-scfms",
+      "title": "Unimodal scFMs",
+      "level": 3,
+      "path": [
+        "Single-Cell Foundation Models",
+        "Unimodal scFMs"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#unimodal-scfms",
+      "entries": 0
+    },
+    {
+      "id": "scrna-seq",
+      "title": "scRNA-seq",
+      "level": 4,
+      "path": [
+        "Single-Cell Foundation Models",
+        "Unimodal scFMs",
+        "scRNA-seq"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#scrna-seq",
+      "entries": 54
+    },
+    {
+      "id": "scatac-seq",
+      "title": "scATAC-seq",
+      "level": 4,
+      "path": [
+        "Single-Cell Foundation Models",
+        "Unimodal scFMs",
+        "scATAC-seq"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#scatac-seq",
+      "entries": 6
+    },
+    {
+      "id": "multimodal-scfms",
+      "title": "Multimodal scFMs",
+      "level": 3,
+      "path": [
+        "Single-Cell Foundation Models",
+        "Multimodal scFMs"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#multimodal-scfms",
+      "entries": 0
+    },
+    {
+      "id": "transcriptomics-and-perturbation",
+      "title": "Transcriptomics and Perturbation",
+      "level": 4,
+      "path": [
+        "Single-Cell Foundation Models",
+        "Multimodal scFMs",
+        "Transcriptomics and Perturbation"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#transcriptomics-and-perturbation",
+      "entries": 7
+    },
+    {
+      "id": "spatial-proteomics-and-histology",
+      "title": "Spatial, Proteomics and Histology",
+      "level": 4,
+      "path": [
+        "Single-Cell Foundation Models",
+        "Multimodal scFMs",
+        "Spatial, Proteomics and Histology"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#spatial-proteomics-and-histology",
+      "entries": 26
+    },
+    {
+      "id": "multi-omics-rna-atac-and-protein",
+      "title": "Multi-omics: RNA, ATAC and Protein",
+      "level": 4,
+      "path": [
+        "Single-Cell Foundation Models",
+        "Multimodal scFMs",
+        "Multi-omics: RNA, ATAC and Protein"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#multi-omics-rna-atac-and-protein",
+      "entries": 9
+    },
+    {
+      "id": "llm-based-scfms",
+      "title": "LLM-based scFMs",
+      "level": 3,
+      "path": [
+        "Single-Cell Foundation Models",
+        "LLM-based scFMs"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#llm-based-scfms",
+      "entries": 28
+    },
+    {
+      "id": "genetic-perturbation-models-atlases-and-benchmarks",
+      "title": "Genetic Perturbation: Models, Atlases and Benchmarks",
+      "level": 2,
+      "path": [
+        "Genetic Perturbation: Models, Atlases and Benchmarks"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#genetic-perturbation-models-atlases-and-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "models-and-prediction-frameworks",
+      "title": "Models and prediction frameworks",
+      "level": 3,
+      "path": [
+        "Genetic Perturbation: Models, Atlases and Benchmarks",
+        "Models and prediction frameworks"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#models-and-prediction-frameworks",
+      "entries": 20
+    },
+    {
+      "id": "perturbation-atlases-and-datasets",
+      "title": "Perturbation atlases and datasets",
+      "level": 3,
+      "path": [
+        "Genetic Perturbation: Models, Atlases and Benchmarks",
+        "Perturbation atlases and datasets"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#perturbation-atlases-and-datasets",
+      "entries": 6
+    },
+    {
+      "id": "perturbation-benchmarks",
+      "title": "Perturbation benchmarks",
+      "level": 3,
+      "path": [
+        "Genetic Perturbation: Models, Atlases and Benchmarks",
+        "Perturbation benchmarks"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#perturbation-benchmarks",
+      "entries": 15
+    },
+    {
+      "id": "virtual-cell-world-models-and-digital-human",
+      "title": "Virtual Cell, World Models and Digital Human",
+      "level": 2,
+      "path": [
+        "Virtual Cell, World Models and Digital Human"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#virtual-cell-world-models-and-digital-human",
+      "entries": 0
+    },
+    {
+      "id": "reviews-comments-and-perspectives",
+      "title": "Reviews, comments, and perspectives",
+      "level": 3,
+      "path": [
+        "Virtual Cell, World Models and Digital Human",
+        "Reviews, comments, and perspectives"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#reviews-comments-and-perspectives",
+      "entries": 13
+    },
+    {
+      "id": "models-and-frameworks",
+      "title": "Models and frameworks",
+      "level": 3,
+      "path": [
+        "Virtual Cell, World Models and Digital Human",
+        "Models and frameworks"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#models-and-frameworks",
+      "entries": 13
+    },
+    {
+      "id": "pretraining-datasets-and-resources",
+      "title": "Pretraining Datasets and Resources",
+      "level": 2,
+      "path": [
+        "Pretraining Datasets and Resources"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#pretraining-datasets-and-resources",
+      "entries": 0
+    },
+    {
+      "id": "single-cell-transcriptomic-atlases-and-repositories",
+      "title": "Single-cell transcriptomic atlases and repositories",
+      "level": 3,
+      "path": [
+        "Pretraining Datasets and Resources",
+        "Single-cell transcriptomic atlases and repositories"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#single-cell-transcriptomic-atlases-and-repositories",
+      "entries": 12
+    },
+    {
+      "id": "multimodal-and-spatial-pretraining-corpora",
+      "title": "Multimodal and spatial pretraining corpora",
+      "level": 3,
+      "path": [
+        "Pretraining Datasets and Resources",
+        "Multimodal and spatial pretraining corpora"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#multimodal-and-spatial-pretraining-corpora",
+      "entries": 4
+    },
+    {
+      "id": "data-formats-and-frameworks",
+      "title": "Data formats and frameworks",
+      "level": 3,
+      "path": [
+        "Pretraining Datasets and Resources",
+        "Data formats and frameworks"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#data-formats-and-frameworks",
+      "entries": 6
+    },
+    {
+      "id": "benchmarks-and-evaluation",
+      "title": "Benchmarks and Evaluation",
+      "level": 2,
+      "path": [
+        "Benchmarks and Evaluation"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#benchmarks-and-evaluation",
+      "entries": 0
+    },
+    {
+      "id": "benchmarks-and-critical-evaluations",
+      "title": "Benchmarks and critical evaluations",
+      "level": 3,
+      "path": [
+        "Benchmarks and Evaluation",
+        "Benchmarks and critical evaluations"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#benchmarks-and-critical-evaluations",
+      "entries": 54
+    },
+    {
+      "id": "data-privacy-and-accessibility",
+      "title": "Data privacy and accessibility",
+      "level": 3,
+      "path": [
+        "Benchmarks and Evaluation",
+        "Data privacy and accessibility"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#data-privacy-and-accessibility",
+      "entries": 4
+    },
+    {
+      "id": "infrastructure-platforms-and-ai-agents",
+      "title": "Infrastructure, Platforms and AI Agents",
+      "level": 2,
+      "path": [
+        "Infrastructure, Platforms and AI Agents"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#infrastructure-platforms-and-ai-agents",
+      "entries": 0
+    },
+    {
+      "id": "infrastructure-and-platforms",
+      "title": "Infrastructure and platforms",
+      "level": 3,
+      "path": [
+        "Infrastructure, Platforms and AI Agents",
+        "Infrastructure and platforms"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#infrastructure-and-platforms",
+      "entries": 12
+    },
+    {
+      "id": "ai-agents-for-single-cell-discovery",
+      "title": "AI agents for single-cell discovery",
+      "level": 3,
+      "path": [
+        "Infrastructure, Platforms and AI Agents",
+        "AI agents for single-cell discovery"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#ai-agents-for-single-cell-discovery",
+      "entries": 16
+    },
+    {
+      "id": "lab-in-the-loop-and-active-discovery",
+      "title": "Lab-in-the-loop and active discovery",
+      "level": 3,
+      "path": [
+        "Infrastructure, Platforms and AI Agents",
+        "Lab-in-the-loop and active discovery"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#lab-in-the-loop-and-active-discovery",
+      "entries": 2
+    },
+    {
+      "id": "surveys-and-perspectives",
+      "title": "Surveys and Perspectives",
+      "level": 2,
+      "path": [
+        "Surveys and Perspectives"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#surveys-and-perspectives",
+      "entries": 33
+    },
+    {
+      "id": "foundation-models-for-pathology-related-work",
+      "title": "Foundation Models for Pathology (related work)",
+      "level": 2,
+      "path": [
+        "Foundation Models for Pathology (related work)"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#foundation-models-for-pathology-related-work",
+      "entries": 5
+    },
+    {
+      "id": "foundation-models-for-bulk-transcriptome",
+      "title": "Foundation Models for Bulk Transcriptome",
+      "level": 2,
+      "path": [
+        "Foundation Models for Bulk Transcriptome"
+      ],
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#foundation-models-for-bulk-transcriptome",
+      "entries": 3
+    }
+  ],
+  "entries": [
+    {
+      "title": "[paper]",
+      "url": "https://link.springer.com/article/10.1186/s13059-026-04193-w",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2607.14163",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-026-10689-z",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715396v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2603.25240",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-026-70071-5",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2602.03477",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2602.02093",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-026-69102-y",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-026-72198-x",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s43588-026-00972-4",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2511.02986",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693702v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.16.653447v2.abstract",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.685470v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.14.682419v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s42256-025-01170-z",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02627-0",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.science.org/doi/10.1126/science.aec8514",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2503.03485",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=Vk2sfKAdeu",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-025-58699-1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-025-59926-5",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/nsr/article/12/10/nwaf255/8172492",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-024-08411-y",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.02.651839v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2504.16956",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.11.01.621087v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.11.28.625303v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://neurips.cc/virtual/2024/poster/94537",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-024-02201-0",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-024-02305-7",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-024-02191-z",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-024-02214-9",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41422-024-01034-y",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.02.21.581428v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38483032/",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nxn.se/valent/2024/2/4/single-cell-metadata-as-language",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=BKXvPDekud",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-023-06139-9",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=gdwcoBCMVi",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/iscience/fulltext/S2589-0042(23)00613-2",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-023-02035-2",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=4UCktT9XZx",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/pdf?id=2mq6uezuGj",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/pdf/2306.04371.pdf",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2023.09.25.559244v1",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2310.02713",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s42256-022-00534-z",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2210.14330",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/bioinformatics/article/38/6/1607/6499287",
+      "category": "scrna-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.03.685753v1",
+      "category": "scatac-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37046",
+      "category": "scatac-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2505.12638",
+      "category": "scatac-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.05.636688v2",
+      "category": "scatac-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02822-z",
+      "category": "scatac-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-024-08391-z",
+      "category": "scatac-seq",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=pJyidZg93y",
+      "category": "transcriptomics-and-perturbation",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1",
+      "category": "transcriptomics-and-perturbation",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2603.17380",
+      "category": "transcriptomics-and-perturbation",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709254v1",
+      "category": "transcriptomics-and-perturbation",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1",
+      "category": "transcriptomics-and-perturbation",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.23.683759v1",
+      "category": "transcriptomics-and-perturbation",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.26.661135v2",
+      "category": "transcriptomics-and-perturbation",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741565v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-026-10884-y",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.23.740264v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.01.729028v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41591-025-04060-4",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.12.718016v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2604.03630",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712056v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.08.663729v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2506.11152",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2506.03373",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2507.04704",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.05.636714v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2507.11588",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02814-z",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.04.663102v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.07.669202v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.09.27.615337v7",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02899-6",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41746-025-02020-3",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02707-1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2411.16793",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s43588-025-00891-w",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.15.688644v1",
+      "category": "spatial-proteomics-and-histology",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.744355v1",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.730684v1",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.704943v1",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.07.647689v1",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-026-72882-y",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679123v1",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629561v2",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41551-025-01528-z",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/pdf?id=KMtM5ZHxct",
+      "category": "multi-omics-rna-atac-and-protein",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737248v1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.20.719773v1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699186v1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41551-025-01602-6",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=fDLe47paJ1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687322v1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.22.684047v1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2509.24840",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2501.08187",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.14.648850",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-025-02857-9",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=Tmx4o3Jg55",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.10.647852v1",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2507.10039",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=0m4VsLwj5s",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2503.09427",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/patterns/fulltext/S2666-3899(25)00279-X",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41551-024-01284-6",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202513210",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.70285",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.mlr.press/v235/zhao24u.html",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=yWiZaE4k3K",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=eb3ndUlkt4",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2412.18156",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.mlr.press/v235/levine24a.html",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-024-02235-4",
+      "category": "llm-based-scfms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735555v1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740459v1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2602.07103",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2604.13986",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.25.708091v1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2602.19685",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.08.663754",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2525268122",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02877-y",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.11.30.691355v1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s43588-025-00870-1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s43588-025-00912-8",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2507.02980",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.12.04.626878v1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.10.23.619972v1",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-023-01905-6",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-023-02040-5",
+      "category": "models-and-prediction-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1",
+      "category": "perturbation-atlases-and-datasets",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1",
+      "category": "perturbation-atlases-and-datasets",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/nar/article/53/D1/D1099/7815638",
+      "category": "perturbation-atlases-and-datasets",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.science.org/doi/10.1126/science.ads7951",
+      "category": "perturbation-atlases-and-datasets",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693897v1",
+      "category": "perturbation-atlases-and-datasets",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1016/j.cell.2016.11.038",
+      "category": "perturbation-atlases-and-datasets",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.23.740433v1",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://link.springer.com/article/10.1186/s13059-026-04104-z",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.14.705879v1",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02980-0",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02772-6",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-025-02777-8",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.22.677811v1",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2506.22641",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=PPPDuyiZaG",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.12.23.630036v1",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://proceedings.mlr.press/v267/wenteler25a.html",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1186/s12864-025-11600-2",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2410.13956",
+      "category": "perturbation-benchmarks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41591-026-04595-0",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=YyI469JbU3",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/d41586-026-01731-1",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://genbio.ai/research/virtual-cell-may-3.pdf",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-026-03055-4",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2452199X2500622X",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02951-5",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41746-025-02198-6",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41422-025-01101-y",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2510.07706",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2505.14613",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1",
+      "category": "reviews-comments-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.12.743536v1",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "[blog]",
+      "url": "https://genbio.ai/aido-cell-simulator/",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.07.26357373v1",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733163v2",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2604.11661",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2606.12838v1",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2602.02093",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2605.28111",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.19.696785v1",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2508.02276",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2512.00306",
+      "category": "models-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.27.640494v3",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41597-025-06426-2",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202500870",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1126/science.abl4896",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1016/j.isci.2022.104318",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1093/nar/gkab1020",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1093/nar/gkad1021",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/nar/article/53/D1/D886/7912032",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1093/bioinformatics/btab503",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1101/2023.07.13.548886",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1093/nar/30.1.207",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1093/nar/gkq1019",
+      "category": "single-cell-transcriptomic-atlases-and-repositories",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.07.647689v1",
+      "category": "multimodal-and-spatial-pretraining-corpora",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/nar/article/52/D1/D562/7416372",
+      "category": "multimodal-and-spatial-pretraining-corpora",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02814-z",
+      "category": "multimodal-and-spatial-pretraining-corpora",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2507.11588",
+      "category": "multimodal-and-spatial-pretraining-corpora",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.30.741695v1",
+      "category": "data-formats-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/html/2506.01883v3",
+      "category": "data-formats-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02909-7",
+      "category": "data-formats-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1038/s41587-021-01206-w",
+      "category": "data-formats-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1016/j.cell.2019.05.031",
+      "category": "data-formats-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1186/s13059-017-1382-0",
+      "category": "data-formats-and-frameworks",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733146v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.01.742217v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13390336/",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell-systems/abstract/S2405-4712(26)00157-2",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.1145/3770855.3817464",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733285v2",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733850v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.15.731445v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-026-03119-5",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-026-03120-y",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-026-03112-5",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2604.27646",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-026-72570-x",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1038/s43588-025-00945-z",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.17.719314v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710748v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2603.02952",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2602.16696",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-025-02694-w",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-025-02702-z",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1038/s41587-025-02743-4",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2505.07865",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695371v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.09.687403v3",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-025-64511-x",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.22.681631v2",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689462v2",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.26.661767v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s42256-025-01097-5",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02856-3",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2506.14861",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03781-6",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.01.29.635607v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-025-67481-2",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37110",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://dl.acm.org/doi/10.1145/3701551.3708811",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1093/bib/bbaf380",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.25.640181v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1038/s41467-024-51059-5",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s42256-024-00934-3",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666389925001746",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s42256-024-00949-w",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2023.09.08.555192v2",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s42256-023-00757-8",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2023.10.19.563100v1.abstract",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2023.10.24.563625v1",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2309.04019",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/pdf?id=uKB4cFNQFg",
+      "category": "benchmarks-and-critical-evaluations",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01030-4",
+      "category": "data-privacy-and-accessibility",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.researchsquare.com/article/rs-7917089/v1",
+      "category": "data-privacy-and-accessibility",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L397",
+      "line": 397,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1186/s13059-025-03684-6",
+      "category": "data-privacy-and-accessibility",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L398",
+      "line": 398,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1038/s41586-023-05881-4",
+      "category": "data-privacy-and-accessibility",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L399",
+      "line": 399,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743174v1",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L406",
+      "line": 406,
+      "properties": {}
+    },
+    {
+      "title": "[blog]",
+      "url": "https://blog.lamin.ai/arc-virtual-cell-atlas",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.29.702554v1",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L408",
+      "line": 408,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718336v1",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s43588-025-00943-1",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2604.01949",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.01.708392v1",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2603.02402",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02799-9",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-025-02859-7",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L415",
+      "line": 415,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2411.10548",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://doi.org/10.1038/s41592-022-01488-1",
+      "category": "infrastructure-and-platforms",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.06.716850v1",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.preprints.org/manuscript/202608.0213",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.science.org/doi/10.1126/science.adz4351",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-026-10658-6",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s44387-025-00064-0",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.the-innovation.org/article/doi/10.59717/j.xinn-oncol.2026.100002",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L425",
+      "line": 425,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-026-03035-1",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L426",
+      "line": 426,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-026-03029-6",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L427",
+      "line": 427,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2603.11872",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.06.697527v1",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.26.707870v1",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41467-025-67084-x",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.06.686964v1",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2505.08844",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=BsA2GNkJhz",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2602.11609",
+      "category": "ai-agents-for-single-cell-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.science.org/doi/10.1126/science.adi8577",
+      "category": "lab-in-the-loop-and-active-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2605.10196",
+      "category": "lab-in-the-loop-and-active-discovery",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell/abstract/S0092-8674(26)00801-9",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00802-0",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-026-10574-9",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666389926001017?via%3Dihub",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L448",
+      "line": 448,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/bib/article/27/2/bbag131/8553189",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s42256-026-01220-0#Sec24",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L450",
+      "line": 450,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-026-03135-y",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell-systems/fulltext/S2405-4712(26)00016-5",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cancer-cell/fulltext/S1535-6108(25)00543-4",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41576-025-00920-4",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-025-08710-y#Abs1",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://arxiv.org/abs/2510.07793",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02931-9",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-025-02918-6",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L458",
+      "line": 458,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s42256-025-01007-9",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41587-025-02846-y",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L460",
+      "line": 460,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/nsr/article/12/4/nwaf028/7979309",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666389925001941",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L462",
+      "line": 462,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s12276-025-01547-5",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L463",
+      "line": 463,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://aclanthology.org/2025.acl-long.26/",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L464",
+      "line": 464,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12356405/",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/bioinformatics/article/41/11/btaf603/8315140",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L466",
+      "line": 466,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.70010",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03771-8",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12806037/",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41580-024-00756-6",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L470",
+      "line": 470,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-024-02353-z",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/nsr/article/11/11/nwae340/7775526",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L472",
+      "line": 472,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell/abstract/S0092-8674(24)00829-8",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)00301-5",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L474",
+      "line": 474,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-024-08338-4",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L476",
+      "line": 476,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://academic.oup.com/bib/article/25/6/bbae548/7842778",
+      "category": "surveys-and-perspectives",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41592-024-02499-w",
+      "category": "foundation-models-for-pathology-related-work",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L483",
+      "line": 483,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41586-024-07441-w",
+      "category": "foundation-models-for-pathology-related-work",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L484",
+      "line": 484,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41591-024-02857-3",
+      "category": "foundation-models-for-pathology-related-work",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L485",
+      "line": 485,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41591-024-02856-4",
+      "category": "foundation-models-for-pathology-related-work",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L486",
+      "line": 486,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41591-023-02504-3",
+      "category": "foundation-models-for-pathology-related-work",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L487",
+      "line": 487,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.cell.com/cell-systems/fulltext/S2405-4712(26)00139-0",
+      "category": "foundation-models-for-bulk-transcriptome",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://www.nature.com/articles/s41591-026-04502-7",
+      "category": "foundation-models-for-bulk-transcriptome",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L492",
+      "line": 492,
+      "properties": {}
+    },
+    {
+      "title": "[paper]",
+      "url": "https://openreview.net/forum?id=fi4gh4Syka",
+      "category": "foundation-models-for-bulk-transcriptome",
+      "source_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/blob/87b7b0c2eca034d63bb06699c8d86d1135197564/README.md#L493",
+      "line": 493,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 348,
+  "unique_links": 342,
+  "category_count": 22,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "JasonJiangs",
+      "url": "https://github.com/JasonJiangs",
+      "contributions": 78
+    },
+    {
+      "login": "JiayuanDing100",
+      "url": "https://github.com/JiayuanDing100",
+      "contributions": 17
+    },
+    {
+      "login": "cafferychen777",
+      "url": "https://github.com/cafferychen777",
+      "contributions": 1
+    },
+    {
+      "login": "ElliotXie",
+      "url": "https://github.com/ElliotXie",
+      "contributions": 1
+    },
+    {
+      "login": "KalinNonchev",
+      "url": "https://github.com/KalinNonchev",
+      "contributions": 1
+    },
+    {
+      "login": "kasparmartens",
+      "url": "https://github.com/kasparmartens",
+      "contributions": 1
+    },
+    {
+      "login": "zy-fang",
+      "url": "https://github.com/zy-fang",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 167,
+    "public_contributors": 7,
+    "observed_at": "2026-09-03T17:50:33.174614+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by OmicsML/awesome-foundation-model-single-cell-papers contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/OmicsML/awesome-foundation-model-single-cell-papers/tree/87b7b0c2eca034d63bb06699c8d86d1135197564",
+  "digest": "c31ba497e4ad350646edff38786cf453dd90dd7f59a30b9d0ac1524ff6c0536b"
+}

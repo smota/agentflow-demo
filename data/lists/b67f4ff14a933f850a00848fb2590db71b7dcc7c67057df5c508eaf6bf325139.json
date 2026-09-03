@@ -1,0 +1,2415 @@
+{
+  "format_version": 3,
+  "repository_id": "40960931",
+  "name": "alexsosn/iOS_ML",
+  "revision": "655cfdcc524aebcc176bf1b3265b7f4c35e514ed",
+  "readme_path": "README.md",
+  "readme_sha256": "81ba1fac559c319d3bf5c7967a0489f7af266796c623221282362fcadeebd707",
+  "sections": [
+    {
+      "id": "machine-learning-for-ios",
+      "title": "Machine Learning for iOS",
+      "level": 1,
+      "path": [
+        "Machine Learning for iOS"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#machine-learning-for-ios",
+      "entries": 0
+    },
+    {
+      "id": "a-namecoremlcore-ml",
+      "title": "<a name=\"coreml\"/>Core ML",
+      "level": 1,
+      "path": [
+        "<a name=\"coreml\"/>Core ML"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namecoremlcore-ml",
+      "entries": 12
+    },
+    {
+      "id": "a-namegpmllgeneral-purpose-machine-learning-libraries",
+      "title": "<a name=\"gpmll\"/>General-Purpose Machine Learning Libraries",
+      "level": 1,
+      "path": [
+        "<a name=\"gpmll\"/>General-Purpose Machine Learning Libraries"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namegpmllgeneral-purpose-machine-learning-libraries",
+      "entries": 6
+    },
+    {
+      "id": "a-namedlldeep-learning-libraries",
+      "title": "<a name=\"dll\"/>Deep Learning Libraries:",
+      "level": 1,
+      "path": [
+        "<a name=\"dll\"/>Deep Learning Libraries:"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namedlldeep-learning-libraries",
+      "entries": 0
+    },
+    {
+      "id": "on-device-training-and-inference",
+      "title": "On-Device training and inference",
+      "level": 3,
+      "path": [
+        "<a name=\"dll\"/>Deep Learning Libraries:",
+        "On-Device training and inference"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#on-device-training-and-inference",
+      "entries": 22
+    },
+    {
+      "id": "deep-learning-running-pre-trained-models-on-device",
+      "title": "Deep Learning: Running pre-trained models on device",
+      "level": 3,
+      "path": [
+        "<a name=\"dll\"/>Deep Learning Libraries:",
+        "Deep Learning: Running pre-trained models on device"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#deep-learning-running-pre-trained-models-on-device",
+      "entries": 11
+    },
+    {
+      "id": "deep-learning-low-level-routines-libraries",
+      "title": "Deep Learning: Low-level routines libraries",
+      "level": 3,
+      "path": [
+        "<a name=\"dll\"/>Deep Learning Libraries:",
+        "Deep Learning: Low-level routines libraries"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#deep-learning-low-level-routines-libraries",
+      "entries": 9
+    },
+    {
+      "id": "a-namedlmcdeep-learning-model-compression",
+      "title": "<a name=\"dlmc\"/>Deep Learning: Model Compression",
+      "level": 3,
+      "path": [
+        "<a name=\"dll\"/>Deep Learning Libraries:",
+        "<a name=\"dlmc\"/>Deep Learning: Model Compression"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namedlmcdeep-learning-model-compression",
+      "entries": 3
+    },
+    {
+      "id": "a-namecvcomputer-vision",
+      "title": "<a name=\"cv\"/>Computer Vision",
+      "level": 1,
+      "path": [
+        "<a name=\"cv\"/>Computer Vision"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namecvcomputer-vision",
+      "entries": 12
+    },
+    {
+      "id": "a-namenlpnatural-language-processing",
+      "title": "<a name=\"nlp\"/>Natural Language Processing",
+      "level": 1,
+      "path": [
+        "<a name=\"nlp\"/>Natural Language Processing"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namenlpnatural-language-processing",
+      "entries": 7
+    },
+    {
+      "id": "a-namettsspeech-recognition-tts-and-generation-stt",
+      "title": "<a name=\"tts\"/>Speech Recognition (TTS) and Generation (STT)",
+      "level": 1,
+      "path": [
+        "<a name=\"tts\"/>Speech Recognition (TTS) and Generation (STT)"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namettsspeech-recognition-tts-and-generation-stt",
+      "entries": 6
+    },
+    {
+      "id": "a-nameocrtext-recognition-ocr",
+      "title": "<a name=\"ocr\"/>Text Recognition (OCR)",
+      "level": 1,
+      "path": [
+        "<a name=\"ocr\"/>Text Recognition (OCR)"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-nameocrtext-recognition-ocr",
+      "entries": 6
+    },
+    {
+      "id": "a-nameaiother-ai",
+      "title": "<a name=\"ai\"/>Other AI",
+      "level": 1,
+      "path": [
+        "<a name=\"ai\"/>Other AI"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-nameaiother-ai",
+      "entries": 4
+    },
+    {
+      "id": "a-namewebmachine-learning-web-apis",
+      "title": "<a name=\"web\"/>Machine Learning Web APIs",
+      "level": 1,
+      "path": [
+        "<a name=\"web\"/>Machine Learning Web APIs"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namewebmachine-learning-web-apis",
+      "entries": 22
+    },
+    {
+      "id": "a-namemlappsopensource-ml-applications",
+      "title": "<a name=\"mlapps\"/>Opensource ML Applications",
+      "level": 1,
+      "path": [
+        "<a name=\"mlapps\"/>Opensource ML Applications"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namemlappsopensource-ml-applications",
+      "entries": 0
+    },
+    {
+      "id": "deep-learning",
+      "title": "Deep Learning",
+      "level": 3,
+      "path": [
+        "<a name=\"mlapps\"/>Opensource ML Applications",
+        "Deep Learning"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#deep-learning",
+      "entries": 18
+    },
+    {
+      "id": "traditional-computer-vision",
+      "title": "Traditional Computer Vision",
+      "level": 3,
+      "path": [
+        "<a name=\"mlapps\"/>Opensource ML Applications",
+        "Traditional Computer Vision"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#traditional-computer-vision",
+      "entries": 2
+    },
+    {
+      "id": "nlp",
+      "title": "NLP",
+      "level": 3,
+      "path": [
+        "<a name=\"mlapps\"/>Opensource ML Applications",
+        "NLP"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#nlp",
+      "entries": 2
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "level": 3,
+      "path": [
+        "<a name=\"mlapps\"/>Opensource ML Applications",
+        "Other"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#other",
+      "entries": 2
+    },
+    {
+      "id": "a-namegameaigame-ai",
+      "title": "<a name=\"gameai\"/>Game AI",
+      "level": 1,
+      "path": [
+        "<a name=\"gameai\"/>Game AI"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namegameaigame-ai",
+      "entries": 5
+    },
+    {
+      "id": "other-related-staff",
+      "title": "Other related staff",
+      "level": 1,
+      "path": [
+        "Other related staff"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#other-related-staff",
+      "entries": 0
+    },
+    {
+      "id": "a-namelalinear-algebra",
+      "title": "<a name=\"la\"/>Linear algebra",
+      "level": 3,
+      "path": [
+        "Other related staff",
+        "<a name=\"la\"/>Linear algebra"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namelalinear-algebra",
+      "entries": 12
+    },
+    {
+      "id": "a-namestatstatistics-random-numbers",
+      "title": "<a name=\"stat\"/>Statistics, random numbers",
+      "level": 3,
+      "path": [
+        "Other related staff",
+        "<a name=\"stat\"/>Statistics, random numbers"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namestatstatistics-random-numbers",
+      "entries": 3
+    },
+    {
+      "id": "a-namemomathematical-optimization",
+      "title": "<a name=\"mo\"/>Mathematical optimization",
+      "level": 3,
+      "path": [
+        "Other related staff",
+        "<a name=\"mo\"/>Mathematical optimization"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namemomathematical-optimization",
+      "entries": 3
+    },
+    {
+      "id": "a-namefefeature-extraction",
+      "title": "<a name=\"fe\"/>Feature extraction",
+      "level": 3,
+      "path": [
+        "Other related staff",
+        "<a name=\"fe\"/>Feature extraction"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namefefeature-extraction",
+      "entries": 3
+    },
+    {
+      "id": "a-namedvdata-visualization",
+      "title": "<a name=\"dv\"/>Data Visualization",
+      "level": 3,
+      "path": [
+        "Other related staff",
+        "<a name=\"dv\"/>Data Visualization"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namedvdata-visualization",
+      "entries": 8
+    },
+    {
+      "id": "a-namebiobioinformatics-kinda",
+      "title": "<a name=\"bio\"/>Bioinformatics (kinda)",
+      "level": 3,
+      "path": [
+        "Other related staff",
+        "<a name=\"bio\"/>Bioinformatics (kinda)"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namebiobioinformatics-kinda",
+      "entries": 3
+    },
+    {
+      "id": "a-namebdbig-data-not-really",
+      "title": "<a name=\"bd\"/>Big Data (not really)",
+      "level": 3,
+      "path": [
+        "Other related staff",
+        "<a name=\"bd\"/>Big Data (not really)"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namebdbig-data-not-really",
+      "entries": 1
+    },
+    {
+      "id": "a-nameipipython--swift",
+      "title": "<a name=\"ip\"/>IPython + Swift",
+      "level": 3,
+      "path": [
+        "Other related staff",
+        "<a name=\"ip\"/>IPython + Swift"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-nameipipython--swift",
+      "entries": 1
+    },
+    {
+      "id": "a-nameblogsios-ml-blogs",
+      "title": "<a name=\"blogs\"/>iOS ML Blogs",
+      "level": 1,
+      "path": [
+        "<a name=\"blogs\"/>iOS ML Blogs"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-nameblogsios-ml-blogs",
+      "entries": 0
+    },
+    {
+      "id": "regular-mobile-ml",
+      "title": "Regular mobile ML",
+      "level": 3,
+      "path": [
+        "<a name=\"blogs\"/>iOS ML Blogs",
+        "Regular mobile ML"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#regular-mobile-ml",
+      "entries": 5
+    },
+    {
+      "id": "accidental-mobile-ml",
+      "title": "Accidental mobile ML",
+      "level": 3,
+      "path": [
+        "<a name=\"blogs\"/>iOS ML Blogs",
+        "Accidental mobile ML"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#accidental-mobile-ml",
+      "entries": 6
+    },
+    {
+      "id": "other-1",
+      "title": "Other",
+      "level": 3,
+      "path": [
+        "<a name=\"blogs\"/>iOS ML Blogs",
+        "Other"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#other-1",
+      "entries": 4
+    },
+    {
+      "id": "a-namegpublogsgpu-computing-blogs",
+      "title": "<a name=\"gpublogs\"/>GPU Computing Blogs",
+      "level": 1,
+      "path": [
+        "<a name=\"gpublogs\"/>GPU Computing Blogs"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namegpublogsgpu-computing-blogs",
+      "entries": 6
+    },
+    {
+      "id": "metal",
+      "title": "Metal",
+      "level": 3,
+      "path": [
+        "<a name=\"gpublogs\"/>GPU Computing Blogs",
+        "Metal"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#metal",
+      "entries": 9
+    },
+    {
+      "id": "a-namebooksmobile-ml-books",
+      "title": "<a name=\"books\"/>Mobile ML Books",
+      "level": 1,
+      "path": [
+        "<a name=\"books\"/>Mobile ML Books"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namebooksmobile-ml-books",
+      "entries": 1
+    },
+    {
+      "id": "a-namelearnlearn-machine-learning",
+      "title": "<a name=\"learn\"/>Learn Machine Learning",
+      "level": 1,
+      "path": [
+        "<a name=\"learn\"/>Learn Machine Learning"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namelearnlearn-machine-learning",
+      "entries": 2
+    },
+    {
+      "id": "free-books",
+      "title": "Free Books",
+      "level": 2,
+      "path": [
+        "<a name=\"learn\"/>Learn Machine Learning",
+        "Free Books"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#free-books",
+      "entries": 4
+    },
+    {
+      "id": "free-courses",
+      "title": "Free Courses",
+      "level": 2,
+      "path": [
+        "<a name=\"learn\"/>Learn Machine Learning",
+        "Free Courses"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#free-courses",
+      "entries": 12
+    },
+    {
+      "id": "a-namelistsother-lists",
+      "title": "<a name=\"lists\"/>Other Lists",
+      "level": 1,
+      "path": [
+        "<a name=\"lists\"/>Other Lists"
+      ],
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#a-namelistsother-lists",
+      "entries": 7
+    }
+  ],
+  "entries": [
+    {
+      "title": "coremltools",
+      "url": "https://pypi.python.org/pypi/coremltools",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Core ML",
+      "url": "https://developer.apple.com/documentation/coreml",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Caffe",
+      "url": "http://caffe.berkeleyvision.org/",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Keras",
+      "url": "https://keras.io/",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "libSVM",
+      "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvm/",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "scikit-learn",
+      "url": "http://scikit-learn.org/",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "XGBoost",
+      "url": "https://xgboost.readthedocs.io/en/latest/",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Turicreate",
+      "url": "https://github.com/apple/turicreate",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "TensorFlow",
+      "url": "https://github.com/tf-coreml/tf-coreml",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "MXNet",
+      "url": "https://github.com/apache/incubator-mxnet/tree/master/tools/coreml",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Torch7",
+      "url": "https://github.com/prisma-ai/torch2coreml",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "CatBoost",
+      "url": "https://tech.yandex.com/catboost/doc/dg/features/export-model-to-core-ml-docpage/",
+      "category": "a-namecoremlcore-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Brain.js",
+      "url": "https://github.com/harthur/brain",
+      "category": "a-namegpmllgeneral-purpose-machine-learning-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "SNNeuralNet",
+      "url": "https://github.com/devongovett/SNNeuralNet",
+      "category": "a-namegpmllgeneral-purpose-machine-learning-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "MLPNeuralNet",
+      "url": "https://github.com/nikolaypavlov/MLPNeuralNet",
+      "category": "a-namegpmllgeneral-purpose-machine-learning-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "Swift-AI",
+      "url": "https://github.com/Swift-AI/Swift-AI",
+      "category": "a-namegpmllgeneral-purpose-machine-learning-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "SwiftSimpleNeuralNetwork",
+      "url": "https://github.com/davecom/SwiftSimpleNeuralNetwork",
+      "category": "a-namegpmllgeneral-purpose-machine-learning-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "ios-KRPerceptron",
+      "url": "https://github.com/Kalvar/ios-KRPerceptron",
+      "category": "a-namegpmllgeneral-purpose-machine-learning-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "Birdbrain",
+      "url": "https://github.com/jordenhill/Birdbrain",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "BrainCore",
+      "url": "https://github.com/aleph7/BrainCore",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "Caffe",
+      "url": "http://caffe.berkeleyvision.org/",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "iOS port",
+      "url": "https://github.com/aleph7/caffe",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "caffe-mobile",
+      "url": "https://github.com/solrex/caffe-mobile",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "Classifying ImageNet",
+      "url": "http://caffe.berkeleyvision.org/gathered/examples/cpp_classification.html",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "Caffe iOS sample",
+      "url": "https://github.com/noradaiko/caffe-ios-sample",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "Caffe2",
+      "url": "https://caffe2.ai/",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "Cocoa Pod",
+      "url": "https://github.com/RobertBiehl/caffe2-ios",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "iOS demo app",
+      "url": "https://github.com/KleinYuan/Caffe2-iOS",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "Convnet.js",
+      "url": "http://cs.stanford.edu/people/karpathy/convnetjs/",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "ConvNetSwift",
+      "url": "https://github.com/alexsosn/ConvNetSwift",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "Deep Belief SDK",
+      "url": "https://github.com/jetpacapp/DeepBeliefSDK",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "TensorFlow",
+      "url": "http://www.tensorflow.org/",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "iOS examples",
+      "url": "https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/ios_examples",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "another example",
+      "url": "https://github.com/hollance/TensorFlow-iOS-Example",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "Perfect-TensorFlow",
+      "url": "https://github.com/PerfectlySoft/Perfect-TensorFlow",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "tiny-dnn",
+      "url": "https://github.com/tiny-dnn/tiny-dnn",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "iOS example",
+      "url": "https://github.com/tiny-dnn/tiny-dnn/tree/d4fff53fa0d01f59eb162de2ec32c652a1f6f467/examples/ios",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "Torch",
+      "url": "http://torch.ch/",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L394",
+      "line": 394,
+      "properties": {}
+    },
+    {
+      "title": "Torch4iOS",
+      "url": "https://github.com/jhondge/torch4ios",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L395",
+      "line": 395,
+      "properties": {}
+    },
+    {
+      "title": "Torch-iOS",
+      "url": "https://github.com/clementfarabet/torch-ios",
+      "category": "on-device-training-and-inference",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "Bender",
+      "url": "https://github.com/xmartlabs/Bender",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L402",
+      "line": 402,
+      "properties": {}
+    },
+    {
+      "title": "DeepLearningKit",
+      "url": "http://deeplearningkit.org/",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "Espresso",
+      "url": "https://github.com/codinfox/espresso",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L405",
+      "line": 405,
+      "properties": {}
+    },
+    {
+      "title": "Forge",
+      "url": "https://github.com/hollance/Forge",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L406",
+      "line": 406,
+      "properties": {}
+    },
+    {
+      "title": "Keras.js",
+      "url": "https://transcranial.github.io/keras-js/#/",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "KSJNeuralNetwork",
+      "url": "https://github.com/woffle/KSJNeuralNetwork",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L408",
+      "line": 408,
+      "properties": {}
+    },
+    {
+      "title": "Converter for Torch models",
+      "url": "https://github.com/woffle/torch2ios",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "MXNet",
+      "url": "https://mxnet.incubator.apache.org/",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "Deploying pre-trained mxnet model to a smartphone",
+      "url": "https://mxnet.incubator.apache.org/how_to/smart_device.html",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "Quantized-CNN",
+      "url": "https://github.com/jiaxiang-wu/quantized-cnn",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "WebDNN",
+      "url": "https://mil-tokyo.github.io/webdnn/",
+      "category": "deep-learning-running-pre-trained-models-on-device",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "BNNS",
+      "url": "https://developer.apple.com/reference/accelerate/1912851-bnns",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "BNNS usage examples",
+      "url": "https://github.com/shu223/iOS-10-Sampler",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L418",
+      "line": 418,
+      "properties": {}
+    },
+    {
+      "title": "An example",
+      "url": "https://github.com/bignerdranch/bnns-cocoa-example",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "MetalPerformanceShaders",
+      "url": "https://developer.apple.com/reference/metalperformanceshaders",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "MetalCNNWeights",
+      "url": "https://github.com/kakugawa/MetalCNNWeights",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "MPSCNNfeeder",
+      "url": "https://github.com/kazoo-kmt/MPSCNNfeeder",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "NNPACK",
+      "url": "https://github.com/Maratyszcza/NNPACK",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "STEM",
+      "url": "https://github.com/abeschneider/stem",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "Documentation",
+      "url": "http://stem.readthedocs.io/en/latest/",
+      "category": "deep-learning-low-level-routines-libraries",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L425",
+      "line": 425,
+      "properties": {}
+    },
+    {
+      "title": "knowledge distilling",
+      "url": "https://github.com/chengshengchan/model_compression",
+      "category": "a-namedlmcdeep-learning-model-compression",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "MobileNet-Caffe",
+      "url": "https://github.com/shicai/MobileNet-Caffe",
+      "category": "a-namedlmcdeep-learning-model-compression",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "keras-surgeon",
+      "url": "https://github.com/BenWhetton/keras-surgeon",
+      "category": "a-namedlmcdeep-learning-model-compression",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "ccv",
+      "url": "http://libccv.org/",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "iOS demo app",
+      "url": "https://github.com/liuliu/klaus",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "OpenCV",
+      "url": "http://opencv.org/",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "OpenCV crash course",
+      "url": "http://www.pyimagesearch.com/free-opencv-crash-course/",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "OpenCVSwiftStitch",
+      "url": "https://github.com/foundry/OpenCVSwiftStitch",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "Tutorial: using and building openCV on iOS devices",
+      "url": "http://maniacdev.com/2011/07/tutorial-using-and-building-opencv-open-computer-vision-on-ios-devices",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "A Collection of OpenCV Samples For iOS",
+      "url": "https://github.com/woffle/OpenCV-iOS-Demos",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "OpenFace",
+      "url": "https://github.com/TadasBaltrusaitis/OpenFace",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "iOS port",
+      "url": "https://github.com/FaceAR/OpenFaceIOS",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "iOS demo",
+      "url": "https://github.com/FaceAR/OpenFaceIOS",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "trackingjs",
+      "url": "http://trackingjs.com/",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "Vision",
+      "url": "https://developer.apple.com/documentation/vision",
+      "category": "a-namecvcomputer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L448",
+      "line": 448,
+      "properties": {}
+    },
+    {
+      "title": "CoreLinguistics",
+      "url": "https://github.com/rxwei/CoreLinguistics",
+      "category": "a-namenlpnatural-language-processing",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "GloVe",
+      "url": "https://github.com/rxwei/GloVe-swift",
+      "category": "a-namenlpnatural-language-processing",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "NSLinguisticTagger",
+      "url": "http://nshipster.com/nslinguistictagger/",
+      "category": "a-namenlpnatural-language-processing",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "Parsimmon",
+      "url": "https://github.com/ayanonagon/Parsimmon",
+      "category": "a-namenlpnatural-language-processing",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "Twitter text",
+      "url": "https://github.com/twitter/twitter-text-objc",
+      "category": "a-namenlpnatural-language-processing",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "Verbal expressions for Swift",
+      "url": "https://github.com/VerbalExpressions/SwiftVerbalExpressions",
+      "category": "a-namenlpnatural-language-processing",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "Word2Vec",
+      "url": "https://code.google.com/p/word2vec/",
+      "category": "a-namenlpnatural-language-processing",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L460",
+      "line": 460,
+      "properties": {}
+    },
+    {
+      "title": "Kaldi-iOS framework",
+      "url": "http://keenresearch.com/",
+      "category": "a-namettsspeech-recognition-tts-and-generation-stt",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "Proof of concept app",
+      "url": "https://github.com/keenresearch/kaldi-ios-poc",
+      "category": "a-namettsspeech-recognition-tts-and-generation-stt",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L466",
+      "line": 466,
+      "properties": {}
+    },
+    {
+      "title": "MVSpeechSynthesizer",
+      "url": "https://github.com/vimalmurugan89/MVSpeechSynthesizer",
+      "category": "a-namettsspeech-recognition-tts-and-generation-stt",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "OpenEars™: free speech recognition and speech synthesis for the iPhone",
+      "url": "http://www.politepix.com/openears/",
+      "category": "a-namettsspeech-recognition-tts-and-generation-stt",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "Tutorial (Russian)",
+      "url": "http://habrahabr.ru/post/237589/",
+      "category": "a-namettsspeech-recognition-tts-and-generation-stt",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "TLSphinx",
+      "url": "https://github.com/tryolabs/TLSphinx",
+      "category": "a-namettsspeech-recognition-tts-and-generation-stt",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L470",
+      "line": 470,
+      "properties": {}
+    },
+    {
+      "title": "ocrad.js",
+      "url": "https://github.com/antimatter15/ocrad.js",
+      "category": "a-nameocrtext-recognition-ocr",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "Install and Use Tesseract on iOS",
+      "url": "http://lois.di-qual.net/blog/install-and-use-tesseract-on-ios-with-tesseract-ios/",
+      "category": "a-nameocrtext-recognition-ocr",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "tesseract-ios-lib",
+      "url": "https://github.com/ldiqual/tesseract-ios-lib",
+      "category": "a-nameocrtext-recognition-ocr",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L478",
+      "line": 478,
+      "properties": {}
+    },
+    {
+      "title": "tesseract-ios",
+      "url": "https://github.com/ldiqual/tesseract-ios",
+      "category": "a-nameocrtext-recognition-ocr",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "Tesseract-OCR-iOS",
+      "url": "https://github.com/gali8/Tesseract-OCR-iOS",
+      "category": "a-nameocrtext-recognition-ocr",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L480",
+      "line": 480,
+      "properties": {}
+    },
+    {
+      "title": "OCR-iOS-Example",
+      "url": "https://github.com/robmathews/OCR-iOS-Example",
+      "category": "a-nameocrtext-recognition-ocr",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L481",
+      "line": 481,
+      "properties": {}
+    },
+    {
+      "title": "Axiomatic",
+      "url": "https://github.com/JadenGeller/Axiomatic",
+      "category": "a-nameaiother-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L486",
+      "line": 486,
+      "properties": {}
+    },
+    {
+      "title": "Build Your Own Lisp In Swift",
+      "url": "https://github.com/hollance/BuildYourOwnLispInSwift",
+      "category": "a-nameaiother-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L487",
+      "line": 487,
+      "properties": {}
+    },
+    {
+      "title": "Logician",
+      "url": "https://github.com/mdiep/Logician",
+      "category": "a-nameaiother-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L488",
+      "line": 488,
+      "properties": {}
+    },
+    {
+      "title": "Swiftlog",
+      "url": "https://github.com/JadenGeller/Swiftlog",
+      "category": "a-nameaiother-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L489",
+      "line": 489,
+      "properties": {}
+    },
+    {
+      "title": "IBM Watson",
+      "url": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L494",
+      "line": 494,
+      "properties": {}
+    },
+    {
+      "title": "Introducing the (beta) IBM Watson iOS SDK",
+      "url": "https://developer.ibm.com/swift/2015/12/18/introducing-the-new-watson-sdk-for-ios-beta/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L495",
+      "line": 495,
+      "properties": {}
+    },
+    {
+      "title": "AlchemyAPI",
+      "url": "http://www.alchemyapi.com/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L496",
+      "line": 496,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Project Oxford",
+      "url": "https://www.projectoxford.ai/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L497",
+      "line": 497,
+      "properties": {}
+    },
+    {
+      "title": "Google Prediction engine",
+      "url": "https://cloud.google.com/prediction/docs",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L498",
+      "line": 498,
+      "properties": {}
+    },
+    {
+      "title": "Objective-C API",
+      "url": "https://code.google.com/p/google-api-objectivec-client/wiki/Introduction",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L499",
+      "line": 499,
+      "properties": {}
+    },
+    {
+      "title": "Google Translate API",
+      "url": "https://cloud.google.com/translate/docs",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L500",
+      "line": 500,
+      "properties": {}
+    },
+    {
+      "title": "Google Cloud Vision API",
+      "url": "https://cloud.google.com/vision/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L501",
+      "line": 501,
+      "properties": {}
+    },
+    {
+      "title": "Amazon Machine Learning",
+      "url": "http://aws.amazon.com/documentation/machine-learning/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "iOS developer guide",
+      "url": "https://docs.aws.amazon.com/mobile/sdkforios/developerguide/getting-started-machine-learning.html",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L503",
+      "line": 503,
+      "properties": {}
+    },
+    {
+      "title": "iOS SDK",
+      "url": "https://github.com/aws/aws-sdk-ios",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L504",
+      "line": 504,
+      "properties": {}
+    },
+    {
+      "title": "PredictionIO",
+      "url": "https://prediction.io/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "Swift SDK",
+      "url": "https://github.com/minhtule/PredictionIO-Swift-SDK",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "Tapster iOS Demo",
+      "url": "https://github.com/minhtule/Tapster-iOS-Demo",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L507",
+      "line": 507,
+      "properties": {}
+    },
+    {
+      "title": "Tutorial",
+      "url": "https://github.com/minhtule/Tapster-iOS-Demo/blob/master/TUTORIAL.md",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L508",
+      "line": 508,
+      "properties": {}
+    },
+    {
+      "title": "Wit.AI",
+      "url": "https://wit.ai/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "Yandex SpeechKit",
+      "url": "https://tech.yandex.com/speechkit/mobilesdk/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "Abbyy OCR SDK",
+      "url": "http://www.abbyy.com/mobile-ocr/iphone-ocr/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "Clarifai",
+      "url": "http://www.clarifai.com/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L512",
+      "line": 512,
+      "properties": {}
+    },
+    {
+      "title": "MetaMind",
+      "url": "https://www.metamind.io/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "Api.AI",
+      "url": "https://api.ai/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L514",
+      "line": 514,
+      "properties": {}
+    },
+    {
+      "title": "CloudSight.ai",
+      "url": "https://cloudsight.ai/",
+      "category": "a-namewebmachine-learning-web-apis",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L516",
+      "line": 516,
+      "properties": {}
+    },
+    {
+      "title": "DeepDreamer",
+      "url": "https://github.com/johndpope/deepdreamer",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "DeepDreamApp",
+      "url": "https://github.com/johndpope/DeepDreamApp",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "Texture Networks",
+      "url": "https://github.com/DmitryUlyanov/texture_nets",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "Feedforward style transfer",
+      "url": "https://github.com/jcjohnson/fast-neural-style",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L526",
+      "line": 526,
+      "properties": {}
+    },
+    {
+      "title": "TensorFlow implementation of Neural Style",
+      "url": "https://github.com/cysmith/neural-style-tf",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L527",
+      "line": 527,
+      "properties": {}
+    },
+    {
+      "title": "Corrosion detection app",
+      "url": "https://github.com/jmolayem/corrosionapp",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L528",
+      "line": 528,
+      "properties": {}
+    },
+    {
+      "title": "ios_camera_object_detection",
+      "url": "https://github.com/yjmade/ios_camera_object_detection",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "TensorFlow MNIST iOS demo",
+      "url": "https://github.com/mattrajca/MNIST",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L530",
+      "line": 530,
+      "properties": {}
+    },
+    {
+      "title": "Drummer App",
+      "url": "https://github.com/hollance/RNN-Drummer-Swift",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L531",
+      "line": 531,
+      "properties": {}
+    },
+    {
+      "title": "What'sThis",
+      "url": "https://github.com/pppoe/WhatsThis-iOS",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L532",
+      "line": 532,
+      "properties": {}
+    },
+    {
+      "title": "enVision",
+      "url": "https://github.com/IDLabs-Gate/enVision",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "GoogLeNet on iOS demo",
+      "url": "https://github.com/krasin/MetalDetector",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L534",
+      "line": 534,
+      "properties": {}
+    },
+    {
+      "title": "Neural style in Android",
+      "url": "https://github.com/naman14/Arcade",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L535",
+      "line": 535,
+      "properties": {}
+    },
+    {
+      "title": "mnist-bnns",
+      "url": "https://github.com/paiv/mnist-bnns",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L536",
+      "line": 536,
+      "properties": {}
+    },
+    {
+      "title": "Benchmark of BNNS vs. MPS",
+      "url": "https://github.com/hollance/BNNS-vs-MPSCNN",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "VGGNet on Metal",
+      "url": "https://github.com/hollance/VGGNet-Metal",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L538",
+      "line": 538,
+      "properties": {}
+    },
+    {
+      "title": "Sudoku Solver",
+      "url": "https://github.com/waitingcheung/deep-sudoku-solver",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L539",
+      "line": 539,
+      "properties": {}
+    },
+    {
+      "title": "HED CoreML Implementation",
+      "url": "https://github.com/s1ddok/HED-CoreML",
+      "category": "deep-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "SwiftOCR",
+      "url": "https://github.com/garnele007/SwiftOCR",
+      "category": "traditional-computer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L544",
+      "line": 544,
+      "properties": {}
+    },
+    {
+      "title": "GrabCutIOS",
+      "url": "https://github.com/naver/grabcutios",
+      "category": "traditional-computer-vision",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L545",
+      "line": 545,
+      "properties": {}
+    },
+    {
+      "title": "Classical ELIZA chatbot in Swift",
+      "url": "https://gist.github.com/hollance/be70d0d7952066cb3160d36f33e5636f",
+      "category": "nlp",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "InfiniteMonkeys",
+      "url": "https://github.com/craigomac/InfiniteMonkeys",
+      "category": "nlp",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "Swift implementation of Joel Grus's \"Data Science from Scratch\"",
+      "url": "https://github.com/graceavery/LearningMachineLearning",
+      "category": "other",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L554",
+      "line": 554,
+      "properties": {}
+    },
+    {
+      "title": "Neural Network built in Apple Playground using Swift",
+      "url": "https://github.com/Luubra/EmojiIntelligence",
+      "category": "other",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to AI Programming for Games",
+      "url": "http://www.raywenderlich.com/24824/introduction-to-ai-programming-for-games",
+      "category": "a-namegameaigame-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L560",
+      "line": 560,
+      "properties": {}
+    },
+    {
+      "title": "dlib",
+      "url": "http://dlib.net/",
+      "category": "a-namegameaigame-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L561",
+      "line": 561,
+      "properties": {}
+    },
+    {
+      "title": "MicroPather",
+      "url": "http://www.grinninglizard.com/MicroPather/",
+      "category": "a-namegameaigame-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L562",
+      "line": 562,
+      "properties": {}
+    },
+    {
+      "title": "list",
+      "url": "http://www.ogre3d.org/tikiwiki/List+Of+Libraries#Artificial_intelligence",
+      "category": "a-namegameaigame-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L563",
+      "line": 563,
+      "properties": {}
+    },
+    {
+      "title": "GameplayKit Programming Guide",
+      "url": "https://developer.apple.com/library/content/documentation/General/Conceptual/GameplayKit_Guide/",
+      "category": "a-namegameaigame-ai",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L564",
+      "line": 564,
+      "properties": {}
+    },
+    {
+      "title": "Accelerate-in-Swift",
+      "url": "https://github.com/hyperjeff/Accelerate-in-Swift",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L571",
+      "line": 571,
+      "properties": {}
+    },
+    {
+      "title": "cuda-swift",
+      "url": "https://github.com/rxwei/cuda-swift",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L572",
+      "line": 572,
+      "properties": {}
+    },
+    {
+      "title": "Dimensional",
+      "url": "https://github.com/JadenGeller/Dimensional",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L573",
+      "line": 573,
+      "properties": {}
+    },
+    {
+      "title": "Eigen",
+      "url": "http://eigen.tuxfamily.org/",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L574",
+      "line": 574,
+      "properties": {}
+    },
+    {
+      "title": "Matrix",
+      "url": "https://github.com/hollance/Matrix",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L575",
+      "line": 575,
+      "properties": {}
+    },
+    {
+      "title": "NDArray",
+      "url": "https://github.com/t-ae/ndarray",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L576",
+      "line": 576,
+      "properties": {}
+    },
+    {
+      "title": "Swift-MathEagle",
+      "url": "https://github.com/rugheid/Swift-MathEagle",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L577",
+      "line": 577,
+      "properties": {}
+    },
+    {
+      "title": "SwiftNum",
+      "url": "https://github.com/donald-pinckney/SwiftNum",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L578",
+      "line": 578,
+      "properties": {}
+    },
+    {
+      "title": "Swix",
+      "url": "https://github.com/scottsievert/swix",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L579",
+      "line": 579,
+      "properties": {}
+    },
+    {
+      "title": "Surge",
+      "url": "https://github.com/mattt/Surge",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L580",
+      "line": 580,
+      "properties": {}
+    },
+    {
+      "title": "Upsurge",
+      "url": "https://github.com/aleph7/Upsurge",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L581",
+      "line": 581,
+      "properties": {}
+    },
+    {
+      "title": "YCMatrix",
+      "url": "https://github.com/yconst/YCMatrix",
+      "category": "a-namelalinear-algebra",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L582",
+      "line": 582,
+      "properties": {}
+    },
+    {
+      "title": "SigmaSwiftStatistics",
+      "url": "https://github.com/evgenyneu/SigmaSwiftStatistics",
+      "category": "a-namestatstatistics-random-numbers",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L587",
+      "line": 587,
+      "properties": {}
+    },
+    {
+      "title": "SORandom",
+      "url": "https://github.com/SebastianOsinski/SORandom",
+      "category": "a-namestatstatistics-random-numbers",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L588",
+      "line": 588,
+      "properties": {}
+    },
+    {
+      "title": "RandKit",
+      "url": "https://github.com/aidangomez/RandKit",
+      "category": "a-namestatstatistics-random-numbers",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L589",
+      "line": 589,
+      "properties": {}
+    },
+    {
+      "title": "fmincg-c",
+      "url": "https://github.com/gautambhatrcb/fmincg-c",
+      "category": "a-namemomathematical-optimization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L595",
+      "line": 595,
+      "properties": {}
+    },
+    {
+      "title": "libLBFGS",
+      "url": "https://github.com/chokkan/liblbfgs",
+      "category": "a-namemomathematical-optimization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L596",
+      "line": 596,
+      "properties": {}
+    },
+    {
+      "title": "SwiftOptimizer",
+      "url": "https://github.com/haginile/SwiftOptimizer",
+      "category": "a-namemomathematical-optimization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L597",
+      "line": 597,
+      "properties": {}
+    },
+    {
+      "title": "IntuneFeatures",
+      "url": "https://github.com/venturemedia/intune-features",
+      "category": "a-namefefeature-extraction",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L602",
+      "line": 602,
+      "properties": {}
+    },
+    {
+      "title": "matchbox",
+      "url": "https://github.com/hfink/matchbox",
+      "category": "a-namefefeature-extraction",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L603",
+      "line": 603,
+      "properties": {}
+    },
+    {
+      "title": "LibXtract",
+      "url": "https://github.com/jamiebullock/LibXtract",
+      "category": "a-namefefeature-extraction",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L604",
+      "line": 604,
+      "properties": {}
+    },
+    {
+      "title": "Charts",
+      "url": "https://github.com/danielgindi/Charts",
+      "category": "a-namedvdata-visualization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L609",
+      "line": 609,
+      "properties": {}
+    },
+    {
+      "title": "iOS-Charts",
+      "url": "https://github.com/danielgindi/ios-charts",
+      "category": "a-namedvdata-visualization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L610",
+      "line": 610,
+      "properties": {}
+    },
+    {
+      "title": "Core Plot",
+      "url": "https://github.com/core-plot/core-plot",
+      "category": "a-namedvdata-visualization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L611",
+      "line": 611,
+      "properties": {}
+    },
+    {
+      "title": "Awesome iOS charts",
+      "url": "https://github.com/sxyx2008/awesome-ios-chart",
+      "category": "a-namedvdata-visualization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L612",
+      "line": 612,
+      "properties": {}
+    },
+    {
+      "title": "JTChartView",
+      "url": "https://github.com/kubatru/JTChartView",
+      "category": "a-namedvdata-visualization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L613",
+      "line": 613,
+      "properties": {}
+    },
+    {
+      "title": "VTK",
+      "url": "http://www.vtk.org/gallery/",
+      "category": "a-namedvdata-visualization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L614",
+      "line": 614,
+      "properties": {}
+    },
+    {
+      "title": "VTK in action",
+      "url": "http://www.vtk.org/vtk-in-action/",
+      "category": "a-namedvdata-visualization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L615",
+      "line": 615,
+      "properties": {}
+    },
+    {
+      "title": "D3.js iOS binding",
+      "url": "https://github.com/lee-leonardo/iOS-D3",
+      "category": "a-namedvdata-visualization",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L616",
+      "line": 616,
+      "properties": {}
+    },
+    {
+      "title": "BioJS",
+      "url": "http://biojs.net/",
+      "category": "a-namebiobioinformatics-kinda",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L621",
+      "line": 621,
+      "properties": {}
+    },
+    {
+      "title": "BioCocoa",
+      "url": "http://www.bioinformatics.org/biococoa/wiki/pmwiki.php",
+      "category": "a-namebiobioinformatics-kinda",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L622",
+      "line": 622,
+      "properties": {}
+    },
+    {
+      "title": "iBio",
+      "url": "https://github.com/Lizhen0909/iBio",
+      "category": "a-namebiobioinformatics-kinda",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L623",
+      "line": 623,
+      "properties": {}
+    },
+    {
+      "title": "HDF5Kit",
+      "url": "https://github.com/aleph7/HDF5Kit",
+      "category": "a-namebdbig-data-not-really",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L628",
+      "line": 628,
+      "properties": {}
+    },
+    {
+      "title": "iSwift",
+      "url": "https://github.com/KelvinJin/iSwift",
+      "category": "a-nameipipython--swift",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L633",
+      "line": 633,
+      "properties": {}
+    },
+    {
+      "title": "The \"Machine, think!\" blog",
+      "url": "http://machinethink.net/blog/",
+      "category": "regular-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L640",
+      "line": 640,
+      "properties": {}
+    },
+    {
+      "title": "The “hello world” of neural networks",
+      "url": "http://matthijshollemans.com/2016/08/24/neural-network-hello-world/",
+      "category": "regular-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L641",
+      "line": 641,
+      "properties": {}
+    },
+    {
+      "title": "Convolutional neural networks on the iPhone with VGGNet",
+      "url": "http://matthijshollemans.com/2016/08/30/vggnet-convolutional-neural-network-iphone/",
+      "category": "regular-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L642",
+      "line": 642,
+      "properties": {}
+    },
+    {
+      "title": "Pete Warden's blog",
+      "url": "https://petewarden.com/",
+      "category": "regular-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L643",
+      "line": 643,
+      "properties": {}
+    },
+    {
+      "title": "How to Quantize Neural Networks with TensorFlow",
+      "url": "https://petewarden.com/2016/05/03/how-to-quantize-neural-networks-with-tensorflow/",
+      "category": "regular-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L644",
+      "line": 644,
+      "properties": {}
+    },
+    {
+      "title": "Google research blog",
+      "url": "https://research.googleblog.com/",
+      "category": "accidental-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L648",
+      "line": 648,
+      "properties": {}
+    },
+    {
+      "title": "Apple Machine Learning Journal",
+      "url": "https://machinelearning.apple.com/",
+      "category": "accidental-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L649",
+      "line": 649,
+      "properties": {}
+    },
+    {
+      "title": "Invasive Code",
+      "url": "https://www.invasivecode.com/weblog/",
+      "category": "accidental-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L650",
+      "line": 650,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning for iOS",
+      "url": "https://www.invasivecode.com/weblog/machine-learning-swift-ios/",
+      "category": "accidental-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L651",
+      "line": 651,
+      "properties": {}
+    },
+    {
+      "title": "Convolutional Neural Networks in iOS 10 and macOS",
+      "url": "https://www.invasivecode.com/weblog/convolutional-neural-networks-ios-10-macos-sierra/",
+      "category": "accidental-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L652",
+      "line": 652,
+      "properties": {}
+    },
+    {
+      "title": "Use TensorFlow and BNNS to Add Machine Learning to your Mac or iOS App",
+      "url": "https://www.bignerdranch.com/blog/use-tensorflow-and-bnns-to-add-machine-learning-to-your-mac-or-ios-app/",
+      "category": "accidental-mobile-ml",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L653",
+      "line": 653,
+      "properties": {}
+    },
+    {
+      "title": "Intelligence in Mobile Applications",
+      "url": "https://medium.com/@sadmansamee/intelligence-in-mobile-applications-ca3be3c0e773#.lgk2gt6ik",
+      "category": "other-1",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L657",
+      "line": 657,
+      "properties": {}
+    },
+    {
+      "title": "An exclusive inside look at how artificial intelligence and machine learning work at Apple",
+      "url": "https://backchannel.com/an-exclusive-look-at-how-ai-and-machine-learning-work-at-apple-8dbfb131932b",
+      "category": "other-1",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L658",
+      "line": 658,
+      "properties": {}
+    },
+    {
+      "title": "Presentation on squeezing DNNs for mobile",
+      "url": "https://www.slideshare.net/mobile/anirudhkoul/squeezing-deep-learning-into-mobile-phones",
+      "category": "other-1",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L659",
+      "line": 659,
+      "properties": {}
+    },
+    {
+      "title": "Curated list of papers on deep learning models compression and acceleration",
+      "url": "https://handong1587.github.io/deep_learning/2015/10/09/acceleration-model-compression.html",
+      "category": "other-1",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L660",
+      "line": 660,
+      "properties": {}
+    },
+    {
+      "title": "OpenCL for iOS",
+      "url": "https://github.com/linusyang/opencl-test-ios",
+      "category": "a-namegpublogsgpu-computing-blogs",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L665",
+      "line": 665,
+      "properties": {}
+    },
+    {
+      "title": "Article",
+      "url": "http://ciechanowski.me/blog/2014/01/05/exploring_gpgpu_on_ios/",
+      "category": "a-namegpublogsgpu-computing-blogs",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L667",
+      "line": 667,
+      "properties": {}
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/Ciechan/Exploring-GPGPU-on-iOS",
+      "category": "a-namegpublogsgpu-computing-blogs",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L668",
+      "line": 668,
+      "properties": {}
+    },
+    {
+      "title": "Article",
+      "url": "http://www.sunsetlakesoftware.com/2010/10/22/gpu-accelerated-video-processing-mac-and-ios0",
+      "category": "a-namegpublogsgpu-computing-blogs",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L670",
+      "line": 670,
+      "properties": {}
+    },
+    {
+      "title": "Concurrency and OpenGL ES",
+      "url": "https://developer.apple.com/library/ios/documentation/3ddrawing/conceptual/opengles_programmingguide/ConcurrencyandOpenGLES/ConcurrencyandOpenGLES.html",
+      "category": "a-namegpublogsgpu-computing-blogs",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L672",
+      "line": 672,
+      "properties": {}
+    },
+    {
+      "title": "OpenCV on iOS GPU usage",
+      "url": "http://stackoverflow.com/questions/10704916/opencv-on-ios-gpu-usage",
+      "category": "a-namegpublogsgpu-computing-blogs",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L674",
+      "line": 674,
+      "properties": {}
+    },
+    {
+      "title": "blog",
+      "url": "http://flexmonkey.blogspot.com/",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L678",
+      "line": 678,
+      "properties": {}
+    },
+    {
+      "title": "Talk on iOS GPU programming",
+      "url": "https://realm.io/news/altconf-simon-gladman-ios-gpu-programming-with-swift-metal/",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L679",
+      "line": 679,
+      "properties": {}
+    },
+    {
+      "title": "The Supercomputer In Your Pocket: Metal & Swift",
+      "url": "https://realm.io/news/swift-summit-simon-gladman-metal/",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L680",
+      "line": 680,
+      "properties": {}
+    },
+    {
+      "title": "Memkite blog",
+      "url": "http://memkite.com/",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L684",
+      "line": 684,
+      "properties": {}
+    },
+    {
+      "title": "Swift and Metal example for General Purpose GPU Processing on Apple TVOS 9.0",
+      "url": "https://github.com/memkite/MetalForTVOS",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L685",
+      "line": 685,
+      "properties": {}
+    },
+    {
+      "title": "Data Parallel Processing with Swift and Metal on GPU for iOS8",
+      "url": "https://github.com/memkite/SwiftMetalGPUParallelProcessing",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L686",
+      "line": 686,
+      "properties": {}
+    },
+    {
+      "title": "Example of Sharing Memory between GPU and CPU with Swift and Metal for iOS8",
+      "url": "http://memkite.com/blog/2014/12/30/example-of-sharing-memory-between-gpu-and-cpu-with-swift-and-metal-for-ios8/",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L687",
+      "line": 687,
+      "properties": {}
+    },
+    {
+      "title": "Metal by Example blog",
+      "url": "http://metalbyexample.com/",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L688",
+      "line": 688,
+      "properties": {}
+    },
+    {
+      "title": "objc-io article on Metal",
+      "url": "https://www.objc.io/issues/18-games/metal/",
+      "category": "metal",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L689",
+      "line": 689,
+      "properties": {}
+    },
+    {
+      "title": "Book page",
+      "url": "http://www.oreilly.com/data/free/building-mobile-applications-with-tensorflow.csp",
+      "category": "a-namebooksmobile-ml-books",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L693",
+      "line": 693,
+      "properties": {}
+    },
+    {
+      "title": "Academic Torrents",
+      "url": "http://academictorrents.com/browse.php?cat=7",
+      "category": "a-namelearnlearn-machine-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L699",
+      "line": 699,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv Sanity Preserver",
+      "url": "http://www.arxiv-sanity.com/",
+      "category": "a-namelearnlearn-machine-learning",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L700",
+      "line": 700,
+      "properties": {}
+    },
+    {
+      "title": "interactive book",
+      "url": "http://immersivemath.com/ila/index.html",
+      "category": "free-books",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L704",
+      "line": 704,
+      "properties": {}
+    },
+    {
+      "title": "\"Natural Language Processing with Python\"",
+      "url": "http://www.nltk.org/book/",
+      "category": "free-books",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L705",
+      "line": 705,
+      "properties": {}
+    },
+    {
+      "title": "Probabilistic Programming & Bayesian Methods for Hackers",
+      "url": "http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/",
+      "category": "free-books",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L706",
+      "line": 706,
+      "properties": {}
+    },
+    {
+      "title": "\"Deep learning\"",
+      "url": "http://www.deeplearningbook.org/",
+      "category": "free-books",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L707",
+      "line": 707,
+      "properties": {}
+    },
+    {
+      "title": "Original Machine Learning Coursera course",
+      "url": "https://www.coursera.org/learn/machine-learning/home/info",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L711",
+      "line": 711,
+      "properties": {}
+    },
+    {
+      "title": "Machine learning playlist on Youtube",
+      "url": "https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L712",
+      "line": 712,
+      "properties": {}
+    },
+    {
+      "title": "\"Neural Networks and Deep Learning\"",
+      "url": "http://neuralnetworksanddeeplearning.com/",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L713",
+      "line": 713,
+      "properties": {}
+    },
+    {
+      "title": "Heterogeneous Parallel Programming",
+      "url": "https://www.coursera.org/course/hetero",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L714",
+      "line": 714,
+      "properties": {}
+    },
+    {
+      "title": "Deep Learning for Perception",
+      "url": "https://computing.ece.vt.edu/~f15ece6504/",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L715",
+      "line": 715,
+      "properties": {}
+    },
+    {
+      "title": "CAP 5415 - Computer Vision",
+      "url": "http://crcv.ucf.edu/courses/CAP5415/Fall2014/index.php",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L716",
+      "line": 716,
+      "properties": {}
+    },
+    {
+      "title": "CS224d: Deep Learning for Natural Language Processing",
+      "url": "http://cs224d.stanford.edu/syllabus.html",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L717",
+      "line": 717,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning: 2014-2015 Course materials",
+      "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L718",
+      "line": 718,
+      "properties": {}
+    },
+    {
+      "title": "Stanford CS class CS231n: Convolutional Neural Networks for Visual Recognition.",
+      "url": "http://cs231n.stanford.edu/",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L719",
+      "line": 719,
+      "properties": {}
+    },
+    {
+      "title": "Deep Learning for Natural Language Processing (without Magic)",
+      "url": "http://nlp.stanford.edu/courses/NAACL2013/",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L720",
+      "line": 720,
+      "properties": {}
+    },
+    {
+      "title": "Videos",
+      "url": "http://videolectures.net/deeplearning2015_montreal/",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L721",
+      "line": 721,
+      "properties": {}
+    },
+    {
+      "title": "Deep Learning Summer School, Montreal 2016",
+      "url": "http://videolectures.net/deeplearning2016_montreal/",
+      "category": "free-courses",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L722",
+      "line": 722,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Machine Learning",
+      "url": "https://github.com/josephmisiti/awesome-machine-learning",
+      "category": "a-namelistsother-lists",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L728",
+      "line": 728,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning Courses",
+      "url": "https://github.com/prakhar1989/awesome-courses#machine-learning",
+      "category": "a-namelistsother-lists",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L729",
+      "line": 729,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Data Science",
+      "url": "https://github.com/okulbilisim/awesome-datascience",
+      "category": "a-namelistsother-lists",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L730",
+      "line": 730,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Computer Vision",
+      "url": "https://github.com/jbhuang0604/awesome-computer-vision",
+      "category": "a-namelistsother-lists",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L731",
+      "line": 731,
+      "properties": {}
+    },
+    {
+      "title": "Speech and language processing",
+      "url": "https://github.com/edobashira/speech-language-processing",
+      "category": "a-namelistsother-lists",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L732",
+      "line": 732,
+      "properties": {}
+    },
+    {
+      "title": "The Rise of Chat Bots:",
+      "url": "https://stanfy.com/blog/the-rise-of-chat-bots-useful-links-articles-libraries-and-platforms/",
+      "category": "a-namelistsother-lists",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L733",
+      "line": 733,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Machine Learning for Cyber Security",
+      "url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
+      "category": "a-namelistsother-lists",
+      "source_url": "https://github.com/alexsosn/iOS_ML/blob/655cfdcc524aebcc176bf1b3265b7f4c35e514ed/README.md#L734",
+      "line": 734,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 239,
+  "unique_links": 237,
+  "category_count": 35,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "alexsosn",
+      "url": "https://github.com/alexsosn",
+      "contributions": 53
+    },
+    {
+      "login": "cweilemann",
+      "url": "https://github.com/cweilemann",
+      "contributions": 2
+    },
+    {
+      "login": "jensmeder",
+      "url": "https://github.com/jensmeder",
+      "contributions": 2
+    },
+    {
+      "login": "bryant1410",
+      "url": "https://github.com/bryant1410",
+      "contributions": 1
+    },
+    {
+      "login": "gitter-badger",
+      "url": "https://github.com/gitter-badger",
+      "contributions": 1
+    },
+    {
+      "login": "Kalvar",
+      "url": "https://github.com/Kalvar",
+      "contributions": 1
+    },
+    {
+      "login": "likedan",
+      "url": "https://github.com/likedan",
+      "contributions": 1
+    },
+    {
+      "login": "RockfordWei",
+      "url": "https://github.com/RockfordWei",
+      "contributions": 1
+    },
+    {
+      "login": "s1ddok",
+      "url": "https://github.com/s1ddok",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 63,
+    "has_more": false,
+    "path_commit_count": 63,
+    "public_contributors": 9,
+    "observed_at": "2026-09-03T17:46:18.792571+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by alexsosn/iOS_ML contributors.",
+  "license": null,
+  "license_url": "https://github.com/alexsosn/iOS_ML/tree/655cfdcc524aebcc176bf1b3265b7f4c35e514ed",
+  "digest": "b67f4ff14a933f850a00848fb2590db71b7dcc7c67057df5c508eaf6bf325139"
+}

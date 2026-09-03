@@ -1,0 +1,2086 @@
+{
+  "format_version": 3,
+  "repository_id": "277843643",
+  "name": "stratosphereips/awesome-ml-privacy-attacks",
+  "revision": "9d88023349812436954957c077e06b72694c6e1b",
+  "readme_path": "README.md",
+  "readme_sha256": "65474a9a00240cb9b51c97ac545b197e4118eef914211928b7092b0d055f21da",
+  "sections": [
+    {
+      "id": "awesome-attacks-on-machine-learning-privacy",
+      "title": "Awesome Attacks on Machine Learning Privacy",
+      "level": 1,
+      "path": [
+        "Awesome Attacks on Machine Learning Privacy"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#awesome-attacks-on-machine-learning-privacy",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 1,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "surveys-and-overviews",
+      "title": "Surveys and Overviews",
+      "level": 1,
+      "path": [
+        "Surveys and Overviews"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#surveys-and-overviews",
+      "entries": 11
+    },
+    {
+      "id": "privacy-testing-tools",
+      "title": "Privacy Testing Tools",
+      "level": 1,
+      "path": [
+        "Privacy Testing Tools"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#privacy-testing-tools",
+      "entries": 5
+    },
+    {
+      "id": "papers-and-code",
+      "title": "Papers and Code",
+      "level": 1,
+      "path": [
+        "Papers and Code"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#papers-and-code",
+      "entries": 0
+    },
+    {
+      "id": "membership-inference",
+      "title": "Membership inference",
+      "level": 2,
+      "path": [
+        "Papers and Code",
+        "Membership inference"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#membership-inference",
+      "entries": 64
+    },
+    {
+      "id": "reconstruction",
+      "title": "Reconstruction",
+      "level": 2,
+      "path": [
+        "Papers and Code",
+        "Reconstruction"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#reconstruction",
+      "entries": 65
+    },
+    {
+      "id": "property-inference--distribution-inference",
+      "title": "Property inference / Distribution inference",
+      "level": 2,
+      "path": [
+        "Papers and Code",
+        "Property inference / Distribution inference"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#property-inference--distribution-inference",
+      "entries": 12
+    },
+    {
+      "id": "model-extraction",
+      "title": "Model extraction",
+      "level": 2,
+      "path": [
+        "Papers and Code",
+        "Model extraction"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#model-extraction",
+      "entries": 59
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "level": 1,
+      "path": [
+        "Other"
+      ],
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#other",
+      "entries": 21
+    }
+  ],
+  "entries": [
+    {
+      "title": "SoK: Model Inversion Attack Landscape: Taxonomy, Challenges, and Future Roadmap",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10221914",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L17",
+      "line": 17,
+      "properties": {}
+    },
+    {
+      "title": "A Survey of Privacy Attacks in Machine Learning",
+      "url": "https://dl.acm.org/doi/10.1145/3624010",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "An Overview of Privacy in Machine Learning",
+      "url": "https://arxiv.org/pdf/2005.08679",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "Rethinking Privacy Preserving Deep Learning: How to Evaluate and Thwart Privacy Attacks",
+      "url": "https://arxiv.org/abs/2006.11601",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "Privacy and Security Issues in Deep Learning: A Survey",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9294026",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models",
+      "url": "https://arxiv.org/abs/2102.02551",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "Membership Inference Attacks on Machine Learning: A Survey",
+      "url": "https://arxiv.org/abs/2103.07853",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "Survey: Leakage and Privacy at Inference Time",
+      "url": "https://arxiv.org/abs/2107.01614",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "A Review of Confidentiality Threats Against Embedded Neural Network Models",
+      "url": "https://arxiv.org/abs/2105.01401",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L25",
+      "line": 25,
+      "properties": {}
+    },
+    {
+      "title": "Federated Learning Attacks Revisited: A Critical Discussion of Gaps,Assumptions, and Evaluation Setups",
+      "url": "https://arxiv.org/abs/2111.03363",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "I Know What You Trained Last Summer: A Survey on Stealing Machine Learning Models and Defences",
+      "url": "https://arxiv.org/abs/2206.08451",
+      "category": "surveys-and-overviews",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "PrivacyRaven",
+      "url": "https://github.com/trailofbits/PrivacyRaven",
+      "category": "privacy-testing-tools",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "TensorFlow Privacy",
+      "url": "https://github.com/tensorflow/privacy/tree/master/tensorflow_privacy/privacy/membership_inference_attack",
+      "category": "privacy-testing-tools",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning Privacy Meter",
+      "url": "https://github.com/privacytrustlab/ml_privacy_meter",
+      "category": "privacy-testing-tools",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "CypherCat (archive-only)",
+      "url": "https://github.com/Lab41/cyphercat",
+      "category": "privacy-testing-tools",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "Adversarial Robustness Toolbox (ART)",
+      "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+      "category": "privacy-testing-tools",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "Membership inference attacks against machine learning models",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7958568",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "Understanding membership inferences on well-generalized learning models",
+      "url": "https://arxiv.org/pdf/1802.04889",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "Privacy risk in machine learning: Analyzing the connection to overfitting",
+      "url": "https://ieeexplore.ieee.org/document/8429311",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Membership inference attack against differentially private deep learning model",
+      "url": "http://www.tdp.cat/issues16/tdp.a289a17.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Comprehensive privacy analysis of deep learning: Passive and active white-box inference attacks against centralized and federated learning.",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8835245",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Logan: Membership inference attacks against generative models.",
+      "url": "https://content.sciendo.com/downloadpdf/journals/popets/2019/1/article-p133.xml",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating differentially private machine learning in practice",
+      "url": "https://www.usenix.org/system/files/sec19-jayaraman.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Ml-leaks: Model and data independent membership inference attacks and defenses on machine learning models",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-1_Salem_paper.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Privacy risks of securing machine learning models against adversarial examples",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3319535.3354211",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "White-box vs Black-box: Bayes Optimal Strategies for Membership Inference",
+      "url": "http://proceedings.mlr.press/v97/sablayrolles19a.html",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "Privacy risks of explaining machine learning models",
+      "url": "https://arxiv.org/abs/1907.00164",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying membership inference attacks in machine learning as a service",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8634878",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Monte carlo and reconstruction membership inference attacks against generative models",
+      "url": "https://content.sciendo.com/view/journals/popets/2019/4/article-p232.xml",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "MemGuard: Defending against Black-Box Membership Inference Attacks via Adversarial Examples",
+      "url": "https://arxiv.org/abs/1909.10594",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Gan-leaks: A taxonomy of membership inference attacks against gans",
+      "url": "https://arxiv.org/pdf/1909.03935.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Auditing Data Provenance in Text-Generation Models",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3292500.3330885",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System?",
+      "url": "https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00299",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Revisiting Membership Inference Under Realistic Assumptions",
+      "url": "https://arxiv.org/pdf/2005.10881.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "When Machine Unlearning Jeopardizes Privacy",
+      "url": "https://arxiv.org/pdf/2005.02205.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Modelling and Quantifying Membership Information Leakage in Machine Learning",
+      "url": "https://arxiv.org/pdf/2001.10648.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Systematic Evaluation of Privacy Risks of Machine Learning Models",
+      "url": "https://arxiv.org/abs/2003.10595",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Towards the Infeasibility of Membership Inference on Deep Models",
+      "url": "https://arxiv.org/pdf/2005.13702.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference",
+      "url": "https://arxiv.org/abs/1906.11798",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Label-Only Membership Inference Attacks",
+      "url": "https://arxiv.org/abs/2007.14321",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "Label-Leaks: Membership Inference Attack with Label",
+      "url": "https://arxiv.org/abs/2007.15528",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Alleviating Privacy Attacks via Causal Learning",
+      "url": "https://arxiv.org/abs/1909.12732",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "On the Effectiveness of Regularization Against Membership Inference Attacks",
+      "url": "https://arxiv.org/abs/2006.05336",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Sampling Attacks: Amplification of Membership Inference Attacks by Repeated Queries",
+      "url": "https://arxiv.org/abs/2009.00395",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Segmentations-Leak: Membership Inference Attacks and Defenses in Semantic Image Segmentation",
+      "url": "https://arxiv.org/abs/1912.09685",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "Differential Privacy Defenses and Sampling Attacks for Membership Inference",
+      "url": "https://priml-workshop.github.io/priml2019/papers/PriML2019_paper_47.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "privGAN: Protecting GANs from membership inference attacks at low cost",
+      "url": "https://arxiv.org/abs/2001.00071",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Sharing Models or Coresets: A Study based on Membership Inference Attack",
+      "url": "https://arxiv.org/abs/2007.02977",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Privacy Analysis of Deep Learning in the Wild: Membership Inference Attacks against Transfer Learning",
+      "url": "https://arxiv.org/abs/2009.04872",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Quantifying Membership Inference Vulnerability via Generalization Gap and Other Model Metrics",
+      "url": "https://arxiv.org/abs/2009.05669",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "MACE: A Flexible Framework for Membership Privacy Estimation in Generative Models",
+      "url": "https://arxiv.org/abs/2009.05683",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "On Primes, Log-Loss Scores and (No) Privacy",
+      "url": "https://arxiv.org/abs/2009.08559",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "MCMIA: Model Compression Against Membership Inference Attack in Deep Neural Networks",
+      "url": "https://arxiv.org/abs/2008.13578",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Bootstrap Aggregation for Point-based Generalized Membership Inference Attacks",
+      "url": "https://arxiv.org/abs/2011.08738",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Differentially Private Learning Does Not Bound Membership Inference",
+      "url": "https://arxiv.org/abs/2010.12112",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Quantifying Membership Privacy via Information Leakage",
+      "url": "https://arxiv.org/abs/2010.05965",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Disparate Vulnerability: on the Unfairness of Privacy Attacks Against Machine Learning",
+      "url": "https://arxiv.org/abs/1906.00389",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Use the Spear as a Shield: A Novel Adversarial Example based Privacy-Preserving Technique against Membership Inference Attacks",
+      "url": "https://arxiv.org/abs/2011.13696",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Towards Realistic Membership Inferences: The Case of Survey Data",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3427228.3427282?casa_token=eHK7DPiTIigAAAAA:sinfqtYoQA8GddIiwn28DYNEG1NsvW42wvUnRLkpBGQKhrI_mawTRV8MOmLGotqaTspYS-eOIp56UQ",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Unexpected Information Leakage of Differential Privacy Due to Linear Property of Queries",
+      "url": "https://arxiv.org/abs/2010.08958",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "TransMIA: Membership Inference Attacks Using Transfer Shadow Training",
+      "url": "https://arxiv.org/abs/2011.14661",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "An Extension of Fano's Inequality for Characterizing Model Susceptibility to Membership Inference Attacks",
+      "url": "https://arxiv.org/abs/2009.08097",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Adversary Instantiation: Lower Bounds for Differentially Private Machine Learning",
+      "url": "https://arxiv.org/abs/2101.04535",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Membership Inference Attack with Multi-Grade Service Models in Edge Intelligence",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9355044?casa_token=jQafisVyDTsAAAAA:hjGRYTW8BWFnmvVnXdsrv42HQoBJ0EdzBhJf34nAf2BWlydneTb6Ll8GVnVdGfI4M4S53r3hMw",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Reconstruction-Based Membership Inference Attacks are Easier on Difficult Problems",
+      "url": "https://arxiv.org/abs/2102.07762",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Membership Inference Attacks on Deep Regression Models for Neuroimaging",
+      "url": "https://openreview.net/forum?id=8lL_y9n-CV",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Node-Level Membership Inference Attacks Against Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2102.05429",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Practical Blind Membership Inference Attack via Differential Comparisons",
+      "url": "https://arxiv.org/abs/2101.01341",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "ADePT: Auto-encoder based Differentially Private Text Transformation",
+      "url": "https://arxiv.org/abs/2102.01502",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Source Inference Attacks in Federated Learning",
+      "url": "https://arxiv.org/abs/2109.05659",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "The Influence of Dropout on Membership Inference in Differentially Private Models",
+      "url": "https://arxiv.org/abs/2103.09008",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Membership Inference Attack Susceptibility of Clinical Language Models",
+      "url": "https://arxiv.org/abs/2104.08305",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Membership Inference Attacks on Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2104.08273",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "When Does Data Augmentation Help With Membership Inference Attacks?",
+      "url": "http://proceedings.mlr.press/v139/kaya21a.html",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "The Influence of Training Parameters and Architectural Choices on the Vulnerability of Neural Networks to Membership Inference Attacks",
+      "url": "https://www.mi.fu-berlin.de/inf/groups/ag-idm/theseses/2021_oussama_bouanani_bsc_thesis.pdf",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Membership Inference on Word Embedding and Beyond",
+      "url": "https://arxiv.org/abs/2106.11384",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "TableGAN-MCA: Evaluating Membership Collisions of GAN-Synthesized Tabular Data Releasing",
+      "url": "https://arxiv.org/abs/2107.13190",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Enhanced Membership Inference Attacks against Machine Learning Models",
+      "url": "https://arxiv.org/abs/2111.09679",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Do Not Trust Prediction Scores for Membership Inference Attacks",
+      "url": "https://arxiv.org/abs/2111.09076",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "Membership Inference via Backdooring",
+      "url": "https://arxiv.org/abs/2206.04823",
+      "category": "membership-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Privacy in pharmacogenetics: An end-to-end case study of personalized warfarin dosing",
+      "url": "https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-fredrikson-privacy.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Model inversion attacks that exploit confidence information and basic countermeasures",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2810103.2813677",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "A methodology for formalizing model-inversion attacks",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7536387",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Deep models under the gan: Information leakage from collaborative deep learning",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3133956.3134012",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Machine learning models that remember too much",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3133956.3134077",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Model inversion attacks for prediction systems: Without knowledge of non-sensitive attributes",
+      "url": "https://ieeexplore.ieee.org/iel7/8476191/8476869/08476925.pdf?casa_token=VQ_s2jcJFp8AAAAA:Hg-wdpPcESm9UUsZHxCLzIvYqVEqW11_OCXEyjARxW5K2cFYi6EFNXlH8IKKjNSgv6oQoQJlsw",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "The secret sharer: Evaluating and testing unintended memorization in neural networks",
+      "url": "https://www.usenix.org/system/files/sec19-carlini.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Deep leakage from gradients",
+      "url": "https://papers.nips.cc/paper/9617-deep-leakage-from-gradients.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Model inversion attacks against collaborative inference",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3359789.3359824",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning",
+      "url": "https://ieeexplore.ieee.org/document/8737416",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Neural network inversion in adversarial setting via background knowledge alignment",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3319535.3354261?casa_token=lDNQ40-4Wa4AAAAA:p9olQ3qMdDZ0n2sl-nNIgk4sOuLRMBTGVTxycZ5wjGpnFPf5lTz-MYw0e8ISggSseHC9T46it5yX",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "iDLG: Improved Deep Leakage from Gradients",
+      "url": "https://arxiv.org/pdf/2001.02610",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Privacy Risks of General-Purpose Language Models",
+      "url": "https://www.researchgate.net/profile/Xudong_Pan3/publication/340965355_Privacy_Risks_of_General-Purpose_Language_Models/links/5ea7ca55a6fdccd7945b6a7d/Privacy-Risks-of-General-Purpose-Language-Models.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "The secret revealer: generative model-inversion attacks against deep neural networks",
+      "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_The_Secret_Revealer_Generative_Model-Inversion_Attacks_Against_Deep_Neural_Networks_CVPR_2020_paper.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Inverting Gradients - How easy is it to break privacy in federated learning?",
+      "url": "https://arxiv.org/abs/2003.14053",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "GAMIN: An Adversarial Approach to Black-Box Model Inversion",
+      "url": "https://arxiv.org/abs/1909.11835",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Trade-offs and Guarantees of Adversarial Representation Learning for Information Obfuscation",
+      "url": "https://arxiv.org/abs/1906.07902",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Reconstruction of training samples from loss functions",
+      "url": "https://arxiv.org/pdf/1805.07337.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "A Framework for Evaluating Gradient Leakage Attacks in Federated Learning",
+      "url": "https://arxiv.org/pdf/2004.10397.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Deep Models Under the GAN: Information Leakage from Collaborative Deep Learning",
+      "url": "https://arxiv.org/pdf/1702.07464.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning",
+      "url": "https://arxiv.org/pdf/1812.00535.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Exploring Image Reconstruction Attack in Deep Learning Computation Offloading",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3325413.3329791",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "I Know What You See: Power Side-Channel Attack on Convolutional Neural Network Accelerators",
+      "url": "https://arxiv.org/pdf/1803.05847.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning",
+      "url": "https://arxiv.org/abs/1904.01067",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Illuminating the Dark or how to recover what should not be seen in FE-based classifiers",
+      "url": "https://eprint.iacr.org/2018/1001",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Evaluation Indicator for Model Inversion Attack",
+      "url": "https://drive.google.com/file/d/1rl77BGtGHzZ8obWUEOoqunXCjgvpzE8d/view",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Understanding Unintended Memorization in Federated Learning",
+      "url": "https://arxiv.org/abs/2006.07490",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "An Attack-Based Evaluation Method for Differentially Private Learning Against Model Inversion Attack",
+      "url": "https://ieeexplore.ieee.org/document/8822435",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Reducing Risk of Model Inversion Using Privacy-Guided Training",
+      "url": "https://arxiv.org/abs/2006.15877",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Robust Transparency Against Model Inversion Attacks",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9178452",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Does AI Remember? Neural Networks and the Right to be Forgotten",
+      "url": "https://uwspace.uwaterloo.ca/handle/10012/15754",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Improving Robustness to Model Inversion Attacks via Mutual Information Regularization",
+      "url": "https://arxiv.org/abs/2009.05241",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "SAPAG: A Self-Adaptive Privacy Attack From Gradients",
+      "url": "https://arxiv.org/abs/2009.06228",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Theory-Oriented Deep Leakage from Gradients via Linear Equation Solver",
+      "url": "https://arxiv.org/abs/2010.13356",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Improved Techniques for Model Inversion Attacks",
+      "url": "https://arxiv.org/abs/2010.04092",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Black-box Model Inversion Attribute Inference Attacks on Classification Models",
+      "url": "https://arxiv.org/abs/2012.03404",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Deep Face Recognizer Privacy Attack: Model Inversion Initialization by a Deep Generative Adversarial Data Space Discriminator",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9306253?casa_token=H78uIRJ2smYAAAAA:iQiA_5d2a2mbH4oBF9EZwSjakAz3Muq3ZOkNDBkK_fLq19PEMGEvpipyli7d9SGKESglqIb9Ug",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "MixCon: Adjusting the Separability of Data Representations for Harder Data Recovery",
+      "url": "https://arxiv.org/abs/2010.11463",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Evaluation of Inference Attack Models for Deep Learning on Medical Data",
+      "url": "https://arxiv.org/abs/2011.00177",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "FaceLeaks: Inference Attacks against Transfer Learning Models via Black-box Queries",
+      "url": "https://arxiv.org/abs/2010.14023",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Extracting Training Data from Large Language Models",
+      "url": "https://arxiv.org/abs/2012.07805",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "MIDAS: Model Inversion Defenses Using an Approximate Memory System",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9358254",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "KART: Privacy Leakage Framework of Language Models Pre-trained with Clinical Records",
+      "url": "https://arxiv.org/abs/2101.00036",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Derivation of Constraints from Machine Learning Models and Applications to Security and Privacy",
+      "url": "https://hal.archives-ouvertes.fr/hal-03091740/",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "On the (In)Feasibility of Attribute Inference Attacks on Machine Learning Models",
+      "url": "https://arxiv.org/abs/2103.07101",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Practical Defences Against Model Inversion Attacks for Split Neural Networks",
+      "url": "https://arxiv.org/abs/2104.05743",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "R-GAP: Recursive Gradient Attack on Privacy",
+      "url": "https://arxiv.org/abs/2010.07733",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting Explanations for Model Inversion Attacks",
+      "url": "https://arxiv.org/abs/2104.12669",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "SAFELearn: Secure Aggregation for private FEderated Learning",
+      "url": "https://encrypto.de/papers/FMMMMNRSSYZ21.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Does BERT Pretrained on Clinical Notes Reveal Sensitive Data?",
+      "url": "https://arxiv.org/abs/2104.07762",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "Training Data Leakage Analysis in Language Models",
+      "url": "https://arxiv.org/abs/2101.05405",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Model Fragmentation, Shuffle and Aggregation to Mitigate Model Inversion in Federated Learning",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9478813?casa_token=047c6zFuwm4AAAAA:h6qWPCm6WXUbtVgk1iATPshiPMfvGEp6lVUrblEm8P2tRX4OIDEDpnzICVwYveoENEnH6Ig-yg",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "PRECODE - A Generic Model Extension to Prevent Deep Gradient Leakage",
+      "url": "https://arxiv.org/abs/2108.04725",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "On the Importance of Encrypting Deep Features",
+      "url": "https://arxiv.org/abs/2108.07147",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Defending Against Model Inversion Attack by Adversarial Examples",
+      "url": "https://www.cs.hku.hk/data/techreps/document/TR-2021-03.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "See through Gradients: Image Batch Recovery via GradInversion",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yin_See_Through_Gradients_Image_Batch_Recovery_via_GradInversion_CVPR_2021_paper.pdf",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Variational Model Inversion Attacks",
+      "url": "https://arxiv.org/abs/2201.10787",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Reconstructing Training Data with Informed Adversaries",
+      "url": "https://arxiv.org/abs/2201.04845",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Plug & Play Attacks: Towards Robust and Flexible Model Inversion Attacks",
+      "url": "https://arxiv.org/abs/2201.12179",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Privacy Vulnerability of Split Computing to Data-Free Model Inversion Attacks",
+      "url": "https://arxiv.org/abs/2107.06304",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "A Linear Reconstruction Approach for Attribute Inference Attacks against Synthetic Data",
+      "url": "https://arxiv.org/abs/2301.10053",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Analysis and Utilization of Hidden Information in Model Inversion Attacks",
+      "url": "https://ieeexplore.ieee.org/document/10184490",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "Text Embeddings Reveal (Almost) As Much As Text",
+      "url": "https://arxiv.org/abs/2310.06816?ref=upstract.com",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "On the Inadequacy of Similarity-based Privacy Metrics: Reconstruction Attacks against \"Truly Anonymous Synthetic Data\"",
+      "url": "https://arxiv.org/abs/2312.05114",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Model Inversion Attack with Least Information and an In-depth Analysis of its Disparate Vulnerability",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10136179",
+      "category": "reconstruction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "Hacking smart machines with smarter ones: How to extract meaningful data from machine learning classifiers",
+      "url": "https://dl.acm.org/doi/10.1504/IJSN.2015.071829",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Property inference attacks on fully connected neural networks using permutation invariant representations",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3243734.3243834",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting unintended feature leakage in collaborative learning",
+      "url": "https://ieeexplore.ieee.org/iel7/8826229/8835208/08835269.pdf",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Overlearning Reveals Sensitive Attributes",
+      "url": "https://openreview.net/pdf?id=SJeNz04tDS",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Subject Property Inference Attack in Collaborative Learning",
+      "url": "https://ieeexplore.ieee.org/document/9204357",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Property Inference From Poisoning",
+      "url": "https://arxiv.org/abs/2101.11073",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Property Inference Attacks on Convolutional Neural Networks: Influence and Implications of Target Model's Complexity",
+      "url": "https://arxiv.org/abs/2104.13061",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Honest-but-Curious Nets: Sensitive Attributes of Private Inputs can be Secretly Coded into the Entropy of Classifiers' Outputs",
+      "url": "https://arxiv.org/abs/2105.12049",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Property Inference Attacks Against GANs",
+      "url": "https://arxiv.org/abs/2111.07608",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Formalizing and Estimating Distribution Inference Risks",
+      "url": "https://arxiv.org/abs/2109.06024",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Dissecting Distribution Inference",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10136142",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "SNAP: Efficient Extraction of Private Properties with Poisoning",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10179334",
+      "category": "property-inference--distribution-inference",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Stealing machine learning models via prediction apis",
+      "url": "https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_tramer.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Stealing hyperparameters in machine learning",
+      "url": "https://ieeexplore.ieee.org/iel7/8418581/8418583/08418595.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "Copycat CNN: Stealing Knowledge by Persuading Confession with Random Non-Labeled Data",
+      "url": "https://ieeexplore.ieee.org/document/8489592",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Towards reverse-engineering black-box neural networks.",
+      "url": "https://openreview.net/forum?id=BydjJte0-",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Knockoff nets: Stealing functionality of black-box models",
+      "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Orekondy_Knockoff_Nets_Stealing_Functionality_of_Black-Box_Models_CVPR_2019_paper.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "PRADA: protecting against DNN model stealing attacks",
+      "url": "https://ieeexplore.ieee.org/document/8806737",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "Model Reconstruction from Model Explanations",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3287560.3287562",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Exploring connections between active learning and model extraction",
+      "url": "https://www.usenix.org/system/files/sec20summer_chandrasekaran_prepub.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "High Accuracy and High Fidelity Extraction of Neural Networks",
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/jagielski",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "Thieves on Sesame Street! Model Extraction of BERT-based APIs",
+      "url": "https://openreview.net/attachment?id=Byl5NREFDr&name=original_pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "Cryptanalytic Extraction of Neural Network Models",
+      "url": "https://arxiv.org/pdf/2003.04884.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "CloudLeak: Large-Scale Deep Learning Models Stealing Through Adversarial Examples",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cloudleak-large-scale-deep-learning-models-stealing-through-adversarial-examples/",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "ACTIVETHIEF: Model Extraction Using Active Learning and Unannotated Public Data",
+      "url": "https://www.aaai.org/ojs/index.php/AAAI/article/view/5432",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Efficiently Stealing your Machine Learning Models",
+      "url": "https://encrypto.de/papers/RST19.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Extraction of Complex DNN Models: Real Threat or Boogeyman?",
+      "url": "https://arxiv.org/pdf/1910.05429.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "Stealing Neural Networks via Timing Side Channels",
+      "url": "https://arxiv.org/pdf/1812.11720.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "DeepSniffer: A DNN Model Extraction Framework Based on Learning Architectural Hints",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3373376.3378460",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "CSI NN: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel",
+      "url": "https://www.usenix.org/system/files/sec19-batina.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Cache Telepathy: Leveraging Shared Resource Attacks to Learn DNN Architectures",
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/yan",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "How to 0wn NAS in Your Spare Time",
+      "url": "https://arxiv.org/abs/2002.06776",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Security Analysis of Deep Neural Networks Operating in the Presence of Cache Side-Channel Attacks",
+      "url": "https://arxiv.org/abs/1810.03487",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Reverse-Engineering Deep ReLU Networks",
+      "url": "https://proceedings.icml.cc/static/paper_files/icml/2020/1-Paper.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Model Extraction Oriented Data Publishing with k-anonymity",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-58208-1_13",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Hermes Attack: Steal DNN Models with Lossless Inference Accuracy",
+      "url": "https://arxiv.org/abs/2006.12784",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Model extraction from counterfactual explanations",
+      "url": "https://arxiv.org/abs/2009.01884",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "MetaSimulator: Simulating Unknown Target Models for Query-Efficient Black-box Attacks",
+      "url": "https://arxiv.org/abs/2009.00960",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Prediction Poisoning: Towards Defenses Against DNN Model Stealing Attacks",
+      "url": "https://arxiv.org/abs/1906.10908",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "IReEn: Iterative Reverse-Engineering of Black-Box Functions via Neural Program Synthesis",
+      "url": "https://arxiv.org/abs/2006.10720",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "ES Attack: Model Stealing against Deep Neural Networks without Data Hurdles",
+      "url": "https://arxiv.org/abs/2009.09560",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "Black-Box Ripper: Copying black-box models using generative evolutionary algorithms",
+      "url": "https://arxiv.org/abs/2010.11158",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Model Extraction Attacks on Graph Neural Networks: Taxonomy and Realization",
+      "url": "https://arxiv.org/abs/2010.12751",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Model Extraction Attacks and Defenses on Cloud-Based Machine Learning Models",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9311938?casa_token=f_8Lg24vAQkAAAAA:A7P5ym7bTLFIJZtL2yGorscyQC2R1WGJUKzcO-pn8wADHus0w8NArN-nv0JFcKYhwwQFeCaptQ",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Leveraging Extracted Model Adversaries for Improved Black Box Attacks",
+      "url": "https://arxiv.org/abs/2010.16336",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Differentially Private Machine Learning Model against Model Extraction Attack",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9291542",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Model Extraction Attacks and Defenses on Cloud-Based Machine Learning Models",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9311938?casa_token=YP1PeB4XPqEAAAAA:q1Ni88642UTpBQ8r7jUe9tbWjMWG9lw3v8CK4g1q7V-ZShK0KonYuMiapY4rXDfKVNST6xLtSw",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "Stealing Neural Network Models through the Scan Chain: A New Threat for ML Hardware",
+      "url": "https://eprint.iacr.org/2021/167",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Model Extraction and Defenses on Generative Adversarial Networks",
+      "url": "https://arxiv.org/abs/2101.02069",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Protecting Decision Boundary of Machine Learning Model With Differentially Private Perturbation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9286504",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "Special-Purpose Model Extraction Attacks: Stealing Coarse Model with Fewer Queries",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9343086?casa_token=Fn4CtwOZsbQAAAAA:4n3tZGcwFochwREqn4fRWcmA9YeLRxikwB1LN8t2ui1NbRPHSHjTuoqHrSfP1vxXfecw0kobBQ",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Model Extraction and Adversarial Transferability, Your BERT is Vulnerable!",
+      "url": "https://arxiv.org/abs/2103.10013",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "Thief, Beware of What Get You There: Towards Understanding Model Extraction Attack",
+      "url": "https://arxiv.org/abs/2104.05921",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Model Weight Theft With Just Noise Inputs: The Curious Case of the Petulant Attacker",
+      "url": "https://arxiv.org/abs/1912.08987",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Protecting DNNs from Theft using an Ensemble of Diverse Models",
+      "url": "https://openreview.net/forum?id=LucJxySuJcE",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Information Laundering for Model Privacy",
+      "url": "https://arxiv.org/abs/2009.06112",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Deep Neural Network Fingerprinting by Conferrable Adversarial Examples",
+      "url": "https://arxiv.org/abs/1912.00888",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "BODAME: Bilevel Optimization for Defense Against Model Extraction",
+      "url": "https://arxiv.org/abs/2103.06797",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Dataset Inference: Ownership Resolution in Machine Learning",
+      "url": "https://openreview.net/forum?id=hvdKKV2yt7T",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "Good Artists Copy, Great Artists Steal: Model Extraction Attacks Against Image Translation Generative Adversarial Networks",
+      "url": "https://arxiv.org/abs/2104.12623",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "Towards Characterizing Model Extraction Queries and How to Detect Them",
+      "url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-126.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Hardness of Samples Is All You Need: Protecting Deep Learning Models Using Hardness of Samples",
+      "url": "https://arxiv.org/abs/2106.11424",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "Stateful Detection of Model Extraction Attacks",
+      "url": "https://arxiv.org/abs/2107.05166",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "MEGEX: Data-Free Model Extraction Attack against Gradient-Based Explainable AI",
+      "url": "https://arxiv.org/abs/2107.08909",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "INVERSENET: Augmenting Model Extraction Attacks with Training Data Inversion",
+      "url": "https://www.ijcai.org/proceedings/2021/0336.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Increasing the Cost of Model Extraction with Calibrated Proof of Work",
+      "url": "https://openreview.net/forum?id=EAy7C1cgE1L",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "On the Difficulty of Defending Self-Supervised Learning against Model Extraction",
+      "url": "https://proceedings.mlr.press/v162/dziedzic22a/dziedzic22a.pdf",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Dataset Inference for Self-Supervised Models",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/4ebf0617b32da2cd083c3b17c7285cce-Abstract-Conference.html",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders",
+      "url": "https://arxiv.org/abs/2201.07513",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "StolenEncoder: Stealing Pre-trained Encoders",
+      "url": "https://arxiv.org/abs/2201.05889",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Model Extraction Attacks Revisited",
+      "url": "https://arxiv.org/abs/2312.05386",
+      "category": "model-extraction",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Prompts Should not be Seen as Secrets: Systematically Measuring Prompt Extraction Attack Success",
+      "url": "https://arxiv.org/abs/2307.06865",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Amnesiac Machine Learning",
+      "url": "https://arxiv.org/abs/2010.10981",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "Toward Robustness and Privacy in Federated Learning: Experimenting with Local and Central Differential Privacy",
+      "url": "https://arxiv.org/abs/2009.03561",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Analyzing Information Leakage of Updates to Natural Language Models",
+      "url": "https://arxiv.org/abs/1912.07942",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "Estimating g-Leakage via Machine Learning",
+      "url": "https://arxiv.org/abs/2005.04399",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Information Leakage in Embedding Models",
+      "url": "https://arxiv.org/abs/2004.00053",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "Hide-and-Seek Privacy Challenge",
+      "url": "https://arxiv.org/abs/2007.12087",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Synthetic Data -- Anonymisation Groundhog Day",
+      "url": "https://arxiv.org/abs/2011.07018",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Robust Membership Encoding: Inference Attacks and CopyrightProtection for Deep Learning",
+      "url": "https://arxiv.org/pdf/1909.12982.pdf",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Quantifying Privacy Leakage in Graph Embedding",
+      "url": "https://arxiv.org/abs/2010.00906",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "Quantifying and Mitigating Privacy Risks of Contrastive Learning",
+      "url": "https://arxiv.org/abs/2102.04140",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "Coded Machine Unlearning",
+      "url": "https://arxiv.org/abs/2012.15721",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Unlearnable Examples: Making Personal Data Unexploitable",
+      "url": "https://arxiv.org/abs/2101.04898",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Measuring Data Leakage in Machine-Learning Models with Fisher Information",
+      "url": "https://arxiv.org/abs/2102.11673",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "Teacher Model Fingerprinting Attacks Against Transfer Learning",
+      "url": "https://arxiv.org/abs/2106.12478",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Bounding Information Leakage in Machine Learning",
+      "url": "https://arxiv.org/abs/2105.03875",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "RoFL: Attestable Robustness for Secure Federated Learning",
+      "url": "https://arxiv.org/abs/2107.03311",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Learning to Break Deep Perceptual Hashing: The Use Case NeuralHash",
+      "url": "https://arxiv.org/abs/2111.06628",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "The Privacy Onion Effect: Memorization is Relative",
+      "url": "https://arxiv.org/abs/2206.10469",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Truth Serum: Poisoning Machine Learning Models to Reveal Their Secrets",
+      "url": "https://arxiv.org/abs/2204.00032",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "LCANets++: Robust Audio Classification using Multi-layer Neural Networks with Lateral Competition",
+      "url": "https://arxiv.org/abs/2308.12882",
+      "category": "other",
+      "source_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/blob/9d88023349812436954957c077e06b72694c6e1b/README.md#L274",
+      "line": 274,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 237,
+  "unique_links": 237,
+  "category_count": 7,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "suhacker1",
+      "url": "https://github.com/suhacker1",
+      "contributions": 58
+    },
+    {
+      "login": "MariaRigaki",
+      "url": "https://github.com/MariaRigaki",
+      "contributions": 22
+    },
+    {
+      "login": "ganevgv",
+      "url": "https://github.com/ganevgv",
+      "contributions": 4
+    },
+    {
+      "login": "HongshengHu",
+      "url": "https://github.com/HongshengHu",
+      "contributions": 2
+    },
+    {
+      "login": "iamgroot42",
+      "url": "https://github.com/iamgroot42",
+      "contributions": 2
+    },
+    {
+      "login": "JACKPURCELL",
+      "url": "https://github.com/JACKPURCELL",
+      "contributions": 2
+    },
+    {
+      "login": "mmalekzadeh",
+      "url": "https://github.com/mmalekzadeh",
+      "contributions": 2
+    },
+    {
+      "login": "adam-dziedzic",
+      "url": "https://github.com/adam-dziedzic",
+      "contributions": 1
+    },
+    {
+      "login": "JFChi",
+      "url": "https://github.com/JFChi",
+      "contributions": 1
+    },
+    {
+      "login": "LukasStruppek",
+      "url": "https://github.com/LukasStruppek",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 131,
+    "public_contributors": 12,
+    "observed_at": "2026-09-03T17:49:45.615027+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by stratosphereips/awesome-ml-privacy-attacks contributors.",
+  "license": null,
+  "license_url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks/tree/9d88023349812436954957c077e06b72694c6e1b",
+  "digest": "0f6aedda3803311f68a3fc9dbaf4b5259e17fdfa9fd3cb943201cd886155d98f"
+}

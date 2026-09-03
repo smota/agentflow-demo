@@ -1,0 +1,1333 @@
+{
+  "format_version": 3,
+  "repository_id": "370439292",
+  "name": "osirislab/awesome-rust-security",
+  "revision": "9431debec5827af1c6330e4cc073b6302ba2613c",
+  "readme_path": "README.md",
+  "readme_sha256": "c135633f212a9c1eda4d5ffff21be4c32c69afbc067d0a6a6d31cb32eca1c00a",
+  "sections": [
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 1,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "level": 1,
+      "path": [
+        "Tools"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#tools",
+      "entries": 0
+    },
+    {
+      "id": "web-and-cloud-security",
+      "title": "Web and Cloud Security",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Web and Cloud Security"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#web-and-cloud-security",
+      "entries": 0
+    },
+    {
+      "id": "pentesting",
+      "title": "Pentesting",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Web and Cloud Security",
+        "Pentesting"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#pentesting",
+      "entries": 11
+    },
+    {
+      "id": "authorization--authentication-frameworks",
+      "title": "Authorization & Authentication Frameworks",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Web and Cloud Security",
+        "Authorization & Authentication Frameworks"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#authorization--authentication-frameworks",
+      "entries": 6
+    },
+    {
+      "id": "cloud-and-infrastructure",
+      "title": "Cloud and Infrastructure",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Web and Cloud Security",
+        "Cloud and Infrastructure"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#cloud-and-infrastructure",
+      "entries": 4
+    },
+    {
+      "id": "software-supply-chain",
+      "title": "Software Supply Chain",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Web and Cloud Security",
+        "Software Supply Chain"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#software-supply-chain",
+      "entries": 2
+    },
+    {
+      "id": "secure-frameworks",
+      "title": "Secure Frameworks",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Web and Cloud Security",
+        "Secure Frameworks"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#secure-frameworks",
+      "entries": 4
+    },
+    {
+      "id": "vulnerability-assessment",
+      "title": "Vulnerability Assessment",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Vulnerability Assessment"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#vulnerability-assessment",
+      "entries": 0
+    },
+    {
+      "id": "static-code-auditing",
+      "title": "Static Code Auditing",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Vulnerability Assessment",
+        "Static Code Auditing"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#static-code-auditing",
+      "entries": 9
+    },
+    {
+      "id": "fuzzing",
+      "title": "Fuzzing",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Vulnerability Assessment",
+        "Fuzzing"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#fuzzing",
+      "entries": 14
+    },
+    {
+      "id": "binary-analysis--reversing",
+      "title": "Binary Analysis & Reversing",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Vulnerability Assessment",
+        "Binary Analysis & Reversing"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#binary-analysis--reversing",
+      "entries": 13
+    },
+    {
+      "id": "property-based-testing",
+      "title": "Property-Based Testing",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Vulnerability Assessment",
+        "Property-Based Testing"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#property-based-testing",
+      "entries": 4
+    },
+    {
+      "id": "symbolic-execution",
+      "title": "Symbolic Execution",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Vulnerability Assessment",
+        "Symbolic Execution"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#symbolic-execution",
+      "entries": 2
+    },
+    {
+      "id": "formal-verification",
+      "title": "Formal Verification",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Vulnerability Assessment",
+        "Formal Verification"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#formal-verification",
+      "entries": 2
+    },
+    {
+      "id": "offensive-security-and-red-teaming",
+      "title": "Offensive Security and Red Teaming",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Offensive Security and Red Teaming"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#offensive-security-and-red-teaming",
+      "entries": 0
+    },
+    {
+      "id": "command-and-control-frameworks",
+      "title": "Command-and-Control Frameworks",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Offensive Security and Red Teaming",
+        "Command-and-Control Frameworks"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#command-and-control-frameworks",
+      "entries": 1
+    },
+    {
+      "id": "defense-evasion",
+      "title": "Defense Evasion",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Offensive Security and Red Teaming",
+        "Defense Evasion"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#defense-evasion",
+      "entries": 1
+    },
+    {
+      "id": "packing-obfuscation-encryption-anti-analysis",
+      "title": "Packing, Obfuscation, Encryption, Anti-analysis",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Offensive Security and Red Teaming",
+        "Packing, Obfuscation, Encryption, Anti-analysis"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#packing-obfuscation-encryption-anti-analysis",
+      "entries": 5
+    },
+    {
+      "id": "threat-detection-and-forensics",
+      "title": "Threat Detection and Forensics",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Threat Detection and Forensics"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#threat-detection-and-forensics",
+      "entries": 12
+    },
+    {
+      "id": "cryptography",
+      "title": "Cryptography",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Cryptography"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#cryptography",
+      "entries": 0
+    },
+    {
+      "id": "frameworks",
+      "title": "Frameworks",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Cryptography",
+        "Frameworks"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#frameworks",
+      "entries": 8
+    },
+    {
+      "id": "applications",
+      "title": "Applications",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Applications"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#applications",
+      "entries": 6
+    },
+    {
+      "id": "educational",
+      "title": "Educational",
+      "level": 1,
+      "path": [
+        "Educational"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#educational",
+      "entries": 0
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "level": 2,
+      "path": [
+        "Educational",
+        "Books"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#books",
+      "entries": 3
+    },
+    {
+      "id": "articles",
+      "title": "Articles",
+      "level": 2,
+      "path": [
+        "Educational",
+        "Articles"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#articles",
+      "entries": 2
+    },
+    {
+      "id": "talks",
+      "title": "Talks",
+      "level": 2,
+      "path": [
+        "Educational",
+        "Talks"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#talks",
+      "entries": 2
+    },
+    {
+      "id": "similar-lists",
+      "title": "Similar Lists",
+      "level": 1,
+      "path": [
+        "Similar Lists"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#similar-lists",
+      "entries": 5
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 1,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#contributing",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "sn0int",
+      "url": "https://github.com/kpcyrd/sn0int",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "sniffglue",
+      "url": "https://github.com/kpcyrd/sniffglue",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "badtouch",
+      "url": "https://github.com/kpcyrd/badtouch",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "rshijack",
+      "url": "https://github.com/kpcyrd/rshijack",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "feroxbuster",
+      "url": "https://github.com/epi052/feroxbuster",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "rustbuster",
+      "url": "https://github.com/phra/rustbuster",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "rustscan",
+      "url": "https://github.com/RustScan/RustScan",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "kepler",
+      "url": "https://github.com/Exein-io/kepler",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "phaser",
+      "url": "https://github.com/skerkour/phaser",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "pdfrip",
+      "url": "https://github.com/mufeedvh/pdfrip",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "chromepass",
+      "url": "https://github.com/darkarp/chromepass",
+      "category": "pentesting",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "biscuit",
+      "url": "https://github.com/CleverCloud/biscuit",
+      "category": "authorization--authentication-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "paseto.rs",
+      "url": "https://github.com/instructure/paseto",
+      "category": "authorization--authentication-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "webauthn.rs",
+      "url": "https://github.com/kanidm/webauthn-rs",
+      "category": "authorization--authentication-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "aliri",
+      "url": "https://github.com/neoeinstein/aliri",
+      "category": "authorization--authentication-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "OpenSK",
+      "url": "https://github.com/google/OpenSK",
+      "category": "authorization--authentication-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "dacquiri",
+      "url": "https://github.com/resyncgg/dacquiri",
+      "category": "authorization--authentication-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "category": "cloud-and-infrastructure",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "boringtun",
+      "url": "https://github.com/cloudflare/boringtun",
+      "category": "cloud-and-infrastructure",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "innernet",
+      "url": "https://github.com/tonarino/innernet",
+      "category": "cloud-and-infrastructure",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "category": "cloud-and-infrastructure",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "rebuilderd",
+      "url": "https://github.com/kpcyrd/rebuilderd",
+      "category": "software-supply-chain",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "rust-tuf",
+      "url": "https://github.com/heartsucker/rust-tuf",
+      "category": "software-supply-chain",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "adblock-rust",
+      "url": "https://github.com/brave/adblock-rust",
+      "category": "secure-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "libinjection",
+      "url": "https://github.com/arvancloud/libinjection-rs",
+      "category": "secure-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "http-desync-guardian",
+      "url": "https://github.com/aws/http-desync-guardian",
+      "category": "secure-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "ammonia",
+      "url": "https://github.com/rust-ammonia/ammonia",
+      "category": "secure-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "RustSec",
+      "url": "https://github.com/RustSec",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "cargo-geiger",
+      "url": "https://github.com/rust-secure-code/cargo-geiger",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "siderophile",
+      "url": "https://github.com/trailofbits/siderophile",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "cargo-crev",
+      "url": "https://github.com/crev-dev/cargo-crev",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "arch-audit",
+      "url": "https://github.com/ilpianista/arch-audit",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "weggli",
+      "url": "https://github.com/googleprojectzero/weggli",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "noseyparker",
+      "url": "https://github.com/praetorian-inc/noseyparker",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "L3X",
+      "url": "https://github.com/VulnPlanet/l3x",
+      "category": "static-code-auditing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "rust-fuzz",
+      "url": "https://github.com/rust-fuzz",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "LibAFL",
+      "url": "https://github.com/AFLplusplus/LibAFL",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "fuzzcheck.rs",
+      "url": "https://github.com/loiclec/fuzzcheck-rs",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "onefuzz",
+      "url": "https://github.com/microsoft/onefuzz",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "lain",
+      "url": "https://github.com/microsoft/lain",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "fzero",
+      "url": "https://github.com/gamozolabs/fzero_fuzzer",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "nautilus",
+      "url": "https://github.com/RUB-SysSec/nautilus",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "sidefuzz",
+      "url": "https://github.com/phayes/sidefuzz",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "arbitrary",
+      "url": "https://github.com/rust-fuzz/arbitrary",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "rust-san",
+      "url": "https://github.com/japaric/rust-san",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "lidiffuzz",
+      "url": "https://github.com/Shnatsel/libdiffuzz",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "rewind",
+      "url": "https://github.com/quarkslab/rewind",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "hyperpom",
+      "url": "https://github.com/impalabs/hyperpom",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "icicle-emu",
+      "url": "https://github.com/icicle-emu/icicle-emu",
+      "category": "fuzzing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "goblin",
+      "url": "https://github.com/m4b/goblin",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "unicorn.rs",
+      "url": "https://github.com/unicorn-rs/unicorn-rs",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "cargo-call-stack",
+      "url": "https://github.com/japaric/cargo-call-stack",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "xori",
+      "url": "https://github.com/endgameinc/xori",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "rd",
+      "url": "https://github.com/sidkshatriya/rd",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "binsec",
+      "url": "https://github.com/ex0dus-0x/binsec",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "radeco",
+      "url": "https://github.com/radareorg/radeco",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "falcon",
+      "url": "https://github.com/falconre/falcon",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "mesos",
+      "url": "https://github.com/gamozolabs/mesos",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "guerilla",
+      "url": "https://github.com/mehcode/guerrilla",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "ropr",
+      "url": "https://github.com/Ben-Lichtman/ropr",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "pwninit",
+      "url": "https://github.com/io12/pwninit",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "binaryninja-rs",
+      "url": "https://github.com/Vector35/binaryninja-api/tree/dev/rust",
+      "category": "binary-analysis--reversing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "quickcheck",
+      "url": "https://github.com/BurntSushi/quickcheck",
+      "category": "property-based-testing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "proptest",
+      "url": "https://github.com/AltSysrq/proptest",
+      "category": "property-based-testing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "bughunt-rust",
+      "url": "https://github.com/blt/bughunt-rust",
+      "category": "property-based-testing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "mutagen",
+      "url": "https://github.com/llogiq/mutagen",
+      "category": "property-based-testing",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "seer",
+      "url": "https://github.com/dwrensha/seer",
+      "category": "symbolic-execution",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "haybale",
+      "url": "https://github.com/PLSysSec/haybale",
+      "category": "symbolic-execution",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "MIRAI",
+      "url": "https://github.com/facebookexperimental/MIRAI",
+      "category": "formal-verification",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "electrolysis",
+      "url": "https://github.com/Kha/electrolysis",
+      "category": "formal-verification",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "tetanus",
+      "url": "https://github.com/MythicAgents/tetanus",
+      "category": "command-and-control-frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "FunctionStomping",
+      "url": "https://github.com/Idov31/FunctionStomping",
+      "category": "defense-evasion",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "debugoff",
+      "url": "https://github.com/0xor0ne/debugoff",
+      "category": "packing-obfuscation-encryption-anti-analysis",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "goldberg",
+      "url": "https://github.com/frank2/goldberg",
+      "category": "packing-obfuscation-encryption-anti-analysis",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "obfstr",
+      "url": "https://github.com/CasualX/obfstr",
+      "category": "packing-obfuscation-encryption-anti-analysis",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "oxide",
+      "url": "https://github.com/frank2/oxide",
+      "category": "packing-obfuscation-encryption-anti-analysis",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Linux.Fe2O3",
+      "url": "https://github.com/guitmz/Fe2O3",
+      "category": "packing-obfuscation-encryption-anti-analysis",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "yara-rust",
+      "url": "https://github.com/Hugal31/yara-rust",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "BONOMEN",
+      "url": "https://github.com/0xcpu/bonomen",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "confine",
+      "url": "https://github.com/ex0dus-0x/confine",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "redbpf",
+      "url": "https://github.com/foniod/redbpf",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "cernan",
+      "url": "https://github.com/postmates/cernan",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "chainsaw",
+      "url": "https://github.com/countercept/chainsaw",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "foniod",
+      "url": "https://github.com/foniod/foniod",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "zerotect",
+      "url": "https://github.com/polyverse/zerotect",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "hayabusa",
+      "url": "https://github.com/Yamato-Security/hayabusa",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "medusa",
+      "url": "https://github.com/evilsocket/medusa",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "elegant-bouncer",
+      "url": "https://github.com/msuiche/elegant-bouncer",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "cargo-sandbox",
+      "url": "https://github.com/insanitybit/cargo-sandbox/",
+      "category": "threat-detection-and-forensics",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "secrets",
+      "url": "https://github.com/stouset/secrets",
+      "category": "frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "mundane",
+      "url": "https://github.com/google/mundane",
+      "category": "frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "rust-threshold-secret-sharing",
+      "url": "https://github.com/snipsco/rust-threshold-secret-sharing",
+      "category": "frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "molasses",
+      "url": "https://github.com/trailofbits/molasses",
+      "category": "frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "rust-security-framework",
+      "url": "https://github.com/kornelski/rust-security-framework",
+      "category": "frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "microkv",
+      "url": "https://github.com/ex0dus-0x/microkv",
+      "category": "frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "swanky",
+      "url": "https://github.com/GaloisInc/swanky",
+      "category": "frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "tandem",
+      "url": "https://github.com/sine-fdn/tandem",
+      "category": "frameworks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "category": "applications",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "ripasso",
+      "url": "https://github.com/cortex/ripasso/",
+      "category": "applications",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "sekey",
+      "url": "https://github.com/sekey/sekey",
+      "category": "applications",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Mullvad VPN Client",
+      "url": "https://github.com/mullvad/mullvadvpn-app",
+      "category": "applications",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "fakio",
+      "url": "https://github.com/SerhoLiu/fakio",
+      "category": "applications",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "category": "applications",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Black Hat Rust",
+      "url": "https://github.com/skerkour/black-hat-rust",
+      "category": "books",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Rust Fuzz Book",
+      "url": "https://rust-fuzz.github.io/book/",
+      "category": "books",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "Secure Rust Guidelines",
+      "url": "https://anssi-fr.github.io/rust-guide/",
+      "category": "books",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "str::repeat wildcopy exploit writeup",
+      "url": "https://saaramar.github.io/str_repeat_exploit/",
+      "category": "articles",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to Fuzzing Rust code",
+      "url": "https://fuzzinglabs.com/introduction-rust-fuzzing-tutorial/",
+      "category": "articles",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "BlackHat EU 2018 - RustZone: Writing Trusted Applications in Rust",
+      "url": "https://www.youtube.com/watch?v=9wLgXfo0l1g",
+      "category": "talks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "DEFCON 30 - Lessons from fuzzing a smart contract compiler",
+      "url": "https://www.youtube.com/watch?v=8E7XOHQiRPE",
+      "category": "talks",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "awesome-rust",
+      "url": "https://github.com/rust-unofficial/awesome-rust",
+      "category": "similar-lists",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "rust-secure-code/projects",
+      "url": "https://github.com/rust-secure-code/projects",
+      "category": "similar-lists",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "analysis-tools-dev/static-analysis",
+      "url": "https://github.com/analysis-tools-dev/static-analysis",
+      "category": "similar-lists",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "analysis-tools-dev/dynamic-analysis",
+      "url": "https://github.com/analysis-tools-dev/dynamic-analysis",
+      "category": "similar-lists",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "awesome-go-security",
+      "url": "https://github.com/Binject/awesome-go-security",
+      "category": "similar-lists",
+      "source_url": "https://github.com/osirislab/awesome-rust-security/blob/9431debec5827af1c6330e4cc073b6302ba2613c/README.md#L229",
+      "line": 229,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 116,
+  "unique_links": 115,
+  "category_count": 21,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "ex0dus-0x",
+      "url": "https://github.com/ex0dus-0x",
+      "contributions": 16
+    },
+    {
+      "login": "0xflotus",
+      "url": "https://github.com/0xflotus",
+      "contributions": 1
+    },
+    {
+      "login": "0xor0ne",
+      "url": "https://github.com/0xor0ne",
+      "contributions": 1
+    },
+    {
+      "login": "d0nutptr",
+      "url": "https://github.com/d0nutptr",
+      "contributions": 1
+    },
+    {
+      "login": "GyulyVGC",
+      "url": "https://github.com/GyulyVGC",
+      "contributions": 1
+    },
+    {
+      "login": "neoeinstein",
+      "url": "https://github.com/neoeinstein",
+      "contributions": 1
+    },
+    {
+      "login": "rbran",
+      "url": "https://github.com/rbran",
+      "contributions": 1
+    },
+    {
+      "login": "yevh",
+      "url": "https://github.com/yevh",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 25,
+    "has_more": false,
+    "path_commit_count": 25,
+    "public_contributors": 8,
+    "observed_at": "2026-09-03T17:50:09.911493+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by osirislab/awesome-rust-security contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/osirislab/awesome-rust-security/tree/9431debec5827af1c6330e4cc073b6302ba2613c",
+  "digest": "a639ba049ba705e72ba951b9424e14967d9b0c5a0a2b1f35174f1c00e7763fd5"
+}

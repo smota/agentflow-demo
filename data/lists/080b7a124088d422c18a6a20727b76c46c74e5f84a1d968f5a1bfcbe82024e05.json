@@ -1,0 +1,449 @@
+{
+  "format_version": 3,
+  "repository_id": "105425973",
+  "name": "cristaloleg/go-advice",
+  "revision": "af6fcc46a1c2bec162192b14289b10fe0d4ab112",
+  "readme_path": "README.md",
+  "readme_sha256": "4fd3cfc6ee4cbda0952a2d09d0348a2b6c4a5a42ce3eb874f3bda282bdfd55c0",
+  "sections": [
+    {
+      "id": "go-advice",
+      "title": "Go-advice",
+      "level": 1,
+      "path": [
+        "Go-advice"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#go-advice",
+      "entries": 2
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Go-advice",
+        "Contents"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "go-proverbs",
+      "title": "Go Proverbs",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Go Proverbs"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#go-proverbs",
+      "entries": 0
+    },
+    {
+      "id": "the-zen-of-go",
+      "title": "The Zen of Go",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "The Zen of Go"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#the-zen-of-go",
+      "entries": 0
+    },
+    {
+      "id": "code",
+      "title": "Code",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#code",
+      "entries": 0
+    },
+    {
+      "id": "always-go-fmt-your-code",
+      "title": "Always go fmt your code.",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Always go fmt your code."
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#always-go-fmt-your-code",
+      "entries": 0
+    },
+    {
+      "id": "multiple-if-else-statements-can-be-collapsed-into-a-switch",
+      "title": "Multiple if-else statements can be collapsed into a switch",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Multiple if-else statements can be collapsed into a switch"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#multiple-if-else-statements-can-be-collapsed-into-a-switch",
+      "entries": 0
+    },
+    {
+      "id": "to-pass-a-signal-prefer-chan-struct-instead-of-chan-bool",
+      "title": "To pass a signal prefer chan struct{} instead of chan bool.",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "To pass a signal prefer chan struct{} instead of chan bool."
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#to-pass-a-signal-prefer-chan-struct-instead-of-chan-bool",
+      "entries": 0
+    },
+    {
+      "id": "prefer-30--timesecond-instead-of-timeduration30--timesecond",
+      "title": "Prefer 30 * time.Second instead of time.Duration(30) * time.Second",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Prefer 30 * time.Second instead of time.Duration(30) * time.Second"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#prefer-30--timesecond-instead-of-timeduration30--timesecond",
+      "entries": 0
+    },
+    {
+      "id": "use-timeduration-instead-of-int64--variable-name",
+      "title": "Use time.Duration instead of int64 + variable name",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Use time.Duration instead of int64 + variable name"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#use-timeduration-instead-of-int64--variable-name",
+      "entries": 0
+    },
+    {
+      "id": "group-const-declarations-by-type-and-var-by-logic-andor-type",
+      "title": "Group const declarations by type and var by logic and/or type",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Group const declarations by type and var by logic and/or type"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#group-const-declarations-by-type-and-var-by-logic-andor-type",
+      "entries": 0
+    },
+    {
+      "id": "dont-use-encodinggob-on-structs-you-dont-own",
+      "title": "Don’t use encoding/gob on structs you don’t own.",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Don’t use encoding/gob on structs you don’t own."
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#dont-use-encodinggob-on-structs-you-dont-own",
+      "entries": 0
+    },
+    {
+      "id": "dont-depend-on-the-evaluation-order-especially-in-a-return-statement",
+      "title": "Don't depend on the evaluation order, especially in a return statement.",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Don't depend on the evaluation order, especially in a return statement."
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#dont-depend-on-the-evaluation-order-especially-in-a-return-statement",
+      "entries": 0
+    },
+    {
+      "id": "to-prevent-unkeyed-literals-add-_-struct-field",
+      "title": "To prevent unkeyed literals add _ struct{} field:",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "To prevent unkeyed literals add _ struct{} field:"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#to-prevent-unkeyed-literals-add-_-struct-field",
+      "entries": 0
+    },
+    {
+      "id": "to-prevent-structs-comparison-add-an-empty-field-of-func-type",
+      "title": "To prevent structs comparison add an empty field of func type",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "To prevent structs comparison add an empty field of func type"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#to-prevent-structs-comparison-add-an-empty-field-of-func-type",
+      "entries": 0
+    },
+    {
+      "id": "prefer-httphandlerfunc-over-httphandler",
+      "title": "Prefer http.HandlerFunc over http.Handler",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Prefer http.HandlerFunc over http.Handler"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#prefer-httphandlerfunc-over-httphandler",
+      "entries": 0
+    },
+    {
+      "id": "move-defer-to-the-top",
+      "title": "Move defer to the top",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "Move defer to the top"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#move-defer-to-the-top",
+      "entries": 0
+    },
+    {
+      "id": "javascript-parses-integers-as-floats-and-your-int64-might-overflow",
+      "title": "JavaScript parses integers as floats and your int64 might overflow.",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Code",
+        "JavaScript parses integers as floats and your int64 might overflow."
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#javascript-parses-integers-as-floats-and-your-int64-might-overflow",
+      "entries": 0
+    },
+    {
+      "id": "concurrency",
+      "title": "Concurrency",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Concurrency"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#concurrency",
+      "entries": 1
+    },
+    {
+      "id": "performance",
+      "title": "Performance",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Performance"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#performance",
+      "entries": 0
+    },
+    {
+      "id": "to-help-compiler-to-remove-bound-checks-see-this-pattern-_--b7",
+      "title": "To help compiler to remove bound checks see this pattern _ = b[7]",
+      "level": 4,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Performance",
+        "To help compiler to remove bound checks see this pattern _ = b[7]"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#to-help-compiler-to-remove-bound-checks-see-this-pattern-_--b7",
+      "entries": 0
+    },
+    {
+      "id": "modules",
+      "title": "Modules",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Modules"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#modules",
+      "entries": 0
+    },
+    {
+      "id": "build",
+      "title": "Build",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Build"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#build",
+      "entries": 0
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Testing"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#testing",
+      "entries": 0
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Tools"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#tools",
+      "entries": 2
+    },
+    {
+      "id": "misc",
+      "title": "Misc",
+      "level": 3,
+      "path": [
+        "Go-advice",
+        "Contents",
+        "Misc"
+      ],
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#misc",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "中文版",
+      "url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README_ZH.md",
+      "category": "go-advice",
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#L5",
+      "line": 5,
+      "properties": {}
+    },
+    {
+      "title": "한국어",
+      "url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README_KR.md",
+      "category": "go-advice",
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#L6",
+      "line": 6,
+      "properties": {}
+    },
+    {
+      "title": "atomic.Value",
+      "url": "https://godoc.org/sync/atomic#Value",
+      "category": "concurrency",
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "go-critic",
+      "url": "https://github.com/go-critic/go-critic",
+      "category": "tools",
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#L528",
+      "line": 528,
+      "properties": {}
+    },
+    {
+      "title": "source",
+      "url": "https://twitter.com/mvdan_/status/1107579946501853191",
+      "category": "tools",
+      "source_url": "https://github.com/cristaloleg/go-advice/blob/af6fcc46a1c2bec162192b14289b10fe0d4ab112/README.md#L530",
+      "line": 530,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 5,
+  "unique_links": 5,
+  "category_count": 3,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "cristaloleg",
+      "url": "https://github.com/cristaloleg",
+      "contributions": 76
+    },
+    {
+      "login": "yangwenmai",
+      "url": "https://github.com/yangwenmai",
+      "contributions": 4
+    },
+    {
+      "login": "ferhatelmas",
+      "url": "https://github.com/ferhatelmas",
+      "contributions": 3
+    },
+    {
+      "login": "agnivade",
+      "url": "https://github.com/agnivade",
+      "contributions": 2
+    },
+    {
+      "login": "TangoEnSkai",
+      "url": "https://github.com/TangoEnSkai",
+      "contributions": 2
+    },
+    {
+      "login": "adeel41",
+      "url": "https://github.com/adeel41",
+      "contributions": 1
+    },
+    {
+      "login": "bradleyjkemp",
+      "url": "https://github.com/bradleyjkemp",
+      "contributions": 1
+    },
+    {
+      "login": "detailyang",
+      "url": "https://github.com/detailyang",
+      "contributions": 1
+    },
+    {
+      "login": "mdanzinger",
+      "url": "https://github.com/mdanzinger",
+      "contributions": 1
+    },
+    {
+      "login": "qJkee",
+      "url": "https://github.com/qJkee",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 136,
+    "public_contributors": 16,
+    "observed_at": "2026-09-03T17:43:49.225639+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by cristaloleg/go-advice contributors.",
+  "license": "Unlicense",
+  "license_url": "https://github.com/cristaloleg/go-advice/tree/af6fcc46a1c2bec162192b14289b10fe0d4ab112",
+  "digest": "080b7a124088d422c18a6a20727b76c46c74e5f84a1d968f5a1bfcbe82024e05"
+}

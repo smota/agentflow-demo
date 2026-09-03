@@ -1,0 +1,2624 @@
+{
+  "format_version": 3,
+  "repository_id": "173177461",
+  "name": "Novvum/36-graphql-concepts",
+  "revision": "3317d56efa3d465765279100c0b3d001b56c9889",
+  "readme_path": "README.md",
+  "readme_sha256": "99c1dbe8339404284546193137cca9959fe94b1507ad635d8ed8583b9f352eb4",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 2,
+      "path": [
+        "Introduction"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#introduction",
+      "entries": 0
+    },
+    {
+      "id": "community",
+      "title": "Community",
+      "level": 2,
+      "path": [
+        "Community"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#community",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "specs",
+      "title": "Specs",
+      "level": 3,
+      "path": [
+        "Table of Contents",
+        "Specs"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#specs",
+      "entries": 0
+    },
+    {
+      "id": "server",
+      "title": "Server",
+      "level": 3,
+      "path": [
+        "Table of Contents",
+        "Server"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#server",
+      "entries": 0
+    },
+    {
+      "id": "client",
+      "title": "Client",
+      "level": 3,
+      "path": [
+        "Table of Contents",
+        "Client"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#client",
+      "entries": 0
+    },
+    {
+      "id": "best-practices",
+      "title": "Best Practices",
+      "level": 3,
+      "path": [
+        "Table of Contents",
+        "Best Practices"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#best-practices",
+      "entries": 0
+    },
+    {
+      "id": "specs-1",
+      "title": "Specs",
+      "level": 1,
+      "path": [
+        "Specs"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#specs-1",
+      "entries": 0
+    },
+    {
+      "id": "1-queries",
+      "title": "1. Queries",
+      "level": 2,
+      "path": [
+        "Specs",
+        "1. Queries"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#1-queries",
+      "entries": 0
+    },
+    {
+      "id": "articles",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "1. Queries",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles",
+      "entries": 5
+    },
+    {
+      "id": "videos",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "1. Queries",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos",
+      "entries": 2
+    },
+    {
+      "id": "2-mutations",
+      "title": "2. Mutations",
+      "level": 2,
+      "path": [
+        "Specs",
+        "2. Mutations"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#2-mutations",
+      "entries": 0
+    },
+    {
+      "id": "articles-1",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "2. Mutations",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-1",
+      "entries": 7
+    },
+    {
+      "id": "videos-1",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "2. Mutations",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-1",
+      "entries": 3
+    },
+    {
+      "id": "3-subscriptions",
+      "title": "3. Subscriptions",
+      "level": 2,
+      "path": [
+        "Specs",
+        "3. Subscriptions"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#3-subscriptions",
+      "entries": 0
+    },
+    {
+      "id": "articles-2",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "3. Subscriptions",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-2",
+      "entries": 5
+    },
+    {
+      "id": "videos-2",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "3. Subscriptions",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-2",
+      "entries": 5
+    },
+    {
+      "id": "4-types",
+      "title": "4. Types",
+      "level": 2,
+      "path": [
+        "Specs",
+        "4. Types"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#4-types",
+      "entries": 0
+    },
+    {
+      "id": "articles-3",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "4. Types",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-3",
+      "entries": 3
+    },
+    {
+      "id": "videos-3",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "4. Types",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-3",
+      "entries": 2
+    },
+    {
+      "id": "5-fields",
+      "title": "5. Fields",
+      "level": 2,
+      "path": [
+        "Specs",
+        "5. Fields"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#5-fields",
+      "entries": 0
+    },
+    {
+      "id": "articles-4",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "5. Fields",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-4",
+      "entries": 2
+    },
+    {
+      "id": "6-root-field",
+      "title": "6. Root Field",
+      "level": 2,
+      "path": [
+        "Specs",
+        "6. Root Field"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#6-root-field",
+      "entries": 0
+    },
+    {
+      "id": "articles-5",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "6. Root Field",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-5",
+      "entries": 1
+    },
+    {
+      "id": "videos-4",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "6. Root Field",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-4",
+      "entries": 1
+    },
+    {
+      "id": "7-relationships",
+      "title": "7. Relationships",
+      "level": 2,
+      "path": [
+        "Specs",
+        "7. Relationships"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#7-relationships",
+      "entries": 0
+    },
+    {
+      "id": "articles-6",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "7. Relationships",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-6",
+      "entries": 2
+    },
+    {
+      "id": "videos-5",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "7. Relationships",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-5",
+      "entries": 1
+    },
+    {
+      "id": "8-introspection",
+      "title": "8. Introspection",
+      "level": 2,
+      "path": [
+        "Specs",
+        "8. Introspection"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#8-introspection",
+      "entries": 0
+    },
+    {
+      "id": "articles-7",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "8. Introspection",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-7",
+      "entries": 1
+    },
+    {
+      "id": "9-arguments",
+      "title": "9. Arguments",
+      "level": 2,
+      "path": [
+        "Specs",
+        "9. Arguments"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#9-arguments",
+      "entries": 0
+    },
+    {
+      "id": "articles-8",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "9. Arguments",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-8",
+      "entries": 2
+    },
+    {
+      "id": "videos-6",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "9. Arguments",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-6",
+      "entries": 1
+    },
+    {
+      "id": "10-union-types",
+      "title": "10. Union Types",
+      "level": 2,
+      "path": [
+        "Specs",
+        "10. Union Types"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#10-union-types",
+      "entries": 0
+    },
+    {
+      "id": "articles-9",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "10. Union Types",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-9",
+      "entries": 4
+    },
+    {
+      "id": "11-interface-types",
+      "title": "11. Interface Types",
+      "level": 2,
+      "path": [
+        "Specs",
+        "11. Interface Types"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#11-interface-types",
+      "entries": 0
+    },
+    {
+      "id": "articles-10",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "11. Interface Types",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-10",
+      "entries": 1
+    },
+    {
+      "id": "12-directives",
+      "title": "12. Directives",
+      "level": 2,
+      "path": [
+        "Specs",
+        "12. Directives"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#12-directives",
+      "entries": 0
+    },
+    {
+      "id": "articles-11",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "12. Directives",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-11",
+      "entries": 6
+    },
+    {
+      "id": "videos-7",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "12. Directives",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-7",
+      "entries": 2
+    },
+    {
+      "id": "13-type-extension",
+      "title": "13. Type Extension",
+      "level": 2,
+      "path": [
+        "Specs",
+        "13. Type Extension"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#13-type-extension",
+      "entries": 0
+    },
+    {
+      "id": "articles-12",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "13. Type Extension",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-12",
+      "entries": 4
+    },
+    {
+      "id": "videos-8",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Specs",
+        "13. Type Extension",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-8",
+      "entries": 1
+    },
+    {
+      "id": "14-relay-specification",
+      "title": "14. Relay Specification",
+      "level": 2,
+      "path": [
+        "Specs",
+        "14. Relay Specification"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#14-relay-specification",
+      "entries": 0
+    },
+    {
+      "id": "articles-13",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "14. Relay Specification",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-13",
+      "entries": 3
+    },
+    {
+      "id": "15-schema-definition-language---sdl",
+      "title": "15. Schema Definition Language - SDL",
+      "level": 2,
+      "path": [
+        "Specs",
+        "15. Schema Definition Language - SDL"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#15-schema-definition-language---sdl",
+      "entries": 0
+    },
+    {
+      "id": "articles-14",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "15. Schema Definition Language - SDL",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-14",
+      "entries": 4
+    },
+    {
+      "id": "16-graphqlschema-object",
+      "title": "16. GraphQLSchema object",
+      "level": 2,
+      "path": [
+        "Specs",
+        "16. GraphQLSchema object"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#16-graphqlschema-object",
+      "entries": 0
+    },
+    {
+      "id": "articles-15",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Specs",
+        "16. GraphQLSchema object",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-15",
+      "entries": 1
+    },
+    {
+      "id": "server-1",
+      "title": "Server",
+      "level": 1,
+      "path": [
+        "Server"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#server-1",
+      "entries": 0
+    },
+    {
+      "id": "17-setting-up-a-server",
+      "title": "17. Setting Up a Server",
+      "level": 2,
+      "path": [
+        "Server",
+        "17. Setting Up a Server"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#17-setting-up-a-server",
+      "entries": 0
+    },
+    {
+      "id": "articles-16",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "17. Setting Up a Server",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-16",
+      "entries": 5
+    },
+    {
+      "id": "videos-9",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "17. Setting Up a Server",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-9",
+      "entries": 6
+    },
+    {
+      "id": "18-schema",
+      "title": "18. Schema",
+      "level": 2,
+      "path": [
+        "Server",
+        "18. Schema"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#18-schema",
+      "entries": 0
+    },
+    {
+      "id": "articles-17",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "18. Schema",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-17",
+      "entries": 4
+    },
+    {
+      "id": "videos-10",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "18. Schema",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-10",
+      "entries": 1
+    },
+    {
+      "id": "19-resolvers",
+      "title": "19. Resolvers",
+      "level": 2,
+      "path": [
+        "Server",
+        "19. Resolvers"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#19-resolvers",
+      "entries": 0
+    },
+    {
+      "id": "articles-18",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "19. Resolvers",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-18",
+      "entries": 3
+    },
+    {
+      "id": "videos-11",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "19. Resolvers",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-11",
+      "entries": 1
+    },
+    {
+      "id": "20-context",
+      "title": "20. Context",
+      "level": 2,
+      "path": [
+        "Server",
+        "20. Context"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#20-context",
+      "entries": 0
+    },
+    {
+      "id": "articles-19",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "20. Context",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-19",
+      "entries": 3
+    },
+    {
+      "id": "21-info-object",
+      "title": "21. Info Object",
+      "level": 2,
+      "path": [
+        "Server",
+        "21. Info Object"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#21-info-object",
+      "entries": 0
+    },
+    {
+      "id": "articles-20",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "21. Info Object",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-20",
+      "entries": 1
+    },
+    {
+      "id": "22-databases",
+      "title": "22. Databases",
+      "level": 2,
+      "path": [
+        "Server",
+        "22. Databases"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#22-databases",
+      "entries": 0
+    },
+    {
+      "id": "articles-21",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "22. Databases",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-21",
+      "entries": 6
+    },
+    {
+      "id": "videos-12",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "22. Databases",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-12",
+      "entries": 2
+    },
+    {
+      "id": "23-dataloader",
+      "title": "23. Dataloader",
+      "level": 2,
+      "path": [
+        "Server",
+        "23. Dataloader"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#23-dataloader",
+      "entries": 0
+    },
+    {
+      "id": "articles-22",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "23. Dataloader",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-22",
+      "entries": 2
+    },
+    {
+      "id": "videos-13",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "23. Dataloader",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-13",
+      "entries": 2
+    },
+    {
+      "id": "24-entry-points",
+      "title": "24. Entry Points",
+      "level": 2,
+      "path": [
+        "Server",
+        "24. Entry Points"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#24-entry-points",
+      "entries": 0
+    },
+    {
+      "id": "articles-23",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "24. Entry Points",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-23",
+      "entries": 4
+    },
+    {
+      "id": "videos-14",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "24. Entry Points",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-14",
+      "entries": 1
+    },
+    {
+      "id": "25-schema-stitching",
+      "title": "25. Schema Stitching",
+      "level": 2,
+      "path": [
+        "Server",
+        "25. Schema Stitching"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#25-schema-stitching",
+      "entries": 0
+    },
+    {
+      "id": "articles-24",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "25. Schema Stitching",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-24",
+      "entries": 5
+    },
+    {
+      "id": "videos-15",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "25. Schema Stitching",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-15",
+      "entries": 3
+    },
+    {
+      "id": "26-sdl-first",
+      "title": "26. SDL First",
+      "level": 2,
+      "path": [
+        "Server",
+        "26. SDL First"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#26-sdl-first",
+      "entries": 0
+    },
+    {
+      "id": "articles-25",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "26. SDL First",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-25",
+      "entries": 2
+    },
+    {
+      "id": "videos-16",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "26. SDL First",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-16",
+      "entries": 2
+    },
+    {
+      "id": "27-code-first",
+      "title": "27. Code First",
+      "level": 2,
+      "path": [
+        "Server",
+        "27. Code First"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#27-code-first",
+      "entries": 0
+    },
+    {
+      "id": "articles-26",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "27. Code First",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-26",
+      "entries": 3
+    },
+    {
+      "id": "28-middleware",
+      "title": "28. Middleware",
+      "level": 2,
+      "path": [
+        "Server",
+        "28. Middleware"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#28-middleware",
+      "entries": 0
+    },
+    {
+      "id": "articles-27",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Server",
+        "28. Middleware",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-27",
+      "entries": 2
+    },
+    {
+      "id": "videos-17",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Server",
+        "28. Middleware",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-17",
+      "entries": 2
+    },
+    {
+      "id": "client-1",
+      "title": "Client",
+      "level": 1,
+      "path": [
+        "Client"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#client-1",
+      "entries": 0
+    },
+    {
+      "id": "29-fetching",
+      "title": "29. Fetching",
+      "level": 2,
+      "path": [
+        "Client",
+        "29. Fetching"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#29-fetching",
+      "entries": 0
+    },
+    {
+      "id": "articles-28",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Client",
+        "29. Fetching",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-28",
+      "entries": 1
+    },
+    {
+      "id": "videos-18",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Client",
+        "29. Fetching",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-18",
+      "entries": 2
+    },
+    {
+      "id": "30-fragments",
+      "title": "30. Fragments",
+      "level": 2,
+      "path": [
+        "Client",
+        "30. Fragments"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#30-fragments",
+      "entries": 0
+    },
+    {
+      "id": "articles-29",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Client",
+        "30. Fragments",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-29",
+      "entries": 3
+    },
+    {
+      "id": "videos-19",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Client",
+        "30. Fragments",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-19",
+      "entries": 1
+    },
+    {
+      "id": "31-variables",
+      "title": "31. Variables",
+      "level": 2,
+      "path": [
+        "Client",
+        "31. Variables"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#31-variables",
+      "entries": 0
+    },
+    {
+      "id": "articles-30",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Client",
+        "31. Variables",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-30",
+      "entries": 2
+    },
+    {
+      "id": "videos-20",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Client",
+        "31. Variables",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-20",
+      "entries": 3
+    },
+    {
+      "id": "32-alias",
+      "title": "32. Alias",
+      "level": 2,
+      "path": [
+        "Client",
+        "32. Alias"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#32-alias",
+      "entries": 0
+    },
+    {
+      "id": "articles-31",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Client",
+        "32. Alias",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-31",
+      "entries": 3
+    },
+    {
+      "id": "videos-21",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Client",
+        "32. Alias",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-21",
+      "entries": 1
+    },
+    {
+      "id": "33-polling",
+      "title": "33. Polling",
+      "level": 2,
+      "path": [
+        "Client",
+        "33. Polling"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#33-polling",
+      "entries": 0
+    },
+    {
+      "id": "articles-32",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Client",
+        "33. Polling",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-32",
+      "entries": 1
+    },
+    {
+      "id": "34-cache",
+      "title": "34. Cache",
+      "level": 2,
+      "path": [
+        "Client",
+        "34. Cache"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#34-cache",
+      "entries": 0
+    },
+    {
+      "id": "articles-33",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Client",
+        "34. Cache",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-33",
+      "entries": 7
+    },
+    {
+      "id": "videos-22",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Client",
+        "34. Cache",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-22",
+      "entries": 2
+    },
+    {
+      "id": "best-practices-1",
+      "title": "Best Practices",
+      "level": 1,
+      "path": [
+        "Best Practices"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#best-practices-1",
+      "entries": 0
+    },
+    {
+      "id": "35-schema-design",
+      "title": "35. Schema Design",
+      "level": 2,
+      "path": [
+        "Best Practices",
+        "35. Schema Design"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#35-schema-design",
+      "entries": 0
+    },
+    {
+      "id": "articles-34",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Best Practices",
+        "35. Schema Design",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-34",
+      "entries": 4
+    },
+    {
+      "id": "videos-23",
+      "title": "Videos",
+      "level": 3,
+      "path": [
+        "Best Practices",
+        "35. Schema Design",
+        "Videos"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#videos-23",
+      "entries": 1
+    },
+    {
+      "id": "36-pagination",
+      "title": "36. Pagination",
+      "level": 2,
+      "path": [
+        "Best Practices",
+        "36. Pagination"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#36-pagination",
+      "entries": 0
+    },
+    {
+      "id": "articles-35",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Best Practices",
+        "36. Pagination",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-35",
+      "entries": 1
+    },
+    {
+      "id": "37-logging",
+      "title": "37. Logging",
+      "level": 2,
+      "path": [
+        "Best Practices",
+        "37. Logging"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#37-logging",
+      "entries": 0
+    },
+    {
+      "id": "articles-36",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Best Practices",
+        "37. Logging",
+        "Articles"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#articles-36",
+      "entries": 2
+    },
+    {
+      "id": "contributors",
+      "title": "Contributors",
+      "level": 2,
+      "path": [
+        "Best Practices",
+        "Contributors"
+      ],
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#contributors",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Queries and Mutations - Graphql.org",
+      "url": "https://graphql.org/learn/queries/",
+      "category": "articles",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "The Anatomy of a Graphql Query — Sashko Stubailo",
+      "url": "https://blog.apollographql.com/the-anatomy-of-a-graphql-query-6dffa9e9e747",
+      "category": "articles",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Front End Queries Made Easy - Rasheed Bustamam",
+      "url": "https://medium.freecodecamp.org/graphql-front-end-queries-made-easy-68e9d9ded283",
+      "category": "articles",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "An Introduction to Graphql Queries - Alligator.io",
+      "url": "https://alligator.io/graphql/introduction-graphql-queries/",
+      "category": "articles",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Examples for GraphQL-Queries and Mutations - predict8",
+      "url": "https://www.predic8.de/graphql-query-samples.htm",
+      "category": "articles",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tutorial #4 - Making Queries - The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=bX2e4FILf78",
+      "category": "videos",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Writing GraphQL Queries - Live Coding with Jesse",
+      "url": "https://www.youtube.com/watch?v=k-pj9d0cC-0",
+      "category": "videos",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Mutations in GraphQL - Alexander Kondov",
+      "url": "https://hackernoon.com/mutations-in-graphql-9ac6a28202a2",
+      "category": "articles-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Mutations - GraphQL.org",
+      "url": "https://graphql.org/learn/queries/#mutations",
+      "category": "articles-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "Organizing GraphQL Mutations - Jeff Lowery",
+      "url": "https://medium.freecodecamp.org/organizing-graphql-mutations-653306699f3d",
+      "category": "articles-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL mutations: Partial updates implementation - Arnaud Bezançon",
+      "url": "https://medium.com/workflowgen/graphql-mutations-partial-updates-implementation-bff586bda989",
+      "category": "articles-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Modeling GraphQL Mutations - Oleg Ilyenko",
+      "url": "https://techblog.commercetools.com/modeling-graphql-mutations-52d4369f73b1",
+      "category": "articles-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Mutation Design: Anemic Mutations - Marc-André Giroux",
+      "url": "https://medium.com/@__xuorig__/graphql-mutation-design-anemic-mutations-dd107ba70496",
+      "category": "articles-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Understanding GraphQL Mutations - Moon Highway",
+      "url": "https://moonhighway.com/understanding-graphql-mutations?utm_source=dormosheio&utm_campaign=dormosheio",
+      "category": "articles-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tutorial #18 - Mutations - The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=DU77lbBPfBI",
+      "category": "videos-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tutorial #19 - More on Mutations - The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=H8oRezNak2s",
+      "category": "videos-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Learn Apollo - Basic Mutations - Prisma",
+      "url": "https://www.youtube.com/watch?v=ZXvBmA-hKwc",
+      "category": "videos-1",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Subscriptions in Graphql and Relay - Dan Schafer",
+      "url": "https://graphql.org/blog/subscriptions-in-graphql-and-relay/",
+      "category": "articles-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "From Zero to Graphql Subscriptions - Robert Zhu",
+      "url": "https://hackernoon.com/from-zero-to-graphql-subscriptions-416b9e0284f3",
+      "category": "articles-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Make web real-time with GraphQL subscriptions - David Qorashi",
+      "url": "https://medium.com/@hpux/make-web-real-time-with-graphql-subscriptions-5a59ac1b010c",
+      "category": "articles-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Realtime GraphQL Subscriptions - How to Graphql",
+      "url": "https://www.howtographql.com/graphql-js/7-subscriptions/",
+      "category": "articles-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "A Guide to Subscriptions in GraphQL with Apollo -Brenda Jimenez",
+      "url": "https://www.levvel.io/our-ideas/A-Guide-to-Subscriptions-in-GraphQL-with-Apollo",
+      "category": "articles-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "What is a Graphql Subscription - Ben Awad",
+      "url": "https://www.youtube.com/watch?v=Tp8UPgmhyTs",
+      "category": "videos-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Introducing GraphQL Subscriptions - Lee Byron",
+      "url": "https://www.youtube.com/watch?v=bn8qsi8jVew",
+      "category": "videos-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "How to build a Realtime Chat with GraphQL Subscriptions and Apollo - Prisma",
+      "url": "https://www.youtube.com/watch?v=aSLF9f13o2c",
+      "category": "videos-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "How to setup GraphQL Subscriptions Nodejs - Ben Awad",
+      "url": "https://www.youtube.com/watch?v=XmNmiBfk6M4",
+      "category": "videos-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "How to add Authentication to your GraphQL Subscriptions - Ben Awad",
+      "url": "https://www.youtube.com/watch?v=EuaVr7vFF5E",
+      "category": "videos-2",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Constructing Types — Graphql.org",
+      "url": "https://graphql.org/graphql-js/constructing-types/",
+      "category": "articles-3",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Schema types - Apollo",
+      "url": "https://www.apollographql.com/docs/apollo-server/schemas/types.html",
+      "category": "articles-3",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Object Types — Graphql.org",
+      "url": "https://graphql.org/graphql-js/object-types/",
+      "category": "articles-3",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "Author Types — The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=Pe1MgqWFyYE&t=2s",
+      "category": "videos-3",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "Extending Schema Types - Full-stack GraphQL with Apollo, Meteor & React - LevelUpTuts",
+      "url": "https://www.youtube.com/watch?v=A7NvopS75dI",
+      "category": "videos-3",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Fields — Graphql.org",
+      "url": "https://graphql.org/learn/queries/#fields",
+      "category": "articles-4",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Object Types & Fields — Graphql.org",
+      "url": "https://graphql.org/learn/schema/#object-types-and-fields",
+      "category": "articles-4",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Root Fields & Resolvers - Graphql.org",
+      "url": "https://graphql.org/learn/execution/",
+      "category": "articles-5",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tutorial, Root Query — The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=ALqNbTik44o",
+      "category": "videos-4",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Thinking in graphs - Graphql.Org",
+      "url": "https://graphql.org/learn/thinking-in-graphs/",
+      "category": "articles-6",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "A simple graphql example with relationships - Graphql Documentation",
+      "url": "https://blog.tylerbuchea.com/a-simple-graphql-example-with-relationships/",
+      "category": "articles-6",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Type Relations - The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=-aQ_Io9m1GQ",
+      "category": "videos-5",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL introspection and introspection queries - David Mráz",
+      "url": "https://graphqlmastery.com/blog/graphql-introspection-and-introspection-queries",
+      "category": "articles-7",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Fields and arguments - flaviocopes",
+      "url": "https://flaviocopes.com/graphql/#fields-and-arguments",
+      "category": "articles-8",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Passing Arguments - GraphQL.org",
+      "url": "https://graphql.org/graphql-js/passing-arguments/",
+      "category": "articles-8",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Arguments - Novvum",
+      "url": "https://twitter.com/novvumio/status/1113884737981100033",
+      "category": "videos-6",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "How to write add unions and interfaces to a schema - Apollo Documentation",
+      "url": "https://www.apollographql.com/docs/apollo-server/features/unions-interfaces.html",
+      "category": "articles-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Graphql Tour Interfaces and Unions — Clay Allsopp",
+      "url": "https://medium.com/the-graphqlhub/graphql-tour-interfaces-and-unions-7dd5be35de0d",
+      "category": "articles-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Graphql Interfaces and Unions-How to design a Graphql Schema — David Mraz",
+      "url": "https://graphqlmastery.com/blog/graphql-interfaces-and-unions-how-to-design-graphql-schema",
+      "category": "articles-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Interfaces and Unions in GraphQL — AWS Documentation",
+      "url": "https://docs.aws.amazon.com/appsync/latest/devguide/interfaces-and-unions.html",
+      "category": "articles-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Interface Type - Apollo Documentation",
+      "url": "https://www.apollographql.com/docs/apollo-server/features/unions-interfaces.html#Interface-type",
+      "category": "articles-10",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Directives - Abhi Aiyer",
+      "url": "https://medium.com/open-graphql/graphql-directives-3dec6106c384",
+      "category": "articles-11",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "Use custom directives to protect your GraphQL APIs - David He",
+      "url": "https://codeburst.io/use-custom-directives-to-protect-your-graphql-apis-a78cbbe17355",
+      "category": "articles-11",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "An introduction to GraphQL: Directives - Flavioscopes",
+      "url": "https://flaviocopes.com/graphql/#graphql-directives",
+      "category": "articles-11",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "The Power of GraphQL Directives - Łukasz Czyszczonik",
+      "url": "https://blog.callstack.io/the-power-of-graphql-directives-81f4987fd76d",
+      "category": "articles-11",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Schema Directives - Apollo",
+      "url": "https://www.apollographql.com/docs/graphql-tools/schema-directives.html",
+      "category": "articles-11",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "SDL Directives - GraphQLJava",
+      "url": "https://www.graphql-java.com/documentation/v11/sdl-directives/",
+      "category": "articles-11",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Query Directives - Novvum",
+      "url": "https://twitter.com/novvumio/status/1111710417506783237",
+      "category": "videos-7",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Directives in GraphQL - FullStackHour",
+      "url": "https://www.youtube.com/watch?v=HUKKNL2socs",
+      "category": "videos-7",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Type Extension - Facebook",
+      "url": "https://facebook.github.io/graphql/draft/#TypeExtension",
+      "category": "articles-12",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Modularizing your GraphQL Schema Code: Extending types in multiple files - Apollo",
+      "url": "https://blog.apollographql.com/d7f71d5ed5f2#14ac",
+      "category": "articles-12",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Schema Extension - Facebook",
+      "url": "https://facebook.github.io/graphql/June2018/#sec-Schema-Extension",
+      "category": "articles-12",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "The ultimate guide to schema stitching in GraphQL: Schema Extension - Rishichandra Wawhal",
+      "url": "https://blog.hasura.io/the-ultimate-guide-to-schema-stitching-in-graphql-f30178ac0072/",
+      "category": "articles-12",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "Extending Schema Types: Full-stack GraphQL with Apollo, Meteor & React - LevelUpTuts",
+      "url": "https://www.youtube.com/watch?v=A7NvopS75dI",
+      "category": "videos-8",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Server Specification - Facebook",
+      "url": "https://facebook.github.io/relay/docs/en/graphql-server-specification.html",
+      "category": "articles-13",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Implementing the Relay spec in a GraphQL Server - Marc-Andre Giroux",
+      "url": "http://mgiroux.me/2016/implementing-the-relay-spec-for-a-graphql-server/",
+      "category": "articles-13",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Relay/GraphqL: De-mystifying Node ID - Soon Hin Khor",
+      "url": "https://medium.com/code-oil/relay-graphql-de-mystifying-node-id-38757121b9c",
+      "category": "articles-13",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "Defining Graph Database Schemas by using the GraphQL Schema Definition Language - Olaf Hartig",
+      "url": "http://blog.liu.se/olafhartig/documents/graphql-schemas-for-property-graphs/",
+      "category": "articles-14",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL SDL, Schema Definition Language - Prisma Documentation",
+      "url": "https://www.prisma.io/blog/graphql-sdl-schema-definition-language-6755bcb9ce51",
+      "category": "articles-14",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "Three ways to represent your GraphQL schema - Sashko Stubailo",
+      "url": "https://blog.apollographql.com/three-ways-to-represent-your-graphql-schema-a41f4175100d",
+      "category": "articles-14",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "A GraphQL SDL Reference - Alligator",
+      "url": "https://alligator.io/graphql/graphql-sdl/",
+      "category": "articles-14",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL.js GraphQLSchema object - Sashko Stubailo",
+      "url": "https://blog.apollographql.com/three-ways-to-represent-your-graphql-schema-a41f4175100d",
+      "category": "articles-15",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "Building a server with Apollo - Apollo GraphQL",
+      "url": "https://www.apollographql.com/docs/apollo-server/essentials/server.html",
+      "category": "articles-16",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Your First GraphQL Server — Clay Allsopp",
+      "url": "https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2",
+      "category": "articles-16",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Learn to build a GraphQL server with minimal effort — Ian Wilson",
+      "url": "https://medium.freecodecamp.org/learn-to-build-a-graphql-server-with-minimal-effort-fc7fcabe8ebd",
+      "category": "articles-16",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Building a GraphQL Server with Node.js — Angus Croll",
+      "url": "https://itnext.io/building-a-graphql-server-with-node-js-and-express-f8ea78e831f9",
+      "category": "articles-16",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "There and Back Again, A GraphQL Lifecycle Tale — Annie Lydens and Thomas Paresi",
+      "url": "https://thoughtbot.com/blog/graphql-for-busy-people",
+      "category": "articles-16",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "Single GraphQL Server with Multiple Endpoints and Databases — Ben Awad",
+      "url": "https://www.youtube.com/watch?v=glsK0PBMjJs",
+      "category": "videos-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "Building a GraphQL Server [Part 1] — Traversy Media",
+      "url": "https://www.youtube.com/watch?v=PEcJxkylcRM",
+      "category": "videos-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "Building a GraphQL Server with TypeScript",
+      "url": "https://www.youtube.com/watch?v=20zGexpEitc",
+      "category": "videos-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "Learn how to build an API using GraphQL with Apollo Server 2.0 — Fireship",
+      "url": "https://www.youtube.com/watch?v=8D9XnnjFGMs",
+      "category": "videos-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "Building Modern APIs with GraphQL - Robert Zhu",
+      "url": "https://www.youtube.com/watch?v=bRnu7xvU1_Y",
+      "category": "videos-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL server tutorial for Node.js with SQL, MongoDB and REST — Apollo GraphQL",
+      "url": "https://www.youtube.com/watch?v=PHabPhgRUuU",
+      "category": "videos-9",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "Understanding schema concepts - Apollo Documentation",
+      "url": "https://www.apollographql.com/docs/apollo-server/essentials/schema.html",
+      "category": "articles-17",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "Graphql Server Basics: Schemas Explained - Prisma Documentation",
+      "url": "https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e",
+      "category": "articles-17",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Schema Language Cheat Sheet - Hafiz Ismail",
+      "url": "https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6",
+      "category": "articles-17",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Server Basics: GraphQL Schemas, TypeDefs & Resolvers Explained - Prisma",
+      "url": "https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e",
+      "category": "articles-17",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Schema - The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=A8vtRvz-lK0",
+      "category": "videos-10",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Resolvers: Best Practices - Mark Stuart",
+      "url": "https://medium.com/paypal-engineering/graphql-resolvers-best-practices-cd36fdbcef55",
+      "category": "articles-18",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "Overview of Resolvers - Graphcool Documentation",
+      "url": "https://www.graph.cool/docs/reference/functions/resolvers-su6wu3yoo2",
+      "category": "articles-18",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Server Basics: GraphQL Schemas, TypeDefs & Resolvers Explained - Prisma",
+      "url": "https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e",
+      "category": "articles-18",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tutorial #9, The Resolve Function - The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=NWod5SFW13s",
+      "category": "videos-11",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Context and Services - Eric Clemmons",
+      "url": "https://medium.com/@ericclemmons/graphql-context-services-6510269ef5a1",
+      "category": "articles-19",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "Learning about Execution and Context - GraphQL",
+      "url": "https://graphql.org/learn/execution/",
+      "category": "articles-19",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "How does one set up database or other context in a graphql resolver - StackOverflow",
+      "url": "https://stackoverflow.com/questions/44220597/how-does-one-set-up-database-or-other-context-in-a-graphql-resolver",
+      "category": "articles-19",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Server Basics: Demystifying the info Argument in GraphQL Resolvers",
+      "url": "https://www.prisma.io/blog/graphql-server-basics-demystifying-the-info-argument-in-graphql-resolvers-6f26249f613a/",
+      "category": "articles-20",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L399",
+      "line": 399,
+      "properties": {}
+    },
+    {
+      "title": "Selecting database as data source for GraphQL Server — Wojciech Trocki",
+      "url": "https://medium.com/@wtr/selecting-database-as-data-source-for-graphql-server-e3281fcefb2",
+      "category": "articles-21",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "Connecting Server and Database with the Prisma Client — Prisma",
+      "url": "https://www.howtographql.com/graphql-js/5-connecting-server-and-database/",
+      "category": "articles-21",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "Using a GraphQL API for Database Administration — Michael Hunger",
+      "url": "https://medium.freecodecamp.org/using-a-graphql-api-for-database-administration-1a5039b43c8f",
+      "category": "articles-21",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL as a database query language - Predrag Gruevski",
+      "url": "https://blog.kensho.com/compiled-graphql-as-a-database-query-language-72e106844282",
+      "category": "articles-21",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "Use all the databases — Loren Sands-Ramshaw",
+      "url": "https://www.compose.com/articles/use-all-the-databases-part-1/",
+      "category": "articles-21",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL for databases: A layer for universal database access — George Anadiotis",
+      "url": "https://www.zdnet.com/article/graphql-for-databases-a-layer-for-universal-database-access/",
+      "category": "articles-21",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "Build a GraphQL Server with Node.js and MongoDB - Ben Awad",
+      "url": "https://www.youtube.com/watch?v=291i04TfGb0",
+      "category": "videos-12",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L418",
+      "line": 418,
+      "properties": {}
+    },
+    {
+      "title": "Build a GraphQL server for Node.js, using PostgreSQL/MySQL - Lee Benson",
+      "url": "https://www.youtube.com/watch?v=DNPVqK_woRQ&t=3s",
+      "category": "videos-12",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "Using dataloader with GraphQL: A Concrete Example — John Tucker",
+      "url": "https://codeburst.io/using-dataloader-with-graphql-a-concrete-example-9b21352f1676",
+      "category": "articles-22",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "The GraphQL Dataloader Pattern: Visualized — Marc-André Giroux",
+      "url": "https://medium.com/@__xuorig__/the-graphql-dataloader-pattern-visualized-3064a00f319f",
+      "category": "articles-22",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "DataLoader – Source code walkthrough — Lee Byron",
+      "url": "https://www.youtube.com/watch?v=OQTnXNCDywA&feature=youtu.be",
+      "category": "videos-13",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "DataLoader and the Problem it solves in GraphQL — knowthen",
+      "url": "https://www.youtube.com/watch?v=ld2_AS4l19g",
+      "category": "videos-13",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "API Reference: entry points — GraphQL",
+      "url": "https://graphql.org/graphql-js/graphql/#entry-point",
+      "category": "articles-23",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "Adding a GraphQL endpoint - Apollo Documentation",
+      "url": "https://www.apollographql.com/docs/apollo-server/v1/setup.html",
+      "category": "articles-23",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "Running a scalable & reliable GraphQL endpoint with Serverless - Siddharth Gupta",
+      "url": "https://serverless.com/blog/running-scalable-reliable-graphql-endpoint-with-serverless/",
+      "category": "articles-23",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L448",
+      "line": 448,
+      "properties": {}
+    },
+    {
+      "title": "Serving over HTTP: Endpoints - Graphql.org",
+      "url": "https://graphql.org/learn/serving-over-http/",
+      "category": "articles-23",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "ContentaJS GraphQL 3 - The GraphQL entry points — Mateu",
+      "url": "https://www.youtube.com/watch?v=7eLsfIZYuvU",
+      "category": "videos-14",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "The ultimate guide to Schema Stitching in GraphQL - Rishichandra Wawhal",
+      "url": "https://blog.hasura.io/the-ultimate-guide-to-schema-stitching-in-graphql-f30178ac0072/",
+      "category": "articles-24",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L463",
+      "line": 463,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Stitching 101 - Artsy",
+      "url": "http://artsy.github.io/blog/2018/12/11/GraphQL-Stitching/",
+      "category": "articles-24",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L464",
+      "line": 464,
+      "properties": {}
+    },
+    {
+      "title": "Schema Stitching - Apollo Documentation",
+      "url": "https://www.apollographql.com/docs/graphql-tools/schema-stitching.html",
+      "category": "articles-24",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Remote Schema Stitching in a Multi-Service Architecture - Suciu Vlad",
+      "url": "https://medium.com/provablyfair/graphql-remote-schema-stitching-in-a-multi-service-architecture-ac329037f082",
+      "category": "articles-24",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L466",
+      "line": 466,
+      "properties": {}
+    },
+    {
+      "title": "Apollo Federation - Apollo",
+      "url": "https://blog.apollographql.com/apollo-federation-f260cf525d21",
+      "category": "articles-24",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "API mashup: Combining APIs using GraphQL schema stitching - GitHub",
+      "url": "https://www.youtube.com/watch?v=90JWZnuf7xQ",
+      "category": "videos-15",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Schema Stitching - Ben Awad",
+      "url": "https://www.youtube.com/watch?v=4i3W6g_u1Nw",
+      "category": "videos-15",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L472",
+      "line": 472,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Schema Stitching with Prisma and Contentful - Nikolas Burk(Contentful)",
+      "url": "https://www.youtube.com/watch?v=w1loiyLD4eY",
+      "category": "videos-15",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "The Problems of \"Schema-First\" GraphQL Server Development - Prisma",
+      "url": "https://www.prisma.io/blog/the-problems-of-schema-first-graphql-development-x1mn4cb0tyl3",
+      "category": "articles-25",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L483",
+      "line": 483,
+      "properties": {}
+    },
+    {
+      "title": "Schema-First GraphqL: The Road Less Travelled - Jakub Draganek",
+      "url": "https://blog.mirumee.com/schema-first-graphql-the-road-less-travelled-cf0e50d5ccff",
+      "category": "articles-25",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L484",
+      "line": 484,
+      "properties": {}
+    },
+    {
+      "title": "Schema First Development - Prisma",
+      "url": "https://www.youtube.com/watch?v=SdWI7XaAeeY",
+      "category": "videos-16",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L489",
+      "line": 489,
+      "properties": {}
+    },
+    {
+      "title": "Schema-first vs. Code-first - Mirumee Labs",
+      "url": "https://www.youtube.com/watch?v=Vmv0yC-7aKY",
+      "category": "videos-16",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L490",
+      "line": 490,
+      "properties": {}
+    },
+    {
+      "title": "Code-first - Hot Chocolate",
+      "url": "https://hotchocolate.io/docs/code-first",
+      "category": "articles-26",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L500",
+      "line": 500,
+      "properties": {}
+    },
+    {
+      "title": "Introducing GraphQL Nexus Code First GraphQL Server Development - Prisma",
+      "url": "https://www.prisma.io/blog/introducing-graphql-nexus-code-first-graphql-server-development-ll6s1yy5cxl5/",
+      "category": "articles-26",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L501",
+      "line": 501,
+      "properties": {}
+    },
+    {
+      "title": "The Problems of Schema-First GraphQL - Prisma",
+      "url": "https://www.prisma.io/blog/the-problems-of-schema-first-graphql-development-x1mn4cb0tyl3",
+      "category": "articles-26",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Middleware - Prisma",
+      "url": "https://www.prisma.io/blog/graphql-middleware-zie3iphithxy",
+      "category": "articles-27",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L512",
+      "line": 512,
+      "properties": {}
+    },
+    {
+      "title": "Authentification and express middleware - Graphql.org",
+      "url": "https://graphql.org/graphql-js/authentication-and-express-middleware/",
+      "category": "articles-27",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Middleware - Ben Awad",
+      "url": "https://www.youtube.com/watch?v=0npsaFdrrFw",
+      "category": "videos-17",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L518",
+      "line": 518,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Middleware in 6 minutes - Jamie Barton",
+      "url": "https://www.youtube.com/watch?v=5ydCPvrWRmg",
+      "category": "videos-17",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L519",
+      "line": 519,
+      "properties": {}
+    },
+    {
+      "title": "4 simple ways to call a GraphQL API - Sashko Stubailo",
+      "url": "https://blog.apollographql.com/4-simple-ways-to-call-a-graphql-api-a6807bcdb355",
+      "category": "articles-28",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L532",
+      "line": 532,
+      "properties": {}
+    },
+    {
+      "title": "Fetching data from an API in GraphQL - Ben Awad",
+      "url": "https://www.youtube.com/watch?v=RDQyAcvmbpM",
+      "category": "videos-18",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "Building a GraphQL Server, RootQuery & Fetching Data - Traversy Media",
+      "url": "https://www.youtube.com/watch?v=e9Zxzr7sy60",
+      "category": "videos-18",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L538",
+      "line": 538,
+      "properties": {}
+    },
+    {
+      "title": "Using fragments - Apollo",
+      "url": "https://www.apollographql.com/docs/react/advanced/fragments.html",
+      "category": "articles-29",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L548",
+      "line": 548,
+      "properties": {}
+    },
+    {
+      "title": "How to query your schema with GraphQL fragments - David Mráz",
+      "url": "https://medium.com/graphql-mastery/graphql-fragments-and-how-to-use-them-8ee30b44f59e",
+      "category": "articles-29",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Fragments are the Best Match for UI Components - Samer Buna",
+      "url": "https://www.manifold.co/blog/graphql-fragments-are-the-best-match-for-ui-components-72b8f61c20fe",
+      "category": "articles-29",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "How GraphQL Fragments Work - Ben Awad",
+      "url": "https://www.youtube.com/watch?v=AAHR7eBKLU8",
+      "category": "videos-19",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tour: Variables - Clay Allsop",
+      "url": "https://medium.com/the-graphqlhub/graphql-tour-variables-58c6abd10f56",
+      "category": "articles-30",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L565",
+      "line": 565,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to GraphQL: GraphQL Variables - Flavioscopes",
+      "url": "https://flaviocopes.com/graphql/#graphql-variables",
+      "category": "articles-30",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L566",
+      "line": 566,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tips: Query Variables - Novvum",
+      "url": "https://twitter.com/novvumio/status/1106283961892962305",
+      "category": "videos-20",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L571",
+      "line": 571,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tutorial #32: Query Variables - The Net Ninja",
+      "url": "https://www.youtube.com/watch?v=Rvx1HLMK1-U",
+      "category": "videos-20",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L572",
+      "line": 572,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tips: Default Values for Variables - Novvum",
+      "url": "https://twitter.com/novvumio/status/1108821324363763712",
+      "category": "videos-20",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L573",
+      "line": 573,
+      "properties": {}
+    },
+    {
+      "title": "An Introduction to GraphQL: Aliases - GraphQL Mastery",
+      "url": "https://flaviocopes.com/graphql/#aliases",
+      "category": "articles-31",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L583",
+      "line": 583,
+      "properties": {}
+    },
+    {
+      "title": "How to use GraphQL aliases - GraphQL Mastery",
+      "url": "https://medium.com/graphql-mastery/graphql-quick-tip-aliases-567303a9ddc5",
+      "category": "articles-31",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L584",
+      "line": 584,
+      "properties": {}
+    },
+    {
+      "title": "More GraphQL Concepts: Aliases - HowtoGraphQL",
+      "url": "https://www.howtographql.com/advanced/2-more-graphql-concepts/",
+      "category": "articles-31",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L585",
+      "line": 585,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Tips: Aliases - Novvum",
+      "url": "https://twitter.com/novvumio/status/1116423304045264897",
+      "category": "videos-21",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L589",
+      "line": 589,
+      "properties": {}
+    },
+    {
+      "title": "Dynamic GraphQL polling with React and Apollo Client - David Glasser",
+      "url": "https://blog.apollographql.com/dynamic-graphql-polling-with-react-and-apollo-client-fb36e390d250",
+      "category": "articles-32",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L599",
+      "line": 599,
+      "properties": {}
+    },
+    {
+      "title": "A Different Approach to GraphQL Caching - Adam Reacts",
+      "url": "https://adamrackis.dev/graphql-caching-and-micro/",
+      "category": "articles-33",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L609",
+      "line": 609,
+      "properties": {}
+    },
+    {
+      "title": "Understanding Caching - Weblab Technology",
+      "url": "https://medium.com/p/58756ff253d8#9388",
+      "category": "articles-33",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L610",
+      "line": 610,
+      "properties": {}
+    },
+    {
+      "title": "Caching with GraphQl: What are the best options? - Will Howard",
+      "url": "https://blog.usejournal.com/caching-with-graphql-what-are-the-best-options-e161b0f20e59",
+      "category": "articles-33",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L611",
+      "line": 611,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL VS Rest: Caching - Phil Sturgeon",
+      "url": "https://philsturgeon.uk/api/2017/01/26/graphql-vs-rest-caching/",
+      "category": "articles-33",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L612",
+      "line": 612,
+      "properties": {}
+    },
+    {
+      "title": "Learn Caching - Graphql.org",
+      "url": "https://graphql.org/learn/caching/",
+      "category": "articles-33",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L613",
+      "line": 613,
+      "properties": {}
+    },
+    {
+      "title": "Overview: GraphQL Query Parsing and Caching at the Edge - Monika Rathor",
+      "url": "https://developer.akamai.com/blog/2018/10/29/overview-graphql-query-parsing-and-caching-edge",
+      "category": "articles-33",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L614",
+      "line": 614,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL & Caching: The Elephant in the Room - Marc-André Giroux",
+      "url": "https://blog.apollographql.com/graphql-caching-the-elephant-in-the-room-11a3df0c23ad",
+      "category": "articles-33",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L615",
+      "line": 615,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Caching using DataLoader — Fun Fun Function",
+      "url": "https://www.youtube.com/watch?v=--AguZ20lLA",
+      "category": "videos-22",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L620",
+      "line": 620,
+      "properties": {}
+    },
+    {
+      "title": "Feature: GraphQL Caching with DataLoader — Ben Awad",
+      "url": "https://www.youtube.com/watch?v=tSQ7WuAcAbU",
+      "category": "videos-22",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L621",
+      "line": 621,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL best practices for GraphQL schema design - David Mraz",
+      "url": "https://graphqlmastery.com/blog/graphql-best-practices-for-graphql-schema-design",
+      "category": "articles-34",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L634",
+      "line": 634,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Schema Design: Building Evolvable Schemas - Marc-André Giroux",
+      "url": "https://blog.apollographql.com/graphql-schema-design-building-evolvable-schemas-1501f3c59ed5",
+      "category": "articles-34",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L635",
+      "line": 635,
+      "properties": {}
+    },
+    {
+      "title": "Writing a Graphql Schema - Eitan Frailich",
+      "url": "https://github.com/davidyaha/graphql-workshop/blob/master/manuals/step-2-writing-a-schema.md",
+      "category": "articles-34",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L636",
+      "line": 636,
+      "properties": {}
+    },
+    {
+      "title": "Abstract Demand Oriented Schema - Apollo",
+      "url": "https://principledgraphql.com/agility#4-abstract-demand-oriented-schema",
+      "category": "articles-34",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L637",
+      "line": 637,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Schema Design — Marc-André Giroux",
+      "url": "https://www.youtube.com/watch?v=pJamhW2xPYw",
+      "category": "videos-23",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L642",
+      "line": 642,
+      "properties": {}
+    },
+    {
+      "title": "Pagination",
+      "url": "https://graphql.org/learn/pagination/",
+      "category": "articles-35",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L652",
+      "line": 652,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Log - withSpectrum",
+      "url": "https://github.com/withspectrum/graphql-log",
+      "category": "articles-36",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L662",
+      "line": 662,
+      "properties": {}
+    },
+    {
+      "title": "Structured Logging - Apollo",
+      "url": "https://principledgraphql.com/operations#9-structured-logging",
+      "category": "articles-36",
+      "source_url": "https://github.com/Novvum/36-graphql-concepts/blob/3317d56efa3d465765279100c0b3d001b56c9889/README.md#L663",
+      "line": 663,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 163,
+  "unique_links": 156,
+  "category_count": 61,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "kelseyyim",
+      "url": "https://github.com/kelseyyim",
+      "contributions": 29
+    },
+    {
+      "login": "TrevHeath",
+      "url": "https://github.com/TrevHeath",
+      "contributions": 17
+    },
+    {
+      "login": "rohit-ravikoti",
+      "url": "https://github.com/rohit-ravikoti",
+      "contributions": 10
+    },
+    {
+      "login": "Allicolyer",
+      "url": "https://github.com/Allicolyer",
+      "contributions": 6
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 76,
+    "has_more": false,
+    "path_commit_count": 76,
+    "public_contributors": 4,
+    "observed_at": "2026-09-03T17:54:48.474926+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by Novvum/36-graphql-concepts contributors.",
+  "license": null,
+  "license_url": "https://github.com/Novvum/36-graphql-concepts/tree/3317d56efa3d465765279100c0b3d001b56c9889",
+  "digest": "dc2456db0fec955af9f4b7f612600f2ad51d32e9f7cf3eb16c292512e2c2887d"
+}

@@ -1,0 +1,2286 @@
+{
+  "format_version": 3,
+  "repository_id": "67130928",
+  "name": "ngalongc/bug-bounty-reference",
+  "revision": "6a562dd7c75b84f0c6da81b098473102e0d61d7d",
+  "readme_path": "README.md",
+  "readme_sha256": "7cccc5ce96f8c3730bd7d737e7d8d2c5a3d9947d400bb24dccc9fe469218525b",
+  "sections": [
+    {
+      "id": "bug-bounty-reference",
+      "title": "Bug Bounty Reference",
+      "level": 1,
+      "path": [
+        "Bug Bounty Reference"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#bug-bounty-reference",
+      "entries": 0
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 1,
+      "path": [
+        "Introduction"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#introduction",
+      "entries": 0
+    },
+    {
+      "id": "cross-site-scripting-xss",
+      "title": "Cross-Site Scripting (XSS)",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Cross-Site Scripting (XSS)"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#cross-site-scripting-xss",
+      "entries": 45
+    },
+    {
+      "id": "brute-force",
+      "title": "Brute Force",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Brute Force"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#brute-force",
+      "entries": 5
+    },
+    {
+      "id": "sql-injection",
+      "title": "SQL Injection",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "SQL Injection"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#sql-injection",
+      "entries": 6
+    },
+    {
+      "id": "stealing-access-token",
+      "title": "Stealing Access Token",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Stealing Access Token"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#stealing-access-token",
+      "entries": 18
+    },
+    {
+      "id": "google-oauth-bypass",
+      "title": "Google oauth bypass",
+      "level": 4,
+      "path": [
+        "Introduction",
+        "Stealing Access Token",
+        "Google oauth bypass"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#google-oauth-bypass",
+      "entries": 1
+    },
+    {
+      "id": "clickjacking",
+      "title": "Clickjacking",
+      "level": 4,
+      "path": [
+        "Introduction",
+        "Stealing Access Token",
+        "Clickjacking"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#clickjacking",
+      "entries": 1
+    },
+    {
+      "id": "csrf",
+      "title": "CSRF",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "CSRF"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#csrf",
+      "entries": 8
+    },
+    {
+      "id": "remote-code-execution",
+      "title": "Remote Code Execution",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Remote Code Execution"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#remote-code-execution",
+      "entries": 27
+    },
+    {
+      "id": "deserialization",
+      "title": "Deserialization",
+      "level": 4,
+      "path": [
+        "Introduction",
+        "Remote Code Execution",
+        "Deserialization"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#deserialization",
+      "entries": 4
+    },
+    {
+      "id": "image-tragick",
+      "title": "Image Tragick",
+      "level": 4,
+      "path": [
+        "Introduction",
+        "Remote Code Execution",
+        "Image Tragick"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#image-tragick",
+      "entries": 6
+    },
+    {
+      "id": "direct-object-reference-idor",
+      "title": "Direct Object Reference (IDOR)",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Direct Object Reference (IDOR)"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#direct-object-reference-idor",
+      "entries": 30
+    },
+    {
+      "id": "xxe",
+      "title": "XXE",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "XXE"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#xxe",
+      "entries": 4
+    },
+    {
+      "id": "unrestricted-file-upload",
+      "title": "Unrestricted File Upload",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Unrestricted File Upload"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#unrestricted-file-upload",
+      "entries": 3
+    },
+    {
+      "id": "server-side-request-forgery-ssrf",
+      "title": "Server Side Request Forgery (SSRF)",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Server Side Request Forgery (SSRF)"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#server-side-request-forgery-ssrf",
+      "entries": 10
+    },
+    {
+      "id": "race-condition",
+      "title": "Race Condition",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Race Condition"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#race-condition",
+      "entries": 3
+    },
+    {
+      "id": "business-logic-flaw",
+      "title": "Business Logic Flaw",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Business Logic Flaw"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#business-logic-flaw",
+      "entries": 3
+    },
+    {
+      "id": "authentication-bypass",
+      "title": "Authentication Bypass",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Authentication Bypass"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#authentication-bypass",
+      "entries": 8
+    },
+    {
+      "id": "http-header-injection",
+      "title": "HTTP Header Injection",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "HTTP Header Injection"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#http-header-injection",
+      "entries": 4
+    },
+    {
+      "id": "subdomain-takeover",
+      "title": "Subdomain Takeover",
+      "level": 3,
+      "path": [
+        "Introduction",
+        "Subdomain Takeover"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#subdomain-takeover",
+      "entries": 5
+    },
+    {
+      "id": "xssi",
+      "title": "XSSI",
+      "level": 2,
+      "path": [
+        "Introduction",
+        "XSSI"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#xssi",
+      "entries": 5
+    },
+    {
+      "id": "email-related",
+      "title": "Email Related",
+      "level": 2,
+      "path": [
+        "Introduction",
+        "Email Related"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#email-related",
+      "entries": 6
+    },
+    {
+      "id": "money-stealing",
+      "title": "Money Stealing",
+      "level": 2,
+      "path": [
+        "Introduction",
+        "Money Stealing"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#money-stealing",
+      "entries": 1
+    },
+    {
+      "id": "2017-local-file-inclusion",
+      "title": "2017 Local File Inclusion",
+      "level": 2,
+      "path": [
+        "Introduction",
+        "2017 Local File Inclusion"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#2017-local-file-inclusion",
+      "entries": 6
+    },
+    {
+      "id": "miscellaneous",
+      "title": "Miscellaneous",
+      "level": 2,
+      "path": [
+        "Introduction",
+        "Miscellaneous"
+      ],
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#miscellaneous",
+      "entries": 30
+    }
+  ],
+  "entries": [
+    {
+      "title": "Sleeping stored Google XSS Awakens a $5000 Bounty",
+      "url": "https://blog.it-securityguard.com/bugbounty-sleeping-stored-google-xss-awakens-a-5000-bounty/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "RPO that lead to information leakage in Google",
+      "url": "http://blog.innerht.ml/rpo-gadgets/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "God-like XSS, Log-in, Log-out, Log-in",
+      "url": "https://whitton.io/articles/uber-turning-self-xss-into-good-xss/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "An XSS on Facebook via PNGs & Wonky Content Types",
+      "url": "https://whitton.io/articles/xss-on-facebook-via-png-content-types/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Stored XSS in *.ebay.com",
+      "url": "https://whitton.io/archive/persistent-xss-on-myworld-ebay-com/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "Complicated, Best Report of Google XSS",
+      "url": "https://sites.google.com/site/bughunteruniversity/best-reports/account-recovery-xss",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Tricky Html Injection and Possible XSS in sms-be-vip.twitter.com",
+      "url": "https://hackerone.com/reports/150179",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Command Injection in Google Console",
+      "url": "http://www.pranav-venkat.com/2016/03/command-injection-which-got-me-6000.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Facebook's Moves - OAuth XSS",
+      "url": "http://www.paulosyibelo.com/2015/12/facebooks-moves-oauth-xss.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Stored XSS in Google Docs (Bug Bounty)",
+      "url": "http://hmgmakarovich.blogspot.hk/2015/11/stored-xss-in-google-docs-bug-bounty.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Stored XSS on developer.uber.com via admin account compromise in Uber",
+      "url": "https://hackerone.com/reports/152067",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Yahoo Mail stored XSS",
+      "url": "https://klikki.fi/adv/yahoo.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Abusing XSS Filter: One ^ leads to XSS(CVE-2016-3212)",
+      "url": "http://mksben.l0.cm/2016/07/xxn-caret.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "Youtube XSS",
+      "url": "https://labs.detectify.com/2015/06/06/google-xss-turkey/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Best Google XSS again",
+      "url": "https://sites.google.com/site/bughunteruniversity/best-reports/openredirectsthatmatter",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "IE & Edge URL parsin Problem",
+      "url": "https://labs.detectify.com/2016/10/24/combining-host-header-injection-and-lax-host-parsing-serving-malicious-data/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Google XSS subdomain Clickjacking",
+      "url": "http://sasi2103.blogspot.sg/2016/09/combination-of-techniques-lead-to-dom.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Google Japan Book XSS",
+      "url": "http://nootropic.me/blog/en/blog/2016/09/20/%E3%82%84%E3%81%AF%E3%82%8A%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%92%E3%81%97%E3%81%A6%E3%81%84%E3%81%9F%E3%82%89%E3%81%9F%E3%81%BE%E3%81%9F%E3%81%BEgoogle/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Flash XSS mega nz",
+      "url": "https://labs.detectify.com/2013/02/14/how-i-got-the-bug-bounty-for-mega-co-nz-xss/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "xss in google IE, Host Header Reflection",
+      "url": "http://blog.bentkowski.info/2015/04/xss-via-host-header-cse.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Years ago Google xss",
+      "url": "http://conference.hitb.org/hitbsecconf2012ams/materials/D1T2%20-%20Itzhak%20Zuk%20Avraham%20and%20Nir%20Goldshlager%20-%20Killing%20a%20Bug%20Bounty%20Program%20-%20Twice.pdf",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "xss in google by IE weird behavior",
+      "url": "http://blog.bentkowski.info/2015/04/xss-via-host-header-cse.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "xss in Yahoo Fantasy Sport",
+      "url": "https://web.archive.org/web/20161228182923/http://dawgyg.com/2016/12/07/stored-xss-affecting-all-fantasy-sports-fantasysports-yahoo-com-2/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "xss in Yahoo Mail Again, worth $10000",
+      "url": "https://klikki.fi/adv/yahoo2.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Sleeping XSS in Google",
+      "url": "https://blog.it-securityguard.com/bugbounty-sleeping-stored-google-xss-awakens-a-5000-bounty/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Decoding a .htpasswd to earn a payload of money",
+      "url": "https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Google Account Takeover",
+      "url": "http://www.orenh.com/2013/11/google-account-recovery-vulnerability.html#comment-form",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "AirBnb Bug Bounty: Turning Self-XSS into Good-XSS #2",
+      "url": "http://www.geekboy.ninja/blog/airbnb-bug-bounty-turning-self-xss-into-good-xss-2/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Uber Self XSS to Global XSS",
+      "url": "https://httpsonly.blogspot.hk/2016/08/turning-self-xss-into-good-xss-v2.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)",
+      "url": "https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.cktt61q9g",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Auditor turns into Eight Vulnerabilities",
+      "url": "https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "XSSI, Client Side Brute Force",
+      "url": "http://blog.intothesymmetry.com/2017/05/cross-origin-brute-forcing-of-saml-and.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "postMessage XSS Bypass",
+      "url": "https://hackerone.com/reports/231053",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "XSS in Uber via Cookie",
+      "url": "http://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Stealing contact form data on www.hackerone.com using Marketo Forms XSS with postMessage frame-jumping and jQuery-JSONP",
+      "url": "https://hackerone.com/reports/207042",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "XSS due to improper regex in third party js Uber 7k XSS",
+      "url": "http://zhchbin.github.io/2016/09/10/A-Valuable-XSS/",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "XSS in TinyMCE 2.4.0",
+      "url": "https://hackerone.com/reports/262230",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Pass uncoded URL in IE11 to cause XSS",
+      "url": "https://hackerone.com/reports/150179",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Twitter XSS by stopping redirection and javascript scheme",
+      "url": "http://blog.blackfan.ru/2017/09/devtwittercom-xss.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Auth DOM Uber XSS",
+      "url": "http://stamone-bug-bounty.blogspot.hk/2017/10/dom-xss-auth_14.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "XSS in www.yahoo.com",
+      "url": "https://www.youtube.com/watch?v=d9UEVv3cJ0Q&feature=youtu.be",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Stored XSS, and SSRF in Google using the Dataset Publishing Language",
+      "url": "https://s1gnalcha0s.github.io/dspl/2018/03/07/Stored-XSS-and-SSRF-Google.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Stored XSS on Snapchat",
+      "url": "https://medium.com/@mrityunjoy/stored-xss-on-snapchat-5d704131d8fd",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Researching Polymorphic Images for XSS on Google Scholar",
+      "url": "https://blog.doyensec.com/2020/04/30/polymorphic-images-for-xss.html",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "OLX Bug Bounty: Reflected XSS in 404 Page",
+      "url": "https://medium.com/@abaykandotcom/olx-bug-bounty-reflected-xss-adb3095cd525",
+      "category": "cross-site-scripting-xss",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Web Authentication Endpoint Credentials Brute-Force Vulnerability",
+      "url": "https://hackerone.com/reports/127844",
+      "category": "brute-force",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "InstaBrute: Two Ways to Brute-force Instagram Account Credentials",
+      "url": "https://www.arneswinnen.net/2016/05/instabrute-two-ways-to-brute-force-instagram-account-credentials/",
+      "category": "brute-force",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "How I Could Compromise 4% (Locked) Instagram Accounts",
+      "url": "https://www.arneswinnen.net/2016/03/how-i-could-compromise-4-locked-instagram-accounts/",
+      "category": "brute-force",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Possibility to brute force invite codes in riders.uber.com",
+      "url": "https://hackerone.com/reports/125505",
+      "category": "brute-force",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Brute-Forcing invite codes in partners.uber.com",
+      "url": "https://hackerone.com/reports/144616",
+      "category": "brute-force",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "SQL injection in Wordpress Plugin Huge IT Video Gallery in Uber",
+      "url": "https://hackerone.com/reports/125932",
+      "category": "sql-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "SQL Injection on sctrack.email.uber.com.cn",
+      "url": "https://hackerone.com/reports/150156",
+      "category": "sql-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Yahoo – Root Access SQL Injection – tw.yahoo.com",
+      "url": "http://buer.haus/2015/01/15/yahoo-root-access-sql-injection-tw-yahoo-com/",
+      "category": "sql-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Multiple vulnerabilities in a WordPress plugin at drive.uber.com",
+      "url": "https://hackerone.com/reports/135288",
+      "category": "sql-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "GitHub Enterprise SQL Injection",
+      "url": "http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
+      "category": "sql-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Yahoo SQL Injection to Remote Code Exection to Root Privilege",
+      "url": "http://www.sec-down.com/wordpress/?p=494",
+      "category": "sql-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Facebook Access Token Stolen",
+      "url": "https://whitton.io/articles/stealing-facebook-access-tokens-with-a-double-submit/",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Obtaining Login Tokens for an Outlook, Office or Azure Account",
+      "url": "https://whitton.io/articles/obtaining-tokens-outlook-office-azure-account/",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing Digits web authentication's host validation with HPP",
+      "url": "https://hackerone.com/reports/114169",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "Bypass of redirect_uri validation with /../ in GitHub",
+      "url": "http://homakov.blogspot.hk/2014/02/how-i-hacked-github-again.html?m=1",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing callback_url validation on Digits",
+      "url": "https://hackerone.com/reports/108113",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Stealing livechat token and using it to chat as the user - user information disclosure",
+      "url": "https://hackerone.com/reports/151058",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Change any Uber user's password through /rt/users/passwordless-signup - Account Takeover (critical)",
+      "url": "https://hackerone.com/reports/143717",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Internet Explorer has a URL problem, on GitHub",
+      "url": "http://blog.innerht.ml/internet-explorer-has-a-url-problem/",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "How I made LastPass give me all your passwords",
+      "url": "https://labs.detectify.com/2016/07/27/how-i-made-lastpass-give-me-all-your-passwords/",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Steal Google Oauth in Microsoft",
+      "url": "http://blog.intothesymmetry.com/2015/06/on-oauth-token-hijacks-for-fun-and.html",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Steal FB Access Token",
+      "url": "http://blog.intothesymmetry.com/2014/04/oauth-2-how-i-have-hacked-facebook.html",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Paypal Access Token Leaked",
+      "url": "http://blog.intothesymmetry.com/2016/11/all-your-paypal-tokens-belong-to-me.html?m=1",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Steal FB Access Token",
+      "url": "http://homakov.blogspot.sg/2013/02/hacking-facebook-with-oauth2-and-chrome.html",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Appengine Cool Bug",
+      "url": "https://proximasec.blogspot.hk/2017/02/a-tale-about-appengines-authentication.html",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Slack post message real life experience",
+      "url": "https://labs.detectify.com/2017/02/28/hacking-slack-using-postmessage-and-websocket-reconnect-to-steal-your-precious-token/",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Bypass redirect_uri",
+      "url": "http://nbsriharsha.blogspot.in/2016/04/oauth-20-redirection-bypass-cheat-sheet.html",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Stealing Facebook Messenger nonce worth 15k",
+      "url": "https://stephensclafani.com/2017/03/21/stealing-messenger-com-login-nonces/",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Steal Oculus Nonce and Oauth Flow Bypass",
+      "url": "https://medium.com/@lokeshdlk77/bypass-oauth-nonce-and-steal-oculus-response-code-faa9cc8d0d37",
+      "category": "stealing-access-token",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing Google Authentication on Periscope's Administration Panel",
+      "url": "https://whitton.io/articles/bypassing-google-authentication-on-periscopes-admin-panel/",
+      "category": "google-oauth-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Play a game, get Subscribed to my channel - YouTube Clickjacking Bug | #GoogleVRP",
+      "url": "https://infosecwriteups.com/play-a-game-get-subscribed-to-my-channel-youtube-clickjacking-bug-googlevrp-6ce1d15542d3?source=your_stories_page-------------------------------------",
+      "category": "clickjacking",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Messenger.com CSRF that show you the steps when you check for CSRF",
+      "url": "https://whitton.io/articles/messenger-site-wide-csrf/",
+      "category": "csrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "Paypal bug bounty: Updating the Paypal.me profile picture without consent (CSRF attack)",
+      "url": "https://hethical.io/paypal-bug-bounty-updating-the-paypal-me-profile-picture-without-consent-csrf-attack/",
+      "category": "csrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Hacking PayPal Accounts with one click (Patched)",
+      "url": "http://yasserali.com/hacking-paypal-accounts-with-one-click/",
+      "category": "csrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Add tweet to collection CSRF",
+      "url": "https://hackerone.com/reports/100820",
+      "category": "csrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Facebookmarketingdevelopers.com: Proxies, CSRF Quandry and API Fun",
+      "url": "http://philippeharewood.com/facebookmarketingdevelopers-com-proxies-csrf-quandry-and-api-fun/",
+      "category": "csrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "How i Hacked your Beats account ? Apple Bug Bounty",
+      "url": "https://aadityapurani.com/2016/07/20/how-i-hacked-your-beats-account-apple-bug-bounty/",
+      "category": "csrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "FORM POST JSON: JSON CSRF on POST Heartbeats API",
+      "url": "https://hackerone.com/reports/245346",
+      "category": "csrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Hacking Facebook accounts using CSRF in Oculus-Facebook integration",
+      "url": "https://www.josipfranjkovic.com/blog/hacking-facebook-oculus-integration-csrf",
+      "category": "csrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "JDWP Remote Code Execution in PayPal",
+      "url": "https://www.vulnerability-lab.com/get_content.php?id=1474",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "XXE in OpenID: one bug to rule them all, or how I found a Remote Code Execution flaw affecting Facebook's servers",
+      "url": "http://www.ubercomp.com/posts/2014-01-16_facebook_remote_code_execution",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "How I Hacked Facebook, and Found Someone's Backdoor Script",
+      "url": "http://devco.re/blog/2016/04/21/how-I-hacked-facebook-and-found-someones-backdoor-script-eng-ver/",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!",
+      "url": "http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "uber.com may RCE by Flask Jinja2 Template Injection",
+      "url": "https://hackerone.com/reports/125980",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Yahoo Bug Bounty - *.login.yahoo.com Remote Code Execution",
+      "url": "http://blog.orange.tw/2013/11/yahoo-bug-bounty-part-2-loginyahoocom.html",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "How we broke PHP, hacked Pornhub and earned $20,000",
+      "url": "https://www.evonide.com/how-we-broke-php-hacked-pornhub-and-earned-20000-dollar/",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "RCE deal to tricky file upload",
+      "url": "https://www.secgeek.net/bookfresh-vulnerability/",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "WordPress SOME bug in plupload.flash.swf leading to RCE in Automatic",
+      "url": "https://hackerone.com/reports/134738",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "Read-Only user can execute arbitraty shell commands on AirOS",
+      "url": "https://hackerone.com/reports/128750",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Remote Code Execution by impage upload!",
+      "url": "https://hackerone.com/reports/158148",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "Popping a shell on the Oculus developer portal",
+      "url": "https://bitquark.co.uk/blog/2014/08/31/popping_a_shell_on_the_oculus_developer_portal",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Crazy! PornHub RCE AGAIN!!! How I hacked Pornhub for fun and profit - 10,000$",
+      "url": "https://5haked.blogspot.sg/",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "PayPal Node.js code injection (RCE)",
+      "url": "http://artsploit.blogspot.hk/2016/08/pprce2.html",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "eBay PHP Parameter Injection lead to RCE",
+      "url": "http://secalert.net/#ebay-rce-ccs",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "Yahoo Acqusition RCE",
+      "url": "https://seanmelia.files.wordpress.com/2016/02/yahoo-remote-code-execution-cms1.pdf",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Command Injection Vulnerability in Hostinger",
+      "url": "http://elladodelnovato.blogspot.hk/2017/02/command-injection-vulnerability-in.html?spref=tw&m=1",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "RCE in Airbnb by Ruby Injection",
+      "url": "http://buer.haus/2017/03/13/airbnb-ruby-on-rails-string-interpolation-led-to-remote-code-execution/",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "RCE in Imgur by Command Line",
+      "url": "https://hackerone.com/reports/212696",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "RCE in git.imgur.com by abusing out dated software",
+      "url": "https://hackerone.com/reports/206227",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "RCE in Disclosure",
+      "url": "https://hackerone.com/reports/213558",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Remote Code Execution by struct2 Yahoo Server",
+      "url": "https://medium.com/@th3g3nt3l/how-i-got-5500-from-yahoo-for-rce-92fffb7145e6",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Command Injection in Yahoo Acquisition",
+      "url": "http://samcurry.net/how-i-couldve-taken-over-the-production-server-of-a-yahoo-acquisition-through-command-injection/",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "$50k RCE in JetBrains IDE",
+      "url": "http://blog.saynotolinux.com/blog/2016/08/15/jetbrains-ide-remote-code-execution-and-local-file-disclosure-vulnerability-analysis/",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Telekom.de Remote Command Execution!",
+      "url": "http://www.sec-down.com/wordpress/?p=581",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Magento Remote Code Execution Vulnerability!",
+      "url": "http://www.sec-down.com/wordpress/?p=578",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Yahoo! Remote Command Execution Vulnerability",
+      "url": "http://www.sec-down.com/wordpress/?p=87",
+      "category": "remote-code-execution",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Java Deserialization in manager.paypal.com",
+      "url": "http://artsploit.blogspot.hk/2016/01/paypal-rce.html",
+      "category": "deserialization",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Instagram's Million Dollar Bug",
+      "url": "http://www.exfiltrated.com/research-Instagram-RCE.php",
+      "category": "deserialization",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "(Ruby Cookie Deserialization RCE on facebooksearch.algolia.com",
+      "url": "https://hackerone.com/reports/134321",
+      "category": "deserialization",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Java deserialization",
+      "url": "https://seanmelia.wordpress.com/2016/07/22/exploiting-java-deserialization-via-jboss/",
+      "category": "deserialization",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting ImageMagick to get RCE on Polyvore (Yahoo Acquisition)",
+      "url": "http://nahamsec.com/exploiting-imagemagick-on-yahoo/",
+      "category": "image-tragick",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Exploting ImageMagick to get RCE on HackerOne",
+      "url": "https://hackerone.com/reports/135072",
+      "category": "image-tragick",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Trello bug bounty: Access server's files using ImageTragick",
+      "url": "https://hethical.io/trello-bug-bounty-access-servers-files-using-imagetragick/",
+      "category": "image-tragick",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "40k fb rce",
+      "url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/4lemon.ru/2017-01-17_facebook_imagetragick_remote_code_execution.html",
+      "category": "image-tragick",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Yahoo Bleed 1",
+      "url": "https://scarybeastsecurity.blogspot.hk/2017/05/bleed-continues-18-byte-file-14k-bounty.html",
+      "category": "image-tragick",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Yahoo Bleed 2",
+      "url": "https://scarybeastsecurity.blogspot.hk/2017/05/bleed-more-powerful-dumping-yahoo.html",
+      "category": "image-tragick",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Trello bug bounty: The websocket receives data when a public company creates a team visible board",
+      "url": "https://hethical.io/trello-bug-bounty-the-websocket-receives-data-when-a-public-company-creates-a-team-visible-board/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Trello bug bounty: Payments informations are sent to the webhook when a team changes its visibility",
+      "url": "https://hethical.io/trello-bug-bounty-payments-informations-are-sent-to-the-webhook-when-a-team-changes-its-visibility/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "Change any user's password in Uber",
+      "url": "https://hackerone.com/reports/143717",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Vulnerability in Youtube allowed moving comments from any video to another",
+      "url": "https://www.secgeek.net/youtube-vulnerability/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Twitter Vulnerability Could Credit Cards from Any Twitter Account",
+      "url": "https://www.secgeek.net/twitter-vulnerability/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "One Vulnerability allowed deleting comments of any user in all Yahoo sites",
+      "url": "https://www.secgeek.net/yahoo-comments-vulnerability/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft-careers.com Remote Password Reset",
+      "url": "http://yasserali.com/microsoft-careers-com-remote-password-reset/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "How I could change your eBay password",
+      "url": "http://yasserali.com/how-i-could-change-your-ebay-password/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Duo Security Researchers Uncover Bypass of PayPal’s Two-Factor Authentication",
+      "url": "https://duo.com/blog/duo-security-researchers-uncover-bypass-of-paypal-s-two-factor-authentication",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "How I got access to millions of [redacted] accounts",
+      "url": "https://bitquark.co.uk/blog/2016/02/09/how_i_got_access_to_millions_of_redacted_accounts",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "All Vimeo Private videos disclosure via Authorization Bypass with Excellent Technical Description",
+      "url": "https://hackerone.com/reports/137502",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Urgent: attacker can access every data source on Bime",
+      "url": "https://hackerone.com/reports/149907",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Downloading password protected / restricted videos on Vimeo",
+      "url": "https://hackerone.com/reports/145467",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "Get organization info base on uuid in Uber",
+      "url": "https://hackerone.com/reports/151465",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "How I Exposed your Primary Facebook Email Address (Bug worth $4500)",
+      "url": "http://roy-castillo.blogspot.hk/2013/07/how-i-exposed-your-primary-facebook.html",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "DOB disclosed using “Facebook Graph API Reverse Engineering”",
+      "url": "https://medium.com/@rajsek/my-3rd-facebook-bounty-hat-trick-chennai-tcs-er-name-listed-in-facebook-hall-of-fame-47f57f2a4f71#.9gbtbv42q",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Change the description of a video without publish_actions permission in Facebook",
+      "url": "http://philippeharewood.com/change-the-description-of-a-video-without-publish_actions-permission/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Response To Request Injection (RTRI)",
+      "url": "https://www.bugbountyhq.com/front/latestnews/dWRWR0thQ2ZWOFN5cTE1cXQrSFZmUT09/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Leak of all project names and all user names , even across applications on Harvest",
+      "url": "https://hackerone.com/reports/152696",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "Changing paymentProfileUuid when booking a trip allows free rides at Uber",
+      "url": "https://hackerone.com/reports/162809",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "View private tweet",
+      "url": "https://hackerone.com/reports/174721",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "Hacking Facebook’s Legacy API, Part 1: Making Calls on Behalf of Any User",
+      "url": "http://stephensclafani.com/2014/07/08/hacking-facebooks-legacy-api-part-1-making-calls-on-behalf-of-any-user/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Hacking Facebook’s Legacy API, Part 2: Stealing User Sessions",
+      "url": "http://stephensclafani.com/2014/07/29/hacking-facebooks-legacy-api-part-2-stealing-user-sessions/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Delete FB Video",
+      "url": "https://danmelamed.blogspot.hk/2017/01/facebook-vulnerability-delete-any-video.html",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Delete FB Video",
+      "url": "https://pranavhivarekar.in/2016/06/23/facebooks-bug-delete-any-video-from-facebook/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Viewing private Airbnb Messages",
+      "url": "http://buer.haus/2017/03/31/airbnb-web-to-app-phone-notification-idor-to-view-everyones-airbnb-messages/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "IDOR tweet as any user",
+      "url": "http://kedrisec.com/twitter-publish-by-any-user/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Mass Assignment, Response to Request Injection, Admin Escalation",
+      "url": "https://seanmelia.wordpress.com/2017/06/01/privilege-escalation-in-a-django-application/",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Getting any Facebook user's friend list and partial payment card details",
+      "url": "https://www.josipfranjkovic.com/blog/facebook-friendlist-paymentcard-leak",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Manipulation of ETH balance",
+      "url": "https://www.vicompany.nl/magazine/from-christmas-present-in-the-blockchain-to-massive-bug-bounty",
+      "category": "direct-object-reference-idor",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "How we got read access on Google’s production servers",
+      "url": "https://blog.detectify.com/2014/04/11/how-we-got-read-access-on-googles-production-servers/",
+      "category": "xxe",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Blind OOB XXE At UBER 26+ Domains Hacked",
+      "url": "http://nerdint.blogspot.hk/2016/08/blind-oob-xxe-at-uber-26-domains-hacked.html",
+      "category": "xxe",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "XXE through SAML",
+      "url": "https://seanmelia.files.wordpress.com/2016/01/out-of-band-xml-external-entity-injection-via-saml-redacted.pdf",
+      "category": "xxe",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "XXE in Uber to read local files",
+      "url": "https://httpsonly.blogspot.hk/2017/01/0day-writeup-xxe-in-ubercom.html",
+      "category": "xxe",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "File Upload XSS in image uploading of App in mopub",
+      "url": "https://hackerone.com/reports/97672",
+      "category": "unrestricted-file-upload",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "RCE deal to tricky file upload",
+      "url": "https://www.secgeek.net/bookfresh-vulnerability/",
+      "category": "unrestricted-file-upload",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "File Upload XSS in image uploading of App in mopub in Twitter",
+      "url": "https://hackerone.com/reports/97672",
+      "category": "unrestricted-file-upload",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "ESEA Server-Side Request Forgery and Querying AWS Meta Data",
+      "url": "http://buer.haus/2016/04/18/esea-server-side-request-forgery-and-querying-aws-meta-data/",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "SSRF to pivot internal network",
+      "url": "https://seanmelia.files.wordpress.com/2016/07/ssrf-to-pivot-internal-networks.pdf",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "SSRF to LFI",
+      "url": "https://seanmelia.wordpress.com/2015/12/23/various-server-side-request-forgery-issues/",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "SSRF to query google internal server",
+      "url": "https://www.rcesecurity.com/2017/03/ok-google-give-me-all-your-internal-dns-information/",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "SSRF by using third party Open redirect",
+      "url": "https://buer.haus/2017/03/09/airbnb-chaining-third-party-open-redirect-into-server-side-request-forgery-ssrf-via-liveperson-chat/",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "SSRF tips from BugBountyHQ of Images",
+      "url": "https://twitter.com/BugBountyHQ/status/868242771617792000",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "SSRF to RCE",
+      "url": "http://www.kernelpicnic.net/2017/05/29/Pivoting-from-blind-SSRF-to-RCE-with-Hashicorp-Consul.html",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "XXE at Twitter",
+      "url": "https://hackerone.com/reports/248668",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "Blog post: Cracking the Lens: Targeting HTTP’s Hidden Attack-Surface",
+      "url": "http://blog.portswigger.net/2017/07/cracking-lens-targeting-https-hidden.html",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Plotly AWS Metadata SSRF (and a stored XSS)",
+      "url": "https://ysx.me.uk/a-pair-of-plotly-bugs-stored-xss-and-aws-metadata-ssrf/",
+      "category": "server-side-request-forgery-ssrf",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "Race conditions on Facebook, DigitalOcean and others (fixed)",
+      "url": "http://josipfranjkovic.blogspot.hk/2015/04/race-conditions-on-facebook.html",
+      "category": "race-condition",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Race Conditions in Popular reports feature in HackerOne",
+      "url": "https://hackerone.com/reports/146845",
+      "category": "race-condition",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Hacking Starbuck for unlimited money",
+      "url": "https://sakurity.com/blog/2015/05/21/starbucks.html",
+      "category": "race-condition",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "How I Could Steal Money from Instagram, Google and Microsoft",
+      "url": "https://www.arneswinnen.net/2016/07/how-i-could-steal-money-from-instagram-google-and-microsoft/",
+      "category": "business-logic-flaw",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Facebook - bypass ads account's roles vulnerability 2015",
+      "url": "http://blog.darabi.me/2015/03/facebook-bypass-ads-account-roles.html",
+      "category": "business-logic-flaw",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "Uber Eat for Free",
+      "url": "https://t.co/MCOM7j2dWX",
+      "category": "business-logic-flaw",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "OneLogin authentication bypass on WordPress sites via XMLRPC in Uber",
+      "url": "https://hackerone.com/reports/138869",
+      "category": "authentication-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "2FA PayPal Bypass",
+      "url": "https://henryhoggard.co.uk/blog/Paypal-2FA-Bypass",
+      "category": "authentication-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "SAML Bug in Github worth 15000",
+      "url": "http://www.economyofmechanism.com/github-saml.html",
+      "category": "authentication-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "Authentication bypass on Airbnb via OAuth tokens theft",
+      "url": "https://www.arneswinnen.net/2017/06/authentication-bypass-on-airbnb-via-oauth-tokens-theft/",
+      "category": "authentication-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Administrative Panel Access",
+      "url": "http://c0rni3sm.blogspot.hk/2017/08/accidentally-typo-to-bypass.html?m=1",
+      "category": "authentication-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "Flickr Oauth Misconfiguration",
+      "url": "https://mishresec.wordpress.com/2017/10/12/yahoo-bug-bounty-exploiting-oauth-misconfiguration-to-takeover-flickr-accounts/",
+      "category": "authentication-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Slack SAML authentication bypass",
+      "url": "http://blog.intothesymmetry.com/2017/10/slack-saml-authentication-bypass.html",
+      "category": "authentication-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Shopify admin authentication bypass using partners.shopify.com",
+      "url": "https://hackerone.com/reports/270981",
+      "category": "authentication-bypass",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Twitter Overflow Trilogy in Twitter",
+      "url": "https://blog.innerht.ml/overflow-trilogy/",
+      "category": "http-header-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Twitter CRLF",
+      "url": "https://blog.innerht.ml/twitter-crlf-injection/",
+      "category": "http-header-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Adblock Plus and (a little) more in Google",
+      "url": "https://adblockplus.org/blog/finding-security-issues-in-a-website-or-how-to-get-paid-by-google",
+      "category": "http-header-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "$10k host header",
+      "url": "https://sites.google.com/site/testsitehacking/10k-host-header",
+      "category": "http-header-injection",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Hijacking tons of Instapage expired users Domains & Subdomains",
+      "url": "http://www.geekboy.ninja/blog/hijacking-tons-of-instapage-expired-users-domains-subdomains/",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Reading Emails in Uber Subdomains",
+      "url": "https://hackerone.com/reports/156536",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "Slack Bug Journey",
+      "url": "http://secalert.net/slack-security-bug-bounty.html",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Subdomain takeover and chain it to perform authentication bypass",
+      "url": "https://www.arneswinnen.net/2017/06/authentication-bypass-on-ubers-sso-via-subdomain-takeover/",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Hacker.One Subdomain Takeover",
+      "url": "https://hackerone.com/reports/159156",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Plain Text Reading by XSSI",
+      "url": "http://balpha.de/2013/02/plain-text-considered-harmful-a-cross-domain-exploit/",
+      "category": "xssi",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "JSON hijacking",
+      "url": "http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html",
+      "category": "xssi",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "OWASP XSSI",
+      "url": "https://www.owasp.org/images/f/f3/Your_Script_in_My_Page_What_Could_Possibly_Go_Wrong_-_Sebastian_Lekies%2BBen_Stock.pdf",
+      "category": "xssi",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "Japan Identifier based XSSI attacks",
+      "url": "http://www.mbsd.jp/Whitepaper/xssi.pdf",
+      "category": "xssi",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "JSON Hijack Slide",
+      "url": "https://www.owasp.org/images/6/6a/OWASPLondon20161124_JSON_Hijacking_Gareth_Heyes.pdf",
+      "category": "xssi",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "This domain is my domain - G Suite A record vulnerability",
+      "url": "http://blog.pentestnepal.tech/post/156959105292/this-domain-is-my-domain-g-suite-a-record",
+      "category": "email-related",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "I got emails - G Suite Vulnerability",
+      "url": "http://blog.pentestnepal.tech/post/156707088037/i-got-emails-g-suite-vulnerability",
+      "category": "email-related",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "How I snooped into your private Slack messages [Slack Bug bounty worth $2,500]",
+      "url": "http://blog.pentestnepal.tech/post/150381068912/how-i-snooped-into-your-private-slack-messages",
+      "category": "email-related",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "Reading Uber’s Internal Emails [Uber Bug Bounty report worth $10,000]",
+      "url": "http://blog.pentestnepal.tech/post/149985438982/reading-ubers-internal-emails-uber-bug-bounty",
+      "category": "email-related",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "Slack Yammer Takeover by using TicketTrick",
+      "url": "https://medium.com/@intideceukelaire/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c",
+      "category": "email-related",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "How I could have mass uploaded from every Flickr account!",
+      "url": "https://ret2got.wordpress.com/2017/10/05/how-i-could-have-mass-uploaded-from-every-flickr-account/",
+      "category": "email-related",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Round error issue -> produce money for free in Bitcoin Site",
+      "url": "https://hackerone.com/reports/176461",
+      "category": "money-stealing",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "Disclosure Local File Inclusion by Symlink",
+      "url": "https://hackerone.com/reports/213558",
+      "category": "2017-local-file-inclusion",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "Facebook Symlink Local File Inclusion",
+      "url": "http://josipfranjkovic.blogspot.hk/2014/12/reading-local-files-from-facebooks.html",
+      "category": "2017-local-file-inclusion",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "Gitlab Symlink Local File Inclusion",
+      "url": "https://hackerone.com/reports/158330",
+      "category": "2017-local-file-inclusion",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "Gitlab Symlink Local File Inclusion Part II",
+      "url": "https://hackerone.com/reports/178152",
+      "category": "2017-local-file-inclusion",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "Multiple Company LFI",
+      "url": "http://panchocosil.blogspot.sg/2017/05/one-cloud-based-local-file-inclusion.html",
+      "category": "2017-local-file-inclusion",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "LFI by video conversion, excited about this trick!",
+      "url": "https://hackerone.com/reports/226756",
+      "category": "2017-local-file-inclusion",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "SAML Pen Test Good Paper",
+      "url": "http://research.aurainfosec.io/bypassing-saml20-SSO/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "A list of FB writeup collected by phwd",
+      "url": "https://www.facebook.com/notes/phwd/facebook-bug-bounties/707217202701640",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "NoSQL Injection",
+      "url": "http://blog.websecurify.com/2014/08/hacking-nodejs-and-mongodb.html",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "CORS in action",
+      "url": "http://www.geekboy.ninja/blog/exploiting-misconfigured-cors-cross-origin-resource-sharing/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "CORS in Fb messenger",
+      "url": "http://www.cynet.com/blog-facebook-originull/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "Web App Methodologies",
+      "url": "https://blog.zsec.uk/ltr101-method-to-madness/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "XXE Cheatsheet",
+      "url": "https://www.silentrobots.com/blog/2015/12/14/xe-cheatsheet-update/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "The road to hell is paved with SAML Assertions, Microsoft Vulnerability",
+      "url": "http://www.economyofmechanism.com/office365-authbypass.html#office365-authbypass",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "Study this if you like to learn Mongo SQL Injection",
+      "url": "https://cirw.in/blog/hash-injection",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "Mongo DB Injection again",
+      "url": "http://blog.websecurify.com/2014/08/hacking-nodejs-and-mongodb.html",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "w3af speech about modern vulnerability",
+      "url": "https://www.youtube.com/watch?v=GNU0_Uzyvl0",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "Web cache attack that lead to account takeover",
+      "url": "http://omergil.blogspot.co.il/2017/02/web-cache-deception-attack.html",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "A talk to teach you how to use SAML Raider",
+      "url": "https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/somorovsky",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "XSS Checklist when you have no idea how to exploit the bug",
+      "url": "http://d3adend.org/xss/ghettoBypass",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "CTF write up, Great for Bug Bounty",
+      "url": "https://ctftime.org/writeups?tags=web200&hidden-tags=web%2cweb100%2cweb200",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "It turns out every site uses jquery mobile with Open Redirect is vulnerable to XSS",
+      "url": "http://sirdarckcat.blogspot.com/2017/02/unpatched-0day-jquery-mobile-xss.html",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "Bypass CSP by using google-analytics",
+      "url": "https://hackerone.com/reports/199779",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "Payment Issue with Paypal",
+      "url": "https://hackerone.com/reports/219215",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "Browser Exploitation in Chinese",
+      "url": "http://paper.seebug.org/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "XSS bypass filter",
+      "url": "https://t.co/0Kpzo52ycb",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Markup Impropose Sanitization",
+      "url": "https://github.com/ChALkeR/notes/blob/master/Improper-markup-sanitization.md",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Breaking XSS mitigations via Script Gadget",
+      "url": "https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "X41 Browser Security White Paper",
+      "url": "https://browser-security.x41-dsec.de/X41-Browser-Security-White-Paper.pdf",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Bug Bounty Cheatsheets",
+      "url": "https://github.com/EdOverflow/bugbounty-cheatsheet",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "Messing with the Google Buganizer System for $15,600 in Bounties",
+      "url": "https://medium.freecodecamp.org/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "Electron Security White Paper",
+      "url": "https://www.blackhat.com/docs/us-17/thursday/us-17-Carettoni-Electronegativity-A-Study-Of-Electron-Security-wp.pdf",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "Twitter's Vine Source code dump - $10080",
+      "url": "https://avicoder.me/2016/07/22/Twitter-Vine-Source-code-dump/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "SAML Bible",
+      "url": "https://blog.netspi.com/attacking-sso-common-saml-vulnerabilities-ways-find/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing Google’s authentication to access their Internal Admin panels — Vishnu Prasad P G",
+      "url": "https://medium.com/bugbountywriteup/bypassing-googles-fix-to-access-their-internal-admin-panels-12acd3d821e3",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "Smart Contract Vulnerabilities",
+      "url": "http://www.dasp.co/",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/ngalongc/bug-bounty-reference/blob/6a562dd7c75b84f0c6da81b098473102e0d61d7d/README.md#L339",
+      "line": 339,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 239,
+  "unique_links": 231,
+  "category_count": 24,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "ngalongc",
+      "url": "https://github.com/ngalongc",
+      "contributions": 72
+    },
+    {
+      "login": "src-kun",
+      "url": "https://github.com/src-kun",
+      "contributions": 4
+    },
+    {
+      "login": "andygrunwald",
+      "url": "https://github.com/andygrunwald",
+      "contributions": 2
+    },
+    {
+      "login": "Masterofthepuppets",
+      "url": "https://github.com/Masterofthepuppets",
+      "contributions": 2
+    },
+    {
+      "login": "ZephrFish",
+      "url": "https://github.com/ZephrFish",
+      "contributions": 2
+    },
+    {
+      "login": "abaykan",
+      "url": "https://github.com/abaykan",
+      "contributions": 1
+    },
+    {
+      "login": "coreb1t",
+      "url": "https://github.com/coreb1t",
+      "contributions": 1
+    },
+    {
+      "login": "eur0pa",
+      "url": "https://github.com/eur0pa",
+      "contributions": 1
+    },
+    {
+      "login": "melvinsh",
+      "url": "https://github.com/melvinsh",
+      "contributions": 1
+    },
+    {
+      "login": "pankajkumarkbn",
+      "url": "https://github.com/pankajkumarkbn",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 167,
+    "public_contributors": 17,
+    "observed_at": "2026-09-03T17:43:27.011802+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by ngalongc/bug-bounty-reference contributors.",
+  "license": null,
+  "license_url": "https://github.com/ngalongc/bug-bounty-reference/tree/6a562dd7c75b84f0c6da81b098473102e0d61d7d",
+  "digest": "1d0ea7079b3996e1456c8606993ab40efc85c692c0f2f24e8733744dbdeb79e0"
+}

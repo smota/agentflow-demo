@@ -1,0 +1,2472 @@
+{
+  "format_version": 3,
+  "repository_id": "301614488",
+  "name": "caiyinqiong/Semantic-Retrieval-Models",
+  "revision": "3b501ddd162f13688346c37a20d49bce53cf58d4",
+  "readme_path": "README.md",
+  "readme_sha256": "5258b78157a465d92b352f8d4a2aa260d4ac311b92e465ad99d0fc2daed82553",
+  "sections": [
+    {
+      "id": "general",
+      "title": "General",
+      "level": 1,
+      "path": [
+        "General"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md",
+      "entries": 2
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "survey-paper",
+      "title": "Survey Paper",
+      "level": 2,
+      "path": [
+        "Survey Paper"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#survey-paper",
+      "entries": 8
+    },
+    {
+      "id": "classical-term-based-retrieval",
+      "title": "Classical Term-based Retrieval",
+      "level": 2,
+      "path": [
+        "Classical Term-based Retrieval"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#classical-term-based-retrieval",
+      "entries": 10
+    },
+    {
+      "id": "early-methods-for-semantic-retrieval",
+      "title": "Early Methods for Semantic Retrieval",
+      "level": 2,
+      "path": [
+        "Early Methods for Semantic Retrieval"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#early-methods-for-semantic-retrieval",
+      "entries": 0
+    },
+    {
+      "id": "query-expansion",
+      "title": "Query Expansion",
+      "level": 3,
+      "path": [
+        "Early Methods for Semantic Retrieval",
+        "Query Expansion"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#query-expansion",
+      "entries": 12
+    },
+    {
+      "id": "document-expansion",
+      "title": "Document Expansion",
+      "level": 3,
+      "path": [
+        "Early Methods for Semantic Retrieval",
+        "Document Expansion"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#document-expansion",
+      "entries": 7
+    },
+    {
+      "id": "term-dependency-model",
+      "title": "Term Dependency Model",
+      "level": 3,
+      "path": [
+        "Early Methods for Semantic Retrieval",
+        "Term Dependency Model"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#term-dependency-model",
+      "entries": 11
+    },
+    {
+      "id": "topic-model",
+      "title": "Topic Model",
+      "level": 3,
+      "path": [
+        "Early Methods for Semantic Retrieval",
+        "Topic Model"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#topic-model",
+      "entries": 9
+    },
+    {
+      "id": "translation-model",
+      "title": "Translation Model",
+      "level": 3,
+      "path": [
+        "Early Methods for Semantic Retrieval",
+        "Translation Model"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#translation-model",
+      "entries": 6
+    },
+    {
+      "id": "neural-methods-for-semantic-retrieval",
+      "title": "Neural Methods for Semantic Retrieval",
+      "level": 2,
+      "path": [
+        "Neural Methods for Semantic Retrieval"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#neural-methods-for-semantic-retrieval",
+      "entries": 0
+    },
+    {
+      "id": "sparse-retrieval-methods",
+      "title": "Sparse Retrieval Methods",
+      "level": 3,
+      "path": [
+        "Neural Methods for Semantic Retrieval",
+        "Sparse Retrieval Methods"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#sparse-retrieval-methods",
+      "entries": 25
+    },
+    {
+      "id": "dense-retrieval-methods",
+      "title": "Dense Retrieval Methods",
+      "level": 3,
+      "path": [
+        "Neural Methods for Semantic Retrieval",
+        "Dense Retrieval Methods"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#dense-retrieval-methods",
+      "entries": 141
+    },
+    {
+      "id": "hybrid-retrieval-methods",
+      "title": "Hybrid Retrieval Methods",
+      "level": 3,
+      "path": [
+        "Neural Methods for Semantic Retrieval",
+        "Hybrid Retrieval Methods"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#hybrid-retrieval-methods",
+      "entries": 18
+    },
+    {
+      "id": "other-resources",
+      "title": "Other Resources",
+      "level": 2,
+      "path": [
+        "Other Resources"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#other-resources",
+      "entries": 0
+    },
+    {
+      "id": "other-tasks",
+      "title": "Other Tasks",
+      "level": 3,
+      "path": [
+        "Other Resources",
+        "Other Tasks"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#other-tasks",
+      "entries": 15
+    },
+    {
+      "id": "datasets",
+      "title": "Datasets",
+      "level": 3,
+      "path": [
+        "Other Resources",
+        "Datasets"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#datasets",
+      "entries": 4
+    },
+    {
+      "id": "indexing-methods",
+      "title": "Indexing Methods",
+      "level": 3,
+      "path": [
+        "Other Resources",
+        "Indexing Methods"
+      ],
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#indexing-methods",
+      "entries": 12
+    }
+  ],
+  "entries": [
+    {
+      "title": "Semantic Retrieval",
+      "url": "https://arxiv.org/abs/2103.04831",
+      "category": "general",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L10",
+      "line": 10,
+      "properties": {}
+    },
+    {
+      "title": "Guo et.al",
+      "url": "https://arxiv.org/abs/1903.06902",
+      "category": "general",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L11",
+      "line": 11,
+      "properties": {}
+    },
+    {
+      "title": "Semantic Matching in Search",
+      "url": "https://dl.acm.org/doi/abs/10.1561/1500000035",
+      "category": "survey-paper",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Pretrained Transformers for Text Ranking: BERT and Beyond",
+      "url": "https://arxiv.org/abs/2010.06467",
+      "category": "survey-paper",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "Semantic Models for the First-stage Retrieval: A Comprehensive Review",
+      "url": "https://arxiv.org/pdf/2103.04831.pdf",
+      "category": "survey-paper",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "A Proposed Conceptual Framework for a Representational Approach to Information Retrieval",
+      "url": "https://arxiv.org/pdf/2110.01529.pdf",
+      "category": "survey-paper",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Pre-training Methods in Information Retrieval",
+      "url": "https://arxiv.org/pdf/2111.13853.pdf",
+      "category": "survey-paper",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Dense Text Retrieval based on Pretrained Language Models: A Survey",
+      "url": "https://arxiv.org/pdf/2211.14876.pdf",
+      "category": "survey-paper",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Low-Resource Dense Retrieval for Open-Domain Question Answering: A Comprehensive Survey",
+      "url": "https://arxiv.org/pdf/2208.03197.pdf",
+      "category": "survey-paper",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Lecture Notes on Neural Information Retrieval",
+      "url": "https://arxiv.org/pdf/2207.13443.pdf",
+      "category": "survey-paper",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "A Vector Space Model for Automatic Indexing",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/361219.361220?casa_token=6DLRaJE7vXAAAAAA:EBd4ds5a5xnwx4xK3NJBFcJc0L-bV_leUMaZLMoeh9Bo7ws8ziHhAXv0eUjcIGFV2PHxN-xMIKWayg",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Developments in Automatic Text Retrieval",
+      "url": "https://science.sciencemag.org/content/253/5023/974",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Term-weighting Approaches in Automatic Text Retrieval",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0306457388900210",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Relevance Weighting of Search Terms",
+      "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.4630270302",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "A Theoretical Basis for the Use of Co-occurrence Data in Information Retrieval",
+      "url": "https://www.emerald.com/insight/content/doi/10.1108/eb026637/full/html",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=yK6HxUEaZ9gC&oi=fnd&pg=PA1&dq=The+probabilistic+relevance+framework:+BM25+and+beyond&ots=cQn5bjy7qx&sig=toW262ZrGvCswV_ltDGBC7draDU#v=onepage&q=The%20probabilistic%20relevance%20framework%3A%20BM25%20and%20beyond&f=false",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "A Language Modeling Approach to Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/290941.291008?casa_token=bUNLYawv-FUAAAAA:mnl3PY6G8-CVSbW76gzX2TW08jrvgWkAhfvMRUKL0FdgMezGLxChZTAD-VhNE0LN7jX0-6OSfi5Fyw",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Statistical Language Models for Information Retrieval",
+      "url": "https://www.morganclaypool.com/doi/abs/10.2200/S00158ED1V01Y200811HLT001",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Hypergeometric Language Model and Zipf-Like Scoring Function for Web Document Similarity Retrieval",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-16321-0_32",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Probabilistic Models of Information Retrieval Based on Measuring the Divergence from Randomness",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/582415.582416",
+      "category": "classical-term-based-retrieval",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Word-word Associations in Document Retrieval Systems",
+      "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.4630200106",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "Concept based Query Expansion",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/160688.160713",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Query Expansion using Lexical-Semantic Relations",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-4471-2099-5_7",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Using Query Contexts in Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1277741.1277747",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Relevance Feedback in Information Retrieval",
+      "url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Model-based Feedback in the Language Modeling Approach to Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/502585.502654",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "UMass at TREC 2004: Novelty and HARD",
+      "url": "https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1185&context=cs_faculty_pubs",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Selecting Good Expansion Terms for Pseudo-Relevance Feedback",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1390334.1390377",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "A Comparative Study of Methods for Estimating Query Language Models with Pseudo Feedback",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1645953.1646259",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Pseudo-Relevance Feedback Based on Matrix Factorization",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2983323.2983844",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Reducing the Risk of Query Expansion via Robust Constrained Optimization",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1645953.1646059",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Query Expansion using Local and Global Document Analysis",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3130348.3130364",
+      "category": "query-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Corpus Structure, Language Models, and Ad Hoc Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1008992.1009027",
+      "category": "document-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Cluster-Based Retrieval Using Language Models",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1008992.1009026",
+      "category": "document-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Language Model Information Retrieval with Document Expansion",
+      "url": "https://aclanthology.org/N06-1052.pdf",
+      "category": "document-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Document Expansion Based on WordNet for Robust IR",
+      "url": "https://aclanthology.org/C10-2002.pdf",
+      "category": "document-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Improving Retrieval of Short Texts Through Document Expansion",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2348283.2348405",
+      "category": "document-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Document Expansion Using External Collections",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3077136.3080716",
+      "category": "document-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Document Expansion versus Query Expansion for Ad-hoc Retrieval",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.5571&rep=rep1&type=pdf",
+      "category": "document-expansion",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Experiments in Automatic Phrase Indexing For Document Retrieval: A Comparison of Syntactic and Non-Syntactic Methods",
+      "url": "https://www.proquest.com/openview/94f58af398638882ce784a030bf5c558/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Term-weighting Approaches in Automatic Text Retrieval",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0306457388900210",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "An Analysis of Statistical and Syntactic Phrases",
+      "url": "http://www.singhal.info/riao97.pdf",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "A Probabilistic Model of Information Retrieval: Development and Comparative Experiments",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0306457300000169",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Relevance Ranking Using Kernels",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-17187-1_1",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "A General Language Model for Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/319950.320022",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Biterm Language Models for Document Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/564376.564476?casa_token=g4XBXaBMO5EAAAAA:FSomCNOm9l3mg2FquRVSmCHnx14lpJN0Ah0lkBGIpn0CUqgk66V85tqAL5BTbC7hmhhew8vhEFRg",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Capturing Term Dependencies using a Language Model based on Sentence Trees",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/584792.584855",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Dependence Language Model for Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1008992.1009024",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "A Generative Theory of Relevance",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=pQ6h1Yz9oykC&oi=fnd&pg=PA1&dq=A+generative+theory+of+relevance&ots=_apNyA0auQ&sig=hzY0QDSTr9CrYbTRTYXD_tsMx6U#v=onepage&q=A%20generative%20theory%20of%20relevance&f=false",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "A Markov Random Field Model for Term Dependencies",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1076034.1076115",
+      "category": "term-dependency-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "Generalized Vector Space Model In Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/253495.253506",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Indexing by Latent Semantic Analysis",
+      "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/(SICI)1097-4571(199009)41:6%3C391::AID-ASI1%3E3.0.CO;2-9",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Probabilistic Latent Semantic Indexing",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/312624.312649?casa_token=7XwmJlApc80AAAAA:RM5pkFN1FYzICP1ZbSaj8ADlRxUY_x7g5nwOTpc7hFqOX2_QsYafNJ4Q7VN4fnens87w_j7L5wvR",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Corpus Structure, Language Models, and Ad Hoc Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1008992.1009027",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Regularizing Ad Hoc Retrieval Scores",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1099554.1099722",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "LDA-Based Document Models for Ad-Hoc Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1148170.1148204",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "A Comparative Study of Utilizing Topic Models for Information Retrieval",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-00958-7_6",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Investigating Task Performance of Probabilistic Topic Models: An Empirical Study of PLSA and LDA",
+      "url": "https://link.springer.com/article/10.1007/s10791-010-9141-9",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Latent Semantic Indexing (LSI) Fails for TREC Collections",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1964897.1964900",
+      "category": "topic-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Information Retrieval as Statistical Translation",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3130348.3130371",
+      "category": "translation-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Estimation of Statistical Translation Models Based on Mutual Information for Ad Hoc Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1835449.1835505",
+      "category": "translation-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Clickthrough-Based Translation Models for Web Search: From Word Models to Phrase Models",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1871437.1871582",
+      "category": "translation-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Axiomatic Analysis of Translation Language Model for Information Retrieval",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-28997-2_23",
+      "category": "translation-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Query Rewriting Using Monolingual Statistical Machine Translation",
+      "url": "https://watermark.silverchair.com/coli_a_00010.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAsAwggK8BgkqhkiG9w0BBwagggKtMIICqQIBADCCAqIGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMVRPWjEXEOlOmEffWAgEQgIICc4KGr_VC0hYGO5dt-b73nOgVFWgTKA_ag9PwLVsG_tT8CaHn8Z_w5cRnF2SMKozw24Bwo0qfEaHATtgLiFJWzV-gDjlWAZ_5UOcwg7mFH1WTWXQcQuTfmhyFgEIWL-5h2BTSdywJp5BPLL8MuuhxRnsQTZcrg55nVXf_DPmd--Q7wtEJZbaf9Hu9ec3GoaD8nVKX2dU8uPVY-QtuqaJR9NICNb7rnGGSyfkJU_a9978VltWxUzXa0dqVA-Us4XwqVEwnac3VuXp57HIVnvnFA1QYlqJ2XoFRagAD0ayGJKSwJoNoZBt51n3kaelhFzx-VlLMpbNvLL3Ju9kIEIoxw1tXclZ_RKO8_AYnjrA7swxHAfzMyTiRap4wuNVwTP7ihog6G0igesb13FxnAEm42QQKGTByI1V76QH0bRcuqmKKNTUB1bQgXJKKtpRFsir-OXv_3mTiAogZxx2ID2cHBOWl97lsim-FYn_Ru-zRzffzyO_YDo9mbuVQk-yu0jMXtt_wTf2aLg4fDLwIkFOk5mblZZiLGyR7NzshENK-4-V25iHNcgqxycmtec5gTq7MHQhoLE9uexe0VZ_KVghilCHS6GuTKa1w6kbObAe_aAGkgSjlda9GKGUf3dhzUJHS4YP4JPmg-9SmP035ybc5xMuODR3gLno-m1mYe7nuxqVyWMl9-7fX_4a2wsaS57jhfKmnzzHynTcWsuw33serRn6W09un-5oEKKPj4V1BUXnJEHVqiWhoi3C4U_RRgMJoyL6CMh7f4nz_pgIbsrc-q6tq7znucehc6wVCumsgH1XEDK7JQUCtUhsOxponhu-xmOSTdw",
+      "category": "translation-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Towards Concept-based Translation Models using Search Logs for Query Expansion",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2396761.2530275",
+      "category": "translation-model",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Learning to Reweight Terms with Distributed Representations",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2766462.2767700",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Integrating and Evaluating Neural Word Embeddings in Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2838931.2838936",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Learning Term Discrimination",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401211",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "Context-Aware Sentence/Passage Term Importance Estimation for First Stage Retrieval",
+      "url": "https://arxiv.org/pdf/1910.10687.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Context-Aware Term Weighting For First-Stage Passage Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401204",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Efficiency Implications of Term Weighting for Passage Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401263",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Context-Aware Document Term Weighting for Ad-Hoc Search",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3366423.3380258",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques",
+      "url": "https://arxiv.org/pdf/2106.14807.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Document Expansion by query Prediction",
+      "url": "https://arxiv.org/pdf/1904.08375.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "From doc2query to docTTTTTquery",
+      "url": "https://cs.uwaterloo.ca/~jimmylin/publications/Nogueira_Lin_2019_docTTTTTquery-v2.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "A Unified Pretraining Framework for Passage Ranking and Expansion",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/16584",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Generation-augmented Retrieval for Open-domain Question Answering",
+      "url": "https://aclanthology.org/2021.acl-long.316.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Expansion via Prediction of Importance with Contextualization",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401262",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "SparTerm: Learning Term-based Sparse Representation for Fast Text Retrieval",
+      "url": "https://arxiv.org/pdf/2010.00768.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3404835.3463098",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "SPLADE v2: Sparse Lexical and Expansion Model for Information Retrieval",
+      "url": "https://arxiv.org/pdf/2109.10086.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Learning Passage Impacts for Inverted Indexes",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3404835.3463030",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "TILDE: Term Independent Likelihood moDEl for Passage Re-ranking",
+      "url": "http://ielab.io/publications/pdfs/arvin2021tilde.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Fast Passage Re-ranking with Contextualized Exact Term Matching and Efficient Passage Expansion",
+      "url": "https://arxiv.org/pdf/2108.08513.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "SpaDE: Improving Sparse Representations using a Dual Document Encoder for First-stage Retrieval",
+      "url": "https://arxiv.org/pdf/2209.05917.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Semantic Hashing",
+      "url": "https://reader.elsevier.com/reader/sd/pii/S0888613X08001813?token=DC834E84448C134BC820C604CD63095AD2736144D81932A2E4EF5080206926924B21983C3254D232BB02587EDBC6F1AE&originRegion=us-east-1&originCreation=20210806113324",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "From Neural Re-Ranking to Neural Ranking: Learning a Sparse Representation for Inverted Indexing",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3269206.3271800",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "UHD-BERT: Bucketed Ultra-High Dimensional Sparse Representations for Full Ranking",
+      "url": "https://arxiv.org/pdf/2104.07198.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Efﬁcient Passage Retrieval with Hashing for Open-domain Question Answering",
+      "url": "https://arxiv.org/pdf/2106.00882.pdf",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "Composite Code Sparse Autoencoders for First Stage Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3404835.3463066?casa_token=MPKX0sQEXTgAAAAA:DeX2RpvQpfS_8wpW1DfHvfeMtQjglVIkp84o4N-ZZPGiUbUQqMllfxWS2E8SYzKLGLWyz_eI9L0-",
+      "category": "sparse-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Aggregating Continuous Word Embeddings for Information Retrieval",
+      "url": "https://aclanthology.org/W13-3212.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Monolingual and Cross-Lingual Information Retrieval Models Based on (Bilingual) Word Embeddings",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2766462.2767752",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Short Text Similarity with Word Embeddings",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2806416.2806475",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "A Dual Embedding Space Model for Document Ranking",
+      "url": "https://arxiv.org/pdf/1602.01137.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Natural Language Response Suggestion for Smart Reply",
+      "url": "https://arxiv.org/pdf/1705.00652.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "End-to-End Retrieval in Continuous Space",
+      "url": "https://arxiv.org/pdf/1811.08008.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Phrase-Indexed Question Answering: A New Challenge for Scalable Document Comprehension",
+      "url": "https://arxiv.org/pdf/1804.07726.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "url": "https://arxiv.org/pdf/2004.04906.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Retrieval-augmented generation for knowledge-intensive NLP tasks",
+      "url": "https://arxiv.org/pdf/2005.11401.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "RepBERT: Contextualized Text Embeddings for First-Stage Retrieval",
+      "url": "https://arxiv.org/pdf/2006.15498.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "CoRT: Complementary Rankings from Transformers",
+      "url": "https://aclanthology.org/2021.naacl-main.331.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "DC-BERT: Decoupling Question and Document for Efficient Contextual Encoding",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401271",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation",
+      "url": "https://arxiv.org/pdf/2009.13815.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval",
+      "url": "https://arxiv.org/pdf/2007.00808.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Learning To Retrieve: How to Train a Dense Retrieval Model Effectively and Efficiently",
+      "url": "https://arxiv.org/pdf/2010.10469.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "GLOW : Global Weighted Self-Attention Network for Web",
+      "url": "https://arxiv.org/pdf/2007.05186.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "An Optimized Training Approach to Dense Passage Retrieval for Open-Domain Question Answering",
+      "url": "https://aclanthology.org/2021.naacl-main.466.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling",
+      "url": "https://arxiv.org/pdf/2104.06967.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Optimizing Dense Retrieval Model Training with Hard Negatives",
+      "url": "https://arxiv.org/pdf/2104.08051.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Few-Shot Conversational Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2105.04166.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Learning Dense Representations of Phrases at Scale",
+      "url": "https://arxiv.org/pdf/2012.12624.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "More Robust Dense Retrieval with Contrastive Dual Learning",
+      "url": "https://arxiv.org/pdf/2107.07773.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "PAIR: Leveraging Passage-Centric Similarity Relation for Improving Dense Passage Retrieval",
+      "url": "https://aclanthology.org/2021.findings-acl.191.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Relevance-guided Supervision for OpenQA with ColBERT",
+      "url": "https://arxiv.org/pdf/2007.00814.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering",
+      "url": "https://arxiv.org/pdf/2106.05346.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback",
+      "url": "https://arxiv.org/pdf/2108.13454.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Pseudo-Relevance Feedback for Multiple Representation Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2106.11251.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "A Discriminative Semantic Ranker for Question Retrieval",
+      "url": "https://arxiv.org/pdf/2107.08345.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Representation Decoupling for Open-Domain Passage Retrieval",
+      "url": "https://arxiv.org/pdf/2110.07524.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "RocketQAv2: A Joint Training Method for Dense Passage Retrieval and Passage Re-ranking",
+      "url": "https://arxiv.org/pdf/2110.07367.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Efﬁcient Training of Retrieval Models Using Negative Cache",
+      "url": "https://proceedings.neurips.cc/paper/2021/file/2175f8c5cd9604f6b1e576b252d4c86e-Paper.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Multi-stage Training with Improved Negative Contrast for Neural Passage Retrieval",
+      "url": "https://aclanthology.org/2021.emnlp-main.492.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Improving Embedding-based Large-scale Retrieval via Label Enhancement",
+      "url": "https://aclanthology.org/2021.findings-emnlp.13.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Dense Hierarchical Retrieval for Open-Domain Question Answering",
+      "url": "https://arxiv.org/pdf/2110.15439.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Progressively Optimized Bi-Granular Document Representation for Scalable Embedding Based Retrieval",
+      "url": "https://arxiv.org/pdf/2201.05409.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval",
+      "url": "https://arxiv.org/pdf/2208.13661.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Aggretriever: A Simple Approach to Aggregate Textual Representation for Robust Dense Passage Retrieval",
+      "url": "https://arxiv.org/pdf/2208.00511.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Sentence-aware Contrastive Learning for Open-Domain Passage Retrieval",
+      "url": "https://aclanthology.org/2022.acl-long.76.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Task-Aware Specialization for Efﬁcient and Robust Dense Retrieval for Open-Domain Question Answering",
+      "url": "https://arxiv.org/pdf/2210.05156.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "Distilling Dense Representations for Ranking using Tightly-Coupled Teachers",
+      "url": "https://arxiv.org/pdf/2010.11386.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Distilling Knowledge for Fast Retrieval-based Chat-bots",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401296",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "Distilling Knowledge from Reader to Retriever for Question Answering",
+      "url": "https://arxiv.org/pdf/2012.04584.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "Is Retriever Merely an Approximator of Reader?",
+      "url": "https://arxiv.org/pdf/2010.10999.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Improving Bi-encoder Document Ranking Models with Two Rankers and Multi-teacher Distillation",
+      "url": "https://arxiv.org/pdf/2103.06523.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Improving Efficient Neural Ranking Models with Cross-Architecture Knowledge Distillation",
+      "url": "https://arxiv.org/pdf/2010.02666.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Twinbert: Distilling knowledge to twin-structured compressed bert models for large-scale retrieval",
+      "url": "https://arxiv.org/pdf/2002.06275.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Hop Paragraph Retrieval for Open-Domain Question Answering",
+      "url": "https://arxiv.org/pdf/1906.06606.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Sparse, Dense, and Attentional Representations for Text Retrieval",
+      "url": "https://arxiv.org/pdf/2005.00181.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401075",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List",
+      "url": "https://arxiv.org/pdf/2104.07186.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2105.03599.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Phrase Retrieval Learns Passage Retrieval, Too",
+      "url": "https://arxiv.org/pdf/2109.08133.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Query Embedding Pruning for Dense Retrieval",
+      "url": "https://arxiv.org/abs/2108.10341",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Multi-View Document Representation Learning for Open-Domain Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2203.08372.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "ColBERTv2: Effective and Efﬁcient Retrieval via Lightweight Late Interaction",
+      "url": "https://arxiv.org/pdf/2112.01488.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Learning Diverse Document Representations with Deep Query Interactions for Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2208.04232.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Topic-Grained Text Representation-based Model for Document Retrieval",
+      "url": "https://arxiv.org/pdf/2207.04656.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Incorporating Query Term Independence Assumption for Efficient Retrieval and Ranking using Deep Neural Networks",
+      "url": "https://arxiv.org/pdf/1907.03693.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Interaction-based Neural Ranking with Locality Sensitive Hashing",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3308558.3313576",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring",
+      "url": "https://arxiv.org/pdf/1905.01969.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Modularized Transfomer-based Ranking Framework",
+      "url": "https://arxiv.org/pdf/2004.13313.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Document Re-Ranking for Transformers by Precomputing Term Representations",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401093",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "DeFormer: Decomposing Pre-trained Transformers for Faster Question Answering",
+      "url": "https://arxiv.org/pdf/2005.00697.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "SPARTA: Efﬁcient Open-Domain Question Answering via Sparse Transformer Matching Retrieval",
+      "url": "https://arxiv.org/pdf/2009.13013.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Conformer-Kernel with Query Term Independence for Document Retrieval",
+      "url": "https://arxiv.org/pdf/2007.10434.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "IntTower: the Next Generation of Two-Tower Model for Pre-Ranking System",
+      "url": "https://arxiv.org/pdf/2210.09890.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+      "url": "https://arxiv.org/pdf/1906.00300.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "Retrieval-Augmented Language Model Pre-Training",
+      "url": "http://proceedings.mlr.press/v119/guu20a/guu20a.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Pre-training Tasks for Embedding-based Large-scale Retrieval",
+      "url": "https://arxiv.org/pdf/2002.03932.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "Is Your Language Model Ready for Dense Representation Fine-tuning?",
+      "url": "https://arxiv.org/pdf/2104.08253.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval",
+      "url": "https://arxiv.org/abs/2108.05540",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Less is More: Pre-training a Strong Siamese Encoder Using a Weak Decoder",
+      "url": "https://arxiv.org/pdf/2102.09206.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Pre-trained Language Model for Web-scale Retrieval in Baidu Search",
+      "url": "https://arxiv.org/pdf/2106.03373.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Pre-training for Ad-hoc Retrieval: Hyperlink is Also You Need",
+      "url": "http://playbigdata.ruc.edu.cn/dou/publication/2021_CIKM_Pretraining.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Pre-train a discriminative text encoder for dense retrieval via contrastive span prediction",
+      "url": "https://arxiv.org/pdf/2204.10641.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupervised Sentence Embedding Learning",
+      "url": "https://aclanthology.org/2021.findings-emnlp.59.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "ConTextual Mask Auto-Encoder for Dense Passage Retrieval",
+      "url": "https://arxiv.org/pdf/2208.07670.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "SimLM: Pre-training with representation bottleneck for dense passage retrieval",
+      "url": "https://arxiv.org/pdf/2207.02578.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "LexMAE: Lexicon-Bottlenecked Pretraining for Large-Scale Retrieval",
+      "url": "https://arxiv.org/pdf/2208.14754v1.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "A Contrastive Pre-training Approach to Learn Discriminative Autoencoder for Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2208.09846.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "RetroMAE: Pre-Training Retrieval-oriented Language Models Via Masked Auto-Encoder",
+      "url": "https://arxiv.org/pdf/2205.12035.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Retrieval Oriented Masking Pre-training Language Model for Dense Passage Retrieval",
+      "url": "https://arxiv.org/pdf/2210.15133.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "LaPraDoR: Unsupervised Pretrained Dense Retriever for Zero-Shot Text Retrieval",
+      "url": "https://arxiv.org/pdf/2203.06169.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Masked Autoencoders As The Unified Learners For Pre-Trained Sentence Representation",
+      "url": "https://arxiv.org/pdf/2208.00231.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "MASTER: Multi-task Pre-trained Bottlenecked Masked Autoencoders are Better Dense Retrievers",
+      "url": "https://arxiv.org/pdf/2212.07841.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "CoT-MAE v2: Contextual Masked Auto-Encoder with Multi-view Modeling for Passage Retrieval",
+      "url": "https://arxiv.org/pdf/2304.03158.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "CoT-MoTE: Exploring ConTextual Masked Auto-Encoder Pre-training with Mixture-of-Textual-Experts for Passage Retrieval",
+      "url": "https://arxiv.org/pdf/2304.10195.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index",
+      "url": "https://arxiv.org/pdf/2105.03933.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "Jointly Optimizing Query Encoder and Product Quantization to Improve Retrieval Performance",
+      "url": "https://arxiv.org/pdf/2108.00644.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "Matching-oriented Product Quantization For Ad-hoc Retrieval",
+      "url": "https://arxiv.org/pdf/2104.07858.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Learning Discrete Representations via Constrained Clustering for Effective and Efficient Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2110.05789",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "End-to-End Training of Neural Retrievers for Open-Domain Question Answering",
+      "url": "https://arxiv.org/pdf/2101.00408.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Adversarial Retriever-Ranker for dense text retrieval",
+      "url": "https://arxiv.org/pdf/2110.03611.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "Learning Robust Dense Retrieval Models from Incomplete Relevance Labels",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3404835.3463106?casa_token=o7uvhY_qcJgAAAAA:m5tqKfk2x4HNcucL2iL5oMclriEuEZ-O_k7sy8UcJiAWe493HIFg6OeJv-kG7DQEMcoCjZEyhEP3Mg",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "Hard negatives or false negatives: Correcting pooling bias in training neural ranking models",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3511808.3557343",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "SimANS: Simple Ambiguous Negatives Sampling for Dense Text Retrieval",
+      "url": "https://arxiv.org/pdf/2210.11773.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Debiased contrastive learning of unsupervised sentence representations",
+      "url": "https://aclanthology.org/2022.acl-long.423.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Recovering Gold from Black Sand: Multilingual Dense Passage Retrieval with Hard and False Negative Samples",
+      "url": "https://aclanthology.org/2022.emnlp-main.730.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "Embedding-based Zero-shot Retrieval through Query Generation",
+      "url": "https://arxiv.org/pdf/2009.10270.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Zero-shot Neural Passage Retrieval via Domain-targeted Synthetic Question Generation",
+      "url": "https://arxiv.org/pdf/2004.14503.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Towards Robust Neural Retrieval Models with Synthetic Pre-Training",
+      "url": "https://arxiv.org/pdf/2104.07800.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+      "url": "https://arxiv.org/pdf/2104.08663.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Zero-Shot Dense Retrieval with Momentum Adversarial Domain Invariant Representations",
+      "url": "https://arxiv.org/pdf/2110.07581.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "Large Dual Encoders Are Generalizable Retrievers",
+      "url": "https://arxiv.org/pdf/2112.07899.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Out-of-Domain Semantics to the Rescue! Zero-Shot Hybrid Retrieval Models",
+      "url": "https://arxiv.org/pdf/2201.10582.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "InPars: Data Augmentation for Information Retrieval using Large Language Models",
+      "url": "https://arxiv.org/pdf/2202.05144.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Towards Unsupervised Dense Information Retrieval with Contrastive Learning",
+      "url": "https://arxiv.org/pdf/2112.09118.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "GPL: Generative Pseudo Labeling for Unsupervised Domain Adaptation of Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2112.07577.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Learning to Retrieve Passages without Supervision",
+      "url": "https://arxiv.org/pdf/2112.07708.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "A thorough examination on zero-shot dense retrieval",
+      "url": "https://arxiv.org/pdf/2204.12755.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Text and Code Embeddings by Contrastive Pre-Training",
+      "url": "https://arxiv.org/pdf/2201.10005.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Disentangled Modeling of Domain and Relevance for Adaptable Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2208.05753.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "Promptagator: Few-shot Dense Retrieval From 8 Examples",
+      "url": "https://arxiv.org/pdf/2209.11755v1.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "Questions Are All You Need to Train a Dense Passage Retriever",
+      "url": "https://arxiv.org/pdf/2206.10658.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization",
+      "url": "https://openreview.net/pdf?id=kUf4BcWXGJr",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "COCO-DR: Combating Distribution Shifts in Zero-Shot Dense Retrieval with Contrastive and Distributionally Robust Learning",
+      "url": "https://arxiv.org/pdf/2210.15212.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "Challenges in generalization in open domain question answering",
+      "url": "https://arxiv.org/pdf/2109.01156.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "Towards robust dense retrieval via local ranking alignment",
+      "url": "https://www.ijcai.org/proceedings/2022/0275.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "Dealing with typos for bert-based passage retrieval and ranking",
+      "url": "https://arxiv.org/pdf/2108.12139.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating the robustness of retrieval pipelines with query variation generators",
+      "url": "https://arxiv.org/pdf/2111.13057.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "Analysing the robustness of dual encoders for dense retrieval against misspellings",
+      "url": "https://dl.acm.org/doi/10.1145/3477495.3531818",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "Characterbert and self-teaching for improving the robustness of dense retrievers on queries with typos",
+      "url": "https://arxiv.org/pdf/2204.00716.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "BERT rankers are brittle: A study using adversarial document perturbations",
+      "url": "https://arxiv.org/pdf/2206.11724.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "Order-disorder: Imitation adversarial attacks for blackbox neural ranking models",
+      "url": "https://arxiv.org/pdf/2209.06506.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "Typos-aware Bottlenecked Pre-Training for Robust Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2304.08138.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "The Curse of Dense Low-Dimensional Information Retrieval for Large Index Sizes",
+      "url": "https://arxiv.org/abs/2012.14210",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "Simple and Effective Unsupervised Redundancy Elimination to Compress Dense Vectors for Passage Retrieval",
+      "url": "https://cs.uwaterloo.ca/~jimmylin/publications/Ma_etal_EMNLP2021.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+      "url": "https://arxiv.org/pdf/2104.08663.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Salient Phrase Aware Dense Retrieval: Can a Dense Retriever Imitate a Sparse One?",
+      "url": "https://arxiv.org/pdf/2110.06918.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "Simple Entity-Centric Questions Challenge Dense Retrievers",
+      "url": "https://arxiv.org/pdf/2109.08535.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "Interpreting Dense Retrieval as Mixture of Topics",
+      "url": "https://arxiv.org/pdf/2111.13957.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "An Encoder Attribution Analysis for Dense Passage Retriever in Open-Domain Question Answering",
+      "url": "https://aclanthology.org/2022.trustnlp-1.1.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Isotropic Representation Can Improve Dense Retrieval",
+      "url": "https://arxiv.org/pdf/2209.00218.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "Semi-Siamese Bi-encoder Neural Ranking Model Using Lightweight Fine-Tuning",
+      "url": "https://arxiv.org/pdf/2110.14943.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "Scattered or Connected? An Optimized Parameter-efficient Tuning Approach for Information Retrieval",
+      "url": "https://arxiv.org/pdf/2208.09847.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "DPTDR: Deep Prompt Tuning for Dense Passage Retrieval",
+      "url": "https://arxiv.org/pdf/2208.11503.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "Parameter-Efﬁcient Prompt Tuning Makes Generalized and Calibrated Neural Text Retrievers",
+      "url": "https://arxiv.org/pdf/2207.07087.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "NIR-Prompt: A Multi-task Generalized Neural Information Retrieval Training Framework",
+      "url": "https://arxiv.org/pdf/2212.00229.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+      "url": "https://arxiv.org/pdf/2212.10496.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "HLATR: Enhance Multi-stage Text Retrieval with Hybrid List Aware Transformer Reranking",
+      "url": "https://arxiv.org/pdf/2205.10569.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "Asyncval: A Toolkit for Asynchronously Validating Dense Retriever Checkpoints during Training",
+      "url": "https://arxiv.org/pdf/2202.12510.pdf",
+      "category": "dense-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "Monolingual and Cross-Lingual Information Retrieval Models Based on (Bilingual) Word Embeddings",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2766462.2767752",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "Word Embedding based Generalized Language Model for Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2766462.2767780",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "Representing Documents and Queries as Sets of Word Embedded Vectors for Information Retrieval",
+      "url": "https://arxiv.org/pdf/1606.07869.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "A Dual Embedding Space Model for Document Ranking",
+      "url": "https://arxiv.org/pdf/1602.01137.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "Off the Beaten Path: Let’s Replace Term-Based Retrieval with k-NN Search",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2983323.2983815",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "Learning Hybrid Representations to Retrieve Semantically Equivalent Questions",
+      "url": "https://aclanthology.org/P15-2114.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index",
+      "url": "https://arxiv.org/pdf/1906.05807.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "Contextualized Sparse Representations for Real-Time Open-Domain Question Answering",
+      "url": "https://arxiv.org/pdf/1911.02896.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "CoRT: Complementary Rankings from Transformers",
+      "url": "https://aclanthology.org/2021.naacl-main.331.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "Sparse, Dense, and Attentional Representations for Text Retrieval",
+      "url": "https://arxiv.org/pdf/2005.00181.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "Complement Lexical Retrieval Model with Semantic Residual Embeddings",
+      "url": "https://arxiv.org/pdf/2004.13969.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "Leveraging Semantic and Lexical Matching to Improve the Recall of Document Retrieval Systems: A Hybrid Approach",
+      "url": "https://arxiv.org/pdf/2010.01195.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques",
+      "url": "https://arxiv.org/pdf/2106.14807.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3404835.3463073",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Predicting Efficiency/Effectiveness Trade-offs for Dense vs. Sparse Retrieval Strategy Selection",
+      "url": "https://arxiv.org/pdf/2109.10739.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Fast Forward Indexes for Efficient Document Ranking",
+      "url": "https://arxiv.org/pdf/2110.06051.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Densifying Sparse Representations for Passage Retrieval by Representational Slicing",
+      "url": "https://arxiv.org/pdf/2112.04666.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "UniﬁeR: A Uniﬁed Retriever for Large-Scale Retrieval",
+      "url": "https://arxiv.org/pdf/2205.11194.pdf",
+      "category": "hybrid-retrieval-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "Deep Interest Network for Click-Through Rate Prediction",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3219819.3219823",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "From Semantic Retrieval to Pairwise Ranking: Applying Deep Learning in E-commerce Search",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3331184.3331434",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Interest Network with Dynamic Routing for Recommendation at Tmall",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3357384.3357814",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3397271.3401446",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "Deep Multi-Interest Network for Click-through Rate Prediction",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3340531.3412092",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "Deep Retrieval: An End-to-End Learnable Structure Model for Large-Scale Recommendations",
+      "url": "https://arxiv.org/pdf/2007.07203.pdf",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "Embedding-based Product Retrieval in Taobao Search",
+      "url": "https://arxiv.org/pdf/2106.09297.pdf",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "Embracing Structure in Data for Billion-Scale Semantic Product Search",
+      "url": "https://arxiv.org/pdf/2110.06125.pdf",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3292500.3330651",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "Binary Neural Network Hashing for Image Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3404835.3462896",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "Deep Self-Adaptive Hashing for Image Retrieval",
+      "url": "https://arxiv.org/pdf/2108.07094.pdf",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "Report on the First HIPstIR Workshop on the Future of Information Retrieval",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3458553.3458560",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "Let’s measure run time! Extending the IR replicability infrastructure to include performance aspects",
+      "url": "https://arxiv.org/pdf/1907.04614.pdf",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "Embedding-based Retrieval in Facebook Search",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3394486.3403305",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "Learning K-way D-dimensional Discrete Codes for Compact Embedding Representations",
+      "url": "http://proceedings.mlr.press/v80/chen18g/chen18g.pdf",
+      "category": "other-tasks",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "MS MARCO: A Human Generated MAchine Reading COmprehension Dataset",
+      "url": "https://arxiv.org/pdf/1611.09268.pdf",
+      "category": "datasets",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "TREC Complex Answer Retrieval Overview",
+      "url": "https://trec.nist.gov/pubs/trec26/papers/Overview-CAR.pdf",
+      "category": "datasets",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "Overview of the TREC 2019 deep learning track",
+      "url": "https://arxiv.org/pdf/2003.07820.pdf",
+      "category": "datasets",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "TREC-COVID: Constructing a Pandemic Information Retrieval Test Collection",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3451964.3451965",
+      "category": "datasets",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "Multidimensional Binary Search Trees Used for Associative Searching",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/361002.361007",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "Annoy",
+      "url": "https://github.com/spotify/annoy",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/276698.276876",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "Product Quantization for Nearest Neighbor Search",
+      "url": "https://ieeexplore.ieee.org/abstract/document/5432202",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "Optimized Product Quantization",
+      "url": "https://ieeexplore.ieee.org/abstract/document/6678503",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "Navigation in a Small World",
+      "url": "https://www.nature.com/articles/35022643.pdf",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs",
+      "url": "https://arxiv.org/pdf/1603.09320.pdf",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "Faiss: a library for efficient similarity search and clustering of dense vectors",
+      "url": "https://github.com/facebookresearch/faiss",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "SPTAG: A library for fast approximate nearest neighbor search",
+      "url": "https://github.com/microsoft/SPTAG",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "OpenMatch: An Open-Source Package for Information Retrieval",
+      "url": "https://github.com/thunlp/OpenMatch",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations",
+      "url": "https://github.com/castorini/pyserini",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "ElasticSearch",
+      "url": "https://github.com/elastic/elasticsearch",
+      "category": "indexing-methods",
+      "source_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/blob/3b501ddd162f13688346c37a20d49bce53cf58d4/README.md#L382",
+      "line": 382,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 280,
+  "unique_links": 272,
+  "category_count": 14,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "caiyinqiong",
+      "url": "https://github.com/caiyinqiong",
+      "contributions": 63
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 63,
+    "has_more": false,
+    "path_commit_count": 63,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:53:06.926550+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by caiyinqiong/Semantic-Retrieval-Models contributors.",
+  "license": null,
+  "license_url": "https://github.com/caiyinqiong/Semantic-Retrieval-Models/tree/3b501ddd162f13688346c37a20d49bce53cf58d4",
+  "digest": "4196311c65beba7aeb9fedce0fc02ec51ad4d3876527fdc11bbc90aa82720719"
+}

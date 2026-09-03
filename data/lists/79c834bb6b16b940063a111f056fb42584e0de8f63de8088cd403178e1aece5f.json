@@ -1,0 +1,1733 @@
+{
+  "format_version": 3,
+  "repository_id": "885306675",
+  "name": "LMM101/Awesome-Multimodal-Next-Token-Prediction",
+  "revision": "acc66d4bce722e5328549e4d50badfd9dc89aaeb",
+  "readme_path": "README.md",
+  "readme_sha256": "c63dafa814b9a5478b84277b5b4051565406a4e46e2b78db98acd989405d9f9d",
+  "sections": [
+    {
+      "id": "-news",
+      "title": "🔥🔥 News",
+      "level": 2,
+      "path": [
+        "🔥🔥 News"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#-news",
+      "entries": 0
+    },
+    {
+      "id": "-table-of-contents",
+      "title": "📑 Table of Contents",
+      "level": 2,
+      "path": [
+        "📑 Table of Contents"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#-table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "awesome-multimodal-tokenizers",
+      "title": "Awesome Multimodal Tokenizers",
+      "level": 2,
+      "path": [
+        "Awesome Multimodal Tokenizers"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#awesome-multimodal-tokenizers",
+      "entries": 0
+    },
+    {
+      "id": "vision-tokenizer",
+      "title": "Vision Tokenizer",
+      "level": 3,
+      "path": [
+        "Awesome Multimodal Tokenizers",
+        "Vision Tokenizer"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#vision-tokenizer",
+      "entries": 30
+    },
+    {
+      "id": "audio-tokenizer",
+      "title": "Audio Tokenizer",
+      "level": 3,
+      "path": [
+        "Awesome Multimodal Tokenizers",
+        "Audio Tokenizer"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#audio-tokenizer",
+      "entries": 18
+    },
+    {
+      "id": "awesome-mmntp-models",
+      "title": "Awesome MMNTP Models",
+      "level": 2,
+      "path": [
+        "Awesome MMNTP Models"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#awesome-mmntp-models",
+      "entries": 0
+    },
+    {
+      "id": "vision-model",
+      "title": "Vision Model",
+      "level": 3,
+      "path": [
+        "Awesome MMNTP Models",
+        "Vision Model"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#vision-model",
+      "entries": 43
+    },
+    {
+      "id": "audio-model",
+      "title": "Audio Model",
+      "level": 3,
+      "path": [
+        "Awesome MMNTP Models",
+        "Audio Model"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#audio-model",
+      "entries": 32
+    },
+    {
+      "id": "awesome-multimodal-prompt-engineering",
+      "title": "Awesome Multimodal Prompt Engineering",
+      "level": 2,
+      "path": [
+        "Awesome Multimodal Prompt Engineering"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#awesome-multimodal-prompt-engineering",
+      "entries": 0
+    },
+    {
+      "id": "multimodal-icl",
+      "title": "Multimodal ICL",
+      "level": 3,
+      "path": [
+        "Awesome Multimodal Prompt Engineering",
+        "Multimodal ICL"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#multimodal-icl",
+      "entries": 23
+    },
+    {
+      "id": "multimodal-cot",
+      "title": "Multimodal CoT",
+      "level": 3,
+      "path": [
+        "Awesome Multimodal Prompt Engineering",
+        "Multimodal CoT"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#multimodal-cot",
+      "entries": 13
+    },
+    {
+      "id": "citation",
+      "title": "Citation",
+      "level": 2,
+      "path": [
+        "Citation"
+      ],
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#citation",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation",
+      "url": "https://arxiv.org/abs/2406.09399",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L76",
+      "line": 76,
+      "properties": {
+        "Tokenization Type": "Discrete & Continuous"
+      }
+    },
+    {
+      "title": "TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation",
+      "url": "https://arxiv.org/abs/2412.03069",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L77",
+      "line": 77,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution (QwenVL2-ViT)",
+      "url": "https://arxiv.org/abs/2409.12191",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L78",
+      "line": 78,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+      "url": "https://arxiv.org/abs/2404.02905",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L79",
+      "line": 79,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs",
+      "url": "https://arxiv.org/abs/2306.17842",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L80",
+      "line": 80,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "Unified Language-Vision Pretraining in LLM with Dynamic Discrete Visual Tokenization",
+      "url": "https://arxiv.org/abs/2309.04669",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L81",
+      "line": 81,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation",
+      "url": "https://arxiv.org/abs/2310.05737",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L82",
+      "line": 82,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+      "url": "https://arxiv.org/abs/2312.14238",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L83",
+      "line": 83,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Patch n' Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution",
+      "url": "https://arxiv.org/abs/2307.06304",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L84",
+      "line": 84,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Planting a SEED of Vision in Large Language Model",
+      "url": "https://arxiv.org/abs/2307.08041",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L85",
+      "line": 85,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "SAM-CLIP: Merging Vision Foundation Models towards Semantic and Spatial Understanding",
+      "url": "https://arxiv.org/abs/2310.15308",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L86",
+      "line": 86,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "EVA-CLIP: Improved Training Techniques for CLIP at Scale",
+      "url": "https://arxiv.org/abs/2303.15389",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L87",
+      "line": 87,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks",
+      "url": "https://arxiv.org/pdf/2208.10442.pdf",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L88",
+      "line": 88,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "A Unified View of Masked Image Modeling",
+      "url": "https://openreview.net/pdf?id=wmGlMhaBe0",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L89",
+      "line": 89,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "BEiT v2: Masked Image Modeling with Vector-Quantized Visual Tokenizers",
+      "url": "https://arxiv.org/pdf/2208.06366.pdf",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L90",
+      "line": 90,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "MAGVIT: Masked Generative Video Transformer",
+      "url": "https://arxiv.org/abs/2212.05199",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L91",
+      "line": 91,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "Phenaki: Variable Length Video Generation From Open Domain Textual Description",
+      "url": "https://arxiv.org/abs/2210.02399",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L92",
+      "line": 92,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
+      "url": "https://arxiv.org/abs/2205.01917",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L93",
+      "line": 93,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Autoregressive Image Generation using Residual Quantization",
+      "url": "https://arxiv.org/abs/2203.01941",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L94",
+      "line": 94,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "ACAV100M: Automatic Curation of Large-Scale Datasets for Audio-Visual Video Representation Learning",
+      "url": "https://arxiv.org/pdf/2101.10803",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L95",
+      "line": 95,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "FlexiViT: One Model for All Patch Sizes",
+      "url": "https://arxiv.org/abs/2212.08013",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L96",
+      "line": 96,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Vector-quantized Image Modeling with Improved VQGAN",
+      "url": "https://arxiv.org/pdf/2110.04627",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L97",
+      "line": 97,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "ViViT: A Video Vision Transformer",
+      "url": "https://arxiv.org/pdf/2103.15691",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L98",
+      "line": 98,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "BEiT: BERT Pre-Training of Image Transformers",
+      "url": "https://arxiv.org/pdf/2106.08254",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L99",
+      "line": 99,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "High-Performance Large-Scale Image Recognition Without Normalization",
+      "url": "https://arxiv.org/abs/2102.06171",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L100",
+      "line": 100,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Learning Transferable Visual Models From Natural Language Supervision (CLIP)",
+      "url": "https://arxiv.org/abs/2103.00020",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L101",
+      "line": 101,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Taming Transformers for High-Resolution Image Synthesis",
+      "url": "https://arxiv.org/abs/2012.09841",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L102",
+      "line": 102,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "Generating Diverse High-Fidelity Images with VQ-VAE-2",
+      "url": "https://arxiv.org/abs/1906.00446",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L103",
+      "line": 103,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "Temporal 3D ConvNets: New Architecture and Transfer Learning for Video Classification",
+      "url": "https://arxiv.org/abs/1711.08200",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L104",
+      "line": 104,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Neural Discrete Representation Learning (VQVAE)",
+      "url": "https://arxiv.org/abs/1711.00937",
+      "category": "vision-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L105",
+      "line": 105,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "Moshi: a speech-text foundation model for real-time dialogue (Mimi)",
+      "url": "https://arxiv.org/abs/2410.00037",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L111",
+      "line": 111,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling",
+      "url": "https://arxiv.org/abs/2408.16532",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L112",
+      "line": 112,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound",
+      "url": "https://arxiv.org/abs/2405.00233",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L113",
+      "line": 113,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models (FACodec)",
+      "url": "https://arxiv.org/abs/2403.03100",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L114",
+      "line": 114,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models",
+      "url": "https://arxiv.org/abs/2308.16692",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L115",
+      "line": 115,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "HiFi-Codec: Group-residual Vector quantization for High Fidelity Audio Codec",
+      "url": "https://arxiv.org/abs/2305.02765",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L116",
+      "line": 116,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "LMCodec: A Low Bitrate Speech Codec With Causal Transformer Models",
+      "url": "https://arxiv.org/abs/2303.12984",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L117",
+      "line": 117,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "High-Fidelity Audio Compression with Improved RVQGAN (DAC)",
+      "url": "https://arxiv.org/abs/2306.06546",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L118",
+      "line": 118,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "Google USM: Scaling Automatic Speech Recognition Beyond 100 Languages",
+      "url": "https://arxiv.org/abs/2303.01037",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L119",
+      "line": 119,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "High Fidelity Neural Audio Compression (Encodec)",
+      "url": "https://arxiv.org/abs/2210.13438",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L120",
+      "line": 120,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "CLAP: Learning Audio Concepts From Natural Language Supervision",
+      "url": "https://arxiv.org/abs/2206.04769",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L121",
+      "line": 121,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "Robust Speech Recognition via Large-Scale Weak Supervision (Whisper)",
+      "url": "https://arxiv.org/abs/2212.04356",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L122",
+      "line": 122,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language",
+      "url": "https://arxiv.org/abs/2202.03555",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L123",
+      "line": 123,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing",
+      "url": "https://arxiv.org/abs/2110.13900",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L124",
+      "line": 124,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
+      "url": "https://arxiv.org/abs/2106.07447",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L125",
+      "line": 125,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "SoundStream: An End-to-End Neural Audio Codec",
+      "url": "https://arxiv.org/abs/2107.03312",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L126",
+      "line": 126,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+      "url": "https://arxiv.org/abs/2006.11477",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L127",
+      "line": 127,
+      "properties": {
+        "Tokenization Type": "Continuous"
+      }
+    },
+    {
+      "title": "vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations",
+      "url": "https://arxiv.org/abs/1910.05453",
+      "category": "audio-tokenizer",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L128",
+      "line": 128,
+      "properties": {
+        "Tokenization Type": "Discrete"
+      }
+    },
+    {
+      "title": "MetaMorph: Multimodal Understanding and Generation via Instruction Tuning",
+      "url": "https://arxiv.org/abs/2412.14164",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L141",
+      "line": 141,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Liquid: Language Models are Scalable Multi-modal Generators",
+      "url": "https://arxiv.org/abs/2412.04332",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L142",
+      "line": 142,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Infinity ∞: Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis",
+      "url": "https://arxiv.org/pdf/2412.04431",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L143",
+      "line": 143,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Multimodal Latent Language Modeling with Next-Token Diffusion",
+      "url": "https://arxiv.org/pdf/2412.08635.pdf",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L144",
+      "line": 144,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Randomized Autoregressive Visual Generation (RAR)",
+      "url": "https://arxiv.org/abs/2411.00776",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L145",
+      "line": 145,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Mono-InternVL: Pushing the Boundaries of Monolithic Multimodal Large Language Models with Endogenous Visual Pre-training (MonoInternVL)",
+      "url": "https://arxiv.org/abs/2410.08202",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L146",
+      "line": 146,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "A Single Transformer for Scalable Vision-Language Modeling (SOLO)",
+      "url": "https://arxiv.org/abs/2407.06438",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L147",
+      "line": 147,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Unveiling Encoder-Free Vision-Language Models (EVE)",
+      "url": "https://arxiv.org/abs/2406.11832",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L148",
+      "line": 148,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution (Qwen2VL)",
+      "url": "https://arxiv.org/abs/2409.12191",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L149",
+      "line": 149,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation (Janus)",
+      "url": "https://arxiv.org/abs/2410.13848",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L150",
+      "line": 150,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Emu3: Next-Token Prediction is All You Need (Emu3)",
+      "url": "https://arxiv.org/abs/2409.18869",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L151",
+      "line": 151,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation (Show-o)",
+      "url": "https://arxiv.org/abs/2408.12528",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L152",
+      "line": 152,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "VILA-U: a Unified Foundation Model Integrating Visual Understanding and Generation (VILA-U)",
+      "url": "https://arxiv.org/abs/2409.04429",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L153",
+      "line": 153,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model (Transfusion)",
+      "url": "https://arxiv.org/abs/2408.11039",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L154",
+      "line": 154,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Fluid: Scaling Autoregressive Text-to-image Generative Models with Continuous Tokens (Fluid)",
+      "url": "https://arxiv.org/abs/2410.13863",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L155",
+      "line": 155,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Autoregressive Image Generation without Vector Quantization (MAR)",
+      "url": "https://arxiv.org/abs/2406.11838",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L156",
+      "line": 156,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models (Chameleon)",
+      "url": "https://arxiv.org/abs/2405.09818",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L157",
+      "line": 157,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models (Mini-Genimi)",
+      "url": "https://arxiv.org/abs/2403.18814",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L158",
+      "line": 158,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "A Spark of Vision-Language Intelligence: 2-Dimensional Autoregressive Transformer for Efficient Finegrained Image Generation (DnD-Transformer)",
+      "url": "https://arxiv.org/abs/2410.01912",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L159",
+      "line": 159,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction (VAR)",
+      "url": "https://arxiv.org/abs/2404.02905",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L160",
+      "line": 160,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation (LlamaGen)",
+      "url": "https://arxiv.org/abs/2406.06525",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L161",
+      "line": 161,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "MiniGPT-5: Interleaved Vision-and-Language Generation via Generative Vokens (MiniGPT5)",
+      "url": "https://arxiv.org/abs/2310.02239",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L162",
+      "line": 162,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "BLIP-Diffusion: Pre-trained Subject Representation for Controllable Text-to-Image Generation and Editing (Blip-Diffusion)",
+      "url": "https://arxiv.org/abs/2305.14720",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L163",
+      "line": 163,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Kosmos-G: Generating Images in Context with Multimodal Large Language Models (Kosmos-G)",
+      "url": "https://arxiv.org/abs/2310.02992",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L164",
+      "line": 164,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Kosmos-2: Grounding Multimodal Large Language Models to the World",
+      "url": "https://arxiv.org/pdf/2306.14824.pdf",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L165",
+      "line": 165,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Kosmos-2.5: A Multimodal Literate Model",
+      "url": "https://arxiv.org/pdf/2309.11419.pdf",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L166",
+      "line": 166,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Kosmos-E: Learning to Follow Instruction for Robotic Grasping",
+      "url": "https://tx-leo.github.io/KOSMOS-E/",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L167",
+      "line": 167,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Unified Language-Vision Pretraining in LLM with Dynamic Discrete Visual Tokenization (LaVIT)",
+      "url": "https://arxiv.org/abs/2309.04669",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L168",
+      "line": 168,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Generative Multimodal Models are In-Context Learners (Emu2)",
+      "url": "https://arxiv.org/abs/2312.13286",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L169",
+      "line": 169,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Generative Pretraining in Multimodality (Emu1)",
+      "url": "https://arxiv.org/abs/2307.05222",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L170",
+      "line": 170,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action (Unified-IO2)",
+      "url": "https://arxiv.org/abs/2312.17172",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L171",
+      "line": 171,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Language Is Not All You Need: Aligning Perception with Language Models (Kosmos-1)",
+      "url": "https://arxiv.org/abs/2302.14045",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L172",
+      "line": 172,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks (InternVL)",
+      "url": "https://arxiv.org/abs/2312.14238",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L173",
+      "line": 173,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond (QwenVL)",
+      "url": "https://arxiv.org/abs/2308.12966",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L174",
+      "line": 174,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Multimodal Models (Molom)",
+      "url": "https://arxiv.org/abs/2409.17146",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L175",
+      "line": 175,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Fuyu-8B: A Multimodal Architecture for AI Agents (Fuyu)",
+      "url": "https://www.adept.ai/blog/fuyu-8b",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L176",
+      "line": 176,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models (BLIP2)",
+      "url": "https://arxiv.org/abs/2301.12597",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L177",
+      "line": 177,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Visual Instruction Tuning (LLaVA)",
+      "url": "https://arxiv.org/abs/2304.08485",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L178",
+      "line": 178,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "MiniGPT4: a Visual Language Model for Few-Shot Learning (MiniGPT4)",
+      "url": "https://arxiv.org/abs/2204.14198",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L179",
+      "line": 179,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Unified-IO: A Unified Model for Vision, Language, and Multi-Modal Tasks (Unified-IO)",
+      "url": "https://arxiv.org/abs/2206.08916",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L180",
+      "line": 180,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Zero-Shot Text-to-Image Generation (DALLE)",
+      "url": "https://arxiv.org/abs/2102.12092",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L181",
+      "line": 181,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Language Models are General-Purpose Interfaces",
+      "url": "https://arxiv.org/pdf/2206.06336.pdf",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L182",
+      "line": 182,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning (Flamingo)",
+      "url": "https://arxiv.org/abs/2204.14198",
+      "category": "vision-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L183",
+      "line": 183,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "VoxtLM: Unified Decoder-Only Models for Consolidating Speech Recognition, Synthesis and Speech, Text Continuation Tasks (VoxtLM)",
+      "url": "https://arxiv.org/abs/2309.07937",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L189",
+      "line": 189,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Moshi: a speech-text foundation model for real-time dialogue (Moshi)",
+      "url": "https://arxiv.org/abs/2410.00037",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L190",
+      "line": 190,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming (Mini-Omni)",
+      "url": "https://arxiv.org/abs/2408.16725",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L191",
+      "line": 191,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "LLaMA-Omni: Seamless Speech Interaction with Large Language Models (LLaMA-Omni)",
+      "url": "https://arxiv.org/abs/2409.06666",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L192",
+      "line": 192,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "SpeechVerse: A Large-scale Generalizable Audio Language Model (SpeechVerse)",
+      "url": "https://arxiv.org/abs/2405.08295",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L193",
+      "line": 193,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities (AudioFlamingo)",
+      "url": "https://arxiv.org/abs/2402.01831",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L194",
+      "line": 194,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "WavLLM: Towards Robust and Adaptive Speech Large Language Model (WavLLM)",
+      "url": "https://arxiv.org/abs/2404.00656",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L195",
+      "line": 195,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "MELLE: Autoregressive Speech Synthesis without Vector Quantization",
+      "url": "https://arxiv.org/abs/2407.08551",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L196",
+      "line": 196,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models (Seed-TTS)",
+      "url": "https://arxiv.org/abs/2406.02430",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L197",
+      "line": 197,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "FireRedTTS: A Foundation Text-To-Speech Framework for Industry-Level Generative Speech Applications (FireRedTTS)",
+      "url": "https://www.arxiv.org/abs/2409.03283",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L198",
+      "line": 198,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens (CosyVoice)",
+      "url": "https://arxiv.org/abs/2407.05407",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L199",
+      "line": 199,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Uniaudio: An audio foundation model toward universal audio generation (UniAudio)",
+      "url": "https://arxiv.org/abs/2310.00704",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L200",
+      "line": 200,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "BASE TTS: Lessons from building a billion-parameter text-to-speech model on 100K hours of data (BASE TTS)",
+      "url": "https://arxiv.org/abs/2402.08093",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L201",
+      "line": 201,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "VoiceCraft: Zero-Shot Speech Editing and Text-to-Speech in the Wild (VoiceCraft)",
+      "url": "https://arxiv.org/abs/2403.16973",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L202",
+      "line": 202,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Speechgpt: Empowering large language models with intrinsic cross-modal conversational abilities (SpeechGPT)",
+      "url": "https://arxiv.org/abs/2305.11000",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L203",
+      "line": 203,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Lauragpt: Listen, attend, understand, and regenerate audio with gpt (LauraGPT)",
+      "url": "https://arxiv.org/abs/2310.04673",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L204",
+      "line": 204,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Viola: Unified codec language models for speech recognition, synthesis, and translation (VIOLA)",
+      "url": "https://arxiv.org/abs/2305.16107",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L205",
+      "line": 205,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Audiopalm: A large language model that can speak and listen (AudioPaLM)",
+      "url": "https://arxiv.org/abs/2306.12925",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L206",
+      "line": 206,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Qwen-audio: Advancing universal audio understanding via unified large-scale audio-language models (Qwen-Audio)",
+      "url": "https://arxiv.org/abs/2311.07919",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L207",
+      "line": 207,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Salmonn: Towards generic hearing abilities for large language models (SALMONN)",
+      "url": "https://arxiv.org/abs/2310.13289",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L208",
+      "line": 208,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "On decoder-only architecture for speech-to-text and large language model integration (SpeechLLaMA)",
+      "url": "https://arxiv.org/abs/2307.03917",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L209",
+      "line": 209,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Listen, think, and understand (LTU)",
+      "url": "https://arxiv.org/abs/2305.10790",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L210",
+      "line": 210,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Pengi: An audio language model for audio tasks (Pengi)",
+      "url": "https://arxiv.org/abs/2305.11834",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L211",
+      "line": 211,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Music Understanding LLaMA: Advancing Text-to-Music Generation with Question Answering and Captioning (MU-LLaMA)",
+      "url": "https://arxiv.org/abs/2308.11276",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L212",
+      "line": 212,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "SpeechGen: Unlocking the Generative Power of Speech Language Models with Prompts (SpeechGen)",
+      "url": "https://arxiv.org/abs/2306.02207",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L213",
+      "line": 213,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers (VALL-E)",
+      "url": "https://arxiv.org/abs/2301.02111",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L214",
+      "line": 214,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Simple and Controllable Music Generation (MusicGen)",
+      "url": "https://arxiv.org/abs/2306.05284",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L215",
+      "line": 215,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Make-A-Voice: Unified Voice Synthesis With Discrete Representation (Make-A-Voice)",
+      "url": "https://arxiv.org/abs/2305.19269",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L216",
+      "line": 216,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision (SPEAR-TTS)",
+      "url": "https://arxiv.org/abs/2302.03540",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L217",
+      "line": 217,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "AudioGen: Textually Guided Audio Generation (AudioGen)",
+      "url": "https://arxiv.org/abs/2209.15352",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L218",
+      "line": 218,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "AudioLM: a Language Modeling Approach to Audio Generation (AudioLM)",
+      "url": "https://arxiv.org/abs/2209.03143",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L219",
+      "line": 219,
+      "properties": {
+        "Model Type": "Compositional"
+      }
+    },
+    {
+      "title": "Generative Spoken Language Modeling from Raw Audio (GSLM)",
+      "url": "https://arxiv.org/abs/2102.01192",
+      "category": "audio-model",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L220",
+      "line": 220,
+      "properties": {
+        "Model Type": "Unified"
+      }
+    },
+    {
+      "title": "Multimodal Few-Shot Learning with Frozen Language Models (Frozen)",
+      "url": "https://arxiv.org/abs/2106.13884",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning (Flamingo)",
+      "url": "https://arxiv.org/abs/2204.14198",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning (MMICL)",
+      "url": "https://arxiv.org/abs/2309.07915",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Efficient In-Context Learning in Vision-Language Models for Egocentric Videos (EILeV)",
+      "url": "https://arxiv.org/abs/2311.17041",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models (Open-Flamingo)",
+      "url": "https://arxiv.org/abs/2308.01390",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Link-Context Learning for Multimodal LLMs (LCL)",
+      "url": "https://arxiv.org/abs/2308.07891",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "Med-Flamingo: a Multimodal Medical Few-shot Learner (Med-Flamingo)",
+      "url": "https://arxiv.org/abs/2307.15189",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "MIMIC-IT: Multi-Modal In-Context Instruction Tuning (MIMIC-IT)",
+      "url": "https://arxiv.org/abs/2306.05425",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Sequential Modeling Enables Scalable Learning for Large Vision Models (LVM)",
+      "url": "https://arxiv.org/abs/2312.00785",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "World Model on Million-Length Video And Language With Blockwise RingAttention (LWM)",
+      "url": "https://arxiv.org/abs/2402.08268",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Exploring Diverse In-Context Configurations for Image Captioning (Yang et al.)",
+      "url": "https://github.com/yongliang-wu/ExploreCfg",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Visual In-Context Learning for Large Vision-Language Models (VisualICL)",
+      "url": "https://aclanthology.org/2024.findings-acl.940/",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Many-Shot In-Context Learning in Multimodal Foundation Models (Many-Shots ICL)",
+      "url": "https://arxiv.org/abs/2405.09798",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Can MLLMs Perform Text-to-Image In-Context Learning? (CoBSAT)",
+      "url": "https://arxiv.org/abs/2402.01293",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Video In-context Learning (Video ICL)",
+      "url": "https://arxiv.org/abs/2407.07356",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Generative Pretraining in Multimodality (Emu)",
+      "url": "https://arxiv.org/abs/2307.05222",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "Generative Multimodal Models are In-Context Learners (Emu2)",
+      "url": "https://arxiv.org/abs/2312.13286",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Towards More Unified In-context Visual Understanding (Sheng et al.)",
+      "url": "https://arxiv.org/abs/2312.02520",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers (VALL-E)",
+      "url": "https://arxiv.org/abs/2301.02111",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "MELLE: Autoregressive Speech Synthesis without Vector Quantization (MELLE)",
+      "url": "https://arxiv.org/abs/2407.08551",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models (Seed-TTS)",
+      "url": "https://arxiv.org/abs/2406.02430",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities (Audio Flamingo)",
+      "url": "https://arxiv.org/abs/2402.01831",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Moshi: a speech-text foundation model for real-time dialogue (Moshi)",
+      "url": "https://arxiv.org/abs/2410.00037",
+      "category": "multimodal-icl",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "WavLLM: Towards Robust and Adaptive Speech Large Language Model (WavLLM)",
+      "url": "https://arxiv.org/abs/2404.00656",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "SpeechVerse: A Large-scale Generalizable Audio Language Model (SpeechVerse)",
+      "url": "https://arxiv.org/abs/2405.08295",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "CoT-ST: Enhancing LLM-based Speech Translation with Multimodal Chain-of-Thought",
+      "url": "https://arxiv.org/abs/2409.19510",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Chain-of-Thought Prompting for Speech Translation",
+      "url": "https://arxiv.org/abs/2409.11538",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Video-of-Thought: Step-by-Step Video Reasoning from Perception to Cognition",
+      "url": "https://openreview.net/pdf?id=fO31YAyNbI",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "VideoCoT: A Video Chain-of-Thought Dataset with Active Annotation Tool",
+      "url": "https://arxiv.org/pdf/2407.05355",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning",
+      "url": "https://arxiv.org/pdf/2403.16999",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "CogCoM: Train Large Vision-Language Models Diving into Details through Chain of Manipulations",
+      "url": "https://arxiv.org/pdf/2402.04236",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Compositional Chain-of-Thought Prompting for Large Multimodal Model",
+      "url": "https://arxiv.org/pdf/2311.17076",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "V∗: Guided Visual Search as a Core Mechanism in Multimodal LLMs",
+      "url": "https://arxiv.org/pdf/2312.14135",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "DDCoT: Duty-Distinct Chain-of-Thought Prompting for Multimodal Reasoning in Language Models",
+      "url": "https://arxiv.org/pdf/2310.16436",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "Visual Chain-of-Thought Diffusion Models",
+      "url": "https://arxiv.org/pdf/2303.16187",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "url": "https://arxiv.org/pdf/2302.00923",
+      "category": "multimodal-cot",
+      "source_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/blob/acc66d4bce722e5328549e4d50badfd9dc89aaeb/README.md#L275",
+      "line": 275,
+      "properties": {}
+    }
+  ],
+  "properties": [
+    "Model Type",
+    "Tokenization Type"
+  ],
+  "entry_count": 159,
+  "unique_links": 143,
+  "category_count": 6,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "chenllliang",
+      "url": "https://github.com/chenllliang",
+      "contributions": 53
+    },
+    {
+      "login": "Zefan-Cai",
+      "url": "https://github.com/Zefan-Cai",
+      "contributions": 14
+    },
+    {
+      "login": "HC-Guo",
+      "url": "https://github.com/HC-Guo",
+      "contributions": 9
+    },
+    {
+      "login": "XiaoshanHsj",
+      "url": "https://github.com/XiaoshanHsj",
+      "contributions": 4
+    },
+    {
+      "login": "HaozheZhao",
+      "url": "https://github.com/HaozheZhao",
+      "contributions": 2
+    },
+    {
+      "login": "LingweiMeng",
+      "url": "https://github.com/LingweiMeng",
+      "contributions": 2
+    },
+    {
+      "login": "donglixp",
+      "url": "https://github.com/donglixp",
+      "contributions": 1
+    },
+    {
+      "login": "enjoyyi00",
+      "url": "https://github.com/enjoyyi00",
+      "contributions": 1
+    },
+    {
+      "login": "QuLiao1117",
+      "url": "https://github.com/QuLiao1117",
+      "contributions": 1
+    },
+    {
+      "login": "rorywu726",
+      "url": "https://github.com/rorywu726",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 88,
+    "has_more": false,
+    "path_commit_count": 88,
+    "public_contributors": 10,
+    "observed_at": "2026-09-03T17:51:26.043057+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by LMM101/Awesome-Multimodal-Next-Token-Prediction contributors.",
+  "license": null,
+  "license_url": "https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction/tree/acc66d4bce722e5328549e4d50badfd9dc89aaeb",
+  "digest": "79c834bb6b16b940063a111f056fb42584e0de8f63de8088cd403178e1aece5f"
+}

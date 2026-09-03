@@ -1,0 +1,719 @@
+{
+  "format_version": 3,
+  "repository_id": "224084457",
+  "name": "overnote/awesome-kubernetes-notes",
+  "revision": "c4e94cdc2cf5d124347298b1844a25202910c8d3",
+  "readme_path": "README.md",
+  "readme_sha256": "93485e2459e1fd729ba8116045e86d1638d4184a9f4bce95468aeb38f1a2be25",
+  "sections": [
+    {
+      "id": "awesome-kubernetes-notes",
+      "title": "awesome-kubernetes-notes",
+      "level": 1,
+      "path": [
+        "awesome-kubernetes-notes"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#awesome-kubernetes-notes",
+      "entries": 0
+    },
+    {
+      "id": "目的",
+      "title": "目的",
+      "level": 1,
+      "path": [
+        "目的"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#目的",
+      "entries": 3
+    },
+    {
+      "id": "demo",
+      "title": "demo",
+      "level": 1,
+      "path": [
+        "demo"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#demo",
+      "entries": 0
+    },
+    {
+      "id": "目录",
+      "title": "目录",
+      "level": 1,
+      "path": [
+        "目录"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#目录",
+      "entries": 0
+    },
+    {
+      "id": "一-kubernetes概述",
+      "title": "一 Kubernetes概述",
+      "level": 2,
+      "path": [
+        "目录",
+        "一 Kubernetes概述"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#一-kubernetes概述",
+      "entries": 1
+    },
+    {
+      "id": "二-核心组件附件",
+      "title": "二 核心组件/附件",
+      "level": 2,
+      "path": [
+        "目录",
+        "二 核心组件/附件"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#二-核心组件附件",
+      "entries": 1
+    },
+    {
+      "id": "三-集群部署",
+      "title": "三 集群部署",
+      "level": 2,
+      "path": [
+        "目录",
+        "三 集群部署"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#三-集群部署",
+      "entries": 1
+    },
+    {
+      "id": "四-入门命令",
+      "title": "四 入门命令",
+      "level": 2,
+      "path": [
+        "目录",
+        "四 入门命令"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#四-入门命令",
+      "entries": 1
+    },
+    {
+      "id": "五-配置清单使用",
+      "title": "五 配置清单使用",
+      "level": 2,
+      "path": [
+        "目录",
+        "五 配置清单使用"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#五-配置清单使用",
+      "entries": 1
+    },
+    {
+      "id": "六-pod-配置清单",
+      "title": "六 POD 配置清单",
+      "level": 2,
+      "path": [
+        "目录",
+        "六 POD 配置清单"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#六-pod-配置清单",
+      "entries": 1
+    },
+    {
+      "id": "七-控制器配置清单",
+      "title": "七 控制器配置清单",
+      "level": 2,
+      "path": [
+        "目录",
+        "七 控制器配置清单"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#七-控制器配置清单",
+      "entries": 1
+    },
+    {
+      "id": "八-service-配置清单",
+      "title": "八 Service 配置清单",
+      "level": 2,
+      "path": [
+        "目录",
+        "八 Service 配置清单"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#八-service-配置清单",
+      "entries": 1
+    },
+    {
+      "id": "九-ingress-控制器",
+      "title": "九 ingress 控制器",
+      "level": 2,
+      "path": [
+        "目录",
+        "九 ingress 控制器"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#九-ingress-控制器",
+      "entries": 1
+    },
+    {
+      "id": "十-pod-存储卷",
+      "title": "十 POD 存储卷",
+      "level": 2,
+      "path": [
+        "目录",
+        "十 POD 存储卷"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十-pod-存储卷",
+      "entries": 1
+    },
+    {
+      "id": "十一-配置信息容器化",
+      "title": "十一 配置信息容器化",
+      "level": 2,
+      "path": [
+        "目录",
+        "十一 配置信息容器化"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十一-配置信息容器化",
+      "entries": 1
+    },
+    {
+      "id": "十二-statefulset-控制器",
+      "title": "十二 StatefulSet 控制器",
+      "level": 2,
+      "path": [
+        "目录",
+        "十二 StatefulSet 控制器"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十二-statefulset-控制器",
+      "entries": 1
+    },
+    {
+      "id": "十三-用户认证系统",
+      "title": "十三 用户认证系统",
+      "level": 2,
+      "path": [
+        "目录",
+        "十三 用户认证系统"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十三-用户认证系统",
+      "entries": 1
+    },
+    {
+      "id": "十四-用户权限系统",
+      "title": "十四 用户权限系统",
+      "level": 2,
+      "path": [
+        "目录",
+        "十四 用户权限系统"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十四-用户权限系统",
+      "entries": 1
+    },
+    {
+      "id": "十五-dashboard",
+      "title": "十五 dashboard",
+      "level": 2,
+      "path": [
+        "目录",
+        "十五 dashboard"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十五-dashboard",
+      "entries": 1
+    },
+    {
+      "id": "十六-网络通信",
+      "title": "十六 网络通信",
+      "level": 2,
+      "path": [
+        "目录",
+        "十六 网络通信"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十六-网络通信",
+      "entries": 1
+    },
+    {
+      "id": "十七-调度策略",
+      "title": "十七 调度策略",
+      "level": 2,
+      "path": [
+        "目录",
+        "十七 调度策略"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十七-调度策略",
+      "entries": 1
+    },
+    {
+      "id": "十八-高级调度设置",
+      "title": "十八 高级调度设置",
+      "level": 2,
+      "path": [
+        "目录",
+        "十八 高级调度设置"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十八-高级调度设置",
+      "entries": 1
+    },
+    {
+      "id": "十九-容器资源限制",
+      "title": "十九 容器资源限制",
+      "level": 2,
+      "path": [
+        "目录",
+        "十九 容器资源限制"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#十九-容器资源限制",
+      "entries": 1
+    },
+    {
+      "id": "二十-heapster监控废弃中",
+      "title": "二十 HeapSter监控（废弃中)",
+      "level": 2,
+      "path": [
+        "目录",
+        "二十 HeapSter监控（废弃中)"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#二十-heapster监控废弃中",
+      "entries": 1
+    },
+    {
+      "id": "二十一-新一代监控架构",
+      "title": "二十一 新一代监控架构",
+      "level": 2,
+      "path": [
+        "目录",
+        "二十一 新一代监控架构"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#二十一-新一代监控架构",
+      "entries": 1
+    },
+    {
+      "id": "二十二-k8s包管理器",
+      "title": "二十二 K8S包管理器",
+      "level": 2,
+      "path": [
+        "目录",
+        "二十二 K8S包管理器"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#二十二-k8s包管理器",
+      "entries": 1
+    },
+    {
+      "id": "二十三-etcd详解",
+      "title": "二十三 ETCD详解",
+      "level": 2,
+      "path": [
+        "目录",
+        "二十三 ETCD详解"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#二十三-etcd详解",
+      "entries": 1
+    },
+    {
+      "id": "二十四-国产容器管理平台kubesphere实战排错",
+      "title": "二十四 国产容器管理平台KubeSphere实战排错",
+      "level": 2,
+      "path": [
+        "目录",
+        "二十四 国产容器管理平台KubeSphere实战排错"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#二十四-国产容器管理平台kubesphere实战排错",
+      "entries": 1
+    },
+    {
+      "id": "学习链接",
+      "title": "学习链接",
+      "level": 2,
+      "path": [
+        "目录",
+        "学习链接"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#学习链接",
+      "entries": 0
+    },
+    {
+      "id": "文档",
+      "title": "文档",
+      "level": 4,
+      "path": [
+        "目录",
+        "学习链接",
+        "文档"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#文档",
+      "entries": 11
+    },
+    {
+      "id": "视频",
+      "title": "视频",
+      "level": 4,
+      "path": [
+        "目录",
+        "学习链接",
+        "视频"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#视频",
+      "entries": 2
+    },
+    {
+      "id": "todo",
+      "title": "TODO",
+      "level": 2,
+      "path": [
+        "目录",
+        "TODO"
+      ],
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#todo",
+      "entries": 1
+    }
+  ],
+  "entries": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com/redhatxl",
+      "category": "目的",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L11",
+      "line": 11,
+      "properties": {}
+    },
+    {
+      "title": "掘金",
+      "url": "https://juejin.im/user/5c36033fe51d456e4138b473/posts",
+      "category": "目的",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L12",
+      "line": 12,
+      "properties": {}
+    },
+    {
+      "title": "慕课网",
+      "url": "https://www.imooc.com/u/1260704",
+      "category": "目的",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L13",
+      "line": 13,
+      "properties": {}
+    },
+    {
+      "title": "一 Kubernetes概述",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#kubernetes",
+      "category": "一-kubernetes概述",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "二 核心组件/附件",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id5",
+      "category": "二-核心组件附件",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "三 集群部署",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id8",
+      "category": "三-集群部署",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "四 入门命令",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id15",
+      "category": "四-入门命令",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "五 配置清单使用",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id22",
+      "category": "五-配置清单使用",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "六 POD 配置清单",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id28",
+      "category": "六-pod-配置清单",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "七 控制器配置清单",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id31",
+      "category": "七-控制器配置清单",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "八 Service 配置清单",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id44",
+      "category": "八-service-配置清单",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "九 ingress 控制器",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#ingress",
+      "category": "九-ingress-控制器",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "十 POD 存储卷",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id50",
+      "category": "十-pod-存储卷",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "十一 配置信息容器化",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id57",
+      "category": "十一-配置信息容器化",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "十二 StatefulSet 控制器",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#statefulset",
+      "category": "十二-statefulset-控制器",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "十三 用户认证系统",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id65",
+      "category": "十三-用户认证系统",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "十四 用户权限系统",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id73",
+      "category": "十四-用户权限系统",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "十五 dashboard",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#dashboard",
+      "category": "十五-dashboard",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "十六 网络通信",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id79",
+      "category": "十六-网络通信",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "十七 调度策略",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id89",
+      "category": "十七-调度策略",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "十八 高级调度设置",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id96",
+      "category": "十八-高级调度设置",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "十九 容器资源限制",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id103",
+      "category": "十九-容器资源限制",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "二十 HeapSter监控（废弃中)",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#heapster",
+      "category": "二十-heapster监控废弃中",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "二十一 新一代监控架构",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id106",
+      "category": "二十一-新一代监控架构",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "二十二 K8S包管理器",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id110",
+      "category": "二十二-k8s包管理器",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "二十三 ETCD详解",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#id113",
+      "category": "二十三-etcd详解",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "二十四 国产容器管理平台KubeSphere实战排错",
+      "url": "https://awesome-kubernetes-notes.readthedocs.io/en/latest/awesome-kubernetes-notes.html#kubesphere",
+      "category": "二十四-国产容器管理平台kubesphere实战排错",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes官网教程",
+      "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes中文社区",
+      "url": "https://www.kubernetes.org.cn/k8s",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "从Kubernetes到Cloud Native",
+      "url": "https://jimmysong.io/kubernetes-handbook/cloud-native/from-kubernetes-to-cloud-native.html",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes Handbook",
+      "url": "https://www.bookstack.cn/read/feiskyer-kubernetes-handbook/appendix-ecosystem.md",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes从入门到实战",
+      "url": "https://www.kancloud.cn/huyipow/kubernetes/722822",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes指南",
+      "url": "https://kubernetes.feisky.xyz/",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "awesome-kubernetes",
+      "url": "https://ramitsurana.github.io/awesome-kubernetes/",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "从Docker到Kubernetes进阶",
+      "url": "https://www.qikqiak.com/k8s-book/",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "python微服务实战",
+      "url": "https://www.qikqiak.com/tdd-book/",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "云原生之路",
+      "url": "https://jimmysong.io/kubernetes-handbook/cloud-native/from-kubernetes-to-cloud-native.html",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "CNCF Cloud Native Interactive Landscape",
+      "url": "https://landscape.cncf.io/",
+      "category": "文档",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "马哥(docker容器技术+k8s集群技术)",
+      "url": "https://www.bilibili.com/video/av35847195/?p=16&t=3931",
+      "category": "视频",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "微服务容器化实战",
+      "url": "https://www.acfun.cn/v/ac10232871",
+      "category": "视频",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "国产容器管理平台KubeSphere实战排错",
+      "url": "https://kubesphere.io/zh-CN/",
+      "category": "todo",
+      "source_url": "https://github.com/overnote/awesome-kubernetes-notes/blob/c4e94cdc2cf5d124347298b1844a25202910c8d3/README.md#L221",
+      "line": 221,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 41,
+  "unique_links": 40,
+  "category_count": 28,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "redhatxl",
+      "url": "https://github.com/redhatxl",
+      "contributions": 16
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 32,
+    "has_more": false,
+    "path_commit_count": 32,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:52:32.124181+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by overnote/awesome-kubernetes-notes contributors.",
+  "license": null,
+  "license_url": "https://github.com/overnote/awesome-kubernetes-notes/tree/c4e94cdc2cf5d124347298b1844a25202910c8d3",
+  "digest": "b4aa43112c0dfee2ce5950ce6c7d38869b9303c31e9240a17e8aef9827d2aedd"
+}

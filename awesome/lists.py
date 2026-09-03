@@ -12,15 +12,16 @@ from markdown_it import MarkdownIt
 from awesome.catalogue import digest, safe_url
 
 MIN_STARS = 100
-FORMAT = 2
+FORMAT = 3
 MAX_README = 2 * 1024 * 1024
 MAX_INDEX = 40 * 1024 * 1024
 SKIP_SECTIONS = re.compile(r"^(table of contents|contents|contribut\w*|licen[cs]e|installation|install|usage|sponsors?|badges?|acknowledgements?|star history)$", re.I)
 LIST_INTENT = re.compile(r"curated|\blist\s+of\b|\blists\s+of\b|\bcollection\s+of\b|awesome\s+(?:resources|lists|links)|资源列表|精选|资源汇总|清单", re.I)
 TOPICS = {
+    "Meta directories": r"(?:list of (?:awesome )?lists|awesome lists|awesome-awesome|awesome indexes)",
+    "Self-hosting & infrastructure": r"\b(self.host(?:ed|ing)?|devops|kubernetes|docker|infrastructure|cloud|homelab|sysadmin)\b",
     "AI & machine learning": r"\b(ai|llm|machine.learning|deep.learning|artificial.intelligence|agents|generative)\b",
     "Software development": r"\b(programming|development|developer|code|software|javascript|python|rust|java|typescript|golang|nodejs|cpp|dotnet)\b",
-    "Self-hosting & infrastructure": r"\b(self.host(?:ed|ing)?|devops|kubernetes|docker|infrastructure|cloud|homelab|sysadmin)\b",
     "Data & analytics": r"\b(data|database|analytics|visualization|statistics|sql)\b",
     "Security & privacy": r"\b(security|privacy|hacking|pentest|cryptography|osint)\b",
     "Design & creativity": r"\b(design|creative|art|fonts|icons|animation|ux|ui|music)\b",
@@ -29,8 +30,9 @@ TOPICS = {
     "Science & engineering": r"\b(science|scientific|engineering|robotics|mathematics|physics|biology|research)\b",
     "Productivity & life": r"\b(productivity|personal|life|health|travel|finance|business|work)\b",
     "Games & media": r"\b(games?|gaming|video|media|gamedev|unity|unreal)\b",
-    "Meta directories": r"(?:list of (?:awesome )?lists|awesome lists|awesome-awesome|awesome indexes)",
 }
+
+SOURCE_CONTEXT = re.compile(r"(?:generated\s+(?:from|by)|source\s+data|data\s+source)[^\n]{0,180}?\[[^\]]+\]\((https?://[^\s)]+)\)", re.I)
 
 
 def plain(children: list) -> str:
@@ -142,8 +144,10 @@ def classify(meta: dict, parsed: dict | None, markdown: str = "") -> tuple[str, 
     introduction = markdown.split("\n## ", 1)[0][:2000]
     purpose = re.compile(r"(?:^|\n)\W*(?:(?:this|an?|the)\s+)?(?:is\s+)?(?:a\s+)?(?:(?:curated|opinionated|comprehensive|categorized|maintained|hand-picked|community-driven|sorted|awesome|useful|selected)\s+)*(?:list|collection|directory)\s+of\b", re.I)
     description_intent = bool(purpose.search(description) or re.match(r"^\W*(?:awesome|curated)\s+(?:[\w-]+\s+){0,5}(?:lists?|resources|collection)\b", description, re.I))
-    application = bool(re.search(r"\b(application|framework|library|toolkit|editor|window manager|browser extension|platform)\b", description, re.I))
-    intent = description_intent or (not application and bool(purpose.search(introduction)))
+    product_primary = bool(re.match(r"^\W*(?:(?:this|an?|the)\s+)?(?:is\s+)?(?:a\s+)?(?:\w+[ -]+){0,4}(application|framework|library|toolkit|editor|window manager|browser extension|platform|control plane)\b", description, re.I))
+    awesome_identity = bool(re.search(r"(?:^|[/_.-])awesome(?:$|[/_.-])", meta.get("name", ""), re.I) or
+                            {"awesome", "awesome-list"}.intersection(meta.get("github_topics", [])))
+    intent = description_intent or (not product_primary and (awesome_identity or bool(purpose.search(introduction))))
     if intent and parsed["unique_links"] >= 3:
         return "eligible", "Curated-list intent and at least three distinct supported content links observed."
     if parsed["unique_links"] >= 5:
@@ -156,6 +160,16 @@ def classify(meta: dict, parsed: dict | None, markdown: str = "") -> tuple[str, 
 def topics(meta: dict) -> list[str]:
     text = " ".join([meta.get("name", ""), meta.get("description") or "", *meta.get("github_topics", [])])
     return [name for name, pattern in TOPICS.items() if re.search(pattern, text, re.I)] or ["Other topics"]
+
+
+def source_data_links(markdown: str) -> list[str]:
+    """Conservative explicitly-labelled public source-data links, never guessed."""
+    links = []
+    for raw in SOURCE_CONTEXT.findall(markdown[:20_000]):
+        url = safe_url(raw)
+        if url and url not in links:
+            links.append(url)
+    return links[:3]
 
 
 def freshness(content_updated: str | None, as_of: str) -> dict:
@@ -177,11 +191,15 @@ def profile(meta: dict, parsed: dict | None, markdown: str = "") -> tuple[dict, 
     item = {**meta, "state": state, "reason": reason, "topics": topics(meta),
             "topic_method": "Derived keyword mapping from repository name, description and GitHub topics.",
             "scope": (meta.get("description") or "Explore the upstream list for its stated scope.")[:500],
+            "scope_method": "Public repository description; fallback directs readers to the upstream list.",
             "freshness": freshness(meta.get("content_updated_at"), meta["observed_at"]),
             "entry_count": parsed["entry_count"] if parsed else None,
             "unique_links": parsed["unique_links"] if parsed else None,
             "category_count": parsed["category_count"] if parsed else None,
-            "contributors_count": None, "contributors_status": "Not yet observed",
+            "contributors_count": (meta["contributor_observation"].get("public_contributors") if meta.get("contributor_observation", {}).get("status") == "observed" else None),
+            "contributors_status": meta.get("contributor_observation", {}).get("description", "Not yet observed"),
+            "contributor_observation": meta.get("contributor_observation"),
+            "contributing_url": meta.get("contributing_url"),
             "content_policy": "Metadata, factual titles and upstream links only; no copied descriptions. Source retains its own license.",
             "detail": None}
     detail = None
@@ -189,7 +207,11 @@ def profile(meta: dict, parsed: dict | None, markdown: str = "") -> tuple[dict, 
         detail = {"format_version": FORMAT, "repository_id": item["id"], "name": item["name"],
                   "revision": item["revision"], "readme_path": item["readme_path"],
                   "readme_sha256": item["readme_sha256"], **parsed,
-                  "contributors": [], "attribution": f"Content curated by {item['name']} contributors.",
+                  "contributors": meta.get("contributors", []),
+                  "contributor_observation": meta.get("contributor_observation"),
+                  "contributing_url": meta.get("contributing_url"),
+                  "source_data_links": source_data_links(markdown),
+                  "attribution": f"Content curated by {item['name']} contributors.",
                   "license": item.get("license"), "license_url": item["url"] + "/tree/" + item["revision"]}
         detail["digest"] = digest(detail)
         item["detail"] = f"lists/{detail['digest']}.json"
@@ -216,6 +238,32 @@ def validate_detail(detail: dict, item: dict) -> None:
     for entry in detail["entries"]:
         if not safe_url(entry["url"]) or not pinned(entry["source_url"]):
             raise ValueError("Unsafe detail link")
+    observation = detail.get("contributor_observation")
+    contributors = detail.get("contributors", [])
+    if observation is not None:
+        if (observation.get("status") != "observed" or observation.get("commit_limit") != 100
+                or type(observation.get("observed_commits")) is not int
+                or not 0 <= observation["observed_commits"] <= observation["commit_limit"]
+                or type(observation.get("has_more")) is not bool
+                or type(observation.get("path_commit_count")) is not int
+                or observation["path_commit_count"] < observation["observed_commits"]
+                or type(observation.get("public_contributors")) is not int
+                or not 0 <= observation["public_contributors"] <= observation["observed_commits"]
+                or not isinstance(observation.get("observed_at"), str)):
+            raise ValueError("Invalid contributor observation")
+        if item.get("contributors_count") != observation.get("public_contributors") or not isinstance(item.get("contributors_count"), int) or len(contributors) > 10 or len(contributors) > item["contributors_count"]:
+            raise ValueError("Contributor count or display bound mismatch")
+        for contributor in contributors:
+            login, url, count = contributor.get("login"), contributor.get("url"), contributor.get("contributions")
+            if not re.fullmatch(r"[A-Za-z0-9-]{1,39}", login or "") or safe_url(url) != f"https://github.com/{login}" or type(count) is not int or count < 1 or set(contributor) != {"login", "url", "contributions"}:
+                raise ValueError("Unsafe contributor identity")
+    if detail.get("contributing_url"):
+        allowed = {f"https://github.com/{item['name']}/blob/{item['revision']}/{quote(path, safe='/')}"
+                   for path in ("CONTRIBUTING.md", ".github/CONTRIBUTING.md")}
+        if safe_url(detail["contributing_url"]) not in allowed:
+            raise ValueError("Unpinned contributing link")
+    if any(not safe_url(url) for url in detail.get("source_data_links", [])) or len(detail.get("source_data_links", [])) > 3:
+        raise ValueError("Unsafe source-data link")
 
 
 def validate_index(index: dict, data_root: Path | None = None) -> None:
@@ -236,6 +284,8 @@ def validate_index(index: dict, data_root: Path | None = None) -> None:
             value = item.get(key)
             if value is not None and (not isinstance(value, int) or isinstance(value, bool) or value < 0):
                 raise ValueError("Invalid numeric metric")
+        if item.get("freshness", {}).get("days") is not None and not item.get("content_updated_at"):
+            raise ValueError("Freshness lacks content evidence")
         if item.get("detail"):
             if item.get("public") is not True:
                 raise ValueError("Non-public repository cannot publish detail")

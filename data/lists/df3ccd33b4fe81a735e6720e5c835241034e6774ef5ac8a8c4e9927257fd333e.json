@@ -1,0 +1,584 @@
+{
+  "format_version": 3,
+  "repository_id": "138470747",
+  "name": "ghaiklor/awesome-internals",
+  "revision": "273696470abb05ad9144440a21452b116d64f4b6",
+  "readme_path": "README.md",
+  "readme_sha256": "07abddaddcd1033321f6cb8c2b72fdee81b709113c7ea302599cfa88b0657fc2",
+  "sections": [
+    {
+      "id": "awesome-internals",
+      "title": "awesome-internals",
+      "level": 1,
+      "path": [
+        "awesome-internals"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#awesome-internals",
+      "entries": 0
+    },
+    {
+      "id": "courses",
+      "title": "Courses",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Courses"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#courses",
+      "entries": 2
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Hardware"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#hardware",
+      "entries": 1
+    },
+    {
+      "id": "operating-systems",
+      "title": "Operating Systems",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Operating Systems"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#operating-systems",
+      "entries": 11
+    },
+    {
+      "id": "parsers",
+      "title": "Parsers",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Parsers"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#parsers",
+      "entries": 1
+    },
+    {
+      "id": "interpreterscompilers",
+      "title": "Interpreters/Compilers",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Interpreters/Compilers"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#interpreterscompilers",
+      "entries": 24
+    },
+    {
+      "id": "network",
+      "title": "Network",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Network"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#network",
+      "entries": 5
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Databases"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#databases",
+      "entries": 3
+    },
+    {
+      "id": "bundlers",
+      "title": "Bundlers",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Bundlers"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#bundlers",
+      "entries": 4
+    },
+    {
+      "id": "package-managers",
+      "title": "Package Managers",
+      "level": 2,
+      "path": [
+        "awesome-internals",
+        "Package Managers"
+      ],
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#package-managers",
+      "entries": 2
+    }
+  ],
+  "entries": [
+    {
+      "title": "Compilers",
+      "url": "https://www.edx.org/learn/computer-science/stanford-university-compilers",
+      "category": "courses",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "From NAND to Tetris",
+      "url": "https://www.nand2tetris.org/",
+      "category": "courses",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying the Secure Enclave Processor, by Tarjei Mandt, Mathew Solnik, David Wang",
+      "url": "http://mista.nu/research/sep-paper.pdf",
+      "category": "hardware",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "How debugger works, by Alexander Sandler",
+      "url": "http://www.alexonlinux.com/how-debugger-works",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "How debuggers work, by Eli Bendersky",
+      "url": "https://eli.thegreenplace.net/2011/01/23/how-debuggers-work-part-1/",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "How OSX executes applications, by Mohit Muthanna Cheppudira",
+      "url": "http://0xfe.blogspot.de/2006/03/how-os-x-executes-applications.html",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "htop explained, by Pēteris Ņikiforovs",
+      "url": "https://peteris.rocks/blog/htop",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "Linux Inside, by 0xAX",
+      "url": "https://0xax.gitbooks.io/linux-insides/",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "Operating System Development Series",
+      "url": "http://www.brokenthorn.com/Resources/OSDevIndex.html",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "Parsing Mach-O files, by Alex Denisov",
+      "url": "https://lowlevelbits.org/parsing-mach-o-files/",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "The Adventures of OS: Making a RISC-V Operating System using Rust, by Stephen Marz",
+      "url": "http://osblog.stephenmarz.com/",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "Writing a Minimal Mach-O Executable File, by Nicolas Seriot",
+      "url": "http://seriot.ch/hello_macho.php",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Writing a Simple Operating System, by Nick Blundell",
+      "url": "http://www.cs.bham.ac.uk/%7Eexr/lectures/opsys/10_11/lectures/os-dev.pdf",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Writing an OS in Rust, by Philipp Oppermann",
+      "url": "https://os.phil-opp.com/",
+      "category": "operating-systems",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Learning Parser Combinators With Rust, by Bodil Stokke",
+      "url": "https://bodil.lol/parser-combinators/",
+      "category": "parsers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "A closer look at Crankshaft, V8's optimizing compiler, by Andy Wingo",
+      "url": "https://wingolog.org/archives/2011/08/02/a-closer-look-at-crankshaft-v8s-optimizing-compiler",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "A Simple Graph-Based Intermediate Representation, by Cliff Click, Michael Paleczny",
+      "url": "http://www.oracle.com/technetwork/java/javase/tech/c2-ir95-150110.pdf",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "A tour of V8: Crankshaft, the optimizing compiler, by Jay Conrod",
+      "url": "http://jayconrod.com/posts/54/a-tour-of-v8-crankshaft-the-optimizing-compiler",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "A tour of V8: Garbage Collection, by Jay Conrod",
+      "url": "http://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Adventures in JIT compilation, by Eli Bendersky",
+      "url": "https://eli.thegreenplace.net/2017/adventures-in-jit-compilation-part-1-an-interpreter/",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "An Introduction to Speculative Optimization in V8, by Benedikt Meurer",
+      "url": "http://benediktmeurer.de/2017/12/13/an-introduction-to-speculative-optimization-in-v8/",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Anders Hejlsberg on Modern Compiler Construction, by Anders Hejlsberg, Seth Juarez",
+      "url": "https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Beginner's Guide to Linkers, by David Drysdale",
+      "url": "http://www.lurklurk.org/linkers/linkers.html",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Build Your Own Lisp, by Daniel Holden",
+      "url": "http://www.buildyourownlisp.com/contents",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Combining Analyses, Combining Optimizations, by Cliff Click",
+      "url": "https://www.researchgate.net/publication/2394127_Combining_Analyses_Combining_Optimizations",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Compiler basics: lisp to assembly, by Phil Eaton",
+      "url": "http://notes.eatonphil.com/compiler-basics-lisp-to-assembly.html",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Efficient and General On-Stack Replacement for Aggressive Program Specialization, by Sunil Soman, Chandra Krintz",
+      "url": "https://www.cs.ucsb.edu/%7Eckrintz/papers/osr.pdf",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "How JIT Compilers are Implemented and Fast: Pypy, LuaJIT, Graal and More, by Carol Chen",
+      "url": "https://carolchen.me/blog/jits-impls/",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "How to implement a programming language in JavaScript, by Mihai Bazon",
+      "url": "http://lisperator.net/pltut",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Implementing a JIT Compiled Language with Haskell and LLVM, by Stephen Diehl",
+      "url": "http://www.stephendiehl.com/llvm/",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Juozas Kaziukėnas - Building An Interpreter In RPython - PyCon 2016",
+      "url": "https://www.youtube.com/watch?v=9tDpjzPLvNY",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Let's Build a Compiler, by Jack Crenshaw",
+      "url": "https://compilers.iecc.com/crenshaw/",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Let’s Build a Simple Interpreter, by Ruslan Spivak",
+      "url": "https://ruslanspivak.com/lsbasi-part1/",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Optimizing Dynamically-Typed Object-Oriented Languages With Polymorphic Inline Caches, by Urs Hölzle, Craig Chambers, David Ungar",
+      "url": "http://hoelzle.org/publications/ecoop91.pdf",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "Polymorphic Inline Caching on JavaScript for fun and profit, by Chris Leary",
+      "url": "http://blog.cdleary.com/2010/09/picing-on-javascript-for-fun-and-profit",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Project: A Programming Language, by Marijn Haverbeke",
+      "url": "http://eloquentjavascript.net/12_language.html",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Speculation in JavaScriptCore, by Filip Pizlo",
+      "url": "https://webkit.org/blog/10308/speculation-in-javascriptcore/",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Understanding Compiler Optimization - Chandler Carruth - Opening Keynote Meeting C++ 2015",
+      "url": "https://www.youtube.com/watch?v=FnGCDLhaxKU",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "V8: A tale of two compilers, by Andy Wingo",
+      "url": "https://wingolog.org/archives/2011/07/05/v8-a-tale-of-two-compilers",
+      "category": "interpreterscompilers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "A computer networking zine, by Julia Evans",
+      "url": "https://jvns.ca/networking-zine.pdf",
+      "category": "network",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "A container networking overview, by Julia Evans",
+      "url": "https://jvns.ca/blog/2016/12/22/container-networking/",
+      "category": "network",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "High Performance Browser Networking, by Ilya Grigorik",
+      "url": "https://hpbn.co/",
+      "category": "network",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "How can an Internet work and how does the Internet work, by Stanislav Shalunov",
+      "url": "https://www.mccme.ru/computers/Shalunov-inet.pdf",
+      "category": "network",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Monitoring and Tuning the Linux Networking Stack: Receiving Data, by packagecloud",
+      "url": "https://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data",
+      "category": "network",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "How does a relational database work, by Christophe Kalenzaga",
+      "url": "http://coding-geek.com/how-databases-work/",
+      "category": "databases",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Implementing Sorting in Database Systems, by Goetz Graefe",
+      "url": "http://wwwlgis.informatik.uni-kl.de/archiv/wwwdvs.informatik.uni-kl.de/courses/DBSREAL/SS2005/Vorlesungsunterlagen/Implementing_Sorting.pdf",
+      "category": "databases",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Let's Build a Simple Database, by Connor Stack",
+      "url": "https://cstack.github.io/db_tutorial/",
+      "category": "databases",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "How does Bundler work, anyway, by André Arko",
+      "url": "https://andre.arko.net/2015/04/28/how-does-bundler-work-anyway/",
+      "category": "bundlers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Let’s learn how module bundlers work and then write one ourselves, by Adam Kelly",
+      "url": "https://www.freecodecamp.org/news/lets-learn-how-module-bundlers-work-and-then-write-one-ourselves-b2e3fe6c88ae/",
+      "category": "bundlers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Un-bundling the JavaScript module bundler, by Luciano Mammino",
+      "url": "https://www.youtube.com/watch?v=WGlT921ixx4",
+      "category": "bundlers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Understanding webpack from the inside out, by Sean Larkin & Tobias Koppers",
+      "url": "https://www.youtube.com/watch?v=gEBUU6QfVzk",
+      "category": "bundlers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Let's Dev: A Package Manager, by Maël Nison",
+      "url": "https://yarnpkg.com/blog/2017/07/11/lets-dev-a-package-manager/",
+      "category": "package-managers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "So you want to write a package manager, by Sam Boyer",
+      "url": "https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527",
+      "category": "package-managers",
+      "source_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/README.md#L94",
+      "line": 94,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 53,
+  "unique_links": 53,
+  "category_count": 9,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "ghaiklor",
+      "url": "https://github.com/ghaiklor",
+      "contributions": 22
+    },
+    {
+      "login": "cacheflow",
+      "url": "https://github.com/cacheflow",
+      "contributions": 1
+    },
+    {
+      "login": "cat0nis",
+      "url": "https://github.com/cat0nis",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 24,
+    "has_more": false,
+    "path_commit_count": 24,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:58:25.003573+00:00"
+  },
+  "contributing_url": "https://github.com/ghaiklor/awesome-internals/blob/273696470abb05ad9144440a21452b116d64f4b6/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by ghaiklor/awesome-internals contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/ghaiklor/awesome-internals/tree/273696470abb05ad9144440a21452b116d64f4b6",
+  "digest": "df3ccd33b4fe81a735e6720e5c835241034e6774ef5ac8a8c4e9927257fd333e"
+}

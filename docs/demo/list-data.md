@@ -53,9 +53,13 @@ Run from the demo root using its environment:
 ```powershell
 .venv/Scripts/python.exe -m tools.lists discover --run-id lists-YYYYMMDD
 .venv/Scripts/python.exe -m tools.lists enrich --run-id lists-YYYYMMDD
+.venv/Scripts/python.exe -m tools.lists profiles --run-id lists-YYYYMMDD --batch-size 8 --workers 4
 .venv/Scripts/python.exe -m tools.lists stage --run-id lists-YYYYMMDD
 # Review counts, coverage, permissions and the exact staged digest first:
 .venv/Scripts/python.exe -m tools.lists publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.prune_list_shards --directory data --expected-digest <reviewed-digest>
+# Apply only after reviewing that dry-run and while the same index is installed:
+.venv/Scripts/python.exe -m tools.prune_list_shards --directory data --expected-digest <reviewed-digest> --apply
 .venv/Scripts/python.exe -m tools.lists validate
 ```
 
@@ -79,8 +83,10 @@ live interruption observations are recorded separately in the delivery journal.
 
 Publication uses immutable digest-named detail files. Every referenced shard must
 validate before the compact `data/list-index.json` pointer is atomically replaced.
-A partial publication leaves the previous index usable. Existing generations remain
-available for recovery; cleanup requires a separate referenced-generation review.
+A partial publication leaves the previous index usable. Existing checkpoint
+generations remain available for recovery. Obsolete published shards may be removed
+only by the separate digest-bound prune command after its dry-run; tracked bytes
+remain recoverable from Git history and release tags.
 The free Streamlit host reads these committed files only: no crawler, credentials,
 AI inference or database service runs there.
 
@@ -92,7 +98,19 @@ content enrichment. Its digest is
 `9ab420eac2c8922dee53147030a5272bd92616baa23a8e60db13ff4b78c23796`.
 Fifteen eligible records were observed at exactly 100 stars. Eligibility can change
 with better content evidence; it is not inferred from membership in a source allowlist.
-Further classification, freshness and contributor enrichment is tracked in issue22.
+That alpha.1 snapshot remains the public rollback reference for issue22.
+
+The reviewed alpha.2 candidate completes local profile observation for all 6,377
+eligible lists while retaining 1,431 pending and 565 explicitly excluded records.
+Its digest is
+`0c9ffd50682687d0071b5e81c58b7dc18ea2b8b2d3a0482cd13daba00d0deeba`.
+Every eligible list has a pinned README content-update observation and a bounded
+public-contributor status. Contributor identities come only from at most 100 commits
+touching that path; displayed contributor objects contain login, public profile URL
+and observed contribution count—never email fields. Original list content can itself
+refer to email software or contain `@` in titles/URLs; that is source-content fidelity,
+not contributor contact collection. Three raw inputs with unavailable pinned UTF-8
+content remain pending rather than being lossily decoded.
 
 At every promotion, validate the whole generation locally. The hosted app lazily
 validates the selected shard against the index's repository name, revision, README

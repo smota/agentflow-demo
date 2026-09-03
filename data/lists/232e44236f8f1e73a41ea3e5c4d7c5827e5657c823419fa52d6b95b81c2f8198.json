@@ -1,0 +1,910 @@
+{
+  "format_version": 3,
+  "repository_id": "573341229",
+  "name": "Azure-Samples/azure-ai",
+  "revision": "4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e",
+  "readme_path": "README.md",
+  "readme_sha256": "5c30b98a03f76b09388d96bbbe36fc8c56ddb94680b99bf08345ab1520e707c9",
+  "sections": [
+    {
+      "id": "azure-ai-hub",
+      "title": "Azure AI Hub",
+      "level": 1,
+      "path": [
+        "Azure AI Hub"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#azure-ai-hub",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents-",
+      "title": "Table of Contents ✨🆕",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Table of Contents ✨🆕"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#table-of-contents-",
+      "entries": 0
+    },
+    {
+      "id": "azure-ai-reference-templates",
+      "title": "Azure AI Reference Templates✨🆕",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Azure AI Reference Templates✨🆕"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#azure-ai-reference-templates",
+      "entries": 7
+    },
+    {
+      "id": "getting-started-with-azure-openai-chatgpt-copilots",
+      "title": "Getting started with Azure OpenAI ChatGPT Copilots",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Getting started with Azure OpenAI ChatGPT Copilots"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#getting-started-with-azure-openai-chatgpt-copilots",
+      "entries": 7
+    },
+    {
+      "id": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "title": "Azure OpenAI ChatGPT Copilots with your own data",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Azure OpenAI ChatGPT Copilots with your own data"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#azure-openai-chatgpt-copilots-with-your-own-data",
+      "entries": 8
+    },
+    {
+      "id": "openai-for-python-developers",
+      "title": "OpenAI for Python Developers",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "OpenAI for Python Developers"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#openai-for-python-developers",
+      "entries": 16
+    },
+    {
+      "id": "openai-for-net-developers",
+      "title": "OpenAI for .NET Developers",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "OpenAI for .NET Developers"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#openai-for-net-developers",
+      "entries": 9
+    },
+    {
+      "id": "openai-for-javascript-developers",
+      "title": "OpenAI for JavaScript Developers",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "OpenAI for JavaScript Developers"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#openai-for-javascript-developers",
+      "entries": 5
+    },
+    {
+      "id": "openai-for-java-developers",
+      "title": "OpenAI for Java Developers",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "OpenAI for Java Developers"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#openai-for-java-developers",
+      "entries": 6
+    },
+    {
+      "id": "openai-for-go-developers",
+      "title": "OpenAI for Go Developers",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "OpenAI for Go Developers"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#openai-for-go-developers",
+      "entries": 8
+    },
+    {
+      "id": "create-and-manage-azure-ai-resources-with-code",
+      "title": "Create and manage Azure AI Resources with code",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Create and manage Azure AI Resources with code"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#create-and-manage-azure-ai-resources-with-code",
+      "entries": 8
+    },
+    {
+      "id": "secure-your-azure-ai-resources",
+      "title": "Secure your Azure AI Resources",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Secure your Azure AI Resources"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#secure-your-azure-ai-resources",
+      "entries": 2
+    },
+    {
+      "id": "speechvision",
+      "title": "Speech/Vision",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Speech/Vision"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#speechvision",
+      "entries": 4
+    },
+    {
+      "id": "language",
+      "title": "Language",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Language"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#language",
+      "entries": 5
+    },
+    {
+      "id": "applied-aidecision",
+      "title": "Applied AI/Decision",
+      "level": 2,
+      "path": [
+        "Azure AI Hub",
+        "Applied AI/Decision"
+      ],
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#applied-aidecision",
+      "entries": 5
+    }
+  ],
+  "entries": [
+    {
+      "title": "Build an enterprise chat app using your data with Azure OpenAI in Python",
+      "url": "https://aka.ms/azai/py/chatwithdata",
+      "category": "azure-ai-reference-templates",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "Build an enterprise chat app using your data with Azure OpenAI in JavaScript",
+      "url": "https://aka.ms/azai/js/chatwithdata",
+      "category": "azure-ai-reference-templates",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Build an enterprise chat app using your data with Azure OpenAI in .NET",
+      "url": "https://aka.ms/azai/net/chatwithdata",
+      "category": "azure-ai-reference-templates",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Build an enterprise chat app using your data with Azure OpenAI in Java",
+      "url": "https://aka.ms/azai/java/chatwithdata",
+      "category": "azure-ai-reference-templates",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Build a chat app with Azure OpenAI in Python",
+      "url": "https://aka.ms/azai/chat",
+      "category": "azure-ai-reference-templates",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "Build a LangChain with Azure OpenAI in Python",
+      "url": "https://aka.ms/azai/lc",
+      "category": "azure-ai-reference-templates",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Build a ChatGPT Plugin with Azure Container Apps in Python",
+      "url": "https://aka.ms/azai/plugin",
+      "category": "azure-ai-reference-templates",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Simple Azure OpenAI ChatGPT Copilot in Python",
+      "url": "https://aka.ms/azai/chat",
+      "category": "getting-started-with-azure-openai-chatgpt-copilots",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Simple ChatGPT Python Plugin App Authoring",
+      "url": "https://aka.ms/azai/plugin",
+      "category": "getting-started-with-azure-openai-chatgpt-copilots",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT QuickStarts for Python, C#, JavaScript and Java",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=programming-language-csharp&tabs=command-line",
+      "category": "getting-started-with-azure-openai-chatgpt-copilots",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Switch from OpenAI to Azure OpenAI",
+      "url": "https://aka.ms/azai/oai-to-aoai",
+      "category": "getting-started-with-azure-openai-chatgpt-copilots",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT .NET App with chats saved to CosmosDB",
+      "url": "https://github.com/Azure-Samples/cosmosdb-chatgpt",
+      "category": "getting-started-with-azure-openai-chatgpt-copilots",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT Python App with Azure Functions using LangChain",
+      "url": "https://github.com/Azure-Samples/function-python-ai-langchain",
+      "category": "getting-started-with-azure-openai-chatgpt-copilots",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "More Azure OpenAI Service Docs",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
+      "category": "getting-started-with-azure-openai-chatgpt-copilots",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT JavaScript Copilot with your own data using Cognitive Search",
+      "url": "https://github.com/Azure-Samples/azure-search-openai-javascript",
+      "category": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT Python Copilot with your own data using Cognitive Search",
+      "url": "https://aka.ms/azai/chatwithdata",
+      "category": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT .NET Copilot with your own data using Cognitive Search",
+      "url": "https://aka.ms/azai/dotnet/chatwithdata",
+      "category": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT .NET Copilot with your own data using MongoDB",
+      "url": "https://github.com/AzureCosmosDB/VectorSearchAiAssistant/tree/MongovCore",
+      "category": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Python ChatGPT Web App with batch processing on your own data using Redis",
+      "url": "https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna#deploy-on-azure-webapp--azure-cache-for-redis-enterprise--batch-processing",
+      "category": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Code behind ChatGPT Web App from uploading your data to the Azure OpenAI Playground",
+      "url": "https://aka.ms/azai/chat-from-aoai",
+      "category": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Python Notebook with your own data using Redis with LlamaIndex",
+      "url": "https://techcommunity.microsoft.com/t5/azure-developer-community-blog/vector-similarity-search-with-azure-cache-for-redis-enterprise/ba-p/3822059",
+      "category": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI solutions with your own data using PostgreSQL",
+      "url": "https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/unlocking-the-power-of-open-ai-and-pgvector-with-azure/ba-p/3828539",
+      "category": "azure-openai-chatgpt-copilots-with-your-own-data",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI SDK for Python",
+      "url": "https://github.com/openai/openai-python/blob/main/README.md",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "openai Python Package",
+      "url": "https://pypi.org/project/openai/",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Completions",
+      "url": "https://github.com/openai/openai-cookbook/blob/main/examples/azure/completions.ipynb",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Streaming Chat completions",
+      "url": "https://github.com/openai/openai-cookbook/blob/main/examples/azure/chat.ipynb",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Switch from OpenAI to Azure OpenAI",
+      "url": "https://aka.ms/azai/oai-to-aoai",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT Python App",
+      "url": "https://aka.ms/azai/chat",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT Python Plugin App Authoring",
+      "url": "https://aka.ms/azai/plugin",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT Python App with your own data",
+      "url": "https://aka.ms/azai/chatwithdata",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Azure AI Content Safety SDK for Python",
+      "url": "https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/contentsafety/azure-ai-contentsafety",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Azure companion for Python experiment",
+      "url": "https://github.com/johanste/easyaz",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Vector Embeddings based Q&A App",
+      "url": "https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Use Speech to converse with OpenAI",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/openai-speech?tabs=windows",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Deploy a model and generate text",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-python",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Embeddings",
+      "url": "https://github.com/openai/openai-cookbook/blob/main/examples/azure/embeddings.ipynb",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Finetuning",
+      "url": "https://github.com/openai/openai-cookbook/blob/main/examples/azure/finetuning.ipynb",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "More Samples",
+      "url": "https://github.com/Azure-Samples/openai/blob/main/README.md",
+      "category": "openai-for-python-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Azure OpenAI SDK for .NET",
+      "url": "https://aka.ms/oai/net/sdk",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Azure.AI.OpenAI NuGet package",
+      "url": "https://aka.ms/oai/net/nuget",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Completions",
+      "url": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/openai/Azure.AI.OpenAI/tests/Samples/Sample01_Chatbot.cs",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Streaming Chat Completions",
+      "url": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/openai/Azure.AI.OpenAI/tests/Samples/Sample04_StreamingChat.cs",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Summarize Text",
+      "url": "https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/openai/Azure.AI.OpenAI/tests/Samples/Sample03_SummarizeText.cs",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT .NET App with your own data",
+      "url": "https://aka.ms/azai/dotnet/chatwithdata",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "ChatGPT .NET App with chats saved to CosmosDB",
+      "url": "https://github.com/Azure-Samples/cosmosdb-chatgpt",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "MAUI chat app example",
+      "url": "https://github.com/jpalvarezl/WhatsForDinner",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "More Samples",
+      "url": "https://github.com/Azure-Samples/openai-dotnet-samples/blob/main/README.md",
+      "category": "openai-for-net-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Azure OpenAI SDK for JavaScript",
+      "url": "https://aka.ms/oai/js/sdk",
+      "category": "openai-for-javascript-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "@azure/openai npm package",
+      "url": "https://aka.ms/oai/js/npm",
+      "category": "openai-for-javascript-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Completions",
+      "url": "https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/openai/openai/samples/v1-beta/javascript/completions.js",
+      "category": "openai-for-javascript-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Streaming Chat Completions",
+      "url": "https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/openai/openai/samples/v1-beta/javascript/chatCompletions.js",
+      "category": "openai-for-javascript-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "More Samples",
+      "url": "https://aka.ms/oai/js/samples",
+      "category": "openai-for-javascript-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Azure OpenAI SDK for Java",
+      "url": "https://aka.ms/oai/java/sdk",
+      "category": "openai-for-java-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "azure.ai.openai maven package",
+      "url": "https://aka.ms/oai/java/maven",
+      "category": "openai-for-java-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "Completions",
+      "url": "https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-openai_1.0.0-beta.1/sdk/openai/azure-ai-openai/src/samples/java/com/azure/ai/openai/ChatbotSample.java",
+      "category": "openai-for-java-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "Streaming Chat Completions",
+      "url": "https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-openai_1.0.0-beta.1/sdk/openai/azure-ai-openai/src/samples/java/com/azure/ai/openai/StreamingChatSample.java",
+      "category": "openai-for-java-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Spring Samples",
+      "url": "https://aka.ms/azai/spring",
+      "category": "openai-for-java-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "More Samples",
+      "url": "https://aka.ms/oai/java/samples",
+      "category": "openai-for-java-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Azure OpenAI SDK for Go",
+      "url": "https://github.com/Azure/azure-sdk-for-go/tree/main/sdk/ai/azopenai",
+      "category": "openai-for-go-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Package (pkg.go.dev)",
+      "url": "https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/ai/azopenai",
+      "category": "openai-for-go-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "ChatCompletions",
+      "url": "https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/ai/azopenai#example-Client.GetChatCompletions",
+      "category": "openai-for-go-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "ChatCompletions using Functions",
+      "url": "https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/ai/azopenai#example-Client.GetChatCompletions-Functions",
+      "category": "openai-for-go-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Streaming Chat Completions",
+      "url": "https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/ai/azopenai#example-Client.GetChatCompletionsStream",
+      "category": "openai-for-go-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Image generation",
+      "url": "https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/ai/azopenai#example-Client.CreateImage",
+      "category": "openai-for-go-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Embeddings",
+      "url": "https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/ai/azopenai#example-Client.GetEmbeddings",
+      "category": "openai-for-go-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Other examples",
+      "url": "https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/ai/azopenai#pkg-examples",
+      "category": "openai-for-go-developers",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Azure Developer CLI",
+      "url": "https://azure.github.io/awesome-azd/?tags=ai",
+      "category": "create-and-manage-azure-ai-resources-with-code",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Azure CLI",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource",
+      "category": "create-and-manage-azure-ai-resources-with-code",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Bicep",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/create-account-bicep?tabs=CLI",
+      "category": "create-and-manage-azure-ai-resources-with-code",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Terraform",
+      "url": "https://registry.terraform.io/modules/Azure/openai/azurerm/latest",
+      "category": "create-and-manage-azure-ai-resources-with-code",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Python",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account-client-library?pivots=programming-language-python",
+      "category": "create-and-manage-azure-ai-resources-with-code",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": ".NET/C#",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account-client-library?pivots=programming-language-csharp",
+      "category": "create-and-manage-azure-ai-resources-with-code",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "JavaScript/TypeScript",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account-client-library?pivots=programming-language-javascript",
+      "category": "create-and-manage-azure-ai-resources-with-code",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Java",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account-client-library?pivots=programming-language-java",
+      "category": "create-and-manage-azure-ai-resources-with-code",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI with Azure Active Directory Role based access control",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/authentication?tabs=powershell#authenticate-with-azure-active-directory",
+      "category": "secure-your-azure-ai-resources",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI with Managed Identities",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/managed-identity",
+      "category": "secure-your-azure-ai-resources",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Use Speech to converse with OpenAI",
+      "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/openai-speech?tabs=windows",
+      "category": "speechvision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Captioning and Call Center Transcription in Python, .NET, JavaScript, Java, C++ and Go",
+      "url": "https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/scenarios",
+      "category": "speechvision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Speech SDK Samples in Python, .NET, JavaScript, Java, C++ and other languages",
+      "url": "https://learn.microsoft.com/en-us/samples/azure-samples/cognitive-services-speech-sdk/sample-repository-for-the-microsoft-cognitive-services-speech-sdk/",
+      "category": "speechvision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Analyze images in Python, .NET and C++",
+      "url": "https://learn.microsoft.com/en-us/samples/azure-samples/azure-ai-vision-sdk/azure-ai-vision-sdk-preview-samples/",
+      "category": "speechvision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Python",
+      "url": "https://learn.microsoft.com/en-us/samples/azure/azure-sdk-for-python/textanalytics-samples/",
+      "category": "language",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Python",
+      "url": "https://learn.microsoft.com/en-us/samples/azure/azure-sdk-for-python/documenttranslation-samples/",
+      "category": "language",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Document Translation sample apps",
+      "url": "https://github.com/MicrosoftTranslator/DocumentTranslation",
+      "category": "language",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "Python",
+      "url": "https://learn.microsoft.com/en-us/samples/azure/azure-sdk-for-python/languagequestionanswering-samples/",
+      "category": "language",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Python",
+      "url": "https://learn.microsoft.com/en-us/samples/azure/azure-sdk-for-python/conversationslanguageunderstanding-samples/",
+      "category": "language",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Azure Form Recognizer SDKs for .NET/C#, Python, JavaScript/TypeScript and Java",
+      "url": "https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/sdk-preview?view=form-recog-3.0.0&tabs=csharp",
+      "category": "applied-aidecision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Python",
+      "url": "https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/formrecognizer/azure-ai-formrecognizer/samples/README.md#samples-for-azure-form-recognizer-client-library-for-python",
+      "category": "applied-aidecision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "New patient registration with Form Recognizer workshop",
+      "url": "https://newpatiente2e.github.io/docs/",
+      "category": "applied-aidecision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "Python",
+      "url": "https://learn.microsoft.com/en-us/samples/azure/azure-sdk-for-python/metricsadvisor-samples/",
+      "category": "applied-aidecision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Python",
+      "url": "https://github.com/Azure-Samples/AnomalyDetector/blob/master/samples-multivariate/sample_multivariate_detect.py",
+      "category": "applied-aidecision",
+      "source_url": "https://github.com/Azure-Samples/azure-ai/blob/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e/README.md#L242",
+      "line": 242,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 90,
+  "unique_links": 81,
+  "category_count": 13,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "contributor_observation": null,
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by Azure-Samples/azure-ai contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/Azure-Samples/azure-ai/tree/4c5738c0453b9b4a5a49e97f36a94d1a4e87f49e",
+  "digest": "232e44236f8f1e73a41ea3e5c4d7c5827e5657c823419fa52d6b95b81c2f8198"
+}

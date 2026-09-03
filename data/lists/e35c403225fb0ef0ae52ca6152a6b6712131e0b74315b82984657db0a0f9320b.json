@@ -1,0 +1,4070 @@
+{
+  "format_version": 3,
+  "repository_id": "1195371847",
+  "name": "ai-boost/awesome-harness-engineering",
+  "revision": "43905de62fd0b894779adda409f87e1354242305",
+  "readme_path": "README.md",
+  "readme_sha256": "0950cd61cfaa5574e18d40d9fa7c2d653bd666ff57b7d5187b2d3ad56761532c",
+  "sections": [
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "level": 2,
+      "path": [
+        "Foundations"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#foundations",
+      "entries": 31
+    },
+    {
+      "id": "design-primitives",
+      "title": "Design Primitives",
+      "level": 2,
+      "path": [
+        "Design Primitives"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#design-primitives",
+      "entries": 0
+    },
+    {
+      "id": "agent-loop",
+      "title": "Agent Loop",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Agent Loop"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#agent-loop",
+      "entries": 21
+    },
+    {
+      "id": "planning--task-decomposition",
+      "title": "Planning & Task Decomposition",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Planning & Task Decomposition"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#planning--task-decomposition",
+      "entries": 12
+    },
+    {
+      "id": "context-delivery--compaction",
+      "title": "Context Delivery & Compaction",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Context Delivery & Compaction"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#context-delivery--compaction",
+      "entries": 29
+    },
+    {
+      "id": "tool-design",
+      "title": "Tool Design",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Tool Design"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#tool-design",
+      "entries": 15
+    },
+    {
+      "id": "skills--mcp",
+      "title": "Skills & MCP",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Skills & MCP"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#skills--mcp",
+      "entries": 41
+    },
+    {
+      "id": "permissions--authorization",
+      "title": "Permissions & Authorization",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Permissions & Authorization"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#permissions--authorization",
+      "entries": 15
+    },
+    {
+      "id": "memory--state",
+      "title": "Memory & State",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Memory & State"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#memory--state",
+      "entries": 26
+    },
+    {
+      "id": "task-runners--orchestration",
+      "title": "Task Runners & Orchestration",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Task Runners & Orchestration"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#task-runners--orchestration",
+      "entries": 40
+    },
+    {
+      "id": "verification--ci-integration",
+      "title": "Verification & CI Integration",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Verification & CI Integration"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#verification--ci-integration",
+      "entries": 14
+    },
+    {
+      "id": "observability--tracing",
+      "title": "Observability & Tracing",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Observability & Tracing"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#observability--tracing",
+      "entries": 16
+    },
+    {
+      "id": "debugging--developer-experience",
+      "title": "Debugging & Developer Experience",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Debugging & Developer Experience"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#debugging--developer-experience",
+      "entries": 16
+    },
+    {
+      "id": "human-in-the-loop",
+      "title": "Human-in-the-Loop",
+      "level": 3,
+      "path": [
+        "Design Primitives",
+        "Human-in-the-Loop"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#human-in-the-loop",
+      "entries": 12
+    },
+    {
+      "id": "reference-implementations",
+      "title": "Reference Implementations",
+      "level": 2,
+      "path": [
+        "Reference Implementations"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#reference-implementations",
+      "entries": 0
+    },
+    {
+      "id": "tutorials--educational",
+      "title": "Tutorials & Educational",
+      "level": 3,
+      "path": [
+        "Reference Implementations",
+        "Tutorials & Educational"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#tutorials--educational",
+      "entries": 15
+    },
+    {
+      "id": "generators--meta-harnesses",
+      "title": "Generators & Meta-Harnesses",
+      "level": 3,
+      "path": [
+        "Reference Implementations",
+        "Generators & Meta-Harnesses"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#generators--meta-harnesses",
+      "entries": 22
+    },
+    {
+      "id": "demo-harnesses",
+      "title": "Demo Harnesses",
+      "level": 3,
+      "path": [
+        "Reference Implementations",
+        "Demo Harnesses"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#demo-harnesses",
+      "entries": 38
+    },
+    {
+      "id": "adjacent-collections",
+      "title": "Adjacent Collections",
+      "level": 3,
+      "path": [
+        "Reference Implementations",
+        "Adjacent Collections"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#adjacent-collections",
+      "entries": 7
+    },
+    {
+      "id": "security-sandbox--permissions",
+      "title": "Security, Sandbox & Permissions",
+      "level": 2,
+      "path": [
+        "Security, Sandbox & Permissions"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#security-sandbox--permissions",
+      "entries": 43
+    },
+    {
+      "id": "evals--verification",
+      "title": "Evals & Verification",
+      "level": 2,
+      "path": [
+        "Evals & Verification"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#evals--verification",
+      "entries": 20
+    },
+    {
+      "id": "templates",
+      "title": "Templates",
+      "level": 2,
+      "path": [
+        "Templates"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#templates",
+      "entries": 4
+    },
+    {
+      "id": "production-infrastructure--operations",
+      "title": "Production Infrastructure & Operations",
+      "level": 2,
+      "path": [
+        "Production Infrastructure & Operations"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#production-infrastructure--operations",
+      "entries": 22
+    },
+    {
+      "id": "related-awesome-lists",
+      "title": "Related Awesome Lists",
+      "level": 2,
+      "path": [
+        "Related Awesome Lists"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#related-awesome-lists",
+      "entries": 7
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "License"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#license",
+      "entries": 0
+    },
+    {
+      "id": "acknowledgments",
+      "title": "Acknowledgments",
+      "level": 2,
+      "path": [
+        "Acknowledgments"
+      ],
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#acknowledgments",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Harness Engineering",
+      "url": "https://openai.com/index/harness-engineering/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Unrolling the Codex Agent Loop",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Run Long-Horizon Tasks with Codex",
+      "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Building Effective Agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "Harness Design for Long-Running Application Development",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Writing Effective Tools for Agents",
+      "url": "https://www.anthropic.com/engineering/writing-effective-tools-for-agents",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Permission Prompts",
+      "url": "https://www.anthropic.com/engineering/beyond-permission-prompts",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying Evals for AI Agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "What is an AI Agent?",
+      "url": "https://www.ibm.com/think/topics/ai-agents",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Agent Development Kit: Making it easy to build multi-agent applications",
+      "url": "https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Harness Engineering",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "The Anatomy of an Agent Harness",
+      "url": "https://blog.langchain.com/the-anatomy-of-an-agent-harness/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Building AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned",
+      "url": "https://arxiv.org/abs/2603.05344",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Natural-Language Agent Harnesses",
+      "url": "https://arxiv.org/abs/2603.25723",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Ranking Engineer Agent (REA): Meta's Autonomous AI System for Ads Ranking",
+      "url": "https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Supercharge Your AI Agents: The New ADK Integrations Ecosystem",
+      "url": "https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "2026 Agentic Coding Trends Report",
+      "url": "https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "How We Build Azure SRE Agent with Agentic Workflows",
+      "url": "https://techcommunity.microsoft.com/blog/appsonazureblog/how-we-build-azure-sre-agent-with-agentic-workflows/4508753",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Context Engineering for Reliable AI Agents: Lessons from Building Azure SRE Agent",
+      "url": "https://techcommunity.microsoft.com/blog/appsonazureblog/context-engineering-lessons-from-building-azure-sre-agent/4481200/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Harness Engineering: Structured Workflows for AI-Assisted Development",
+      "url": "https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Harness engineering for coding agent users",
+      "url": "https://martinfowler.com/articles/harness-engineering.html",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "A Practical Guide to Building AI Agents",
+      "url": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "An Update on Recent Claude Code Quality Reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence",
+      "url": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Code as Agent Harness",
+      "url": "https://arxiv.org/abs/2605.18747",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Harness Engineering: How to Build Reliable AI Agents by Engineering the System, Not the Model",
+      "url": "https://www.deepset.ai/blog/harness-engineering",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "What makes a harness a harness: necessary and sufficient conditions for an agent harness",
+      "url": "https://arxiv.org/abs/2606.10106",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Architectural Design Decisions in AI Agent Harnesses",
+      "url": "https://arxiv.org/abs/2604.18071",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "RUCAIBox/awesome-agent-harness",
+      "url": "https://github.com/RUCAIBox/awesome-agent-harness",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Tuning the harness, not the model: a Nemotron 3 Ultra playbook",
+      "url": "https://blog.langchain.com/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "lopopolo/harness-engineering",
+      "url": "https://github.com/lopopolo/harness-engineering",
+      "category": "foundations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Unrolling the Codex Agent Loop",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop/",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "LangGraph — Low Level Concepts",
+      "url": "https://langchain-ai.github.io/langgraph/concepts/low_level/",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Unlocking the Codex Harness: How We Built the App Server",
+      "url": "https://openai.com/index/unlocking-the-codex-harness/",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Hooks – Codex",
+      "url": "https://developers.openai.com/codex/hooks",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Extended Thinking — Claude API Docs",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Getting started with loops",
+      "url": "https://claude.com/blog/getting-started-with-loops",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Improving Deep Agents with Harness Engineering",
+      "url": "https://blog.langchain.com/improving-deep-agents-with-harness-engineering/",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Loop Engineering",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Life-Harness",
+      "url": "https://github.com/Tianshi-Xu/Life-Harness",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "How Middleware Lets You Customize Your Agent Harness",
+      "url": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Agents Learn Their Runtime: Interpreter Persistence as Training-Time Semantics",
+      "url": "https://arxiv.org/abs/2603.01209",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Real-Time Deadlines Reveal Temporal Awareness Failures in LLM Strategic Reasoning",
+      "url": "https://arxiv.org/abs/2601.13206",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "A Scheduler-Theoretic Framework for LLM Agent Execution",
+      "url": "https://arxiv.org/abs/2604.11378",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Confucius Code Agent (CCA)",
+      "url": "https://github.com/facebookresearch/cca-swebench",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "The Design Space of Today's and Future AI Agent Systems",
+      "url": "https://arxiv.org/abs/2604.14228",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "deepclaude",
+      "url": "https://github.com/aattaran/deepclaude",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "The Coding Harness Behind GitHub Copilot in VS Code",
+      "url": "https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "statewright",
+      "url": "https://github.com/statewright/statewright",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Introducing dynamic workflows in Claude Code",
+      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "AgentSPEX",
+      "url": "https://github.com/ScaleML/AgentSPEX",
+      "category": "agent-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Run Long-Horizon Tasks with Codex",
+      "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex/",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Harness Design for Long-Running Application Development",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "Plan-and-Execute Agents",
+      "url": "https://blog.langchain.com/plan-and-execute-agents/",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "microsoft/TaskWeaver",
+      "url": "https://github.com/microsoft/TaskWeaver",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "LATS: Language Agent Tree Search",
+      "url": "https://arxiv.org/abs/2310.04406",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Agyn: A Multi-Agent System for Team-Based Autonomous Software Engineering",
+      "url": "https://arxiv.org/abs/2602.01465",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks",
+      "url": "https://arxiv.org/abs/2503.09572",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Choosing the Right Multi-Agent Architecture",
+      "url": "https://blog.langchain.com/choosing-the-right-multi-agent-architecture/",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Agent Workflows Often Fail. Here's How to Engineer Ones That Don't.",
+      "url": "https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Effective Harnesses for Long-Running Agents",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Task-Adaptive Multi-Agent Orchestration (AdaptOrch)",
+      "url": "https://arxiv.org/abs/2602.16873",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Task-Decoupled Planning for Long-Horizon Agents (TDP)",
+      "url": "https://arxiv.org/abs/2601.07577",
+      "category": "planning--task-decomposition",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Harness Engineering",
+      "url": "https://openai.com/index/harness-engineering/",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Effective Context Engineering for AI Agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Compaction — Claude API Docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "LLMLingua",
+      "url": "https://github.com/microsoft/LLMLingua",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Caching — Claude API Docs",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Autonomous Context Compression",
+      "url": "https://blog.langchain.com/autonomous-context-compression/",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Active Context Compression: Autonomous Memory Management in LLM Agents",
+      "url": "https://arxiv.org/abs/2601.07190",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Making Agent-Friendly Pages with Content Negotiation",
+      "url": "https://vercel.com/blog/making-agent-friendly-pages-with-content-negotiation",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces",
+      "url": "https://arxiv.org/abs/2602.03442",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "LLM Readiness Harness: Evaluation, Observability, and CI Gates for LLM/RAG Applications",
+      "url": "https://arxiv.org/abs/2603.27355",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context",
+      "url": "https://arxiv.org/abs/2604.01599",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Claude Code Compaction: How Context Compression Works",
+      "url": "https://okhlopkov.com/claude-code-compaction-explained/",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "Token Savior",
+      "url": "https://github.com/Mibayy/token-savior",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Trellis",
+      "url": "https://github.com/mindfold-ai/Trellis",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "DESIGN.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "Mirage",
+      "url": "https://github.com/strukto-ai/mirage",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "dirac",
+      "url": "https://github.com/dirac-run/dirac",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "MinishLab/semble",
+      "url": "https://github.com/MinishLab/semble",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "harness-experimental",
+      "url": "https://github.com/hoangnb24/harness-experimental",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Context7",
+      "url": "https://github.com/upstash/context7",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Context Pruning for Coding Agents via Multi-Rubric Latent Reasoning",
+      "url": "https://arxiv.org/abs/2605.15315",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "OpenWiki",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "PRO-LONG",
+      "url": "https://github.com/alexisfox7/PRO-LONG",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "Graft",
+      "url": "https://github.com/NanoNets/Graft",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "ktx",
+      "url": "https://github.com/Kaelio/ktx",
+      "category": "context-delivery--compaction",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Writing Effective Tools for Agents",
+      "url": "https://www.anthropic.com/engineering/writing-effective-tools-for-agents",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Tool Use — Claude API Docs",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Function Calling — OpenAI Docs",
+      "url": "https://platform.openai.com/docs/guides/function-calling",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Tool Annotations as Risk Vocabulary",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations/",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "instructor",
+      "url": "https://python.useinstructor.com/",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "SkillTester: Benchmarking Utility and Security of Agent Skills",
+      "url": "https://arxiv.org/abs/2603.28815",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness",
+      "url": "https://arxiv.org/abs/2603.03329",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Scaling Parallel Tool Calling for Efficient Deep Research",
+      "url": "https://arxiv.org/abs/2602.07359",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "EigentSearch-Q+",
+      "url": "https://arxiv.org/abs/2604.07927",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "TopoCurate: Modeling Interaction Topology for Tool-Use Agent Training",
+      "url": "https://arxiv.org/abs/2603.01714",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Design Patterns for Deploying AI Agents with Model Context Protocol",
+      "url": "https://arxiv.org/abs/2603.13417",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "tui-use",
+      "url": "https://github.com/onesuper/tui-use",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "zerolang",
+      "url": "https://github.com/vercel-labs/zerolang",
+      "category": "tool-design",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/introduction",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "microsoft/playwright-mcp",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Chrome DevTools MCP",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "agent-device",
+      "url": "https://github.com/callstackincubator/agent-device",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "A2A Protocol",
+      "url": "https://github.com/a2aproject/A2A",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Announcing the Agentic Resource Discovery specification",
+      "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "MCP Inspector",
+      "url": "https://github.com/modelcontextprotocol/inspector",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "Shell + Skills + Compaction: Tips for Long-Running Agents",
+      "url": "https://developers.openai.com/blog/skills-shell-tips",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Composio",
+      "url": "https://github.com/ComposioHQ/composio",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "oomol-lab/open-connector",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "MCP Streamable HTTP Transport",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "The 2026 MCP Roadmap",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "The 2026-07-28 MCP Specification Release Candidate",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Developer's Guide to AI Agent Protocols",
+      "url": "https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols/",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "AG-UI",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Code Execution with MCP: Building More Efficient Agents",
+      "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Skills Framework",
+      "url": "https://github.com/microsoft/skills",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "SkillNet & SkillsBench: Infrastructure for AI Agent Skills at Scale",
+      "url": "https://github.com/skillmatic-ai/awesome-agent-skills",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Comet",
+      "url": "https://github.com/rpamis/comet",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "AWS Bedrock AgentCore with WebRTC Support",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Hermes Agent: Unified Streaming for Real-Time Agent Workflows",
+      "url": "https://juliangoldie.com/hermes-agent-unified-streaming/",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Google Developers: Closing the Knowledge Gap with Agent Skills",
+      "url": "https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "What's New with GitHub Copilot Coding Agent",
+      "url": "https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Announcing Official MCP Support for Google Services",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "Dataverse Skills: Your Coding Agent Now Speaks Dataverse",
+      "url": "https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "You can't whisper at an AI agent",
+      "url": "https://stripe.dev/blog/ai-steering-experiments",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Agent Toolkit for AWS",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "agentic-stack",
+      "url": "https://github.com/codejunkie99/agentic-stack",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "mcp-agent",
+      "url": "https://github.com/lastmile-ai/mcp-agent",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "vurb.ts",
+      "url": "https://github.com/vinkius-labs/vurb.ts",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "SkillOpt",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Antigravity Awesome Skills",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "AIP: A Graph Representation for Learning and Governing Agent Skills",
+      "url": "https://arxiv.org/abs/2606.04781",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "mgechev/skillgrade",
+      "url": "https://github.com/mgechev/skillgrade",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Qwen-MM-Plugins",
+      "url": "https://github.com/QwenLM/Qwen-MM-Plugins",
+      "category": "skills--mcp",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Permission Prompts",
+      "url": "https://www.anthropic.com/engineering/beyond-permission-prompts",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "OWASP LLM06:2025 — Excessive Agency",
+      "url": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "GitHub Enterprise — Governing Agents",
+      "url": "https://wellarchitected.github.com/library/governance/recommendations/governing-agents/",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Claude Code Auto Mode: A Safer Way to Skip Permissions",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "Claude Agent SDK — Configure Permissions",
+      "url": "https://platform.claude.com/docs/en/agent-sdk/permissions",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Two Different Types of Agent Authorization",
+      "url": "https://blog.langchain.com/two-different-types-of-agent-authorization/",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Authorization and Governance for AI Agents: Runtime Authorization Beyond Identity at Scale",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/authorization-and-governance-for-ai-agents-runtime-authorization-beyond-identity/4509161",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "IETF draft-klrc-aiagent-auth: AI Agent Authentication and Authorization",
+      "url": "https://datatracker.ietf.org/doc/draft-klrc-aiagent-auth/",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Nango: Pre-Built Authentication for AI Agents",
+      "url": "https://nango.dev/",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Agent Vault",
+      "url": "https://github.com/Infisical/agent-vault",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+      "url": "https://arxiv.org/abs/2601.18491",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "Open Agent Passport (OAP): Deterministic Pre-Action Authorization for Autonomous AI Agents",
+      "url": "https://arxiv.org/abs/2603.20953",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "nah",
+      "url": "https://github.com/manuelschipper/nah",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Aegis",
+      "url": "https://github.com/Justin0504/Aegis",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "When \"Do Not\" Is Not Deny: Security Rules in CLAUDE.md vs Built-In Controls",
+      "url": "https://arxiv.org/abs/2608.23550",
+      "category": "permissions--authorization",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "Building Effective Agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Letta (MemGPT)",
+      "url": "https://github.com/letta-ai/letta",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Stash",
+      "url": "https://github.com/alash3al/stash",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "TencentDB-Agent-Memory",
+      "url": "https://github.com/Tencent/TencentDB-Agent-Memory",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Zep",
+      "url": "https://github.com/getzep/zep",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "MemPalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "claude-memory-compiler",
+      "url": "https://github.com/coleam00/claude-memory-compiler",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "mex",
+      "url": "https://github.com/mex-memory/mex",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "How We Built Agent Builder's Memory System",
+      "url": "https://blog.langchain.com/how-we-built-agent-builders-memory-system/",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "Building an Agentic Memory System for GitHub Copilot",
+      "url": "https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "MemArchitect: A Policy-Driven Memory Governance Layer",
+      "url": "https://arxiv.org/abs/2603.18330",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "Codified Context: Infrastructure for AI Agents in a Complex Codebase",
+      "url": "https://arxiv.org/abs/2602.20478",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Facts as First Class Objects: Knowledge Objects for Persistent LLM Memory",
+      "url": "https://arxiv.org/abs/2603.17781",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Recoverability Has a Law: The ERR Measure for Tool-Augmented Agents",
+      "url": "https://arxiv.org/abs/2601.22352",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "MAGMA: Multi-Graph Agentic Memory Architecture",
+      "url": "https://arxiv.org/abs/2601.03236",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "GAAMA: Graph Augmented Associative Memory for Agents",
+      "url": "https://arxiv.org/abs/2603.27910",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures",
+      "url": "https://arxiv.org/abs/2603.17244",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Continual learning for AI agents",
+      "url": "https://blog.langchain.com/continual-learning-for-ai-agents/",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2604.10352",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "MAGE: Memory as Agent-Guided Exploration",
+      "url": "https://arxiv.org/abs/2606.06090",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "deja-vu",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "category": "memory--state",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "Harness Engineering",
+      "url": "https://openai.com/index/harness-engineering/",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "Building a C Compiler with a Team of Parallel Claudes",
+      "url": "https://www.anthropic.com/engineering/building-c-compiler",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "LiteLLM",
+      "url": "https://github.com/BerriAI/litellm",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "LangGraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Agents SDK",
+      "url": "https://github.com/openai/openai-agents-python",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "Codex SDK",
+      "url": "https://developers.openai.com/codex/sdk",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "Google ADK",
+      "url": "https://github.com/google/adk-python",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "strands-agents/harness-sdk",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Build Long-running AI agents that pause, resume, and never lose context with ADK",
+      "url": "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Build Cross-Language Multi-Agent Team with Google's Agent Development Kit and A2A",
+      "url": "https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "AutoGen",
+      "url": "https://github.com/microsoft/autogen",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "CrewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Pydantic AI v2",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "LangGraph 2.0 Release",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "OmniRoute: Multi-Provider LLM Gateway",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "OpenSquilla",
+      "url": "https://github.com/opensquilla/opensquilla",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the Brain from the Hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Agent Framework at BUILD 2026: Agent Harness, Hosted Agents, CodeAct, and more",
+      "url": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce/",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Agent Framework 1.0",
+      "url": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "Conductor",
+      "url": "https://github.com/microsoft/conductor",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "Shopify Roast",
+      "url": "https://github.com/Shopify/roast",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "AgentScope Runtime",
+      "url": "https://github.com/agentscope-ai/agentscope-runtime",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "AgentScope Java",
+      "url": "https://github.com/agentscope-ai/agentscope-java",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "Orchestrating Ambient Agents with Temporal",
+      "url": "https://temporal.io/blog/orchestrating-ambient-agents-with-temporal",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Vercel AI SDK",
+      "url": "https://github.com/vercel/ai",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "eve",
+      "url": "https://github.com/vercel/eve",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "Mastra",
+      "url": "https://github.com/mastra-ai/mastra",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "Flue",
+      "url": "https://github.com/withastro/flue",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "open-multi-agent",
+      "url": "https://github.com/JackChen-me/open-multi-agent",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "The next evolution of the Agents SDK",
+      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "Symphony",
+      "url": "https://github.com/openai/symphony",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "Harmonist",
+      "url": "https://github.com/GammaLabTechnologies/harmonist",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "Hive",
+      "url": "https://github.com/aden-hive/hive",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "thClaws",
+      "url": "https://github.com/thClaws/thClaws",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "sandcastle",
+      "url": "https://github.com/mattpocock/sandcastle",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "bernstein",
+      "url": "https://github.com/sipyourdrink-ltd/bernstein",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "waggle",
+      "url": "https://github.com/modiqo/waggle",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "Orca",
+      "url": "https://github.com/stablyai/orca",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "LoopX",
+      "url": "https://github.com/huangruiteng/loopx",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "HarnessRouter",
+      "url": "https://github.com/HarnessRouter/harnessrouter",
+      "category": "task-runners--orchestration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying Evals for AI Agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "AgentBench",
+      "url": "https://github.com/THUDM/AgentBench",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Testing Agent Skills Systematically with Evals",
+      "url": "https://developers.openai.com/blog/eval-skills",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Agent Evaluation Readiness Checklist",
+      "url": "https://blog.langchain.com/agent-evaluation-readiness-checklist/",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Skills",
+      "url": "https://blog.langchain.com/evaluating-skills/",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "AgentAssay: Token-Efficient Regression Testing for Non-Deterministic Agent Workflows",
+      "url": "https://arxiv.org/abs/2603.02601",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "Agentic Harness for Real-World Compilers: A Case Study in Specialized Tool Design",
+      "url": "https://arxiv.org/abs/2603.20075",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "Eval-Driven Development: Build and Evaluate Reliable AI Agents",
+      "url": "https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "Agent Evaluation Framework 2026: Metrics, Rubrics & Benchmarks",
+      "url": "https://galileo.ai/blog/agent-evaluation-framework-metrics-rubrics-benchmarks",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2602.17753",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "sentrux",
+      "url": "https://github.com/sentrux/sentrux",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "Driving the Agent Quality Flywheel from Your Coding Agent",
+      "url": "https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "mcp-test-harness",
+      "url": "https://github.com/vaquarkhan/mcp-test-harness",
+      "category": "verification--ci-integration",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "OpenLLMetry",
+      "url": "https://github.com/traceloop/openllmetry",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "Arize Phoenix",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "Opik",
+      "url": "https://github.com/comet-ml/opik",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "Langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "Weights & Biases Weave",
+      "url": "https://github.com/wandb/weave",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "OTel GenAI Semantic Conventions",
+      "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "Pydantic Logfire",
+      "url": "https://github.com/pydantic/logfire",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "Helicone",
+      "url": "https://github.com/Helicone/helicone",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "OpenObserve: Unified Observability for LLM Agents",
+      "url": "https://openobserve.ai/",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "Braintrust",
+      "url": "https://www.braintrust.dev/",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "Building Observable AI Agents: Temporal Now Integrates with Braintrust",
+      "url": "https://temporal.io/blog/building-observable-ai-agents-temporal-now-integrates-with-braintrust",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "Introducing BigQuery Agent Analytics",
+      "url": "https://cloud.google.com/blog/products/data-analytics/introducing-bigquery-agent-analytics/",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "Distributed Tracing for Agentic Workflows with OpenTelemetry",
+      "url": "https://developers.redhat.com/articles/2026/04/06/distributed-tracing-agentic-workflows-opentelemetry",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "Red-Teaming Anthropic's Internal Agent Monitoring Systems — METR",
+      "url": "https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "Future AGI",
+      "url": "https://github.com/future-agi/future-agi",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "agentacct",
+      "url": "https://github.com/mikehasa/agentacct",
+      "category": "observability--tracing",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "AgentOps",
+      "url": "https://github.com/AgentOps-AI/agentops",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "claude-devtools",
+      "url": "https://github.com/matt1398/claude-devtools",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "mcpsnoop",
+      "url": "https://github.com/kerlenton/mcpsnoop",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "Claude Code /doctor",
+      "url": "https://code.claude.com/docs/en/commands",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "Syncause/debug-skill",
+      "url": "https://github.com/Syncause/debug-skill",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "AgentTrace: Causal Graph Tracing for Root Cause Analysis in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2603.14688",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code",
+      "url": "https://arxiv.org/abs/2602.06875",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "AgentRx: Systematic Debugging for AI Agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "Debugging Deep Agents with LangSmith",
+      "url": "https://blog.langchain.com/debugging-deep-agents-with-langsmith/",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "Where LLM Agents Fail and How They Can Learn From Failures (AgentDebug)",
+      "url": "https://arxiv.org/abs/2509.25370",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "AgentPrism",
+      "url": "https://github.com/evilmartians/agent-prism",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "Characterizing Faults in Agentic AI",
+      "url": "https://arxiv.org/abs/2603.06847",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "More Visibility into Copilot Coding Agent Sessions",
+      "url": "https://github.blog/changelog/2026-03-19-more-visibility-into-copilot-coding-agent-sessions/",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "AgentStepper: Interactive Debugging of Software Development Agents",
+      "url": "https://arxiv.org/abs/2602.06593",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "mindwalk",
+      "url": "https://github.com/cosmtrek/mindwalk",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "Better Harness",
+      "url": "https://github.com/QoderAI/better-harness",
+      "category": "debugging--developer-experience",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "aws-samples/sample-human-in-the-loop-patterns",
+      "url": "https://github.com/aws-samples/sample-human-in-the-loop-patterns",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "Dify Human-in-the-Loop Node",
+      "url": "https://github.com/langgenius/dify/discussions/32245",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "HITL Protocol",
+      "url": "https://github.com/rotorstar/hitl-protocol",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "LangGraph — Human-in-the-Loop Concepts",
+      "url": "https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "AutoGen — Human-in-the-Loop",
+      "url": "https://microsoft.github.io/autogen/0.2/docs/tutorial/human-in-the-loop/",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "Claude Agent SDK — Handle Approvals and User Input",
+      "url": "https://platform.claude.com/docs/en/agent-sdk/user-input",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "HiL-Bench: Do Agents Know When to Ask for Help?",
+      "url": "https://arxiv.org/abs/2604.09408",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "Human Judgment in the Agent Improvement Loop",
+      "url": "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "Humans and Agents in Software Engineering Loops",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "Measuring AI Agent Autonomy in Practice",
+      "url": "https://www.anthropic.com/news/measuring-agent-autonomy",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "AutoResearchClaw HITL Co-Pilot",
+      "url": "https://github.com/aiming-lab/AutoResearchClaw",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "agent-chief",
+      "url": "https://github.com/SmileLikeYe/agent-chief",
+      "category": "human-in-the-loop",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L394",
+      "line": 394,
+      "properties": {}
+    },
+    {
+      "title": "Learn Harness Engineering",
+      "url": "https://walkinglabs.github.io/learn-harness-engineering/en/",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "Harness Books",
+      "url": "https://github.com/wquguru/harness-books",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L405",
+      "line": 405,
+      "properties": {}
+    },
+    {
+      "title": "ML6 x AISO Agent Workshop",
+      "url": "https://github.com/ml6team/AISO-workshop",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L406",
+      "line": 406,
+      "properties": {}
+    },
+    {
+      "title": "mastra-ai/workshop-mastracode",
+      "url": "https://github.com/mastra-ai/workshop-mastracode",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "Building Governed AI Agents",
+      "url": "https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L408",
+      "line": 408,
+      "properties": {}
+    },
+    {
+      "title": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "huggingface/smolagents",
+      "url": "https://github.com/huggingface/smolagents",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "rasbt/mini-coding-agent",
+      "url": "https://github.com/rasbt/mini-coding-agent",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "AutoJunjie/awesome-agent-harness",
+      "url": "https://github.com/AutoJunjie/awesome-agent-harness",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "Skill Issue: Harness Engineering for Coding Agents",
+      "url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "How to orchestrate agents using mission control",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L415",
+      "line": 415,
+      "properties": {}
+    },
+    {
+      "title": "awslabs/agentcore-samples",
+      "url": "https://github.com/awslabs/agentcore-samples",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "Engineering Trustworthy Multi-Agent Systems",
+      "url": "https://www.ieeesmc.org/cai-2026/tutorial-3-engineering-trustworthy-multi-agent-systems/",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "agents-best-practices",
+      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "category": "tutorials--educational",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L418",
+      "line": 418,
+      "properties": {}
+    },
+    {
+      "title": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "Claude Agent SDK",
+      "url": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "ruvnet/metaharness",
+      "url": "https://github.com/ruvnet/metaharness",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L425",
+      "line": 425,
+      "properties": {}
+    },
+    {
+      "title": "revfactory/harness",
+      "url": "https://github.com/revfactory/harness",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L426",
+      "line": 426,
+      "properties": {}
+    },
+    {
+      "title": "raphaelchristi/harness-evolver",
+      "url": "https://github.com/raphaelchristi/harness-evolver",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L427",
+      "line": 427,
+      "properties": {}
+    },
+    {
+      "title": "neosigmaai/auto-harness",
+      "url": "https://github.com/neosigmaai/auto-harness",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "agentic-harness-engineering",
+      "url": "https://github.com/china-qijizhifeng/agentic-harness-engineering",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+      "url": "https://arxiv.org/abs/2603.28052",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "Self-Harness: Harnesses That Improve Themselves",
+      "url": "https://arxiv.org/abs/2606.09498",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "HyperAgents: Self-Improving AI Systems",
+      "url": "https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026/",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "AutoAgent",
+      "url": "https://github.com/kevinrgu/autoagent",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "metaharness",
+      "url": "https://github.com/SuperagenticAI/metaharness",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "meta-agent",
+      "url": "https://github.com/canvas-org/meta-agent",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "stanford-iris-lab/meta-harness",
+      "url": "https://github.com/stanford-iris-lab/meta-harness",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "autocontext",
+      "url": "https://github.com/greyhaven-ai/autocontext",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "retro-harness",
+      "url": "https://github.com/wbopan/retro-harness",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "Continual Harness",
+      "url": "https://github.com/sethkarten/continual-harness",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "Omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "oh-my-claudecode",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "Exo",
+      "url": "https://github.com/exoharness/exo",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "Nexent",
+      "url": "https://github.com/ModelEngine-Group/nexent",
+      "category": "generators--meta-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "Anthropic Computer Use Demo",
+      "url": "https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "Codex CLI",
+      "url": "https://github.com/openai/codex",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L448",
+      "line": 448,
+      "properties": {}
+    },
+    {
+      "title": "coleam00/your-claude-engineer",
+      "url": "https://github.com/coleam00/your-claude-engineer",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L450",
+      "line": 450,
+      "properties": {}
+    },
+    {
+      "title": "OpenSRE",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "Goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "browser-harness",
+      "url": "https://github.com/browser-use/browser-harness",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "bux",
+      "url": "https://github.com/browser-use/bux",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "SWE-agent",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "Aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "Open SWE: An Open-Source Framework for Internal Coding Agents",
+      "url": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L458",
+      "line": 458,
+      "properties": {}
+    },
+    {
+      "title": "Live-SWE-agent: Autonomous Software Agent with Self-Evolving Harness",
+      "url": "https://arxiv.org/html/2511.13646v3",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "Pipecat: Python Framework for Real-Time Voice Agent Pipelines",
+      "url": "https://github.com/pipecat-ai/pipecat",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L460",
+      "line": 460,
+      "properties": {}
+    },
+    {
+      "title": "Qwen Audio Agent",
+      "url": "https://github.com/QwenAudio/qwen-audio-agent",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "The Virtual Biotech: Multi-Agent AI Framework for Drug Discovery",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707551v1",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L462",
+      "line": 462,
+      "properties": {}
+    },
+    {
+      "title": "Building NVIDIA Nemotron 3 Agents for Reasoning, Multimodal RAG, Voice, and Safety",
+      "url": "https://developer.nvidia.com/blog/building-nvidia-nemotron-3-agents-for-reasoning-multimodal-rag-voice-and-safety/",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L463",
+      "line": 463,
+      "properties": {}
+    },
+    {
+      "title": "AIO Sandbox",
+      "url": "https://github.com/agent-infra/sandbox",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L464",
+      "line": 464,
+      "properties": {}
+    },
+    {
+      "title": "GitHub Agentic Workflows",
+      "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "langchain-ai/deepagents",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L466",
+      "line": 466,
+      "properties": {}
+    },
+    {
+      "title": "HKUDS/OpenHarness",
+      "url": "https://github.com/HKUDS/OpenHarness",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "nanobot",
+      "url": "https://github.com/HKUDS/nanobot",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "qm",
+      "url": "https://github.com/yc-software/qm",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L470",
+      "line": 470,
+      "properties": {}
+    },
+    {
+      "title": "Squad",
+      "url": "https://github.com/bradygaster/squad",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "cua",
+      "url": "https://github.com/trycua/cua",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L472",
+      "line": 472,
+      "properties": {}
+    },
+    {
+      "title": "AMAP-ML/LongHorizon-Harness",
+      "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "ClawGUI",
+      "url": "https://github.com/ZJU-REAL/ClawGUI",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L474",
+      "line": 474,
+      "properties": {}
+    },
+    {
+      "title": "AOHP",
+      "url": "https://github.com/aohp-os/aohp",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "desloppify",
+      "url": "https://github.com/peteromallet/desloppify",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L476",
+      "line": 476,
+      "properties": {}
+    },
+    {
+      "title": "DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "dao-code",
+      "url": "https://github.com/tigicion/dao-code",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L478",
+      "line": 478,
+      "properties": {}
+    },
+    {
+      "title": "SmallCode",
+      "url": "https://github.com/Doorman11991/smallcode",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L480",
+      "line": 480,
+      "properties": {}
+    },
+    {
+      "title": "DeerFlow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L481",
+      "line": 481,
+      "properties": {}
+    },
+    {
+      "title": "Pi",
+      "url": "https://github.com/earendil-works/pi",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L482",
+      "line": 482,
+      "properties": {}
+    },
+    {
+      "title": "grok-build",
+      "url": "https://github.com/xai-org/grok-build",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L483",
+      "line": 483,
+      "properties": {}
+    },
+    {
+      "title": "CodeWhale",
+      "url": "https://github.com/Hmbown/CodeWhale",
+      "category": "demo-harnesses",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L484",
+      "line": 484,
+      "properties": {}
+    },
+    {
+      "title": "EvoMap/awesome-agent-evolution",
+      "url": "https://github.com/EvoMap/awesome-agent-evolution",
+      "category": "adjacent-collections",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L488",
+      "line": 488,
+      "properties": {}
+    },
+    {
+      "title": "Picrew/awesome-agent-harness",
+      "url": "https://github.com/Picrew/awesome-agent-harness",
+      "category": "adjacent-collections",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L489",
+      "line": 489,
+      "properties": {}
+    },
+    {
+      "title": "jiji262/awesome-harness-engineering",
+      "url": "https://github.com/jiji262/awesome-harness-engineering",
+      "category": "adjacent-collections",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L490",
+      "line": 490,
+      "properties": {}
+    },
+    {
+      "title": "VoltAgent/awesome-ai-agent-papers",
+      "url": "https://github.com/VoltAgent/awesome-ai-agent-papers",
+      "category": "adjacent-collections",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "bradAGI/awesome-cli-coding-agents",
+      "url": "https://github.com/bradAGI/awesome-cli-coding-agents",
+      "category": "adjacent-collections",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L492",
+      "line": 492,
+      "properties": {}
+    },
+    {
+      "title": "danielrosehill/AI-Harnesses",
+      "url": "https://github.com/danielrosehill/AI-Harnesses",
+      "category": "adjacent-collections",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L493",
+      "line": 493,
+      "properties": {}
+    },
+    {
+      "title": "RyanAlberts/best-of-Agent-Harnesses",
+      "url": "https://github.com/RyanAlberts/best-of-Agent-Harnesses",
+      "category": "adjacent-collections",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L494",
+      "line": 494,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Permission Prompts",
+      "url": "https://www.anthropic.com/engineering/beyond-permission-prompts",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L500",
+      "line": 500,
+      "properties": {}
+    },
+    {
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L501",
+      "line": 501,
+      "properties": {}
+    },
+    {
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "url": "https://openai.com/index/building-codex-windows-sandbox/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "The Agent Harness Belongs Outside the Sandbox",
+      "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L503",
+      "line": 503,
+      "properties": {}
+    },
+    {
+      "title": "Build zero-trust AI agents with Google's Agent Development Kit",
+      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L504",
+      "line": 504,
+      "properties": {}
+    },
+    {
+      "title": "Model Context Protocol — Authorization",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-05/basic/authorization",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "AI Harness Scorecard",
+      "url": "https://github.com/anthropics/ai-harness-scorecard",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "AgentShield",
+      "url": "https://github.com/affaan-m/agentshield",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L507",
+      "line": 507,
+      "properties": {}
+    },
+    {
+      "title": "E2B",
+      "url": "https://github.com/e2b-dev/E2B",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L508",
+      "line": 508,
+      "properties": {}
+    },
+    {
+      "title": "tldrsec/prompt-injection-defenses",
+      "url": "https://github.com/tldrsec/prompt-injection-defenses",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Injection — Simon Willison's Series",
+      "url": "https://simonwillison.net/series/prompt-injection/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "OWASP LLM01:2025 — Prompt Injection",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "StackOne Defender",
+      "url": "https://github.com/stackoneHQ/defender",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L512",
+      "line": 512,
+      "properties": {}
+    },
+    {
+      "title": "Daytona",
+      "url": "https://github.com/daytonaio/daytona",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "NeMo Guardrails",
+      "url": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L514",
+      "line": 514,
+      "properties": {}
+    },
+    {
+      "title": "LangSmith Sandboxes: Secure Code Execution for Agents",
+      "url": "https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L515",
+      "line": 515,
+      "properties": {}
+    },
+    {
+      "title": "PGSandbox MCP",
+      "url": "https://github.com/LVTD-LLC/pgsandbox",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L516",
+      "line": 516,
+      "properties": {}
+    },
+    {
+      "title": "Implementing a Secure Sandbox for Local Agents",
+      "url": "https://cursor.com/blog/agent-sandboxing",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L517",
+      "line": 517,
+      "properties": {}
+    },
+    {
+      "title": "Practical Security Guidance for Sandboxing Agentic Workflows",
+      "url": "https://developer.nvidia.com/blog/practical-security-guidance-for-sandboxing-agentic-workflows-and-managing-execution-risk/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L518",
+      "line": 518,
+      "properties": {}
+    },
+    {
+      "title": "Under the Hood: Security Architecture of GitHub Agentic Workflows",
+      "url": "https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L519",
+      "line": 519,
+      "properties": {}
+    },
+    {
+      "title": "Community-Powered Security with AI: An Open Source Framework for Security Research",
+      "url": "https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L520",
+      "line": 520,
+      "properties": {}
+    },
+    {
+      "title": "AnonymAI: Integrating Differential Privacy with LLM Agents",
+      "url": "https://www.mdpi.com/1999-5903/18/1/41",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L521",
+      "line": 521,
+      "properties": {}
+    },
+    {
+      "title": "Fault Tolerance Patterns: OpenClaw Journey Six—Core Retry Loop and Seven-Layer Fault-Tolerance",
+      "url": "https://tonylixu.medium.com/openclaw-journey-six-core-retry-loop-and-seven-layer-fault-tolerance-7a9ce03147e2",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L522",
+      "line": 522,
+      "properties": {}
+    },
+    {
+      "title": "deepsec",
+      "url": "https://github.com/vercel-labs/deepsec",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "Sandbox Agents | OpenAI API Docs",
+      "url": "https://developers.openai.com/api/docs/guides/agents/sandboxes",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "NVIDIA OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "IronClaw",
+      "url": "https://github.com/nearai/ironclaw",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L526",
+      "line": 526,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Agent Governance Toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L527",
+      "line": 527,
+      "properties": {}
+    },
+    {
+      "title": "mcpguard-dynamic",
+      "url": "https://github.com/facebook/mcpguard-dynamic",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L528",
+      "line": 528,
+      "properties": {}
+    },
+    {
+      "title": "Grimlock: Guarding High-Agency Systems with eBPF and Attested Channels",
+      "url": "https://arxiv.org/abs/2605.27488",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "Cloudflare Dynamic Workers",
+      "url": "https://blog.cloudflare.com/dynamic-workers/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L530",
+      "line": 530,
+      "properties": {}
+    },
+    {
+      "title": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L531",
+      "line": 531,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes Agent Sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L532",
+      "line": 532,
+      "properties": {}
+    },
+    {
+      "title": "agent-shell-tools",
+      "url": "https://github.com/google/agent-shell-tools",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "Why sandboxing your agent is not enough",
+      "url": "https://www.cncf.io/blog/2026/07/07/why-sandboxing-your-agent-is-not-enough/",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L534",
+      "line": 534,
+      "properties": {}
+    },
+    {
+      "title": "Alibaba OpenSandbox",
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L535",
+      "line": 535,
+      "properties": {}
+    },
+    {
+      "title": "CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L536",
+      "line": 536,
+      "properties": {}
+    },
+    {
+      "title": "zeroboot",
+      "url": "https://github.com/zerobootdev/zeroboot",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "forkd",
+      "url": "https://github.com/deeplethe/forkd",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L538",
+      "line": 538,
+      "properties": {}
+    },
+    {
+      "title": "The Attack and Defense Landscape of Agentic AI: A Comprehensive Survey",
+      "url": "https://arxiv.org/abs/2603.11088",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L539",
+      "line": 539,
+      "properties": {}
+    },
+    {
+      "title": "Trustworthy agents in practice",
+      "url": "https://www.anthropic.com/research/trustworthy-agents",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "RAMPART",
+      "url": "https://github.com/microsoft/RAMPART",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "aiming-lab/AutoHarness",
+      "url": "https://github.com/aiming-lab/AutoHarness",
+      "category": "security-sandbox--permissions",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L542",
+      "line": 542,
+      "properties": {}
+    },
+    {
+      "title": "Demystifying Evals for AI Agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L548",
+      "line": 548,
+      "properties": {}
+    },
+    {
+      "title": "DeepEval",
+      "url": "https://github.com/confident-ai/deepeval",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "Claw-Eval",
+      "url": "https://github.com/claw-eval/claw-eval",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "SWE-bench",
+      "url": "https://www.swebench.com/",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L551",
+      "line": 551,
+      "properties": {}
+    },
+    {
+      "title": "Accio-org/RealReplicaBench",
+      "url": "https://github.com/Accio-org/RealReplicaBench",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L552",
+      "line": 552,
+      "properties": {}
+    },
+    {
+      "title": "Inspect AI",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L553",
+      "line": 553,
+      "properties": {}
+    },
+    {
+      "title": "Quantifying Infrastructure Noise in Agentic Coding Evals",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L554",
+      "line": 554,
+      "properties": {}
+    },
+    {
+      "title": "AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation",
+      "url": "https://arxiv.org/abs/2605.12925",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "StaminaBench: Stress-Testing Coding Agents over 100 Interaction Turns",
+      "url": "https://arxiv.org/abs/2606.19613",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L556",
+      "line": 556,
+      "properties": {}
+    },
+    {
+      "title": "Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows",
+      "url": "https://arxiv.org/abs/2605.27922",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L557",
+      "line": 557,
+      "properties": {}
+    },
+    {
+      "title": "tau-bench",
+      "url": "https://github.com/sierra-research/tau-bench",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L558",
+      "line": 558,
+      "properties": {}
+    },
+    {
+      "title": "Towards a Science of AI Agent Reliability",
+      "url": "https://arxiv.org/abs/2602.16666",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L559",
+      "line": 559,
+      "properties": {}
+    },
+    {
+      "title": "Characterizing Faults in Agentic AI: A Taxonomy of Types, Symptoms, and Root Causes",
+      "url": "https://arxiv.org/abs/2603.06847",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L560",
+      "line": 560,
+      "properties": {}
+    },
+    {
+      "title": "VeRO: An Evaluation Harness for Agents to Optimize Agents",
+      "url": "https://arxiv.org/abs/2602.22480",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L561",
+      "line": 561,
+      "properties": {}
+    },
+    {
+      "title": "Eval Awareness in Claude Opus 4.6's BrowseComp Performance",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L562",
+      "line": 562,
+      "properties": {}
+    },
+    {
+      "title": "Designing AI-Resistant Technical Evaluations",
+      "url": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L563",
+      "line": 563,
+      "properties": {}
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Evaluations Is Now Generally Available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L564",
+      "line": 564,
+      "properties": {}
+    },
+    {
+      "title": "Live-SWE-agent: First Live Software Agent with Self-Evolving Scaffold",
+      "url": "https://arxiv.org/html/2511.13646v3",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L565",
+      "line": 565,
+      "properties": {}
+    },
+    {
+      "title": "OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
+      "url": "https://arxiv.org/abs/2604.10866",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L566",
+      "line": 566,
+      "properties": {}
+    },
+    {
+      "title": "STATE-Bench",
+      "url": "https://github.com/microsoft/STATE-Bench",
+      "category": "evals--verification",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L567",
+      "line": 567,
+      "properties": {}
+    },
+    {
+      "title": "templates/AGENTS.md",
+      "url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/templates/AGENTS.md",
+      "category": "templates",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L577",
+      "line": 577,
+      "properties": {}
+    },
+    {
+      "title": "templates/PLAN.md",
+      "url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/templates/PLAN.md",
+      "category": "templates",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L578",
+      "line": 578,
+      "properties": {}
+    },
+    {
+      "title": "templates/IMPLEMENT.md",
+      "url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/templates/IMPLEMENT.md",
+      "category": "templates",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L579",
+      "line": 579,
+      "properties": {}
+    },
+    {
+      "title": "templates/HARNESS_CHECKLIST.md",
+      "url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/templates/HARNESS_CHECKLIST.md",
+      "category": "templates",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L580",
+      "line": 580,
+      "properties": {}
+    },
+    {
+      "title": "Claude Managed Agents: Self-Hosted Sandboxes and MCP Tunnels",
+      "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L586",
+      "line": 586,
+      "properties": {}
+    },
+    {
+      "title": "AgentCgroup: Understanding and Controlling OS Resources of AI Agents",
+      "url": "https://arxiv.org/abs/2602.09345",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L587",
+      "line": 587,
+      "properties": {}
+    },
+    {
+      "title": "AI Agent Scaling Gap: Pilot to Production (March 2026)",
+      "url": "https://www.digitalapplied.com/blog/ai-agent-scaling-gap-march-2026-pilot-to-production",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L588",
+      "line": 588,
+      "properties": {}
+    },
+    {
+      "title": "builderz-labs/mission-control",
+      "url": "https://github.com/builderz-labs/mission-control",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L589",
+      "line": 589,
+      "properties": {}
+    },
+    {
+      "title": "kvcache-ai/AgentENV",
+      "url": "https://github.com/kvcache-ai/AgentENV",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L590",
+      "line": 590,
+      "properties": {}
+    },
+    {
+      "title": "5 Production Scaling Challenges for Agentic AI in 2026",
+      "url": "https://machinelearningmastery.com/5-production-scaling-challenges-for-agentic-ai-in-2026/",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L591",
+      "line": 591,
+      "properties": {}
+    },
+    {
+      "title": "AI Agent Cost Optimization Guide 2026: Reduce Spend by 60-80%",
+      "url": "https://moltbook-ai.com/posts/ai-agent-cost-optimization-2026",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L592",
+      "line": 592,
+      "properties": {}
+    },
+    {
+      "title": "getagentseal/codeburn",
+      "url": "https://github.com/getagentseal/codeburn",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L593",
+      "line": 593,
+      "properties": {}
+    },
+    {
+      "title": "KernelEvolve: How Meta's Ranking Engineer Agent Optimizes AI Infrastructure",
+      "url": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L594",
+      "line": 594,
+      "properties": {}
+    },
+    {
+      "title": "State of Agent Engineering 2026",
+      "url": "https://www.langchain.com/state-of-agent-engineering",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L595",
+      "line": 595,
+      "properties": {}
+    },
+    {
+      "title": "Agentic Development: What It Means for Engineering Infrastructure in 2026",
+      "url": "https://www.bunnyshell.com/guides/agentic-development/",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L596",
+      "line": 596,
+      "properties": {}
+    },
+    {
+      "title": "FinOps for Agents: Loop Limits, Tool-Call Caps, and the New Unit Economics of Agentic SaaS",
+      "url": "https://www.infoworld.com/article/4138748/finops-for-agents-loop-limits-tool-call-caps-and-the-new-unit-economics-of-agentic-saas.html",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L597",
+      "line": 597,
+      "properties": {}
+    },
+    {
+      "title": "Backtesting AI Agents: How SRE Teams Prove Reliability Before Production",
+      "url": "https://drdroid.io/blog/backtesting-ai-agents-how-sre-teams-prove-reliability-before-production",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L598",
+      "line": 598,
+      "properties": {}
+    },
+    {
+      "title": "How My Agents Self-Heal in Production",
+      "url": "https://blog.langchain.com/production-agents-self-heal/",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L599",
+      "line": 599,
+      "properties": {}
+    },
+    {
+      "title": "Minions: Stripe's one-shot, end-to-end coding agents—Part 2",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L600",
+      "line": 600,
+      "properties": {}
+    },
+    {
+      "title": "Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/bedrock/agentcore/",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L601",
+      "line": 601,
+      "properties": {}
+    },
+    {
+      "title": "AWS Agent Registry for Centralized Agent Discovery and Governance",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L602",
+      "line": 602,
+      "properties": {}
+    },
+    {
+      "title": "A Dev's Guide to Production-Ready AI Agents",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L603",
+      "line": 603,
+      "properties": {}
+    },
+    {
+      "title": "Enhanced Tool Governance in Vertex AI Agent Builder",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/new-enhanced-tool-governance-in-vertex-ai-agent-builder",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L604",
+      "line": 604,
+      "properties": {}
+    },
+    {
+      "title": "What Is an Agent Harness? Running Governed Managed Agents in Production",
+      "url": "https://www.truefoundry.com/blog/agent-harness-managed-ai-agents",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L605",
+      "line": 605,
+      "properties": {}
+    },
+    {
+      "title": "truefoundry/trueforge",
+      "url": "https://github.com/truefoundry/trueforge",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L606",
+      "line": 606,
+      "properties": {}
+    },
+    {
+      "title": "Building Governed Agents: A Framework for Cost, Control, and Compliance",
+      "url": "https://www.langchain.com/blog/building-governed-agents-a-framework-for-cost-control-and-compliance",
+      "category": "production-infrastructure--operations",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L607",
+      "line": 607,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Context Engineering",
+      "url": "https://github.com/Meirtz/Awesome-Context-Engineering",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L615",
+      "line": 615,
+      "properties": {}
+    },
+    {
+      "title": "awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L616",
+      "line": 616,
+      "properties": {}
+    },
+    {
+      "title": "awesome-mcp-servers",
+      "url": "https://github.com/appcypher/awesome-mcp-servers",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L617",
+      "line": 617,
+      "properties": {}
+    },
+    {
+      "title": "awesome-ai-agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L618",
+      "line": 618,
+      "properties": {}
+    },
+    {
+      "title": "awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L619",
+      "line": 619,
+      "properties": {}
+    },
+    {
+      "title": "ICLR 2026 MemAgents Workshop",
+      "url": "https://sites.google.com/view/memagent-iclr26/",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L620",
+      "line": 620,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Code as Agent Harness Papers",
+      "url": "https://github.com/YennNing/Awesome-Code-as-Agent-Harness-Papers",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/README.md#L621",
+      "line": 621,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 466,
+  "unique_links": 452,
+  "category_count": 22,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "ai-boost",
+      "url": "https://github.com/ai-boost",
+      "contributions": 99
+    },
+    {
+      "login": "rasulkireev",
+      "url": "https://github.com/rasulkireev",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 245,
+    "public_contributors": 2,
+    "observed_at": "2026-09-03T17:43:34.078447+00:00"
+  },
+  "contributing_url": "https://github.com/ai-boost/awesome-harness-engineering/blob/43905de62fd0b894779adda409f87e1354242305/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by ai-boost/awesome-harness-engineering contributors.",
+  "license": "NOASSERTION",
+  "license_url": "https://github.com/ai-boost/awesome-harness-engineering/tree/43905de62fd0b894779adda409f87e1354242305",
+  "digest": "e35c403225fb0ef0ae52ca6152a6b6712131e0b74315b82984657db0a0f9320b"
+}

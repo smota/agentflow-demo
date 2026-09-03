@@ -1,0 +1,966 @@
+{
+  "format_version": 3,
+  "repository_id": "506157605",
+  "name": "xuyu0010/awesome-video-domain-adaptation",
+  "revision": "a6d6ab034fa937913ce99a04921d80302b0081ff",
+  "readme_path": "README.md",
+  "readme_sha256": "030f037e3aa6cb2a5d953c4917232dc1bfc136a49c9f4f88d197559ab01ac94e",
+  "sections": [
+    {
+      "id": "awesome-video-domain-adaptation",
+      "title": "Awesome Video Domain Adaptation",
+      "level": 1,
+      "path": [
+        "Awesome Video Domain Adaptation"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#awesome-video-domain-adaptation",
+      "entries": 1
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 1,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "explanatory-notes",
+      "title": "Explanatory Notes",
+      "level": 1,
+      "path": [
+        "Explanatory Notes"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#explanatory-notes",
+      "entries": 0
+    },
+    {
+      "id": "papers",
+      "title": "Papers",
+      "level": 1,
+      "path": [
+        "Papers"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#papers",
+      "entries": 0
+    },
+    {
+      "id": "closed-set-vda",
+      "title": "Closed-set VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Closed-set VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#closed-set-vda",
+      "entries": 40
+    },
+    {
+      "id": "partial-set-vda",
+      "title": "Partial-set VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Partial-set VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#partial-set-vda",
+      "entries": 2
+    },
+    {
+      "id": "open-set-vda",
+      "title": "Open-set VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Open-set VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#open-set-vda",
+      "entries": 3
+    },
+    {
+      "id": "multi-source-vda",
+      "title": "Multi-Source VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Multi-Source VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#multi-source-vda",
+      "entries": 1
+    },
+    {
+      "id": "source-free-or-test-time-vda",
+      "title": "Source-Free or Test-time VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Source-Free or Test-time VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#source-free-or-test-time-vda",
+      "entries": 8
+    },
+    {
+      "id": "target-free-vda",
+      "title": "Target-Free VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Target-Free VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#target-free-vda",
+      "entries": 1
+    },
+    {
+      "id": "few-shot-vda",
+      "title": "Few-shot VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Few-shot VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#few-shot-vda",
+      "entries": 1
+    },
+    {
+      "id": "continual-vda",
+      "title": "Continual VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Continual VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#continual-vda",
+      "entries": 2
+    },
+    {
+      "id": "zero-shot-vda-video-domain-generalization",
+      "title": "Zero-shot VDA (Video Domain Generalization)",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Zero-shot VDA (Video Domain Generalization)"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#zero-shot-vda-video-domain-generalization",
+      "entries": 2
+    },
+    {
+      "id": "multi-modal-vda",
+      "title": "Multi-Modal VDA",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Multi-Modal VDA"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#multi-modal-vda",
+      "entries": 1
+    },
+    {
+      "id": "other-topics-in-video-transfer-learning",
+      "title": "Other Topics in Video Transfer Learning",
+      "level": 2,
+      "path": [
+        "Papers",
+        "Other Topics in Video Transfer Learning"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#other-topics-in-video-transfer-learning",
+      "entries": 8
+    },
+    {
+      "id": "datasets-and-benchmarks",
+      "title": "Datasets and Benchmarks",
+      "level": 1,
+      "path": [
+        "Datasets and Benchmarks"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#datasets-and-benchmarks",
+      "entries": 19
+    },
+    {
+      "id": "useful-tools-and-other-resources",
+      "title": "Useful Tools and Other Resources",
+      "level": 1,
+      "path": [
+        "Useful Tools and Other Resources"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#useful-tools-and-other-resources",
+      "entries": 0
+    },
+    {
+      "id": "challenges-for-video-domain-adaptation",
+      "title": "Challenges for Video Domain Adaptation",
+      "level": 2,
+      "path": [
+        "Useful Tools and Other Resources",
+        "Challenges for Video Domain Adaptation"
+      ],
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#challenges-for-video-domain-adaptation",
+      "entries": 2
+    }
+  ],
+  "entries": [
+    {
+      "title": "this DOI",
+      "url": "https://dl.acm.org/doi/10.1145/3679010",
+      "category": "awesome-video-domain-adaptation",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L8",
+      "line": 8,
+      "properties": {}
+    },
+    {
+      "title": "Unsupervised Video Domain Adaptation with Masked Pre-Training and Collaborative Self-Training (UNITE)",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Reddy_Unsupervised_Video_Domain_Adaptation_with_Masked_Pre-Training_and_Collaborative_Self-Training_CVPR_2024_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Unsupervised Video Domain Adaptation: A Disentanglement Perspective",
+      "url": "https://openreview.net/forum?id=Rp4PA0ez0m",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Synthetic-to-Real Domain Adaptation for Action Recognition: A Dataset and Baseline Performances",
+      "url": "https://ieeexplore.ieee.org/document/10160416",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Recur, Attend or Convolve? On Whether Temporal Modeling Matters for Cross-Domain Robustness in Action Recognition",
+      "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Broome_Recur_Attend_or_Convolve_On_Whether_Temporal_Modeling_Matters_for_WACV_2023_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting Instance-based Mixed Sampling via Auxiliary Source Domain Supervision for Domain-adaptive Action Detection",
+      "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Lu_Exploiting_Instance-Based_Mixed_Sampling_via_Auxiliary_Source_Domain_Supervision_for_WACV_2023_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Domain Adaptive Video Semantic Segmentation via Cross-Domain Moving Object Mixing",
+      "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Cho_Domain_Adaptive_Video_Semantic_Segmentation_via_Cross-Domain_Moving_Object_Mixing_WACV_2023_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Domain Adaptive Video Segmentation via Temporal Pseudo Supervision",
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136900612.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Audio-Adaptive Activity Recognition Across Video Domains",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Audio-Adaptive_Activity_Recognition_Across_Video_Domains_CVPR_2022_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Interact before Align: Leveraging Cross-Modal Knowledge for Domain Adaptive Action Recognition",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Interact_Before_Align_Leveraging_Cross-Modal_Knowledge_for_Domain_Adaptive_Action_CVPR_2022_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Level Attentive Adversarial Learning With Temporal Dilation for Unsupervised Video Domain Adaptation",
+      "url": "https://openaccess.thecvf.com/content/WACV2022/papers/Chen_Multi-Level_Attentive_Adversarial_Learning_With_Temporal_Dilation_for_Unsupervised_Video_WACV_2022_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Dual-Head Contrastive Domain Adaptation for Video Action Recognition",
+      "url": "https://openaccess.thecvf.com/content/WACV2022/papers/da_Costa_Dual-Head_Contrastive_Domain_Adaptation_for_Video_Action_Recognition_WACV_2022_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Contrast and mix: Temporal contrastive video domain adaptation with background mixing",
+      "url": "https://proceedings.neurips.cc/paper/2021/file/c47e93742387750baba2e238558fa12d-Paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "Learning Cross-Modal Contrastive Features for Video Domain Adaptation",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Learning_Cross-Modal_Contrastive_Features_for_Video_Domain_Adaptation_ICCV_2021_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Domain Adaptive Video Segmentation via Temporal Consistency Regularization",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Guan_Domain_Adaptive_Video_Segmentation_via_Temporal_Consistency_Regularization_ICCV_2021_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Unsupervised Curriculum Domain Adaptation for No-Reference Video Quality Assessment",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Unsupervised_Curriculum_Domain_Adaptation_for_No-Reference_Video_Quality_Assessment_ICCV_2021_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Spatio-temporal Contrastive Domain Adaptation for Action Recognition",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Song_Spatio-temporal_Contrastive_Domain_Adaptation_for_Action_Recognition_CVPR_2021_paper.html",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Unsupervised Domain Adaptation for Spatio-Temporal Action Localization",
+      "url": "http://faculty.ucmerced.edu/mhyang/papers/bmvc2020_action.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "Adversarial Bipartite Graph Learning for Video Domain Adaptation",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3394171.3413897",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Shuffle and Attend: Video Domain Adaptation",
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570664.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Modal Domain Adaptation for Fine-Grained Action Recognition",
+      "url": "http://openaccess.thecvf.com/content_CVPR_2020/papers/Munro_Multi-Modal_Domain_Adaptation_for_Fine-Grained_Action_Recognition_CVPR_2020_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Action_Segmentation_With_Joint_Self-Supervised_Temporal_Domain_Adaptation_CVPR_2020_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Transferring Cross-domain Knowledge for Video Sign Language Recognition",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Transferring_Cross-Domain_Knowledge_for_Video_Sign_Language_Recognition_CVPR_2020_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Adversarial Cross-Domain Action Recognition with Co-Attention",
+      "url": "https://arxiv.org/pdf/1912.10405.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Generative Adversarial Networks for Video-to-Video Domain Adaptation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/5750",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Action Segmentation with Mixed Temporal Domain Adaptation",
+      "url": "https://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Action_Segmentation_with_Mixed_Temporal_Domain_Adaptation_WACV_2020_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Unsupervised and Semi-Supervised Domain Adaptation for Action Recognition from Drones",
+      "url": "https://openaccess.thecvf.com/content_WACV_2020/papers/Choi_Unsupervised_and_Semi-Supervised_Domain_Adaptation_for_Action_Recognition_from_Drones_WACV_2020_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Temporal Attentive Alignment for Large-Scale Video Domain Adaptation",
+      "url": "http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Temporal_Attentive_Alignment_for_Large-Scale_Video_Domain_Adaptation_ICCV_2019_paper.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Actor and Observer: Joint Modeling of First and Third-Person Videos",
+      "url": "https://ieeexplore.ieee.org/document/8578870",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Deep Domain Adaptation in Action Space",
+      "url": "http://bmvc2018.org/contents/papers/0960.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Correlation Information for Domain Adaptation in Action Recognition",
+      "url": "https://arxiv.org/abs/2107.04932",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100",
+      "url": "https://link.springer.com/article/10.1007/s11263-021-01531-2",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Dynamic video mix-up for cross-domain action recognition",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231221017318",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "A Novel Multiple-View Adversarial Learning Network for Unsupervised Domain Adaptation Action Recognition",
+      "url": "https://ieeexplore.ieee.org/document/9543528",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "A Pairwise Attentive Adversarial Spatiotemporal Network for Cross-Domain Few-Shot Action Recognition-R2",
+      "url": "https://ieeexplore.ieee.org/document/9268986",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Pairwise Two-Stream ConvNets for Cross-Domain Action Recognition With Small Data",
+      "url": "https://ieeexplore.ieee.org/document/9288873",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Evaluation of local spatial–temporal features for cross-view action recognition",
+      "url": "https://www.sciencedirect.com/science/article/pii/S092523121501125X",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Memory Efficient Temporal & Visual Graph Model for Unsupervised Video Domain Adaptation",
+      "url": "https://arxiv.org/abs/2208.06554",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Channel-Temporal Attention for First-Person Video Domain Adaptation",
+      "url": "https://arxiv.org/pdf/2108.07846v2.pdf",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Unsupervised Domain Adaptation for Video Semantic Segmentation",
+      "url": "https://arxiv.org/abs/2107.11052",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Temporal Attentive Alignment for Video Domain Adaptation",
+      "url": "https://arxiv.org/abs/1905.10861v5",
+      "category": "closed-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Partial Video Domain Adaptation With Partial Adversarial Temporal Attentive Network",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_Partial_Video_Domain_Adaptation_With_Partial_Adversarial_Temporal_Attentive_Network_ICCV_2021_paper.pdf",
+      "category": "partial-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Calibrating Class Weights with Multi-Modal Information for Partial Video Domain Adaptation",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3503161.3548095",
+      "category": "partial-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Conditional Extreme Value Theory for Open Set Video Domain Adaptation",
+      "url": "https://dl.acm.org/doi/10.1145/3469877.3490600",
+      "category": "open-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Dual Metric Discriminator for Open Set Video Domain Adaptation",
+      "url": "https://ieeexplore.ieee.org/document/9413361",
+      "category": "open-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Open Set Domain Adaptation for Image and Action Recognition",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8531764",
+      "category": "open-set-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Source Video Domain Adaptation with Temporal Attentive Moment Alignment",
+      "url": "https://arxiv.org/abs/2109.09964",
+      "category": "multi-source-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Source-free video domain adaptation by learning from noisy labels",
+      "url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/%5Bhttps:/hal.science/hal-03929619/document%5D(https:/www.sciencedirect.com/science/article/pii/S0031320324010793)",
+      "category": "source-free-or-test-time-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "The Unreasonable Effectiveness of Large Language-Vision Models for Source-free Video Domain Adaptation",
+      "url": "https://arxiv.org/abs/2308.09139",
+      "category": "source-free-or-test-time-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Video Test-Time Adaptation for Action Recognition",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Video_Test-Time_Adaptation_for_Action_Recognition_CVPR_2023_paper.pdf",
+      "category": "source-free-or-test-time-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Source-Free Video Domain Adaptation with Spatial-Temporal-Historical Consistency Learning",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Source-Free_Video_Domain_Adaptation_With_Spatial-Temporal-Historical_Consistency_Learning_CVPR_2023_paper.pdf",
+      "category": "source-free-or-test-time-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Overcoming Label Noise for Source-free Unsupervised Video Domain Adaptation",
+      "url": "https://hal.science/hal-03929619/document",
+      "category": "source-free-or-test-time-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Source-free Video Domain Adaptation by Learning Temporal Consistency for Action Recognition",
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136940144.pdf",
+      "category": "source-free-or-test-time-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Self-supervised Test-time Adaptation on Video Data",
+      "url": "https://openaccess.thecvf.com/content/WACV2022/papers/Azimi_Self-Supervised_Test-Time_Adaptation_on_Video_Data_WACV_2022_paper.pdf",
+      "category": "source-free-or-test-time-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Relative Alignment Network for Source-Free Multimodal Video Domain Adaptation",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3503161.3548009",
+      "category": "source-free-or-test-time-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Cross-Domain Video Anomaly Detection without Target Domain Adaptation",
+      "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Aich_Cross-Domain_Video_Anomaly_Detection_Without_Target_Domain_Adaptation_WACV_2023_paper.pdf",
+      "category": "target-free-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Augmenting and Aligning Snippets for Few-Shot Video Domain Adaptation",
+      "url": "https://arxiv.org/abs/2303.10451",
+      "category": "few-shot-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Modal Continual Test-Time Adaptation for 3D Semantic Segmentation",
+      "url": "https://arxiv.org/abs/2303.10457",
+      "category": "continual-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Confidence Attention and Generalization Enhanced Distillation for Continuous Video Domain Adaptation",
+      "url": "https://arxiv.org/abs/2303.10452",
+      "category": "continual-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition",
+      "url": "https://openaccess.thecvf.com/content/WACV2022/papers/Planamente_Domain_Generalization_Through_Audio-Visual_Relative_Norm_Alignment_in_First_Person_WACV_2022_paper.pdf",
+      "category": "zero-shot-vda-video-domain-generalization",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "VideoDG: generalizing temporal relations in videos to novel domains",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9556560",
+      "category": "zero-shot-vda-video-domain-generalization",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Modal Continual Test-Time Adaptation for 3D Semantic Segmentation",
+      "url": "https://arxiv.org/abs/2303.10457",
+      "category": "multi-modal-vda",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "CycDA: Unsupervised Cycle Domain Adaptation to Learn from Image to Video",
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136630684.pdf",
+      "category": "other-topics-in-video-transfer-learning",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking the robustness of Spatial-Temporal Models",
+      "url": "https://openreview.net/forum?id=MQlMIrm3Hv5",
+      "category": "other-topics-in-video-transfer-learning",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "Spatial-temporal causal inference for partial image-to-video adaptation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/16187",
+      "category": "other-topics-in-video-transfer-learning",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Image to Video Domain Adaptation Using Web Supervision",
+      "url": "https://openaccess.thecvf.com/content_WACV_2020/papers/Kae_Image_to_Video_Domain_Adaptation_Using_Web_Supervision_WACV_2020_paper.pdf",
+      "category": "other-topics-in-video-transfer-learning",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "DistInit: Learning Video Representations Without a Single Labeled Video",
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Girdhar_DistInit_Learning_Video_Representations_Without_a_Single_Labeled_Video_ICCV_2019_paper.pdf",
+      "category": "other-topics-in-video-transfer-learning",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Domain and Multi-Task Learning for Human Action Recognition",
+      "url": "https://ieeexplore.ieee.org/iel7/83/8478029/08476540.pdf",
+      "category": "other-topics-in-video-transfer-learning",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "Deep Image-to-Video Adaptation and Fusion Networks for Action Recognition",
+      "url": "https://ieeexplore.ieee.org/document/8931264",
+      "category": "other-topics-in-video-transfer-learning",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Recur, Attend or Convolve? On Whether Temporal Modeling Matters for Cross-Domain Robustness in Action Recognition",
+      "url": "https://arxiv.org/abs/2112.12175",
+      "category": "other-topics-in-video-transfer-learning",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "XOV-Action",
+      "url": "https://github.com/KunyuLin/XOV-Action/",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "RoCoG-v2",
+      "url": "https://github.com/reddyav1/RoCoG-v2",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Sports-DA",
+      "url": "https://xuyu0010.github.io/msvda.html#data-download",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Daily-DA",
+      "url": "https://xuyu0010.github.io/msvda.html#data-download",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "HMDB-ARID",
+      "url": "https://xuyu0010.github.io/vuda.html#papers-and-download",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "ActorShift",
+      "url": "https://xiaobai1217.github.io/DomainAdaptation/",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Mixamo→Kinetics",
+      "url": "https://github.com/vturrisi/CO2A",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "UCF-HMDB <sub>partial</sub>",
+      "url": "https://xuyu0010.github.io/pvda.html#papers-notes-and-download",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "HMDB-ARID <sub>partial</sub>",
+      "url": "https://xuyu0010.github.io/pvda.html#papers-notes-and-download",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "MiniKinetics-UCF",
+      "url": "https://xuyu0010.github.io/pvda.html#papers-notes-and-download",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "VIPER→Cityscapes-Seq",
+      "url": "https://github.com/Dayan-Guan/DA-VSN",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "SYNTHIA-Seq→Cityscapes-Seq",
+      "url": "https://github.com/Dayan-Guan/DA-VSN",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "Epic-Kitchens",
+      "url": "https://github.com/jonmun/MM-SADA-code",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "UCF-HMDB <sub>full</sub>",
+      "url": "https://github.com/cmhungsteve/TA3N",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Kinetics-Gameplay",
+      "url": "https://github.com/cmhungsteve/TA3N",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Charades-Ego",
+      "url": "https://prior.allenai.org/projects/charades-ego",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Kinetics→NEC-Drone",
+      "url": "https://www.nec-labs.com/~mas/NEC-Drone/",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "UCF-HMDB <sub>small</sub>",
+      "url": "https://github.com/cmhungsteve/TA3N",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "UCF-Olympic",
+      "url": "https://github.com/cmhungsteve/TA3N",
+      "category": "datasets-and-benchmarks",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "5<sup>th</sup> UG2<sup>+</sup> Prize Challenge: Bridging the Gap Between Computational Photography and Visual Recognition (Track 2)",
+      "url": "http://cvpr2022.ug2challenge.org/track2.html",
+      "category": "challenges-for-video-domain-adaptation",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Epic-Kitchens-100 2022 Challenge: Domain Adaptation for Action Recognition",
+      "url": "https://epic-kitchens.github.io/2022#challenge-domain-adaptation",
+      "category": "challenges-for-video-domain-adaptation",
+      "source_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/blob/a6d6ab034fa937913ce99a04921d80302b0081ff/README.md#L237",
+      "line": 237,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 91,
+  "unique_links": 83,
+  "category_count": 14,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "xuyu0010",
+      "url": "https://github.com/xuyu0010",
+      "contributions": 99
+    },
+    {
+      "login": "avijit9",
+      "url": "https://github.com/avijit9",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": false,
+    "path_commit_count": 100,
+    "public_contributors": 2,
+    "observed_at": "2026-09-03T17:59:50.688406+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by xuyu0010/awesome-video-domain-adaptation contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/xuyu0010/awesome-video-domain-adaptation/tree/a6d6ab034fa937913ce99a04921d80302b0081ff",
+  "digest": "2456060d27217a88dd69b3ffa2adf70ffb68fb44aa12222b7bd9604fd690b238"
+}

@@ -1,0 +1,2822 @@
+{
+  "format_version": 3,
+  "repository_id": "798152331",
+  "name": "shuolucs/Awesome-Out-Of-Distribution-Detection",
+  "revision": "60561bab9f81e0864cd2bf18846b547f6a7c359e",
+  "readme_path": "README.md",
+  "readme_sha256": "3fdfb82abcc0fac7560bed493d0ae3bad2bb1b234984be3577367d7cac9db9bf",
+  "sections": [
+    {
+      "id": "awesome-out-of-distribution-detection",
+      "title": "Awesome Out-of-distribution Detection",
+      "level": 1,
+      "path": [
+        "Awesome Out-of-distribution Detection"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#awesome-out-of-distribution-detection",
+      "entries": 0
+    },
+    {
+      "id": "-news",
+      "title": "📢 News",
+      "level": 2,
+      "path": [
+        "Awesome Out-of-distribution Detection",
+        "📢 News"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#-news",
+      "entries": 0
+    },
+    {
+      "id": "outline",
+      "title": "Outline",
+      "level": 1,
+      "path": [
+        "Outline"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#outline",
+      "entries": 0
+    },
+    {
+      "id": "section-30",
+      "title": "",
+      "level": 6,
+      "path": [
+        "Outline",
+        ""
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 1,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "training-driven-ood-detection",
+      "title": "Training-driven OOD Detection",
+      "level": 1,
+      "path": [
+        "Training-driven OOD Detection"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#training-driven-ood-detection",
+      "entries": 0
+    },
+    {
+      "id": "approaches-with-only-id-data",
+      "title": "Approaches with only ID Data",
+      "level": 2,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with only ID Data"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#approaches-with-only-id-data",
+      "entries": 0
+    },
+    {
+      "id": "reconstruction-based",
+      "title": "Reconstruction-based",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with only ID Data",
+        "Reconstruction-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#reconstruction-based",
+      "entries": 13
+    },
+    {
+      "id": "probability-based",
+      "title": "Probability-based",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with only ID Data",
+        "Probability-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#probability-based",
+      "entries": 4
+    },
+    {
+      "id": "logits-based",
+      "title": "Logits-based",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with only ID Data",
+        "Logits-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#logits-based",
+      "entries": 3
+    },
+    {
+      "id": "ood-synthesis",
+      "title": "OOD Synthesis",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with only ID Data",
+        "OOD Synthesis"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#ood-synthesis",
+      "entries": 17
+    },
+    {
+      "id": "prototype-based",
+      "title": "Prototype-based",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with only ID Data",
+        "Prototype-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#prototype-based",
+      "entries": 9
+    },
+    {
+      "id": "long-tail-id-data",
+      "title": "Long-tail ID data",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with only ID Data",
+        "Long-tail ID data"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#long-tail-id-data",
+      "entries": 9
+    },
+    {
+      "id": "approaches-with-both-id-and-ood-data",
+      "title": "Approaches with Both ID and OOD Data",
+      "level": 2,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with Both ID and OOD Data"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#approaches-with-both-id-and-ood-data",
+      "entries": 0
+    },
+    {
+      "id": "boundary-regularization",
+      "title": "Boundary Regularization",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with Both ID and OOD Data",
+        "Boundary Regularization"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#boundary-regularization",
+      "entries": 7
+    },
+    {
+      "id": "outlier-mining",
+      "title": "Outlier Mining",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with Both ID and OOD Data",
+        "Outlier Mining"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#outlier-mining",
+      "entries": 6
+    },
+    {
+      "id": "imbalanced-id",
+      "title": "Imbalanced ID",
+      "level": 3,
+      "path": [
+        "Training-driven OOD Detection",
+        "Approaches with Both ID and OOD Data",
+        "Imbalanced ID"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#imbalanced-id",
+      "entries": 4
+    },
+    {
+      "id": "training-agnostic-ood-detection",
+      "title": "Training-agnostic OOD Detection",
+      "level": 1,
+      "path": [
+        "Training-agnostic OOD Detection"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#training-agnostic-ood-detection",
+      "entries": 0
+    },
+    {
+      "id": "post-hoc-approaches",
+      "title": "Post-hoc Approaches",
+      "level": 2,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Post-hoc Approaches"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#post-hoc-approaches",
+      "entries": 0
+    },
+    {
+      "id": "output-based",
+      "title": "Output-based",
+      "level": 3,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Post-hoc Approaches",
+        "Output-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#output-based",
+      "entries": 8
+    },
+    {
+      "id": "distance-based",
+      "title": "Distance-based",
+      "level": 3,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Post-hoc Approaches",
+        "Distance-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#distance-based",
+      "entries": 6
+    },
+    {
+      "id": "gradient-based",
+      "title": "Gradient-based",
+      "level": 3,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Post-hoc Approaches",
+        "Gradient-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#gradient-based",
+      "entries": 7
+    },
+    {
+      "id": "feature-based",
+      "title": "Feature-based",
+      "level": 3,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Post-hoc Approaches",
+        "Feature-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#feature-based",
+      "entries": 19
+    },
+    {
+      "id": "density-based",
+      "title": "Density-based",
+      "level": 3,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Post-hoc Approaches",
+        "Density-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#density-based",
+      "entries": 3
+    },
+    {
+      "id": "test-time-adaptive-approaches",
+      "title": "Test Time Adaptive Approaches",
+      "level": 2,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Test Time Adaptive Approaches"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#test-time-adaptive-approaches",
+      "entries": 0
+    },
+    {
+      "id": "theoretical-support",
+      "title": "Theoretical support",
+      "level": 3,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Test Time Adaptive Approaches",
+        "Theoretical support"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#theoretical-support",
+      "entries": 2
+    },
+    {
+      "id": "model-update-needed",
+      "title": "Model update-needed",
+      "level": 3,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Test Time Adaptive Approaches",
+        "Model update-needed"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#model-update-needed",
+      "entries": 6
+    },
+    {
+      "id": "model-update-free",
+      "title": "Model update-free",
+      "level": 3,
+      "path": [
+        "Training-agnostic OOD Detection",
+        "Test Time Adaptive Approaches",
+        "Model update-free"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#model-update-free",
+      "entries": 5
+    },
+    {
+      "id": "lpm-based-ood-detection",
+      "title": "LPM-based OOD Detection",
+      "level": 1,
+      "path": [
+        "LPM-based OOD Detection"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#lpm-based-ood-detection",
+      "entries": 0
+    },
+    {
+      "id": "zero-shot-approaches",
+      "title": "Zero-shot Approaches",
+      "level": 2,
+      "path": [
+        "LPM-based OOD Detection",
+        "Zero-shot Approaches"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#zero-shot-approaches",
+      "entries": 0
+    },
+    {
+      "id": "transitional-work",
+      "title": "Transitional work",
+      "level": 3,
+      "path": [
+        "LPM-based OOD Detection",
+        "Zero-shot Approaches",
+        "Transitional work"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#transitional-work",
+      "entries": 2
+    },
+    {
+      "id": "vlm-based",
+      "title": "VLM-based",
+      "level": 3,
+      "path": [
+        "LPM-based OOD Detection",
+        "Zero-shot Approaches",
+        "VLM-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#vlm-based",
+      "entries": 0
+    },
+    {
+      "id": "diffusion-based",
+      "title": "DIffusion-based",
+      "level": 4,
+      "path": [
+        "LPM-based OOD Detection",
+        "Zero-shot Approaches",
+        "VLM-based",
+        "DIffusion-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#diffusion-based",
+      "entries": 1
+    },
+    {
+      "id": "clip-based",
+      "title": "CLIP-based",
+      "level": 4,
+      "path": [
+        "LPM-based OOD Detection",
+        "Zero-shot Approaches",
+        "VLM-based",
+        "CLIP-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#clip-based",
+      "entries": 14
+    },
+    {
+      "id": "llm-based",
+      "title": "LLM-based",
+      "level": 3,
+      "path": [
+        "LPM-based OOD Detection",
+        "Zero-shot Approaches",
+        "LLM-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#llm-based",
+      "entries": 10
+    },
+    {
+      "id": "zero-shot-id-detection",
+      "title": "Zero-shot ID detection",
+      "level": 3,
+      "path": [
+        "LPM-based OOD Detection",
+        "Zero-shot Approaches",
+        "Zero-shot ID detection"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#zero-shot-id-detection",
+      "entries": 1
+    },
+    {
+      "id": "few-shot-approaches",
+      "title": "Few-shot Approaches",
+      "level": 2,
+      "path": [
+        "LPM-based OOD Detection",
+        "Few-shot Approaches"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#few-shot-approaches",
+      "entries": 0
+    },
+    {
+      "id": "study",
+      "title": "Study",
+      "level": 3,
+      "path": [
+        "LPM-based OOD Detection",
+        "Few-shot Approaches",
+        "Study"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#study",
+      "entries": 4
+    },
+    {
+      "id": "meta-learning-based",
+      "title": "Meta-learning-based",
+      "level": 3,
+      "path": [
+        "LPM-based OOD Detection",
+        "Few-shot Approaches",
+        "Meta-learning-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#meta-learning-based",
+      "entries": 2
+    },
+    {
+      "id": "fine-tuning-based",
+      "title": "Fine-tuning-based",
+      "level": 3,
+      "path": [
+        "LPM-based OOD Detection",
+        "Few-shot Approaches",
+        "Fine-tuning-based"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#fine-tuning-based",
+      "entries": 11
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 3,
+      "path": [
+        "LPM-based OOD Detection",
+        "Few-shot Approaches",
+        "Others"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#others",
+      "entries": 1
+    },
+    {
+      "id": "full-shot-approaches",
+      "title": "Full-shot Approaches",
+      "level": 2,
+      "path": [
+        "LPM-based OOD Detection",
+        "Full-shot Approaches"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#full-shot-approaches",
+      "entries": 3
+    },
+    {
+      "id": "evaluation--application",
+      "title": "Evaluation & Application",
+      "level": 1,
+      "path": [
+        "Evaluation & Application"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#evaluation--application",
+      "entries": 0
+    },
+    {
+      "id": "cv",
+      "title": "CV",
+      "level": 2,
+      "path": [
+        "Evaluation & Application",
+        "CV"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#cv",
+      "entries": 0
+    },
+    {
+      "id": "image-classification",
+      "title": "Image Classification",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Image Classification"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#image-classification",
+      "entries": 4
+    },
+    {
+      "id": "semantic-segmentation",
+      "title": "Semantic Segmentation",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Semantic Segmentation"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#semantic-segmentation",
+      "entries": 7
+    },
+    {
+      "id": "object-detection",
+      "title": "Object Detection",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Object Detection"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#object-detection",
+      "entries": 7
+    },
+    {
+      "id": "3d-object-detection",
+      "title": "3D Object Detection",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "3D Object Detection"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#3d-object-detection",
+      "entries": 1
+    },
+    {
+      "id": "autonomous-driving",
+      "title": "Autonomous Driving",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Autonomous Driving"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#autonomous-driving",
+      "entries": 2
+    },
+    {
+      "id": "medical-image-analysis",
+      "title": "Medical Image Analysis",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Medical Image Analysis"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#medical-image-analysis",
+      "entries": 5
+    },
+    {
+      "id": "human-action-recognition",
+      "title": "Human Action Recognition",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Human Action Recognition"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#human-action-recognition",
+      "entries": 3
+    },
+    {
+      "id": "solar-image-analysis",
+      "title": "Solar Image Analysis",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Solar Image Analysis"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#solar-image-analysis",
+      "entries": 2
+    },
+    {
+      "id": "facial-expression-recognition",
+      "title": "Facial Expression Recognition",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Facial Expression Recognition"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#facial-expression-recognition",
+      "entries": 1
+    },
+    {
+      "id": "facial-authentication",
+      "title": "Facial Authentication",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Facial Authentication"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#facial-authentication",
+      "entries": 1
+    },
+    {
+      "id": "earth-observation-imagery",
+      "title": "Earth Observation Imagery",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "CV",
+        "Earth Observation Imagery"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#earth-observation-imagery",
+      "entries": 0
+    },
+    {
+      "id": "nlp",
+      "title": "NLP",
+      "level": 2,
+      "path": [
+        "Evaluation & Application",
+        "NLP"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#nlp",
+      "entries": 0
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "level": 3,
+      "path": [
+        "Evaluation & Application",
+        "NLP",
+        "Survey"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#survey",
+      "entries": 3
+    },
+    {
+      "id": "methods",
+      "title": "Methods",
+      "level": 4,
+      "path": [
+        "Evaluation & Application",
+        "NLP",
+        "Survey",
+        "Methods"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#methods",
+      "entries": 10
+    },
+    {
+      "id": "acoustic",
+      "title": "Acoustic",
+      "level": 2,
+      "path": [
+        "Evaluation & Application",
+        "Acoustic"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#acoustic",
+      "entries": 6
+    },
+    {
+      "id": "graph-data",
+      "title": "Graph data",
+      "level": 2,
+      "path": [
+        "Evaluation & Application",
+        "Graph data"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#graph-data",
+      "entries": 0
+    },
+    {
+      "id": "survey--benchmark",
+      "title": "Survey & Benchmark",
+      "level": 4,
+      "path": [
+        "Evaluation & Application",
+        "Graph data",
+        "Survey & Benchmark"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#survey--benchmark",
+      "entries": 3
+    },
+    {
+      "id": "methods-1",
+      "title": "Methods",
+      "level": 4,
+      "path": [
+        "Evaluation & Application",
+        "Graph data",
+        "Methods"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#methods-1",
+      "entries": 7
+    },
+    {
+      "id": "reinforcement-learning",
+      "title": "Reinforcement learning",
+      "level": 2,
+      "path": [
+        "Evaluation & Application",
+        "Reinforcement learning"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#reinforcement-learning",
+      "entries": 2
+    },
+    {
+      "id": "others-1",
+      "title": "Others",
+      "level": 2,
+      "path": [
+        "Evaluation & Application",
+        "Others"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#others-1",
+      "entries": 5
+    },
+    {
+      "id": "survey-1",
+      "title": "Survey",
+      "level": 2,
+      "path": [
+        "Evaluation & Application",
+        "Survey"
+      ],
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#survey-1",
+      "entries": 6
+    }
+  ],
+  "entries": [
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=tTnFH7D1h4&referrer=%5Bthe%20profile%20of%20Harold%20Soh%5D(%2Fprofile%3Fid%3D~Harold_Soh1)",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.11105",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2409.03801",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2501.08005",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Li_Rethinking_Out-of-Distribution_OOD_Detection_Masked_Image_Modeling_Is_All_You_CVPR_2023_paper.html",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.02611",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/WACV2023/html/Osada_Out-of-Distribution_Detection_With_Reconstruction_Error_and_Typicality-Based_Penalty_WACV_2023_paper.html",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023W/VAND/html/Graham_Denoising_Diffusion_Models_for_Out-of-Distribution_Detection_CVPRW_2023_paper.html",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.dosf.top/abs/2302.10326",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Gao_DIFFGUARD_Semantic_Mismatch-Guided_Out-of-Distribution_Detection_Using_Pre-Trained_Diffusion_Models_ICCV_2023_paper.html",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2211.07740",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2208.00446",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2203.02194",
+      "category": "reconstruction-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=cv2iMNWCsh",
+      "category": "probability-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2403.18910",
+      "category": "probability-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_Hierarchical_Visual_Categories_Modeling_A_Joint_Representation_Learning_and_Density_ICCV_2023_paper.html",
+      "category": "probability-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/05b69cc4c8ff6e24c5de1ecd27223d37-Abstract-Conference.html",
+      "category": "probability-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12645/1264526/Uncertainty-estimation-with-normalized-logits-for-out-of-distribution-detection/10.1117/12.2681144.short#_=_",
+      "category": "logits-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.html",
+      "category": "logits-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.mlr.press/v162/wei22d.html",
+      "category": "logits-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2412.16884",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2501.16718",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.01322",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=iWSVl6mLbW&noteId=iWSVl6mLbW",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2411.10794",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.16525",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2405.00631",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=N6ba2xsmds",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2307.00519",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2204.05306",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.dosf.top/abs/2303.02966",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://papers.bmvc2023.org/0010.pdf",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e43f900f571de6c96a70d5724a0fb565-Abstract-Conference.html",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.cs.uic.edu/~liub/publications/ECML-2022-OOD-detection.pdf",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.dosf.top/abs/2202.01197",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2108.06024",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1711.09325",
+      "category": "ood-synthesis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2405.17816",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.10744",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2407.02271",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.02653",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024W/TCV2024/papers/Regmi_ReweightOOD_Loss_Reweighting_for_Distance-based_OOD_Detection_CVPRW_2024_paper.pdf",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2203.04450",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2412.16884",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://papers.nips.cc/paper_files/paper/2022/file/804dbf8d3b8eee1ef875c6857efc64eb-Paper-Conference.pdf",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/f4334c131c781e2a6f0a5e34814c8147-Paper.pdf",
+      "category": "prototype-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.02112",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.02111",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.02110",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024W/VAND/papers/Hogeweg_COOD_Combined_Out-of-distribution_Detection_Using_Multiple_Measures_for_Anomaly__CVPRW_2024_paper.pdf",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://par.nsf.gov/servlets/purl/10425432",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=charggEv8v",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.mlr.press/v162/wei22c.html",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://springer.dosf.top/chapter/10.1007/978-3-031-16431-6_69",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Large-Scale_Long-Tailed_Recognition_in_an_Open_World_CVPR_2019_paper.html",
+      "category": "long-tail-id-data",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/html/2503.07330v3",
+      "category": "boundary-regularization",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/WACV2023/html/Zhang_Mixture_Outlier_Exposure_Towards_Out-of-Distribution_Detection_in_Fine-Grained_Environments_WACV_2023_paper.html",
+      "category": "boundary-regularization",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/5966/5822",
+      "category": "boundary-regularization",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2010.03759",
+      "category": "boundary-regularization",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1812.04606",
+      "category": "boundary-regularization",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1812.05720",
+      "category": "boundary-regularization",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1809.03576",
+      "category": "boundary-regularization",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e812af67a942c21dd0104bd929f99da1-Abstract-Conference.html",
+      "category": "outlier-mining",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.dosf.top/abs/2303.05033",
+      "category": "outlier-mining",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/WACV2023/html/Zhang_Mixture_Outlier_Exposure_Towards_Out-of-Distribution_Detection_in_Fine-Grained_Environments_WACV_2023_paper.html",
+      "category": "outlier-mining",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/46d943bc6a15a57c923829efc0db7c7a-Abstract-Conference.html",
+      "category": "outlier-mining",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.mlr.press/v162/ming22a.html",
+      "category": "outlier-mining",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://ieeexplore.ieee.org/document/9156976",
+      "category": "outlier-mining",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.dosf.top/abs/2312.10686",
+      "category": "imbalanced-id",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.dosf.top/abs/2312.08939",
+      "category": "imbalanced-id",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Choi_Balanced_Energy_Regularization_Loss_for_Out-of-Distribution_Detection_CVPR_2023_paper.html",
+      "category": "imbalanced-id",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.mlr.press/v162/wang22aq.html",
+      "category": "imbalanced-id",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.08023",
+      "category": "output-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2408.10107",
+      "category": "output-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xue_Enhancing_the_Power_of_OOD_Detection_via_Sample-Aware_Model_Selection_CVPR_2024_paper.pdf",
+      "category": "output-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/WACV2024/papers/Kirchheim_Out-of-Distribution_Detection_With_Logical_Reasoning_WACV_2024_paper.pdf",
+      "category": "output-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_GEN_Pushing_the_Limits_of_Softmax-Based_Out-of-Distribution_Detection_CVPR_2023_paper.pdf",
+      "category": "output-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1911.11132",
+      "category": "output-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2010.03759",
+      "category": "output-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1610.02136",
+      "category": "output-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=J2we1sVd9m",
+      "category": "distance-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=xQit6JBDR5",
+      "category": "distance-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2309.14888",
+      "category": "distance-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2204.06507",
+      "category": "distance-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2103.12051",
+      "category": "distance-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1807.03888",
+      "category": "distance-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.18784",
+      "category": "gradient-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.12368",
+      "category": "gradient-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.10062",
+      "category": "gradient-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77cf940349218069bbc230fc2c9c8a21-Abstract-Conference.html",
+      "category": "gradient-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/fcdccd419c4dc471fa3b73ec97b53789-Abstract-Conference.html",
+      "category": "gradient-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/063e26c670d07bb7c4d30e6fc69fe056-Abstract.html",
+      "category": "gradient-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9190679/",
+      "category": "gradient-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.01479",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.00325",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2502.15833",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2412.12566",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=8HeUvbImKT&referrer=%5Bthe%20profile%20of%20Manuel%20Heurich%5D(%2Fprofile%3Fid%3D~Manuel_Heurich1)5",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=nwf2mKQVhP",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2306.02879",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.dosf.top/abs/2310.06823",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.00865",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.02832",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.00227",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Yuan_Discriminability-Driven_Channel_Selection_for_Out-of-Distribution_Detection_CVPR_2024_paper.pdf",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/5c20c00504e0c049ec2370d0cceaf3c4-Abstract-Conference.html",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.dosf.top/abs/2209.09858",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2303.13995",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/pdf?id=KkazG4lgKL",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2203.10807",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper/2021/hash/01894d6f048493d2cacde3c579c315a3-Abstract.html",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1706.02690",
+      "category": "feature-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=FmA1JPWBM8",
+      "category": "density-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.17888",
+      "category": "density-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2112.00787",
+      "category": "density-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=sde_7ZzGXOE",
+      "category": "theoretical-support",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2404.06065.pdf",
+      "category": "theoretical-support",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=jlEjB8MVGa",
+      "category": "model-update-needed",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=bGcdjXrU2w&referrer=%5Bthe%20profile%20of%20Shipeng%20Yan%5D(%2Fprofile%3Fid%3D~Shipeng_Yan1)",
+      "category": "model-update-needed",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Meta_OOD_Learning_For_Continuously_Adaptive_OOD_Detection_ICCV_2023_paper.html",
+      "category": "model-update-needed",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=Ur4LqAOXIF&referrer=%5Bthe%20profile%20of%20Yixuan%20Li%5D(%2Fprofile%3Fid%3D~Yixuan_Li1)",
+      "category": "model-update-needed",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2303.12267",
+      "category": "model-update-needed",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2202.03299",
+      "category": "model-update-needed",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.10468",
+      "category": "model-update-free",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Fan_Test-Time_Linear_Out-of-Distribution_Detection_CVPR_2024_paper.pdf",
+      "category": "model-update-free",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2207.08210",
+      "category": "model-update-free",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.06176",
+      "category": "model-update-free",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.16420",
+      "category": "model-update-free",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2305.17207",
+      "category": "transitional-work",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=j5NrN8ffXC",
+      "category": "transitional-work",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.03292",
+      "category": "diffusion-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.06442",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=Aw1w5sL6ru",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2407.089666",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2406.01170",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.16091",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=65UoJ0z7Kp&referrer=%5Bthe%20profile%20of%20Yun%20Chen%5D(%2Fprofile%3Fid%3D~Yun_Chen1)",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=qqQFOcUEqM&referrer=%5Bthe%20profile%20of%20Changsheng%20Xu%5D(%2Fprofile%3Fid%3D~Changsheng_Xu1)",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=XfPiFRnuAS&referrer=%5Bthe%20profile%20of%20Bo%20Du%5D(%2Fprofile%3Fid%3D~Bo_Du3)",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.20149",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.14737",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=xUO1HXz4an",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wang_CLIPN_for_Zero-Shot_OOD_Detection_Teaching_CLIP_to_Say_No_ICCV_2023_paper.html",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/e43a33994a28f746dcfd53eb51ed3c2d-Abstract-Conference.html",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2109.02748",
+      "category": "clip-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2411.13578",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2405.16766",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=Jk8QwQw8Qw",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=Aw1w5sL6ru",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://dlsp2024.ieee-security.org/papers/dls2024-final19.pdf",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2404.06217.pdf",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2404.00675.pdf",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2308.10261",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://synthical.com/article/baff2745-d4fd-48b7-ba8d-eeca7febf84d",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2023.findings-emnlp.351/",
+      "category": "llm-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2304.04521",
+      "category": "zero-shot-id-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10457104",
+      "category": "study",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://link.springer.com/article/10.1007/s11263-023-01895-7",
+      "category": "study",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.12076",
+      "category": "study",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=j5NrN8ffXC",
+      "category": "study",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/WACV2024/papers/Mehta_HyperMix_Out-of-Distribution_Detection_and_Classification_in_Few-Shot_Settings_WACV_2024_paper.pdf",
+      "category": "meta-learning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/28e209b61a52482a0ae1cb9f5959c792-Abstract.html",
+      "category": "meta-learning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2502.00662",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2411.15736",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2404.00323",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.03248",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2407.01400",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=nanyAujl6e",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2411.03359",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=nanyAujl6e",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.15243",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.12076",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "CODE",
+      "url": "https://github.com/AtsuMiyai/LoCoOp",
+      "category": "fine-tuning-based",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.16146",
+      "category": "others",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/pdf?id=JHklpEZqduQ",
+      "category": "full-shot-approaches",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a2374637af47ac9471b43c99b68acf27-Paper-Conference.pdf",
+      "category": "full-shot-approaches",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.00847.pdf",
+      "category": "full-shot-approaches",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=vTapqwaTSi",
+      "category": "image-classification",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Meta_OOD_Learning_For_Continuously_Adaptive_OOD_Detection_ICCV_2023_paper.html",
+      "category": "image-classification",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L394",
+      "line": 394,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.mlr.press/v202/bitterwolf23a/bitterwolf23a.pdf",
+      "category": "image-classification",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2210.07242",
+      "category": "image-classification",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L398",
+      "line": 398,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2410.08687",
+      "category": "semantic-segmentation",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L402",
+      "line": 402,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://github.com/https://arxiv.org/abs/2407.15739",
+      "category": "semantic-segmentation",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://siddancha.github.io/projects/evidential-segmentation-uncertainty/",
+      "category": "semantic-segmentation",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L406",
+      "line": 406,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=bGcdjXrU2w&referrer=%5Bthe%20profile%20of%20Shipeng%20Yan%5D(%2Fprofile%3Fid%3D~Shipeng_Yan1)",
+      "category": "semantic-segmentation",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L408",
+      "line": 408,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.mlr.press/v162/",
+      "category": "semantic-segmentation",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2104.14812",
+      "category": "semantic-segmentation",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1904.03215",
+      "category": "semantic-segmentation",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/html/2503.07330v3",
+      "category": "object-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L418",
+      "line": 418,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.15879",
+      "category": "object-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2409.05466",
+      "category": "object-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024W/SAIAD/papers/Qutub_Situation_Monitor_Diversity-Driven_Zero-Shot_Out-of-Distribution_Detection_using_Budding_Ensemble_Architecture_CVPRW_2024_paper.pdf",
+      "category": "object-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.03292",
+      "category": "object-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L425",
+      "line": 425,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Wilson_SAFE_Sensitivity-Aware_Features_for_Out-of-Distribution_Object_Detection_ICCV_2023_paper.pdf",
+      "category": "object-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L426",
+      "line": 426,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=8E8tgnYlmN",
+      "category": "object-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L427",
+      "line": 427,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.15879",
+      "category": "3d-object-detection",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2409.17277",
+      "category": "autonomous-driving",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.01691",
+      "category": "autonomous-driving",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.16247",
+      "category": "medical-image-analysis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2407.21497",
+      "category": "medical-image-analysis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2407.13708",
+      "category": "medical-image-analysis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.11476",
+      "category": "medical-image-analysis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10447414",
+      "category": "medical-image-analysis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2405.20633",
+      "category": "human-action-recognition",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://ecai2023.eu/acceptedpapers",
+      "category": "human-action-recognition",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1904.08703",
+      "category": "human-action-recognition",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023SW003516",
+      "category": "solar-image-analysis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3651224",
+      "category": "solar-image-analysis",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L460",
+      "line": 460,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.12507",
+      "category": "facial-expression-recognition",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L464",
+      "line": 464,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.04546",
+      "category": "facial-authentication",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.13299",
+      "category": "survey",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L478",
+      "line": 478,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2409.01980",
+      "category": "survey",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2305.03236",
+      "category": "survey",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L480",
+      "line": 480,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2408.11237",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L486",
+      "line": 486,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=hYMxyeyEc5&noteId=lcgt2MxZFl",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L488",
+      "line": 488,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.08679",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L490",
+      "line": 490,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2024.lrec-main.1510/",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2302.09852",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L493",
+      "line": 493,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2404.06217.pdf",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L494",
+      "line": 494,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2023.findings-emnlp.332/",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L495",
+      "line": 495,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2022.coling-1.36/",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L496",
+      "line": 496,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2021.acl-long.273/",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L497",
+      "line": 497,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2021.emnlp-main.835/",
+      "category": "methods",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L498",
+      "line": 498,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.arxiv.org/abs/2408.01284",
+      "category": "acoustic",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.18067",
+      "category": "acoustic",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L504",
+      "line": 504,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.02233",
+      "category": "acoustic",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2210.15283",
+      "category": "acoustic",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L508",
+      "line": 508,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.mdpi.com/1424-8220/20/13/3741",
+      "category": "acoustic",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7602939",
+      "category": "acoustic",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.arxiv.org/abs/2502.08105",
+      "category": "survey--benchmark",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L516",
+      "line": 516,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=g90RNzs8wX",
+      "category": "survey--benchmark",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L518",
+      "line": 518,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.04468",
+      "category": "survey--benchmark",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L520",
+      "line": 520,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.22097",
+      "category": "methods-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/forum?id=y5einmJ0Yx",
+      "category": "methods-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L526",
+      "line": 526,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.03241",
+      "category": "methods-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L527",
+      "line": 527,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2407.21742",
+      "category": "methods-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.15625",
+      "category": "methods-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L531",
+      "line": 531,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.06176",
+      "category": "methods-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3539597.3570446",
+      "category": "methods-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L534",
+      "line": 534,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2404.07099.pdf",
+      "category": "reinforcement-learning",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L538",
+      "line": 538,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e5b6eb1dbabff82838d5e99f62de37c8-Abstract-Conference.html",
+      "category": "reinforcement-learning",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2503.06166",
+      "category": "others-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L544",
+      "line": 544,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2502.15901",
+      "category": "others-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L546",
+      "line": 546,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.18999",
+      "category": "others-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L547",
+      "line": 547,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/html/2407.14097v2",
+      "category": "others-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L548",
+      "line": 548,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.10606",
+      "category": "others-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2405.67890",
+      "category": "survey-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L553",
+      "line": 553,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2409.01980",
+      "category": "survey-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2110.11334",
+      "category": "survey-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L557",
+      "line": 557,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2305.03236",
+      "category": "survey-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L559",
+      "line": 559,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2110.14051",
+      "category": "survey-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L561",
+      "line": 561,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.mdpi.com/2079-9292/11/21/3500",
+      "category": "survey-1",
+      "source_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/blob/60561bab9f81e0864cd2bf18846b547f6a7c359e/README.md#L563",
+      "line": 563,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 252,
+  "unique_links": 238,
+  "category_count": 45,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "shuolucs",
+      "url": "https://github.com/shuolucs",
+      "contributions": 47
+    },
+    {
+      "login": "Aie0923",
+      "url": "https://github.com/Aie0923",
+      "contributions": 4
+    },
+    {
+      "login": "hugoQAQ",
+      "url": "https://github.com/hugoQAQ",
+      "contributions": 2
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 53,
+    "has_more": false,
+    "path_commit_count": 53,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:57:02.163867+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [
+    "https://papers.bmvc2023.org/0010.pdf"
+  ],
+  "attribution": "Content curated by shuolucs/Awesome-Out-Of-Distribution-Detection contributors.",
+  "license": null,
+  "license_url": "https://github.com/shuolucs/Awesome-Out-Of-Distribution-Detection/tree/60561bab9f81e0864cd2bf18846b547f6a7c359e",
+  "digest": "bc3e358cc68b71760e8ac2b4c464a9fc30cd973992bc3eabe094a86e61bf1b14"
+}

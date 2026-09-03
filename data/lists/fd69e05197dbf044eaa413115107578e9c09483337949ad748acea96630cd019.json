@@ -1,0 +1,970 @@
+{
+  "format_version": 3,
+  "repository_id": "239174661",
+  "name": "gindex/spring-boot-annotation-list",
+  "revision": "36564268ca5c4065fb19063bdcb25e0106aa8a07",
+  "readme_path": "README.md",
+  "readme_sha256": "3fdc0083366efc6c92cad35b6f903ff8ad235d19d577d390eed69433228c3e6d",
+  "sections": [
+    {
+      "id": "list-of-frequently-used-annotations-in-spring-boot-apps",
+      "title": "List of frequently used annotations in Spring Boot apps",
+      "level": 1,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#list-of-frequently-used-annotations-in-spring-boot-apps",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Contents"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "core-spring",
+      "title": "Core Spring",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Core Spring"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#core-spring",
+      "entries": 7
+    },
+    {
+      "id": "bean-state",
+      "title": "Bean state",
+      "level": 4,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Core Spring",
+        "Bean state"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#bean-state",
+      "entries": 2
+    },
+    {
+      "id": "configuration",
+      "title": "Configuration",
+      "level": 4,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Core Spring",
+        "Configuration"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#configuration",
+      "entries": 4
+    },
+    {
+      "id": "bean-properties",
+      "title": "Bean properties",
+      "level": 4,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Core Spring",
+        "Bean properties"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#bean-properties",
+      "entries": 13
+    },
+    {
+      "id": "bean-injection",
+      "title": "Bean injection",
+      "level": 4,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Core Spring",
+        "Bean injection"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#bean-injection",
+      "entries": 2
+    },
+    {
+      "id": "validation",
+      "title": "Validation",
+      "level": 4,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Core Spring",
+        "Validation"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#validation",
+      "entries": 8
+    },
+    {
+      "id": "spring-boot",
+      "title": "Spring Boot",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Spring Boot"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#spring-boot",
+      "entries": 8
+    },
+    {
+      "id": "spring-boot-tests",
+      "title": "Spring Boot Tests",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Spring Boot Tests"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#spring-boot-tests",
+      "entries": 7
+    },
+    {
+      "id": "spring-test",
+      "title": "Spring Test",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Spring Test"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#spring-test",
+      "entries": 7
+    },
+    {
+      "id": "transactions",
+      "title": "Transactions",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Transactions"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#transactions",
+      "entries": 2
+    },
+    {
+      "id": "spring-jpa-and-hibernate",
+      "title": "Spring JPA and Hibernate",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Spring JPA and Hibernate"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#spring-jpa-and-hibernate",
+      "entries": 21
+    },
+    {
+      "id": "spring-security",
+      "title": "Spring Security",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Spring Security"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#spring-security",
+      "entries": 6
+    },
+    {
+      "id": "spring-aop",
+      "title": "Spring AOP",
+      "level": 2,
+      "path": [
+        "List of frequently used annotations in Spring Boot apps",
+        "Spring AOP"
+      ],
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#spring-aop",
+      "entries": 8
+    }
+  ],
+  "entries": [
+    {
+      "title": "@Bean",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Bean.html",
+      "category": "core-spring",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "@Component",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html",
+      "category": "core-spring",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "@Controller",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Controller.html",
+      "category": "core-spring",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "@RestController",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RestController.html",
+      "category": "core-spring",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "@Configuration",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Configuration.html",
+      "category": "core-spring",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "@Service",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Service.html",
+      "category": "core-spring",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "@Repository",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Repository.html",
+      "category": "core-spring",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "@PostConstruct",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/annotation/PostConstruct.html",
+      "category": "bean-state",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "@PreDestroy",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/annotation/PreDestroy.html",
+      "category": "bean-state",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "@Import",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Import.html",
+      "category": "configuration",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "@PropertySource",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/PropertySource.html",
+      "category": "configuration",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "@Value",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Value.html",
+      "category": "configuration",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "@ComponentScan",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/ComponentScan.html",
+      "category": "configuration",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "@Lazy",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Lazy.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "@Profile",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Profile.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "@Scope",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Scope.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "@DependsOn",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/DependsOn.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "@Order",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/annotation/Order.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "@Primary",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Primary.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "@Conditional",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Conditional.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "@ConditionalOnBean",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/condition/ConditionalOnBean.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "@ConditionalOnMissingBean",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "@ConditionalOnClass",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/condition/ConditionalOnClass.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "@ConditionalOnMissingClass",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingClass.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "@ConditionalOnProperty",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/condition/ConditionalOnProperty.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "@ConditionalOnMissingProperty",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/condition/ConditionalOnProperty.html",
+      "category": "bean-properties",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "@Autowired",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html",
+      "category": "bean-injection",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "@Qualifier",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Qualifier.html",
+      "category": "bean-injection",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "@Valid",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/validation/Valid.html",
+      "category": "validation",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "@Validated",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/annotation/Validated.html",
+      "category": "validation",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "@NotNull",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/NotNull.html",
+      "category": "validation",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "@NotEmpty",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/NotEmpty.html",
+      "category": "validation",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "@NotBlank",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/NotBlank.html",
+      "category": "validation",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "@Digits",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/Digits.html",
+      "category": "validation",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "@Past",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/Past.html",
+      "category": "validation",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "@Future",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/Future.html",
+      "category": "validation",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "@SpringBootConfiguration",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/SpringBootConfiguration.html",
+      "category": "spring-boot",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "@EnableAutoConfiguration",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/EnableAutoConfiguration.html",
+      "category": "spring-boot",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "@ConfigurationProperties",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/context/properties/ConfigurationProperties.html",
+      "category": "spring-boot",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "@ConstructorBinding",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/context/properties/ConstructorBinding.html",
+      "category": "spring-boot",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "@ConfigurationPropertiesScan",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/context/properties/ConfigurationPropertiesScan.html",
+      "category": "spring-boot",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "@SpringBootApplication",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/SpringBootApplication.html",
+      "category": "spring-boot",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "@EntityScan",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/domain/EntityScan.html",
+      "category": "spring-boot",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "@EnableJpaRepositories",
+      "url": "https://docs.spring.io/spring-data/data-jpa/docs/current/api/org/springframework/data/jpa/repository/config/EnableJpaRepositories.html",
+      "category": "spring-boot",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "@SpringBootTest",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/context/SpringBootTest.html",
+      "category": "spring-boot-tests",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "@WebMvcTest",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/WebMvcTest.html",
+      "category": "spring-boot-tests",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "@DataJpaTest",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/orm/jpa/DataJpaTest.html",
+      "category": "spring-boot-tests",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "@JsonTest",
+      "url": "https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.testing.spring-boot-applications.json-tests",
+      "category": "spring-boot-tests",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "@MockBean",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/MockBean.html",
+      "category": "spring-boot-tests",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "@SpyBean",
+      "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/SpyBean.html",
+      "category": "spring-boot-tests",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "@Mock",
+      "url": "https://www.javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mock.html",
+      "category": "spring-boot-tests",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "@ContextConfiguration",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/ContextConfiguration.html",
+      "category": "spring-test",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "@ExtendWith",
+      "url": "https://junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/extension/ExtendWith.html",
+      "category": "spring-test",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "@SpringJUnitConfig",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/junit/jupiter/SpringJUnitConfig.html",
+      "category": "spring-test",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "@TestPropertySource",
+      "url": "https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/test/context/TestPropertySource.html",
+      "category": "spring-test",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "@DirtiesContext",
+      "url": "https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/test/annotation/DirtiesContext.html",
+      "category": "spring-test",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "@ActiveProfiles",
+      "url": "https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/test/context/ActiveProfiles.html",
+      "category": "spring-test",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "@Sql",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/jdbc/Sql.html",
+      "category": "spring-test",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "@EnableTransactionManagement",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/EnableTransactionManagement.html",
+      "category": "transactions",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "@Transactional",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/Transactional.html",
+      "category": "transactions",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "@Id",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Id.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "@GeneratedValue",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/GeneratedValue.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "@Entity",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Entity.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "@Column",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Column.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "@Table",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Table.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "@PersistenceContext",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/PersistenceContext.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "@Embedded",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Embedded.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "@Embeddable",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Embeddable.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "@EmbeddedId",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/EmbeddedId.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "@AttributeOverride",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/AttributeOverride.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "@Transient",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Transient.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "@CreationTimestamp",
+      "url": "https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/CreationTimestamp.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "@UpdateTimestamp",
+      "url": "https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/UpdateTimestamp.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "@ManyToOne",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/ManyToOne.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "@JoinColumn",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/JoinColumn.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "@OneToOne",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/OneToOne.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "@MapsId",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/MapsId.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "@ManyToMany",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/ManyToMany.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "@JoinTable",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/persistence/JoinTable.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "@BatchSize",
+      "url": "https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/BatchSize.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "@FetchMode",
+      "url": "https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/FetchMode.html",
+      "category": "spring-jpa-and-hibernate",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "@EnableWebSecurity",
+      "url": "https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/config/annotation/web/configuration/EnableWebSecurity.html",
+      "category": "spring-security",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "@EnableGlobalMethodSecurity",
+      "url": "https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/config/annotation/method/configuration/EnableGlobalMethodSecurity.html",
+      "category": "spring-security",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "@PreAuthorize",
+      "url": "https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/access/prepost/PreAuthorize.html",
+      "category": "spring-security",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "@PostAuthorize",
+      "url": "https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/access/prepost/PostAuthorize.html",
+      "category": "spring-security",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "@RolesAllowed",
+      "url": "https://javaee.github.io/javaee-spec/javadocs/javax/annotation/security/RolesAllowed.html",
+      "category": "spring-security",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "@Secured",
+      "url": "https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/access/annotation/Secured.html",
+      "category": "spring-security",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "@EnableAspectJAutoProxy",
+      "url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/EnableAspectJAutoProxy.html",
+      "category": "spring-aop",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "@Aspect",
+      "url": "https://javadoc.io/static/org.aspectj/aspectjrt/1.9.5/org/aspectj/lang/annotation/Aspect.html",
+      "category": "spring-aop",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "@Before",
+      "url": "https://javadoc.io/static/org.aspectj/aspectjrt/1.9.5/org/aspectj/lang/annotation/Before.html",
+      "category": "spring-aop",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "@AfterReturning",
+      "url": "https://javadoc.io/static/org.aspectj/aspectjrt/1.9.5/org/aspectj/lang/annotation/AfterReturning.html",
+      "category": "spring-aop",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "@AfterThrowing",
+      "url": "https://javadoc.io/static/org.aspectj/aspectjrt/1.9.5/org/aspectj/lang/annotation/AfterThrowing.html",
+      "category": "spring-aop",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "@After",
+      "url": "https://javadoc.io/static/org.aspectj/aspectjrt/1.9.5/org/aspectj/lang/annotation/After.html",
+      "category": "spring-aop",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "@Around",
+      "url": "https://javadoc.io/static/org.aspectj/aspectjrt/1.9.5/org/aspectj/lang/annotation/Around.html",
+      "category": "spring-aop",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "@Pointcut",
+      "url": "https://javadoc.io/static/org.aspectj/aspectjrt/1.9.5/org/aspectj/lang/annotation/Pointcut.html",
+      "category": "spring-aop",
+      "source_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/README.md#L153",
+      "line": 153,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 95,
+  "unique_links": 94,
+  "category_count": 13,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "gindex",
+      "url": "https://github.com/gindex",
+      "contributions": 10
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 10,
+    "has_more": false,
+    "path_commit_count": 10,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:57:20.888512+00:00"
+  },
+  "contributing_url": "https://github.com/gindex/spring-boot-annotation-list/blob/36564268ca5c4065fb19063bdcb25e0106aa8a07/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by gindex/spring-boot-annotation-list contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/gindex/spring-boot-annotation-list/tree/36564268ca5c4065fb19063bdcb25e0106aa8a07",
+  "digest": "fd69e05197dbf044eaa413115107578e9c09483337949ad748acea96630cd019"
+}

@@ -1,0 +1,1238 @@
+{
+  "format_version": 3,
+  "repository_id": "149991328",
+  "name": "marcosValle/awesome-windows-red-team",
+  "revision": "c612c3fdd840cf914abeb48dba8ab37642653f27",
+  "readme_path": "README.md",
+  "readme_sha256": "eb4690faef5ec0056a0f58295ed2cdcc0b0b9e8c00ec32d613156e645afc805f",
+  "sections": [
+    {
+      "id": "awesome-windows-red-team",
+      "title": "Awesome Windows Red Team",
+      "level": 1,
+      "path": [
+        "Awesome Windows Red Team"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#awesome-windows-red-team",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Contents"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Books"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#books",
+      "entries": 6
+    },
+    {
+      "id": "courses",
+      "title": "Courses",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Courses"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#courses",
+      "entries": 8
+    },
+    {
+      "id": "system-architecture",
+      "title": "System Architecture",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "System Architecture"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#system-architecture",
+      "entries": 0
+    },
+    {
+      "id": "active-directory",
+      "title": "Active Directory",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "System Architecture",
+        "Active Directory"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#active-directory",
+      "entries": 10
+    },
+    {
+      "id": "kerberos",
+      "title": "Kerberos",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "System Architecture",
+        "Kerberos"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#kerberos",
+      "entries": 11
+    },
+    {
+      "id": "lsass-sam-ntlm-gpo",
+      "title": "Lsass SAM NTLM GPO",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "System Architecture",
+        "Lsass SAM NTLM GPO"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#lsass-sam-ntlm-gpo",
+      "entries": 6
+    },
+    {
+      "id": "winapi",
+      "title": "WinAPI",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "System Architecture",
+        "WinAPI"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#winapi",
+      "entries": 1
+    },
+    {
+      "id": "lateral-movement",
+      "title": "Lateral Movement",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Lateral Movement"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#lateral-movement",
+      "entries": 0
+    },
+    {
+      "id": "pass-the-hash",
+      "title": "Pass the Hash",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Lateral Movement",
+        "Pass the Hash"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#pass-the-hash",
+      "entries": 5
+    },
+    {
+      "id": "pass-the-ticket",
+      "title": "Pass the Ticket",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Lateral Movement",
+        "Pass the Ticket"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#pass-the-ticket",
+      "entries": 1
+    },
+    {
+      "id": "llmnrnbt-ns-poisoning",
+      "title": "LLMNR/NBT-NS poisoning",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Lateral Movement",
+        "LLMNR/NBT-NS poisoning"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#llmnrnbt-ns-poisoning",
+      "entries": 1
+    },
+    {
+      "id": "privilege-escalation",
+      "title": "Privilege Escalation",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Privilege Escalation"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#privilege-escalation",
+      "entries": 6
+    },
+    {
+      "id": "token-impersonation",
+      "title": "Token Impersonation",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Privilege Escalation",
+        "Token Impersonation"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#token-impersonation",
+      "entries": 2
+    },
+    {
+      "id": "defense-evasion",
+      "title": "Defense Evasion",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Defense Evasion"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#defense-evasion",
+      "entries": 0
+    },
+    {
+      "id": "av",
+      "title": "AV",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Defense Evasion",
+        "AV"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#av",
+      "entries": 7
+    },
+    {
+      "id": "amsi",
+      "title": "AMSI",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Defense Evasion",
+        "AMSI"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#amsi",
+      "entries": 1
+    },
+    {
+      "id": "laps",
+      "title": "LAPS",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Defense Evasion",
+        "LAPS"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#laps",
+      "entries": 2
+    },
+    {
+      "id": "applocker--application-whitelisting",
+      "title": "AppLocker & Application Whitelisting",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Defense Evasion",
+        "AppLocker & Application Whitelisting"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#applocker--application-whitelisting",
+      "entries": 3
+    },
+    {
+      "id": "exfiltration",
+      "title": "Exfiltration",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Exfiltration"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#exfiltration",
+      "entries": 3
+    },
+    {
+      "id": "powershell",
+      "title": "PowerShell",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "PowerShell"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#powershell",
+      "entries": 5
+    },
+    {
+      "id": "phishing",
+      "title": "Phishing",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Phishing"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#phishing",
+      "entries": 0
+    },
+    {
+      "id": "maldocs",
+      "title": "Maldocs",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Phishing",
+        "Maldocs"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#maldocs",
+      "entries": 2
+    },
+    {
+      "id": "macros",
+      "title": "Macros",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Phishing",
+        "Macros"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#macros",
+      "entries": 1
+    },
+    {
+      "id": "dde",
+      "title": "DDE",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Phishing",
+        "DDE"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#dde",
+      "entries": 4
+    },
+    {
+      "id": "hta",
+      "title": "HTA",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Phishing",
+        "HTA"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#hta",
+      "entries": 1
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "level": 2,
+      "path": [
+        "Awesome Windows Red Team",
+        "Tools"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#tools",
+      "entries": 7
+    },
+    {
+      "id": "adversary-emulation",
+      "title": "Adversary Emulation",
+      "level": 3,
+      "path": [
+        "Awesome Windows Red Team",
+        "Tools",
+        "Adversary Emulation"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#adversary-emulation",
+      "entries": 6
+    },
+    {
+      "id": "other-awesome-lists--sources",
+      "title": "Other Awesome Lists & sources",
+      "level": 1,
+      "path": [
+        "Other Awesome Lists & sources"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#other-awesome-lists--sources",
+      "entries": 5
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 1,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#contributing",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Windows Internals, Seventh Edition, Part 1",
+      "url": "https://www.amazon.com.br/Windows-Internals-Book-User-Mode/dp/0735684189?tag=goog0ef-20&smid=A1ZZFT5FULY4LN",
+      "category": "books",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Windows Internals, Sixth Edition, Part 1",
+      "url": "https://www.amazon.com.br/Windows-Internals-Part-Developer-Reference-ebook/dp/B00JDMPHIG?tag=goog0ef-20&smid=A18CNA8NWQSYHH",
+      "category": "books",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Windows Internals, Sixth Edition, Part 2",
+      "url": "https://www.amazon.com/Windows-Internals-Part-Developer-Reference/dp/0735665877",
+      "category": "books",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "How to Hack Like a PORNSTAR: A step by step process for breaking into a BANK",
+      "url": "https://www.amazon.com/How-Hack-Like-PORNSTAR-breaking-ebook/dp/B01MTDLGQQ",
+      "category": "books",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Windows® via C/C++ (Developer Reference) (English Edition)",
+      "url": "https://www.amazon.com.br/Windows%C2%AE-via-Developer-Reference-English-ebook/dp/B00JDMQK9G/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Windows%C2%AE+via+C%2FC%2B%2B+%28Developer+Reference%29+%28English+Edition%29&qid=1582123720&s=digital-text&sr=1-1",
+      "category": "books",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "The Hacker Playbook 3: Practical Guide To Penetration Testing",
+      "url": "https://www.amazon.com/Hacker-Playbook-Practical-Penetration-Testing-ebook/dp/B07CSPFYZ2",
+      "category": "books",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "Professor Messer's CompTIA SY0-501 Security+ Course",
+      "url": "http://www.professormesser.com/security-plus/sy0-501/sy0-501-training-course/",
+      "category": "courses",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Penetration Testing with Kali (PWK) Online Security Training Course",
+      "url": "https://www.offensive-security.com/information-security-training/penetration-testing-training-kali-linux/",
+      "category": "courses",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Offensive Security Certified Expert",
+      "url": "https://www.offensive-security.com/information-security-certifications/osce-offensive-security-certified-expert/",
+      "category": "courses",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Advanced Windows Exploitation: Live Hands-on Penetration Testing Training",
+      "url": "https://www.offensive-security.com/information-security-training/advanced-windows-exploitation/",
+      "category": "courses",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Windows API Exploitation Recipes: Processes, Tokens and Memory RW",
+      "url": "https://www.pentesteracademy.com/course?id=31",
+      "category": "courses",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Powershell for Pentesters - Pentester Academy",
+      "url": "https://www.pentesteracademy.com/course?id=21",
+      "category": "courses",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "WMI Attacks and Defense - Pentester Academy",
+      "url": "https://www.pentesteracademy.com/course?id=34",
+      "category": "courses",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Windows Red Team Lab - Pentester Academy",
+      "url": "https://www.pentesteracademy.com/redteamlab",
+      "category": "courses",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "ADsecurity.org",
+      "url": "https://adsecurity.org/",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon4 - How to Secure and Sys Admin Windows like a Boss",
+      "url": "https://www.youtube.com/watch?v=jKpaaDKVovk&t=0s&list=PLz8yKJBzAxrslURpq0TcmLl7JS-sRNmog&index=79",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "DEFCON 20: Owned in 60 Seconds: From Network Guest to Windows Domain Admin",
+      "url": "https://www.youtube.com/watch?v=nHU3ujyw_sQ",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "BH2015 - Red Vs. Blue: Modern Active Directory Attacks, Detection, And Protection",
+      "url": "https://www.youtube.com/watch?v=b6GUXerE9Ac",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "BH2016 - Beyond the Mcse: Active Directory for the Security Professional",
+      "url": "https://www.youtube.com/watch?v=2w1cesS7pGY",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "BH2017 - Evading Microsoft ATA for Active Directory Domination",
+      "url": "https://www.youtube.com/watch?v=bHkv63-1GBY",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "DEFCON 26 - Exploiting Active Directory Administrator Insecurities",
+      "url": "https://www.youtube.com/watch?v=WaGgofGnWaI",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "BH2017 - An ACE Up the Sleeve: Designing Active Directory DACL Backdoors",
+      "url": "https://www.youtube.com/watch?v=ys1LZ1MzIxE",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon7 - Building the DeathStar getting Domain Admin with a push of a button (aka how I almost automated myself out pf a job)",
+      "url": "https://www.youtube.com/watch?v=kGoc_apljpU",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon4 - Abusing Active Directory in Post Exploitation",
+      "url": "https://www.youtube.com/watch?v=sTU-70dD-Ok&t=0s&list=PLz8yKJBzAxrslURpq0TcmLl7JS-sRNmog&index=12",
+      "category": "active-directory",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Kerberos (I): How does Kerberos work? – Theory",
+      "url": "https://www.tarlogic.com/en/blog/how-kerberos-works/?amp&__twitter_impression=true",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Protecting Privileged Domain Accounts: Network Authentication In-Depth",
+      "url": "https://digital-forensics.sans.org/blog/2012/09/18/protecting-privileged-domain-accounts-network-authentication-in-depth",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Basic attacks on communication protocols – replay and reflection attacks",
+      "url": "https://steemit.com/education/@edwardthomson/basic-attacks-on-communication-protocols-replay-and-reflection-attacks",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "MicroNugget: How Does Kerberos Work?",
+      "url": "https://www.youtube.com/watch?v=kp5d8Yv3-0c",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "MIT 6.858 Fall 2014 Lecture 13: Kerberos",
+      "url": "https://www.youtube.com/watch?v=bcWxLl8x33c",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon4 - Et tu Kerberos",
+      "url": "https://www.youtube.com/watch?v=RIRQQCM4wz8&t=0s&list=PLz8yKJBzAxrslURpq0TcmLl7JS-sRNmog&index=14",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon7 - Return From The Underworld The Future Of Red Team Kerberos",
+      "url": "https://www.youtube.com/watch?v=E_BNhuGmJwM&t=0s&index=2&list=PLNhlcxQZJSm-PKUZTYe1C94ymf0omysM3",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "BH2014 - Abusing Microsoft Kerberos: Sorry You Guys Don't Get It",
+      "url": "https://www.youtube.com/watch?v=lJQn06QLwEw",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon4 - Attacking Microsoft Kerberos Kicking the Guard Dog of Hades",
+      "url": "https://www.youtube.com/watch?v=PUyhlN-E5MU&t=0s&list=PLz8yKJBzAxrslURpq0TcmLl7JS-sRNmog&index=57",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Kerberos in the Crosshairs: Golden Tickets, Silver Tickets, MITM, and More",
+      "url": "https://digital-forensics.sans.org/blog/2014/11/24/kerberos-in-the-crosshairs-golden-tickets-silver-tickets-mitm-more",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "How Attackers Use Kerberos Silver Tickets to Exploit Systems",
+      "url": "https://adsecurity.org/?p=2011",
+      "category": "kerberos",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Retrieving NTLM Hashes without touching LSASS: the “Internal Monologue” Attack",
+      "url": "https://www.andreafortuna.org/dfir/retrieving-ntlm-hashes-without-touching-lsass-the-internal-monologue-attack/",
+      "category": "lsass-sam-ntlm-gpo",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "ATT&CK - Credential Dumping",
+      "url": "https://attack.mitre.org/wiki/Technique/T1003",
+      "category": "lsass-sam-ntlm-gpo",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "BH2002 - Cracking NTLMv2 Authentication",
+      "url": "https://www.youtube.com/watch?v=x4c8J70kHKc",
+      "category": "lsass-sam-ntlm-gpo",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon7 - Securing Windows with Group Policy",
+      "url": "https://www.youtube.com/watch?v=Upeaa2rgozk&t=0s&index=66&list=PLNhlcxQZJSm-PKUZTYe1C94ymf0omysM3",
+      "category": "lsass-sam-ntlm-gpo",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Abusing GPO Permissions",
+      "url": "https://www.harmj0y.net/blog/redteaming/abusing-gpo-permissions/",
+      "category": "lsass-sam-ntlm-gpo",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Targeted Kerberoasting",
+      "url": "https://www.harmj0y.net/blog/activedirectory/targeted-kerberoasting/",
+      "category": "lsass-sam-ntlm-gpo",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon4 - Getting Windows to Play with Itself: A Pen Testers Guide to Windows API Abuse",
+      "url": "https://www.youtube.com/watch?v=xll_RXQX_Is&index=7&list=PLNhlcxQZJSm8o9c_2_iDDTV6tCPdMp5dg&t=0s",
+      "category": "winapi",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "ATT&CK - Pass the Hash",
+      "url": "https://attack.mitre.org/wiki/Technique/T1075",
+      "category": "pass-the-hash",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "BH2013 - Pass the Hash and other credential theft and reuse: Preventing Lateral Movement...",
+      "url": "https://www.youtube.com/watch?v=xxwIh2pvbyw&t=345s",
+      "category": "pass-the-hash",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "BH2013 - Pass the Hash 2: The Admin's Revenge",
+      "url": "https://www.youtube.com/watch?v=A5xntvKaRlk",
+      "category": "pass-the-hash",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "From Pass-the-Hash to Pass-the-Ticket with No Pain",
+      "url": "https://resources.infosecinstitute.com/pass-hash-pass-ticket-no-pain/#gref",
+      "category": "pass-the-hash",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Pass-the-Hash Is Dead: Long Live LocalAccountTokenFilterPolicy",
+      "url": "http://www.harmj0y.net/blog/redteaming/pass-the-hash-is-dead-long-live-localaccounttokenfilterpolicy/",
+      "category": "pass-the-hash",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "ATT&CK - Pass the Ticket",
+      "url": "https://attack.mitre.org/wiki/Technique/T1097",
+      "category": "pass-the-ticket",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "An SMB Relay Race – How To Exploit LLMNR and SMB Message Signing for Fun and Profit",
+      "url": "https://www.blackhillsinfosec.com/an-smb-relay-race-how-to-exploit-llmnr-and-smb-message-signing-for-fun-and-profit/",
+      "category": "llmnrnbt-ns-poisoning",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Level Up! Practical Windows Privilege Escalation - Andrew Smith",
+      "url": "https://www.youtube.com/watch?v=PC_iMqiuIRQ",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Windows Privilege Escalation Presentation",
+      "url": "https://www.youtube.com/watch?v=mcJ3aRSqGSo",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Windows Kernel Exploits",
+      "url": "https://github.com/SecWiki/windows-kernel-exploits",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "DEF CON 22 - Kallenberg and Kovah - Extreme Privilege Escalation On Windows 8/UEFI Systems",
+      "url": "https://www.youtube.com/watch?v=d6VCri6sPnY",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "DEF CON 25 - Morten Schenk - Taking Windows 10 Kernel Exploitation to the next level",
+      "url": "https://www.youtube.com/watch?v=Gu_5kkErQ6Y",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon7 - Not a Security Boundary Bypassing User Account Control",
+      "url": "https://www.youtube.com/watch?v=c8LgqtATAnE&t=0s&index=21&list=PLNhlcxQZJSm-PKUZTYe1C94ymf0omysM3",
+      "category": "privilege-escalation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Fun with Incógnito",
+      "url": "https://offensive-security.com/metasploit-unleashed/fun-incognito/",
+      "category": "token-impersonation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Rotten Potato",
+      "url": "https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/",
+      "category": "token-impersonation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon3 - Antivirus Evasion Lessons Learned",
+      "url": "https://www.youtube.com/watch?v=ycgaekqAkpA",
+      "category": "av",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon7 - T110 Modern Evasion Techniques",
+      "url": "https://www.youtube.com/watch?v=xcA2riLyHtQ",
+      "category": "av",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon7 - Evading Autoruns",
+      "url": "https://www.youtube.com/watch?v=AEmuhCwFL5I",
+      "category": "av",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Red Team Techniques for Evading, Bypassing & Disabling MS",
+      "url": "https://www.youtube.com/watch?v=2HNuzUuVyv0",
+      "category": "av",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "How to Bypass Anti-Virus to Run Mimikatz",
+      "url": "https://www.blackhillsinfosec.com/bypass-anti-virus-run-mimikatz/",
+      "category": "av",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "AV Evasion - Obfuscating Mimikatz",
+      "url": "https://www.youtube.com/watch?v=9pwMCHlNma4",
+      "category": "av",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Getting PowerShell Empire Past Windows Defender",
+      "url": "https://www.blackhillsinfosec.com/getting-powershell-empire-past-windows-defender/",
+      "category": "av",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Windows Defender ATP machine learning and AMSI: Unearthing script-based attacks that ‘live off the land’",
+      "url": "https://www.microsoft.com/security/blog/2017/12/04/windows-defender-atp-machine-learning-and-amsi-unearthing-script-based-attacks-that-live-off-the-land/",
+      "category": "amsi",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Local Administrator Password Solution",
+      "url": "https://docs.microsoft.com/en-us/previous-versions/mt227395(v=msdn.10)",
+      "category": "laps",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Malicious use of Microsoft LAPS",
+      "url": "https://akijosberryblog.wordpress.com/2019/01/01/malicious-use-of-microsoft-laps/",
+      "category": "laps",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "What Is AppLocker?",
+      "url": "https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker",
+      "category": "applocker--application-whitelisting",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "How to Evade Application Whitelisting Using REGSVR32",
+      "url": "https://www.blackhillsinfosec.com/evade-application-whitelisting-using-regsvr32/",
+      "category": "applocker--application-whitelisting",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "UltimateAppLockerByPassList",
+      "url": "https://github.com/api0cradle/UltimateAppLockerByPassList",
+      "category": "applocker--application-whitelisting",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Abusing Windows Management Instrumentation (WMI)",
+      "url": "https://www.youtube.com/watch?v=0SjMgnGwpq8",
+      "category": "exfiltration",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "DEF CON 23 - Panel - WhyMI so Sexy: WMI Attacks - Real Time Defense and Advanced Forensics",
+      "url": "https://www.youtube.com/watch?v=xBd6p-Lz3kE",
+      "category": "exfiltration",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon3 - Living Off The Land A Minimalist's Guide To Windows Post Exploitation",
+      "url": "https://www.youtube.com/watch?v=j-r6UonEkUw",
+      "category": "exfiltration",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "DEF CON 18 - David Kennedy \"ReL1K\" & Josh Kelley - Powershell...omfg",
+      "url": "https://www.youtube.com/watch?v=q5pA49C7QJg",
+      "category": "powershell",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "DEF CON 22 - Investigating PowerShell Attacks",
+      "url": "https://www.youtube.com/watch?v=EcOf1s90vsg",
+      "category": "powershell",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "DerbyCon2016 - 106 PowerShell Secrets and Tactics Ben0xA",
+      "url": "https://www.youtube.com/watch?v=mPPv6_adTyg",
+      "category": "powershell",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Daniel Bohannon – Invoke-Obfuscation: PowerShell obFUsk8tion",
+      "url": "https://www.youtube.com/watch?v=uE8IAxM_BhE",
+      "category": "powershell",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "BH2017 - Revoke-Obfuscation: PowerShell Obfuscation Detection (And Evasion) Using Science",
+      "url": "https://www.youtube.com/watch?v=x97ejtv56xw",
+      "category": "powershell",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Phishing with Maldocs",
+      "url": "https://www.n00py.io/2017/04/phishing-with-maldocs/",
+      "category": "maldocs",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "Phishing with Empire",
+      "url": "https://enigma0x3.net/2016/03/15/phishing-with-empire/",
+      "category": "maldocs",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Phishing with Macros and Powershell",
+      "url": "https://www.securitysift.com/phishing-with-macros-and-powershell/",
+      "category": "macros",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "About Dynamic Data Exchange",
+      "url": "https://docs.microsoft.com/en-us/windows/desktop/dataxchg/about-dynamic-data-exchange",
+      "category": "dde",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Abusing Microsoft Office DDE",
+      "url": "https://www.securitysift.com/abusing-microsoft-office-dde/",
+      "category": "dde",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Office Dynamic Data Exchange(DDE) attacks",
+      "url": "https://resources.infosecinstitute.com/microsoft-office-dynamic-data-exchangedde-attacks/#gref",
+      "category": "dde",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Office-DDE-Payloads",
+      "url": "https://github.com/0xdeadbeefJERKY/Office-DDE-Payloads",
+      "category": "dde",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Hacking around HTA files",
+      "url": "http://blog.sevagas.com/?Hacking-around-HTA-files",
+      "category": "hta",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Mimikatz",
+      "url": "https://github.com/gentilkiwi/mimikatz",
+      "category": "tools",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "BloodHound",
+      "url": "https://github.com/BloodHoundAD/BloodHound",
+      "category": "tools",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Empire",
+      "url": "https://github.com/EmpireProject/Empire",
+      "category": "tools",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Nishang",
+      "url": "https://github.com/samratashok/nishang",
+      "category": "tools",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Responder",
+      "url": "https://github.com/SpiderLabs/Responder",
+      "category": "tools",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "CrackMapExec",
+      "url": "https://github.com/byt3bl33d3r/CrackMapExec",
+      "category": "tools",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "PSExec",
+      "url": "https://www.toshellandback.com/2017/02/11/psexec/",
+      "category": "tools",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Cobalt Strike",
+      "url": "https://www.cobaltstrike.com/",
+      "category": "adversary-emulation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Darkmoon",
+      "url": "https://github.com/ASCIT31/Dark-Moon",
+      "category": "adversary-emulation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Red Team Automation - RTA",
+      "url": "https://github.com/endgameinc/RTA",
+      "category": "adversary-emulation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "CALDERA",
+      "url": "https://github.com/mitre/caldera",
+      "category": "adversary-emulation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Atomic Red Team",
+      "url": "https://github.com/redcanaryco/atomic-red-team",
+      "category": "adversary-emulation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "Metta",
+      "url": "https://github.com/uber-common/metta",
+      "category": "adversary-emulation",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Red Teaming",
+      "url": "https://github.com/yeyintminthuhtut/Awesome-Red-Teaming",
+      "category": "other-awesome-lists--sources",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Red Teaming Toolkit",
+      "url": "https://github.com/infosecn1nja/Red-Teaming-Toolkit",
+      "category": "other-awesome-lists--sources",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Red Team Infrastructure Wiki",
+      "url": "https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki",
+      "category": "other-awesome-lists--sources",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Pentest",
+      "url": "https://github.com/Muhammd/Awesome-Pentest",
+      "category": "other-awesome-lists--sources",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Red Teaming Experiments",
+      "url": "https://ired.team/",
+      "category": "other-awesome-lists--sources",
+      "source_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/README.md#L215",
+      "line": 215,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 104,
+  "unique_links": 104,
+  "category_count": 24,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "marcosValle",
+      "url": "https://github.com/marcosValle",
+      "contributions": 9
+    },
+    {
+      "login": "Dark-Moon-X",
+      "url": "https://github.com/Dark-Moon-X",
+      "contributions": 1
+    },
+    {
+      "login": "Frentzen",
+      "url": "https://github.com/Frentzen",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 11,
+    "has_more": false,
+    "path_commit_count": 11,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:50:03.412584+00:00"
+  },
+  "contributing_url": "https://github.com/marcosValle/awesome-windows-red-team/blob/c612c3fdd840cf914abeb48dba8ab37642653f27/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by marcosValle/awesome-windows-red-team contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/marcosValle/awesome-windows-red-team/tree/c612c3fdd840cf914abeb48dba8ab37642653f27",
+  "digest": "675f943e275f6305222b14873928ce373138f4232bd0468696762486782bb713"
+}

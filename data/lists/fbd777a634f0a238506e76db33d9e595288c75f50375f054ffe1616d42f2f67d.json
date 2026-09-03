@@ -1,0 +1,768 @@
+{
+  "format_version": 3,
+  "repository_id": "833030911",
+  "name": "Zefan-Cai/Awesome-LLM-KV-Cache",
+  "revision": "6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927",
+  "readme_path": "README.md",
+  "readme_sha256": "44f1c9b79a0f196fe207a096cd44c5eb8ae158035698a12822afdd71e3b8fb0b",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "📒Introduction",
+      "level": 2,
+      "path": [
+        "📒Introduction"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#introduction",
+      "entries": 0
+    },
+    {
+      "id": "citations",
+      "title": "©️Citations",
+      "level": 2,
+      "path": [
+        "©️Citations"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#citations",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "📖Contents",
+      "level": 2,
+      "path": [
+        "📖Contents"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "trending-inference-topics-back",
+      "title": "📖Trending Inference Topics (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "📖Trending Inference Topics (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#trending-inference-topics-back",
+      "entries": 5
+    },
+    {
+      "id": "llm-kv-cache-compression-back",
+      "title": "LLM KV Cache Compression (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "LLM KV Cache Compression (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#llm-kv-cache-compression-back",
+      "entries": 16
+    },
+    {
+      "id": "kv-cache-merge-back",
+      "title": "KV Cache Merge (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "KV Cache Merge (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#kv-cache-merge-back",
+      "entries": 7
+    },
+    {
+      "id": "budget-allocation-back",
+      "title": "Budget Allocation (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "Budget Allocation (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#budget-allocation-back",
+      "entries": 4
+    },
+    {
+      "id": "query-aware-kv-retrieval-back",
+      "title": "Query-Aware KV Retrieval (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "Query-Aware KV Retrieval (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#query-aware-kv-retrieval-back",
+      "entries": 4
+    },
+    {
+      "id": "cross-layer-kv-cache-utilization-back",
+      "title": "Cross-Layer KV Cache Utilization (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "Cross-Layer KV Cache Utilization (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#cross-layer-kv-cache-utilization-back",
+      "entries": 4
+    },
+    {
+      "id": "kv-cache-quantization-back",
+      "title": "KV Cache Quantization (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "KV Cache Quantization (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#kv-cache-quantization-back",
+      "entries": 10
+    },
+    {
+      "id": "evaluation-back",
+      "title": "Evaluation (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "Evaluation (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#evaluation-back",
+      "entries": 4
+    },
+    {
+      "id": "low-rank-kv-cache-decomposition-back",
+      "title": "Low Rank KV Cache Decomposition (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "Low Rank KV Cache Decomposition (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#low-rank-kv-cache-decomposition-back",
+      "entries": 3
+    },
+    {
+      "id": "observation-back",
+      "title": "Observation (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "Observation (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#observation-back",
+      "entries": 4
+    },
+    {
+      "id": "systems-back",
+      "title": "Systems (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "Systems (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#systems-back",
+      "entries": 2
+    },
+    {
+      "id": "others-back",
+      "title": "Others (©️back👆🏻)",
+      "level": 3,
+      "path": [
+        "📖Contents",
+        "Others (©️back👆🏻)"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#others-back",
+      "entries": 2
+    },
+    {
+      "id": "license",
+      "title": "©️License",
+      "level": 2,
+      "path": [
+        "©️License"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#license",
+      "entries": 0
+    },
+    {
+      "id": "contribute",
+      "title": "🎉Contribute",
+      "level": 2,
+      "path": [
+        "🎉Contribute"
+      ],
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#contribute",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2405.04434",
+      "category": "trending-inference-topics-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2405.05254",
+      "category": "trending-inference-topics-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://github.com/kvcache-ai/Mooncake/blob/main/Mooncake-v1.pdf",
+      "category": "trending-inference-topics-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://tridao.me/publications/flash3/flash3.pdf",
+      "category": "trending-inference-topics-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2407.02490",
+      "category": "trending-inference-topics-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2306.14048",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2309.17453",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2310.01801",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2310.07240",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2404.14469",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2305.17118",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2406.11430",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2404.15949",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2407.02328",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2403.17312",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2403.06764",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2403.09054",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2406.07056",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2406.12335",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2402.06262",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2506.01215",
+      "category": "llm-kv-cache-compression-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://www.arxiv.org/pdf/2502.15734",
+      "category": "kv-cache-merge-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.16444",
+      "category": "kv-cache-merge-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2312.03414",
+      "category": "kv-cache-merge-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://openreview.net/forum?id=LCTmppB165",
+      "category": "kv-cache-merge-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.05254",
+      "category": "kv-cache-merge-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2406.13035",
+      "category": "kv-cache-merge-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2407.08454",
+      "category": "kv-cache-merge-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.12532",
+      "category": "budget-allocation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2406.02069",
+      "category": "budget-allocation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2407.11550",
+      "category": "budget-allocation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2407.15891",
+      "category": "budget-allocation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2312.04985",
+      "category": "query-aware-kv-retrieval-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2410.05076",
+      "category": "query-aware-kv-retrieval-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2505.02922",
+      "category": "query-aware-kv-retrieval-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2505.13109",
+      "category": "query-aware-kv-retrieval-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.12981",
+      "category": "cross-layer-kv-cache-utilization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.10637",
+      "category": "cross-layer-kv-cache-utilization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.14366",
+      "category": "cross-layer-kv-cache-utilization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2406.09297",
+      "category": "cross-layer-kv-cache-utilization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/203.05527",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2401.18079",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2402.18096",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2402.02750",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2402.12065",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2403.04643",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://www.arxiv.org/abs/2405.14256",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.12591",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.06219",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2407.12820",
+      "category": "kv-cache-quantization-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2407.01527",
+      "category": "evaluation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2404.06654",
+      "category": "evaluation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2409.02076",
+      "category": "evaluation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2412.10319",
+      "category": "evaluation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2402.09398",
+      "category": "low-rank-kv-cache-decomposition-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2405.04434",
+      "category": "low-rank-kv-cache-decomposition-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2406.02542",
+      "category": "low-rank-kv-cache-decomposition-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2209.11895",
+      "category": "observation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2401.06104",
+      "category": "observation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2404.15574",
+      "category": "observation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2402.17762",
+      "category": "observation-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://github.com/kvcache-ai/Mooncake/blob/main/Mooncake-v1.pdf",
+      "category": "systems-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2406.17565",
+      "category": "systems-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/pdf/2406.07056",
+      "category": "others-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "[pdf]",
+      "url": "https://arxiv.org/abs/2407.10969",
+      "category": "others-back",
+      "source_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/blob/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927/README.md#L174",
+      "line": 174,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 65,
+  "unique_links": 64,
+  "category_count": 12,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "Janghyun1230",
+      "url": "https://github.com/Janghyun1230",
+      "contributions": 2
+    },
+    {
+      "login": "WilliamBy",
+      "url": "https://github.com/WilliamBy",
+      "contributions": 2
+    },
+    {
+      "login": "junchenj",
+      "url": "https://github.com/junchenj",
+      "contributions": 1
+    },
+    {
+      "login": "SHA-4096",
+      "url": "https://github.com/SHA-4096",
+      "contributions": 1
+    },
+    {
+      "login": "skejriwal44",
+      "url": "https://github.com/skejriwal44",
+      "contributions": 1
+    },
+    {
+      "login": "Zefan-Cai",
+      "url": "https://github.com/Zefan-Cai",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 19,
+    "has_more": false,
+    "path_commit_count": 19,
+    "public_contributors": 6,
+    "observed_at": "2026-09-03T17:51:30.782506+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by Zefan-Cai/Awesome-LLM-KV-Cache contributors.",
+  "license": "GPL-3.0",
+  "license_url": "https://github.com/Zefan-Cai/Awesome-LLM-KV-Cache/tree/6d6ffbbb3f3e1b2b3c00b2a63d88a285cf53c927",
+  "digest": "fbd777a634f0a238506e76db33d9e595288c75f50375f054ffe1616d42f2f67d"
+}
