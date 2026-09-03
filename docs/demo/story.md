@@ -194,3 +194,9 @@ profiles with zero profile errors. The accepted snapshot contains 8,373 candidat
 This chapter establishes the list-profile foundation. Aggregate dashboards and
 cross-list comparison remain a separate issue and release gate rather than being
 claimed by the data increment.
+
+The first source-bound verification did not pass: its legacy 60-second catalogue
+subprocess budget expired while validating the much larger snapshot, although pytest
+and pinned-framework assertions passed. Review returned the work instead of combining
+separate green evidence into a fictional pass. The harness budget was made proportional
+without changing catalogue checks, and the complete candidate was frozen and run again.
