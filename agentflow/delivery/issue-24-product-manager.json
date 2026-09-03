@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "goalRevision": "3b6955e7ea7f0b69581163d9e1904e37159975619f4839a93fbb98342a217075",
+  "criteria": [
+    {
+      "id": "recovery-contract",
+      "definitionDigest": "a4c4f4c9ff7f94ce2f3dcf9ddc51492b854d9edaa45c03acc0b7ff24c2e44e59",
+      "assertions": [
+        "recovery contract fences writers and stale plans",
+        "publication and fresh-context boundaries are explicit",
+        "release evidence keeps independent observations"
+      ],
+      "allowedOrigins": ["collector-observed"],
+      "requireImmutable": true,
+      "maxAgeMs": 3600000
+    }
+  ],
+  "journeys": [
+    {
+      "id": "recover-and-resume",
+      "required": true,
+      "criteria": ["recovery-contract"]
+    }
+  ]
+}

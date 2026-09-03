@@ -1,9 +1,10 @@
 {
   "name": "awesomeawesomeness",
-  "version": "2.0.0-alpha.3",
+  "version": "2.0.0-rc.1",
   "private": true,
   "type": "module",
   "scripts": {
-    "check:workflow": "node scripts/check-framework.mjs"
+    "check:workflow": "node scripts/check-framework.mjs",
+    "check:recovery": "node scripts/verify-recovery-evidence.mjs"
   }
 }
