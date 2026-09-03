@@ -200,3 +200,35 @@ subprocess budget expired while validating the much larger snapshot, although py
 and pinned-framework assertions passed. Review returned the work instead of combining
 separate green evidence into a fictional pass. The harness budget was made proportional
 without changing catalogue checks, and the complete candidate was frozen and run again.
+
+## 12. From thousands of profiles to one honest landscape
+
+[Issue #23](https://github.com/smota/agentflow-demo/issues/23) turns the complete profile
+snapshot into an index-only Insights workspace. Its KPIs always name the filtered
+population and freshness coverage. Topic and freshness distributions, plus the
+stars-versus-indexed-content view, describe one pinned observation rather than pretending
+that a current snapshot is historical growth. Each chart has a tabular equivalent.
+
+Dashboard search, topic and freshness controls share the same normalized URL state as
+the explorer. Reset removes those dashboard filters predictably. Comparison is deliberately
+small—two to four eligible lists—and charts one unit at a time while the exact table retains
+stars, forks, entries, categories, bounded contributors, freshness and upstream links.
+List detail shards stay lazy and the hosted app still makes no GitHub or AI requests.
+
+The first browser view after changing imported Python looked healthy but was stale. The
+runtime was restarted before the exact case was accepted, repeating the v1 lesson that a
+footer or partial render cannot prove module freshness. An auxiliary 390px headless attempt
+captured only Streamlit startup; it was rejected as evidence instead of being called a pass.
+Responsive acceptance therefore remains a protected hosted-release check.
+
+The first data-honesty review then returned an otherwise green candidate: its scatter
+input converted an unknown entry count to zero and its freshness bars were alphabetic,
+not chronological. The corrected dashboard preserves unknown table values, reports
+content-count coverage, uses the snapshot's canonical freshness ranges for filters and
+ordering, and has regressions for partial observations. The current complete snapshot
+would have hidden both defects, which is exactly why the review checked the general rule.
+
+On the real 6,377-list index, a cold validated load took 1.778 seconds, the complete
+dashboard aggregation took 0.026 seconds, and Python's measured peak was 251.3 MiB. The
+complete local suite passed 156 tests. These measurements describe the tested Windows
+process, not a promise about every Community Cloud cold start.
