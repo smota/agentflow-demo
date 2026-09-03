@@ -1,0 +1,997 @@
+{
+  "format_version": 3,
+  "repository_id": "27305804",
+  "name": "fcambus/nginx-resources",
+  "revision": "32beb035935b0cd851944eecd29eb8a6aa9635d4",
+  "readme_path": "README.md",
+  "readme_sha256": "07f74382bf28162066285a61fc752a2307115c577ba6150977801e899f953574",
+  "sections": [
+    {
+      "id": "nginx-resources",
+      "title": "Nginx Resources",
+      "level": 1,
+      "path": [
+        "Nginx Resources"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#nginx-resources",
+      "entries": 0
+    },
+    {
+      "id": "understanding-nginx",
+      "title": "Understanding Nginx",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Understanding Nginx"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#understanding-nginx",
+      "entries": 5
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Architecture"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#architecture",
+      "entries": 6
+    },
+    {
+      "id": "configuration",
+      "title": "Configuration",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Configuration"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#configuration",
+      "entries": 15
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Security"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#security",
+      "entries": 1
+    },
+    {
+      "id": "tutorials",
+      "title": "Tutorials",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Tutorials"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#tutorials",
+      "entries": 12
+    },
+    {
+      "id": "module-development",
+      "title": "Module development",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Module development"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#module-development",
+      "entries": 3
+    },
+    {
+      "id": "apis",
+      "title": "APIs",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "APIs"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#apis",
+      "entries": 3
+    },
+    {
+      "id": "hacks",
+      "title": "Hacks",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Hacks"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#hacks",
+      "entries": 7
+    },
+    {
+      "id": "tips",
+      "title": "Tips",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Tips"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#tips",
+      "entries": 3
+    },
+    {
+      "id": "nginx--lua",
+      "title": "Nginx + Lua",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Nginx + Lua"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#nginx--lua",
+      "entries": 10
+    },
+    {
+      "id": "nginx--njs",
+      "title": "Nginx + njs",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Nginx + njs"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#nginx--njs",
+      "entries": 9
+    },
+    {
+      "id": "openresty",
+      "title": "OpenResty",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "OpenResty"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#openresty",
+      "entries": 9
+    },
+    {
+      "id": "tengine",
+      "title": "Tengine",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Tengine"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#tengine",
+      "entries": 2
+    },
+    {
+      "id": "talks",
+      "title": "Talks",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "Talks"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#talks",
+      "entries": 7
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "Nginx Resources",
+        "License"
+      ],
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Understanding Nginx versioning",
+      "url": "https://www.f5.com/company/blog/nginx/nginx-1-18-1-19-released",
+      "category": "understanding-nginx",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L9",
+      "line": 9,
+      "properties": {}
+    },
+    {
+      "title": "Interview with the creator of Nginx",
+      "url": "https://web.archive.org/web/20180614224054/http://mindend.com/interview-with-the-creator-of-nginx/",
+      "category": "understanding-nginx",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L10",
+      "line": 10,
+      "properties": {}
+    },
+    {
+      "title": "Interview with Igor Sysoev, author of Apache's competitor NGINX",
+      "url": "https://freesoftwaremagazine.com/articles/interview_igor_sysoev_author_apaches_competitor_nginx/",
+      "category": "understanding-nginx",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L11",
+      "line": 11,
+      "properties": {}
+    },
+    {
+      "title": "The case for Nginx in front of application servers",
+      "url": "https://www.cambus.net/the-case-for-nginx-in-front-of-application-servers/",
+      "category": "understanding-nginx",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L12",
+      "line": 12,
+      "properties": {}
+    },
+    {
+      "title": "Nginx Optimization: understanding sendfile, tcp_nodelay and tcp_nopush",
+      "url": "https://fv.gs/nginx-optimization-understanding-sendfile-tcp-nodelay-and-tcp-nopush-c55cdd276765",
+      "category": "understanding-nginx",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L13",
+      "line": 13,
+      "properties": {}
+    },
+    {
+      "title": "The Architecture of Open Source Applications (Volume 2): nginx",
+      "url": "https://aosabook.org/en/nginx.html",
+      "category": "architecture",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L17",
+      "line": 17,
+      "properties": {}
+    },
+    {
+      "title": "Nginx Guts - Shedding light on Nginx internals",
+      "url": "https://web.archive.org/web/20220202145919/http://www.nginxguts.com/category/nginx/",
+      "category": "architecture",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "Nginx discovery journey",
+      "url": "https://www.nginx-discovery.com/",
+      "category": "architecture",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "Nginx Internals",
+      "url": "https://www.slideshare.net/slideshow/nginx-internals/2028238",
+      "category": "architecture",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "Inside NGINX: How We Designed for Performance & Scale",
+      "url": "https://blog.nginx.org/blog/inside-nginx-how-we-designed-for-performance-scale",
+      "category": "architecture",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "Thread Pools in NGINX",
+      "url": "https://www.f5.com/company/blog/nginx/thread-pools-boost-performance-9x",
+      "category": "architecture",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "Beginner's Guide",
+      "url": "https://nginx.org/en/docs/beginners_guide.html",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "Alphabetical index of variables",
+      "url": "https://nginx.org/en/docs/varindex.html",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "Useful Rewrites for Nginx",
+      "url": "https://www.engineyard.com/blog/useful-rewrites-for-nginx/",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "Nginx Configuration Primer",
+      "url": "https://blog.martinfjordvald.com/nginx-primer/",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "Nginx Primer 2: From Apache to Nginx",
+      "url": "https://blog.martinfjordvald.com/nginx-primer-2-from-apache-to-nginx/",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "Understanding the Nginx Configuration Inheritance Model",
+      "url": "https://blog.martinfjordvald.com/understanding-the-nginx-configuration-inheritance-model/",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "Nginx HTTP server boilerplate configs",
+      "url": "https://github.com/h5bp/server-configs-nginx",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "Nginx Boilerplate - Configuration template and a set of handy must-have snippets",
+      "url": "https://github.com/nginx-boilerplate/nginx-boilerplate",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "How to Configure OCSP Stapling in Apache and Nginx",
+      "url": "https://sslmate.com/blog/post/ocsp_stapling_in_apache_and_nginx",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "NGINX Config - Online nginx configuration generator",
+      "url": "https://www.digitalocean.com/community/tools/nginx",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Nice nginx features for developers",
+      "url": "https://alex.dzyoba.com/blog/nginx-features-for-developers/",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Nice nginx features for operators",
+      "url": "https://alex.dzyoba.com/blog/nginx-features-for-operators/",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Avoiding the Top 10 NGINX Configuration Mistakes",
+      "url": "https://www.f5.com/company/blog/nginx/avoiding-top-10-nginx-configuration-mistakes",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Gixy - Nginx configuration static analyzer",
+      "url": "https://github.com/yandex/gixy",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Nginx common configuration - Universal config and snippets",
+      "url": "https://github.com/tldr-devops/nginx-common-configuration",
+      "category": "configuration",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "BunkerWeb - Next-generation, open-source Web Application Firewall (WAF) based on Nginx",
+      "url": "https://www.bunkerweb.io/",
+      "category": "security",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "NGINX and NGINX Plus Admin Guide",
+      "url": "https://docs.nginx.com/nginx/admin-guide/",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "agentzh's Nginx Tutorials",
+      "url": "https://openresty.org/download/agentzh-nginx-tutorials-en.html",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to nginx.conf scripting",
+      "url": "https://agentzh.org/misc/slides/nginx-conf-scripting/nginx-conf-scripting.html",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Load Balancing with NGINX and NGINX Plus",
+      "url": "https://www.f5.com/company/blog/nginx/load-balancing-with-nginx-plus",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Optimizing Nginx for High Traffic Loads",
+      "url": "https://blog.martinfjordvald.com/optimizing-nginx-for-high-traffic-loads/",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "NGINX as a WebSockets Proxy",
+      "url": "https://www.f5.com/company/blog/nginx/websocket-nginx",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "HTTP Keepalive Connections and Web Performance",
+      "url": "https://www.f5.com/company/blog/nginx/http-keepalives-and-web-performance",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "CORS on Nginx",
+      "url": "https://enable-cors.org/server_nginx.html",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Serving precompressed content with Nginx and Zopfli",
+      "url": "https://www.cambus.net/serving-precompressed-content-with-nginx-and-zopfli/",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Nginx on FreeBSD",
+      "url": "https://www.cambus.net/nginx-on-freebsd/",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Performing A/B Testing with NGINX and NGINX Plus",
+      "url": "https://www.f5.com/company/blog/nginx/performing-a-b-testing-nginx-plus",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Improving NGINX Performance with Kernel TLS and SSL_sendfile()",
+      "url": "https://www.f5.com/company/blog/nginx/improving-nginx-performance-with-kernel-tls",
+      "category": "tutorials",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Official Development Guide",
+      "url": "https://nginx.org/en/docs/dev/development_guide.html",
+      "category": "module-development",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "Guide to Nginx Module Development",
+      "url": "https://www.evanmiller.org/nginx-modules-guide.html",
+      "category": "module-development",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Advanced Topics In Nginx Module Development",
+      "url": "https://www.evanmiller.org/nginx-modules-guide-advanced.html",
+      "category": "module-development",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Telize - JSON IP and GeoIP REST API (IP Geolocation) built on Nginx and Lua",
+      "url": "https://www.telize.com/",
+      "category": "apis",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "GIN - JSON-API framework",
+      "url": "https://gin.io/",
+      "category": "apis",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Kong - Management Layer for Microservices and APIs",
+      "url": "https://github.com/kong/kong",
+      "category": "apis",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Nginx JSON hacks",
+      "url": "https://web.archive.org/web/20140921162448/http://www.gabrielweinberg.com/blog/2011/07/nginx-json-hacks.html",
+      "category": "hacks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Using Environment Variables In Nginx.conf",
+      "url": "https://web.archive.org/web/20170712003702/https://docs.apitools.com/blog/2014/07/02/using-environment-variables-in-nginx-conf.html",
+      "category": "hacks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Log rotation directly within Nginx configuration file",
+      "url": "https://www.cambus.net/log-rotation-directly-within-nginx-configuration-file/",
+      "category": "hacks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Realtime pixel tracking with Nginx, syslog-ng, and Redis",
+      "url": "https://benwilber.github.io/nginx/redis/syslog/pixel-tracking/2013/09/13/realtime-pixel-tracking-with-nginx-syslog-ng-and-redis.html",
+      "category": "hacks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Dynamic log formats in Nginx",
+      "url": "https://benwilber.github.io/nginx/syslog/logging/2015/08/26/dynamic-log-formats-in-nginx.html",
+      "category": "hacks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Capture and delay unwanted requests",
+      "url": "https://github.com/p0pr0ck5/lua-resty-tarpit",
+      "category": "hacks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Nginx: a caching, thumbnailing, reverse proxying image server?",
+      "url": "https://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-/",
+      "category": "hacks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Things you didn't know Nginx could do",
+      "url": "https://www.slideshare.net/slideshow/5-things-you-didnt-know-nginx-could-do/35181267",
+      "category": "tips",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Finding the nginx gzip_comp_level sweet spot",
+      "url": "https://mjanja.ch/2015/03/finding-the-nginx-gzip_comp_level-sweet-spot/",
+      "category": "tips",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "nginx mirroring tips and tricks",
+      "url": "https://alex.dzyoba.com/blog/nginx-mirror/",
+      "category": "tips",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Nginx, Lua, and beyond",
+      "url": "https://agentzh.org/misc/slides/nginx-lua-and-beyond.pdf",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Pushing Nginx to its limit with Lua",
+      "url": "https://blog.cloudflare.com/pushing-nginx-to-its-limit-with-lua/",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Adding OAuth Support to Nginx via Lua",
+      "url": "https://chairnerd.seatgeek.com/oauth-support-for-nginx-with-lua/",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Scripting libdrizzle with Lua inside Nginx",
+      "url": "https://agentzh.org/misc/slides/libdrizzle-lua-nginx.pdf",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Nginx and Lua",
+      "url": "https://web.archive.org/web/20141223070856/http://devblog.mixlr.com/2012/09/01/nginx-lua/",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Writing an Nginx authentication module in Lua",
+      "url": "https://www.stavros.io/posts/writing-an-nginx-authentication-module-in-lua/",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Scaling TextRazor in the Cloud with Nginx and Lua",
+      "url": "https://www.textrazor.com/blog/2013/03/scaling-textrazor-in-the-cloud-with-nginx-and-lua.html",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "LSSO - Lua + Nginx SSO System with an OAuth Backend",
+      "url": "https://github.com/pirogoeth/lsso",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Measuring Nginx Cache Performance using Lua and Redis",
+      "url": "https://charlesleifer.com/blog/measuring-nginx-cache-performance-using-lua-and-redis/",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "nginx-lua - Nginx 1.19+ with LUA support based on Alpine Linux, Amazon Linux, CentOS, Debian, Fedora and Ubuntu.",
+      "url": "https://github.com/fabiocicerchia/nginx-lua",
+      "category": "nginx--lua",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "njs scripting language reference and examples",
+      "url": "https://nginx.org/en/docs/njs/",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Collection of njs use cases",
+      "url": "https://github.com/f5devcentral/nginx-njs-usecases",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "JavaScript embedded on NGINX - Getting started with njs",
+      "url": "https://www.bluedoa.com/javascript-embedded-on-nginx-getting-started-with-njs/",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Create Nginx extensions in JavaScript",
+      "url": "https://dev.to/metal3d/create-nginx-extensions-in-javascript-3310",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Make your nginx config even more modular and reusable with njs 0.7.7",
+      "url": "https://www.f5.com/company/blog/nginx/make-nginx-config-even-more-modular-reusable-njs-0-7-7",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Diagnostic logging with the NGINX JavaScript module",
+      "url": "https://www.f5.com/company/blog/nginx/diagnostic-logging-nginx-javascript-module",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "How to log request headers with NGINX and njs",
+      "url": "https://wildwolf.name/how-to-log-request-headers-with-nginx-and-njs/",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Using NGINX as an Object Storage Gateway via njs",
+      "url": "https://blog.nginx.org/blog/using-nginx-as-object-storage-gateway",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Easy HTTPS with NGINX and ACME via njs",
+      "url": "https://steinkamp.us/posts/2023-08-10_easy-https-with-nginx",
+      "category": "nginx--njs",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "OpenResty - Fast web app server by extending Nginx",
+      "url": "https://openresty.org/en/",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Lapis - A web framework for Lua or MoonScript powered by OpenResty",
+      "url": "https://leafo.net/lapis/",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Nginx image processing server with OpenResty and Lua",
+      "url": "https://leafo.net/posts/creating_an_image_server.html",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Building an OpenResty events server",
+      "url": "https://github.com/cagerton/dropthat/",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "SysAdvent 2014 - OpenResty, Nginx and Lua",
+      "url": "https://sysadvent.blogspot.com/2014/12/day-22-largely-unappreciated.html",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Ceryx - A dynamic reverse proxy",
+      "url": "https://www.sourcelair.com/blog/articles/75/ceryx-dynamic-nginx/",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "An Introduction To OpenResty",
+      "url": "https://www.openmymind.net/An-Introduction-To-OpenResty-Nginx-Lua/",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Programming OpenResty (written by the OpenResty creator)",
+      "url": "https://openresty.gitbooks.io/programming-openresty/content/",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "VeryNginx - Nginx distribution which provides WAF, Control Panel, and Dashboards",
+      "url": "https://github.com/alexazhou/VeryNginx",
+      "category": "openresty",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Tengine Web Server",
+      "url": "https://tengine.taobao.org/",
+      "category": "tengine",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Difference between OpenResty and Tengine",
+      "url": "https://github.com/openresty/openresty/issues/54",
+      "category": "tengine",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "NGINX Conference 2019 Videos",
+      "url": "https://www.youtube.com/playlist?list=PLGz_X9w9raXflDvBv642YFqT0UTqQGFsH",
+      "category": "talks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "NGINX Conference 2018 Videos",
+      "url": "https://www.youtube.com/playlist?list=PLGz_X9w9raXe_Vc708VKvr5KJ4gnf1WxS",
+      "category": "talks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "NGINX Conference 2017 Videos",
+      "url": "https://www.youtube.com/playlist?list=PLGz_X9w9raXeT-z_rcZ9yF0kV5SENZ-yt",
+      "category": "talks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "NGINX Conference 2016 Videos",
+      "url": "https://www.youtube.com/playlist?list=PLGz_X9w9raXcOsB_dT26iu0BvbSxWYG1g",
+      "category": "talks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "NGINX Conference 2015 Videos",
+      "url": "https://www.youtube.com/playlist?list=PLGz_X9w9raXdED9BR6GQ61A6d3fBzjpbn",
+      "category": "talks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "NGINX Conference 2014 Videos",
+      "url": "https://www.youtube.com/playlist?list=PLGz_X9w9raXewvc6tjIGGFZ6DBKHEld3k",
+      "category": "talks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "NGINX User Summit 2014 - Lightning talks",
+      "url": "https://www.youtube.com/playlist?list=PLGz_X9w9raXfTnRnI6Xl0LMhAKoTVVZv8",
+      "category": "talks",
+      "source_url": "https://github.com/fcambus/nginx-resources/blob/32beb035935b0cd851944eecd29eb8a6aa9635d4/README.md#L139",
+      "line": 139,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 92,
+  "unique_links": 92,
+  "category_count": 14,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "fcambus",
+      "url": "https://github.com/fcambus",
+      "contributions": 81
+    },
+    {
+      "login": "0xb4lint",
+      "url": "https://github.com/0xb4lint",
+      "contributions": 1
+    },
+    {
+      "login": "aokomorowski",
+      "url": "https://github.com/aokomorowski",
+      "contributions": 1
+    },
+    {
+      "login": "davisonio",
+      "url": "https://github.com/davisonio",
+      "contributions": 1
+    },
+    {
+      "login": "dekobon",
+      "url": "https://github.com/dekobon",
+      "contributions": 1
+    },
+    {
+      "login": "fabiocicerchia",
+      "url": "https://github.com/fabiocicerchia",
+      "contributions": 1
+    },
+    {
+      "login": "Friz-zy",
+      "url": "https://github.com/Friz-zy",
+      "contributions": 1
+    },
+    {
+      "login": "m1q",
+      "url": "https://github.com/m1q",
+      "contributions": 1
+    },
+    {
+      "login": "pirogoeth",
+      "url": "https://github.com/pirogoeth",
+      "contributions": 1
+    },
+    {
+      "login": "TheophileDiot",
+      "url": "https://github.com/TheophileDiot",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 92,
+    "has_more": false,
+    "path_commit_count": 92,
+    "public_contributors": 11,
+    "observed_at": "2026-09-03T17:43:34.286291+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by fcambus/nginx-resources contributors.",
+  "license": null,
+  "license_url": "https://github.com/fcambus/nginx-resources/tree/32beb035935b0cd851944eecd29eb8a6aa9635d4",
+  "digest": "83b8027926d47ee026bec756695489a044bc96c8454a3aa673df357471b9c4c1"
+}

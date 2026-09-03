@@ -1,0 +1,1903 @@
+{
+  "format_version": 3,
+  "repository_id": "947710479",
+  "name": "KwanWaiPang/Awesome-Transformer-based-SLAM",
+  "revision": "2adcc3d23c6f064f84b179a84c89e02c882eced9",
+  "readme_path": "README.md",
+  "readme_sha256": "bd82a31d56cee126df87fb716e30f7183a386f0b77e7b8ce3c79468f6f3dcabb",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 1,
+      "path": [
+        "Overview"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#overview",
+      "entries": 0
+    },
+    {
+      "id": "transformer-based-slam",
+      "title": "Transformer-based SLAM",
+      "level": 2,
+      "path": [
+        "Overview",
+        "Transformer-based SLAM"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#transformer-based-slam",
+      "entries": 28
+    },
+    {
+      "id": "transformer-based-pose-tracking",
+      "title": "Transformer-based Pose Tracking",
+      "level": 2,
+      "path": [
+        "Overview",
+        "Transformer-based Pose Tracking"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#transformer-based-pose-tracking",
+      "entries": 29
+    },
+    {
+      "id": "transformer-based-optical-flow",
+      "title": "Transformer-based Optical Flow",
+      "level": 2,
+      "path": [
+        "Overview",
+        "Transformer-based Optical Flow"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#transformer-based-optical-flow",
+      "entries": 13
+    },
+    {
+      "id": "transformer-based-view-matching",
+      "title": "Transformer-based View Matching",
+      "level": 2,
+      "path": [
+        "Overview",
+        "Transformer-based View Matching"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#transformer-based-view-matching",
+      "entries": 21
+    },
+    {
+      "id": "transformer-based-mapping",
+      "title": "Transformer-based Mapping",
+      "level": 2,
+      "path": [
+        "Overview",
+        "Transformer-based Mapping"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#transformer-based-mapping",
+      "entries": 120
+    },
+    {
+      "id": "other-resources",
+      "title": "Other Resources",
+      "level": 2,
+      "path": [
+        "Overview",
+        "Other Resources"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#other-resources",
+      "entries": 11
+    }
+  ],
+  "entries": [
+    {
+      "title": "ScaRF-SLAM: Scale-Consistent Reconstruction with Feed-Forward Models and Classical Visual SLAM",
+      "url": "https://arxiv.org/pdf/2606.00307",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "VGGT-SLAM++",
+      "url": "https://arxiv.org/pdf/2604.06830",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "SceneVGGT: VGGT-based online 3D semantic SLAM for indoor scene understanding and navigation",
+      "url": "https://arxiv.org/pdf/2602.15899",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Dynamic Visual SLAM using a General 3D Prior",
+      "url": "https://arxiv.org/pdf/2512.06868",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "ZipMap: Linear-Time Stateful 3D Reconstruction with Test-Time Training",
+      "url": "https://arxiv.org/pdf/2603.04385v1",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "VGGT-SLAM 2.0: Real time Dense Feed-forward Scene Reconstruction",
+      "url": "https://arxiv.org/pdf/2601.19887",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "DVGT: Driving Visual Geometry Transformer",
+      "url": "https://arxiv.org/pdf/2512.16919",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "DriveVGGT: Visual Geometry Transformer for Autonomous Driving",
+      "url": "https://arxiv.org/pdf/2511.22264",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Any4D: Unified Feed-Forward Metric 4D Reconstruction",
+      "url": "https://arxiv.org/pdf/2512.10935",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Building temporally coherent 3D maps with VGGT for memory-efficient Semantic SLAM",
+      "url": "https://arxiv.org/pdf/2511.16282",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "SING3R-SLAM: Submap-based Indoor Monocular Gaussian SLAM with 3D Reconstruction Priors",
+      "url": "https://arxiv.org/pdf/2511.17207",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Agent Monocular Dense SLAM With 3D Reconstruction Priors",
+      "url": "https://arxiv.org/pdf/2511.19031",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend",
+      "url": "https://arxiv.org/pdf/2511.20343",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "LiDAR-VGGT: Cross-Modal Coarse-to-Fine Fusion for Globally Consistent and Metric-Scale Dense Mapping",
+      "url": "https://arxiv.org/pdf/2511.01186",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization",
+      "url": "https://arxiv.org/pdf/2508.17972",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "EC3R-SLAM: Efficient and Consistent Monocular Dense SLAM with Feed-Forward 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2510.02080",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "GRS-SLAM3R: Real-Time Dense SLAM with Gated Recurrent State",
+      "url": "https://arxiv.org/pdf/2509.23737",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "PROFusion: Robust and Accurate Dense Reconstruction via Camera Pose Regression and Optimization",
+      "url": "https://arxiv.org/pdf/2509.24236",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "SLAM-Former: Putting SLAM into One Transformer",
+      "url": "https://www.arxiv.org/pdf/2509.16909",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "ViSTA-SLAM: Visual SLAM with Symmetric Two-view Association",
+      "url": "https://arxiv.org/pdf/2509.01584",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "VGGT-Long: Chunk it, Loop it, Align it – Pushing VGGT’s Limits on Kilometer-scale Long RGB Sequences",
+      "url": "https://arxiv.org/pdf/2507.16443",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "DINO-SLAM: DINO-informed RGB-D SLAM for Neural Implicit and Explicit Representations",
+      "url": "https://arxiv.org/pdf/2507.19474",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold",
+      "url": "https://arxiv.org/pdf/2505.12549",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "3R-GS: Best Practice in Optimizing Camera Poses Along with 3DGS",
+      "url": "https://arxiv.org/pdf/2504.04294",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "AnyCam: Learning to Recover Camera Poses and Intrinsics from Casual Videos",
+      "url": "https://arxiv.org/pdf/2503.23282",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos",
+      "url": "https://arxiv.org/pdf/2412.09401",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
+      "url": "https://arxiv.org/pdf/2412.12392",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Jperceiver: Joint perception network for depth, pose and layout estimation in driving scenes",
+      "url": "https://arxiv.org/pdf/2207.07895",
+      "category": "transformer-based-slam",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "KV-Tracker: Real-Time Pose Tracking with Transformers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Taher_KV-Tracker_Real-Time_Pose_Tracking_with_Transformers_CVPR_2026_paper.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Dark3R: Learning Structure from Motion in the Dark",
+      "url": "https://arxiv.org/pdf/2603.05330",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "MASt3R-Fusion: Integrating Feed-Forward Visual Model with IMU, GNSS for High-Functionality SLAM",
+      "url": "https://arxiv.org/pdf/2509.20757",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Reloc3r: Large-scale training of relative camera pose regression for generalizable, fast, and accurate visual localization",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Dong_Reloc3r_Large-Scale_Training_of_Relative_Camera_Pose_Regression_for_Generalizable_CVPR_2025_paper.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Dense-depth map guided deep Lidar-Visual Odometry with Sparse Point Clouds and Images",
+      "url": "https://arxiv.org/pdf/2507.15496",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "DINO-VO: A Feature-Based Visual Odometry Leveraging a Visual Foundation Model",
+      "url": "https://arxiv.org/pdf/2507.13145",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "BotVIO: A Lightweight Transformer-Based Visual-Inertial Odometry for Robotics",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11024235",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "SplatPose: Geometry-Aware 6-DoF Pose Estimation from Single RGB Image via 3D Gaussian Splatting",
+      "url": "https://arxiv.org/pdf/2503.05174",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "ZeroVO: Visual Odometry with Minimal Assumptions",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Lai_ZeroVO_Visual_Odometry_with_Minimal_Assumptions_CVPR_2025_paper.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "XIRVIO: Critic-guided Iterative Refinement for Visual-Inertial Odometry with Explainable Adaptive Weighting",
+      "url": "https://arxiv.org/pdf/2503.00315",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Transformer-based model for monocular visual odometry: a video understanding approach",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10845764",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Light3R-SfM: Towards Feed-forward Structure-from-Motion",
+      "url": "https://arxiv.org/pdf/2501.14914",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion",
+      "url": "https://arxiv.org/pdf/2409.19152",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "VGGSfM: Visual Geometry Grounded Deep Structure From Motion",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_VGGSfM_Visual_Geometry_Grounded_Deep_Structure_From_Motion_CVPR_2024_paper.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "End-to-End Learned Visual Odometry Based on Vision Transformer",
+      "url": "https://www.utupub.fi/bitstream/handle/10024/178848/Aman_Manishbhai_Vyas_Thesis.pdf?sequence=1",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Self-supervised multi-frame depth estimation with visual-inertial pose transformer and monocular guidance",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1566253524001416",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Causal Transformer for Fusion and Pose Estimation in Deep Visual Inertial Odometry",
+      "url": "https://arxiv.org/pdf/2409.08769",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "DDETR-SLAM: A Transformer-Based Approach to Pose Optimization in Dynamic Environments",
+      "url": "https://assets-eu.researchsquare.com/files/rs-2965479/v1_covered_409a1161-fe39-4b94-9411-68639c8215b1.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "A lightweight sensor fusion for neural visual inertial odometry",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-99-5847-4_4",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "ViT VO-A Visual Odometry technique Using CNN-Transformer Hybrid Architecture",
+      "url": "https://www.itm-conferences.org/articles/itmconf/pdf/2023/04/itmconf_I3cs2023_01004.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "TransFusionOdom: interpretable transformer-based LiDAR-inertial fusion odometry estimation",
+      "url": "https://arxiv.org/pdf/2304.07728",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Modality-invariant Visual Odometry for Embodied Vision",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Memmel_Modality-Invariant_Visual_Odometry_for_Embodied_Vision_CVPR_2023_paper.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "ViTVO: Vision Transformer based Visual Odometry with Attention Supervision",
+      "url": "https://elsalab.ai/publications/2023/ViTVO_Vision_Transformer_based_Visual_Odometry_with_Attention_Supervision.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "VIOFormer: Advancing Monocular Visual-Inertial Odometry Through Transformer-Based Fusion",
+      "url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/pdf/file/978-3-031-56521-2.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Attention guided unsupervised learning of monocular visual-inertial odometry",
+      "url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/pdf/file/Attention_Guided_Unsupervised_learning_of_Monocular_Visual-inertial_Odometry.pdf",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Ema-vio: Deep visual–inertial odometry with external memory attention",
+      "url": "https://arxiv.org/pdf/2209.08490",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "AFT-VO: Asynchronous fusion transformers for multi-view visual odometry estimation",
+      "url": "https://arxiv.org/pdf/2206.12946",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Dense prediction transformer for scale estimation in monocular visual odometry",
+      "url": "https://arxiv.org/pdf/2210.01723",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Transformer guided geometry model for flow-based unsupervised visual odometry",
+      "url": "https://arxiv.org/pdf/2101.02143",
+      "category": "transformer-based-pose-tracking",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Cotracker: It is better to track together",
+      "url": "https://arxiv.org/pdf/2307.07635",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Win-win: Training high-resolution vision transformers from two windows",
+      "url": "https://arxiv.org/pdf/2310.00632",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Flowformer: A transformer architecture and its masked cost volume autoencoding for optical flow",
+      "url": "https://arxiv.org/pdf/2306.05442",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "FlowFormer++: Masked Cost Volume Autoencoding for Pretraining Optical Flow Estimation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Shi_FlowFormer_Masked_Cost_Volume_Autoencoding_for_Pretraining_Optical_Flow_Estimation_CVPR_2023_paper.pdf",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Transflow: Transformer as flow learner",
+      "url": "http://openaccess.thecvf.com/content/CVPR2023/papers/Lu_TransFlow_Transformer_As_Flow_Learner_CVPR_2023_paper.pdf",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Croco v2: Improved cross-view completion pre-training for stereo matching and optical flow",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Weinzaepfel_CroCo_v2_Improved_Cross-view_Completion_Pre-training_for_Stereo_Matching_and_ICCV_2023_paper.pdf",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Croco: Self-supervised pre-training for 3d vision tasks by cross-view completion",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/16e71d1a24b98a02c17b1be1f634f979-Paper-Conference.pdf",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Unifying flow, stereo and depth estimation",
+      "url": "https://arxiv.org/pdf/2211.05783",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Gmflow: Learning optical flow via global matching",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_GMFlow_Learning_Optical_Flow_via_Global_Matching_CVPR_2022_paper.pdf",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Craft: Cross-attentional flow transformer for robust optical flow",
+      "url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Sui_CRAFT_Cross-Attentional_Flow_Transformer_for_Robust_Optical_Flow_CVPR_2022_paper.pdf",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Learning optical flow with kernel patch attention",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Luo_Learning_Optical_Flow_With_Kernel_Patch_Attention_CVPR_2022_paper.pdf",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Global Matching with Overlapping Attention for Optical Flow Estimation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_Global_Matching_With_Overlapping_Attention_for_Optical_Flow_Estimation_CVPR_2022_paper.pdf",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Flowformer: A transformer architecture for optical flow",
+      "url": "https://arxiv.org/pdf/2203.16194",
+      "category": "transformer-based-optical-flow",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "TAPIP3D: Tracking Any Point in Persistent 3D Geometry",
+      "url": "https://arxiv.org/pdf/2504.14717",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "DEFOM-Stereo: Depth Foundation Model Based Stereo Matching",
+      "url": "https://arxiv.org/pdf/2501.09466",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "MatchAnything: Universal Cross-Modality Image Matching with Large-Scale Pre-Training",
+      "url": "https://arxiv.org/pdf/2501.07556",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "POMATO: Marrying Pointmap Matching with Temporal Motions for Dynamic 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2504.05692",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "CoMatcher: Multi-View Collaborative Feature Matching",
+      "url": "https://arxiv.org/pdf/2504.01872",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "CoMatch: Dynamic Covisibility-Aware Transformer for Bilateral Subpixel-Level Semi-Dense Image Matching",
+      "url": "https://arxiv.org/pdf/2503.23925",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Tracktention: Leveraging Point Tracking to Attend Videos Faster and Better",
+      "url": "https://arxiv.org/pdf/2503.19904",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "FG2:Fine-Grained Cross-View Localization by Fine-Grained Feature Matching",
+      "url": "https://arxiv.org/pdf/2503.18725",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "ColabSfM: Collaborative Structure-from-Motion by Point Cloud Registration",
+      "url": "https://arxiv.org/pdf/2503.17093",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Loop Closure from Two Views: Revisiting PGO for Scalable Trajectory Estimation through Monocular Priors",
+      "url": "https://arxiv.org/pdf/2503.16275",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Speedy MASt3R",
+      "url": "https://arxiv.org/pdf/2503.10017",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "VGGT: Visual Geometry Grounded Transformer",
+      "url": "https://arxiv.org/pdf/2503.11651",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Grounding Image Matching in 3D with MASt3R",
+      "url": "https://arxiv.org/pdf/2406.09756",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Efficient LoFTR: Semi-dense local feature matching with sparse-like speed",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Efficient_LoFTR_Semi-Dense_Local_Feature_Matching_with_Sparse-Like_Speed_CVPR_2024_paper.pdf",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "RoMa: Robust dense feature matching",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Edstedt_RoMa_Robust_Dense_Feature_Matching_CVPR_2024_paper.pdf",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Rotation-invariant transformer for point cloud matching",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Rotation-Invariant_Transformer_for_Point_Cloud_Matching_CVPR_2023_paper.pdf",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "Aspanformer: Detector-free image matching with adaptive span transformer",
+      "url": "https://arxiv.org/pdf/2208.14201",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Tlcd: A transformer based loop closure detection for robotic visual slam",
+      "url": "https://howardli0816.github.io/files/TLCD_A_Transformer_based_Loop_Closure_Detection_for_Robotic_Visual_SLAM.pdf",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "Cotr: Correspondence transformer for matching across images",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Jiang_COTR_Correspondence_Transformer_for_Matching_Across_Images_ICCV_2021_paper.pdf",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "LoFTR: Detector-free local feature matching with transformers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_LoFTR_Detector-Free_Local_Feature_Matching_With_Transformers_CVPR_2021_paper.pdf",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "Superglue: Learning feature matching with graph neural networks",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Sarlin_SuperGlue_Learning_Feature_Matching_With_Graph_Neural_Networks_CVPR_2020_paper.pdf",
+      "category": "transformer-based-view-matching",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "MoGe-3: Fine-Detail Monocular Geometry Estimation with Self-Guided Sparse Volumetric Refinement",
+      "url": "https://arxiv.org/pdf/2607.17967",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "GUSH3R: Everyone Everywhere All at Once as Gaussians",
+      "url": "https://arxiv.org/pdf/2607.05243",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "RegimeVGGT: Layer-Wise Spatially Preserving Redundancy Removal for Visual Geometry Grounded Transformer",
+      "url": "https://arxiv.org/pdf/2606.18439",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "LiAuto-GeoX: Efficient Grounded Driving Transformer",
+      "url": "https://arxiv.org/pdf/2606.05774",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "BA-T: An Iterative Transformer for Two-View Bundle Adjustment",
+      "url": "https://arxiv.org/pdf/2606.03287",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "D4RT: Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+      "url": "https://arxiv.org/pdf/2512.08924",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Spark3R: Asymmetric Token Reduction Makes Fast Feed-Forward 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2605.06270",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "TurboVGGT: Fast Visual Geometry Reconstruction with Adaptive Alternating Attention",
+      "url": "https://arxiv.org/pdf/2605.14315",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis",
+      "url": "https://arxiv.org/pdf/2603.27455",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "VGGT-Ω",
+      "url": "https://arxiv.org/pdf/2605.15195",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Ttt3r: 3d reconstruction as test-time training",
+      "url": "https://openreview.net/pdf?id=aMs6FtNaY5",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "SwiftVGGT: A Scalable Visual Geometry Grounded Transformer for Large-Scale Scenes",
+      "url": "https://arxiv.org/pdf/2511.18290",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2604.14141",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery",
+      "url": "https://arxiv.org/pdf/2603.17571",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "PAGE-4D: Disentangled Pose and Geometry Estimation for VGGT-4D Perception",
+      "url": "https://arxiv.org/pdf/2510.17568",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "MeMix: Writing Less, Remembering More for Streaming 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2603.15330",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "4D-VGGT: A General Foundation Model with SpatioTemporal Awareness for Dynamic Scene Geometry Estimation",
+      "url": "https://arxiv.org/pdf/2511.18416v1",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "R3: 3D Reconstruction via Relative Regression",
+      "url": "https://arxiv.org/pdf/2605.26519",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "FrameVGGT: Coherence-Preserving Memory for Bounded Streaming Geometry",
+      "url": "https://arxiv.org/pdf/2603.07690",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "OVGGT: O (1) Constant-Cost Streaming Visual Geometry Transformer",
+      "url": "https://arxiv.org/pdf/2603.05959",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "VGG-T^3: Offline Feed-Forward 3D Reconstruction at Scale",
+      "url": "https://arxiv.org/pdf/2602.23361",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "Flow4R: Unifying 4D Reconstruction and Tracking with Scene Flow",
+      "url": "https://arxiv.org/pdf/2602.14021",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "LiteVGGT: Boosting Vanilla VGGT via Geometry-aware Cached Token Merging",
+      "url": "https://arxiv.org/pdf/2512.04939",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Fast-SAM3D: 3Dfy Anything in Images but Faster",
+      "url": "https://arxiv.org/pdf/2602.05293",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Masked Depth Modeling for Spatial Perception",
+      "url": "https://arxiv.org/pdf/2601.17895",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "V-DPM: 4D Video Reconstruction with Dynamic Point Maps",
+      "url": "https://arxiv.org/pdf/2601.09499",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation",
+      "url": "https://arxiv.org/pdf/2601.06874",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "One4D: Unified 4D Generation and Reconstruction via Decoupled LoRA Control",
+      "url": "https://arxiv.org/pdf/2511.18922",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction",
+      "url": "https://arxiv.org/pdf/2512.02341",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams",
+      "url": "https://arxiv.org/pdf/2601.02281",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "DePT3R: Joint Dense Point Tracking and 3D Reconstruction of Dynamic Scenes in a Single Forward Pass",
+      "url": "https://arxiv.org/pdf/2512.13122",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+      "url": "https://arxiv.org/pdf/2511.10647",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "HTTM: Head-wise Temporal Token Merging for Faster VGGT",
+      "url": "https://arxiv.org/pdf/2511.21317",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "FastVGGT: Training-Free Acceleration of Visual Geometry Transformer",
+      "url": "https://arxiv.org/pdf/2509.02560",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "VGGT4D: Mining Motion Cues in Visual Geometry Transformers for 4D Scene Reconstruction",
+      "url": "https://arxiv.org/pdf/2511.19971",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "OmniVGGT: Omni-Modality Driven Visual Geometry Grounded",
+      "url": "https://arxiv.org/pdf/2511.10560",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Human3R: Everyone Everywhere All at Once",
+      "url": "https://arxiv.org/pdf/2510.06219",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "MapAnything: Universal Feed-Forward Metric 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2509.13414",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "PanoSplatt3R: Leveraging Perspective Pretraining for Generalized Unposed Wide-Baseline Panorama Reconstruction",
+      "url": "https://arxiv.org/pdf/2507.21960",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Ov3R: Open-Vocabulary Semantic 3D Reconstruction from RGB Videos",
+      "url": "https://arxiv.org/pdf/2507.22052",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "LONG3R: Long Sequence Streaming 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2507.18255",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Dens3R: A Foundation Model for 3D Geometry Prediction",
+      "url": "https://arxiv.org/pdf/2507.16290",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "StreamVGGT: Streaming 4D Visual Geometry Transformer",
+      "url": "https://arxiv.org/pdf/2507.11539",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Test3R: Learning to Reconstruct 3D at Test Time",
+      "url": "https://arxiv.org/pdf/2506.13750",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory",
+      "url": "https://arxiv.org/pdf/2507.02863",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos",
+      "url": "https://arxiv.org/pdf/2506.08015",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Rig3R: Rig-Aware Conditioning for Learned 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2506.02265",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "SAB3R: Semantic-Augmented Backbone in 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2506.02112",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Styl3R: Instant 3D Stylized Reconstruction for Arbitrary Scenes and Styles",
+      "url": "https://arxiv.org/pdf/2505.21060",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "MonoSplat: Generalizable 3D Gaussian Splatting from Monocular Depth Foundation Models",
+      "url": "https://arxiv.org/pdf/2505.15185",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Recollection from Pensieve: Novel View Synthesis via Learning from Uncalibrated Videos",
+      "url": "https://arxiv.org/pdf/2505.13440",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes",
+      "url": "https://arxiv.org/pdf/2501.00602",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "DELTA: Dense Depth from Events and LiDAR using Transformer's Attention",
+      "url": "https://arxiv.org/pdf/2505.02593",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds",
+      "url": "https://arxiv.org/pdf/2412.06974",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision",
+      "url": "https://arxiv.org/pdf/2410.19115",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Regist3R: Incremental Registration with Stereo Foundation Model",
+      "url": "https://arxiv.org/pdf/2504.12356",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World",
+      "url": "https://arxiv.org/pdf/2504.13152",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis",
+      "url": "https://arxiv.org/pdf/2504.13157",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Mono3R: Exploiting Monocular Cues for Geometric 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2504.13419",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "MonSter: Marry Monodepth to Stereo Unleashes Power",
+      "url": "https://arxiv.org/pdf/2501.08643",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing 3D Reconstruction for Dynamic Scenes",
+      "url": "https://arxiv.org/pdf/2504.06264",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "FlowR: Flowing from Sparse to Dense 3D Reconstructions",
+      "url": "https://arxiv.org/pdf/2504.01647",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Easi3R: Estimating Disentangled Motion from DUSt3R Without Training",
+      "url": "https://arxiv.org/pdf/2503.24391",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "SparseGS-W: Sparse-View 3D Gaussian Splatting in the Wild with Generative Priors",
+      "url": "https://arxiv.org/pdf/2503.19452",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "M3: 3D-Spatial Multimodal Memory",
+      "url": "https://arxiv.org/pdf/2503.16413",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "MVSAnywhere: Zero-Shot Multi-View Stereo",
+      "url": "https://nianticlabs.github.io/mvsanywhere/resources/MVSAnywhere.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "CoMapGS: Covisibility Map-based Gaussian Splatting for Sparse Novel View Synthesis",
+      "url": "https://arxiv.org/pdf/2503.20998",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Pow3R: empowering unconstrained 3D reconstruction with camera and scene priors",
+      "url": "https://arxiv.org/pdf/2503.17316",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Text-guided Sparse Voxel Pruning for Efficient 3D Visual Grounding",
+      "url": "https://arxiv.org/pdf/2502.10392",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "UniK3D: Universal Camera Monocular 3D Estimation",
+      "url": "https://arxiv.org/pdf/2503.16591",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Sonata: Self-Supervised Learning of Reliable Point Representations",
+      "url": "https://arxiv.org/pdf/2503.16429",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Point transformer v3: Simpler faster stronger",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "Point transformer v2: Grouped vector attention and partition-based pooling",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/d78ece6613953f46501b958b7bb4582f-Paper-Conference.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "Point transformer",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Dynamic Point Maps: A Versatile Representation for Dynamic 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2503.16318",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion",
+      "url": "https://arxiv.org/pdf/2410.03825",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos",
+      "url": "https://arxiv.org/pdf/2412.09621",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Continuous 3D Perception Model with Persistent State",
+      "url": "https://arxiv.org/pdf/2501.12387",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "SPARS3R: Semantic Prior Alignment and Regularization for Sparse 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2411.12592",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "SplatVoxel: History-Aware Novel View Streaming without Temporal Training",
+      "url": "https://arxiv.org/pdf/2503.14698",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "GaussTR: Foundation Model-Aligned Gaussian Transformer for Self-Supervised 3D Spatial Understanding",
+      "url": "https://arxiv.org/pdf/2412.13193",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "DUNE: Distilling a Universal Encoder from Heterogeneous 2D and 3D Teachers",
+      "url": "https://arxiv.org/pdf/2503.14405",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "MUSt3R: Multi-view Network for Stereo 3D Reconstruction",
+      "url": "https://arxiv.org/pdf/2503.01661",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass",
+      "url": "https://arxiv.org/pdf/2501.13928",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Depth anything v2",
+      "url": "https://arxiv.org/pdf/2406.09414",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "Depth anything: Unleashing the power of large-scale unlabeled data",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "DeCoTR: Enhancing Depth Completion with 2D and 3D Attentions",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_DeCoTR_Enhancing_Depth_Completion_with_2D_and_3D_Attentions_CVPR_2024_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Learning to adapt clip for few-shot monocular depth estimation",
+      "url": "https://openaccess.thecvf.com/content/WACV2024/papers/Hu_Learning_To_Adapt_CLIP_for_Few-Shot_Monocular_Depth_Estimation_WACV_2024_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "3d reconstruction with spatial memory",
+      "url": "https://arxiv.org/pdf/2408.16061",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "DUSt3R: Geometric 3D Vision Made Easy",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Gs-lrm: Large reconstruction model for 3d gaussian splatting",
+      "url": "https://arxiv.org/pdf/2404.19702",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "BinsFormer: Revisiting Adaptive Bins for Monocular Depth Estimation",
+      "url": "https://arxiv.org/pdf/2204.00987",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "GLPanoDepth: Global-to-Local Panoramic Depth Estimation",
+      "url": "https://arxiv.org/pdf/2202.02796",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "Towards zero-shot scale-aware monocular depth estimation",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Guizilini_Towards_Zero-Shot_Scale-Aware_Monocular_Depth_Estimation_ICCV_2023_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Egformer: Equirectangular geometry-biased transformer for 360 depth estimation",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Yun_EGformer_Equirectangular_Geometry-biased_Transformer_for_360_Depth_Estimation_ICCV_2023_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Depthformer: Exploiting long-range correlation and local information for accurate monocular depth estimation",
+      "url": "https://link.springer.com/content/pdf/10.1007/s11633-023-1458-0.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Lite-mono: A lightweight cnn and transformer architecture for self-supervised monocular depth estimation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Lite-Mono_A_Lightweight_CNN_and_Transformer_Architecture_for_Self-Supervised_Monocular_CVPR_2023_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "CompletionFormer: Depth Completion with Convolutions and Vision Transformers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_CompletionFormer_Depth_Completion_With_Convolutions_and_Vision_Transformers_CVPR_2023_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "Lightweight monocular depth estimation via token-sharing transformer",
+      "url": "https://arxiv.org/pdf/2306.05682",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "ROIFormer: Semantic-Aware Region of Interest Transformer for Efficient Self-Supervised Monocular Depth Estimation",
+      "url": "https://d1wqtxts1xzle7.cloudfront.net/104480606/25173-libre.pdf?1690190871=&response-content-disposition=inline%3B+filename%3DROIFormer_Semantic_Aware_Region_of_Inter.pdf&Expires=1741856732&Signature=KUxZHd6ZmNPg8XrNv3m~pPy~vdm9zxVdSFmbVrrYb~ZO0XTVpbbkHMgYNa05AQHpHA6NE7YckuF85Oa~rNBfT3LoMWiPm~UIxIk5zzFj6jevZsEe7WY33hUOfYeW~4JbRdYhpBN1U1zAyM4APilqFNRQMrinJ6CYmdrgoHaW6Afb5Xr2jNknzZ6zbVkB4ot26OreDLphqzyyHnmdH2YsOzbd2hTimakiibYNsY97axBqpY-u54BWhJW7-b8vtSC250M19hInvXTD79oHySYw7IUuCXwVJ4~UkJK~8ZTKVDtt3gSwMlqrKkZVv7pdzyLgbCpOHS~1VtA26sWmzyf4Hg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "TODE-Trans: Transparent Object Depth Estimation with Transformer",
+      "url": "https://arxiv.org/pdf/2209.08455",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "Deep digging into the generalization of self-supervised monocular depth estimation",
+      "url": "https://arxiv.org/pdf/2205.11083",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "PanoFormer: Panorama Transformer for Indoor 360 Depth Estimation",
+      "url": "https://arxiv.org/pdf/2203.09283",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "Improving 360 monocular depth estimation via non-local dense prediction transformer and joint supervised and self-supervised learning",
+      "url": "https://arxiv.org/pdf/2109.10563",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "MVSFormer: Multi-view stereo by learning robust image features and temperature-based depth",
+      "url": "https://arxiv.org/pdf/2208.02541",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Objcavit: improving monocular depth estimation using natural language models and image-object cross-attention",
+      "url": "https://arxiv.org/pdf/2211.17232",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Depthformer: Multiscale Vision Transformer For Monocular Depth Estimation With Local Global Information Fusion",
+      "url": "https://arxiv.org/pdf/2207.04535",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "Sidert: A real-time pure transformer architecture for single image depth estimation",
+      "url": "https://arxiv.org/pdf/2204.13892",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Hybrid transformer based feature fusion for self-supervised monocular depth estimation",
+      "url": "https://arxiv.org/pdf/2211.11066",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Spike transformer: Monocular depth estimation for spiking camera",
+      "url": "https://fq.pkwyx.com/default/https/www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670034.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer",
+      "url": "https://arxiv.org/pdf/2208.03543",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "DEST: \"Depth Estimation with Simplified Transformer",
+      "url": "https://arxiv.org/pdf/2204.13791",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "SparseFormer: Attention-based Depth Completion Network",
+      "url": "https://arxiv.org/pdf/2206.04557",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "GuideFormer: Transformers for Image Guided Depth Completion",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Rho_GuideFormer_Transformers_for_Image_Guided_Depth_Completion_CVPR_2022_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "Multi-frame self-supervised depth with transformers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Guizilini_Multi-Frame_Self-Supervised_Depth_With_Transformers_CVPR_2022_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "Transformers in Self-Supervised Monocular Depth Estimation with Unknown Camera Intrinsics",
+      "url": "https://arxiv.org/pdf/2202.03131",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "Revisiting stereo depth estimation from a sequence-to-sequence perspective with transformers",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Revisiting_Stereo_Depth_Estimation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_ICCV_2021_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "Transformer-based Monocular Depth Estimation with Attention Supervision",
+      "url": "https://www.bmvc2021-virtualconference.com/assets/papers/0244.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "Transformer-Based Attention Networks for Continuous Pixel-Wise Prediction",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Transformer-Based_Attention_Networks_for_Continuous_Pixel-Wise_Prediction_ICCV_2021_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "Vision transformers for dense prediction",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Ranftl_Vision_Transformers_for_Dense_Prediction_ICCV_2021_paper.pdf",
+      "category": "transformer-based-mapping",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-Transformer-Attention",
+      "url": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Dense-Prediction-Transformer-Based-Visual-Odometry",
+      "url": "https://github.com/sumedhreddy90/Dense-Prediction-Transformer-Based-Visual-Odometry",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Visual SLAM with Vision Transformers(ViT)",
+      "url": "https://github.com/MisterEkole/slam_with_vit",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-Learning-based-VO-VIO",
+      "url": "https://github.com/KwanWaiPang/Awesome-Learning-based-VO-VIO",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "DINOV3",
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.2365-6/531524719_1692810264763997_2330122477414087224_n.pdf?_nc_cat=103&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=rWT0y-myJjoQ7kNvwExrM1a&_nc_oc=AdmEueP_BQT-RlStayE_OKexSwO_NAMEIbE0JGlbtgUivJ5YXxVR3KuqPzd1JlyrXFY&_nc_zt=14&_nc_ht=scontent-cdg4-2.xx&_nc_gid=jLj8xdPxsbkJsOQT0kQ8Rw&oh=00_AfU8JD6wytBwsCvDU7Gvcf6B0mvhzff58grM9ZxUw0Vkkw&oe=68A4D0A8",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "Dinov2: Learning robust visual features without supervision",
+      "url": "https://arxiv.org/pdf/2304.07193",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "Is space-time attention all you need for video understanding?",
+      "url": "https://arxiv.org/pdf/2102.05095",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "Taming transformers for high-resolution image synthesis",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.pdf",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "Emerging properties in self-supervised vision transformers",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "Vivit: A video vision transformer",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Arnab_ViViT_A_Video_Vision_Transformer_ICCV_2021_paper.pdf",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "url": "https://arxiv.org/pdf/2010.11929/1000",
+      "category": "other-resources",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/blob/2adcc3d23c6f064f84b179a84c89e02c882eced9/README.md#L309",
+      "line": 309,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 222,
+  "unique_links": 222,
+  "category_count": 6,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "KwanWaiPang",
+      "url": "https://github.com/KwanWaiPang",
+      "contributions": 63
+    },
+    {
+      "login": "cursoragent",
+      "url": "https://github.com/cursoragent",
+      "contributions": 36
+    },
+    {
+      "login": "siyandong",
+      "url": "https://github.com/siyandong",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 291,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:53:31.180570+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by KwanWaiPang/Awesome-Transformer-based-SLAM contributors.",
+  "license": null,
+  "license_url": "https://github.com/KwanWaiPang/Awesome-Transformer-based-SLAM/tree/2adcc3d23c6f064f84b179a84c89e02c882eced9",
+  "digest": "99e30d92a2c6f4a09ee6058eeb28888d69400e65327bc55288aca16c6a9d3dc4"
+}

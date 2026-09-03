@@ -1,0 +1,654 @@
+{
+  "format_version": 3,
+  "repository_id": "1124383848",
+  "name": "opengeos/qgis-gee-data-catalogs-plugin",
+  "revision": "a4ddb088bee099bdd60bf22e3cb65185ffb1647d",
+  "readme_path": "README.md",
+  "readme_sha256": "6dc3f6e03ab0a16d5aa9c73d0d4d21e9b74384e267e3ea5fee6267a06c8412b0",
+  "sections": [
+    {
+      "id": "earth-engine-data-catalogs-plugin-for-qgis",
+      "title": "Earth Engine Data Catalogs Plugin for QGIS",
+      "level": 1,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#earth-engine-data-catalogs-plugin-for-qgis",
+      "entries": 0
+    },
+    {
+      "id": "features",
+      "title": "Features",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Features"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#features",
+      "entries": 3
+    },
+    {
+      "id": "data-sources",
+      "title": "Data Sources",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Data Sources"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#data-sources",
+      "entries": 2
+    },
+    {
+      "id": "video-tutorials",
+      "title": "Video Tutorials",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Video Tutorials"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#video-tutorials",
+      "entries": 0
+    },
+    {
+      "id": "installation",
+      "title": "Installation",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#installation",
+      "entries": 0
+    },
+    {
+      "id": "prerequisites",
+      "title": "Prerequisites",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Prerequisites"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#prerequisites",
+      "entries": 1
+    },
+    {
+      "id": "install-qgis-and-google-earth-engine",
+      "title": "Install QGIS and Google Earth Engine",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Install QGIS and Google Earth Engine"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#install-qgis-and-google-earth-engine",
+      "entries": 0
+    },
+    {
+      "id": "1-install-pixi",
+      "title": "1) Install Pixi",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Install QGIS and Google Earth Engine",
+        "1) Install Pixi"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#1-install-pixi",
+      "entries": 0
+    },
+    {
+      "id": "linuxmacos-bashzsh",
+      "title": "Linux/macOS (bash/zsh)",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Install QGIS and Google Earth Engine",
+        "Linux/macOS (bash/zsh)"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#linuxmacos-bashzsh",
+      "entries": 0
+    },
+    {
+      "id": "windows-powershell",
+      "title": "Windows (PowerShell)",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Install QGIS and Google Earth Engine",
+        "Windows (PowerShell)"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#windows-powershell",
+      "entries": 0
+    },
+    {
+      "id": "2-create-a-pixi-project",
+      "title": "2) Create a Pixi project",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Install QGIS and Google Earth Engine",
+        "2) Create a Pixi project"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#2-create-a-pixi-project",
+      "entries": 0
+    },
+    {
+      "id": "3-install-the-environment",
+      "title": "3) Install the environment",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Install QGIS and Google Earth Engine",
+        "3) Install the environment"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#3-install-the-environment",
+      "entries": 0
+    },
+    {
+      "id": "4-authenticate-earth-engine",
+      "title": "4) Authenticate Earth Engine",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Install QGIS and Google Earth Engine",
+        "4) Authenticate Earth Engine"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#4-authenticate-earth-engine",
+      "entries": 0
+    },
+    {
+      "id": "installing-the-plugin",
+      "title": "Installing the Plugin",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Installing the Plugin"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#installing-the-plugin",
+      "entries": 0
+    },
+    {
+      "id": "method-1-from-qgis-plugin-manager-recommended",
+      "title": "Method 1: From QGIS Plugin Manager (Recommended)",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Installing the Plugin",
+        "Method 1: From QGIS Plugin Manager (Recommended)"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#method-1-from-qgis-plugin-manager-recommended",
+      "entries": 0
+    },
+    {
+      "id": "method-2-from-zip-file",
+      "title": "Method 2: From ZIP File",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Installing the Plugin",
+        "Method 2: From ZIP File"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#method-2-from-zip-file",
+      "entries": 1
+    },
+    {
+      "id": "method-3-manual-installation",
+      "title": "Method 3: Manual Installation",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Installing the Plugin",
+        "Method 3: Manual Installation"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#method-3-manual-installation",
+      "entries": 0
+    },
+    {
+      "id": "uninstalling",
+      "title": "Uninstalling",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Installation",
+        "Uninstalling"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#uninstalling",
+      "entries": 0
+    },
+    {
+      "id": "usage",
+      "title": "Usage",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#usage",
+      "entries": 0
+    },
+    {
+      "id": "initialize-earth-engine",
+      "title": "Initialize Earth Engine",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Initialize Earth Engine"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#initialize-earth-engine",
+      "entries": 0
+    },
+    {
+      "id": "browse-datasets",
+      "title": "Browse Datasets",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Browse Datasets"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#browse-datasets",
+      "entries": 0
+    },
+    {
+      "id": "search-datasets",
+      "title": "Search Datasets",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Search Datasets"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#search-datasets",
+      "entries": 0
+    },
+    {
+      "id": "time-series",
+      "title": "Time Series",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Time Series"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#time-series",
+      "entries": 0
+    },
+    {
+      "id": "pixel-time-series-inspector",
+      "title": "Pixel Time Series Inspector",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Pixel Time Series Inspector"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#pixel-time-series-inspector",
+      "entries": 0
+    },
+    {
+      "id": "load-with-custom-parameters",
+      "title": "Load with Custom Parameters",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Load with Custom Parameters"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#load-with-custom-parameters",
+      "entries": 0
+    },
+    {
+      "id": "code-console",
+      "title": "Code Console",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Code Console"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#code-console",
+      "entries": 0
+    },
+    {
+      "id": "conversion",
+      "title": "Conversion",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Conversion"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#conversion",
+      "entries": 0
+    },
+    {
+      "id": "inspector",
+      "title": "Inspector",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Inspector"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#inspector",
+      "entries": 0
+    },
+    {
+      "id": "export",
+      "title": "Export",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Export"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#export",
+      "entries": 0
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Usage",
+        "Notes"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#notes",
+      "entries": 0
+    },
+    {
+      "id": "available-dataset-categories",
+      "title": "Available Dataset Categories",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Available Dataset Categories"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#available-dataset-categories",
+      "entries": 0
+    },
+    {
+      "id": "configuration",
+      "title": "Configuration",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Configuration"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#configuration",
+      "entries": 0
+    },
+    {
+      "id": "development",
+      "title": "Development",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Development"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#development",
+      "entries": 0
+    },
+    {
+      "id": "project-structure",
+      "title": "Project Structure",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Development",
+        "Project Structure"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#project-structure",
+      "entries": 0
+    },
+    {
+      "id": "packaging-for-release",
+      "title": "Packaging for Release",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Development",
+        "Packaging for Release"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#packaging-for-release",
+      "entries": 0
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Troubleshooting"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#troubleshooting",
+      "entries": 0
+    },
+    {
+      "id": "authentication-issues",
+      "title": "Authentication Issues",
+      "level": 3,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Troubleshooting",
+        "Authentication Issues"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#authentication-issues",
+      "entries": 0
+    },
+    {
+      "id": "step-1-authenticate-earth-engine-required---first-time-only",
+      "title": "Step 1: Authenticate Earth Engine (Required - First Time Only)",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Troubleshooting",
+        "Authentication Issues",
+        "Step 1: Authenticate Earth Engine (Required - First Time Only)"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#step-1-authenticate-earth-engine-required---first-time-only",
+      "entries": 0
+    },
+    {
+      "id": "step-2-configure-your-project-id-required",
+      "title": "Step 2: Configure Your Project ID (Required)",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Troubleshooting",
+        "Authentication Issues",
+        "Step 2: Configure Your Project ID (Required)"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#step-2-configure-your-project-id-required",
+      "entries": 0
+    },
+    {
+      "id": "testing-your-setup",
+      "title": "Testing Your Setup",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Troubleshooting",
+        "Authentication Issues",
+        "Testing Your Setup"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#testing-your-setup",
+      "entries": 0
+    },
+    {
+      "id": "common-issues",
+      "title": "Common Issues",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Troubleshooting",
+        "Authentication Issues",
+        "Common Issues"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#common-issues",
+      "entries": 0
+    },
+    {
+      "id": "need-help",
+      "title": "Need Help?",
+      "level": 4,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Troubleshooting",
+        "Authentication Issues",
+        "Need Help?"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#need-help",
+      "entries": 0
+    },
+    {
+      "id": "related-projects",
+      "title": "Related Projects",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Related Projects"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#related-projects",
+      "entries": 4
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "License"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#license",
+      "entries": 0
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "Earth Engine Data Catalogs Plugin for QGIS",
+        "Contributing"
+      ],
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#contributing",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Official Earth Engine Data Catalog",
+      "url": "https://github.com/opengeos/Earth-Engine-Catalog",
+      "category": "features",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L11",
+      "line": 11,
+      "properties": {}
+    },
+    {
+      "title": "Awesome GEE Community Catalog",
+      "url": "https://github.com/samapriya/awesome-gee-community-datasets",
+      "category": "features",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L12",
+      "line": 12,
+      "properties": {}
+    },
+    {
+      "title": "qgis-geemap-plugin",
+      "url": "https://github.com/opengeos/qgis-geemap-plugin",
+      "category": "features",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "TSV",
+      "url": "https://raw.githubusercontent.com/opengeos/Earth-Engine-Catalog/master/gee_catalog.tsv",
+      "category": "data-sources",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "CSV",
+      "url": "https://raw.githubusercontent.com/samapriya/awesome-gee-community-datasets/master/community_datasets.csv",
+      "category": "data-sources",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "earthengine.google.com",
+      "url": "https://earthengine.google.com/",
+      "category": "prerequisites",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "https://qgis.gishub.org",
+      "url": "https://qgis.gishub.org/",
+      "category": "method-2-from-zip-file",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "geemap",
+      "url": "https://github.com/gee-community/geemap",
+      "category": "related-projects",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "qgis-geemap-plugin",
+      "url": "https://github.com/opengeos/qgis-geemap-plugin",
+      "category": "related-projects",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "Earth Engine Data Catalog",
+      "url": "https://developers.google.com/earth-engine/datasets",
+      "category": "related-projects",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "Awesome GEE Community Datasets",
+      "url": "https://github.com/samapriya/awesome-gee-community-datasets",
+      "category": "related-projects",
+      "source_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/blob/a4ddb088bee099bdd60bf22e3cb65185ffb1647d/README.md#L447",
+      "line": 447,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 11,
+  "unique_links": 9,
+  "category_count": 5,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "contributor_observation": null,
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by opengeos/qgis-gee-data-catalogs-plugin contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/opengeos/qgis-gee-data-catalogs-plugin/tree/a4ddb088bee099bdd60bf22e3cb65185ffb1647d",
+  "digest": "b8aed2bc29dec691c537cb3256ed988ec487f51b4c2ab827c1e21efa4181e32a"
+}

@@ -1,0 +1,2815 @@
+{
+  "format_version": 3,
+  "repository_id": "274289549",
+  "name": "phonchi/Computational-CryoEM",
+  "revision": "e2b71ec269599d1724908ba1a538b568da4fb0b5",
+  "readme_path": "README.md",
+  "readme_sha256": "7339ca7a22ad297e2eea381ce8f65e7495b18ace522a8861340c9a511fd99991",
+  "sections": [
+    {
+      "id": "computational-cryoem-methods",
+      "title": "Computational CryoEM Methods",
+      "level": 1,
+      "path": [
+        "Computational CryoEM Methods"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#computational-cryoem-methods",
+      "entries": 0
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "level": 1,
+      "path": [
+        "Resources"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#resources",
+      "entries": 0
+    },
+    {
+      "id": "preface",
+      "title": "Preface",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Preface"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#preface",
+      "entries": 2
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Introduction"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#introduction",
+      "entries": 9
+    },
+    {
+      "id": "courses",
+      "title": "Courses",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Courses"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#courses",
+      "entries": 4
+    },
+    {
+      "id": "resources-1",
+      "title": "Resources",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Resources"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#resources-1",
+      "entries": 4
+    },
+    {
+      "id": "events-and-news",
+      "title": "Events and News",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Events and News"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#events-and-news",
+      "entries": 3
+    },
+    {
+      "id": "software",
+      "title": "Software",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Software"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#software",
+      "entries": 8
+    },
+    {
+      "id": "workflow",
+      "title": "Workflow",
+      "level": 1,
+      "path": [
+        "Workflow"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#workflow",
+      "entries": 0
+    },
+    {
+      "id": "import-data",
+      "title": "Import Data",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "Import Data"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#import-data",
+      "entries": 25
+    },
+    {
+      "id": "image-formation-model",
+      "title": "Image Formation model",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "Image Formation model"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#image-formation-model",
+      "entries": 4
+    },
+    {
+      "id": "motion-correction",
+      "title": "Motion correction",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "Motion correction"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#motion-correction",
+      "entries": 0
+    },
+    {
+      "id": "whole-frame-alignment",
+      "title": "Whole frame alignment",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Motion correction",
+        "Whole frame alignment"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#whole-frame-alignment",
+      "entries": 2
+    },
+    {
+      "id": "patch-basedper-particle-based-alignment",
+      "title": "Patch-based/Per-particle based alignment",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Motion correction",
+        "Patch-based/Per-particle based alignment"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#patch-basedper-particle-based-alignment",
+      "entries": 4
+    },
+    {
+      "id": "damage-compensation",
+      "title": "Damage compensation",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Motion correction",
+        "Damage compensation"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#damage-compensation",
+      "entries": 2
+    },
+    {
+      "id": "ctf-estimation",
+      "title": "CTF estimation",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "CTF estimation"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#ctf-estimation",
+      "entries": 0
+    },
+    {
+      "id": "whole-frame",
+      "title": "Whole frame",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "CTF estimation",
+        "Whole frame"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#whole-frame",
+      "entries": 2
+    },
+    {
+      "id": "patch-basedtilt-data",
+      "title": "Patch-based/tilt data",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "CTF estimation",
+        "Patch-based/tilt data"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#patch-basedtilt-data",
+      "entries": 4
+    },
+    {
+      "id": "denoising-micrograph",
+      "title": "Denoising micrograph",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "CTF estimation",
+        "Denoising micrograph"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#denoising-micrograph",
+      "entries": 4
+    },
+    {
+      "id": "filtering-micrograph",
+      "title": "Filtering micrograph",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "CTF estimation",
+        "Filtering micrograph"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#filtering-micrograph",
+      "entries": 1
+    },
+    {
+      "id": "particle-picking",
+      "title": "Particle picking",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "Particle picking"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#particle-picking",
+      "entries": 0
+    },
+    {
+      "id": "semi-supervised-picking",
+      "title": "Semi-supervised picking",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Particle picking",
+        "Semi-supervised picking"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#semi-supervised-picking",
+      "entries": 12
+    },
+    {
+      "id": "template-based-picking",
+      "title": "Template-based picking",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Particle picking",
+        "Template-based picking"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#template-based-picking",
+      "entries": 1
+    },
+    {
+      "id": "automatic-picking",
+      "title": "Automatic picking",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Particle picking",
+        "Automatic picking"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#automatic-picking",
+      "entries": 4
+    },
+    {
+      "id": "denoising-particledimenison-reduction-and-its-applications",
+      "title": "Denoising particle/dimenison reduction and its applications",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Particle picking",
+        "Denoising particle/dimenison reduction and its applications"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#denoising-particledimenison-reduction-and-its-applications",
+      "entries": 6
+    },
+    {
+      "id": "2d-classification",
+      "title": "2D classification",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "2D classification"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#2d-classification",
+      "entries": 0
+    },
+    {
+      "id": "multirefence-alignment-based-classification",
+      "title": "Multirefence alignment-based classification",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "2D classification",
+        "Multirefence alignment-based classification"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#multirefence-alignment-based-classification",
+      "entries": 3
+    },
+    {
+      "id": "maximum-likelihood-based-classification",
+      "title": "Maximum-likelihood based classification",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "2D classification",
+        "Maximum-likelihood based classification"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#maximum-likelihood-based-classification",
+      "entries": 2
+    },
+    {
+      "id": "mixed-approach-classification",
+      "title": "Mixed approach classification",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "2D classification",
+        "Mixed approach classification"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#mixed-approach-classification",
+      "entries": 1
+    },
+    {
+      "id": "automatic-selection-of-2d-classes",
+      "title": "Automatic selection of 2D classes",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "2D classification",
+        "Automatic selection of 2D classes"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#automatic-selection-of-2d-classes",
+      "entries": 2
+    },
+    {
+      "id": "new-clustering-methods",
+      "title": "New clustering methods",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "2D classification",
+        "New clustering methods"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#new-clustering-methods",
+      "entries": 2
+    },
+    {
+      "id": "3d-tomographic-reconstruction",
+      "title": "3D Tomographic Reconstruction",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "3D Tomographic Reconstruction"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3d-tomographic-reconstruction",
+      "entries": 3
+    },
+    {
+      "id": "ab-initial-model",
+      "title": "Ab-initial model",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "Ab-initial model"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#ab-initial-model",
+      "entries": 0
+    },
+    {
+      "id": "class-averages-based-method",
+      "title": "Class-averages-based method",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Ab-initial model",
+        "Class-averages-based method"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#class-averages-based-method",
+      "entries": 1
+    },
+    {
+      "id": "particles-based-method",
+      "title": "Particles based method",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Ab-initial model",
+        "Particles based method"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#particles-based-method",
+      "entries": 1
+    },
+    {
+      "id": "3d-refinement",
+      "title": "3D refinement",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "3D refinement"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3d-refinement",
+      "entries": 0
+    },
+    {
+      "id": "3d-homogeneous-refinement",
+      "title": "3D Homogeneous Refinement",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "3D refinement",
+        "3D Homogeneous Refinement"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3d-homogeneous-refinement",
+      "entries": 4
+    },
+    {
+      "id": "new-3d-reconstruction-paradigm",
+      "title": "New 3D reconstruction paradigm",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "3D refinement",
+        "New 3D reconstruction paradigm"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#new-3d-reconstruction-paradigm",
+      "entries": 7
+    },
+    {
+      "id": "3d-classification",
+      "title": "3D classification",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "3D refinement",
+        "3D classification"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3d-classification",
+      "entries": 2
+    },
+    {
+      "id": "3d-non-uniform-refinemnet",
+      "title": "3D non-uniform Refinemnet",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "3D refinement",
+        "3D non-uniform Refinemnet"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3d-non-uniform-refinemnet",
+      "entries": 2
+    },
+    {
+      "id": "3d-variability-analysis",
+      "title": "3D variability analysis",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "3D variability analysis"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3d-variability-analysis",
+      "entries": 23
+    },
+    {
+      "id": "latent-space-analysis",
+      "title": "Latent space analysis",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "3D variability analysis",
+        "Latent space analysis"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#latent-space-analysis",
+      "entries": 3
+    },
+    {
+      "id": "focus-classifcation",
+      "title": "Focus classifcation",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "3D variability analysis",
+        "Focus classifcation"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#focus-classifcation",
+      "entries": 4
+    },
+    {
+      "id": "postprocessing",
+      "title": "Postprocessing",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "Postprocessing"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#postprocessing",
+      "entries": 0
+    },
+    {
+      "id": "per-particle-based-motion-and-ctf-refinement",
+      "title": "Per-particle-based motion and CTF refinement",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Postprocessing",
+        "Per-particle-based motion and CTF refinement"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#per-particle-based-motion-and-ctf-refinement",
+      "entries": 5
+    },
+    {
+      "id": "3d-refinemnet-with-anisotropy-correction",
+      "title": "3D Refinemnet with anisotropy correction",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Postprocessing",
+        "3D Refinemnet with anisotropy correction"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3d-refinemnet-with-anisotropy-correction",
+      "entries": 3
+    },
+    {
+      "id": "local-resolution-and-directional-resolution",
+      "title": "Local resolution and directional resolution",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Postprocessing",
+        "Local resolution and directional resolution"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#local-resolution-and-directional-resolution",
+      "entries": 6
+    },
+    {
+      "id": "sharpening-and-local-filtering-to-enhance-interpretability",
+      "title": "Sharpening and local filtering to enhance interpretability",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Postprocessing",
+        "Sharpening and local filtering to enhance interpretability"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#sharpening-and-local-filtering-to-enhance-interpretability",
+      "entries": 7
+    },
+    {
+      "id": "denoising-3d-volume",
+      "title": "Denoising 3D volume",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Postprocessing",
+        "Denoising 3D volume"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#denoising-3d-volume",
+      "entries": 4
+    },
+    {
+      "id": "particle-sorting",
+      "title": "Particle sorting",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Postprocessing",
+        "Particle sorting"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#particle-sorting",
+      "entries": 1
+    },
+    {
+      "id": "helical-reconstruction",
+      "title": "Helical reconstruction",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Postprocessing",
+        "Helical reconstruction"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#helical-reconstruction",
+      "entries": 1
+    },
+    {
+      "id": "model-building",
+      "title": "Model Building",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "Model Building"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#model-building",
+      "entries": 0
+    },
+    {
+      "id": "3d-map-alignment",
+      "title": "3D Map Alignment",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Model Building",
+        "3D Map Alignment"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3d-map-alignment",
+      "entries": 2
+    },
+    {
+      "id": "map-to-model",
+      "title": "Map to model",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Model Building",
+        "Map to model"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#map-to-model",
+      "entries": 9
+    },
+    {
+      "id": "metrics",
+      "title": "Metrics",
+      "level": 3,
+      "path": [
+        "Workflow",
+        "Model Building",
+        "Metrics"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#metrics",
+      "entries": 7
+    },
+    {
+      "id": "visualization",
+      "title": "Visualization",
+      "level": 2,
+      "path": [
+        "Workflow",
+        "Visualization"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#visualization",
+      "entries": 2
+    },
+    {
+      "id": "conventions",
+      "title": "Conventions",
+      "level": 1,
+      "path": [
+        "Conventions"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#conventions",
+      "entries": 0
+    },
+    {
+      "id": "3dem-convention",
+      "title": "3DEM Convention",
+      "level": 2,
+      "path": [
+        "Conventions",
+        "3DEM Convention"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#3dem-convention",
+      "entries": 4
+    },
+    {
+      "id": "image-contrast",
+      "title": "Image contrast",
+      "level": 2,
+      "path": [
+        "Conventions",
+        "Image contrast"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#image-contrast",
+      "entries": 0
+    },
+    {
+      "id": "pixel-size",
+      "title": "Pixel size",
+      "level": 2,
+      "path": [
+        "Conventions",
+        "Pixel size"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#pixel-size",
+      "entries": 0
+    },
+    {
+      "id": "fsc-calculation",
+      "title": "FSC calculation",
+      "level": 2,
+      "path": [
+        "Conventions",
+        "FSC calculation"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#fsc-calculation",
+      "entries": 0
+    },
+    {
+      "id": "mask-generation-in-cryosparc",
+      "title": "Mask generation in CryoSPARC",
+      "level": 2,
+      "path": [
+        "Conventions",
+        "Mask generation in CryoSPARC"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#mask-generation-in-cryosparc",
+      "entries": 0
+    },
+    {
+      "id": "no-mask",
+      "title": "No Mask:",
+      "level": 3,
+      "path": [
+        "Conventions",
+        "Mask generation in CryoSPARC",
+        "No Mask:"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#no-mask",
+      "entries": 0
+    },
+    {
+      "id": "spherical",
+      "title": "Spherical:",
+      "level": 3,
+      "path": [
+        "Conventions",
+        "Mask generation in CryoSPARC",
+        "Spherical:"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#spherical",
+      "entries": 0
+    },
+    {
+      "id": "loose",
+      "title": "Loose:",
+      "level": 3,
+      "path": [
+        "Conventions",
+        "Mask generation in CryoSPARC",
+        "Loose:"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#loose",
+      "entries": 0
+    },
+    {
+      "id": "tight",
+      "title": "Tight:",
+      "level": 3,
+      "path": [
+        "Conventions",
+        "Mask generation in CryoSPARC",
+        "Tight:"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#tight",
+      "entries": 0
+    },
+    {
+      "id": "corrected",
+      "title": "Corrected:",
+      "level": 3,
+      "path": [
+        "Conventions",
+        "Mask generation in CryoSPARC",
+        "Corrected:"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#corrected",
+      "entries": 0
+    },
+    {
+      "id": "sharpen-and-filtering-in-cryosparc",
+      "title": "Sharpen and filtering in CryoSPARC",
+      "level": 2,
+      "path": [
+        "Conventions",
+        "Sharpen and filtering in CryoSPARC"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#sharpen-and-filtering-in-cryosparc",
+      "entries": 0
+    },
+    {
+      "id": "tips",
+      "title": "Tips",
+      "level": 1,
+      "path": [
+        "Tips"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#tips",
+      "entries": 0
+    },
+    {
+      "id": "format-conversion",
+      "title": "Format Conversion",
+      "level": 2,
+      "path": [
+        "Tips",
+        "Format Conversion"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#format-conversion",
+      "entries": 4
+    },
+    {
+      "id": "parse-star-file",
+      "title": "Parse Star file",
+      "level": 2,
+      "path": [
+        "Tips",
+        "Parse Star file"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#parse-star-file",
+      "entries": 4
+    },
+    {
+      "id": "parse-cryosparc-file",
+      "title": "Parse CryoSPARC file",
+      "level": 2,
+      "path": [
+        "Tips",
+        "Parse CryoSPARC file"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#parse-cryosparc-file",
+      "entries": 3
+    },
+    {
+      "id": "performing-focus-classification",
+      "title": "Performing Focus Classification",
+      "level": 2,
+      "path": [
+        "Tips",
+        "Performing Focus Classification"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#performing-focus-classification",
+      "entries": 0
+    },
+    {
+      "id": "with-chimera",
+      "title": "With Chimera",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Performing Focus Classification",
+        "With Chimera"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#with-chimera",
+      "entries": 0
+    },
+    {
+      "id": "cistem",
+      "title": "CisTEM",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Performing Focus Classification",
+        "CisTEM"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#cistem",
+      "entries": 0
+    },
+    {
+      "id": "local-classification-in-cryosparc",
+      "title": "Local classification in CryoSPARC",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Performing Focus Classification",
+        "Local classification in CryoSPARC"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#local-classification-in-cryosparc",
+      "entries": 0
+    },
+    {
+      "id": "display-images",
+      "title": "Display images",
+      "level": 2,
+      "path": [
+        "Tips",
+        "Display images"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#display-images",
+      "entries": 0
+    },
+    {
+      "id": "micrographs",
+      "title": "Micrographs",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Display images",
+        "Micrographs"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#micrographs",
+      "entries": 0
+    },
+    {
+      "id": "using-chimera",
+      "title": "Using Chimera",
+      "level": 2,
+      "path": [
+        "Tips",
+        "Using Chimera"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#using-chimera",
+      "entries": 0
+    },
+    {
+      "id": "create-a-synthetic-map-from-pdb",
+      "title": "Create a synthetic map from PDB",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Using Chimera",
+        "Create a synthetic map from PDB"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#create-a-synthetic-map-from-pdb",
+      "entries": 0
+    },
+    {
+      "id": "dispaly-local-resolution",
+      "title": "Dispaly local resolution",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Using Chimera",
+        "Dispaly local resolution"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#dispaly-local-resolution",
+      "entries": 0
+    },
+    {
+      "id": "flip-handedness-of-model-and-map",
+      "title": "Flip handedness of model and map",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Using Chimera",
+        "Flip handedness of model and map"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#flip-handedness-of-model-and-map",
+      "entries": 0
+    },
+    {
+      "id": "slice-view",
+      "title": "Slice view",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Using Chimera",
+        "Slice view"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#slice-view",
+      "entries": 0
+    },
+    {
+      "id": "visualizing-dynamic-movies",
+      "title": "Visualizing dynamic movies",
+      "level": 3,
+      "path": [
+        "Tips",
+        "Using Chimera",
+        "Visualizing dynamic movies"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#visualizing-dynamic-movies",
+      "entries": 0
+    },
+    {
+      "id": "using-script",
+      "title": "Using Script",
+      "level": 4,
+      "path": [
+        "Tips",
+        "Using Chimera",
+        "Visualizing dynamic movies",
+        "Using Script"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#using-script",
+      "entries": 0
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 1,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#contributing",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Protein Folding Problem",
+      "url": "https://www.youtube.com/watch?v=KpedmJdrTpY&t=2s&ab_channel=DeepMind",
+      "category": "preface",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "What is cryoEM",
+      "url": "https://www.youtube.com/watch?v=Qq8DO-4BnIY&ab_channel=UCSanFrancisco%28UCSF%29",
+      "category": "preface",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "A quick introduction video for cryo-EM",
+      "url": "https://www.youtube.com/watch?v=Qq8DO-4BnIY",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Cryo-EM 101",
+      "url": "https://cryoem101.org/",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "cryoEDU",
+      "url": "https://cryoedu.org/",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Cryo-EM workflow by Nvidia",
+      "url": "https://resources.nvidia.com/en-us-drug-discovery/",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "A Primer to Single-Particle Cryo-Electron Microscopy",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0092867415003700?via%3Dihub",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Principles of cryo-EM single-particle image processing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26705325/",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Single-particle cryo-electron microscopy: Mathematical theory, computational challenges, and opportunities",
+      "url": "https://web.math.princeton.edu/~amits/publications/IEEE_Signal_Processing_Magazine.pdf",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Computational Methods for Single-Particle Electron Cryomicroscopy",
+      "url": "https://www.annualreviews.org/doi/abs/10.1146/annurev-biodatasci-021020-093826",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Cryo-EM: Breakthroughs in Chemistry, Structural Biology, and Statistical Underpinnings",
+      "url": "https://statistics.stanford.edu/technical-reports/cryo-em-breakthroughs-chemistry-structural-biology-and-statistical-underpinnings",
+      "category": "introduction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Cryo-EM Principles",
+      "url": "https://cryoemprinciples.yale.edu/",
+      "category": "courses",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Getting Started in Cryo-EM",
+      "url": "http://cryo-em-course.caltech.edu/overview",
+      "category": "courses",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Electron Microscopy Training by MRC LAB",
+      "url": "https://www2.mrc-lmb.cam.ac.uk/research/scientific-training/electron-microscopy/",
+      "category": "courses",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "nysbc training course",
+      "url": "https://semc.nysbc.org/workshops/past-courses/2023-em-course/",
+      "category": "courses",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "3DEM Methods",
+      "url": "http://3demmethods.i2pc.es/index.php/Main_Page",
+      "category": "resources-1",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "A collective resource",
+      "url": "https://github.com/barrykui/awesome-cryoem",
+      "category": "resources-1",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Math behind CryoEM",
+      "url": "https://github.com/geoffwoollard/learn_cryoem_math",
+      "category": "resources-1",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Chimera Tutorial",
+      "url": "http://embo2015.cryst.bbk.ac.uk/embo2015/course/practicals/prac-7/Practical-7-Maya-Topf-9-Sept-15.pdf",
+      "category": "resources-1",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "CryoEM and AI reveal a structure of SARS-CoV-2 Nsp2, a multifunctional protein involved in key host processes",
+      "url": "https://www.biorxiv.org/content/10.1101/2021.05.10.443524v1",
+      "category": "events-and-news",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "3DEM Events",
+      "url": "http://www.emdatabank.org/3dem_events.html",
+      "category": "events-and-news",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "NRAMM Events",
+      "url": "http://nramm.nysbc.org/workshops-and-courses/?lcp_page0=1#lcp_instance_0",
+      "category": "events-and-news",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Scipion",
+      "url": "http://scipion.i2pc.es/",
+      "category": "software",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Relion",
+      "url": "https://www3.mrc-lmb.cam.ac.uk/relion/index.php?title=Main_Page",
+      "category": "software",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "CryoSPARC 2",
+      "url": "https://cryosparc.com/",
+      "category": "software",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Sphire",
+      "url": "http://sphire.mpg.de/",
+      "category": "software",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "CisTEM",
+      "url": "https://github.com/timothygrant80/cisTEM",
+      "category": "software",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "EMAN2",
+      "url": "https://blake.bcm.edu/emanwiki/EMAN2",
+      "category": "software",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "SPIDER",
+      "url": "https://github.com/spider-em/SPIDER",
+      "category": "software",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "ASPIRE",
+      "url": "http://spr.math.princeton.edu/",
+      "category": "software",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "EMPIAR",
+      "url": "https://www.ebi.ac.uk/pdbe/emdb/empiar/",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "70S ribosome",
+      "url": "https://www3.mrc-lmb.cam.ac.uk/relion/index.php?title=Classification_example",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "50S ribosome",
+      "url": "https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10076/",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "80S ribosome",
+      "url": "https://www3.mrc-lmb.cam.ac.uk/relion/index.php?title=Benchmarks_%26_computer_hardware",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Beta-Gal",
+      "url": "https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10204/",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Apoferritin",
+      "url": "https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10200/",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "T20S",
+      "url": "https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10025/",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "TRPV1",
+      "url": "https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10059/",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Spliceosome",
+      "url": "https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10180/",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Scipion",
+      "url": "https://github.com/I2PC/scipion/wiki/tutorials/scipion_tutorial_betagal.pdf",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Relion 3",
+      "url": "https://relion.readthedocs.io/en/latest/SPA_tutorial/Introduction.html",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "CryoSPARC 2",
+      "url": "https://guide.cryosparc.com/processing-data/get-started-with-cryosparc-introductory-tutorial",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "CisTEM",
+      "url": "https://cistem.org/documentation#tab-1-1",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Discrete",
+      "url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/Simulation_data.ipynb",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Continuous",
+      "url": "https://github.com/evanseitz/cryoEM_synthetic_continua",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Continuous",
+      "url": "https://github.com/ccpem/roodmus",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "CryoDRGN",
+      "url": "https://github.com/zhonge/cryodrgn",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Ribosome",
+      "url": "https://zenodo.org/record/4355284#.YHPD3a8zbmF",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Uniform",
+      "url": "https://zenodo.org/record/4355284#.YHPD3a8zbmF",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Cooperative",
+      "url": "https://zenodo.org/record/4355284#.YHPD3a8zbmF",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Noncontiguous",
+      "url": "https://zenodo.org/record/4355284#.YHPD3a8zbmF",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "CryoPPP",
+      "url": "https://github.com/BioinfoMachineLearning/cryoppp",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "CryoVirusDB",
+      "url": "https://github.com/BioinfoMachineLearning/CryoVirusDB",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Cryo2Struct",
+      "url": "https://github.com/BioinfoMachineLearning/cryo2struct",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "CryoBench",
+      "url": "https://cryobench.cs.princeton.edu/",
+      "category": "import-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "TEM Simulator",
+      "url": "http://tem-simulator.sourceforge.net/",
+      "category": "image-formation-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "InSilicoTEM",
+      "url": "https://github.com/M4I-nanoscopy/InSilicoTEM/tree/v2.0.0",
+      "category": "image-formation-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "CisTEM_Simulate",
+      "url": "https://github.com/timothygrant80/cisTEM/blob/master/src/programs/simulate/simulate.cpp",
+      "category": "image-formation-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "icemodeling",
+      "url": "https://github.com/ac8g19/icemodelling",
+      "category": "image-formation-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Unblur",
+      "url": "https://grigoriefflab.umassmed.edu/unblur_summovie",
+      "category": "whole-frame-alignment",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Alignment of direct detection device micrographs using a robust Optical Flow approach",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047847715000313",
+      "category": "whole-frame-alignment",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "MotionCorr2",
+      "url": "https://emcore.ucsf.edu/ucsf-motioncor2",
+      "category": "patch-basedper-particle-based-alignment",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Alignparts",
+      "url": "https://sites.google.com/site/rubinsteingroup/direct-detector-align_lmbfgs",
+      "category": "patch-basedper-particle-based-alignment",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Warp",
+      "url": "http://www.warpem.com/warp/?page_id=185",
+      "category": "patch-basedper-particle-based-alignment",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "FlexAlign: An Accurate and Fast Algorithm for Movie Alignment in Cryo-Electron Microscopy",
+      "url": "https://www.mdpi.com/2079-9292/9/6/1040/htm",
+      "category": "patch-basedper-particle-based-alignment",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Damage compensation",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0076687910810158?via%3Dihub",
+      "category": "damage-compensation",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "dark/gain corrected",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27572724/",
+      "category": "damage-compensation",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "CTFFIND5",
+      "url": "https://github.com/GrigorieffLab/cisTEM/tree/ctffind5",
+      "category": "whole-frame",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "gCTF",
+      "url": "https://www2.mrc-lmb.cam.ac.uk/research/locally-developed-software/zhang-software/#gctf",
+      "category": "whole-frame",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "Real-time cryo-electron microscopy data preprocessing with Warp",
+      "url": "https://www.nature.com/articles/s41592-019-0580-y",
+      "category": "patch-basedtilt-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "goCTF",
+      "url": "https://www.lsi.umich.edu/science/centers-technologies/cryo-electron-microscopy/research/goctf",
+      "category": "patch-basedtilt-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "Warp",
+      "url": "http://www.warpem.com/warp/?page_id=185",
+      "category": "patch-basedtilt-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "novaCTF",
+      "url": "https://github.com/turonova/novaCTF",
+      "category": "patch-basedtilt-data",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "NoiseTransfer2clean",
+      "url": "https://github.com/Lihongjia-ict/NoiseTransfer2clean",
+      "category": "denoising-micrograph",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Restore",
+      "url": "https://github.com/eugenepalovcak/restore",
+      "category": "denoising-micrograph",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Topaz-Denoise: general deep denoising models for cryoEM",
+      "url": "https://www.nature.com/articles/s41467-020-18952-1",
+      "category": "denoising-micrograph",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "JANNI",
+      "url": "https://sphire.mpg.de/wiki/doku.php?id=janni",
+      "category": "denoising-micrograph",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Miffi",
+      "url": "https://github.com/ando-lab/miffi",
+      "category": "filtering-micrograph",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "CRISP",
+      "url": "https://github.com/phonchi/CryoParticleSegment",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Topaz",
+      "url": "https://github.com/tbepler/topaz",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Cryolo",
+      "url": "https://cryolo.readthedocs.io/en/stable/",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "A pattern matching approach to the automatic selection of particles from low-contrast electron micrographs",
+      "url": "https://academic.oup.com/bioinformatics/article/29/19/2460/189951",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "EPicker",
+      "url": "https://github.com/thuem/EPicker",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "CryoTransformer",
+      "url": "https://github.com/jianlin-cheng/CryoTransformer",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "CryoSegNet",
+      "url": "https://github.com/jianlin-cheng/CryoSegNet",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Upicker",
+      "url": "https://github.com/JachyLikeCoding/UPicker",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "CASSPER",
+      "url": "https://github.com/airis4d/CASSPER/releases",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "TARDIS",
+      "url": "https://github.com/SMLC-NYSBC/TARDIS",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "REPIC",
+      "url": "https://github.com/ccameron/REPIC",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "Vesicle Picker",
+      "url": "https://github.com/r-karimi/vesicle-picker",
+      "category": "semi-supervised-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Relion",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047847714002615",
+      "category": "template-based-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "DoG",
+      "url": "https://emg.nysbc.org/redmine/projects/software/wiki/DoGpicker",
+      "category": "automatic-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "The Laplacian of Gaussian and Arbitrary Z-Crossings Approach Applied to Automated Single Particle Reconstruction",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17490891/",
+      "category": "automatic-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "APPLE",
+      "url": "https://github.com/PrincetonUniversity/APPLEpicker",
+      "category": "automatic-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "KLT picker",
+      "url": "https://github.com/ShkolniskyLab/kltpicker",
+      "category": "automatic-picking",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "2SDR",
+      "url": "http://sabid.stat.sinica.edu.tw/start",
+      "category": "denoising-particledimenison-reduction-and-its-applications",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Pre-pro is a fast pre-processor for single-particle cryo-EM by enhancing 2D classification",
+      "url": "https://www.nature.com/articles/s42003-020-01229-0",
+      "category": "denoising-particledimenison-reduction-and-its-applications",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "MScale",
+      "url": "https://github.com/zhanghui186/Mscale",
+      "category": "denoising-particledimenison-reduction-and-its-applications",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "CryoEM Signal Enhancement",
+      "url": "https://github.com/TamirBendory/CryoEMSignalEnhancement",
+      "category": "denoising-particledimenison-reduction-and-its-applications",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "CWF",
+      "url": "https://github.com/PrincetonUniversity/cwf_denoise",
+      "category": "denoising-particledimenison-reduction-and-its-applications",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "GAN",
+      "url": "https://github.com/cianfrocco-lab/GAN-for-Cryo-EM-image-denoising",
+      "category": "denoising-particledimenison-reduction-and-its-applications",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Iterative Stable Alignment and Clustering of 2D Transmission Electron Microscope Images",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3426367/",
+      "category": "multirefence-alignment-based-classification",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "A clustering approach to multireference alignment of single-particle projections in electron microscopy",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2893300/",
+      "category": "multirefence-alignment-based-classification",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "RE2DC: a robust and efficient 2D classifier with visualization for processing massive and heterogeneous cryo-EM data",
+      "url": "https://www.biorxiv.org/content/10.1101/2022.11.21.517443v2",
+      "category": "multirefence-alignment-based-classification",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Maximum-likelihood based classification",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0076687910820117?via%3Dihub",
+      "category": "maximum-likelihood-based-classification",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "SubspaceEM",
+      "url": "https://www.mathworks.com/matlabcentral/fileexchange/50091-subspaceem-a-fast-maximum-a-posteriori-algorithm-for-cryo-em-single-particle-reconstruction",
+      "category": "maximum-likelihood-based-classification",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "ROME",
+      "url": "http://ipccsb.dfci.harvard.edu/rome/",
+      "category": "mixed-approach-classification",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Cryoassess",
+      "url": "https://github.com/cianfrocco-lab/Automatic-cryoEM-preprocessing",
+      "category": "automatic-selection-of-2d-classes",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Cinderella",
+      "url": "https://sphire.mpg.de/wiki/doku.php?id=auto_2d_class_selection",
+      "category": "automatic-selection-of-2d-classes",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "γ-SUP",
+      "url": "http://sabid.stat.sinica.edu.tw/start",
+      "category": "new-clustering-methods",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Wasserstein-k-means",
+      "url": "https://github.com/4tywon/wasserstein-k-means",
+      "category": "new-clustering-methods",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "A Survey of the Use of Iterative Reconstruction Algorithms in Electron Microscopy",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623807/",
+      "category": "3d-tomographic-reconstruction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "ASTRA",
+      "url": "https://github.com/astra-toolbox/astra-toolbox",
+      "category": "3d-tomographic-reconstruction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "ZART: A Novel Multiresolution Reconstruction Algorithm with Motion-blur Correction for Single Particle Analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S002228362300150X#s0070",
+      "category": "3d-tomographic-reconstruction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Simple",
+      "url": "https://simplecryoem.com/",
+      "category": "class-averages-based-method",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "cryoSPARC: algorithms for rapid unsupervised cryo-EM structure determination",
+      "url": "https://www.nature.com/articles/nmeth.4169",
+      "category": "particles-based-method",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "RELION: Implementation of a Bayesian approach to cryo-EM structure determination",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047847712002481",
+      "category": "3d-homogeneous-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "CryoSPARC",
+      "url": "https://www.nature.com/articles/nmeth.4169",
+      "category": "3d-homogeneous-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "OPUS-SSRI",
+      "url": "https://github.com/alncat/cryoem",
+      "category": "3d-homogeneous-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "CryoNeFEN",
+      "url": "https://github.com/yuehuang2023/cryoNeFEN",
+      "category": "3d-homogeneous-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "New 3D reconstruction paradigm",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047847722000909",
+      "category": "new-3d-reconstruction-paradigm",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "Cryo-Forum",
+      "url": "https://github.com/phonchi/cryo-forum",
+      "category": "new-3d-reconstruction-paradigm",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Pose Estimation with VAE-GAN",
+      "url": "https://github.com/compSPI/article-CVPR-workshop-2020",
+      "category": "new-3d-reconstruction-paradigm",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "CryoGAN",
+      "url": "https://github.com/harshit-gupta-cor/CryoGAN",
+      "category": "new-3d-reconstruction-paradigm",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "Orientation recovery with Siamese neural network",
+      "url": "https://github.com/JelenaBanjac/protein-reconstruction",
+      "category": "new-3d-reconstruction-paradigm",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "CryoAI",
+      "url": "https://github.com/compSPI/cryoAI",
+      "category": "new-3d-reconstruction-paradigm",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "DRGN-AI",
+      "url": "https://github.com/ml-struct-bio/drgnai",
+      "category": "new-3d-reconstruction-paradigm",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Relion",
+      "url": "http://franklab.cpmc.columbia.edu/franklab/Learning_Materials/Meeting_7_Maximum_Likelihood/Papers/Scheres_2016_MIE_v579.pdf",
+      "category": "3d-classification",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "LCTC",
+      "url": "https://github.com/ghl1995/LCTC",
+      "category": "3d-classification",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Non-uniform refinement: Adaptive regularization improves single particle cryo-EM reconstruction",
+      "url": "https://www.nature.com/articles/s41592-020-00990-8",
+      "category": "3d-non-uniform-refinemnet",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "SideSplitter",
+      "url": "https://github.com/StructuralBiology-ICLMedicine/SIDESPLITTER",
+      "category": "3d-non-uniform-refinemnet",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "CryoSTAR",
+      "url": "https://github.com/bytedance/cryostar",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "OPUS-DSD",
+      "url": "https://github.com/alncat/opusDSD",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "RECOVAR",
+      "url": "https://github.com/ma-gilles/recovar",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "sbackprop",
+      "url": "https://github.com/dkimanius/sbackprop",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Flexutils",
+      "url": "https://github.com/scipion-em/scipion-em-flexutils",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "DynaMight",
+      "url": "https://github.com/3dem/DynaMight",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Latent Space Diffusion Models of Cryo-EM Structures",
+      "url": "https://arxiv.org/abs/2211.14169",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "DGP-SPR",
+      "url": "https://github.com/benjamin3344/DGP-SPR",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "3DFlex",
+      "url": "https://cryosparc.com/3dflex",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "e2gmm",
+      "url": "https://blake.bcm.edu/emanwiki/EMAN2/e2gmm",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "3D Variability Analysis: Directly resolving continuous flexibility and discrete heterogeneity from single particle cryo-EM images",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047847721000071",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "CryoDRGN2",
+      "url": "https://github.com/zhonge/cryodrgn/tree/vb/v2_quickstart",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "CryoDRGN",
+      "url": "https://github.com/zhonge/cryodrgn",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "ManifoldEM",
+      "url": "https://github.com/evanseitz/ManifoldEM_Python",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "DMSA",
+      "url": "https://github.com/evanseitz/cryoEM_DMSA",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "AlphaCryo4D",
+      "url": "https://github.com/AlphaCryo4D/AlphaCryo4D",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "BioEM",
+      "url": "https://github.com/bio-phys/BioEM",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "Inferring a Continuous Distribution of Atom Coordinates from Cryo-EM Images using VAEs",
+      "url": "https://arxiv.org/abs/2106.14108",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "Amortized Inference for Heterogeneous Reconstruction in Cryo-EM",
+      "url": "https://arxiv.org/abs/2210.07387",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "Heterogeneous reconstruction of deformable atomic models in Cryo-EM",
+      "url": "https://arxiv.org/abs/2209.15121",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "SpecVols",
+      "url": "https://github.com/PrincetonUniversity/specvols",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "CryoTRANS",
+      "url": "https://github.com/mxhulab/cryotrans",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "cryoENsemble",
+      "url": "https://github.com/dydymos/cryoENsemble",
+      "category": "3d-variability-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "CLEAPA",
+      "url": "https://github.com/tengyulin/energy_aware_pathfinding",
+      "category": "latent-space-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "Polaris",
+      "url": "https://github.com/evanseitz/POLARIS",
+      "category": "latent-space-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "MAVEn",
+      "url": "https://github.com/lkinman/MAVEn",
+      "category": "latent-space-analysis",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Focus classifcation",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmolb.2019.00033/full",
+      "category": "focus-classifcation",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "Focused classifications and refinements in high-resolution single particle cryo-EM analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047847723000783",
+      "category": "focus-classifcation",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "localrec",
+      "url": "https://github.com/OPIC-Oxford/localrec",
+      "category": "focus-classifcation",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "Characterisation of molecular motions in cryo-EM single-particle data by multi-body refinement in RELION",
+      "url": "https://elifesciences.org/articles/36861",
+      "category": "focus-classifcation",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "Relion3",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6250425/",
+      "category": "per-particle-based-motion-and-ctf-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "New tools for automated high-resolution cryo-EM structure determination in RELION-3",
+      "url": "https://elifesciences.org/articles/42166#bib45",
+      "category": "per-particle-based-motion-and-ctf-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "Estimation of high-order aberrations and anisotropic magnification from cryo-EM data sets in RELION-3.1",
+      "url": "https://journals.iucr.org/m/issues/2020/02/00/fq5009/index.html",
+      "category": "per-particle-based-motion-and-ctf-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "A Bayesian approach to beam-induced motion correction in cryo-EM single-particle analysis",
+      "url": "https://journals.iucr.org/m/issues/2019/01/00/fq5003/",
+      "category": "per-particle-based-motion-and-ctf-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "M",
+      "url": "http://www.warpem.com/warp/?page_id=827",
+      "category": "per-particle-based-motion-and-ctf-refinement",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "spIsoNet",
+      "url": "https://github.com/IsoNet-cryoET/spIsoNet",
+      "category": "3d-refinemnet-with-anisotropy-correction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "CryoPROS",
+      "url": "https://github.com/mxhulab/cryopros",
+      "category": "3d-refinemnet-with-anisotropy-correction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "SIRM",
+      "url": "https://github.com/homurachan/SIRM_RELION",
+      "category": "3d-refinemnet-with-anisotropy-correction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "Local resolution",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0959440X20301044",
+      "category": "local-resolution-and-directional-resolution",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "Blocres",
+      "url": "https://lsbr.niams.nih.gov/bsoft/programs/blocres.html",
+      "category": "local-resolution-and-directional-resolution",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "ResMap",
+      "url": "https://sourceforge.net/projects/resmap-latest/",
+      "category": "local-resolution-and-directional-resolution",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "MonoRes: Automatic and Accurate Estimation of Local Resolution for Electron Microscopy Maps",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29395788/",
+      "category": "local-resolution-and-directional-resolution",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "3DFSC",
+      "url": "https://github.com/nysbc/Anisotropy",
+      "category": "local-resolution-and-directional-resolution",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "Measuring local-directional resolution and local anisotropy in cryo-EM maps",
+      "url": "https://www.nature.com/articles/s41467-019-13742-w",
+      "category": "local-resolution-and-directional-resolution",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "Sharpening",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022283603010222",
+      "category": "sharpening-and-local-filtering-to-enhance-interpretability",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "EMReady",
+      "url": "http://huanglab.phys.hust.edu.cn/EMReady/",
+      "category": "sharpening-and-local-filtering-to-enhance-interpretability",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "EM-GAN",
+      "url": "https://kiharalab.org/emsuites/emgan.php",
+      "category": "sharpening-and-local-filtering-to-enhance-interpretability",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "DeepEnhancer",
+      "url": "https://github.com/rsanchezgarc/deepEMhancer",
+      "category": "sharpening-and-local-filtering-to-enhance-interpretability",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "Confidence Maps",
+      "url": "https://git.embl.de/mbeckers/FDRthresholding/-/tree/master",
+      "category": "sharpening-and-local-filtering-to-enhance-interpretability",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "LocScale",
+      "url": "https://git.embl.de/jakobi/LocScale",
+      "category": "sharpening-and-local-filtering-to-enhance-interpretability",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "LocalDeblur",
+      "url": "https://github.com/I2PC/scipion-em-xmipp/wiki/XmippProtLocSharp",
+      "category": "sharpening-and-local-filtering-to-enhance-interpretability",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "Warp",
+      "url": "http://www.warpem.com/warp/?page_id=389",
+      "category": "denoising-3d-volume",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Relion",
+      "url": "https://github.com/3dem/externprior",
+      "category": "denoising-3d-volume",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Blush regularisation",
+      "url": "https://relion.readthedocs.io/en/release-5.0/Whats-new.html",
+      "category": "denoising-3d-volume",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "crefDenoiser",
+      "url": "https://github.com/ajrzepiela/crefDenoiser",
+      "category": "denoising-3d-volume",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "CryoSieve",
+      "url": "https://github.com/mxhulab/cryosieve",
+      "category": "particle-sorting",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "Helical reconstruction",
+      "url": "https://www.cambridge.org/core/journals/quarterly-reviews-of-biophysics/article/cryoem-reconstruction-of-helical-polymers-beyond-the-simple-cases/F9ED5390A396E502657F02D7D27773C6",
+      "category": "helical-reconstruction",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "BOTalign",
+      "url": "https://github.com/RuiyiYang/BOTalign",
+      "category": "3d-map-alignment",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "CryoAlign",
+      "url": "https://github.com/HeracleBT/CryoAlign",
+      "category": "3d-map-alignment",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "EModelX",
+      "url": "https://github.com/biomed-AI/EModelX",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "Cryo2Struct",
+      "url": "https://github.com/jianlin-cheng/Cryo2Struct",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "DeepMainMast",
+      "url": "https://github.com/kiharalab/DeepMainMast",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "ModelAngelo",
+      "url": "https://github.com/3dem/model-angelo",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "DiffModeler",
+      "url": "https://github.com/kiharalab/DiffModeler",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "adp-3d",
+      "url": "https://axel-levy.github.io/adp-3d/",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "EMBuild",
+      "url": "http://huanglab.phys.hust.edu.cn/EMBuild/",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "CryoREAD",
+      "url": "https://github.com/kiharalab/CryoREAD",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "CSA",
+      "url": "https://github.com/nimijkrap/CSA_for_cryo-EM_results",
+      "category": "map-to-model",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "Metrics",
+      "url": "https://www.nature.com/articles/s41592-020-01051-w",
+      "category": "metrics",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "TEMPy",
+      "url": "https://tempy.topf-group.com/",
+      "category": "metrics",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "Phenix",
+      "url": "https://phenix-online.org/documentation/reference/validation_cryo_em.html",
+      "category": "metrics",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "DeepQs: Local quality assessment of cryo-EM density map by deep learning map-model fit score",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1047847723001223",
+      "category": "metrics",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "MapQ",
+      "url": "https://github.com/gregdp/mapq",
+      "category": "metrics",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "FSC-Q",
+      "url": "https://github.com/I2PC/scipion-em-xmipp",
+      "category": "metrics",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "MEDIC",
+      "url": "https://github.com/gabriellareggiano/MEDIC",
+      "category": "metrics",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "Chimera",
+      "url": "https://www.cgl.ucsf.edu/chimera/",
+      "category": "visualization",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "ChimeraX",
+      "url": "http://www.rbvi.ucsf.edu/chimerax/",
+      "category": "visualization",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "3DEM Conventions",
+      "url": "https://github.com/azazellochg/3DEM-conventions",
+      "category": "3dem-convention",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "Relion",
+      "url": "https://relion.readthedocs.io/en/release-5.0/Reference/Conventions.html#conventions",
+      "category": "3dem-convention",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "Symmetry",
+      "url": "https://scipion-em.github.io/docs/release-3.0.0/docs/developer/symmetries/symmetries.html",
+      "category": "3dem-convention",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "Resolution Measure",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0079610716300037",
+      "category": "3dem-convention",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "PyRelion",
+      "url": "https://github.com/OPIC-Oxford/localrec/wiki/Tips-and-tricks",
+      "category": "format-conversion",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "PyEM",
+      "url": "https://github.com/asarnow/pyem",
+      "category": "format-conversion",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "EMAN2",
+      "url": "https://github.com/cryoem/eman2/blob/master/examples/e2convertrelion.py",
+      "category": "format-conversion",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L426",
+      "line": 426,
+      "properties": {}
+    },
+    {
+      "title": "EMAN2",
+      "url": "https://blake.bcm.edu/emanwiki/EMAN2",
+      "category": "format-conversion",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "starfile",
+      "url": "https://github.com/teamtomo/starfile",
+      "category": "parse-star-file",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "starparser",
+      "url": "https://github.com/sami-chaaban/starparser",
+      "category": "parse-star-file",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "here",
+      "url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/Parse_Star.ipynb",
+      "category": "parse-star-file",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "starpy",
+      "url": "https://github.com/fuzikt/starpy",
+      "category": "parse-star-file",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "PyEM",
+      "url": "https://github.com/asarnow/pyem",
+      "category": "parse-cryosparc-file",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "here",
+      "url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/Parse_Cryosparc.ipynb",
+      "category": "parse-cryosparc-file",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "cryosparc-tools",
+      "url": "https://github.com/cryoem-uoft/cryosparc-tools",
+      "category": "parse-cryosparc-file",
+      "source_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/README.md#L441",
+      "line": 441,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 223,
+  "unique_links": 214,
+  "category_count": 49,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "phonchi",
+      "url": "https://github.com/phonchi",
+      "contributions": 100
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 125,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:58:05.936713+00:00"
+  },
+  "contributing_url": "https://github.com/phonchi/Computational-CryoEM/blob/e2b71ec269599d1724908ba1a538b568da4fb0b5/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by phonchi/Computational-CryoEM contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/phonchi/Computational-CryoEM/tree/e2b71ec269599d1724908ba1a538b568da4fb0b5",
+  "digest": "4d357a143ba0027668145bfbd5d2f3f6fdfb39bd935f1a6122b754a2ea4be709"
+}

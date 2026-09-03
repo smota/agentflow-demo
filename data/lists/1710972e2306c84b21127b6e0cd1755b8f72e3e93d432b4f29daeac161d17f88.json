@@ -1,0 +1,1091 @@
+{
+  "format_version": 3,
+  "repository_id": "580204419",
+  "name": "jeffhj/LM-reasoning",
+  "revision": "bfdadac27e908f63b269c56e653cd450f66aafbc",
+  "readme_path": "README.md",
+  "readme_sha256": "3c725e3860ccb36577c576872b37af0cbe5b4111d73b8628581a0eb0853f17a2",
+  "sections": [
+    {
+      "id": "reasoning-in-large-language-models",
+      "title": "Reasoning in Large Language Models",
+      "level": 1,
+      "path": [
+        "Reasoning in Large Language Models"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#reasoning-in-large-language-models",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Contents"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "level": 2,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Survey"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#survey",
+      "entries": 0
+    },
+    {
+      "id": "towards-reasoning-in-large-language-models-a-survey-20-dec-2022",
+      "title": "Towards Reasoning in Large Language Models: A Survey 20 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Survey",
+        "Towards Reasoning in Large Language Models: A Survey 20 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#towards-reasoning-in-large-language-models-a-survey-20-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "relevant-survey-and-position-paper-and-blog",
+      "title": "Relevant Survey and Position Paper and Blog",
+      "level": 2,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#relevant-survey-and-position-paper-and-blog",
+      "entries": 0
+    },
+    {
+      "id": "emergent-abilities-of-large-language-models-15-jun-2022",
+      "title": "Emergent Abilities of Large Language Models 15 Jun 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog",
+        "Emergent Abilities of Large Language Models 15 Jun 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#emergent-abilities-of-large-language-models-15-jun-2022",
+      "entries": 0
+    },
+    {
+      "id": "language-model-cascades-21-jul-2022",
+      "title": "Language Model Cascades 21 Jul 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog",
+        "Language Model Cascades 21 Jul 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#language-model-cascades-21-jul-2022",
+      "entries": 0
+    },
+    {
+      "id": "how-does-gpt-obtain-its-ability-tracing-emergent-abilities-of-language-models-to-their-sources-11-dec-2022",
+      "title": "How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources 11 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog",
+        "How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources 11 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#how-does-gpt-obtain-its-ability-tracing-emergent-abilities-of-language-models-to-their-sources-11-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "reasoning-with-language-model-prompting-a-survey-19-dec-2022",
+      "title": "Reasoning with Language Model Prompting: A Survey 19 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog",
+        "Reasoning with Language Model Prompting: A Survey 19 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#reasoning-with-language-model-prompting-a-survey-19-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "a-survey-of-deep-learning-for-mathematical-reasoning-20-dec-2022",
+      "title": "A Survey of Deep Learning for Mathematical Reasoning 20 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog",
+        "A Survey of Deep Learning for Mathematical Reasoning 20 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#a-survey-of-deep-learning-for-mathematical-reasoning-20-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "a-survey-for-in-context-learning-31-dec-2022",
+      "title": "A Survey for In-context Learning 31 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog",
+        "A Survey for In-context Learning 31 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#a-survey-for-in-context-learning-31-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "logical-reasoning-over-natural-language-as-knowledge-representation-a-survey-21-mar-2023",
+      "title": "Logical Reasoning over Natural Language as Knowledge Representation: A Survey 21 Mar 2023",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog",
+        "Logical Reasoning over Natural Language as Knowledge Representation: A Survey 21 Mar 2023"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#logical-reasoning-over-natural-language-as-knowledge-representation-a-survey-21-mar-2023",
+      "entries": 0
+    },
+    {
+      "id": "nature-language-reasoning-a-survey-26-mar-2023",
+      "title": "Nature Language Reasoning, A Survey 26 Mar 2023",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Relevant Survey and Position Paper and Blog",
+        "Nature Language Reasoning, A Survey 26 Mar 2023"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#nature-language-reasoning-a-survey-26-mar-2023",
+      "entries": 0
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "level": 2,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#technique",
+      "entries": 0
+    },
+    {
+      "id": "fully-supervised-finetuning",
+      "title": "Fully Supervised Finetuning",
+      "level": 3,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Fully Supervised Finetuning"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#fully-supervised-finetuning",
+      "entries": 0
+    },
+    {
+      "id": "explain-yourself-leveraging-language-models-for-commonsense-reasoning-6-jun-2019",
+      "title": "Explain Yourself! Leveraging Language Models for Commonsense Reasoning 6 Jun 2019",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Fully Supervised Finetuning",
+        "Explain Yourself! Leveraging Language Models for Commonsense Reasoning 6 Jun 2019"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#explain-yourself-leveraging-language-models-for-commonsense-reasoning-6-jun-2019",
+      "entries": 0
+    },
+    {
+      "id": "leap-of-thought-teaching-pre-trained-models-to-systematically-reason-over-implicit-knowledge-11-jun-2020",
+      "title": "Leap-Of-Thought: Teaching Pre-Trained Models to Systematically Reason Over Implicit Knowledge 11 Jun 2020",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Fully Supervised Finetuning",
+        "Leap-Of-Thought: Teaching Pre-Trained Models to Systematically Reason Over Implicit Knowledge 11 Jun 2020"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#leap-of-thought-teaching-pre-trained-models-to-systematically-reason-over-implicit-knowledge-11-jun-2020",
+      "entries": 0
+    },
+    {
+      "id": "measuring-mathematical-problem-solving-with-the-math-dataset-5-mar-2021",
+      "title": "Measuring Mathematical Problem Solving With the MATH Dataset 5 Mar 2021",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Fully Supervised Finetuning",
+        "Measuring Mathematical Problem Solving With the MATH Dataset 5 Mar 2021"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#measuring-mathematical-problem-solving-with-the-math-dataset-5-mar-2021",
+      "entries": 0
+    },
+    {
+      "id": "show-your-work-scratchpads-for-intermediate-computation-with-language-models-30-nov-2021",
+      "title": "Show Your Work: Scratchpads for Intermediate Computation with Language Models 30 Nov 2021",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Fully Supervised Finetuning",
+        "Show Your Work: Scratchpads for Intermediate Computation with Language Models 30 Nov 2021"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#show-your-work-scratchpads-for-intermediate-computation-with-language-models-30-nov-2021",
+      "entries": 0
+    },
+    {
+      "id": "fairr-faithful-and-robust-deductive-reasoning-over-natural-language-19-mar-2022",
+      "title": "FaiRR: Faithful and Robust Deductive Reasoning over Natural Language 19 Mar 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Fully Supervised Finetuning",
+        "FaiRR: Faithful and Robust Deductive Reasoning over Natural Language 19 Mar 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#fairr-faithful-and-robust-deductive-reasoning-over-natural-language-19-mar-2022",
+      "entries": 0
+    },
+    {
+      "id": "section-171",
+      "title": "......",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Fully Supervised Finetuning",
+        "......"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#",
+      "entries": 0
+    },
+    {
+      "id": "prompting-and-in-context-learning",
+      "title": "Prompting and In-Context Learning",
+      "level": 3,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#prompting-and-in-context-learning",
+      "entries": 0
+    },
+    {
+      "id": "chain-of-thought-prompting-and-its-variantsapplications",
+      "title": "Chain of Thought Prompting and Its Variants/Applications",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Chain of Thought Prompting and Its Variants/Applications"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#chain-of-thought-prompting-and-its-variantsapplications",
+      "entries": 0
+    },
+    {
+      "id": "chain-of-thought-prompting-elicits-reasoning-in-large-language-models-28-jan-2022",
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models 28 Jan 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Chain of Thought Prompting Elicits Reasoning in Large Language Models 28 Jan 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#chain-of-thought-prompting-elicits-reasoning-in-large-language-models-28-jan-2022",
+      "entries": 0
+    },
+    {
+      "id": "iteratively-prompt-pre-trained-language-models-for-chain-of-thought-16-mar-2022",
+      "title": "Iteratively Prompt Pre-trained Language Models for Chain of Thought 16 Mar 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Iteratively Prompt Pre-trained Language Models for Chain of Thought 16 Mar 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#iteratively-prompt-pre-trained-language-models-for-chain-of-thought-16-mar-2022",
+      "entries": 0
+    },
+    {
+      "id": "large-language-models-are-zero-shot-reasoners-24-may-2022",
+      "title": "Large Language Models are Zero-Shot Reasoners 24 May 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Large Language Models are Zero-Shot Reasoners 24 May 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#large-language-models-are-zero-shot-reasoners-24-may-2022",
+      "entries": 0
+    },
+    {
+      "id": "psychologically-informed-chain-of-thought-prompts-for-metaphor-understanding-in-large-language-models-16-sep-2022",
+      "title": "Psychologically-informed chain-of-thought prompts for metaphor understanding in large language models 16 Sep 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Psychologically-informed chain-of-thought prompts for metaphor understanding in large language models 16 Sep 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#psychologically-informed-chain-of-thought-prompts-for-metaphor-understanding-in-large-language-models-16-sep-2022",
+      "entries": 0
+    },
+    {
+      "id": "language-models-are-multilingual-chain-of-thought-reasoners-6-oct-2022",
+      "title": "Language Models are Multilingual Chain-of-Thought Reasoners 6 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Language Models are Multilingual Chain-of-Thought Reasoners 6 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#language-models-are-multilingual-chain-of-thought-reasoners-6-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "large-language-models-are-few1-shot-table-reasoners-13-oct-2022",
+      "title": "Large Language Models are few(1)-shot Table Reasoners 13 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Large Language Models are few(1)-shot Table Reasoners 13 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#large-language-models-are-few1-shot-table-reasoners-13-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "language-models-of-code-are-few-shot-commonsense-learners-13-oct-2022",
+      "title": "Language Models of Code are Few-Shot Commonsense Learners 13 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Language Models of Code are Few-Shot Commonsense Learners 13 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#language-models-of-code-are-few-shot-commonsense-learners-13-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "pal-program-aided-language-model-18-nov-2022",
+      "title": "PaL: Program-Aided Language Model 18 Nov 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "PaL: Program-Aided Language Model 18 Nov 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#pal-program-aided-language-model-18-nov-2022",
+      "entries": 0
+    },
+    {
+      "id": "program-of-thoughts-prompting-disentangling-computation-from-reasoning-for-numerical-reasoning-tasks-22-nov-2022",
+      "title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks 22 Nov 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks 22 Nov 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#program-of-thoughts-prompting-disentangling-computation-from-reasoning-for-numerical-reasoning-tasks-22-nov-2022",
+      "entries": 0
+    },
+    {
+      "id": "rethinking-with-retrieval-faithful-large-language-model-inference-31-dec-2022",
+      "title": "Rethinking with Retrieval: Faithful Large Language Model Inference 31 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Rethinking with Retrieval: Faithful Large Language Model Inference 31 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#rethinking-with-retrieval-faithful-large-language-model-inference-31-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "rationale-engineering",
+      "title": "Rationale Engineering",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Rationale Engineering"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#rationale-engineering",
+      "entries": 0
+    },
+    {
+      "id": "training-verifiers-to-solve-math-word-problems-27-oct-2021",
+      "title": "Training Verifiers to Solve Math Word Problems 27 Oct 2021",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Training Verifiers to Solve Math Word Problems 27 Oct 2021"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#training-verifiers-to-solve-math-word-problems-27-oct-2021",
+      "entries": 0
+    },
+    {
+      "id": "self-consistency-improves-chain-of-thought-reasoning-in-language-models-21-mar-2022",
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models 21 Mar 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Self-Consistency Improves Chain of Thought Reasoning in Language Models 21 Mar 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#self-consistency-improves-chain-of-thought-reasoning-in-language-models-21-mar-2022",
+      "entries": 0
+    },
+    {
+      "id": "on-the-advance-of-making-language-models-better-reasoners-6-jun-2022",
+      "title": "On the Advance of Making Language Models Better Reasoners 6 Jun 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "On the Advance of Making Language Models Better Reasoners 6 Jun 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#on-the-advance-of-making-language-models-better-reasoners-6-jun-2022",
+      "entries": 0
+    },
+    {
+      "id": "complexity-based-prompting-for-multi-step-reasoning-3-oct-2022",
+      "title": "Complexity-Based Prompting for Multi-Step Reasoning 3 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Complexity-Based Prompting for Multi-Step Reasoning 3 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#complexity-based-prompting-for-multi-step-reasoning-3-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "automatic-chain-of-thought-prompting-in-large-language-models-7-oct-2022",
+      "title": "Automatic Chain of Thought Prompting in Large Language Models 7 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Automatic Chain of Thought Prompting in Large Language Models 7 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#automatic-chain-of-thought-prompting-in-large-language-models-7-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "teaching-algorithmic-reasoning-via-in-context-learning-15-nov-2022",
+      "title": "Teaching Algorithmic Reasoning via In-context Learning 15 Nov 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Teaching Algorithmic Reasoning via In-context Learning 15 Nov 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#teaching-algorithmic-reasoning-via-in-context-learning-15-nov-2022",
+      "entries": 0
+    },
+    {
+      "id": "large-language-models-are-reasoners-with-self-verification-19-dec-2022",
+      "title": "Large Language Models are reasoners with Self-Verification 19 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Large Language Models are reasoners with Self-Verification 19 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#large-language-models-are-reasoners-with-self-verification-19-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "problem-decomposition",
+      "title": "Problem Decomposition",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Problem Decomposition"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#problem-decomposition",
+      "entries": 0
+    },
+    {
+      "id": "least-to-most-prompting-enables-complex-reasoning-in-large-language-models-21-may-2022",
+      "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models 21 May 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models 21 May 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#least-to-most-prompting-enables-complex-reasoning-in-large-language-models-21-may-2022",
+      "entries": 0
+    },
+    {
+      "id": "compositional-semantic-parsing-with-large-language-models-29-sep-2022",
+      "title": "Compositional Semantic Parsing with Large Language Models 29 Sep 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Compositional Semantic Parsing with Large Language Models 29 Sep 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#compositional-semantic-parsing-with-large-language-models-29-sep-2022",
+      "entries": 0
+    },
+    {
+      "id": "decomposed-prompting-a-modular-approach-for-solving-complex-tasks-5-oct-2022",
+      "title": "Decomposed Prompting: A Modular Approach for Solving Complex Tasks 5 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Decomposed Prompting: A Modular Approach for Solving Complex Tasks 5 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#decomposed-prompting-a-modular-approach-for-solving-complex-tasks-5-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "measuring-and-narrowing-the-compositionality-gap-in-language-models-7-oct-2022",
+      "title": "Measuring and Narrowing the Compositionality Gap in Language Models 7 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Measuring and Narrowing the Compositionality Gap in Language Models 7 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#measuring-and-narrowing-the-compositionality-gap-in-language-models-7-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "successive-prompting-for-decomposing-complex-questions-8-dec-2022",
+      "title": "Successive Prompting for Decomposing Complex Questions 8 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Successive Prompting for Decomposing Complex Questions 8 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#successive-prompting-for-decomposing-complex-questions-8-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "large-language-models-are-versatile-decomposers-decompose-evidence-and-questions-for-table-based-reasoning-31-jan-2023",
+      "title": "Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning 31 Jan 2023",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning 31 Jan 2023"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#large-language-models-are-versatile-decomposers-decompose-evidence-and-questions-for-table-based-reasoning-31-jan-2023",
+      "entries": 0
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Others"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#others",
+      "entries": 0
+    },
+    {
+      "id": "language-models-as-zero-shot-planners-extracting-actionable-knowledge-for-embodied-agents-18-jan-2022",
+      "title": "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents 18 Jan 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents 18 Jan 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#language-models-as-zero-shot-planners-extracting-actionable-knowledge-for-embodied-agents-18-jan-2022",
+      "entries": 0
+    },
+    {
+      "id": "selection-inference-exploiting-large-language-models-for-interpretable-logical-reasoning-19-may-2022",
+      "title": "Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning 19 May 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning 19 May 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#selection-inference-exploiting-large-language-models-for-interpretable-logical-reasoning-19-may-2022",
+      "entries": 0
+    },
+    {
+      "id": "maieutic-prompting-logically-consistent-reasoning-with-recursive-explanations-24-may-2022",
+      "title": "Maieutic Prompting: Logically Consistent Reasoning with Recursive Explanations 24 May 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Maieutic Prompting: Logically Consistent Reasoning with Recursive Explanations 24 May 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#maieutic-prompting-logically-consistent-reasoning-with-recursive-explanations-24-may-2022",
+      "entries": 0
+    },
+    {
+      "id": "faithful-reasoning-using-large-language-models-30-aug-2022",
+      "title": "Faithful Reasoning Using Large Language Models 30 Aug 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Faithful Reasoning Using Large Language Models 30 Aug 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#faithful-reasoning-using-large-language-models-30-aug-2022",
+      "entries": 0
+    },
+    {
+      "id": "learn-to-explain-multimodal-reasoning-via-thought-chains-for-science-question-answering-20-sep-2022",
+      "title": "Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering 20 Sep 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering 20 Sep 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#learn-to-explain-multimodal-reasoning-via-thought-chains-for-science-question-answering-20-sep-2022",
+      "entries": 0
+    },
+    {
+      "id": "explanations-from-large-language-models-make-small-reasoners-better-13-oct-2022",
+      "title": "Explanations from Large Language Models Make Small Reasoners Better 13 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Explanations from Large Language Models Make Small Reasoners Better 13 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#explanations-from-large-language-models-make-small-reasoners-better-13-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "distilling-multi-step-reasoning-capabilities-of-large-language-models-into-smaller-models-via-semantic-decompositions-1-dec-2022",
+      "title": "Distilling Multi-Step Reasoning Capabilities of Large Language Models into Smaller Models via Semantic Decompositions 1 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Distilling Multi-Step Reasoning Capabilities of Large Language Models into Smaller Models via Semantic Decompositions 1 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#distilling-multi-step-reasoning-capabilities-of-large-language-models-into-smaller-models-via-semantic-decompositions-1-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "teaching-small-language-models-to-reason-16-dec-2022",
+      "title": "Teaching Small Language Models to Reason 16 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Teaching Small Language Models to Reason 16 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#teaching-small-language-models-to-reason-16-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "lambada-backward-chaining-for-automated-reasoning-in-natural-language-20-dec-2022",
+      "title": "LAMBADA: Backward Chaining for Automated Reasoning in Natural Language 20 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "LAMBADA: Backward Chaining for Automated Reasoning in Natural Language 20 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#lambada-backward-chaining-for-automated-reasoning-in-natural-language-20-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "reasoning-with-language-model-is-planning-with-world-model-24-may-2023",
+      "title": "Reasoning with Language Model is Planning with World Model 24 May 2023",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Prompting and In-Context Learning",
+        "Reasoning with Language Model is Planning with World Model 24 May 2023"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#reasoning-with-language-model-is-planning-with-world-model-24-may-2023",
+      "entries": 0
+    },
+    {
+      "id": "hybrid-method",
+      "title": "Hybrid Method",
+      "level": 3,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#hybrid-method",
+      "entries": 0
+    },
+    {
+      "id": "reasoning-enhanced-training-and-prompting",
+      "title": "Reasoning-Enhanced Training and Prompting",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Reasoning-Enhanced Training and Prompting"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#reasoning-enhanced-training-and-prompting",
+      "entries": 0
+    },
+    {
+      "id": "reasoning-like-program-executors-27-jan-2022",
+      "title": "Reasoning Like Program Executors 27 Jan 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Reasoning Like Program Executors 27 Jan 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#reasoning-like-program-executors-27-jan-2022",
+      "entries": 0
+    },
+    {
+      "id": "solving-quantitative-reasoning-problems-with-language-models-29-jun-2022",
+      "title": "Solving Quantitative Reasoning Problems with Language Models 29 Jun 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Solving Quantitative Reasoning Problems with Language Models 29 Jun 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#solving-quantitative-reasoning-problems-with-language-models-29-jun-2022",
+      "entries": 0
+    },
+    {
+      "id": "exploring-length-generalization-in-large-language-models-11-jul-2022",
+      "title": "Exploring Length Generalization in Large Language Models 11 Jul 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Exploring Length Generalization in Large Language Models 11 Jul 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#exploring-length-generalization-in-large-language-models-11-jul-2022",
+      "entries": 0
+    },
+    {
+      "id": "scaling-instruction-finetuned-language-models-20-oct-2022",
+      "title": "Scaling Instruction-Finetuned Language Models 20 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Scaling Instruction-Finetuned Language Models 20 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#scaling-instruction-finetuned-language-models-20-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "galactica-a-large-language-model-for-science-16-nov-2022",
+      "title": "Galactica: A Large Language Model for Science 16 Nov 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Galactica: A Large Language Model for Science 16 Nov 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#galactica-a-large-language-model-for-science-16-nov-2022",
+      "entries": 0
+    },
+    {
+      "id": "alert-adapting-language-models-to-reasoning-tasks-16-dec-2022",
+      "title": "ALERT: Adapting Language Models to Reasoning Tasks 16 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "ALERT: Adapting Language Models to Reasoning Tasks 16 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#alert-adapting-language-models-to-reasoning-tasks-16-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "bootstrapping-and-self-improving",
+      "title": "Bootstrapping and Self-Improving",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Bootstrapping and Self-Improving"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#bootstrapping-and-self-improving",
+      "entries": 0
+    },
+    {
+      "id": "star-bootstrapping-reasoning-with-reasoning-28-mar-2022",
+      "title": "STaR: Bootstrapping Reasoning With Reasoning 28 Mar 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "STaR: Bootstrapping Reasoning With Reasoning 28 Mar 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#star-bootstrapping-reasoning-with-reasoning-28-mar-2022",
+      "entries": 0
+    },
+    {
+      "id": "language-models-can-teach-themselves-to-program-better-29-jul-2022",
+      "title": "Language Models Can Teach Themselves to Program Better 29 Jul 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Language Models Can Teach Themselves to Program Better 29 Jul 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#language-models-can-teach-themselves-to-program-better-29-jul-2022",
+      "entries": 0
+    },
+    {
+      "id": "large-language-models-can-self-improve-20-oct-2022",
+      "title": "Large Language Models Can Self-Improve 20 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Technique",
+        "Hybrid Method",
+        "Large Language Models Can Self-Improve 20 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#large-language-models-can-self-improve-20-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "evaluation-and-analysis",
+      "title": "Evaluation and Analysis",
+      "level": 2,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#evaluation-and-analysis",
+      "entries": 0
+    },
+    {
+      "id": "are-nlp-models-really-able-to-solve-simple-math-word-problems-12-mar-2021",
+      "title": "Are NLP Models really able to Solve Simple Math Word Problems? 12 Mar 2021",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Are NLP Models really able to Solve Simple Math Word Problems? 12 Mar 2021"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#are-nlp-models-really-able-to-solve-simple-math-word-problems-12-mar-2021",
+      "entries": 0
+    },
+    {
+      "id": "impact-of-pretraining-term-frequencies-on-few-shot-reasoning-15-feb-2022",
+      "title": "Impact of Pretraining Term Frequencies on Few-Shot Reasoning 15 Feb 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Impact of Pretraining Term Frequencies on Few-Shot Reasoning 15 Feb 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#impact-of-pretraining-term-frequencies-on-few-shot-reasoning-15-feb-2022",
+      "entries": 0
+    },
+    {
+      "id": "are-large-pre-trained-language-models-leaking-your-personal-information-25-may-2022",
+      "title": "Are Large Pre-Trained Language Models Leaking Your Personal Information? 25 May 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Are Large Pre-Trained Language Models Leaking Your Personal Information? 25 May 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#are-large-pre-trained-language-models-leaking-your-personal-information-25-may-2022",
+      "entries": 0
+    },
+    {
+      "id": "large-language-models-still-cant-plan-a-benchmark-for-llms-on-planning-and-reasoning-about-change-21-jun-2022",
+      "title": "Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change) 21 Jun 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Large Language Models Still Can't Plan (A Benchmark for LLMs on Planning and Reasoning about Change) 21 Jun 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#large-language-models-still-cant-plan-a-benchmark-for-llms-on-planning-and-reasoning-about-change-21-jun-2022",
+      "entries": 0
+    },
+    {
+      "id": "exploring-length-generalization-in-large-language-models-11-jul-2022-1",
+      "title": "Exploring Length Generalization in Large Language Models 11 Jul 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Exploring Length Generalization in Large Language Models 11 Jul 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#exploring-length-generalization-in-large-language-models-11-jul-2022-1",
+      "entries": 0
+    },
+    {
+      "id": "language-models-show-human-like-content-effects-on-reasoning-14-jul-2022",
+      "title": "Language models show human-like content effects on reasoning 14 Jul 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Language models show human-like content effects on reasoning 14 Jul 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#language-models-show-human-like-content-effects-on-reasoning-14-jul-2022",
+      "entries": 0
+    },
+    {
+      "id": "folio-natural-language-reasoning-with-first-order-logic-2-sep-2022",
+      "title": "FOLIO: Natural Language Reasoning with First-Order Logic 2 Sep 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "FOLIO: Natural Language Reasoning with First-Order Logic 2 Sep 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#folio-natural-language-reasoning-with-first-order-logic-2-sep-2022",
+      "entries": 0
+    },
+    {
+      "id": "language-models-are-greedy-reasoners-a-systematic-formal-analysis-of-chain-of-thought-3-oct-2022",
+      "title": "Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought 3 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought 3 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#language-models-are-greedy-reasoners-a-systematic-formal-analysis-of-chain-of-thought-3-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "challenging-big-bench-tasks-and-whether-chain-of-thought-can-solve-them-17-oct-2022",
+      "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them 17 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them 17 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#challenging-big-bench-tasks-and-whether-chain-of-thought-can-solve-them-17-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "large-language-models-are-not-zero-shot-communicators-26-oct-2022",
+      "title": "Large language models are not zero-shot communicators 26 Oct 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Large language models are not zero-shot communicators 26 Oct 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#large-language-models-are-not-zero-shot-communicators-26-oct-2022",
+      "entries": 0
+    },
+    {
+      "id": "roscoe-a-suite-of-metrics-for-scoring-step-by-step-reasoning-15-dec-2022",
+      "title": "ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning 15 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning 15 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#roscoe-a-suite-of-metrics-for-scoring-step-by-step-reasoning-15-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "towards-understanding-chain-of-thought-prompting-an-empirical-study-of-what-matters-20-dec-2022",
+      "title": "Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters 20 Dec 2022",
+      "level": 4,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Evaluation and Analysis",
+        "Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters 20 Dec 2022"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#towards-understanding-chain-of-thought-prompting-an-empirical-study-of-what-matters-20-dec-2022",
+      "entries": 0
+    },
+    {
+      "id": "citation",
+      "title": "Citation",
+      "level": 2,
+      "path": [
+        "Reasoning in Large Language Models",
+        "Citation"
+      ],
+      "source_url": "https://github.com/jeffhj/LM-reasoning/blob/bfdadac27e908f63b269c56e653cd450f66aafbc/README.md#citation",
+      "entries": 0
+    }
+  ],
+  "entries": [],
+  "properties": [],
+  "entry_count": 0,
+  "unique_links": 0,
+  "category_count": 0,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "contributor_observation": null,
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by jeffhj/LM-reasoning contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/jeffhj/LM-reasoning/tree/bfdadac27e908f63b269c56e653cd450f66aafbc",
+  "digest": "1710972e2306c84b21127b6e0cd1755b8f72e3e93d432b4f29daeac161d17f88"
+}

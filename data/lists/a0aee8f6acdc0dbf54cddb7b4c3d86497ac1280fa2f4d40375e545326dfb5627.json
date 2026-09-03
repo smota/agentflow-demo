@@ -1,0 +1,880 @@
+{
+  "format_version": 3,
+  "repository_id": "627313198",
+  "name": "kimtth/azure-openai-llm-notes",
+  "revision": "b6832a8e1d6d36c530760dc1ef74c771cee80e76",
+  "readme_path": "README.md",
+  "readme_sha256": "b39a29ffbe82e99b093f1e51a76fd384966d8d0297affeceb26cde026530d520",
+  "sections": [
+    {
+      "id": "azure-openai--llm",
+      "title": "Azure OpenAI + LLM",
+      "level": 1,
+      "path": [
+        "Azure OpenAI + LLM"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#azure-openai--llm",
+      "entries": 0
+    },
+    {
+      "id": "-quick-navigation-propedia-style",
+      "title": "🧭 Quick Navigation (Propedia-style)",
+      "level": 2,
+      "path": [
+        "Azure OpenAI + LLM",
+        "🧭 Quick Navigation (Propedia-style)"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#-quick-navigation-propedia-style",
+      "entries": 3
+    },
+    {
+      "id": "1-app--agent",
+      "title": "1. App & Agent",
+      "level": 2,
+      "path": [
+        "Azure OpenAI + LLM",
+        "1. App & Agent"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#1-app--agent",
+      "entries": 26
+    },
+    {
+      "id": "2-azure-openai--copilot",
+      "title": "2. Azure OpenAI & Copilot",
+      "level": 2,
+      "path": [
+        "Azure OpenAI + LLM",
+        "2. Azure OpenAI & Copilot"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#2-azure-openai--copilot",
+      "entries": 14
+    },
+    {
+      "id": "3-research--survey",
+      "title": "3. Research & Survey",
+      "level": 2,
+      "path": [
+        "Azure OpenAI + LLM",
+        "3. Research & Survey"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#3-research--survey",
+      "entries": 17
+    },
+    {
+      "id": "4-datasets-evaluation-and-extras",
+      "title": "4. Datasets, Evaluation, and Extras",
+      "level": 2,
+      "path": [
+        "Azure OpenAI + LLM",
+        "4. Datasets, Evaluation, and Extras"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#4-datasets-evaluation-and-extras",
+      "entries": 6
+    },
+    {
+      "id": "5-best-practices",
+      "title": "5. Best Practices",
+      "level": 2,
+      "path": [
+        "Azure OpenAI + LLM",
+        "5. Best Practices"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#5-best-practices",
+      "entries": 10
+    },
+    {
+      "id": "-start-here",
+      "title": "🧭 Start Here",
+      "level": 2,
+      "path": [
+        "Azure OpenAI + LLM",
+        "🧭 Start Here"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#-start-here",
+      "entries": 16
+    },
+    {
+      "id": "-legend--notation",
+      "title": "📖 Legend & Notation",
+      "level": 2,
+      "path": [
+        "Azure OpenAI + LLM",
+        "📖 Legend & Notation"
+      ],
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#-legend--notation",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Large Language Model Landscape",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#large-language-model-landscape",
+      "category": "-quick-navigation-propedia-style",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Engineering and Visual Prompts",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#prompt-engineering-and-visual-prompts",
+      "category": "-quick-navigation-propedia-style",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "AI Application",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#ai-application",
+      "category": "-quick-navigation-propedia-style",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "RAG",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#rag-retrieval-augmented-generation",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "GraphRAG",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#graphrag",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "RAG Application",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#rag-application",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "Vector Database & Embedding",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#vector-database--embedding",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "Top Agent Frameworks",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#top-agent-frameworks",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Additional Agent Framework",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#additional-agent-framework",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Cache",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#cache",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Data & Analytics Agents",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#data--analytics-agents",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Data Processing & OCR",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#data-processing--ocr",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "Desktop AI Assistant",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#desktop-ai-assistant",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "Memory",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#memory",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Model Gateway",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#model-gateway",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Model Serving & Local Runtimes",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#model-serving--local-runtimes",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Observability & LLMOps",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#observability--llmops",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Popular LLM Applications (GitHub Stars >= 1000)",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/x_llm_apps.md",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "SDKs, Integration & ML Libraries",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#sdks-integration--ml-libraries",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Training & Fine-tuning",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#training--fine-tuning",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "UI & No-Code Tool",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#ui--no-code-tool",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "A2A",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#a2a",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Computer use",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#computer-use",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Model Context Protocol (MCP)",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#model-context-protocol-mcp",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Coding",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#coding",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Deep Research",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#deep-research",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Domain-Specific Agents",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#domain-specific-agents",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Skills",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#skills",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Agentic Engineering",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#agentic-engineering",
+      "category": "1-app--agent",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Azure OpenAI & Foundry Overview",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#azure-openai--foundry-overview",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Orchestration Frameworks",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#orchestration-frameworks",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Agent Frameworks",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#agent-frameworks",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Engineering & Tooling",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#prompt-engineering--tooling",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Dev Tools, MCP & Extensions",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#dev-tools-mcp--extensions",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Copilot Product Catalog",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#copilot-product-catalog",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Agent Development",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#agent-development",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft 365 Agent Development",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#microsoft-365-agent-development",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Azure AI Search",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#azure-ai-search",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Foundry & AI Services",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#microsoft-foundry--ai-services",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Research",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#microsoft-research",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Sample Applications",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#sample-applications",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Solution Accelerators",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#solution-accelerators",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Architecture Patterns & Use Cases",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#architecture-patterns--use-cases",
+      "category": "2-azure-openai--copilot",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Model Landscape",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#large-language-model-landscape",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Model Collection",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#large-language-model-collection",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Foundation Model Providers",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#foundation-model-providers",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Domain-Specific and Specialized LLMs",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#domain-specific-and-specialized-llms",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Prompt Engineering and Visual Prompts",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#prompt-engineering-and-visual-prompts",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Model Training and Optimization",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#large-language-model-training-and-optimization",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Pre-training and Data Preparation",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#pre-training-and-data-preparation",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "Architecture and Inference Patterns",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#architecture-and-inference-patterns",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Post-training and Fine-Tuning",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#post-training-and-fine-tuning",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "AI Adoption, Impact, and Society",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#ai-adoption-impact-and-society",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI Products",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#openai-products",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Anthropic AI Products",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#anthropic-ai-products",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Google AI Products",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#google-ai-products",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Survey and Reference",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#survey-and-reference",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Additional Topics: A Survey of LLMs",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#additional-topics-a-survey-of-llms",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "LLM Research (Ranked by cite count ≥150)",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/x_llm_papers.md",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Learning Resources, Implementations, and Regional Materials",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#learning-resources-implementations-and-regional-materials",
+      "category": "3-research--survey",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Datasets for LLM Training",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/tools_extra.md#datasets-for-llm-training",
+      "category": "4-datasets-evaluation-and-extras",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Large Language Models",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/tools_extra.md#evaluating-large-language-models",
+      "category": "4-datasets-evaluation-and-extras",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "LLM Evaluation Benchmarks",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/tools_extra.md#llm-evaluation-benchmarks",
+      "category": "4-datasets-evaluation-and-extras",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "LLMOps: Large Language Model Operations",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/tools_extra.md#llmops-large-language-model-operations",
+      "category": "4-datasets-evaluation-and-extras",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "LLM for Robotics",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/tools_extra.md#llm-for-robotics",
+      "category": "4-datasets-evaluation-and-extras",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Demo",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/tools_extra.md#awesome-demo",
+      "category": "4-datasets-evaluation-and-extras",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "The Problem with RAG",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#the-problem-with-rag",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "RAG Solution Design",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#rag-solution-design",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "RAG Research",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#rag-research",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "RAG Research (Ranked by cite count >=100)",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#rag-research-ranked-by-cite-count-100",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Agent Design Patterns",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#agent-design-patterns",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Agent Research",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#agent-research",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Agent Research (Ranked by cite count >=100)",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#agent-research-ranked-by-cite-count-100",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Tool Use: LLM to Master APIs",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#tool-use",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Security and Governance",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#security-and-governance",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Proposals & Glossary",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/best_practices.md#proposals--glossary",
+      "category": "5-best-practices",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "RAG",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#rag-retrieval-augmented-generation",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "RAG",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#rag-retrieval-augmented-generation",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "Skills",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#skills",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Top Agent Frameworks",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#top-agent-frameworks",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Data & Analytics Agents",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#data--analytics-agents",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Model Collection",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#large-language-model-collection",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Model Context Protocol",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#model-context-protocol-mcp",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Coding",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/applications.md#coding",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Azure OpenAI & Foundry Overview",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#azure-openai--foundry-overview",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Agent Frameworks",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#agent-frameworks",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft 365 Agent Development",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#microsoft-365-agent-development",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Architecture Patterns & Use Cases",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/azure.md#architecture-patterns--use-cases",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Model Landscape",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#large-language-model-landscape",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Model Collection",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#large-language-model-collection",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "Multimodal Models",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#multimodal-models",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Model Collection",
+      "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/section/models_research.md#large-language-model-collection",
+      "category": "-start-here",
+      "source_url": "https://github.com/kimtth/azure-openai-llm-notes/blob/b6832a8e1d6d36c530760dc1ef74c771cee80e76/README.md#L172",
+      "line": 172,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 92,
+  "unique_links": 75,
+  "category_count": 7,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "kimtth",
+      "url": "https://github.com/kimtth",
+      "contributions": 99
+    },
+    {
+      "login": "mrkenzi",
+      "url": "https://github.com/mrkenzi",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 221,
+    "public_contributors": 2,
+    "observed_at": "2026-09-03T17:52:04.723094+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by kimtth/azure-openai-llm-notes contributors.",
+  "license": null,
+  "license_url": "https://github.com/kimtth/azure-openai-llm-notes/tree/b6832a8e1d6d36c530760dc1ef74c771cee80e76",
+  "digest": "a0aee8f6acdc0dbf54cddb7b4c3d86497ac1280fa2f4d40375e545326dfb5627"
+}

@@ -1,0 +1,1775 @@
+{
+  "format_version": 3,
+  "repository_id": "649635713",
+  "name": "XiaoxinHe/Awesome-Graph-LLM",
+  "revision": "1c15295842858c68b626e2de0e1aa26cda065920",
+  "readme_path": "README.md",
+  "readme_sha256": "7eb1f8edac5f1646fa631eada3f534ca4eac32f8f09da22ae6a257b12a0b1e71",
+  "sections": [
+    {
+      "id": "awesome-graph-llm",
+      "title": "Awesome-Graph-LLM",
+      "level": 1,
+      "path": [
+        "Awesome-Graph-LLM"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#awesome-graph-llm",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "datasets-benchmarks--surveys",
+      "title": "Datasets, Benchmarks & Surveys",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Datasets, Benchmarks & Surveys"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#datasets-benchmarks--surveys",
+      "entries": 28
+    },
+    {
+      "id": "prompting",
+      "title": "Prompting",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Prompting"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#prompting",
+      "entries": 8
+    },
+    {
+      "id": "general-graph-model",
+      "title": "General Graph Model",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "General Graph Model"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#general-graph-model",
+      "entries": 18
+    },
+    {
+      "id": "large-multimodal-models-lmms",
+      "title": "Large Multimodal Models (LMMs)",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Large Multimodal Models (LMMs)"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#large-multimodal-models-lmms",
+      "entries": 6
+    },
+    {
+      "id": "applications",
+      "title": "Applications",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#applications",
+      "entries": 0
+    },
+    {
+      "id": "basic-graph-reasoning",
+      "title": "Basic Graph Reasoning",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Basic Graph Reasoning"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#basic-graph-reasoning",
+      "entries": 9
+    },
+    {
+      "id": "node-classification",
+      "title": "Node Classification",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Node Classification"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#node-classification",
+      "entries": 24
+    },
+    {
+      "id": "knowledge-graph",
+      "title": "Knowledge Graph",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Knowledge Graph"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#knowledge-graph",
+      "entries": 31
+    },
+    {
+      "id": "molecular-graph",
+      "title": "Molecular Graph",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Molecular Graph"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#molecular-graph",
+      "entries": 8
+    },
+    {
+      "id": "graph-retrieval-augmented-generation-graphrag",
+      "title": "Graph Retrieval Augmented Generation (GraphRAG)",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Graph Retrieval Augmented Generation (GraphRAG)"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#graph-retrieval-augmented-generation-graphrag",
+      "entries": 17
+    },
+    {
+      "id": "planning",
+      "title": "Planning",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Planning"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#planning",
+      "entries": 3
+    },
+    {
+      "id": "multi-agent-systems",
+      "title": "Multi-Agent Systems",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Multi-Agent Systems"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#multi-agent-systems",
+      "entries": 6
+    },
+    {
+      "id": "graph-robustness",
+      "title": "Graph Robustness",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Graph Robustness"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#graph-robustness",
+      "entries": 3
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 3,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Applications",
+        "Others"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#others",
+      "entries": 19
+    },
+    {
+      "id": "resources--tools",
+      "title": "Resources & Tools",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Resources & Tools"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#resources--tools",
+      "entries": 4
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Contributing"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "star-history",
+      "title": "Star History",
+      "level": 2,
+      "path": [
+        "Awesome-Graph-LLM",
+        "Star History"
+      ],
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#star-history",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "paper",
+      "url": "https://aclanthology.org/2021.naacl-main.278/",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2305.10037",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.05499",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.04560",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "pdf",
+      "url": "https://arxiv.org/abs/2406.10310",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2311.07914v1",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2409.19667",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2407.07457",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.12072",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2302.06891",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.08011",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2311.12399",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2312.02783",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2407.00379",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.05298",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2305.15066",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "http://arxiv.org/abs/2308.14522",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.11829v1",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.11641",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2404.14928",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.05298v1",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2411.00369",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2412.19211",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2501.01124",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.00829",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.18771",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1570826824000301",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2505.14101",
+      "category": "datasets-benchmarks--surveys",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2305.09645",
+      "category": "prompting",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2404.07103",
+      "category": "prompting",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2308.09687",
+      "category": "prompting",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2305.12392",
+      "category": "prompting",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2308.08614",
+      "category": "prompting",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.03965v2",
+      "category": "prompting",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2401.14295",
+      "category": "prompting",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.07140",
+      "category": "prompting",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.00149",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.08170",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2408.14512",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.07197",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.16024",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2402.11235",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.13023",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.08785",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2308.07134",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.13630",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.12052",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2407.09709",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.16421",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.05862",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.12052",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2408.10700",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.10743",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2503.03313",
+      "category": "general-graph-model",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2309.13625",
+      "category": "large-multimodal-models-lmms",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.02130",
+      "category": "large-multimodal-models-lmms",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7cb04f510593c9ba30da398f5e0a7e7b-Paper-Conference.pdf",
+      "category": "large-multimodal-models-lmms",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://aclanthology.org/2024.acl-long.245/",
+      "category": "large-multimodal-models-lmms",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.00806",
+      "category": "large-multimodal-models-lmms",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.07478",
+      "category": "large-multimodal-models-lmms",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.16029",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openreview.net/forum?id=Y1r9yCMzeA",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2304.11116",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.01089",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.05845",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2409.20053",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.22597",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2410.19084",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.18032",
+      "category": "basic-graph-reasoning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2305.19523",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.04668",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/html/2402.12984v1",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.12022",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.07074",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2309.16595",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2401.15569",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.12022",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.09872",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.13902",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2307.03393",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.18152",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2311.14324",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.03720",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.15183",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.11945",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2407.13989",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2407.14996",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.07074",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.16882",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.11370",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2501.11478",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.00829",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.02296",
+      "category": "node-classification",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/21286",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2210.07128",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2210.10709",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2307.11772",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2307.07697",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.01061",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2404.03080",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.16412",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.06861",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.23875",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.14170",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2312.06185",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2309.15427",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2404.03868",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2408.15903",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://aclanthology.org/2024.acl-long.245/",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2401.06853",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2403.08593",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2308.09729",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2311.10112",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2304.09048",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2305.09858",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.16452",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2312.11539",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.05894",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2403.07311",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2404.00942",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.13873",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.01145",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2411.00028",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2501.14300",
+      "category": "knowledge-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2306.13089",
+      "category": "molecular-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2411.00871",
+      "category": "molecular-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2307.07443",
+      "category": "molecular-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.12950",
+      "category": "molecular-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.14021",
+      "category": "molecular-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.06777",
+      "category": "molecular-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.01032",
+      "category": "molecular-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.02198v1",
+      "category": "molecular-graph",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.07630",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.14831",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.20724",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openreview.net/forum?id=JSSeMdhsye",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2404.16130",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.18414",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.20139",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2408.08921",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.11001",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2501.00309",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2501.13958",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.01113",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2502.13562",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.09891",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.16660",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2503.01642",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.arxiv.org/abs/2503.04338",
+      "category": "graph-retrieval-augmented-generation-graphrag",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.19119",
+      "category": "planning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.02805",
+      "category": "planning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.07869",
+      "category": "planning",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.16823",
+      "category": "multi-agent-systems",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2406.07155",
+      "category": "multi-agent-systems",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.02506",
+      "category": "multi-agent-systems",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.11782",
+      "category": "multi-agent-systems",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.07373",
+      "category": "multi-agent-systems",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2502.18540",
+      "category": "multi-agent-systems",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2405.16405",
+      "category": "graph-robustness",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2408.08685",
+      "category": "graph-robustness",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2407.12068",
+      "category": "graph-robustness",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.11821",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2311.00423",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.17110",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2409.00159",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2412.08038",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.14684",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.03834",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2303.08819",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2305.14449",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2306.03763",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2310.01436",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2311.17330",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2311.09762",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.15301",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2402.01207",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2403.14358",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2407.15351",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2408.03910",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2410.19494",
+      "category": "others",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "GraphGPT: Extrapolating knowledge graphs from unstructured text using GPT-3",
+      "url": "https://github.com/varunshenoy/GraphGPT",
+      "category": "resources--tools",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "GraphML: Graph markup language",
+      "url": "https://cs.brown.edu/people/rtamassi/gdhandbook/chapters/graphml.pdf",
+      "category": "resources--tools",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "GML: Graph modelling language",
+      "url": "https://networkx.org/documentation/stable/reference/readwrite/gml.html",
+      "category": "resources--tools",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "PyG: GNNs + LLMs",
+      "url": "https://github.com/pyg-team/pytorch_geometric/tree/master/examples/llm",
+      "category": "resources--tools",
+      "source_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/blob/1c15295842858c68b626e2de0e1aa26cda065920/README.md#L251",
+      "line": 251,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 184,
+  "unique_links": 179,
+  "category_count": 14,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "XiaoxinHe",
+      "url": "https://github.com/XiaoxinHe",
+      "contributions": 45
+    },
+    {
+      "login": "WxxShirley",
+      "url": "https://github.com/WxxShirley",
+      "contributions": 4
+    },
+    {
+      "login": "erwanlemerrer",
+      "url": "https://github.com/erwanlemerrer",
+      "contributions": 3
+    },
+    {
+      "login": "ernlavr",
+      "url": "https://github.com/ernlavr",
+      "contributions": 2
+    },
+    {
+      "login": "karthiksoman",
+      "url": "https://github.com/karthiksoman",
+      "contributions": 2
+    },
+    {
+      "login": "Leirunlin",
+      "url": "https://github.com/Leirunlin",
+      "contributions": 2
+    },
+    {
+      "login": "GeYuYao-hub",
+      "url": "https://github.com/GeYuYao-hub",
+      "contributions": 1
+    },
+    {
+      "login": "israwal",
+      "url": "https://github.com/israwal",
+      "contributions": 1
+    },
+    {
+      "login": "MoritzPlenz",
+      "url": "https://github.com/MoritzPlenz",
+      "contributions": 1
+    },
+    {
+      "login": "samridh3215",
+      "url": "https://github.com/samridh3215",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 145,
+    "public_contributors": 14,
+    "observed_at": "2026-09-03T17:44:34.794889+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by XiaoxinHe/Awesome-Graph-LLM contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/XiaoxinHe/Awesome-Graph-LLM/tree/1c15295842858c68b626e2de0e1aa26cda065920",
+  "digest": "0edd1d06b1996c717bdd4bec406f4671a289be165c35dd708f148f072f228a71"
+}

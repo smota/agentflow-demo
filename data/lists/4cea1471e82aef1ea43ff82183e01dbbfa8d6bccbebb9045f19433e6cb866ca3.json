@@ -1,0 +1,2854 @@
+{
+  "format_version": 3,
+  "repository_id": "947031523",
+  "name": "heshuting555/Awesome-3DGS-Applications",
+  "revision": "ca2230a4381b2d255b0761dc9a4465890edbaf10",
+  "readme_path": "README.md",
+  "readme_sha256": "d1bb48551f0aa158e8d7779c1895669a11a406f73114fe7c5b1e1d1bb0b1e397",
+  "sections": [
+    {
+      "id": "-a-survey-on-3d-gaussian-splatting-applications-segmentation-editing-and-generation",
+      "title": "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+      "level": 1,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-a-survey-on-3d-gaussian-splatting-applications-segmentation-editing-and-generation",
+      "entries": 0
+    },
+    {
+      "id": "-introduction",
+      "title": "✨ Introduction",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "✨ Introduction"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-introduction",
+      "entries": 0
+    },
+    {
+      "id": "-table-of-contents",
+      "title": "📚 Table of Contents",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "📚 Table of Contents"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "-existing-datasets-for-3dgs-segmentation",
+      "title": "✂️ Existing Datasets for 3DGS Segmentation",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "✂️ Existing Datasets for 3DGS Segmentation"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-existing-datasets-for-3dgs-segmentation",
+      "entries": 11
+    },
+    {
+      "id": "-existing-datasets-for-3dgs-editing",
+      "title": "🗂️ Existing Datasets for 3DGS Editing",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "🗂️ Existing Datasets for 3DGS Editing"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-existing-datasets-for-3dgs-editing",
+      "entries": 13
+    },
+    {
+      "id": "-existing-datasets-for-3dgs-generation",
+      "title": "🧩 Existing Datasets for 3DGS Generation",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "🧩 Existing Datasets for 3DGS Generation"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-existing-datasets-for-3dgs-generation",
+      "entries": 13
+    },
+    {
+      "id": "-existing-methods-for-3dgs-segmentation",
+      "title": "🛠️ Existing Methods for 3DGS Segmentation",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "🛠️ Existing Methods for 3DGS Segmentation"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-existing-methods-for-3dgs-segmentation",
+      "entries": 71
+    },
+    {
+      "id": "-existing-methods-for-3dgs-editing",
+      "title": "✏️ Existing Methods for 3DGS Editing",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "✏️ Existing Methods for 3DGS Editing"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-existing-methods-for-3dgs-editing",
+      "entries": 78
+    },
+    {
+      "id": "-existing-methods-for-3dgs-generation",
+      "title": "🎨 Existing Methods for 3DGS Generation",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "🎨 Existing Methods for 3DGS Generation"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-existing-methods-for-3dgs-generation",
+      "entries": 106
+    },
+    {
+      "id": "other-application-tasks",
+      "title": "🎖Other Application Tasks",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "🎖Other Application Tasks"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#other-application-tasks",
+      "entries": 0
+    },
+    {
+      "id": "human-avatar",
+      "title": "Human Avatar",
+      "level": 3,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "🎖Other Application Tasks",
+        "Human Avatar"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#human-avatar",
+      "entries": 15
+    },
+    {
+      "id": "slam",
+      "title": "SLAM",
+      "level": 3,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "🎖Other Application Tasks",
+        "SLAM"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#slam",
+      "entries": 12
+    },
+    {
+      "id": "3dgs-detection",
+      "title": "3DGS Detection",
+      "level": 3,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "🎖Other Application Tasks",
+        "3DGS Detection"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#3dgs-detection",
+      "entries": 7
+    },
+    {
+      "id": "-related-survey",
+      "title": "⛳ Related Survey",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "⛳ Related Survey"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-related-survey",
+      "entries": 0
+    },
+    {
+      "id": "-citation",
+      "title": "📢 Citation",
+      "level": 2,
+      "path": [
+        "🔍 A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "📢 Citation"
+      ],
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#-citation",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "ScanNet",
+      "url": "https://arxiv.org/abs/1702.04405",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Replica",
+      "url": "https://arxiv.org/pdf/1906.05797",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "NVOS",
+      "url": "https://arxiv.org/abs/2103.05606",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Mip-NeRF 360",
+      "url": "https://arxiv.org/abs/2111.12077",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "SPIn-NeRF",
+      "url": "https://arxiv.org/abs/2211.12254",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "3D-OVS",
+      "url": "https://arxiv.org/abs/2305.14093",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "LERF-OVS",
+      "url": "https://arxiv.org/abs/2312.16084",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "LERF-Mask",
+      "url": "https://arxiv.org/abs/2312.00732",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Ref-LERF",
+      "url": "https://openreview.net/forum?id=reuShgiHdg",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "SceneSplat-7K",
+      "url": "https://arxiv.org/abs/2503.18052",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "SceneSplat-49K",
+      "url": "https://arxiv.org/abs/2506.08710",
+      "category": "-existing-datasets-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "DTU",
+      "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Jensen_Large_Scale_Multi-view_2014_CVPR_paper.html",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Tanks and Temples",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3072959.3073599",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "GL3D",
+      "url": "https://arxiv.org/abs/1811.10343",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "LLFF",
+      "url": "https://arxiv.org/abs/1905.00889",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "BlendedMVS",
+      "url": "https://arxiv.org/abs/1911.10127",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "NeRF-synthetic",
+      "url": "https://arxiv.org/abs/2003.08934",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Co3D",
+      "url": "https://arxiv.org/abs/2109.00512",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Mip-NeRF360",
+      "url": "https://arxiv.org/abs/2111.12077",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "SPIn-NeRF",
+      "url": "https://arxiv.org/abs/2211.12254",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "IN2N",
+      "url": "https://arxiv.org/abs/2303.12789",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "ScanNet++",
+      "url": "https://arxiv.org/abs/2308.11417",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "NeRFstudio",
+      "url": "https://arxiv.org/abs/2302.04264",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "360-USIDdataset",
+      "url": "https://openreview.net/forum?id=AMVLOv30Qg",
+      "category": "-existing-datasets-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "NYUdepth",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L99",
+      "line": 99,
+      "properties": {
+        "#Type": "Image-to-3D"
+      }
+    },
+    {
+      "title": "ShapeNet",
+      "url": "https://arxiv.org/abs/1512.03012",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L100",
+      "line": 100,
+      "properties": {
+        "#Type": "Image & Text-to-3D"
+      }
+    },
+    {
+      "title": "ScanNet",
+      "url": "https://arxiv.org/abs/1702.04405",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L101",
+      "line": 101,
+      "properties": {
+        "#Type": "Image-to-3D"
+      }
+    },
+    {
+      "title": "RealEstate10K",
+      "url": "https://arxiv.org/abs/1805.09817",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L102",
+      "line": 102,
+      "properties": {
+        "#Type": "Image-to-3D"
+      }
+    },
+    {
+      "title": "Replica",
+      "url": "https://arxiv.org/pdf/1906.05797",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L103",
+      "line": 103,
+      "properties": {
+        "#Type": "Image-to-3D"
+      }
+    },
+    {
+      "title": "ACID",
+      "url": "https://arxiv.org/abs/2012.09855",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L104",
+      "line": 104,
+      "properties": {
+        "#Type": "Image-to-3D"
+      }
+    },
+    {
+      "title": "GSO",
+      "url": "https://arxiv.org/abs/2204.11918",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L105",
+      "line": 105,
+      "properties": {
+        "#Type": "Image & Text-to-3D"
+      }
+    },
+    {
+      "title": "LAION-5B",
+      "url": "https://arxiv.org/abs/2210.08402",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L106",
+      "line": 106,
+      "properties": {
+        "#Type": "Text-to-3D"
+      }
+    },
+    {
+      "title": "Objaverse",
+      "url": "https://arxiv.org/abs/2212.08051",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L107",
+      "line": 107,
+      "properties": {
+        "#Type": "Image & Text-to-3D"
+      }
+    },
+    {
+      "title": "OmniObject3D",
+      "url": "https://arxiv.org/abs/2301.07525",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L108",
+      "line": 108,
+      "properties": {
+        "#Type": "Image-to-3D"
+      }
+    },
+    {
+      "title": "LOM",
+      "url": "https://arxiv.org/abs/2312.09093",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L109",
+      "line": 109,
+      "properties": {
+        "#Type": "Image-to-3D"
+      }
+    },
+    {
+      "title": "G-objaverse",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72684-2_4",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L110",
+      "line": 110,
+      "properties": {
+        "#Type": "Image & Text-to-3D"
+      }
+    },
+    {
+      "title": "DL3DV-10K",
+      "url": "https://dl3dv-10k.github.io/DL3DV-10K/",
+      "category": "-existing-datasets-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L111",
+      "line": 111,
+      "properties": {
+        "#Type": "Image-to-3D"
+      }
+    },
+    {
+      "title": "Segment Anything in 3D with Radiance Fields",
+      "url": "http://arxiv.org/abs/2304.12308",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "DCSEG: Decoupled 3D Open-Set Segmentation using Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2412.10972",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "SuperGSeg: Open-Vocabulary 3D Segmentation with Structured Super-Gaussians",
+      "url": "http://arxiv.org/abs/2412.10231",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Point Cloud Unsupervised Pre-training via 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2411.18667",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "SAGD: Boundary-Enhanced Segment Anything in 3D Gaussian via Gaussian Decomposition",
+      "url": "https://arxiv.org/abs/2401.17857",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "CLIP-GS: CLIP-Informed Gaussian Splatting for Real-time and View-consistent 3D Semantic Understanding",
+      "url": "http://arxiv.org/abs/2404.14249",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "GSemSplat: Generalizable Semantic 3D Gaussian Splatting from Uncalibrated Image Pairs",
+      "url": "http://arxiv.org/abs/2412.16932",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2403.15624",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Learning Segmented 3D Gaussians via Efficient Feature Unprojection for Zero-shot Neural Scene Segmentation",
+      "url": "http://arxiv.org/abs/2405.18033",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "LangSurf: Language-Embedded Surface Gaussians for 3D Scene Understanding",
+      "url": "https://arxiv.org/abs/2412.17635",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision",
+      "url": "http://arxiv.org/abs/2412.00392",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "GLS: Geometry-aware 3D Language Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2411.18066",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Gaga: Group Any Gaussians via 3D-aware Memory Bank",
+      "url": "https://arxiv.org/abs/2404.07977",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Segment Any 4D Gaussians",
+      "url": "https://arxiv.org/abs/2407.04504",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "LangSplat: 3D Language Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2312.16084",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "OmniSeg3D: Omniversal 3D Segmentation via Hierarchical Contrastive Learning",
+      "url": "https://arxiv.org/abs/2311.11666",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields",
+      "url": "http://arxiv.org/abs/2312.03203",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding",
+      "url": "http://arxiv.org/abs/2311.18482",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "GOI: Find 3D Gaussians of Interest with an Optimizable Open-vocabulary Semantic-space Hyperplane",
+      "url": "http://arxiv.org/abs/2405.17596",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "FMGS: Foundation Model Embedded 3D Gaussian Splatting for Holistic 3D Scene Understanding",
+      "url": "http://arxiv.org/abs/2401.01970",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Gaussian Grouping: Segment and Edit Anything in 3D Scenes",
+      "url": "https://arxiv.org/abs/2312.00732",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "EgoLifter: Open-world 3D Segmentation for Egocentric Perception",
+      "url": "http://arxiv.org/abs/2403.18118",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Click-Gaussian: Interactive Segmentation to Any 3D Gaussians",
+      "url": "https://arxiv.org/abs/2407.11793",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Improving 2D Feature Representations by 3D-Aware Fine-Tuning",
+      "url": "http://arxiv.org/abs/2407.20229",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "N2F2: Hierarchical Scene Understanding with Nested Neural Feature Fields",
+      "url": "https://arxiv.org/abs/2403.10997",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "FlashSplat: 2D to 3D Gaussian Splatting Segmentation Solved Optimally",
+      "url": "http://arxiv.org/abs/2409.08270",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2411.07555",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "OpenGaussian: Towards Point-Level 3D Gaussian-based Open Vocabulary Understanding",
+      "url": "http://arxiv.org/abs/2406.02058",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Large Spatial Model: End-to-end Unposed Images to Semantic 3D",
+      "url": "https://arxiv.org/abs/2410.18956",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "Contrastive Gaussian Clustering: Weakly Supervised 3D Scene Segmentation",
+      "url": "https://arxiv.org/abs/2404.12784",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "RT-GS2: Real-Time Generalizable Semantic Segmentation for 3D Gaussian Representations of Radiance Fields",
+      "url": "http://arxiv.org/abs/2405.18033",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "Training-Free Hierarchical Scene Understanding for Gaussian Splatting with Superpoint Graphs",
+      "url": "https://arxiv.org/abs/2504.13153",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "SemanticSplat: Feed-Forward 3D Scene Understanding with Language-Aware Gaussian Fields",
+      "url": "https://arxiv.org/abs/2506.09565",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "FMLGS: Fast Multilevel Language Embedded Gaussians for Part-level Interactive Agents",
+      "url": "https://arxiv.org/abs/2504.08581",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Semantic Consistent Language Gaussian Splatting for Point-Level Open-vocabulary Querying",
+      "url": "https://arxiv.org/abs/2503.21767",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "CAGS: Open-Vocabulary 3D Scene Understanding with Context-Aware Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2504.11893",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "SpatialSplat: Efficient Semantic 3D from Sparse Unposed Images",
+      "url": "https://arxiv.org/abs/2505.23044",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "Segment Any 3D Gaussians",
+      "url": "https://arxiv.org/abs/2312.00860",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "FastLGS: Speeding up Language Embedded Gaussians with Feature Grid Mapping",
+      "url": "http://arxiv.org/abs/2406.01916",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Bootstraping clustering of gaussians for view-consistent 3d scene understanding",
+      "url": "https://arxiv.org/abs/2411.19551",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "3D Vision-Language Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2410.07577",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "econSG: Efficient and Multi-view Consistent Open-Vocabulary 3D Semantic Gaussians",
+      "url": "https://arxiv.org/abs/2504.06003",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2503.14029",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "COB-GS: Clear Object Boundaries in 3DGS Segmentation Based on Boundary-Adaptive Gaussian Splitting",
+      "url": "https://arxiv.org/abs/2503.19443",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "PanoGS: Gaussian-based Panoptic Segmentation for 3D Open Vocabulary Scene Understanding",
+      "url": "https://arxiv.org/abs/2503.18107",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Dr. Splat: Directly Referring 3D Gaussian Splatting via Direct Language Embedding Registration",
+      "url": "https://arxiv.org/abs/2502.16652",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Decoupled Feature 3D Gaussian Splatting via Hierarchical Compression",
+      "url": "https://cvpr.thecvf.com/virtual/2025/poster/34457",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "InstanceGaussian: Appearance-Semantic Joint Gaussian Representation for 3D Instance-Level Perception",
+      "url": "https://arxiv.org/abs/2411.19235",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "iSegMan: Interactive Segment-and-Manipulate 3D Gaussians",
+      "url": "https://arxiv.org/abs/2505.11934",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "Identity-aware Language Gaussian Splatting for Open-vocabulary 3D Semantic Segmentation",
+      "url": "https://iccv.thecvf.com/virtual/2025/poster/2029",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "VoteSplat: Hough Voting Gaussian Splatting for 3D Scene Understanding",
+      "url": "https://arxiv.org/abs/2506.22799",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "SceneSplat: Gaussian Splatting-based Scene Understanding with Vision-Language Pretraining",
+      "url": "https://arxiv.org/abs/2503.18052",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "ObjectGS: Object-aware Scene Reconstruction and Scene Understanding via Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2507.15454",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2505.20469",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "LUDVIG: Learning-free uplifting of 2d visual features to Gaussian splatting scenes",
+      "url": "https://arxiv.org/abs/2410.14462",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "LangScene-X: Reconstruct Generalizable 3D Language-Embedded Scenes with TriMap Video Diffusion",
+      "url": "https://arxiv.org/abs/2507.02813",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "SLGaussian: Fast Language Gaussian Splatting in Sparse Views",
+      "url": "http://arxiv.org/abs/2412.08331",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "MaskGaussians: Advancing Open-Vocabulary 3D Scene Understanding with Dynamic Masking",
+      "url": "https://dl.acm.org/doi/10.1145/3728486.3759210",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Segment then Splat: A Unified Approach for 3D Open-Vocabulary Segmentation based on Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2503.22204",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "High-dimensional 3D Language Gaussian Splatting with 450+ FPS",
+      "url": "https://arxiv.org/abs/2507.07136",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "COS3D: Collaborative Open-Vocabulary 3D Segmentation NeurIPS",
+      "url": "https://arxiv.org/abs/2510.20238",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond Feature Alignment",
+      "url": "https://arxiv.org/abs/2507.02705",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "GaussianBeV: 3D Gaussian Representation meets Perception Models for BeV Segmentation",
+      "url": "http://arxiv.org/abs/2407.14108",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Lifting by Gaussians: A Simple, Fast and Flexible Method for 3D Instance Segmentation",
+      "url": "https://arxiv.org/abs/2502.00173",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Evolving Semantic Propagation for Aerial Semantic 3D Gaussian Splatting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/42418",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "ID-Splat: Propagating Object Identities for Segmenting 3D Aerial-view Scenes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37995",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "UniC-Lift: Unified 3D Instance Segmentation via Contrastive Learning",
+      "url": "https://arxiv.org/abs/2512.24763",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Binary-Gaussian: Compact and Progressive Representation for 3D Gaussian Segmentation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38142",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "IQGS: Instance Query-based Gaussian Segmentation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/42415",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2510.16410",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "ReLaGS: Relational Language Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2603.17605",
+      "category": "-existing-methods-for-3dgs-segmentation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Gaussianvton: 3d human virtual try-on via multi-stage gaussian splatting editing with image prompting",
+      "url": "https://arxiv.org/abs/2405.07472",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "InFusion: Inpainting 3D Gaussians via Learning Depth Completion from Diffusion Prior",
+      "url": "http://arxiv.org/abs/2404.11613",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "Stylesplat: 3d object style transfer with gaussian splatting",
+      "url": "https://arxiv.org/abs/2407.09473",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Stylizedgs: Controllable stylization for 3d gaussian splatting",
+      "url": "https://arxiv.org/abs/2404.05220",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "TIGER: Text-Instructed 3D Gaussian Retrieval and Coherent Editing",
+      "url": "http://arxiv.org/abs/2405.14455",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "360-InpaintR: Reference-Guided 3D Inpainting for Unbounded Scenes",
+      "url": "https://openreview.net/pdf/ee332494bcd7f9e4b66494d65eb850f61e9a0b43.pdf",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "3dsceneeditor: Controllable 3d scene editing with gaussian splatting",
+      "url": "https://arxiv.org/abs/2412.01583",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "Diffusion-Based Attention Warping for Consistent 3D Scene Editing",
+      "url": "https://arxiv.org/abs/2412.07984",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "DynamicAvatars: Accurate Dynamic Facial Avatars Reconstruction and Precise Editing with Diffusion Models",
+      "url": "https://arxiv.org/abs/2411.15732",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "Gaussian splatting in style",
+      "url": "https://arxiv.org/abs/2403.08498",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Gsedit: Efficient text-guided editing of 3d objects via gaussian splatting",
+      "url": "https://arxiv.org/abs/2403.05154",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "GS-VTON: Controllable 3D Virtual Try-on with Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2410.05259",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Ice-g: Image conditional editing of 3d gaussian splats",
+      "url": "https://arxiv.org/abs/2406.08488",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Instantstylegaussian: Efficient art style transfer with 3d gaussian splatting",
+      "url": "https://arxiv.org/abs/2408.04249",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "MvDrag3D: Drag-based Creative 3D Editing via Multi-view Generation-Reconstruction Priors",
+      "url": "https://arxiv.org/abs/2410.16272",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Neural Surface Priors for Editable Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2411.18311",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "PERSE: Personalized 3D Generative Avatars from A Single Portrait",
+      "url": "https://arxiv.org/abs/2412.21206",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "ProGDF: Progressive Gaussian Differential Field for Controllable and Flexible 3D Editing",
+      "url": "https://arxiv.org/abs/2412.08152",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Reffusion: Reference adapted diffusion models for 3d scene inpainting",
+      "url": "https://arxiv.org/abs/2404.10765",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Gaussianeditor: Swift and controllable 3d editing with gaussian splatting",
+      "url": "https://arxiv.org/abs/2311.14521",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions",
+      "url": "https://arxiv.org/abs/2311.16037",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics",
+      "url": "https://arxiv.org/abs/2311.12198",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes",
+      "url": "https://arxiv.org/abs/2312.14937",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "FruitNinja: 3D Object Interior Texture Generation with Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2411.12089",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Gaussian grouping: Segment and edit anything in 3d scenes",
+      "url": "https://arxiv.org/abs/2312.00732",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Texture-GS: Disentangling the Geometry and Texture for 3D Gaussian Splatting Editing",
+      "url": "http://arxiv.org/abs/2403.10050",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing",
+      "url": "http://arxiv.org/abs/2403.08733",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "3DEgo: 3D Editing on the Go!",
+      "url": "https://arxiv.org/pdf/2407.10102",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Dge: Direct gaussian 3d editing by consistent multi-view editing",
+      "url": "https://arxiv.org/abs/2404.18929",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Learning 3D Geometry and Feature Consistent Gaussian Splatting for Object Removal",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72646-0_1",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "View-consistent 3d editing with gaussian splatting",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72761-0_23",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Wast-3d: Wasserstein-2 distance for scene-to-scene stylization on 3d gaussians",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72664-4_17",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "ReGS: Reference-based Controllable Scene Stylization with Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2407.07220",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "ProEdit: Simple Progression is All You Need for High-Quality 3D Scene Editing",
+      "url": "https://arxiv.org/abs/2411.05006",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "D-miso: Editing dynamic 3d scenes using multi-gaussians soup",
+      "url": "https://arxiv.org/abs/2405.14276",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "GSEditPro: 3D Gaussian Splatting Editing with Attention‐based Progressive Localization",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15215",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "𝒢‐Style: Stylized Gaussian Splatting",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15259",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Tip-editor: An accurate 3d editor following both text-prompts and image-prompts",
+      "url": "https://arxiv.org/abs/2401.14828",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2404.13679",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "SemanticSplatStylization: Semantic scene stylization based on 3D Gaussian splatting and class-based style transfer",
+      "url": "https://diglib.eg.org/items/66f69bdd-e664-45cf-b349-46728135847e",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "3D Gaussian Editing with A Single Image",
+      "url": "https://arxiv.org/abs/2408.07540",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "GGAvatar: Reconstructing Garment-Separated 3D Gaussian Splatting Avatars from Monocular Video",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3696409.3700241",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "Point'n Move: Interactive scene object manipulation on Gaussian splatting radiance fields",
+      "url": "https://arxiv.org/abs/2311.16737",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing Temporal Consistency in Video Editing by Reconstructing Videos with 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2406.02541",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Portrait video editing empowered by multimodal generative priors",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3680528.3687601",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Drag Your Gaussian: Effective Drag-Based Editing with Score Distillation for 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2501.18672",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Dragen3D: Multiview Geometry Consistent 3D Gaussian Generation with Drag-Based Control",
+      "url": "https://arxiv.org/abs/2502.16475",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "MultiDreamer3D: Multi-concept 3D Customization with Concept-Aware Diffusion Guidance",
+      "url": "https://arxiv.org/abs/2501.13449",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Prompt-Softbox-Prompt: A free-text Embedding Control for Image Editing",
+      "url": "https://arxiv.org/abs/2408.13623",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation",
+      "url": "https://arxiv.org/abs/2407.11394",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "3DitScene: Editing Any Scene via Language-guided Disentangled Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2405.18424",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities",
+      "url": "https://arxiv.org/abs/2412.16604",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "DaCapo: Score Distillation as Stacked Bridge for Fast and High-quality 3D Editing",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DaCapo_Score_Distillation_as_Stacked_Bridge_for_Fast_and_High-quality_CVPR_2025_paper.html",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "CTRL-D: Controllable Dynamic 3D Scene Editing with Personalized 2D Diffusion",
+      "url": "https://arxiv.org/abs/2412.01792",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "InterGSEdit: Interactive 3D Gaussian Splatting Editing with 3D Geometry-Consistent Attention Prior",
+      "url": "https://arxiv.org/abs/2507.04961",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "EditSplat: Multi-View Fusion and Attention-Guided Optimization for View-Consistent 3D Scene Editing with 3D Gaussian Splatting",
+      "url": "http://arxiv.org/abs/2412.11520",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "SGSST: Scaling Gaussian Splatting StyleTransfer",
+      "url": "https://arxiv.org/abs/2412.03371",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Diffusion Feature Field for Text-based 3D Editing with Gaussian Splatting",
+      "url": "https://neurips.cc/virtual/2025/poster/118619",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "CLIPGaussian: Universal and Multimodal Style Transfer Based on Gaussian Splatting",
+      "url": "https://neurips.cc/virtual/2025/poster/116356",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "DEGauss: Defending Against Malicious 3D Editing for Gaussian Splatting",
+      "url": "https://neurips.cc/virtual/2025/poster/118529",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "Pro3D-Editor : A Progressive-Views Perspective for Consistent and Precise 3D Editing",
+      "url": "https://arxiv.org/abs/2506.00512",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Styl3R: Instant 3D Stylized Reconstruction for Arbitrary Scenes and Styles",
+      "url": "https://arxiv.org/abs/2505.21060",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "ArtNVG: Content-Style Separated Artistic Neighboring-View Gaussian Stylization",
+      "url": "https://arxiv.org/abs/2412.18783",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "ABC-GS: Alignment-Based Controllable Style Transfer for 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2505.15208",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "Robust 3D-Masked Part-level Editing in 3D Gaussian Splatting with Regularized Score Distillation Sampling",
+      "url": "https://arxiv.org/abs/2507.11061",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "Perspective-aware 3D Gaussian Inpainting with Multi-view Consistency",
+      "url": "https://arxiv.org/abs/2510.10993",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "A<sup>3</sup>GS: Arbitrary Artistic Style into Arbitrary 3D Gaussian Splatting",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fang_A3GS_Arbitrary_Artistic_Style_into_Arbitrary_3D_Gaussian_Splatting_ICCV_2025_paper.pdf",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "3DGS-Drag: Dragging gaussians for intuitive point-based 3D editing",
+      "url": "https://arxiv.org/pdf/2601.07963",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "Trame: Trajectory-anchored multi-view editing for text-guided 3d gaussian splatting manipulation",
+      "url": "https://arxiv.org/abs/2407.02034",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Localized Gaussian Splatting Editing with Contextual Awareness",
+      "url": "https://arxiv.org/abs/2408.00083",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "MLP Splatting: Object-Centric Neural Fields",
+      "url": "https://arxiv.org/abs/2606.03877",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2510.16410",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "GT²-GS: Geometry-aware Texture Transfer for Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2505.15208",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "GPGS: Consistent 3D Object Removal via Geometry-Aware 3D Inpainting and Projected Image Refnement in 3D Gaussian Splatting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37515",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "GS-Checker: Tampering Localization for 3D Gaussian Splatting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/42455",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "FantasyStyle: Controllable Stylized Distillation for 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2508.08136",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Stylos: Multi-View 3D Stylization with Single-Forward Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2509.26455",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "DiffStyle3D: Consistent 3D Gaussian Stylization via Attention Optimization",
+      "url": "https://arxiv.org/pdf/2601.19717",
+      "category": "-existing-methods-for-3dgs-editing",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Luciddreamer: Domain-free generation of 3d gaussian splatting scenes",
+      "url": "https://arxiv.org/abs/2311.13384",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Stabledreamer: taming noisy score distillation sampling for text-to-3d",
+      "url": "https://arxiv.org/abs/2312.02189",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "Cg3d: Compositional generation for text-to-3d via gaussian splatting",
+      "url": "https://arxiv.org/abs/2311.17907",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "Text2immersion: Generative immersive scene with 3d gaussians",
+      "url": "https://arxiv.org/abs/2312.09242",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "Text2room: Extracting textured 3d meshes from 2d text-to-image models",
+      "url": "http://openaccess.thecvf.com/content/ICCV2023/html/Hollein_Text2Room_Extracting_Textured_3D_Meshes_from_2D_Text-to-Image_Models_ICCV_2023_paper.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "Gaussiandreamerpro: Text to manipulable 3d gaussians with highly enhanced quality",
+      "url": "https://arxiv.org/abs/2406.18462",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "CompGS: Unleashing 2D Compositionality for Compositional Text-to-3D via Dynamically Optimizing 3D Gaussians",
+      "url": "https://arxiv.org/abs/2410.20723",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Graph Canvas for Controllable 3D Scene Generation",
+      "url": "https://arxiv.org/abs/2412.00091",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Layerpano3d: Layered 3d panorama for hyper-immersive scene generation",
+      "url": "https://arxiv.org/abs/2408.13252",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "Scenedreamer360: Text-driven 3d-consistent scene generation with panoramic gaussian splatting",
+      "url": "https://arxiv.org/abs/2408.13711",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "Dreamer XL: Towards High-Resolution Text-to-3D Generation via Trajectory Score Matching",
+      "url": "https://arxiv.org/abs/2405.11252",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "MVGaussian: High-Fidelity text-to-3D Content Generation with Multi-View Guidance and Surface Densification",
+      "url": "https://arxiv.org/abs/2409.06620",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "GradeADreamer: Enhanced Text-to-3D Generation Using Gaussian Splatting and Multi-View Diffusion",
+      "url": "https://arxiv.org/abs/2406.09850",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "PanoDreamer: 3D Panorama Synthesis from a Single Image",
+      "url": "https://arxiv.org/abs/2412.04827",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "ScalingGaussian: Enhancing 3D Content Creation with Generative Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2407.19035",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Physics3d: Learning physical properties of 3d gaussians via video diffusion",
+      "url": "https://arxiv.org/abs/2406.04338",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing Single Image to 3D Generation using Gaussian Splatting and Hybrid Diffusion Priors",
+      "url": "https://arxiv.org/abs/2410.09467",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "GECO: Generative Image-to-3D within a SECOnd",
+      "url": "https://arxiv.org/abs/2405.20327",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "Dreamphysics: Learning physical properties of dynamic 3d gaussians with video diffusion priors",
+      "url": "https://arxiv.org/abs/2406.01476",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "GaussianPainter: Painting Point Cloud into 3D Gaussians with Normal Guidance",
+      "url": "https://arxiv.org/abs/2412.17715",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "Gaussianstego: A generalizable stenography pipeline for generative 3d gaussians splatting",
+      "url": "https://arxiv.org/abs/2407.01301",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "GeoGS3D: Single-view 3D Reconstruction via Geometric-aware Diffusion Model and Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2403.10242",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "NovelGS: Consistent Novel-view Denoising via Large Gaussian Reconstruction Model",
+      "url": "https://arxiv.org/abs/2411.16779",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Holodreamer: Holistic 3d panoramic world generation from text descriptions",
+      "url": "https://arxiv.org/abs/2407.15187",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "Brightdreamer: Generic 3d gaussian generative framework for fast text-to-3d synthesis",
+      "url": "https://arxiv.org/abs/2403.11273",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "Flex3d: Feed-forward 3d generation with flexible reconstruction model and input view curation",
+      "url": "https://arxiv.org/abs/2410.00890",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "Text-to-3D Gaussian Splatting with Physics-Grounded Motion Generation",
+      "url": "https://arxiv.org/abs/2412.05560",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "DreamScape: 3D Scene Creation via Gaussian Splatting joint Correlation Modeling",
+      "url": "https://arxiv.org/abs/2404.09227",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "Dreampolisher: Towards high-quality text-to-3d generation via geometric diffusion",
+      "url": "https://arxiv.org/abs/2403.17237",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "Prometheus: 3D-Aware Latent Diffusion Models for Feed-Forward Text-to-3D Scene Generation",
+      "url": "https://arxiv.org/abs/2412.21117",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "DreamMapping: High-Fidelity Text-to-3D Generation via Variational Distribution Mapping",
+      "url": "https://arxiv.org/abs/2409.05099",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "Dreamgaussian: Generative gaussian splatting for efficient 3d content creation",
+      "url": "https://arxiv.org/abs/2309.16653",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "Text-to-3d using gaussian splatting",
+      "url": "http://openaccess.thecvf.com/content/CVPR2024/html/Chen_Text-to-3D_using_Gaussian_Splatting_CVPR_2024_paper.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "Gaussiandreamer: Fast generation from text to 3d gaussians by bridging 2d and 3d diffusion models",
+      "url": "http://openaccess.thecvf.com/content/CVPR2024/html/Yi_GaussianDreamer_Fast_Generation_from_Text_to_3D_Gaussians_by_Bridging_CVPR_2024_paper.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "Humangaussian: Text-driven 3d human generation with gaussian splatting",
+      "url": "http://openaccess.thecvf.com/content/CVPR2024/html/Liu_HumanGaussian_Text-Driven_3D_Human_Generation_with_Gaussian_Splatting_CVPR_2024_paper.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "Luciddreamer: Towards high-fidelity text-to-3d generation via interval score matching",
+      "url": "http://openaccess.thecvf.com/content/CVPR2024/html/Liang_LucidDreamer_Towards_High-Fidelity_Text-to-3D_Generation_via_Interval_Score_Matching_CVPR_2024_paper.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "Wonderjourney: Going from anywhere to everywhere",
+      "url": "http://openaccess.thecvf.com/content/CVPR2024/html/Yu_WonderJourney_Going_from_Anywhere_to_Everywhere_CVPR_2024_paper.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "Hash3d: Training-free acceleration for 3d generation",
+      "url": "https://arxiv.org/abs/2404.06091",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "Triplane meets gaussian splatting: Fast and generalizable single-view 3d reconstruction with transformers",
+      "url": "http://openaccess.thecvf.com/content/CVPR2024/html/Zou_Triplane_Meets_Gaussian_Splatting_Fast_and_Generalizable_Single-View_3D_Reconstruction_CVPR_2024_paper.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "Ouroboros3d: Image-to-3d generation via 3d-aware recursive diffusion",
+      "url": "https://arxiv.org/abs/2406.03184",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "Art3d: 3d gaussian splatting for text-guided artistic scenes generation",
+      "url": "https://arxiv.org/abs/2405.10508",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "Connecting consistency distillation to score distillation for text-to-3d generation",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72775-7_16",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "Dreamscene: 3d gaussian-based text-to-3d scene generation via formation pattern sampling",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72904-1_13",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "Dreamscene360: Unconstrained text-to-3d scene generation with panoramic gaussian splatting",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72658-3_19",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Vfusion3d: Learning scalable 3d generative models from video diffusion models",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72627-9_19",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Lgm: Large multi-view gaussian model for high-resolution 3d content creation",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-73235-5_1",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Gvgen: Text-to-3d generation with volumetric representation",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-73242-3_26",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Fsgs: Real-time few-shot view synthesis using gaussian splatting",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72933-1_9",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "Gs-lrm: Large reconstruction model for 3d gaussian splatting",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-72670-5_1",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "Grm: Large gaussian reconstruction model for efficient 3d reconstruction and generation",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-72633-0_1.pdf",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "Era3d: high-resolution multiview diffusion using efficient row-wise attention",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/65a723bf7d8dad838c09178270d30e80-Abstract-Conference.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "Wild-gs: Real-time novel view synthesis from unconstrained photo collections",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/bb11f79ad86f5e33e2a7c850cbdfed42-Abstract-Conference.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "Prolificdreamer: High-fidelity and diverse text-to-3d generation with variational score distillation",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1a87980b9853e84dfb295855b425c262-Abstract-Conference.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "Diffgs: Functional gaussian splatting diffusion",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/41fb2ecb5b7d1b505bca787de0a603dc-Abstract-Conference.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "Humansplat: Generalizable single-image human gaussian splatting with structure priors",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/87affd2029375d1be123ccdab5334c55-Abstract-Conference.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views",
+      "url": "https://arxiv.org/abs/2411.04924",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "GSGAN: Adversarial Learning for Hierarchical Generation of 3D Gaussian Splats",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/7d90c28e7820709792d969211815a2b3-Abstract-Conference.html",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "Sketch3D: Style-Consistent Guidance for Sketch-to-3D Generation",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3664647.3680641",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "Hi3D: Pursuing High-Resolution Image-to-3D Generation with Video Diffusion Models",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3664647.3681634",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "Large point-to-gaussian model for image-to-3d generation",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3664647.3680920",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "A general framework to boost 3d gs initialization for text-to-3d generation by lexical richness",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3664647.3680740",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "Agg: Amortized generative 3d gaussians for single image to 3d",
+      "url": "https://arxiv.org/abs/2401.04099",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "Gala3d: Towards text-to-3d complex scene generation via layout-guided generative gaussian splatting",
+      "url": "https://arxiv.org/abs/2402.07207",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "Controllable text-to-3D generation via surface-aligned Gaussian splatting",
+      "url": "https://arxiv.org/abs/2403.09981",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "Realmdreamer: Text-driven 3d scene generation with inpainting and depth diffusion",
+      "url": "https://arxiv.org/abs/2404.07199",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "Fastscene: Text-driven fast 3d indoor scene generation via panoramic gaussian splatting",
+      "url": "https://arxiv.org/abs/2405.05768",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "GANFusion: Feed-Forward Text-to-3D with Diffusion in GAN Space",
+      "url": "https://arxiv.org/abs/2412.16717",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "Hyper-3dg: Text-to-3d gaussian generation via hypergraph",
+      "url": "https://link.springer.com/article/10.1007/s11263-024-02298-y",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "GaussianMotion: End-to-End Learning of Animatable Gaussian Avatars with Pose Guidance from Text",
+      "url": "https://arxiv.org/abs/2502.11642",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "GSV3D: Gaussian Splatting-based Geometric Distillation with Stable Video Diffusion for Single-Image 3D Object Generation",
+      "url": "https://arxiv.org/abs/2503.06136",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "LAYOUTDREAMER: Physics-guided Layout for Text-to-3D Compositional Scene Generation",
+      "url": "https://arxiv.org/abs/2502.01949",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "TextSplat: Text-Guided Semantic Fusion for Generalizable Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2504.09588",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis",
+      "url": "https://arxiv.org/abs/2409.02048",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "WAVE: Warp-Based View Guidance for Consistent Novel View Synthesis Using a Single Image",
+      "url": "https://arxiv.org/abs/2506.23518",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "Taming Feed-forward Reconstruction Models as Latent Encoders for 3D Generative Models",
+      "url": "https://arxiv.org/abs/2501.00651",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "Multi-StyleGS: Stylizing Gaussian Splatting with Multiple Styles",
+      "url": "https://arxiv.org/abs/2506.06846",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "Cycle3d: High-quality and consistent image-to-3d generation via generation-reconstruction cycle",
+      "url": "https://arxiv.org/abs/2407.19548",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "Layout-your-3D: Controllable and Precise 3D Generation with 2D Blueprint",
+      "url": "https://arxiv.org/abs/2410.15391",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "Atlas Gaussians Diffusion for 3D Generation",
+      "url": "https://arxiv.org/abs/2408.13055",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "GaussianAnything: Interactive Point Cloud Latent Diffusion for 3D Generation",
+      "url": "https://arxiv.org/abs/2411.08033",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+      "url": "https://arxiv.org/abs/2408.06072",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "Generative Gaussian Splatting for Unbounded 3D City Generation",
+      "url": "https://arxiv.org/abs/2406.06526",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "WonderWorld: Interactive 3D Scene Generation from a Single Image",
+      "url": "https://arxiv.org/abs/2406.09394",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "SelfSplat: Pose-Free and 3D Prior-Free Generalizable 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2411.17190",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "Wonderland: Navigating 3D Scenes from a Single Image",
+      "url": "https://arxiv.org/abs/2412.12091",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "Morpheus: Text-Driven 3D Gaussian Splat Shape and Color Stylization",
+      "url": "https://arxiv.org/abs/2503.02009",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "Taming Video Diffusion Prior with Scene-Grounding Guidance for 3D Gaussian Splatting from Sparse Inputs",
+      "url": "https://arxiv.org/abs/2503.05082",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "Scene4U: Hierarchical Layered 3D Scene Reconstruction from Single Panoramic Image for Your Immerse Exploration",
+      "url": "https://arxiv.org/abs/2504.00387",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step",
+      "url": "https://arxiv.org/abs/2504.01956",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "Scene Splatter: Momentum 3D Scene Generation from Single Image with Video Diffusion Model",
+      "url": "https://arxiv.org/abs/2504.02764",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "Apply Hierarchical-Chain-of-Generation to Complex Attributes Text-to-3D Generation",
+      "url": "https://arxiv.org/abs/2505.05505",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
+      "url": "https://arxiv.org/abs/2312.12337",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "Splatter-360: Generalizable 360^{\\circ} Gaussian Splatting for Wide-baseline Panoramic Images",
+      "url": "https://arxiv.org/abs/2412.06250",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "Turbo3D: Ultra-fast Text-to-3D Generation",
+      "url": "https://arxiv.org/abs/2412.04470",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "Baking gaussian splatting into diffusion denoiser for fast and scalable single-stage image-to-3d generation",
+      "url": "https://arxiv.org/abs/2411.14384",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "VistaDream: Sampling multiview consistent images for single-view scene reconstruction",
+      "url": "https://arxiv.org/abs/2410.16892",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "Tune-Your-Style: Intensity-tunable 3D Style Transfer with Gaussian Splatting",
+      "url": "https://iccv.thecvf.com/virtual/2025/poster/2554",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "UniGS: Modeling Unitary 3D Gaussians for Novel View Synthesis from Sparse-view Images",
+      "url": "https://arxiv.org/abs/2410.13195",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "CATSplat: Context-Aware Transformer with Spatial Guidance for Generalizable 3D Gaussian Splatting from A Single-View Image",
+      "url": "https://arxiv.org/abs/2412.12906",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "Generative Gaussian Splatting: Generating 3D Scenes with Video Diffusion Priors",
+      "url": "https://arxiv.org/abs/2503.13272#:~:text=In%20this%20work%2C%20we%20present%20Generative%20Gaussian%20Splatting,representation%20with%20a%20pre-trained%20latent%20video%20diffusion%20model.",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "VideoRFSplat: Direct Scene-Level Text-to-3D Gaussian Splatting Generation with Flexible Pose and Multi-View Joint Modeling",
+      "url": "https://arxiv.org/abs/2503.15855",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "No Pose at All: Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views",
+      "url": "https://arxiv.org/abs/2508.01171",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "TRIM: Scalable 3D Gaussian Diffusion Inference with Temporal and Spatial Trimming",
+      "url": "https://arxiv.org/abs/2511.16642",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "Sam 3d: 3dfy anything in images",
+      "url": "https://arxiv.org/abs/2511.16624",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "Walking the Schrödinger Bridge: A Direct Trajectory for Text-to-3D Generation",
+      "url": "https://arxiv.org/pdf/2511.05609",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "FlashWorld: High-quality 3D Scene Generation within Seconds",
+      "url": "https://arxiv.org/abs/2510.13678",
+      "category": "-existing-methods-for-3dgs-generation",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "GauHuman: Articulated Gaussian Splatting from Monocular Human Videos",
+      "url": "https://arxiv.org/abs/2312.02973",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L399",
+      "line": 399,
+      "properties": {}
+    },
+    {
+      "title": "HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2312.03461",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L400",
+      "line": 400,
+      "properties": {}
+    },
+    {
+      "title": "Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling",
+      "url": "https://arxiv.org/abs/2311.16096",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L401",
+      "line": 401,
+      "properties": {}
+    },
+    {
+      "title": "HUGS: Human Gaussian Splats",
+      "url": "https://arxiv.org/abs/2311.17910",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L402",
+      "line": 402,
+      "properties": {}
+    },
+    {
+      "title": "GaussianAvatars: Photorealistic Head Avatars with Rigged 3D Gaussians",
+      "url": "https://arxiv.org/abs/2312.02069",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L403",
+      "line": 403,
+      "properties": {}
+    },
+    {
+      "title": "Gaussian Shell Maps for Efficient 3D Human Generation",
+      "url": "https://arxiv.org/abs/2311.17857",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "HHAvatar: Gaussian Head Avatar with Dynamic Hairs",
+      "url": "https://arxiv.org/abs/2312.03029",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L405",
+      "line": 405,
+      "properties": {}
+    },
+    {
+      "title": "FlashSplat: 2D to 3D Gaussian Splatting Segmentation Solved Optimally",
+      "url": "https://arxiv.org/abs/2409.08270",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L406",
+      "line": 406,
+      "properties": {}
+    },
+    {
+      "title": "GGAvatar: Reconstructing Garment-Separated 3D Gaussian Splatting Avatars from Monocular Video",
+      "url": "https://arxiv.org/abs/2411.09952",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "TaoAvatar: Real-Time Lifelike Full-Body Talking Avatars for Augmented Reality via 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2503.17032",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L408",
+      "line": 408,
+      "properties": {}
+    },
+    {
+      "title": "HRAvatar: High-Quality and Relightable Gaussian Head Avatar",
+      "url": "https://arxiv.org/abs/2503.08224",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "GPAvatar: High-fidelity Head Avatars by Learning Efficient Gaussian Projections",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Feng_GPAvatar_High-fidelity_Head_Avatars_by_Learning_Efficient_Gaussian_Projections_CVPR_2025_paper.html",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "StrandHead: Text to Hair-Disentangled 3D Head Avatars Using Human-Centric Priors",
+      "url": "https://arxiv.org/abs/2412.11586",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "CGS-GAN: 3D Consistent Gaussian Splatting GANs for High Resolution Human Head Synthesis",
+      "url": "https://arxiv.org/abs/2505.17590",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "Drivable 3D Gaussian Avatars",
+      "url": "https://arxiv.org/abs/2311.08581",
+      "category": "human-avatar",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2311.11700",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM",
+      "url": "https://arxiv.org/abs/2312.02126",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras",
+      "url": "https://arxiv.org/abs/2311.16728",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "Gaussian Splatting SLAM",
+      "url": "https://arxiv.org/abs/2312.06741",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM",
+      "url": "https://arxiv.org/abs/2402.03246",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "GS3LAM: Gaussian Semantic Splatting SLAM",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3664647.3680739",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "Language-Embedded Gaussian Splats (LEGS): Incrementally Building Room-Scale Representations with a Mobile Robot",
+      "url": "https://arxiv.org/abs/2409.18108",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L425",
+      "line": 425,
+      "properties": {}
+    },
+    {
+      "title": "OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding",
+      "url": "https://arxiv.org/abs/2503.01646",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L426",
+      "line": 426,
+      "properties": {}
+    },
+    {
+      "title": "WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments",
+      "url": "https://arxiv.org/abs/2504.03886",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L427",
+      "line": 427,
+      "properties": {}
+    },
+    {
+      "title": "DynaGSLAM: Real-Time Gaussian-Splatting SLAM for Online Rendering, Tracking, Motion Predictions of Moving Objects in Dynamic Scenes",
+      "url": "https://arxiv.org/abs/2503.11979",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps",
+      "url": "https://arxiv.org/abs/2507.03737",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "SEGS-SLAM: Structure-enhanced 3D Gaussian Splatting SLAM with Appearance Embedding",
+      "url": "https://arxiv.org/abs/2501.05242v3",
+      "category": "slam",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "3DGS-DET: Empower 3D Gaussian Splatting with Boundary Guidance and Box-Focused Sampling for 3D Object Detection",
+      "url": "https://arxiv.org/abs/2410.01647",
+      "category": "3dgs-detection",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "Gaussian-Det: Learning Closed-Surface Gaussians for 3D Object Detection",
+      "url": "https://arxiv.org/abs/2410.01404",
+      "category": "3dgs-detection",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "3D Gaussian Splatting based Scene-independent Relocalization with Unidirectional and Bidirectional Feature Fusion",
+      "url": "https://neurips.cc/virtual/2025/poster/116876",
+      "category": "3dgs-detection",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "A Neural Representation Framework with LLM-Driven Spatial Reasoning for Open-Vocabulary 3D Visual Grounding",
+      "url": "https://arxiv.org/abs/2507.06719",
+      "category": "3dgs-detection",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "MATT-GS: Masked Attention-based 3DGS for Robot Perception and Object Detection",
+      "url": "https://arxiv.org/abs/2503.19330",
+      "category": "3dgs-detection",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning",
+      "url": "https://arxiv.org/abs/2503.23297",
+      "category": "3dgs-detection",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "Zero-shot Visual Grounding in 3D Gaussians via View Retrieval",
+      "url": "https://arxiv.org/abs/2509.15871",
+      "category": "3dgs-detection",
+      "source_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/blob/ca2230a4381b2d255b0761dc9a4465890edbaf10/README.md#L442",
+      "line": 442,
+      "properties": {}
+    }
+  ],
+  "properties": [
+    "#Type"
+  ],
+  "entry_count": 326,
+  "unique_links": 316,
+  "category_count": 9,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "heshuting555",
+      "url": "https://github.com/heshuting555",
+      "contributions": 4
+    },
+    {
+      "login": "SPT806",
+      "url": "https://github.com/SPT806",
+      "contributions": 3
+    },
+    {
+      "login": "YuzhouCheng66",
+      "url": "https://github.com/YuzhouCheng66",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 10,
+    "has_more": false,
+    "path_commit_count": 10,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:52:09.990246+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by heshuting555/Awesome-3DGS-Applications contributors.",
+  "license": null,
+  "license_url": "https://github.com/heshuting555/Awesome-3DGS-Applications/tree/ca2230a4381b2d255b0761dc9a4465890edbaf10",
+  "digest": "4cea1471e82aef1ea43ff82183e01dbbfa8d6bccbebb9045f19433e6cb866ca3"
+}

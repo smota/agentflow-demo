@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 
 from awesome.catalogue import digest
-from awesome.lists import classify, parse_readme, profile, freshness, validate_index, validate_detail, topics
+from awesome.lists import FORMAT, classify, parse_readme, profile, freshness, validate_index, validate_detail, topics, source_data_links
 
 REV = "a" * 40
 @pytest.mark.parametrize("name", ["gege-circle/.github", "owner/_resources", "owner/-resources"])
@@ -33,6 +33,21 @@ def test_threshold(stars, state):
 def test_selfhosted_no_allowlist_or_license_requirement():
     data = meta(name="awesome-selfhosted/awesome-selfhosted", description="A list of Free Software network services and web applications which can be hosted on your own servers", license="NOASSERTION")
     assert classify(data, parse_readme(MD, data["name"], REV), MD)[0] == "eligible"
+
+
+@pytest.mark.parametrize("name,description", [
+    ("vinta/awesome-python", 'The definitive list that answers "I want to do X in Python, which tool should I use?"'),
+    ("Solido/awesome-flutter", "An awesome list that curates the best Flutter libraries and tools."),
+    ("sindresorhus/awesome-nodejs", "Delightful Node.js packages and resources"),
+])
+def test_general_awesome_identity_is_list_evidence(name, description):
+    data = meta(name=name, description=description)
+    assert classify(data, parse_readme(MD, name, REV), MD)[0] == "eligible"
+
+
+def test_named_awesome_product_still_guarded():
+    data = meta(name="owner/awesome-control", description="A local control plane for deploying applications")
+    assert classify(data, parse_readme(MD, data["name"], REV), MD)[0] == "pending"
 
 
 def test_awesome_app_with_documentation_is_not_eligible():
@@ -96,12 +111,18 @@ def test_freshness_unknown_and_half_life():
 
 
 def test_topics_additional_not_replacing_taxonomy():
-    assert "Self-hosting & infrastructure" in topics(meta(description="A list of self-hosted tools"))
+    derived = topics(meta(description="A list of self-hosted development tools"))
+    assert derived[0] == "Self-hosting & infrastructure"
+
+
+def test_labelled_source_data_only():
+    assert source_data_links("Generated from [the public source data](https://example.org/data.json).") == ["https://example.org/data.json"]
+    assert source_data_links("Unlabelled [link](https://example.org/data.json).") == []
 
 
 def build_index():
     item, detail = profile(meta(), parse_readme(MD, "owner/awesome-tools", REV), MD)
-    index = {"format_version": 2, "min_stars": 100, "lists": [item], "counts": {"eligible": 1}}
+    index = {"format_version": FORMAT, "min_stars": 100, "lists": [item], "counts": {"eligible": 1}}
     index["digest"] = digest(index)
     return index, detail
 
@@ -113,6 +134,42 @@ def test_validation_and_unknown_metrics(tmp_path):
     validate_index(index, tmp_path)
     detail["entries"][0]["title"] = "tampered"
     with pytest.raises(ValueError):
+        validate_detail(detail, item)
+
+
+def test_bounded_public_contributor_profile():
+    observation = {"status": "observed", "description": "Sampled, not all-time.", "commit_limit": 100,
+                   "observed_commits": 100, "has_more": True, "path_commit_count": 150,
+                   "public_contributors": 2, "observed_at": "2026-09-03T00:00:00Z"}
+    data = meta(content_updated_at="2026-09-02T00:00:00Z", contributors=[
+        {"login": "alice", "url": "https://github.com/alice", "contributions": 70},
+        {"login": "bob", "url": "https://github.com/bob", "contributions": 30}],
+        contributor_observation=observation,
+        contributing_url=f"https://github.com/owner/awesome-tools/blob/{REV}/CONTRIBUTING.md")
+    item, detail = profile(data, parse_readme(MD, data["name"], REV), MD)
+    assert item["contributors_count"] == 2 and item["freshness"]["days"] == 1
+    assert "email" not in json.dumps(detail).casefold()
+    validate_detail(detail, item)
+    detail["contributors"][0]["email"] = "not-allowed@example.org"
+    detail["digest"] = digest({k: v for k, v in detail.items() if k != "digest"})
+    item["detail_digest"] = detail["digest"]
+    with pytest.raises(ValueError, match="contributor"):
+        validate_detail(detail, item)
+
+
+@pytest.mark.parametrize("field,value", [("observed_commits", 101), ("path_commit_count", 99),
+                                           ("public_contributors", -1), ("public_contributors", 101)])
+def test_contributor_observation_bounds(field, value):
+    index, detail = build_index(); item = index["lists"][0]
+    observation = {"status": "observed", "description": "Bounded observation.", "commit_limit": 100,
+                   "observed_commits": 100, "has_more": True, "path_commit_count": 150,
+                   "public_contributors": 0, "observed_at": "2026-09-03T00:00:00Z"}
+    observation[field] = value
+    item["contributors_count"] = observation["public_contributors"]
+    detail["contributor_observation"] = observation
+    detail["digest"] = digest({k: v for k, v in detail.items() if k != "digest"})
+    item["detail_digest"] = detail["digest"]
+    with pytest.raises(ValueError, match="contributor observation"):
         validate_detail(detail, item)
 
 

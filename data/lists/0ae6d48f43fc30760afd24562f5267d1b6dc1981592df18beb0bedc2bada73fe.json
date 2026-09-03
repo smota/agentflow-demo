@@ -1,0 +1,396 @@
+{
+  "format_version": 3,
+  "repository_id": "569022212",
+  "name": "aaronriekenberg/rust-parallel",
+  "revision": "a8a1458d51649d9b2117e22ff15253a084c9de26",
+  "readme_path": "README.md",
+  "readme_sha256": "01b78f28312c37dc96ca17aaf26da3a62bb486c4029849a4390517525300e679",
+  "sections": [
+    {
+      "id": "rust-parallel",
+      "title": "rust-parallel",
+      "level": 1,
+      "path": [
+        "rust-parallel"
+      ],
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#rust-parallel",
+      "entries": 13
+    },
+    {
+      "id": "contents",
+      "title": "Contents:",
+      "level": 2,
+      "path": [
+        "rust-parallel",
+        "Contents:"
+      ],
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "installation",
+      "title": "Installation",
+      "level": 2,
+      "path": [
+        "rust-parallel",
+        "Installation"
+      ],
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#installation",
+      "entries": 0
+    },
+    {
+      "id": "homebrew",
+      "title": "Homebrew",
+      "level": 3,
+      "path": [
+        "rust-parallel",
+        "Installation",
+        "Homebrew"
+      ],
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#homebrew",
+      "entries": 0
+    },
+    {
+      "id": "pre-built-release",
+      "title": "Pre-built release",
+      "level": 3,
+      "path": [
+        "rust-parallel",
+        "Installation",
+        "Pre-built release"
+      ],
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#pre-built-release",
+      "entries": 1
+    },
+    {
+      "id": "from-cratesio-via-cargo",
+      "title": "From Crates.io via Cargo",
+      "level": 3,
+      "path": [
+        "rust-parallel",
+        "Installation",
+        "From Crates.io via Cargo"
+      ],
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#from-cratesio-via-cargo",
+      "entries": 2
+    },
+    {
+      "id": "documents",
+      "title": "Documents:",
+      "level": 2,
+      "path": [
+        "rust-parallel",
+        "Documents:"
+      ],
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#documents",
+      "entries": 4
+    },
+    {
+      "id": "tech-stack",
+      "title": "Tech Stack:",
+      "level": 2,
+      "path": [
+        "rust-parallel",
+        "Tech Stack:"
+      ],
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#tech-stack",
+      "entries": 15
+    }
+  ],
+  "entries": [
+    {
+      "title": "in benchmarks",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Benchmarks",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "stdin",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#commands-from-stdin",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "Pipe mode",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#pipe-mode",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "configure manually",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#parallelism",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "variables",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#automatic-variables",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "output interleaving",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Output-Interleaving",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L25",
+      "line": 25,
+      "properties": {}
+    },
+    {
+      "title": "bash functions",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#bash-function",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "TUI progress bar",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#progress-bar",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "Path cache",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#path-cache",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "Command timeouts",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#timeout",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "Structured debug logging",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#debug-logging",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "Dry run mode",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#dry-run",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "Configurable error handling",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual#error-handling",
+      "category": "rust-parallel",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "Github Releases",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/releases",
+      "category": "pre-built-release",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Install Rust",
+      "url": "https://www.rust-lang.org/learn/get-started",
+      "category": "from-cratesio-via-cargo",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "crates.io",
+      "url": "https://crates.io/crates/rust-parallel",
+      "category": "from-cratesio-via-cargo",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Examples",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Examples",
+      "category": "documents",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Manual",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Manual",
+      "category": "documents",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarks",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Benchmarks",
+      "category": "documents",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "Output Interleaving",
+      "url": "https://github.com/aaronriekenberg/rust-parallel/wiki/Output-Interleaving",
+      "category": "documents",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "anyhow",
+      "url": "https://github.com/dtolnay/anyhow",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "bytesize",
+      "url": "https://github.com/bytesize-rs/bytesize",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "clap",
+      "url": "https://docs.rs/clap/latest/clap/",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "itertools",
+      "url": "https://docs.rs/itertools/latest/itertools/",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "indicatif",
+      "url": "https://github.com/console-rs/indicatif",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "regex",
+      "url": "https://github.com/rust-lang/regex",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "rust-shlex",
+      "url": "https://github.com/comex/rust-shlex",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "tokio",
+      "url": "https://tokio.rs/",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "tokio::sync::OnceCell",
+      "url": "https://docs.rs/tokio/latest/tokio/sync/struct.OnceCell.html",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "tokio::process::Command",
+      "url": "https://docs.rs/tokio/latest/tokio/process/struct.Command.html",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "tokio::sync::Semaphore",
+      "url": "https://docs.rs/tokio/latest/tokio/sync/struct.Semaphore.html",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "tokio::sync::mpsc::channel",
+      "url": "https://docs.rs/tokio/latest/tokio/sync/mpsc/fn.channel.html",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "tracing",
+      "url": "https://docs.rs/tracing/latest/tracing/",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "tracing::Instrument",
+      "url": "https://docs.rs/tracing/latest/tracing/attr.instrument.html",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "which",
+      "url": "https://github.com/harryfei/which-rs",
+      "category": "tech-stack",
+      "source_url": "https://github.com/aaronriekenberg/rust-parallel/blob/a8a1458d51649d9b2117e22ff15253a084c9de26/README.md#L87",
+      "line": 87,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 35,
+  "unique_links": 33,
+  "category_count": 5,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "contributor_observation": null,
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by aaronriekenberg/rust-parallel contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/aaronriekenberg/rust-parallel/tree/a8a1458d51649d9b2117e22ff15253a084c9de26",
+  "digest": "0ae6d48f43fc30760afd24562f5267d1b6dc1981592df18beb0bedc2bada73fe"
+}

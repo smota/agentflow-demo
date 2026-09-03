@@ -1,0 +1,696 @@
+{
+  "format_version": 3,
+  "repository_id": "142336474",
+  "name": "crespum/edge-ai",
+  "revision": "64726820fb1ed92f9261b7f9883483f1e5ea6e30",
+  "readme_path": "README.md",
+  "readme_sha256": "897dea1a086e994669a21eb455ba3bbf04e88e5551def31f900509634171142a",
+  "sections": [
+    {
+      "id": "ai-at-the-edge",
+      "title": "AI at the edge",
+      "level": 1,
+      "path": [
+        "AI at the edge"
+      ],
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#ai-at-the-edge",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "AI at the edge",
+        "Contents"
+      ],
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware",
+      "level": 1,
+      "path": [
+        "Hardware"
+      ],
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#hardware",
+      "entries": 30
+    },
+    {
+      "id": "software",
+      "title": "Software",
+      "level": 1,
+      "path": [
+        "Software"
+      ],
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#software",
+      "entries": 28
+    },
+    {
+      "id": "other-interesting-resources",
+      "title": "Other interesting resources",
+      "level": 1,
+      "path": [
+        "Other interesting resources"
+      ],
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#other-interesting-resources",
+      "entries": 10
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 1,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 1,
+      "path": [
+        "License"
+      ],
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "OpenMV",
+      "url": "http://docs.openmv.io/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L17",
+      "line": 17,
+      "properties": {}
+    },
+    {
+      "title": "JeVois",
+      "url": "http://jevois.org/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "Edge TPU",
+      "url": "https://cloud.google.com/edge-tpu/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "Movidius",
+      "url": "https://www.movidius.com/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "UP AI Edge",
+      "url": "https://up-shop.org/25-up-ai-edge",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "DepthAI",
+      "url": "https://www.crowdsupply.com/luxonis/depthai",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "NVIDIA Jetson",
+      "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "Artificial Intelligence Radio - Transceiver (AIR-T)",
+      "url": "https://www.crowdsupply.com/deepwave-digital/air-t",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "Kendryte K210",
+      "url": "https://canaan.io/product/kendryteai",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "Sipeed M1",
+      "url": "http://en.dan.sipeed.com/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "M5StickV",
+      "url": "https://docs.m5stack.com/#/en/core/m5stickv",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "UNIT-V",
+      "url": "https://docs.m5stack.com/#/en/unit/unitv",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "Kendryte K510",
+      "url": "https://canaan.io/product/kendryteai",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "GreenWaves GAP8",
+      "url": "https://greenwaves-technologies.com/gap8_mcu_ai/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "GreenWaves GAP9",
+      "url": "https://greenwaves-technologies.com/gap9_processor/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "Ultra96",
+      "url": "https://www.96boards.ai/products/ultra96/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Apollo3 Blue",
+      "url": "https://www.sparkfun.com/products/15170",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Google Coral",
+      "url": "https://coral.ai/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Gyrfalcon Technology Lighspeeur",
+      "url": "https://www.gyrfalcontech.ai/solutions/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "ARM microNPU",
+      "url": "https://www.arm.com/products/silicon-ip-cpu/machine-learning/ethos-u55",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Espressif ESP32-S3",
+      "url": "https://www.espressif.com/en/products/socs/esp32-s3",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Maxim MAX78000",
+      "url": "https://www.maximintegrated.com/en/products/microcontrollers/MAX78000.html",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Beagleboard BeagleV",
+      "url": "https://beagleboard.org/beaglev",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Syntiant TinyML",
+      "url": "https://www.syntiant.com/tinyml",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "STM32N6",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32n6-series.html",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Grove Vision AI Module V2",
+      "url": "https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Arduino Nicla Voice",
+      "url": "https://docs.arduino.cc/hardware/nicla-voice",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "NXP DNPUs",
+      "url": "https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/discrete-neural-processing-units:DNPU",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Raspberry Pi AI HAT+",
+      "url": "https://www.raspberrypi.com/products/ai-hat/",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Nordic's nRF54L Series",
+      "url": "https://www.nordicsemi.com/Products/nRF54LM20B",
+      "category": "hardware",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "TensorFlow Lite",
+      "url": "https://www.tensorflow.org/lite/",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "LiteRT",
+      "url": "https://ai.google.dev/edge/litert",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "TensorFlow Lite for Microcontrollers",
+      "url": "https://www.tensorflow.org/lite/microcontrollers",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "LiteRT for Microcontrollers",
+      "url": "https://ai.google.dev/edge/litert/microcontrollers/overview",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Embedded Learning Library (ELL)",
+      "url": "https://github.com/Microsoft/ELL",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "uTensor",
+      "url": "https://github.com/uTensor/uTensor",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "CMSIS NN",
+      "url": "https://arm-software.github.io/CMSIS_5/NN/html/index.html",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "ARM Compute Library",
+      "url": "https://developer.arm.com/technologies/compute-library",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Qualcomm Neural Processing SDK for AI",
+      "url": "https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "ST X-CUBE-AI",
+      "url": "https://www.st.com/en/embedded-software/x-cube-ai.html",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "ST NanoEdgeAIStudio",
+      "url": "https://www.st.com/content/st_com/en/campaigns/nanoedgeaistudio.html",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Neural Network on Microcontroller (NNoM)",
+      "url": "https://github.com/majianjia/nnom",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "nncase",
+      "url": "https://github.com/kendryte/nncase",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "deepC",
+      "url": "https://github.com/ai-techsystems/dnnCompiler",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "uTVM",
+      "url": "https://tvm.apache.org/2020/06/04/tinyml-how-tvm-is-taming-tiny",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Edge Impulse",
+      "url": "https://edgeimpulse.com/",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Qeexo AutoML",
+      "url": "https://qeexo.com/ml-platform/",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "mlpack",
+      "url": "https://www.mlpack.org/",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "AIfES",
+      "url": "https://github.com/Fraunhofer-IMS/AIfES_for_Arduino",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "onnx2c",
+      "url": "https://github.com/kraiskil/onnx2c",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Imagimob",
+      "url": "https://www.imagimob.com/",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "emlearn",
+      "url": "https://github.com/emlearn/emlearn",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Z-Ant",
+      "url": "https://github.com/ZantFoundation/Z-Ant",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "micro:bit CreateAI",
+      "url": "https://createai.microbit.org/",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "AutoML VS Code Extension",
+      "url": "https://github.com/analogdevicesinc/automl-embedded",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Eclipse Aidge",
+      "url": "https://gitlab.eclipse.org/eclipse/aidge/aidge",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "edge-agents (ForestHub)",
+      "url": "https://github.com/ForestHubAI/edge-agents",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "TiGrIS",
+      "url": "https://tigris-ml.dev/",
+      "category": "software",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking Edge Computing (May 2019)",
+      "url": "https://medium.com/@aallan/benchmarking-edge-computing-ce3f13942245",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Hardware benchmark for edge AI on cubesats - Open Source Cubesat Workshop 2018",
+      "url": "https://github.com/crespum/oscw18-edge-ai",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Why Machine Learning on The Edge?",
+      "url": "https://towardsdatascience.com/why-machine-learning-on-the-edge-92fac32105e6",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Tutorial: Low Power Deep Learning on the OpenMV Cam",
+      "url": "https://community.arm.com/innovation/b/blog/posts/low-power-deep-learning-on-openmv-cam",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "TinyML: Machine Learning with TensorFlow on Arduino and Ultra-Low Power Micro-Controllers",
+      "url": "http://shop.oreilly.com/product/0636920254508.do",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "tinyML Summit",
+      "url": "https://www.tinymlsummit.org/",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "TinyML Papers and Projects",
+      "url": "https://github.com/gigwegbe/tinyml-papers-and-projects",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "MinUn",
+      "url": "https://github.com/ShikharJ/MinUn",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Edge AI Engineering Online Book",
+      "url": "https://mjrovai.github.io/EdgeML_Made_Ease_ebook/",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "How AI on Microcontrollers Actually Works: Operators and Kernels",
+      "url": "https://danielmangum.com/posts/ai-microcontrollers-operators-kernels/",
+      "category": "other-interesting-resources",
+      "source_url": "https://github.com/crespum/edge-ai/blob/64726820fb1ed92f9261b7f9883483f1e5ea6e30/README.md#L94",
+      "line": 94,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 68,
+  "unique_links": 67,
+  "category_count": 3,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "crespum",
+      "url": "https://github.com/crespum",
+      "contributions": 47
+    },
+    {
+      "login": "mryndzionek",
+      "url": "https://github.com/mryndzionek",
+      "contributions": 6
+    },
+    {
+      "login": "redotics",
+      "url": "https://github.com/redotics",
+      "contributions": 3
+    },
+    {
+      "login": "r1marcus",
+      "url": "https://github.com/r1marcus",
+      "contributions": 2
+    },
+    {
+      "login": "antonio-emilio",
+      "url": "https://github.com/antonio-emilio",
+      "contributions": 1
+    },
+    {
+      "login": "asteinh",
+      "url": "https://github.com/asteinh",
+      "contributions": 1
+    },
+    {
+      "login": "shrit",
+      "url": "https://github.com/shrit",
+      "contributions": 1
+    },
+    {
+      "login": "sunnycase",
+      "url": "https://github.com/sunnycase",
+      "contributions": 1
+    },
+    {
+      "login": "Vge0rge",
+      "url": "https://github.com/Vge0rge",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 64,
+    "has_more": false,
+    "path_commit_count": 64,
+    "public_contributors": 9,
+    "observed_at": "2026-09-03T17:50:40.940241+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by crespum/edge-ai contributors.",
+  "license": null,
+  "license_url": "https://github.com/crespum/edge-ai/tree/64726820fb1ed92f9261b7f9883483f1e5ea6e30",
+  "digest": "b29f47b3b8631262bef8fee1f2c5ca32ed2a9636dd38622d8b0b0464a0c46e87"
+}

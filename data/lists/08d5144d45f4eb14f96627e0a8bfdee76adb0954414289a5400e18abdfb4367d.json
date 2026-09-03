@@ -1,0 +1,741 @@
+{
+  "format_version": 3,
+  "repository_id": "103585068",
+  "name": "elves/awesome-elvish",
+  "revision": "ba80153f5cdb80bc8d4417758600d77208dbeba3",
+  "readme_path": "README.md",
+  "readme_sha256": "f7427fd2b3726f6577e9922ffefffba67e0a68cf167a3110d01120ec2dfb310f",
+  "sections": [
+    {
+      "id": "awesome-elvish",
+      "title": "awesome-elvish",
+      "level": 1,
+      "path": [
+        "awesome-elvish"
+      ],
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#awesome-elvish",
+      "entries": 1
+    },
+    {
+      "id": "prompt-themes",
+      "title": "Prompt Themes",
+      "level": 2,
+      "path": [
+        "awesome-elvish",
+        "Prompt Themes"
+      ],
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#prompt-themes",
+      "entries": 6
+    },
+    {
+      "id": "completion-scripts",
+      "title": "Completion Scripts",
+      "level": 2,
+      "path": [
+        "awesome-elvish",
+        "Completion Scripts"
+      ],
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#completion-scripts",
+      "entries": 4
+    },
+    {
+      "id": "editor-support",
+      "title": "Editor Support",
+      "level": 2,
+      "path": [
+        "awesome-elvish",
+        "Editor Support"
+      ],
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#editor-support",
+      "entries": 9
+    },
+    {
+      "id": "general-tools-with-built-in-support-for-elvish",
+      "title": "General Tools With Built-in Support for Elvish",
+      "level": 2,
+      "path": [
+        "awesome-elvish",
+        "General Tools With Built-in Support for Elvish"
+      ],
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#general-tools-with-built-in-support-for-elvish",
+      "entries": 3
+    },
+    {
+      "id": "terminal-integration",
+      "title": "Terminal Integration",
+      "level": 2,
+      "path": [
+        "awesome-elvish",
+        "Terminal Integration"
+      ],
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#terminal-integration",
+      "entries": 1
+    },
+    {
+      "id": "general-libraries-modules",
+      "title": "General Libraries (Modules)",
+      "level": 2,
+      "path": [
+        "awesome-elvish",
+        "General Libraries (Modules)"
+      ],
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#general-libraries-modules",
+      "entries": 42
+    },
+    {
+      "id": "more-awesome-elvish-stuff",
+      "title": "More Awesome Elvish Stuff",
+      "level": 2,
+      "path": [
+        "awesome-elvish",
+        "More Awesome Elvish Stuff"
+      ],
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#more-awesome-elvish-stuff",
+      "entries": 5
+    }
+  ],
+  "entries": [
+    {
+      "title": "epm",
+      "url": "https://elv.sh/ref/epm.html#epm",
+      "category": "awesome-elvish",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L7",
+      "line": 7,
+      "properties": {}
+    },
+    {
+      "title": "github.com/muesli/elvish-libs/powerline",
+      "url": "https://github.com/muesli/elvish-libs/blob/master/theme/powerline.elv",
+      "category": "prompt-themes",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L15",
+      "line": 15,
+      "properties": {}
+    },
+    {
+      "title": "github.com/zzamboni/elvish-themes/chain",
+      "url": "https://github.com/zzamboni/elvish-themes/blob/master/chain.org",
+      "category": "prompt-themes",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L16",
+      "line": 16,
+      "properties": {}
+    },
+    {
+      "title": "github.com/champii/elvish-base/prompt",
+      "url": "https://github.com/champii/elvish-base/blob/master/prompt.elv",
+      "category": "prompt-themes",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L17",
+      "line": 17,
+      "properties": {}
+    },
+    {
+      "title": "gitlab.com/SneakyThunder/silver-prompt-elv/silver",
+      "url": "https://gitlab.com/SneakyThunder/silver-prompt-elv/-/blob/master/silver.elv",
+      "category": "prompt-themes",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "Starship",
+      "url": "https://starship.rs/",
+      "category": "prompt-themes",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "oh-my-posh",
+      "url": "https://ohmyposh.dev/",
+      "category": "prompt-themes",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "github.com/xiaq/edit.elv",
+      "url": "https://github.com/xiaq/edit.elv",
+      "category": "completion-scripts",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "zzamboni/elvish-completions",
+      "url": "https://github.com/zzamboni/elvish-completions",
+      "category": "completion-scripts",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "aca/elvish-bash-completion",
+      "url": "https://github.com/aca/elvish-bash-completion",
+      "category": "completion-scripts",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "rsteube/carapace-bin",
+      "url": "https://github.com/rsteube/carapace-bin",
+      "category": "completion-scripts",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "Emacs",
+      "url": "https://www.gnu.org/software/emacs/",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Vim",
+      "url": "http://www.vim.org/",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Atom",
+      "url": "https://atom.io/",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Kakoune",
+      "url": "http://kakoune.org/",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "VSCode",
+      "url": "https://code.visualstudio.com/",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Sublime Text 3",
+      "url": "https://www.sublimetext.com/",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "PyCharm",
+      "url": "https://www.jetbrains.com/pycharm",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "Micro",
+      "url": "https://github.com/zyedidia/micro",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Helix",
+      "url": "https://github.com/helix-editor/helix",
+      "category": "editor-support",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "x-cmd",
+      "url": "https://www.x-cmd.com/",
+      "category": "general-tools-with-built-in-support-for-elvish",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "pixi",
+      "url": "https://pixi.sh/",
+      "category": "general-tools-with-built-in-support-for-elvish",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "dorothy",
+      "url": "https://github.com/bevry/dorothy",
+      "category": "general-tools-with-built-in-support-for-elvish",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "github.com/zzamboni/elvish-modules/iterm2",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/iterm2.org",
+      "category": "terminal-integration",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "github.com/muesli/elvish-libs",
+      "url": "https://github.com/muesli/elvish-libs",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "git",
+      "url": "https://github.com/muesli/elvish-libs/blob/master/git.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "github.com/zzamboni/elvish-modules",
+      "url": "https://github.com/zzamboni/elvish-modules/",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "alias",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/alias.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "bang-bang",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/bang-bang.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "dir",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/dir.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "long-running-notifications",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/long-running-notifications.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "nix",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/nix.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "prompt-hooks",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/prompt_hooks.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "proxy",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/proxy.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "spinners",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/spinners.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "terminal-title",
+      "url": "https://github.com/zzamboni/elvish-modules/blob/master/terminal-title.org",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "github.com/iwoloschin/elvish-packages",
+      "url": "https://github.com/iwoloschin/elvish-packages",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "python",
+      "url": "https://github.com/iwoloschin/elvish-packages/blob/master/python.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "update",
+      "url": "https://github.com/iwoloschin/elvish-packages/blob/master/update.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "github.com/jkbr-19/sindarin-term",
+      "url": "https://github.com/jkbr-19/sindarin-term",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "date-elv",
+      "url": "https://github.com/jkbr-19/sindarin-term/blob/master/date-elv.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "github.com/champii/elvish-base",
+      "url": "https://github.com/champii/elvish-base",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "git",
+      "url": "https://github.com/champii/elvish-base/blob/master/git.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "utils",
+      "url": "https://github.com/champii/elvish-base/blob/master/utils.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "fs",
+      "url": "https://github.com/champii/elvish-base/blob/master/fs.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "github.com/href/elvish-gitstatus/gitstatus",
+      "url": "https://github.com/href/elvish-gitstatus/blob/master/gitstatus.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "github.com/doubleagent/rivendell",
+      "url": "https://github.com/doubleagent/rivendell",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "fun",
+      "url": "https://github.com/doubleagent/rivendell/blob/master/fun.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "lazy",
+      "url": "https://github.com/doubleagent/rivendell/blob/master/lazy.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "github.com/kolbycrouch/elvish-libs/pure",
+      "url": "https://github.com/kolbycrouch/elvish-libs/tree/master/pure",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "github.com/gergelyk/elvish-libs/python",
+      "url": "https://github.com/gergelyk/elvish-libs/blob/main/python.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "github.com/krader1961/elvish-lib",
+      "url": "https://github.com/krader1961/elvish-lib",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "cmd-duration",
+      "url": "https://github.com/krader1961/elvish-lib/blob/master/cmd-duration.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "util-unix",
+      "url": "https://github.com/krader1961/elvish-lib/blob/master/util-unix.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "github.com/iandol/elvish-modules",
+      "url": "https://github.com/iandol/elvish-modules",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "mamba",
+      "url": "https://github.com/iandol/elvish-modules/blob/main/mamba.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "cmds",
+      "url": "https://github.com/krader1961/elvish-lib/blob/master/util-unix.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "github.com/tesujimath/bash-env-elvish",
+      "url": "https://github.com/tesujimath/bash-env-elvish",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "bash-env",
+      "url": "https://github.com/tesujimath/bash-env-elvish/blob/main/bash-env.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "virtualenv",
+      "url": "https://github.com/tesujimath/bash-env-elvish/blob/main/virtualenv.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "nvm",
+      "url": "https://github.com/tesujimath/bash-env-elvish/blob/main/nvm.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "lmod",
+      "url": "https://github.com/tesujimath/bash-env-elvish/blob/main/lmod.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "github.com/tesujimath/elvish-tap",
+      "url": "https://github.com/tesujimath/elvish-tap",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "tap",
+      "url": "https://github.com/tesujimath/elvish-tap/blob/main/tap.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "github.com/tesujimath/direlv",
+      "url": "https://github.com/tesujimath/direlv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "direlv",
+      "url": "https://github.com/tesujimath/direlv/blob/main/direlv.elv",
+      "category": "general-libraries-modules",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "ajeetdsouza/zoxide",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "category": "more-awesome-elvish-stuff",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "zzamboni/dot_elvish",
+      "url": "https://github.com/zzamboni/dot_elvish/blob/master/rc.org",
+      "category": "more-awesome-elvish-stuff",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "darcy-shen/oh-my-elvish",
+      "url": "https://github.com/darcy-shen/oh-my-elvish",
+      "category": "more-awesome-elvish-stuff",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "elvish.nix",
+      "url": "https://github.com/tesujimath/elvish.nix",
+      "category": "more-awesome-elvish-stuff",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "velvet",
+      "url": "https://github.com/giancosta86/velvet",
+      "category": "more-awesome-elvish-stuff",
+      "source_url": "https://github.com/elves/awesome-elvish/blob/ba80153f5cdb80bc8d4417758600d77208dbeba3/README.md#L114",
+      "line": 114,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 71,
+  "unique_links": 70,
+  "category_count": 8,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "xiaq",
+      "url": "https://github.com/xiaq",
+      "contributions": 24
+    },
+    {
+      "login": "zzamboni",
+      "url": "https://github.com/zzamboni",
+      "contributions": 7
+    },
+    {
+      "login": "tesujimath",
+      "url": "https://github.com/tesujimath",
+      "contributions": 5
+    },
+    {
+      "login": "iandol",
+      "url": "https://github.com/iandol",
+      "contributions": 4
+    },
+    {
+      "login": "muesli",
+      "url": "https://github.com/muesli",
+      "contributions": 4
+    },
+    {
+      "login": "crinklywrappr",
+      "url": "https://github.com/crinklywrappr",
+      "contributions": 2
+    },
+    {
+      "login": "href",
+      "url": "https://github.com/href",
+      "contributions": 2
+    },
+    {
+      "login": "kolbycrouch",
+      "url": "https://github.com/kolbycrouch",
+      "contributions": 2
+    },
+    {
+      "login": "aca",
+      "url": "https://github.com/aca",
+      "contributions": 1
+    },
+    {
+      "login": "ajeetdsouza",
+      "url": "https://github.com/ajeetdsouza",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 71,
+    "has_more": false,
+    "path_commit_count": 71,
+    "public_contributors": 24,
+    "observed_at": "2026-09-03T17:53:51.211268+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by elves/awesome-elvish contributors.",
+  "license": "BSD-2-Clause",
+  "license_url": "https://github.com/elves/awesome-elvish/tree/ba80153f5cdb80bc8d4417758600d77208dbeba3",
+  "digest": "08d5144d45f4eb14f96627e0a8bfdee76adb0954414289a5400e18abdfb4367d"
+}

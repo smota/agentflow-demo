@@ -1,0 +1,578 @@
+{
+  "format_version": 3,
+  "repository_id": "361735570",
+  "name": "ChunelFeng/CGraph",
+  "revision": "0e8fb90377bbc04c5f78646735862995e2fdfd2b",
+  "readme_path": "README.md",
+  "readme_sha256": "1f6786e66db6a83593159e31d42ccd8952bcdfca28deaa04c7336306e63e413e",
+  "sections": [
+    {
+      "id": "一-简介",
+      "title": "一. 简介",
+      "level": 2,
+      "path": [
+        "一. 简介"
+      ],
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#一-简介",
+      "entries": 4
+    },
+    {
+      "id": "二-入门demo",
+      "title": "二. 入门Demo",
+      "level": 2,
+      "path": [
+        "二. 入门Demo"
+      ],
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#二-入门demo",
+      "entries": 4
+    },
+    {
+      "id": "三-推荐阅读",
+      "title": "三. 推荐阅读",
+      "level": 2,
+      "path": [
+        "三. 推荐阅读"
+      ],
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#三-推荐阅读",
+      "entries": 28
+    },
+    {
+      "id": "四-关联项目",
+      "title": "四. 关联项目",
+      "level": 2,
+      "path": [
+        "四. 关联项目"
+      ],
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#四-关联项目",
+      "entries": 28
+    }
+  ],
+  "entries": [
+    {
+      "title": "【B站视频】CGraph 入门篇",
+      "url": "https://www.bilibili.com/video/BV1mk4y1v7XJ",
+      "category": "一-简介",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频】CGraph 功能篇",
+      "url": "https://www.bilibili.com/cheese/play/ss22264",
+      "category": "一-简介",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频】CGraph 应用篇",
+      "url": "https://www.bilibili.com/video/BV1B84y1D7Hs",
+      "category": "一-简介",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频】CGraph 分享篇",
+      "url": "https://www.bilibili.com/video/BV1ofLdz5EzX",
+      "category": "一-简介",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "CsCGraph",
+      "url": "https://github.com/ChunelFeng/CsCGraph",
+      "category": "二-入门demo",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "JaCGraph",
+      "url": "https://github.com/ChunelFeng/JaCGraph",
+      "category": "二-入门demo",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "GoCGraph",
+      "url": "https://github.com/AsunaU2/GoCGraph",
+      "category": "二-入门demo",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "CGraph-lite",
+      "url": "https://github.com/ChunelFeng/CGraph-lite",
+      "category": "二-入门demo",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——执行逻辑",
+      "url": "http://www.chunel.cn/archives/cgraph-run-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——循环逻辑",
+      "url": "http://www.chunel.cn/archives/cgraph-loop-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——参数传递",
+      "url": "http://www.chunel.cn/archives/cgraph-param-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——条件判断",
+      "url": "http://www.chunel.cn/archives/cgraph-condition-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——面向切面",
+      "url": "http://www.chunel.cn/archives/cgraph-aspect-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——函数注入",
+      "url": "http://www.chunel.cn/archives/cgraph-function-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——消息机制",
+      "url": "http://www.chunel.cn/archives/cgraph-message-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——事件触发",
+      "url": "http://www.chunel.cn/archives/cgraph-event-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——超时机制",
+      "url": "http://www.chunel.cn/archives/cgraph-timeout-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——线程池优化（一）",
+      "url": "http://www.chunel.cn/archives/cgraph-threadpool-1-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——线程池优化（二）",
+      "url": "http://www.chunel.cn/archives/cgraph-threadpool-2-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——线程池优化（三）",
+      "url": "http://www.chunel.cn/archives/cgraph-threadpool-3-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——线程池优化（四）",
+      "url": "http://www.chunel.cn/archives/cgraph-threadpool-4-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——线程池优化（五）",
+      "url": "http://www.chunel.cn/archives/cgraph-threadpool-5-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——线程池优化（六）",
+      "url": "http://www.chunel.cn/archives/cgraph-threadpool-6-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——性能优化（一）",
+      "url": "http://www.chunel.cn/archives/cgraph-performance-1",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——性能优化（二）",
+      "url": "http://www.chunel.cn/archives/cgraph-performance-2",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "纯序员给你介绍图化框架的简单实现——距离计算",
+      "url": "http://www.chunel.cn/archives/cgraph-distance-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "CGraph 主打歌——《听码农的话》",
+      "url": "http://www.chunel.cn/archives/listen-to-coder",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "聊聊我写CGraph的这一年",
+      "url": "http://www.chunel.cn/archives/cgraph-anniversary-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "从零开始主导一款收录于awesome-cpp的项目，是一种怎样的体验?",
+      "url": "http://www.chunel.cn/archives/cgraph-awesome-cpp",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "炸裂！CGraph性能全面超越taskflow之后，作者却说他更想...",
+      "url": "http://www.chunel.cn/archives/cgraph-compare-taskflow-v1",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "以图优图：CGraph中计算dag最大并发度思路总结",
+      "url": "http://www.chunel.cn/archives/cgraph-max-para-size",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "一文带你了解练习时长两年半的CGraph",
+      "url": "http://www.chunel.cn/archives/cgraph-kunanniversary-introduce",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "CGraph作者想知道，您是否需要一款eDAG调度框架",
+      "url": "http://www.chunel.cn/archives/cgraph-extended-dag",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "降边增效：CGraph中冗余边剪裁思路总结",
+      "url": "http://www.chunel.cn/archives/cgraph-remove-redundancy-link",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "最新码坛爽文：重生之我在国外写CGraph(python版本)",
+      "url": "http://www.chunel.cn/archives/cgraph-pycgraph-v1",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "做之前不敢想的 CGraph",
+      "url": "http://www.chunel.cn/archives/cgraph-unbelievable-2025",
+      "category": "三-推荐阅读",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "GraphANNS",
+      "url": "https://github.com/whenever5225/GraphANNS",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "CThreadPool",
+      "url": "https://github.com/ChunelFeng/CThreadPool",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "PyCGraph-example",
+      "url": "https://github.com/ChunelFeng/PyCGraph-example",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "awesome-cpp",
+      "url": "https://github.com/fffaraz/awesome-cpp",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "awesome-workflow-engines",
+      "url": "https://github.com/meirwah/awesome-workflow-engines",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "taskflow",
+      "url": "https://github.com/taskflow/taskflow",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频】CGraph 和 taskflow 性能对比实测",
+      "url": "https://www.bilibili.com/video/BV1gwWAekEAy/?spm_id_from=333.337.search-card.all.click&vd_source=2c7baed805c6cb33d630d5d4546cf0be",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "torchpipe",
+      "url": "https://github.com/torchpipe/torchpipe",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频】开源项目torchpipe - ai引擎在线高并发经验和实战",
+      "url": "https://www.bilibili.com/video/BV1Zm411X7k1/",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "nndeploy",
+      "url": "https://github.com/DeployAI/nndeploy",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频合集】【nndeploy】AI推理框架最全教程",
+      "url": "https://space.bilibili.com/435543077/lists/5565358?type=season",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "KuiperInfer",
+      "url": "https://github.com/zjhellofss/KuiperInfer",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频】KuiperInfer推理框架 - 一个面向教学的推理框架",
+      "url": "https://www.bilibili.com/video/BV1t2421K7HN",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "OGraph",
+      "url": "https://github.com/symphony09/ograph",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频】听阿里云大佬分享：OGraph——基于Go的流图调度二三事",
+      "url": "https://www.bilibili.com/video/BV19RHce6Evo",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "incubator-hugegraph-ai",
+      "url": "https://github.com/apache/incubator-hugegraph-ai",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Agentic GraphRAG：模块化架构实践",
+      "url": "https://hugegraph.apache.org/cn/blog/2025/10/29/agentic-graphrag/",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "pybind11",
+      "url": "https://github.com/pybind/pybind11",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "【B站视频】pybind11落地实战——PyCGraph是怎样练成的",
+      "url": "https://www.bilibili.com/video/BV1ofLdz5EzX",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "MirrorYuChen",
+      "url": "https://github.com/MirrorYuChen",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "Hanano-Yuuki",
+      "url": "https://github.com/Hanano-Yuuki",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "CGraph-lite",
+      "url": "https://github.com/ChunelFeng/CGraph-lite",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "Doocs 微信公众号",
+      "url": "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIxNjA5ODQ0OQ==&action=getalbum&album_id=1989460124624551937&scene=173&from_msgid=2654703194&from_itemidx=1&count=3&nolastread=1#wechat_redirect",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "HelloGithub 第70期",
+      "url": "https://github.com/521xueweihan/HelloGitHub/blob/master/content/HelloGitHub70.md",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "awesome-cpp",
+      "url": "https://github.com/fffaraz/awesome-cpp",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "awesome-parallel-computing",
+      "url": "https://github.com/taskflow/awesome-parallel-computing",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L450",
+      "line": 450,
+      "properties": {}
+    },
+    {
+      "title": "awesome-workflow-engines",
+      "url": "https://github.com/meirwah/awesome-workflow-engines",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "CONTRIBUTORS",
+      "url": "https://github.com/ChunelFeng/CGraph/blob/main/CONTRIBUTORS.md",
+      "category": "四-关联项目",
+      "source_url": "https://github.com/ChunelFeng/CGraph/blob/0e8fb90377bbc04c5f78646735862995e2fdfd2b/README.md#L452",
+      "line": 452,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 64,
+  "unique_links": 60,
+  "category_count": 4,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "contributor_observation": null,
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by ChunelFeng/CGraph contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/ChunelFeng/CGraph/tree/0e8fb90377bbc04c5f78646735862995e2fdfd2b",
+  "digest": "6332e49318a9b8643d055b667f9781244ff392246d045b0893fe824d7e51ae05"
+}

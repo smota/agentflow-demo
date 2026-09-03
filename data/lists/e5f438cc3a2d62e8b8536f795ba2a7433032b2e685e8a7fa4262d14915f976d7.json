@@ -1,0 +1,2042 @@
+{
+  "format_version": 3,
+  "repository_id": "1165096078",
+  "name": "bureado/awesome-agent-runtime-security",
+  "revision": "d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed",
+  "readme_path": "README.md",
+  "readme_sha256": "312ac3ae0d4ef1287ef7b41ff9b4dbf20c403920e08ecb2d6aec8480a77e7b31",
+  "sections": [
+    {
+      "id": "awesome-agent-runtime-security",
+      "title": "awesome-agent-runtime-security",
+      "level": 1,
+      "path": [
+        "awesome-agent-runtime-security"
+      ],
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#awesome-agent-runtime-security",
+      "entries": 0
+    },
+    {
+      "id": "sandboxing--isolation",
+      "title": "Sandboxing & Isolation",
+      "level": 2,
+      "path": [
+        "awesome-agent-runtime-security",
+        "Sandboxing & Isolation"
+      ],
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#sandboxing--isolation",
+      "entries": 93
+    },
+    {
+      "id": "provenance-instrumentation--observability",
+      "title": "Provenance, Instrumentation & Observability",
+      "level": 2,
+      "path": [
+        "awesome-agent-runtime-security",
+        "Provenance, Instrumentation & Observability"
+      ],
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#provenance-instrumentation--observability",
+      "entries": 45
+    },
+    {
+      "id": "secrets-management--isolation",
+      "title": "Secrets Management & Isolation",
+      "level": 2,
+      "path": [
+        "awesome-agent-runtime-security",
+        "Secrets Management & Isolation"
+      ],
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#secrets-management--isolation",
+      "entries": 19
+    },
+    {
+      "id": "agent-identity--credentials",
+      "title": "Agent Identity & Credentials",
+      "level": 2,
+      "path": [
+        "awesome-agent-runtime-security",
+        "Agent Identity & Credentials"
+      ],
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#agent-identity--credentials",
+      "entries": 35
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "path": [
+        "awesome-agent-runtime-security",
+        "References"
+      ],
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#references",
+      "entries": 0
+    },
+    {
+      "id": "risks--mitigations-frameworks",
+      "title": "Risks & mitigations frameworks",
+      "level": 3,
+      "path": [
+        "awesome-agent-runtime-security",
+        "References",
+        "Risks & mitigations frameworks"
+      ],
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#risks--mitigations-frameworks",
+      "entries": 30
+    },
+    {
+      "id": "other-surveys",
+      "title": "Other surveys",
+      "level": 3,
+      "path": [
+        "awesome-agent-runtime-security",
+        "References",
+        "Other surveys"
+      ],
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#other-surveys",
+      "entries": 13
+    }
+  ],
+  "entries": [
+    {
+      "title": "nono",
+      "url": "https://nono.sh/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "e2b",
+      "url": "https://github.com/e2b-dev/infra",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "Zeroboot",
+      "url": "https://github.com/zerobootdev/zeroboot",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "forkd",
+      "url": "https://github.com/deeplethe/forkd",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "Beams",
+      "url": "https://www.beams.run/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L25",
+      "line": 25,
+      "properties": {}
+    },
+    {
+      "title": "krunai",
+      "url": "https://github.com/slp/krunai",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "stereOS",
+      "url": "https://github.com/papercomputeco/stereOS",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "capsem",
+      "url": "https://github.com/google/capsem",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "Docker Sandboxes",
+      "url": "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "sandbox-runtime",
+      "url": "https://github.com/anthropic-experimental/sandbox-runtime",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "matchlock",
+      "url": "https://github.com/jingkaihe/matchlock",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "Cleanroom",
+      "url": "https://github.com/buildkite/cleanroom",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "microsandbox",
+      "url": "https://github.com/superradcompany/microsandbox",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "boxlite",
+      "url": "https://github.com/boxlite-labs/boxlite",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "brood-box",
+      "url": "https://github.com/stacklok/brood-box",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Agent Sandbox (k8s)",
+      "url": "https://agent-sandbox.sigs.k8s.io/docs/guides/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "OpenSandbox",
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Gondolin",
+      "url": "https://earendil-works.github.io/gondolin/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "k7",
+      "url": "https://github.com/Katakate/k7",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "Hyperlight",
+      "url": "https://github.com/hyperlight-dev/hyperlight",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "agentOS",
+      "url": "https://github.com/jordanhubbard/agentos",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Authority Nanos",
+      "url": "https://github.com/mbhatt1/authority",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Leash",
+      "url": "https://github.com/strongdm/leash",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "secimport",
+      "url": "https://github.com/avilum/secimport",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "sandlock",
+      "url": "https://github.com/multikernel/sandlock",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "ironclaw",
+      "url": "https://github.com/nearai/ironclaw",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "amla-sandbox",
+      "url": "https://github.com/amlalabs/amla-sandbox",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "OpenFang",
+      "url": "https://github.com/RightNow-AI/openfang",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "cua",
+      "url": "https://cua.ai/docs/computer-sdk/computers",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "goose + boxlite discussion",
+      "url": "https://github.com/block/goose/issues/6040",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "smolVM",
+      "url": "https://github.com/smol-machines/smolvm",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Freestyle",
+      "url": "https://www.freestyle.sh/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "kvm-jailbox",
+      "url": "https://github.com/ertug/kvm-jailbox",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Confidential Agents",
+      "url": "https://confidential.ai/docs/api/confidential-agents",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Sprites",
+      "url": "https://sprites.dev/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Katsuobushi Sandbox",
+      "url": "https://github.com/cdata/katsuobushi/tree/main/lib/sandbox",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Tarit",
+      "url": "https://github.com/instavm/tarit",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Unikraft Cloud Sandboxes",
+      "url": "https://unikraft.com/docs/use-cases/sandboxes",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "urunc",
+      "url": "https://urunc.io/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "tilde.run",
+      "url": "https://tilde.run/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Declaw",
+      "url": "https://declaw.ai/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Isorun",
+      "url": "https://isorun.ai/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "clampdown",
+      "url": "https://github.com/89luca89/clampdown",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "cplt",
+      "url": "https://github.com/navikt/cplt",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "landstrip",
+      "url": "https://github.com/jarkkojs/landstrip",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "IronCurtain",
+      "url": "https://github.com/provos/ironcurtain",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "monty",
+      "url": "https://github.com/pydantic/monty",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "secure-exec",
+      "url": "https://github.com/rivet-dev/secure-exec",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Minimal",
+      "url": "https://minimal.dev/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "yolo-cage",
+      "url": "https://github.com/borenstein/yolo-cage",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "code-on-incus",
+      "url": "https://github.com/mensfeld/code-on-incus",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Omnigent (Omnibox)",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "MXC",
+      "url": "https://github.com/microsoft/mxc",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "agentcage",
+      "url": "https://github.com/agentcage/agentcage",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "navaris",
+      "url": "https://github.com/erans/navaris",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "AgentENV",
+      "url": "https://github.com/kvcache-ai/AgentENV",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "SmolVM",
+      "url": "https://github.com/CelestoAI/SmolVM",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Stockyard",
+      "url": "https://github.com/prime-radiant-inc/stockyard",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "whim",
+      "url": "https://github.com/udgover/whim",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "agentsh",
+      "url": "https://github.com/canyonroad/agentsh",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "fence",
+      "url": "https://github.com/Use-Tusk/fence",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Greywall",
+      "url": "https://github.com/GreyhavenHQ/greywall",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "ai-jail",
+      "url": "https://github.com/akitaonrails/ai-jail",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "xbin",
+      "url": "https://github.com/xbin-dev/xbin",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "rein",
+      "url": "https://github.com/TomHennen/rein",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "isolate",
+      "url": "https://radicle.network/nodes/radicle.dpc.pw/rad%3Az3qqqx5cpk5jk9ioEGaw54dihfDwb",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "shuru",
+      "url": "https://github.com/superhq-ai/shuru",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Isolade",
+      "url": "https://github.com/isolade/isolade",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "bhatti",
+      "url": "https://github.com/sahil-shubham/bhatti",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "workcell",
+      "url": "https://github.com/omkhar/workcell",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "vmoat",
+      "url": "https://github.com/voycey/vmoat",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "agent-vm",
+      "url": "https://github.com/sylvinus/agent-vm",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "virtdev",
+      "url": "https://github.com/matheusmoreira/virtdev",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Locki",
+      "url": "https://github.com/JanPokorny/locki",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Bromure Agentic Coding",
+      "url": "https://bromure.io/en/agentic-coding",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "clawk",
+      "url": "https://github.com/clawkwork/clawk",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Gondolin",
+      "url": "https://github.com/earendil-works/gondolin",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "yoloAI",
+      "url": "https://github.com/kstenerud/yoloai",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "dyana",
+      "url": "https://github.com/dreadnode/dyana",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "agentcontainers",
+      "url": "https://github.com/kubedoll-heavy-industries/agentcontainers",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "shai",
+      "url": "https://github.com/colony-2/shai",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "sandy",
+      "url": "https://github.com/rappdw/sandy",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Rover Sandbox",
+      "url": "https://docs.endor.dev/rover/concepts/sandbox/",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "bentorun",
+      "url": "https://github.com/vladkol/bentorun",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Runmesh",
+      "url": "https://github.com/hamzzy/Runmesh",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Containarium",
+      "url": "https://github.com/FootprintAI/Containarium",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "syva",
+      "url": "https://github.com/false-systems/syva",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Veto (Ona)",
+      "url": "https://ona.com/docs/ona/organizations/policies/executable-deny-list",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Hazmat",
+      "url": "https://github.com/dredozubov/hazmat",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "sandvault",
+      "url": "https://github.com/webcoyote/sandvault",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "agentOS",
+      "url": "https://github.com/rivet-dev/agentos",
+      "category": "sandboxing--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "cMCP",
+      "url": "https://github.com/agentrust-io/cmcp",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "aflock",
+      "url": "https://github.com/aflock-ai/aflock",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "cupcake",
+      "url": "https://cupcake.eqtylab.io/",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "mandible",
+      "url": "https://github.com/mandible-ai/mandible",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "sage",
+      "url": "https://github.com/avast/sage",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "AgentSentinel",
+      "url": "https://github.com/m4p1e/agent-sentinel",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "AgentSight (eBPF)",
+      "url": "https://github.com/eunomia-bpf/agentsight",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "ActPlane",
+      "url": "https://github.com/eunomia-bpf/ActPlane",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "MCPGuard",
+      "url": "https://github.com/facebook/mcpguard-dynamic",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "IronScope",
+      "url": "https://github.com/altugbozkurt07/ironscope",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "MCPSpy",
+      "url": "https://github.com/alex-ilgayev/mcpspy",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "membrane",
+      "url": "https://github.com/noperator/membrane",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Claw Patrol",
+      "url": "https://github.com/denoland/clawpatrol",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "CPEX",
+      "url": "https://github.com/contextforge-org/cpex",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "tapes",
+      "url": "https://github.com/papercomputeco/tapes",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "agentgateway",
+      "url": "https://agentgateway.dev/docs/",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "rover (instrumentation)",
+      "url": "https://github.com/endorhq/rover",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "ClawShield",
+      "url": "https://github.com/SleuthCo/clawshield-public",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "SentinelGate",
+      "url": "https://github.com/Sentinel-Gate/Sentinelgate",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "carapace",
+      "url": "https://github.com/clawdreyhepburn/carapace",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "ibac",
+      "url": "https://ibac.dev/",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "guardians",
+      "url": "https://github.com/metareflection/guardians",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "hooksy",
+      "url": "https://github.com/ihavespoons/hooksy",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "AgentTrust",
+      "url": "https://github.com/chenglin1112/AgentTrust",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "Adrian",
+      "url": "https://github.com/secureagentics/Adrian",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Prempti",
+      "url": "https://github.com/falcosecurity/prempti",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "agentjail",
+      "url": "https://github.com/LuD1161/agentjail",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "HELM AI Kernel",
+      "url": "https://github.com/Mindburn-Labs/helm-ai-kernel",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "logira",
+      "url": "https://github.com/melonattacker/logira",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "AgentLens",
+      "url": "https://github.com/hellnbak/AgentLens",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "ACS",
+      "url": "https://github.com/Agent-Control-Standard/ACS",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "gryph",
+      "url": "https://github.com/safedep/gryph",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "agent-trace",
+      "url": "https://github.com/Siddhant-K-code/agent-trace",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Infisical Agent Sentinel",
+      "url": "https://infisical.com/docs/documentation/platform/agent-sentinel/overview",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "Arize Phoenix Tracing",
+      "url": "https://arize.com/docs/phoenix/tracing/llm-traces",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "agentry",
+      "url": "https://github.com/amtp-protocol/agentry",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "dapr-a2a",
+      "url": "https://github.com/diagrid-labs/dapr-a2a",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "toolhive provenance",
+      "url": "https://github.com/stacklok/toolhive/blob/e00a4fc8482babc3d28edd289766a4589fde184e/docs/arch/06-registry-system.md",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "Virtual MCP Server (Stacklok)",
+      "url": "https://dev.to/stacklok/introducing-virtual-mcp-server-unified-gateway-for-multi-mcp-workflows-17ee",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "Agent Governance Toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Dogwood",
+      "url": "https://github.com/dogwood-policy/dogwood",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "micromize",
+      "url": "https://github.com/micromize-dev/micromize",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "SourceryKit",
+      "url": "https://github.com/ProvablyAI/sourcerykit",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Prismor Attestation Bundle",
+      "url": "https://github.com/PrismorSec/prismor/blob/main/docs/attestation-bundle.md",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "aee-conformance",
+      "url": "https://github.com/astrogilda/aee-conformance",
+      "category": "provenance-instrumentation--observability",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "nono secrets management",
+      "url": "https://nono.sh/docs/cli/features/secrets",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "iron-proxy",
+      "url": "https://github.com/ironsh/iron-proxy",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "agent-creds",
+      "url": "https://github.com/dtkav/agent-creds",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "wardgate",
+      "url": "https://github.com/wardgate/wardgate",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Warden",
+      "url": "https://github.com/stephnangue/warden",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Riptides on-the-wire credential injection",
+      "url": "https://blog.riptides.io/vault-credentials-on-the-wire-riptides/",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "kloak",
+      "url": "https://github.com/spinningfactory/kloak",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "clawshell",
+      "url": "https://github.com/clawshell/clawshell",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "prxlocal",
+      "url": "https://github.com/vladimirkras/prxlocal",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "onecli",
+      "url": "https://github.com/onecli/onecli",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "sandbox-proxy",
+      "url": "https://github.com/yagop/sandbox",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "secretless-ai",
+      "url": "https://github.com/opena2a-org/secretless-ai",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "enject",
+      "url": "https://github.com/GreatScott/enject",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "airut masked secrets",
+      "url": "https://github.com/airutorg/airut/blob/main/doc/network-sandbox.md#masked-secrets-token-replacement",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Tailscale Aperture",
+      "url": "https://tailscale.com/docs/features/aperture",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "latchkey",
+      "url": "https://github.com/imbue-ai/latchkey",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "authsome",
+      "url": "https://github.com/manojbajaj95/authsome",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "authproxy",
+      "url": "https://github.com/rmorlok/authproxy",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "LEASH",
+      "url": "https://github.com/vettid/LEASH",
+      "category": "secrets-management--isolation",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "AAuth",
+      "url": "https://github.com/dickhardt/AAuth",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Verifiable Intent",
+      "url": "https://github.com/agent-intent/verifiable-intent",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "AI Agent Auth and Authz (IETF)",
+      "url": "https://datatracker.ietf.org/doc/draft-klrc-aiagent-auth/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Agent Native Authorization (IETF)",
+      "url": "https://datatracker.ietf.org/doc/draft-embesozzi-oauth-agent-native-authorization/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "CAAM (IETF)",
+      "url": "https://datatracker.ietf.org/doc/html/draft-barney-caam-00",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "FAPI / RAR (RFC 9396)",
+      "url": "https://datatracker.ietf.org/doc/html/rfc9396",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "WIMSE",
+      "url": "https://datatracker.ietf.org/group/wimse/documents/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "WebBotAuth WG",
+      "url": "https://datatracker.ietf.org/wg/webbotauth/about/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "AGTP Composition",
+      "url": "https://datatracker.ietf.org/doc/draft-hood-agtp-composition/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "ZTNP",
+      "url": "https://datatracker.ietf.org/doc/draft-miller-ztnp/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "AuthZEN",
+      "url": "https://openid.net/wg/authzen/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Trust over IP",
+      "url": "https://trustoverip.github.io/tswg-tsp-specification/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Verifiable Trust",
+      "url": "https://verana-labs.github.io/verifiable-trust-spec/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "TRQP",
+      "url": "https://www.lfdecentralizedtrust.org/blog/toip-announces-public-review-02-of-the-trust-registry-query-protocol-trqp-specification-v2.0",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Anonymous Credentials (ARC)",
+      "url": "https://datatracker.ietf.org/doc/draft-yun-cfrg-arc/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "Directory (dir)",
+      "url": "https://github.com/agntcy/dir",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "DNS-AID",
+      "url": "https://github.com/infobloxopen/dns-aid-core",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "ZTDNAID",
+      "url": "https://datatracker.ietf.org/doc/draft-brooks-ztdnaid-new/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "DAWN",
+      "url": "https://datatracker.ietf.org/doc/draft-king-dawn-requirements/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Inter-Agent Trust Models",
+      "url": "https://arxiv.org/abs/2511.03434",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Identity Management for Agentic AI (OpenID Foundation)",
+      "url": "https://arxiv.org/abs/2510.25819",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Delegated Authorization Constrained to Semantic Task-to-Scope Matching",
+      "url": "https://arxiv.org/abs/2510.26702",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Authorization Propagation in Multi-Agent AI",
+      "url": "https://arxiv.org/abs/2605.05440",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "PIC Model",
+      "url": "https://github.com/pic-protocol/pic-spec/blob/main/draft/0.1/pic-spec.md",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Nanda Unified Architecture",
+      "url": "https://arxiv.org/abs/2507.07901",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Agent Identity Protocol (AIP)",
+      "url": "https://github.com/openagentidentityprotocol/agentidentityprotocol",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "AIP",
+      "url": "https://sunilprakash.com/aip/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "opena2a agent-identity-management",
+      "url": "https://github.com/opena2a-org/agent-identity-management",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Specification Compendium (naftiko)",
+      "url": "https://github.com/naftiko-capabilities/interfaces",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "AGBAC",
+      "url": "https://github.com/kahalewai/agbac",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Intent-Based Access Control for Agentic AI",
+      "url": "https://www.itu.int/en/ITU-T/Workshops-and-Seminars/2026/0330/Documents/Ward%20Duchamps.pdf",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "ZeroID",
+      "url": "https://github.com/highflame-ai/zeroid",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Vega (Microsoft Research)",
+      "url": "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "DIF Trusted Agents WG",
+      "url": "https://identity.foundation/working-groups/trusted-agents.html",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Progressive Authentication",
+      "url": "https://github.com/dickhardt/agent-auth",
+      "category": "agent-identity--credentials",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "OWASP Top 10 Agentic",
+      "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Meta: Practical AI Agent Security",
+      "url": "https://ai.meta.com/blog/practical-ai-agent-security/",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "AWS Agentic AI Security Matrix",
+      "url": "https://aws.amazon.com/blogs/security/the-agentic-ai-security-scoping-matrix-a-framework-for-securing-autonomous-ai-systems/",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "AARTS",
+      "url": "https://github.com/gendigitalinc/aarts/blob/main/standard.md",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Attack and Defense Landscape of Agentic AI",
+      "url": "https://arxiv.org/abs/2603.11088",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Weather Report analysis",
+      "url": "https://theweatherreport.ai/posts/agentic-ai-attack-defense/",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "Agents of Chaos",
+      "url": "https://arxiv.org/abs/2602.20021",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "APPA: Agentic Permissions Policy Algebra",
+      "url": "https://arxiv.org/abs/2607.24625",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "FAVA: Formal Authorization for Verified Agents",
+      "url": "https://arxiv.org/abs/2607.27267",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "CNCF Cloud-Native Agentic Standards",
+      "url": "https://www.cncf.io/blog/2026/03/23/cloud-native-agentic-standards/",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "AARM: Autonomous Action Runtime Management",
+      "url": "https://aarm.dev/",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "CUSTODY",
+      "url": "https://github.com/malwarejake/CUSTODY-framework",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "AGCP: Agentic Governance Control Plane",
+      "url": "https://github.com/jwillisSFT/agcp-spec",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Distributed Trust Framework (DTF)",
+      "url": "https://arxiv.org/abs/2605.15228",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Zones of Distrust (ZoD)",
+      "url": "https://github.com/bluvibytes/zone-of-distrust",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Execution Outcome Attestation (IETF)",
+      "url": "https://datatracker.ietf.org/doc/html/draft-morrow-sogomonian-exec-outcome-attest-00",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "SAFE-MCP",
+      "url": "https://github.com/SAFE-MCP/safe-mcp",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "CoSAI MCP Security",
+      "url": "https://github.com/cosai-oasis/ws4-secure-design-agentic-systems/blob/mcp/model-context-protocol-security.md",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "SoK: MCP Ecosystem Security",
+      "url": "https://arxiv.org/abs/2512.08290",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Enterprise MCP Security Frameworks",
+      "url": "https://arxiv.org/abs/2504.08623",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "Securing MCP: Risks, Controls, Governance",
+      "url": "https://arxiv.org/abs/2511.20920",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "MCP Server Security Standard",
+      "url": "https://github.com/mcp-security-standard/mcp-server-security-standard",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "SEP-1933: Workload Identity Federation for MCP",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1933",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "Security of AI Agent Communication Protocols",
+      "url": "https://arxiv.org/abs/2602.11327",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "CoSAI Crypto Verification of Resources",
+      "url": "https://github.com/cosai-oasis/ws4-secure-design-agentic-systems/blob/mcp/model-context-protocol-security.md#326-cryptographic-verification-of-resources",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "CoSAI Signing ML Artifacts",
+      "url": "https://github.com/cosai-oasis/ws1-supply-chain/blob/main/signing-ml-artifacts.md",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "SAFE-M-2 Tool Description Integrity",
+      "url": "https://github.com/SAFE-MCP/safe-mcp/blob/main/mitigations/SAFE-M-2/README.md",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Atlas ML Provenance",
+      "url": "https://arxiv.org/abs/2502.19567",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "Auditing AI Agent Delegation and Interactions",
+      "url": "https://datatracker.ietf.org/doc/draft-kuehlewind-audit-architecture/",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "Agent Audit Trail (AAT)",
+      "url": "https://datatracker.ietf.org/doc/draft-sharif-agent-audit-trail/",
+      "category": "risks--mitigations-frameworks",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "pleasedonotescape.com",
+      "url": "https://pleasedonotescape.com/",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "ORCA Evaluation Criteria Matrix",
+      "url": "https://github.com/ORCA-LF/evaluation-criteria-matrix",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Survey of Real-World Process Sandboxing",
+      "url": "https://fruct.org/publications/volume-35/fruct35/files/Niem.pdf",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "awesome-sandbox",
+      "url": "https://github.com/restyler/awesome-sandbox",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "Ikangai Sandboxing Guide",
+      "url": "https://www.ikangai.com/the-complete-guide-to-sandboxing-autonomous-agents/",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "The State of MicroVM Isolation in 2026",
+      "url": "https://emirb.github.io/blog/microvm-2026/",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "Landlock.io",
+      "url": "https://landlock.io/",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "Landlock: Idea to Implementation",
+      "url": "https://landlock.io/talks/2024-06-06_landlock-article.pdf",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "Landlock integrations",
+      "url": "https://landlock.io/integrations/",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "Leveraging Kernel Security for Containers",
+      "url": "https://dl.acm.org/doi/epdf/10.1145/3339252.3340502",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "Security Challenges in Container Cloud",
+      "url": "https://www.researchgate.net/publication/359967351_Security_Challenges_in_the_Container_Cloud",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "SANDBOXESCAPEBENCH",
+      "url": "https://arxiv.org/abs/2603.02277",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "User namespaces are not a security boundary",
+      "url": "https://edera.dev/stories/user-namespaces-are-not-a-security-boundary",
+      "category": "other-surveys",
+      "source_url": "https://github.com/bureado/awesome-agent-runtime-security/blob/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed/README.md#L310",
+      "line": 310,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 235,
+  "unique_links": 235,
+  "category_count": 6,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "bureado",
+      "url": "https://github.com/bureado",
+      "contributions": 23
+    },
+    {
+      "login": "shivam-declaw",
+      "url": "https://github.com/shivam-declaw",
+      "contributions": 2
+    },
+    {
+      "login": "aural-psynapse",
+      "url": "https://github.com/aural-psynapse",
+      "contributions": 1
+    },
+    {
+      "login": "dredozubov",
+      "url": "https://github.com/dredozubov",
+      "contributions": 1
+    },
+    {
+      "login": "ertug",
+      "url": "https://github.com/ertug",
+      "contributions": 1
+    },
+    {
+      "login": "gladstomych-sa",
+      "url": "https://github.com/gladstomych-sa",
+      "contributions": 1
+    },
+    {
+      "login": "JAORMX",
+      "url": "https://github.com/JAORMX",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 30,
+    "has_more": false,
+    "path_commit_count": 30,
+    "public_contributors": 7,
+    "observed_at": "2026-09-03T18:00:32.368291+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [
+    "https://github.com/SAFE-MCP/safe-mcp/blob/main/mitigations/SAFE-M-9/README.md"
+  ],
+  "attribution": "Content curated by bureado/awesome-agent-runtime-security contributors.",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/bureado/awesome-agent-runtime-security/tree/d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed",
+  "digest": "e5f438cc3a2d62e8b8536f795ba2a7433032b2e685e8a7fa4262d14915f976d7"
+}

@@ -1,0 +1,2455 @@
+{
+  "format_version": 3,
+  "repository_id": "1085636225",
+  "name": "jjiantong/Awesome-KV-Cache-Optimization",
+  "revision": "c136b0bd91f45590badbb1839520fa7179e72620",
+  "readme_path": "README.md",
+  "readme_sha256": "8bc8e18661f351a82403c37df22bf488c78f03d0566e3d36963dcea7a8010174",
+  "sections": [
+    {
+      "id": "news",
+      "title": "News",
+      "level": 3,
+      "path": [
+        "News"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#news",
+      "entries": 0
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 3,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "quick-index",
+      "title": "Quick Index",
+      "level": 2,
+      "path": [
+        "Quick Index"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#quick-index",
+      "entries": 0
+    },
+    {
+      "id": "temporal--execution--scheduling",
+      "title": "Temporal — Execution & Scheduling",
+      "level": 2,
+      "path": [
+        "Temporal — Execution & Scheduling"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#temporal--execution--scheduling",
+      "entries": 0
+    },
+    {
+      "id": "kv-centric-scheduling",
+      "title": "KV-Centric Scheduling",
+      "level": 3,
+      "path": [
+        "Temporal — Execution & Scheduling",
+        "KV-Centric Scheduling"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#kv-centric-scheduling",
+      "entries": 22
+    },
+    {
+      "id": "pipelining--overlapping",
+      "title": "Pipelining & Overlapping",
+      "level": 3,
+      "path": [
+        "Temporal — Execution & Scheduling",
+        "Pipelining & Overlapping"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#pipelining--overlapping",
+      "entries": 11
+    },
+    {
+      "id": "hardware-aware-execution",
+      "title": "Hardware-aware Execution",
+      "level": 3,
+      "path": [
+        "Temporal — Execution & Scheduling",
+        "Hardware-aware Execution"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#hardware-aware-execution",
+      "entries": 0
+    },
+    {
+      "id": "disaggregated-inference",
+      "title": "Disaggregated Inference",
+      "level": 4,
+      "path": [
+        "Temporal — Execution & Scheduling",
+        "Hardware-aware Execution",
+        "Disaggregated Inference"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#disaggregated-inference",
+      "entries": 9
+    },
+    {
+      "id": "compute-offloading",
+      "title": "Compute Offloading",
+      "level": 4,
+      "path": [
+        "Temporal — Execution & Scheduling",
+        "Hardware-aware Execution",
+        "Compute Offloading"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#compute-offloading",
+      "entries": 8
+    },
+    {
+      "id": "spatial--placement--migration",
+      "title": "Spatial — Placement & Migration",
+      "level": 2,
+      "path": [
+        "Spatial — Placement & Migration"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#spatial--placement--migration",
+      "entries": 0
+    },
+    {
+      "id": "memory-hierarchy-kv-orchestration",
+      "title": "Memory Hierarchy KV Orchestration",
+      "level": 3,
+      "path": [
+        "Spatial — Placement & Migration",
+        "Memory Hierarchy KV Orchestration"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#memory-hierarchy-kv-orchestration",
+      "entries": 0
+    },
+    {
+      "id": "cross-device-memory-hierarchy",
+      "title": "Cross-device Memory Hierarchy",
+      "level": 4,
+      "path": [
+        "Spatial — Placement & Migration",
+        "Memory Hierarchy KV Orchestration",
+        "Cross-device Memory Hierarchy"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#cross-device-memory-hierarchy",
+      "entries": 41
+    },
+    {
+      "id": "intra-gpu-memory-hierarchy",
+      "title": "Intra-GPU Memory Hierarchy",
+      "level": 4,
+      "path": [
+        "Spatial — Placement & Migration",
+        "Memory Hierarchy KV Orchestration",
+        "Intra-GPU Memory Hierarchy"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#intra-gpu-memory-hierarchy",
+      "entries": 2
+    },
+    {
+      "id": "compute-device-kv-orchestration",
+      "title": "Compute Device KV Orchestration",
+      "level": 3,
+      "path": [
+        "Spatial — Placement & Migration",
+        "Compute Device KV Orchestration"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#compute-device-kv-orchestration",
+      "entries": 13
+    },
+    {
+      "id": "structural--representation--retention",
+      "title": "Structural — Representation & Retention",
+      "level": 2,
+      "path": [
+        "Structural — Representation & Retention"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#structural--representation--retention",
+      "entries": 0
+    },
+    {
+      "id": "kv-cache-compression",
+      "title": "KV Cache Compression",
+      "level": 3,
+      "path": [
+        "Structural — Representation & Retention",
+        "KV Cache Compression"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#kv-cache-compression",
+      "entries": 0
+    },
+    {
+      "id": "quantization",
+      "title": "Quantization",
+      "level": 4,
+      "path": [
+        "Structural — Representation & Retention",
+        "KV Cache Compression",
+        "Quantization"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#quantization",
+      "entries": 29
+    },
+    {
+      "id": "low-rank-approximation",
+      "title": "Low-rank Approximation",
+      "level": 4,
+      "path": [
+        "Structural — Representation & Retention",
+        "KV Cache Compression",
+        "Low-rank Approximation"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#low-rank-approximation",
+      "entries": 7
+    },
+    {
+      "id": "structural-compression",
+      "title": "Structural Compression",
+      "level": 4,
+      "path": [
+        "Structural — Representation & Retention",
+        "KV Cache Compression",
+        "Structural Compression"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#structural-compression",
+      "entries": 10
+    },
+    {
+      "id": "codec-based-compression",
+      "title": "Codec-based Compression",
+      "level": 4,
+      "path": [
+        "Structural — Representation & Retention",
+        "KV Cache Compression",
+        "Codec-based Compression"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#codec-based-compression",
+      "entries": 5
+    },
+    {
+      "id": "kv-cache-retention-management",
+      "title": "KV Cache Retention Management",
+      "level": 3,
+      "path": [
+        "Structural — Representation & Retention",
+        "KV Cache Retention Management"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#kv-cache-retention-management",
+      "entries": 0
+    },
+    {
+      "id": "allocation--reuse",
+      "title": "Allocation & Reuse",
+      "level": 4,
+      "path": [
+        "Structural — Representation & Retention",
+        "KV Cache Retention Management",
+        "Allocation & Reuse"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#allocation--reuse",
+      "entries": 20
+    },
+    {
+      "id": "eviction",
+      "title": "Eviction",
+      "level": 4,
+      "path": [
+        "Structural — Representation & Retention",
+        "KV Cache Retention Management",
+        "Eviction"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#eviction",
+      "entries": 32
+    },
+    {
+      "id": "cross-behavior-co-design-affinity",
+      "title": "Cross-behavior Co-design Affinity",
+      "level": 2,
+      "path": [
+        "Cross-behavior Co-design Affinity"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#cross-behavior-co-design-affinity",
+      "entries": 0
+    },
+    {
+      "id": "behavior-objective-effects",
+      "title": "Behavior-objective Effects",
+      "level": 2,
+      "path": [
+        "Behavior-objective Effects"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#behavior-objective-effects",
+      "entries": 0
+    },
+    {
+      "id": "citation",
+      "title": "Citation",
+      "level": 2,
+      "path": [
+        "Citation"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#citation",
+      "entries": 0
+    },
+    {
+      "id": "contributors",
+      "title": "Contributors",
+      "level": 2,
+      "path": [
+        "Contributors"
+      ],
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#contributors",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3802009",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L101",
+      "line": 101,
+      "properties": {
+        "Type": "Prefix-aware token scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3802028",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L102",
+      "line": 102,
+      "properties": {
+        "Type": "Shared KV access scheduling across requests"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3749168",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L103",
+      "line": 103,
+      "properties": {
+        "Type": "Hotness-aware KV cache scheduling for prefix sharing; Also belongs to KV cache retention management"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.08581",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L104",
+      "line": 104,
+      "properties": {
+        "Type": "KV reuse-aware request scheduling; Also belongs to allocation & reuse (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2604.19351",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L105",
+      "line": 105,
+      "properties": {
+        "Type": "Hash-based token-level attention compute scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.emnlp-main.1079.pdf",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L106",
+      "line": 106,
+      "properties": {
+        "Type": "Token-level attention compute scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3746027.3758181",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L107",
+      "line": 107,
+      "properties": {
+        "Type": "Query-aware page-level KV selection for sparse attention computation; Also belongs to memory hierarchy KV orchestration "
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2510.18586",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L108",
+      "line": 108,
+      "properties": {
+        "Type": "Agent-aware KV scheduling under tool-call stalls; Also belongs to memory hierarchy KV orchestration"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.acl-long.1211.pdf",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L109",
+      "line": 109,
+      "properties": {
+        "Type": "Token-level attention compute scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=RyOpooIxDF",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L110",
+      "line": 110,
+      "properties": {
+        "Type": "Token-level attention compute scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=RXPofAsL8F",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L111",
+      "line": 111,
+      "properties": {
+        "Type": "Kernel-level workload scheduling across CUDA thread blocks; Also belongs to allocation & reuse (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/fast25-qin.pdf",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L112",
+      "line": 112,
+      "properties": {
+        "Type": "KV reuse-aware request-level scheduling; Also belongs to HW-aware execution"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/1e027da6bec9ceb2ec37951ceeccae93-Paper-Conference.pdf",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L113",
+      "line": 113,
+      "properties": {
+        "Type": "Token-level attention compute scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/724be4472168f31ba1c9ac630f15dec8-Paper-Conference.pdf",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L114",
+      "line": 114,
+      "properties": {
+        "Type": "KV reuse-aware request-level scheduling; Also belongs to allocation & reuse (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2404.09526",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L115",
+      "line": 115,
+      "properties": {
+        "Type": "KV usage-aware request-level scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2410.18248",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L116",
+      "line": 116,
+      "properties": {
+        "Type": "KV usage-aware request-level scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2410.00428",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L117",
+      "line": 117,
+      "properties": {
+        "Type": "KV usage-aware request-level scheduling; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=OS5dqxmmtl",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L118",
+      "line": 118,
+      "properties": {
+        "Type": "Token-level attention compute scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=KzACYw0MTV",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L119",
+      "line": 119,
+      "properties": {
+        "Type": "Token-level attention compute scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=R0SoZvqXyQ",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L120",
+      "line": 120,
+      "properties": {
+        "Type": "KV usage-aware request-level scheduling; Also belongs to HW-aware execution"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=meKEKDhdnx",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L121",
+      "line": 121,
+      "properties": {
+        "Type": "KV reuse-aware request-level scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2401.11181",
+      "category": "kv-centric-scheduling",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L122",
+      "line": 122,
+      "properties": {
+        "Type": "KV usage-aware request-level scheduling; Also belongs to HW-aware execution"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.22850",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L139",
+      "line": 139,
+      "properties": {
+        "Type": "Object-storage KV retrieval ↔ GPU layerwise consumption; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2604.21231",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L140",
+      "line": 140,
+      "properties": {
+        "Type": "Cloud KV streaming ↔ on-device KV compute; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2603.27138",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L141",
+      "line": 141,
+      "properties": {
+        "Type": "Layer-ahead CPU attention precompute ↔ GPU decode; Also belongs to HW-aware execution"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/epdf/10.1145/3748173.3779188",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L142",
+      "line": 142,
+      "properties": {
+        "Type": "GPU compute ↔ GPU KV prefetch (CXL memory→L2); Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.findings-acl.997.pdf",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L143",
+      "line": 143,
+      "properties": {
+        "Type": "GPU KV recompute ↔ KV transfer (CPU↔GPU)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2501.08192",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L144",
+      "line": 144,
+      "properties": {
+        "Type": "GPU KV prefetch (HBM→L2) ↔ GPU collective communication; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=umgy9tWBLA",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L145",
+      "line": 145,
+      "properties": {
+        "Type": "CPU attention compute ↔ GPU linear ops; Also belongs to HW-aware execution"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2504.06319",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L146",
+      "line": 146,
+      "properties": {
+        "Type": "GPU KV prefetch (HBM→L2) ↔ GPU attention compute; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/atc24-gao-bin-cost.pdf",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L147",
+      "line": 147,
+      "properties": {
+        "Type": "KV load/store (CPU↔GPU) ↔ GPU compute; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2403.11421",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L148",
+      "line": 148,
+      "properties": {
+        "Type": "CPU R-part compute ↔ GPU S-part compute; Also belongs to HW-aware execution"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3656019.3676949",
+      "category": "pipelining--overlapping",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L149",
+      "line": 149,
+      "properties": {
+        "Type": "CPU MHSA compute ↔ FFN data transfer (CPU→GPU); Also belongs to HW-aware execution"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2603.27138",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L171",
+      "line": 171,
+      "properties": {
+        "Type": "CPU/GPU collaborative attention; Also belongs to pipelining & overlapping"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2602.18750",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L172",
+      "line": 172,
+      "properties": {
+        "Type": "SmartSSD-assisted KV offloading; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/fast25-qin.pdf",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L173",
+      "line": 173,
+      "properties": {
+        "Type": "PD disaggregation; Also belongs to KV-centric scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=AbGbGZFYOD",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L174",
+      "line": 174,
+      "properties": {
+        "Type": "Decoupling prefill and decode to different GPUs; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=R0SoZvqXyQ",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L175",
+      "line": 175,
+      "properties": {
+        "Type": "Colocating PD jobs of multiple LLMs within each GPU via SM partitioning; Also belongs to KV-centric scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L176",
+      "line": 176,
+      "properties": {
+        "Type": "Decoupling prefill and decode to different GPUs; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2401.02669",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L177",
+      "line": 177,
+      "properties": {
+        "Type": "Disaggregating at the operator level; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2311.18677",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L178",
+      "line": 178,
+      "properties": {
+        "Type": "Decoupling prefill and decode to different GPUs; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2401.11181",
+      "category": "disaggregated-inference",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L179",
+      "line": 179,
+      "properties": {
+        "Type": "Decoupling prefill and decode to different GPUs; Also belongs to KV-centric scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=umgy9tWBLA",
+      "category": "compute-offloading",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L189",
+      "line": 189,
+      "properties": {
+        "Type": "CPU offloading (attention and KV caches); Also belongs to pipelining & overlapping"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=ALzTQUgW8a",
+      "category": "compute-offloading",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L190",
+      "line": 190,
+      "properties": {
+        "Type": "CPU offloading (attention and retrieval)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3676641.3716009",
+      "category": "compute-offloading",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L191",
+      "line": 191,
+      "properties": {
+        "Type": "PIM-based offloading"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3688351.3689164",
+      "category": "compute-offloading",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L192",
+      "line": 192,
+      "properties": {
+        "Type": "CPU offloading"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2409.04992",
+      "category": "compute-offloading",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L193",
+      "line": 193,
+      "properties": {
+        "Type": "CSD Offloading; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640422",
+      "category": "compute-offloading",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L194",
+      "line": 194,
+      "properties": {
+        "Type": "PIM-based offloading; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2403.11421",
+      "category": "compute-offloading",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L195",
+      "line": 195,
+      "properties": {
+        "Type": "CPU offloading (attention and KV caches); Also belongs to pipelining & overlapping"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3656019.3676949",
+      "category": "compute-offloading",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L196",
+      "line": 196,
+      "properties": {
+        "Type": "CPU offloading with dynamic GPU-CPU division; Also belongs to pipelining & overlapping"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2604.26557",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L224",
+      "line": 224,
+      "properties": {
+        "Type": "NVMe-direct KV offloading on memory-constrained edge devices"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.22850",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L225",
+      "line": 225,
+      "properties": {
+        "Type": "Layerwise KV placement and retrieval from object storage; Also belongs to pipelining & overlapping (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3802077",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L226",
+      "line": 226,
+      "properties": {
+        "Type": "CPU/DRAM/SSD multi-tier KV placement and migration"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.03375",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L227",
+      "line": 227,
+      "properties": {
+        "Type": "SSD-backed KV placement with GPU-friendly retrieval layout"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/forum?id=6i1jVAYbHs",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L228",
+      "line": 228,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2604.19769",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L229",
+      "line": 229,
+      "properties": {
+        "Type": "Temporal-tiered KV placement with heterogeneous precision/retention"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2602.18750",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L230",
+      "line": 230,
+      "properties": {
+        "Type": "SmartSSD-backed hierarchical KV offloading; Also belongs to HW-aware execution (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2602.07721",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L231",
+      "line": 231,
+      "properties": {
+        "Type": "GPU-native top-k KV retrieval from CPU-offloaded caches"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2601.13684",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L232",
+      "line": 232,
+      "properties": {
+        "Type": "Asynchronous hierarchical KV retrieval with head heterogeneity"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=onhjdWCxZY",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L233",
+      "line": 233,
+      "properties": {
+        "Type": "Flash-based KV cache swapping between GPU memory and SSD-resident storage"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3746027.3758181",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L234",
+      "line": 234,
+      "properties": {
+        "Type": "Selective KV page loading for query-aware sparse attention; Also belongs to KV-centric scheduling (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3725783.3764393",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L235",
+      "line": 235,
+      "properties": {
+        "Type": "GPU-centric KV service with host-memory spillover"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.findings-acl.1043.pdf",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L236",
+      "line": 236,
+      "properties": {
+        "Type": "Dominant-token loading; Also belongs to KV cache compression (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2510.18586",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L237",
+      "line": 237,
+      "properties": {
+        "Type": "Proactive KV offload/upload for tool-call stalls; Also belongs to KV-centric scheduling (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2509.00105",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L238",
+      "line": 238,
+      "properties": {
+        "Type": "KV-native DRAM/SSD placement; Also belongs to KV cache compression (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2505.13109",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L239",
+      "line": 239,
+      "properties": {
+        "Type": "Speculative top-k KV retrieval"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2511.20172",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L240",
+      "line": 240,
+      "properties": {
+        "Type": "System cost-driven decision"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/epdf/10.1145/3748173.3779188",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L241",
+      "line": 241,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to pipelining & overlapping (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2512.18194",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L242",
+      "line": 242,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to compute device KV orchestration"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=5Iw1nDtYmT",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L243",
+      "line": 243,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=8z3cOVER4z",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L244",
+      "line": 244,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2510.09665",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L245",
+      "line": 245,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to compute device KV orchestration"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3768628",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L246",
+      "line": 246,
+      "properties": {
+        "Type": "System cost-driven decision"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2508.06447",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L247",
+      "line": 247,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=PQIrsaIQdn",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L248",
+      "line": 248,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=oa7MYAO6h6",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L249",
+      "line": 249,
+      "properties": {
+        "Type": "Importance-aware methods; Also belongs to KV cache compression (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2407.12820",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L250",
+      "line": 250,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2412.03213",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L251",
+      "line": 251,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2312.05516",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L252",
+      "line": 252,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/forum?id=ulCAPXYXfa",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L253",
+      "line": 253,
+      "properties": {
+        "Type": "Importance-aware methods; Also belongs KV-Centric Scheduling"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/fast25-chen-weijian-impress.pdf",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L254",
+      "line": 254,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.proceedings.com/content/079/079017-3595open.pdf",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L255",
+      "line": 255,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L256",
+      "line": 256,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2411.18424",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L257",
+      "line": 257,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to allocation & reuse (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2410.00428",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L258",
+      "line": 258,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to KV-centric scheduling (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=AbGbGZFYOD",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L259",
+      "line": 259,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to HW-aware execution (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/atc24-gao-bin-cost.pdf",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L260",
+      "line": 260,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to pipelining & overlapping (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/osdi24-lee.pdf",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L261",
+      "line": 261,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2403.17312",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L262",
+      "line": 262,
+      "properties": {
+        "Type": "Importance-aware methods"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2305.05920",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L263",
+      "line": 263,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to compute device KV orchestration"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=RRntzKrBTp",
+      "category": "cross-device-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L264",
+      "line": 264,
+      "properties": {
+        "Type": "System cost-driven decision; Also belongs to KV cache compression (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2501.08192",
+      "category": "intra-gpu-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L273",
+      "line": 273,
+      "properties": {
+        "Type": "Prefetching KV caches from HBM to the L2 cache; Also belongs to pipelining & overlapping (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2504.06319",
+      "category": "intra-gpu-memory-hierarchy",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L274",
+      "line": 274,
+      "properties": {
+        "Type": "Prefetching KV caches from HBM to the L2 cache; Also belongs to pipelining & overlapping (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2606.16135",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L291",
+      "line": 291,
+      "properties": {
+        "Type": "Prefix sharing over heterogeneous serving devices. Also belongs to KV cache retention management (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.13734",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L292",
+      "line": 292,
+      "properties": {
+        "Type": "Service-aware cross-worker KV transfer; Also belongs to KV cache compression (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.01708",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L293",
+      "line": 293,
+      "properties": {
+        "Type": "Cross-worker KV transfer; Also belongs to KV cache compression (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750481",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L294",
+      "line": 294,
+      "properties": {
+        "Type": "KV transfer for disaggregated inference; Also belongs to KV cache compression (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2512.18194",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L295",
+      "line": 295,
+      "properties": {
+        "Type": "KV cache migration across GPUs via CXL; Also belongs to memory hierarchy KV orchestration"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2510.09665",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L296",
+      "line": 296,
+      "properties": {
+        "Type": "KV cache placement & migration across GPUs; Also belongs to memory hierarchy KV orchestration"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2409.04992",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L297",
+      "line": 297,
+      "properties": {
+        "Type": "KV cache placement & migration across GPUs and CSDs; Also belongs to HW-aware execution (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672274",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L298",
+      "line": 298,
+      "properties": {
+        "Type": "Remote KV cache transmission in distributed networked setups; Also belongs to KV cache compression (structural)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L299",
+      "line": 299,
+      "properties": {
+        "Type": "KV cache placement & migration across GPUs; Also belongs to HW-aware execution (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2401.02669",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L300",
+      "line": 300,
+      "properties": {
+        "Type": "KV cache placement & migration across GPUs; Also belongs to HW-aware execution (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2311.18677",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L301",
+      "line": 301,
+      "properties": {
+        "Type": "KV cache placement & migration across GPUs; Also belongs to HW-aware execution (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640422",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L302",
+      "line": 302,
+      "properties": {
+        "Type": "KV cache placement & migration across GPUs and PIM devices; Also belongs to HW-aware execution (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2305.05920",
+      "category": "compute-device-kv-orchestration",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L303",
+      "line": 303,
+      "properties": {
+        "Type": "KV cache placement & migration across GPUs; Also belongs to memory hierarchy KV orchestration"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2026.acl-long.326.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L329",
+      "line": 329,
+      "properties": {
+        "Type": "Query-aware mixed-precision KV cache quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2026.acl-long.1454.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L330",
+      "line": 330,
+      "properties": {
+        "Type": "Outlier-suppressed vector quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=Vem6FQvRvq",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L331",
+      "line": 331,
+      "properties": {
+        "Type": "Mixed-precision asymmetric KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=yjr2jX41qO",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L332",
+      "line": 332,
+      "properties": {
+        "Type": "Mixed-precision asymmetric KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2505.18231",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L333",
+      "line": 333,
+      "properties": {
+        "Type": "VQ-based method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=zDwipF6h06",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L334",
+      "line": 334,
+      "properties": {
+        "Type": "Layer-wise mixed-precision KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.findings-acl.1043.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L335",
+      "line": 335,
+      "properties": {
+        "Type": "Load-aware mixed-precision KV quantization; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.acl-long.631.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L336",
+      "line": 336,
+      "properties": {
+        "Type": "Mixed-precision asymmetric KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=sbbyCB39HN",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L337",
+      "line": 337,
+      "properties": {
+        "Type": "VQ-based method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2502.02617",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L338",
+      "line": 338,
+      "properties": {
+        "Type": "Polar-transform mixed-precision KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf/1ec600eaf0c56573a4d7a7818181657962d03d8f.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L339",
+      "line": 339,
+      "properties": {
+        "Type": "Fixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2503.24358",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L340",
+      "line": 340,
+      "properties": {
+        "Type": "Fixed-precision asymmetric KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2503.02236",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L341",
+      "line": 341,
+      "properties": {
+        "Type": "VQ-based method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2411.18077",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L342",
+      "line": 342,
+      "properties": {
+        "Type": "Layer-discriminative ultra-low-bit KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2406.03482",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L343",
+      "line": 343,
+      "properties": {
+        "Type": "Fixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7e57131fdeb815764434b65162c88895-Paper-Conference.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L344",
+      "line": 344,
+      "properties": {
+        "Type": "Mixed-precision asymmetric KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=pNnvzQsS4P",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L345",
+      "line": 345,
+      "properties": {
+        "Type": "VQ-based method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=0LXotew9Du",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L346",
+      "line": 346,
+      "properties": {
+        "Type": "Mixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=nI6JyFSnyV",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L347",
+      "line": 347,
+      "properties": {
+        "Type": "Mixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2403.05527",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L348",
+      "line": 348,
+      "properties": {
+        "Type": "Fixed-precision asymmetric KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2024.acl-long.133.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L349",
+      "line": 349,
+      "properties": {
+        "Type": "Mixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672274",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L350",
+      "line": 350,
+      "properties": {
+        "Type": "Mixed-precision quantization; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=L057s2Rq8O",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L351",
+      "line": 351,
+      "properties": {
+        "Type": "Mixed-precision asymmetric KV quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.mlsys.org/paper_files/paper/2024/file/5edb57c05c81d04beb716ef1d542fe9e-Paper-Conference.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L352",
+      "line": 352,
+      "properties": {
+        "Type": "Mixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2403.04643",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L353",
+      "line": 353,
+      "properties": {
+        "Type": "Mixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2402.18096",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L354",
+      "line": 354,
+      "properties": {
+        "Type": "Mixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2402.12065",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L355",
+      "line": 355,
+      "properties": {
+        "Type": "Mixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=RRntzKrBTp",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L356",
+      "line": 356,
+      "properties": {
+        "Type": "Fixed-precision quantization; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.mlr.press/v202/xiao23c/xiao23c.pdf",
+      "category": "quantization",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L357",
+      "line": 357,
+      "properties": {
+        "Type": "Fixed-precision quantization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2026.findings-acl.494.pdf",
+      "category": "low-rank-approximation",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L366",
+      "line": 366,
+      "properties": {
+        "Type": "Context-aware online low-rank KV cache compression"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=oa7MYAO6h6",
+      "category": "low-rank-approximation",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L367",
+      "line": 367,
+      "properties": {
+        "Type": "Target cached K tensors, layer-wise, fixed rank; Also belongs memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2505.24357",
+      "category": "low-rank-approximation",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L368",
+      "line": 368,
+      "properties": {
+        "Type": "Target cached KV tensors, head-group-wise for keys and layer-wise for values, budgeted-driven rank"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=LWMS4pk2vK",
+      "category": "low-rank-approximation",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L369",
+      "line": 369,
+      "properties": {
+        "Type": "Target KV projection weights, head-group-wise, searched rank"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2503.18893",
+      "category": "low-rank-approximation",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L370",
+      "line": 370,
+      "properties": {
+        "Type": "Target KV tensors, layer-group-wise, fixed rank"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2024.findings-emnlp.899.pdf",
+      "category": "low-rank-approximation",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L371",
+      "line": 371,
+      "properties": {
+        "Type": "Target QKV attention subspace, layer-wise, budget-driven rank"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2410.03111",
+      "category": "low-rank-approximation",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L372",
+      "line": 372,
+      "properties": {
+        "Type": "Target KV projection weights, layer-wise, progressive rank"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=T3EeupQhGj",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L381",
+      "line": 381,
+      "properties": {
+        "Type": "Cross-token structural clustering guided by semantic centroids"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2604.24971",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L382",
+      "line": 382,
+      "properties": {
+        "Type": "Shared compressed KV pool across agents; Also belongs to allocation & reuse"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.acl-long.703.pdf",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L383",
+      "line": 383,
+      "properties": {
+        "Type": "Structural pruning on prompt tokens guided by attention score"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=n0OtGl6VGb",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L384",
+      "line": 384,
+      "properties": {
+        "Type": "Structural pruning on key channels guided by query-driven signal"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=HzBfoUdjHt",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L385",
+      "line": 385,
+      "properties": {
+        "Type": "Intra-layer structural merging guided by similarity; Also belongs to eviction"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=sgVOjDqUMT",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L386",
+      "line": 386,
+      "properties": {
+        "Type": "Cross-layer structural merging guided by layer similarity"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2410.18517",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L387",
+      "line": 387,
+      "properties": {
+        "Type": "Cross-layer structural merging guided by layer dissimilarity"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=xcDRx8vzCa",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L388",
+      "line": 388,
+      "properties": {
+        "Type": "Structural pruning on heads guided by head attention score"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=LCTmppB165",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L389",
+      "line": 389,
+      "properties": {
+        "Type": "Intra-layer structural merging guided by attention score"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2407.08454",
+      "category": "structural-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L390",
+      "line": 390,
+      "properties": {
+        "Type": "Intra-layer structural merging guided by key similarity"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=aNVKROYpLB",
+      "category": "codec-based-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L399",
+      "line": 399,
+      "properties": {
+        "Type": "Transform coding for compact KV storage"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.13734",
+      "category": "codec-based-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L400",
+      "line": 400,
+      "properties": {
+        "Type": "Service-aware KV communication compression; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.01708",
+      "category": "codec-based-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L401",
+      "line": 401,
+      "properties": {
+        "Type": "Lossless KV communication compression; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750481",
+      "category": "codec-based-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L402",
+      "line": 402,
+      "properties": {
+        "Type": "Homomorphic KV communication compression; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2509.00105",
+      "category": "codec-based-compression",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L403",
+      "line": 403,
+      "properties": {
+        "Type": "Adaptive KV compression rate selection; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2026.acl-long.859.pdf",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L420",
+      "line": 420,
+      "properties": {
+        "Type": "Speculative KV cache reuse with selective recomputation for RAG serving"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3749168",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L421",
+      "line": 421,
+      "properties": {
+        "Type": "Prefix KV cache admission and reuse; Also belongs to KV-centric scheduling (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://www.usenix.org/system/files/fast26-liu-yang.pdf",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L422",
+      "line": 422,
+      "properties": {
+        "Type": "Cross-position-aware KV cache reuse"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2606.16135",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L423",
+      "line": 423,
+      "properties": {
+        "Type": "Prefix sharing and reuse for multi-turn conversations; Also belongs to compute device KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.24022",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L424",
+      "line": 424,
+      "properties": {
+        "Type": "Non-prefix KV cache reuse with selective recomputation"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2605.08581",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L425",
+      "line": 425,
+      "properties": {
+        "Type": "Hot-segment KV admission and retention; Also belongs to KV-centric scheduling (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2604.24971",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L426",
+      "line": 426,
+      "properties": {
+        "Type": "Shared KV cache pool across agents; Also belongs to KV cache compression"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2604.08585",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L427",
+      "line": 427,
+      "properties": {
+        "Type": "Query-centric KV fusion and reuse for RAG"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2603.13289",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L428",
+      "line": 428,
+      "properties": {
+        "Type": "Decoding-phase KV reuse across collaborative agents"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2602.02579",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L429",
+      "line": 429,
+      "properties": {
+        "Type": "Query-driven selective recomputation for RAG KV reuse"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=RXPofAsL8F",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L430",
+      "line": 430,
+      "properties": {
+        "Type": "Structure-aware method; Also belongs to KV-centric scheduling (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3669940.3707256",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L431",
+      "line": 431,
+      "properties": {
+        "Type": "Structure-aware method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2406.17565",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L432",
+      "line": 432,
+      "properties": {
+        "Type": "Semantics-guided method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/724be4472168f31ba1c9ac630f15dec8-Paper-Conference.pdf",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L433",
+      "line": 433,
+      "properties": {
+        "Type": "Structure-aware method; Also belongs to KV-centric scheduling (temporal)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2411.18424",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L434",
+      "line": 434,
+      "properties": {
+        "Type": "Structure-aware method; Also belongs to memory hierarchy KV orchestration (spatial)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2024.acl-long.623.pdf",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L435",
+      "line": 435,
+      "properties": {
+        "Type": "Structure-aware method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2407.15309",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L436",
+      "line": 436,
+      "properties": {
+        "Type": "Structure-aware method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2407.14057",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L437",
+      "line": 437,
+      "properties": {
+        "Type": "Semantics-guided method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.mlsys.org/paper_files/paper/2024/file/a66caa1703fe34705a4368c3014c1966-Paper-Conference.pdf",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L438",
+      "line": 438,
+      "properties": {
+        "Type": "Structure-aware method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3600006.3613165",
+      "category": "allocation--reuse",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L439",
+      "line": 439,
+      "properties": {
+        "Type": "Structure-aware method"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2510.07651",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L450",
+      "line": 450,
+      "properties": {
+        "Type": "Eviction policy: Hessian-guided token saliency"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2026.acl-long.417.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L451",
+      "line": 451,
+      "properties": {
+        "Type": "Query-agnostic KV cache eviction via contrastive signal fusion for multi-query generalization"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2602.08343",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L452",
+      "line": 452,
+      "properties": {
+        "Type": "Eviction policy: Euclidean outlier detection"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=JFygzwx8SJ",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L453",
+      "line": 453,
+      "properties": {
+        "Type": "Query-agnostic KV cache eviction with context reconstruction for reusable KV caches"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=20JDhbJqn3",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L454",
+      "line": 454,
+      "properties": {
+        "Type": "Semantic chunk-level KV cache eviction for long-context inference"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=2jwAjomEDB",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L455",
+      "line": 455,
+      "properties": {
+        "Type": "Redundancy-aware KV cache eviction"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=Tdl89SZItB",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L456",
+      "line": 456,
+      "properties": {
+        "Type": "KV cache eviction with anchor-direction projection based token scoring"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=uBaFH7aQnC",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L457",
+      "line": 457,
+      "properties": {
+        "Type": "Eviction policy: key similarity"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2407.11550",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L458",
+      "line": 458,
+      "properties": {
+        "Type": "Eviction policy: plug-in; budget policy: adaptive (head-wise, attention sparsity)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2412.14838",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L459",
+      "line": 459,
+      "properties": {
+        "Type": "Eviction policy: recent + attention w.r.t. instruction tokens; budget policy: adaptive (layer-wise, task-aware)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.findings-emnlp.88.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L460",
+      "line": 460,
+      "properties": {
+        "Type": "Eviction policy: plug-in; budget policy: adaptive (layer-wise, evolutionary search)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2025.findings-emnlp.737.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L461",
+      "line": 461,
+      "properties": {
+        "Type": "Layer-wise KV cache eviction with dynamic head and layer budget allocation"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764810",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L462",
+      "line": 462,
+      "properties": {
+        "Type": "Eviction policy: recent + relative significance of attention scores; budget policy: adaptive (head-wise, sparsity patter"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2509.05165",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L463",
+      "line": 463,
+      "properties": {
+        "Type": "Eviction policy: aggregated attention & form composite token; budget policy: adaptive (layer-wise, composite importance)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=SDjZtxDo35",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L464",
+      "line": 464,
+      "properties": {
+        "Type": "Eviction policy: ladder pattern based; budget policy: preset (layer-wise, ladder)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=MhVJCxYEEi",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L465",
+      "line": 465,
+      "properties": {
+        "Type": "Recent + sink + separator tokens"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=HzBfoUdjHt",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L466",
+      "line": 466,
+      "properties": {
+        "Type": "Eviction policy: recent + sink + H2 & recall via merging; budget policy: adaptive (layer-wise, attention density); Also "
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2503.12491",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L467",
+      "line": 467,
+      "properties": {
+        "Type": "Eviction policy: recent + mean & variance of attention scores; budget policy: adaptive (layer-wise, layer preference)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/28ab418242603e0f7323e54185d19bde-Paper-Conference.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L468",
+      "line": 468,
+      "properties": {
+        "Type": "Observation window-based identification"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2024.emnlp-main.1027.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L469",
+      "line": 469,
+      "properties": {
+        "Type": "Key L2 norm"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2024.emnlp-main.1178.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L470",
+      "line": 470,
+      "properties": {
+        "Type": "Sink + attention & value L1 norm"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2024.emnlp-main.1043.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L471",
+      "line": 471,
+      "properties": {
+        "Type": "Drop lowest attention score token at each step"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2410.23079",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L472",
+      "line": 472,
+      "properties": {
+        "Type": "Recent + sink + segmented local H2"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2024.findings-acl.195.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L473",
+      "line": 473,
+      "properties": {
+        "Type": "Eviction policy: recent + PvC (via ensemble attention); budget policy: preset (layer-wise, pyramid)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://aclanthology.org/2024.acl-long.428.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L474",
+      "line": 474,
+      "properties": {
+        "Type": "Attention w.r.t. proxy token & randomness"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2406.02069",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L475",
+      "line": 475,
+      "properties": {
+        "Type": "Eviction policy: observation window-based identification; budget policy: preset (layer-wise, pyramid)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://proceedings.mlsys.org/paper_files/paper/2024/file/48fecef47b19fe501d27d338b6d52582-Paper-Conference.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L476",
+      "line": 476,
+      "properties": {
+        "Type": "Recent + key (Gumbel-softmax scores)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=NG7sS51zVF",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L477",
+      "line": 477,
+      "properties": {
+        "Type": "Recent + sink"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=uNrFpDPMyo",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L478",
+      "line": 478,
+      "properties": {
+        "Type": "Hybrid (special token/punctuation/locality/H2)"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/pdf/2402.06262",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L479",
+      "line": 479,
+      "properties": {
+        "Type": "Mean & standard deviation of attention scores"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://openreview.net/pdf?id=JZfg6wGi6g",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L480",
+      "line": 480,
+      "properties": {
+        "Type": "Recent + attention scores"
+      }
+    },
+    {
+      "title": "Link",
+      "url": "https://papers.nips.cc/paper_files/paper/2023/file/6ceefa7b15572587b78ecfcebb2827f8-Paper-Conference.pdf",
+      "category": "eviction",
+      "source_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/blob/c136b0bd91f45590badbb1839520fa7179e72620/README.md#L481",
+      "line": 481,
+      "properties": {
+        "Type": "Recent + H2"
+      }
+    }
+  ],
+  "properties": [
+    "Type"
+  ],
+  "entry_count": 209,
+  "unique_links": 168,
+  "category_count": 13,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "jjiantong",
+      "url": "https://github.com/jjiantong",
+      "contributions": 42
+    },
+    {
+      "login": "ypeiyu",
+      "url": "https://github.com/ypeiyu",
+      "contributions": 8
+    },
+    {
+      "login": "fengliu90",
+      "url": "https://github.com/fengliu90",
+      "contributions": 2
+    },
+    {
+      "login": "CURRENTF",
+      "url": "https://github.com/CURRENTF",
+      "contributions": 1
+    },
+    {
+      "login": "hhy-huang",
+      "url": "https://github.com/hhy-huang",
+      "contributions": 1
+    },
+    {
+      "login": "joxixixi",
+      "url": "https://github.com/joxixixi",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 55,
+    "has_more": false,
+    "path_commit_count": 55,
+    "public_contributors": 6,
+    "observed_at": "2026-09-03T17:52:20.073662+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by jjiantong/Awesome-KV-Cache-Optimization contributors.",
+  "license": null,
+  "license_url": "https://github.com/jjiantong/Awesome-KV-Cache-Optimization/tree/c136b0bd91f45590badbb1839520fa7179e72620",
+  "digest": "d40d6fc580dd677a7e3236bbb6c7fba6ca199f41aa8e1137bf878700b192ef37"
+}

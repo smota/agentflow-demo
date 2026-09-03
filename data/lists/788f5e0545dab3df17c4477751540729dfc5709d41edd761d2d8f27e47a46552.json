@@ -1,0 +1,1916 @@
+{
+  "format_version": 3,
+  "repository_id": "1036045017",
+  "name": "KwanWaiPang/Awesome-VLN",
+  "revision": "2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd",
+  "readme_path": "README.md",
+  "readme_sha256": "a8939f966a1e97049df15cf853446439096748fa94e6b5f8c94bb883cbfd7bc9",
+  "sections": [
+    {
+      "id": "general",
+      "title": "General",
+      "level": 1,
+      "path": [
+        "General"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md",
+      "entries": 1
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 1,
+      "path": [
+        "Overview"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#overview",
+      "entries": 0
+    },
+    {
+      "id": "vln",
+      "title": "VLN",
+      "level": 1,
+      "path": [
+        "VLN"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#vln",
+      "entries": 147
+    },
+    {
+      "id": "simulator-and-dataset",
+      "title": "Simulator and Dataset",
+      "level": 2,
+      "path": [
+        "VLN",
+        "Simulator and Dataset"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#simulator-and-dataset",
+      "entries": 25
+    },
+    {
+      "id": "survey-paper",
+      "title": "Survey Paper",
+      "level": 2,
+      "path": [
+        "VLN",
+        "Survey Paper"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#survey-paper",
+      "entries": 15
+    },
+    {
+      "id": "learning-based-navigation",
+      "title": "Learning-based Navigation",
+      "level": 1,
+      "path": [
+        "Learning-based Navigation"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#learning-based-navigation",
+      "entries": 24
+    },
+    {
+      "id": "mapless-navigation",
+      "title": "Mapless navigation",
+      "level": 2,
+      "path": [
+        "Learning-based Navigation",
+        "Mapless navigation"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#mapless-navigation",
+      "entries": 2
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 1,
+      "path": [
+        "Others"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#others",
+      "entries": 4
+    },
+    {
+      "id": "occupancy-perception",
+      "title": "Occupancy Perception",
+      "level": 2,
+      "path": [
+        "Others",
+        "Occupancy Perception"
+      ],
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#occupancy-perception",
+      "entries": 4
+    }
+  ],
+  "entries": [
+    {
+      "title": "Visual-Language-Action (VLA)",
+      "url": "https://github.com/KwanWaiPang/Awesome-VLA",
+      "category": "general",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation",
+      "url": "https://arxiv.org/pdf/2605.27582",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "SpaceVLN: A Zero-Shot Vision-and-Language Navigation Agent with Online Spatial Cognitive Memory and Reasoning",
+      "url": "https://arxiv.org/pdf/2606.08992",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Context-Nav: Context-Driven Exploration and Viewpoint-Aware 3D Spatial Reasoning for Instance Navigation",
+      "url": "https://arxiv.org/pdf/2603.09506",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "GeniNav: Generative Model Driven Image-Goal Navigation via Imagination-Guided Consistency Flow Matching",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_GeniNav_Generative_Model_Driven_Image-Goal_Navigation_via_Imagination-Guided_Consistency_Flow_CVPR_2026_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+      "url": "https://arxiv.org/pdf/2605.30280",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "SPAN-Nav: Generalized Spatial Awareness for Versatile Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2603.09163",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2605.15964",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation",
+      "url": "https://arxiv.org/pdf/2509.25687",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "HiCo-Nav: A Deployable Embodied Vision-Language Navigation System with Hierarchical Cognition and Context-Aware Exploration",
+      "url": "https://arxiv.org/pdf/2604.21363",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Run, Ruminate, and Regulate: A Dual-process Thinking System for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2511.14131",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "SpatialAnt: Autonomous Zero-Shot Robot Navigation via Active Scene Reconstruction and Visual Anticipation",
+      "url": "https://arxiv.org/pdf/2603.26837v1",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2603.13133v2",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation",
+      "url": "https://arxiv.org/pdf/2603.06914",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "SFCo-Nav: Efficient Zero-Shot Visual Language Navigation via Collaboration of Slow LLM and Fast Attributed Graph Alignment",
+      "url": "https://arxiv.org/pdf/2603.01477",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "WildOS: Open-Vocabulary Object Search in the Wild",
+      "url": "https://arxiv.org/pdf/2602.19308",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "SignNav: Leveraging Signage for Semantic Visual Navigation in Large-Scale Indoor Environments",
+      "url": "https://arxiv.org/pdf/2603.16166",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions",
+      "url": "https://arxiv.org/pdf/2510.08173",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "ReasonNavi: Human-Inspired Global Map Reasoning for Zero-Shot Embodied Navigation",
+      "url": "https://arxiv.org/pdf/2602.15864",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "EfficientNav: Towards On-Device Object-Goal Navigation with Navigation Map Caching and Retrieval",
+      "url": "https://arxiv.org/pdf/2510.18546v2",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Hydra-Nav: Object Navigation via Adaptive Dual-Process Reasoning",
+      "url": "https://arxiv.org/pdf/2602.09972",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation",
+      "url": "https://arxiv.org/pdf/2602.11598",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "NavDreamer: Video Models as Zero-Shot 3D Navigators",
+      "url": "https://arxiv.org/pdf/2602.09765",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "MerNav: A Highly Generalizable Memory–Execute–Review Framework for Zero-Shot Object Goal Navigation",
+      "url": "https://arxiv.org/pdf/2602.05467",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "VPN: Visual Prompt Navigation",
+      "url": "https://arxiv.org/pdf/2508.01766v6",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "SpatialNav: Leveraging Spatial Scene Graphs for Zero-Shot Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2601.06806",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "SeqWalker: Sequential-Horizon Vision-and-Language Navigation with Hierarchical Planning",
+      "url": "https://arxiv.org/pdf/2601.04699v1",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "NavGemini: a multi-modal LLM agent for vision-and-language navigation",
+      "url": "https://link.springer.com/content/pdf/10.1007/s44267-025-00105-x.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "FiLM-Nav: Efficient and Generalizable Navigation via VLM Fine-tuning",
+      "url": "https://arxiv.org/pdf/2509.16445v1",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "AirUniNav: Unified Vision-Language Navigation for UAVs in Indoor and Outdoor Scenes",
+      "url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.176834454.46554529",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "CAUSALNAV: A Long-term Embodied Navigation System for Autonomous Mobile Robots in Dynamic Outdoor Scenarios",
+      "url": "https://arxiv.org/pdf/2601.01872",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2601.13976",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "SpatialNav: Leveraging Spatial Scene Graphs for Zero-Shot Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2601.06806",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "CL-CoTNav: Closed-Loop Hierarchical Chain-of-Thought for Zero-Shot Object-Goal Navigation with Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2504.09000",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory",
+      "url": "https://arxiv.org/pdf/2601.08665",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "UrbanNav: Learning Language-Guided Urban Navigation from Web-Scale Human Trajectories",
+      "url": "https://arxiv.org/pdf/2512.09607",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "VLA-AN: An Efficient and Onboard Vision-Language-Action Framework for Aerial Navigation in Complex Environments",
+      "url": "https://arxiv.org/pdf/2512.15258",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Stairway to Success: Zero-Shot Floor-Aware Object-Goal Navigation via LLM-Driven Coarse-to-Fine Exploration",
+      "url": "https://arxiv.org/pdf/2505.23019",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "One map to find them all: Real-time open-vocabulary mapping for zero-shot multi-object navigation",
+      "url": "https://arxiv.org/pdf/2409.11764",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "SeeNav-Agent: Enhancing Vision-Language Navigation with Visual Prompt and Step-Level Policy Optimization",
+      "url": "https://arxiv.org/pdf/2512.02631",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Nav-R2: Dual-Relation Reasoning for Generalizable Open-Vocabulary Object-Goal Navigation",
+      "url": "https://arxiv.org/pdf/2512.02400",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction",
+      "url": "https://arxiv.org/pdf/2512.01550",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments",
+      "url": "https://arxiv.org/pdf/2510.19655",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "PanoNav: Mapless Zero-Shot Object Navigation with Panoramic Scene Parsing and Dynamic Memory",
+      "url": "https://arxiv.org/pdf/2511.06840v1",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "MobileVLA-R1: Reinforcing Vision-Language-Action for Mobile Robots",
+      "url": "https://arxiv.org/pdf/2511.17889",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "SayCoNav: Utilizing Large Language Models for Adaptive Collaboration in Decentralized Multi-Robot Navigation",
+      "url": "https://arxiv.org/pdf/2505.13729",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "MiniVLN: Efficient Vision-and-Language Navigation by Progressive Knowledge Distillation",
+      "url": "https://arxiv.org/pdf/2409.18800",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Ground-level Viewpoint Vision-and-Language Navigation in Continuous Environments",
+      "url": "https://arxiv.org/pdf/2502.19024",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Open-Nav: Exploring Zero-Shot Vision-and-Language Navigation in Continuous Environment with Open-Source LLMs",
+      "url": "https://arxiv.org/pdf/2409.18794",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "VLNVerse: A Benchmark for Vision-Language Navigation with Versatile, Embodied, Realistic Simulation and Evaluation",
+      "url": "https://arxiv.org/pdf/2512.19021",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2512.08186",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "MM-Nav: Multi-View VLA Model for Robust Visual Navigation via Multi-Expert Learning",
+      "url": "https://arxiv.org/pdf/2510.03142v1",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "website",
+      "url": "https://manifoldtechltd.github.io/Odin-Nav-Stack-Webpage/",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning",
+      "url": "https://arxiv.org/pdf/2506.17221",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "FSR-VLN: Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph",
+      "url": "https://arxiv.org/pdf/2509.13733",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "VL-Nav: Real-time Vision-Language Navigation with Spatial Reasoning",
+      "url": "https://arxiv.org/pdf/2502.00931",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Embodied navigation foundation model",
+      "url": "https://arxiv.org/pdf/2509.12129",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "InternVLA-N1: An Open Dual-System Vision-Language Navigation Foundation Model with Learned Latent Plans",
+      "url": "https://internrobotics.github.io/internvla-n1.github.io/static/pdfs/InternVLA_N1.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Odyssey: Open-world quadrupeds exploration and manipulation for long-horizon tasks",
+      "url": "https://arxiv.org/pdf/2508.08240",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "OpenVLN: Open-world aerial Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2511.06182",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "VLN-Zero: Rapid Exploration and Cache-Enabled Neurosymbolic Vision-Language Planning for Zero-Shot Transfer in Robot Navigation",
+      "url": "https://arxiv.org/pdf/2509.18592",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2509.22548",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Streamvln: Streaming vision-and-language navigation via slowfast context modeling",
+      "url": "https://arxiv.org/pdf/2507.05240",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "GC-VLN: Instruction as Graph Constraints for Training-free Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2509.10454",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Boosting Zero-Shot VLN via Abstract Obstacle Map-Based Waypoint Prediction with TopoGraph-and-VisitInfo-Aware Prompting",
+      "url": "https://arxiv.org/pdf/2509.20499",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "SLAM-Free Visual Navigation with Hierarchical Vision-Language Perception and Coarse-to-Fine Semantic Topological Planning",
+      "url": "https://arxiv.org/pdf/2509.20739",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Zero-shot Object-Centric Instruction Following: Integrating Foundation Models with Traditional Navigation",
+      "url": "https://arxiv.org/pdf/2411.07848",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks",
+      "url": "https://arxiv.org/pdf/2412.06224",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "NaVILA: Legged Robot Vision-Language-Action Model for Navigation",
+      "url": "https://arxiv.org/pdf/2412.04453",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Move to Understand a 3D Scene: Bridging Visual Grounding and Exploration for Efficient and Versatile Embodied Navigation",
+      "url": "https://arxiv.org/pdf/2507.04047",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "MapNav: A Novel Memory Representation via Annotated Semantic Maps for VLM-based Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2502.13451",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Scene Map-based Prompt Tuning for Navigation Instruction Generation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fan_Scene_Map-based_Prompt_Tuning_for_Navigation_Instruction_Generation_CVPR_2025_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "NavRAG: Generating User Demand Instructions for Embodied Navigation through Retrieval-Augmented LLM",
+      "url": "https://arxiv.org/pdf/2502.11142",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Bootstrapping Language-Guided Navigation Learning with Self-Refining Data Flywheel",
+      "url": "https://arxiv.org/abs/2412.08467",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "SAME: Learning Generic Language-Guided Visual Navigation with State-Adaptive Mixture of Experts",
+      "url": "https://arxiv.org/pdf/2412.05552",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "NavMorph: A Self-Evolving World Model for Vision-and-Language Navigation in Continuous Environments",
+      "url": "https://arxiv.org/pdf/2506.23468",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Affordances-Oriented Planning using Foundation Models for Continuous Vision-Language Navigation",
+      "url": "https://arxiv.org/abs/2407.05890",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2506.01551",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Do Visual Imaginations Improve Vision-and-Language Navigation Agents?",
+      "url": "https://arxiv.org/pdf/2503.16394",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Orionnav: Online planning for robot autonomy with context-aware llm and open-vocabulary semantic scene graphs",
+      "url": "https://arxiv.org/pdf/2410.06239",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "VLN-Video: Utilizing Driving Videos for Outdoor Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2402.03561",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Volumetric Environment Representation for Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2403.14158",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Navgpt-2: Unleashing navigational reasoning capability for large vision-language models",
+      "url": "https://arxiv.org/pdf/2407.12366",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Lookahead Exploration with Neural Radiance Representation for Continuous Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2404.01943",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments",
+      "url": "https://arxiv.org/abs/2304.03047v2",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Narrowing the Gap between Vision and Action in Navigation",
+      "url": "https://www.arxiv.org/abs/2408.10388",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "LLM as Copilot for Coarse-grained Vision-and-Language Navigation",
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00833.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Discuss Before Moving: Visual Language Navigation via Multi-expert Discussions",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10611565",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2401.07314",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "MC-GPT: Empowering Vision-and-LanguageNavigation with Memory Map and Reasoning Chains",
+      "url": "https://arxiv.org/pdf/2405.10620",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "InstructNav: Zero-shot System for Generic Instruction Navigation in Unexplored Environment",
+      "url": "https://arxiv.org/pdf/2406.04882",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models",
+      "url": "https://arxiv.org/abs/2305.16986",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "LangNav: Language as a Perceptual Representation for Navigation",
+      "url": "https://aclanthology.org/2024.findings-naacl.60.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning",
+      "url": "https://arxiv.org/abs/2403.07376",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Towards Learning a Generalist Model for Embodied Navigation",
+      "url": "https://arxiv.org/abs/2312.02010",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2402.15852",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Navigating the Nuances: A Fine-grained Evaluation of Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2409.17313",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Behavioral Analysis of Vision-and-Language Navigation Agents",
+      "url": "https://yoark.github.io/assets/pdf/vln-behave/vln-behave.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "March in Chat: Interactive Prompting for Remote Embodied Referring Expression",
+      "url": "https://openaccess.thecvf.com//content/ICCV2023/papers/Qiao_March_in_Chat_Interactive_Prompting_for_Remote_Embodied_Referring_Expression_ICCV_2023_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Vision and Language Navigation in the Real World via Online Visual Language Mapping",
+      "url": "https://arxiv.org/pdf/2310.10822",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "A2Nav: Action-Aware Zero-Shot Robot Navigation by Exploiting Vision-and-Language Ability of Foundation Models",
+      "url": "https://peihaochen.github.io/files/publications/A2Nav.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "BEVBert: Multimodal Map Pre-training for Language-guided Navigation",
+      "url": "https://arxiv.org/pdf/2212.04385",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Cows on pasture: Baselines and benchmarks for language-driven zero-shot object navigation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gadre_CoWs_on_Pasture_Baselines_and_Benchmarks_for_Language-Driven_Zero-Shot_Object_CVPR_2023_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Frequency-enhanced data augmentation for vision-and-language navigation",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/0d9e08f247ca7fbbfd5e50b7ff9cf357-Paper-Conference.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Find what you want: Learning demand-conditioned object attribute space for demand-driven navigation",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/34e278fbbd7d6d7d788c98065988e1a9-Paper-Conference.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Aerial vision-and-dialog navigation",
+      "url": "https://arxiv.org/pdf/2205.12219",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2302.06072",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Grounded Entity-Landmark Adaptive Pre-training for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2308.12587",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Adaptive Zone-aware Hierarchical Planner for Vision-Language Navigation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Adaptive_Zone-Aware_Hierarchical_Planner_for_Vision-Language_Navigation_CVPR_2023_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Bird's-Eye-View Scene Graph for Vision-Language Navigation",
+      "url": "https://arxiv.org/abs/2308.04758",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Masked Path Modeling for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2305.14268",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Improving Vision-and-Language Navigation by Generating Future-View Image Semantics",
+      "url": "https://arxiv.org/pdf/2304.04907",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "HOP+: History-Enhanced and Order-Aware Pre-Training for Vision-and-Language Navigation",
+      "url": "https://ieeexplore.ieee.org/document/10006384",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Learning to Follow and Generate Instructions for Language-Capable Navigation",
+      "url": "https://ieeexplore.ieee.org/document/10359152",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "A New Path: Scaling Vision-and-Language Navigation with Synthetic Instructions and Imitation Learning",
+      "url": "https://arxiv.org/pdf/2210.03112",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Lana: A Language-Capable Navigator for Instruction Following and Generation",
+      "url": "https://arxiv.org/abs/2303.08409",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "KERM: Knowledge Enhanced Reasoning for Vision-and-Language Navigation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_KERM_Knowledge_Enhanced_Reasoning_for_Vision-and-Language_Navigation_CVPR_2023_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "PASTS: Progress-Aware Spatio-Temporal Transformer Speaker For Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2305.11918",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "CrossMap Transformer: A Crossmodal Masked Path Transformer Using Double Back-Translation for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2103.00852",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "VLN-Trans: Translator for the Vision and Language Navigation Agent",
+      "url": "https://arxiv.org/pdf/2302.09230",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "Visual-Language Navigation Pretraining via Prompt-based Environmental Self-exploration",
+      "url": "https://arxiv.org/pdf/2203.04006",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Less is More: Generating Grounded Navigation Instructions from Landmarks",
+      "url": "https://arxiv.org/pdf/2004.14973",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "Target-Driven Structured Transformer Planner for Vision-Language Navigation",
+      "url": "https://arxiv.org/pdf/2207.11201",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "HOP: History-and-Order Aware Pre-training for Vision-and-Language Navigation",
+      "url": "https://ieeexplore.ieee.org/document/9880046",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "LOViS: Learning Orientation and Visual Signals for Vision and Language Navigation",
+      "url": "https://aclanthology.org/2022.coling-1.505.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Diagnosing Vision-and-Language Navigation: What Really Matters",
+      "url": "https://aclanthology.org/2022.naacl-main.438.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "CLIP-Nav: Using CLIP for Zero-Shot Vision-and-Language Navigation",
+      "url": "https://arxiv.org/pdf/2211.16649",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Bridging the Gap Between Learning in Discrete and Continuous Environments for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2203.02764",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Scene-Intuitive Agent for Remote Embodied Visual Grounding",
+      "url": "https://arxiv.org/pdf/2103.12944",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "SOAT: A Scene- and Object-Aware Transformer for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2110.14143",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "The Road to Know-Where: An Object-and-Room Informed Sequential BERT for Indoor Vision-Language Navigation",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Qi_The_Road_To_Know-Where_An_Object-and-Room_Informed_Sequential_BERT_for_ICCV_2021_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "VLN BERT: A Recurrent Vision-and-Language BERT for Navigation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hong_VLN_BERT_A_Recurrent_Vision-and-Language_BERT_for_Navigation_CVPR_2021_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "On the Evaluation of Vision-and-Language Navigation Instructions",
+      "url": "https://arxiv.org/abs/2101.10504",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+      "url": "https://say-can.github.io/assets/palm_saycan.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "History aware multimodal transformer for vision-and-language navigation",
+      "url": "https://proceedings.neurips.cc/paper/2021/file/2e5c2cb8d13e8fba78d95211440ba326-Paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Room-and-object aware knowledge reasoning for remote embodied referring expression",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Room-and-Object_Aware_Knowledge_Reasoning_for_Remote_Embodied_Referring_Expression_CVPR_2021_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Vision-language navigation with random environmental mixup",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Vision-Language_Navigation_With_Random_Environmental_Mixup_ICCV_2021_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Hierarchical cross-modal agent for robotics vision-and-language navigation",
+      "url": "https://arxiv.org/pdf/2104.10674",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "Towards Learning a Generic Agent for Vision-and-Language Navigation via Pre-training",
+      "url": "https://arxiv.org/abs/2002.10638",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "Active visual information gathering for vision-language navigation",
+      "url": "https://arxiv.org/pdf/2007.08037",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Vision-language navigation with self-supervised auxiliary reasoning tasks",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhu_Vision-Language_Navigation_With_Self-Supervised_Auxiliary_Reasoning_Tasks_CVPR_2020_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "Improving vision-and-language navigation with image-text pairs from the web",
+      "url": "https://arxiv.org/pdf/2004.14973",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Beyond the Nav-Graph: Vision-and-Language Navigation in Continuous Environments",
+      "url": "https://arxiv.org/abs/2004.02857",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Robust navigation with language pretraining and stochastic sampling",
+      "url": "https://arxiv.org/pdf/1909.02244",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Learning to Map Natural Language Instructions to Physical Quadcopter Control using Simulated Flight",
+      "url": "https://arxiv.org/pdf/1910.09664",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Speaker-follower models for vision-and-language navigation",
+      "url": "https://arxiv.org/pdf/1806.02724",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Following high-level navigation instructions on a simulated quadcopter with imitation learning",
+      "url": "https://arxiv.org/pdf/1806.00047",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Vision-and-language navigation: Interpreting visually-grounded navigation instructions in real environments",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.pdf",
+      "category": "vln",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Isolation: A Unified Benchmark for General-Purpose Navigation",
+      "url": "https://arxiv.org/pdf/2605.09441",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation",
+      "url": "https://arxiv.org/pdf/2602.18424",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Bridging the Indoor-Outdoor Gap: Vision-Centric Instruction-Guided Embodied Navigation for the Last Meters",
+      "url": "https://arxiv.org/pdf/2602.06427",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "UrbanNav: Learning Language-Guided Urban Navigation from Web-Scale Human Trajectories",
+      "url": "https://arxiv.org/pdf/2512.09607",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "Embodiedbench: Comprehensive benchmarking multi-modal large language models for vision-driven embodied agents",
+      "url": "https://arxiv.org/pdf/2502.09560",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "MobileVLA-R1: Reinforcing Vision-Language-Action for Mobile Robots",
+      "url": "https://arxiv.org/pdf/2511.17889",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning",
+      "url": "https://arxiv.org/pdf/2506.17221",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "InternVLA-N1: An Open Dual-System Vision-Language Navigation Foundation Model with Learned Latent Plans",
+      "url": "https://internrobotics.github.io/internvla-n1.github.io/static/pdfs/InternVLA_N1.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "HA-VLN: A Benchmark for Human-Aware Navigation in Discrete–Continuous Environments with Dynamic Multi-Human Interactions, Real-World Validation, and an Open Leaderboard",
+      "url": "https://arxiv.org/pdf/2503.14229",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Hm3d-ovon: A dataset and benchmark for open-vocabulary object goal navigation",
+      "url": "https://arxiv.org/pdf/2409.14296",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Learning vision-and-language navigation from youtube videos",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Lin_Learning_Vision-and-Language_Navigation_from_YouTube_Videos_ICCV_2023_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "Aerialvln: Vision-and-language navigation for uavs",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_AerialVLN_Vision-and-Language_Navigation_for_UAVs_ICCV_2023_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "Scaling data generation in vision-and-language navigation",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Scaling_Data_Generation_in_Vision-and-Language_Navigation_ICCV_2023_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Habitat-web: Learning embodied object-search strategies from human demonstrations at scale",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ramrakhya_Habitat-Web_Learning_Embodied_Object-Search_Strategies_From_Human_Demonstrations_at_Scale_CVPR_2022_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Bridging the gap between learning in discrete and continuous environments for vision-and-language navigation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Hong_Bridging_the_Gap_Between_Learning_in_Discrete_and_Continuous_Environments_CVPR_2022_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Soon: Scenario oriented object navigation with graph-based exploration",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_SOON_Scenario_Oriented_Object_Navigation_With_Graph-Based_Exploration_CVPR_2021_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Alfred: A benchmark for interpreting grounded instructions for everyday tasks",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Shridhar_ALFRED_A_Benchmark_for_Interpreting_Grounded_Instructions_for_Everyday_Tasks_CVPR_2020_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Qi_REVERIE_Remote_Embodied_Visual_Referring_Expression_in_Real_Indoor_Environments_CVPR_2020_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Where are you? localization from embodied dialog",
+      "url": "https://arxiv.org/pdf/2011.08277",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "Vision-and-Dialog Navigation",
+      "url": "https://arxiv.org/pdf/1907.04957",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Room-across-room: Multilingual vision-and-language navigation with dense spatiotemporal grounding",
+      "url": "https://arxiv.org/pdf/2010.07954",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Help, Anna! Visual Navigation with Natural Multimodal Assistance via Retrospective Curiosity-Encouraging Imitation Learning",
+      "url": "https://arxiv.org/pdf/1909.01871",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Stay on the path: Instruction fidelity in vision-and-language navigation",
+      "url": "https://arxiv.org/pdf/1905.12255",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Learning to navigate unseen environments: Back translation with environmental dropout",
+      "url": "https://arxiv.org/pdf/1904.04195",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Vision-and-language navigation: Interpreting visually-grounded navigation instructions in real environments",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Anderson_Vision-and-Language_Navigation_Interpreting_CVPR_2018_paper.pdf",
+      "category": "simulator-and-dataset",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Large-Scale Model-Enhanced Vision-Language Navigation: Recent Advances, Practical Applications, and Future Challenges",
+      "url": "https://www.mdpi.com/1424-8220/26/7/2022",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Sensing, Social, and Motion Intelligence in Embodied Navigation: A Comprehensive Survey",
+      "url": "https://arxiv.org/pdf/2508.15354",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Aligning cyber space with physical world: A comprehensive survey on embodied ai",
+      "url": "https://arxiv.org/pdf/2407.06886",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Vision-and-Language Navigation Today and Tomorrow: A Survey in the Era of Foundation Models",
+      "url": "https://openreview.net/pdf?id=yiqeh2ZYUh",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "A Survey on Vision-Language-Action Models for Embodied AI",
+      "url": "https://arxiv.org/pdf/2405.14093",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "Vision-language navigation: a survey and taxonomy",
+      "url": "https://arxiv.org/pdf/2108.11544",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Visual language navigation: A survey and open challenges",
+      "url": "https://link.springer.com/article/10.1007/s10462-022-10174-9",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Vision-and-language navigation: A survey of tasks, methods, and future directions",
+      "url": "https://arxiv.org/pdf/2203.12667",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "website",
+      "url": "https://vizdoom.cs.put.edu.pl/",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "website",
+      "url": "https://github.com/facebookresearch/House3D",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "website",
+      "url": "http://ai2thor.allenai.org/",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "website",
+      "url": "http://gibsonenv.stanford.edu/",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "website",
+      "url": "http://gibsonenv.stanford.edu/",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "website",
+      "url": "https://aihabitat.org/",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "website",
+      "url": "https://github.com/microsoft/AirSim",
+      "category": "survey-paper",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Learning Robot Visual Navigation in Crowds via Intention-Aware Scene Representations",
+      "url": "https://arxiv.org/pdf/2606.26047",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "RANGER: A Monocular Zero-Shot Semantic Navigation Framework through Contextual Adaptation",
+      "url": "https://arxiv.org/pdf/2512.24212",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "LoGoPlanner: Localization Grounded Navigation Policy with Metric-aware Visual Geometry",
+      "url": "https://arxiv.org/pdf/2512.19629",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "REASAN: Learning Reactive Safe Navigation for Legged Robots",
+      "url": "https://arxiv.org/pdf/2512.09537",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Neupan: Direct point robot navigation with end-to-end model-based learning",
+      "url": "https://arxiv.org/pdf/2403.06828",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Unified World Models: Memory-Augmented Planning and Foresight for Visual Navigation",
+      "url": "https://arxiv.org/pdf/2510.08713",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance",
+      "url": "https://arxiv.org/pdf/2505.08712",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation",
+      "url": "https://arxiv.org/pdf/2511.10376v2",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Adaptive Interactive Navigation of Quadruped Robots using Large Language Models",
+      "url": "https://arxiv.org/pdf/2503.22942",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "DPL: Depth-only Perceptive Humanoid Locomotion via Realistic Depth Synthesis and Cross-Attention Terrain Reconstruction",
+      "url": "https://www.arxiv.org/pdf/2510.07152",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "IGL-Nav: Incremental 3D Gaussian Localization for Image-goal Navigation",
+      "url": "https://arxiv.org/pdf/2508.00823",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "LOVON: Legged Open-Vocabulary Object Navigator",
+      "url": "https://arxiv.org/pdf/2507.06747",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "TANGO: Traversability-Aware Navigation with Local Metric Control for Topological Goals",
+      "url": "https://arxiv.org/pdf/2509.08699",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Learned Perceptive Forward Dynamics Model for Safe and Platform-aware Robotic Navigation",
+      "url": "https://arxiv.org/pdf/2504.19322",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Parkour in the Wild: Learning a General and Extensible Agile Locomotion Policy Using Multi-expert Distillation and RL Fine-tuning",
+      "url": "https://arxiv.org/pdf/2505.11164",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments",
+      "url": "https://arxiv.org/pdf/2505.19214",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+      "url": "https://arxiv.org/pdf/2312.03275",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Learning Robust Autonomous Navigation and Locomotion for Wheeled-Legged Robots",
+      "url": "https://arxiv.org/pdf/2405.01792",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "PIE: Parkour With Implicit-Explicit Learning Framework for Legged Robots",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10678805",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Extreme Parkour with Legged Robots",
+      "url": "https://arxiv.org/pdf/2309.14341",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Esc: Exploration with soft commonsense constraints for zero-shot object navigation",
+      "url": "https://proceedings.mlr.press/v202/zhou23r/zhou23r.pdf",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "Zero-shot object goal visual navigation",
+      "url": "https://arxiv.org/pdf/2206.07423",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "ViNL: Visual Navigation and Locomotion Over Obstacles",
+      "url": "https://arxiv.org/pdf/2210.14791",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "ArtPlanner: Robust Legged Robot Navigation in the Field",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10876046",
+      "category": "learning-based-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "Target-Bench: Can World Models Achieve Mapless Path Planning with Semantic Targets?",
+      "url": "https://arxiv.org/pdf/2511.17792",
+      "category": "mapless-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "CREStE: Scalable Mapless Navigation with Internet Scale Priors and Counterfactual Guidance",
+      "url": "https://arxiv.org/pdf/2503.03921",
+      "category": "mapless-navigation",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "VGP-Nav: Metric-Aware Visual Geometric Perception for Robot Navigation",
+      "url": "https://arxiv.org/pdf/2606.09268",
+      "category": "others",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "Aligning cyber space with physical world: A comprehensive survey on embodied ai",
+      "url": "https://arxiv.org/pdf/2407.06886",
+      "category": "others",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "HumanoidPano: Hybrid Spherical Panoramic-LiDAR Cross-Modal Perception for Humanoid Robots",
+      "url": "https://arxiv.org/pdf/2503.09010",
+      "category": "others",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Learning transferable visual models from natural language supervision",
+      "url": "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf",
+      "category": "others",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "Humanoid Occupancy: Enabling A Generalized Multimodal Occupancy Perception System on Humanoid Robots",
+      "url": "https://arxiv.org/pdf/2507.20217",
+      "category": "occupancy-perception",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Roboocc: Enhancing the geometric and semantic scene understanding for robots",
+      "url": "https://arxiv.org/pdf/2504.14604",
+      "category": "occupancy-perception",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "EmbodiedOcc: Embodied 3D Occupancy Prediction for Vision-based Online Scene Understanding",
+      "url": "https://arxiv.org/pdf/2412.04380",
+      "category": "occupancy-perception",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "Scene as occupancy",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Tong_Scene_as_Occupancy_ICCV_2023_paper.pdf",
+      "category": "occupancy-perception",
+      "source_url": "https://github.com/KwanWaiPang/Awesome-VLN/blob/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd/README.md#L311",
+      "line": 311,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 222,
+  "unique_links": 213,
+  "category_count": 8,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "KwanWaiPang",
+      "url": "https://github.com/KwanWaiPang",
+      "contributions": 82
+    },
+    {
+      "login": "cursoragent",
+      "url": "https://github.com/cursoragent",
+      "contributions": 18
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 363,
+    "public_contributors": 2,
+    "observed_at": "2026-09-03T17:56:57.317203+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by KwanWaiPang/Awesome-VLN contributors.",
+  "license": null,
+  "license_url": "https://github.com/KwanWaiPang/Awesome-VLN/tree/2fed5d37a29a26a99a1ddfc9fdc73ae0744386dd",
+  "digest": "788f5e0545dab3df17c4477751540729dfc5709d41edd761d2d8f27e47a46552"
+}

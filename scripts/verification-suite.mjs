@@ -17,7 +17,7 @@ check('pytest-suite',()=>{
 });
 check('catalogue',()=>{
  execFileSync(python,['-m','tools.crawl','validate'],{stdio:'pipe',timeout:30000});
- if(existsSync('data/list-index.json'))execFileSync(python,['-m','tools.lists','validate'],{stdio:'pipe',timeout:60000});
+ if(existsSync('data/list-index.json'))execFileSync(python,['-m','tools.lists','validate'],{stdio:'pipe',timeout:180000});
 });
 check('framework',()=>execFileSync(process.execPath,['scripts/check-framework.mjs'],{stdio:'pipe',timeout:30000}));
 writeFileSync(report,JSON.stringify({invocationId,assertions}));

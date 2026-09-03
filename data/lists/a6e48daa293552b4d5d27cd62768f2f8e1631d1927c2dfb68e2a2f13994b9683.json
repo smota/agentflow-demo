@@ -1,0 +1,1199 @@
+{
+  "format_version": 3,
+  "repository_id": "227742308",
+  "name": "A-suozhang/awesome-quantization-and-fixed-point-training",
+  "revision": "fce6bdb6d92a12c1ca5d317e9742aeb8c3922817",
+  "readme_path": "README.md",
+  "readme_sha256": "0fa8226b2674edc8c1833a73425c22608eb3b0535aab3b72eff58c4ea0bafb63",
+  "sections": [
+    {
+      "id": "初衷",
+      "title": "初衷",
+      "level": 1,
+      "path": [
+        "初衷"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#初衷",
+      "entries": 0
+    },
+    {
+      "id": "methods",
+      "title": "Methods",
+      "level": 1,
+      "path": [
+        "Methods"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#methods",
+      "entries": 0
+    },
+    {
+      "id": "a-post-training-quantization",
+      "title": "A. Post-Training Quantization",
+      "level": 2,
+      "path": [
+        "Methods",
+        "A. Post-Training Quantization"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#a-post-training-quantization",
+      "entries": 11
+    },
+    {
+      "id": "b-quantize-aware-training",
+      "title": "B. Quantize-Aware-Training",
+      "level": 2,
+      "path": [
+        "Methods",
+        "B. Quantize-Aware-Training"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#b-quantize-aware-training",
+      "entries": 14
+    },
+    {
+      "id": "c-full-fixed-point-training",
+      "title": "C. (Full) Fixed-Point Training",
+      "level": 1,
+      "path": [
+        "C. (Full) Fixed-Point Training"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#c-full-fixed-point-training",
+      "entries": 7
+    },
+    {
+      "id": "d-binary",
+      "title": "D. Binary",
+      "level": 1,
+      "path": [
+        "D. Binary"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#d-binary",
+      "entries": 21
+    },
+    {
+      "id": "ideas",
+      "title": "Ideas",
+      "level": 1,
+      "path": [
+        "Ideas"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#ideas",
+      "entries": 0
+    },
+    {
+      "id": "post-training-quantization",
+      "title": "Post-Training Quantization",
+      "level": 2,
+      "path": [
+        "Ideas",
+        "Post-Training Quantization"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#post-training-quantization",
+      "entries": 2
+    },
+    {
+      "id": "quantize-aware-training",
+      "title": "Quantize-Aware Training",
+      "level": 2,
+      "path": [
+        "Ideas",
+        "Quantize-Aware Training"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#quantize-aware-training",
+      "entries": 5
+    },
+    {
+      "id": "fixed-point-training",
+      "title": "Fixed-Point Training",
+      "level": 3,
+      "path": [
+        "Ideas",
+        "Quantize-Aware Training",
+        "Fixed-Point Training"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#fixed-point-training",
+      "entries": 2
+    },
+    {
+      "id": "binary",
+      "title": "Binary",
+      "level": 3,
+      "path": [
+        "Ideas",
+        "Quantize-Aware Training",
+        "Binary"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#binary",
+      "entries": 1
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 2,
+      "path": [
+        "Ideas",
+        "Others"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#others",
+      "entries": 2
+    },
+    {
+      "id": "经典的建模方式",
+      "title": "经典的建模方式",
+      "level": 3,
+      "path": [
+        "Ideas",
+        "Others",
+        "经典的建模方式"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#经典的建模方式",
+      "entries": 1
+    },
+    {
+      "id": "stochastic-roudning-related",
+      "title": "Stochastic Roudning Related",
+      "level": 3,
+      "path": [
+        "Ideas",
+        "Others",
+        "Stochastic Roudning Related"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#stochastic-roudning-related",
+      "entries": 0
+    },
+    {
+      "id": "bn-related",
+      "title": "BN Related",
+      "level": 3,
+      "path": [
+        "Ideas",
+        "Others",
+        "BN Related"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#bn-related",
+      "entries": 2
+    },
+    {
+      "id": "genre",
+      "title": "Genre",
+      "level": 1,
+      "path": [
+        "Genre"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#genre",
+      "entries": 0
+    },
+    {
+      "id": "binary及其延申极低比特",
+      "title": "Binary及其延申(极低比特)",
+      "level": 2,
+      "path": [
+        "Genre",
+        "Binary及其延申(极低比特)"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#binary及其延申极低比特",
+      "entries": 10
+    },
+    {
+      "id": "量化方法低比特",
+      "title": "量化方法（低比特）",
+      "level": 2,
+      "path": [
+        "Genre",
+        "量化方法（低比特）"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#量化方法低比特",
+      "entries": 5
+    },
+    {
+      "id": "理论分析",
+      "title": "理论分析",
+      "level": 2,
+      "path": [
+        "Genre",
+        "理论分析"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#理论分析",
+      "entries": 7
+    },
+    {
+      "id": "奇技淫巧",
+      "title": "~~奇技淫巧~~",
+      "level": 2,
+      "path": [
+        "Genre",
+        "~~奇技淫巧~~"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#奇技淫巧",
+      "entries": 13
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "level": 1,
+      "path": [
+        "Docs"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#docs",
+      "entries": 0
+    },
+    {
+      "id": "tensorflow-lite",
+      "title": "Tensorflow Lite",
+      "level": 2,
+      "path": [
+        "Docs",
+        "Tensorflow Lite"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#tensorflow-lite",
+      "entries": 2
+    },
+    {
+      "id": "pytorch",
+      "title": "PyTorch",
+      "level": 2,
+      "path": [
+        "Docs",
+        "PyTorch"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#pytorch",
+      "entries": 0
+    },
+    {
+      "id": "groups-low-bit-training",
+      "title": "Groups (Low-Bit Training)",
+      "level": 1,
+      "path": [
+        "Groups (Low-Bit Training)"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#groups-low-bit-training",
+      "entries": 0
+    },
+    {
+      "id": "todo",
+      "title": "TODO",
+      "level": 1,
+      "path": [
+        "TODO"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#todo",
+      "entries": 0
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 1,
+      "path": [
+        "References"
+      ],
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#references",
+      "entries": 4
+    }
+  ],
+  "entries": [
+    {
+      "title": "1510-Deep Compression",
+      "url": "https://arxiv.org/abs/1510.00149",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "1702-Incremental Quantization",
+      "url": "https://arxiv.org/abs/1702.03044",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "1802-Model compression via distillation and quantization",
+      "url": "https://arxiv.org/abs/1802.05668",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "1810-Post training 4-bit quantization of convolutional networks for rapid-deployment(NIPS 2019)",
+      "url": "https://arxiv.org/abs/1810.05723",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "1907-And the Bit Goes Down: Revisiting the Quantization of Neural Networks",
+      "url": "https://arxiv.org/abs/1907.05686",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "1511-Fixed Point Quantization of Deep Convolutional Network",
+      "url": "https://arxiv.org/abs/1511.06393",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Entropy Constraint Scalar Quantization",
+      "url": "https://www.mdpi.com/1099-4300/18/12/449",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "1611-Designing Energy-Efficient Convolutional Neural Networks using Energy-Aware Pruning",
+      "url": "https://arxiv.org/abs/1611.05128",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "1711-NISP: Pruning Networks using Neuron Importance Score Propagation",
+      "url": "https://arxiv.org/abs/1711.05908",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "1805-Retraining-Based Iterative Weight Quantization for Deep Neural Networks",
+      "url": "https://arxiv.org/abs/1805.11233",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "1906-Data-Free Quantization through weiht equailization & Bias Correction",
+      "url": "https://arxiv.org/abs/1906.04721",
+      "category": "a-post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "1603-XNORNet",
+      "url": "https://arxiv.org/abs/1603.05279",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "1605-TWN",
+      "url": "https://arxiv.org/abs/1605.04711",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "1709-WRPN-Intel-ICLR2018",
+      "url": "https://arxiv.org/abs/1709.01134",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "1712-Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+      "url": "https://arxiv.org/abs/1712.05877",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "1805-PACT",
+      "url": "https://arxiv.org/abs/1805.06085",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "1802-Mixed Precision Training Of ConvNets Using Integer Operations-ICLR2018",
+      "url": "https://arxiv.org/pdf/1802.00930.pdf",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "1805-Accurate & Efficient 2-bit QNN",
+      "url": "https://www.semanticscholar.org/paper/ACCURATE-AND-EFFICIENT-2-BIT-QUANTIZED-NEURAL-Choi-Venkataramani/c3cb27f9ef7176658f37b607e75cc2c37f5e0ea8",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "1808-Learning to Quantize Deep Networks by Optimizing Quantization Intervals with Task Loss",
+      "url": "https://arxiv.org/abs/1808.05779",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "1905-hawq: hessian aware quantization of neuralnetworks with mixed-precision",
+      "url": "https://arxiv.org/pdf/1905.03696.pdf",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "1911-V2",
+      "url": "https://arxiv.org/pdf/1911.03852.pdf",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "1901-Improving Neural Network Quantization with Retraining Outlier Channel Splitting",
+      "url": "https://arxiv.org/pdf/1901.09504.pdf",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Code at",
+      "url": "https://github.com/cornell-zhang/dnn-quant-ocs",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "1903-Training Quantized Network with Auxiliary Gradient Module",
+      "url": "https://arxiv.org/abs/1903.11236",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "1901-Accumulation bit-width Scaling",
+      "url": "https://arxiv.org/abs/1901.06588",
+      "category": "b-quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "1606-DoReFa",
+      "url": "https://arxiv.org/abs/1606.06160",
+      "category": "c-full-fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "1802-WAGE - Training & Inference with Integers in DNN",
+      "url": "https://arxiv.org/abs/1802.04680",
+      "category": "c-full-fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "1705-TernGrad",
+      "url": "https://arxiv.org/abs/1705.07878",
+      "category": "c-full-fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "1805-Scalable Methods for 8-bit Training of Neural Networks",
+      "url": "https://arxiv.org/abs/1805.11046",
+      "category": "c-full-fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "1812-Training Deep Neural Networks with 8-bit Floating Point Numbers",
+      "url": "https://arxiv.org/abs/1812.08011",
+      "category": "c-full-fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "1905-mixed precision training with 8-bit floating point",
+      "url": "https://arxiv.org/abs/1905.12334",
+      "category": "c-full-fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Towards Unified INT8 Training for Convolutional Neural Network",
+      "url": "https://arxiv.org/pdf/1912.12607.pdf",
+      "category": "c-full-fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "1511-BinaryConnect",
+      "url": "https://arxiv.org/abs/1511.00363",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "1602-Binarized Neural Networks",
+      "url": "https://arxiv.org/abs/1602.02830",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "1603-XNORNet",
+      "url": "https://arxiv.org/abs/1603.05279",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "1605-Ternary Weighted Network",
+      "url": "https://arxiv.org/abs/1605.04711",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "1709-WRPN-Intel-ICLR2018",
+      "url": "https://arxiv.org/abs/1709.01134",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "1606-DoReFa",
+      "url": "https://arxiv.org/abs/1709.01134",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "1709-Flexible Network Binarization with Layer-wise Priority",
+      "url": "https://arxiv.org/abs/1709.04344",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "1711-ReBNet: Residual Binarized Neural Network",
+      "url": "https://arxiv.org/abs/1711.01243",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "1711-Towards Accurate Binary Convolutional Neural Network",
+      "url": "https://arxiv.org/abs/1711.11294",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "1804-Training a Binary Weight Object Detector by Knowledge Transfer for Autonomous Driving",
+      "url": "https://arxiv.org/abs/1804.06332",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "1902-Self-Binarizing Networks",
+      "url": "https://arxiv.org/abs/1902.00730",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "1906-Latent Weights Do Not Exist: Rethinking Binarized Neural Network Optimization",
+      "url": "https://arxiv.org/abs/1906.02107",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "2001-Least squares binary quantization of neural networks",
+      "url": "https://arxiv.org/abs/2001.02786v1",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "2002-Widening and Squeezing: Towards Accurate and Efficient QNNs",
+      "url": "https://arxiv.org/abs/2002.00555",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "1808-Bi-Real Net: Enhancing the Performance of 1-bit CNNs With Improved Representational Capability and Advanced Training Algorithm",
+      "url": "http://arxiv.org/abs/1808.00278",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "1812-Training Competitive Binary Neural Networks from Scratch",
+      "url": "http://arxiv.org/abs/1812.01965",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "1909-XNORNet++",
+      "url": "http://arxiv.org/abs/1909.13863",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "2001-MeliusNet: Can Binary Neural Networks Achieve MobileNet-level Accuracy?",
+      "url": "https://arxiv.org/abs/2001.05936",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "1909-IRNet-Forward and Backward Information Retention for Accurate Binary Neural Networks",
+      "url": "https://arxiv.org/pdf/1909.10788.pdf",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "1812-Per-Tensor-Quantization of BackProp",
+      "url": "https://arxiv.org/abs/1812.11732",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "1812-Hybrid 8-bit Training",
+      "url": "https://arxiv.org/abs/1812.08011",
+      "category": "d-binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "这篇文章",
+      "url": "https://www.mdpi.com/1099-4300/18/12/449",
+      "category": "post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "代表文章",
+      "url": "https://arxiv.org/abs/1810.05723",
+      "category": "post-training-quantization",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "PACT",
+      "url": "https://arxiv.org/abs/1805.06085",
+      "category": "quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "这篇",
+      "url": "https://arxiv.org/abs/1712.05877",
+      "category": "quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "PACT",
+      "url": "https://arxiv.org/abs/1805.06085",
+      "category": "quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "KAIST的这篇文章",
+      "url": "https://arxiv.org/abs/1808.05779",
+      "category": "quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "TTQ",
+      "url": "https://arxiv.org/pdf/1612.01064.pdf",
+      "category": "quantize-aware-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "TernGrad",
+      "url": "https://papers.nips.cc/paper/6749-terngrad-ternary-gradients-to-reduce-communication-in-distributed-deep-learning",
+      "category": "fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "Towards Unified INT8 Training for Convolutional Neural Network",
+      "url": "https://arxiv.org/pdf/1912.12607.pdf",
+      "category": "fixed-point-training",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Binary Neural Networks: A Survey",
+      "url": "https://arxiv.org/abs/2004.03333",
+      "category": "binary",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "这篇",
+      "url": "https://arxiv.org/abs/1907.05686",
+      "category": "others",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "TernGrad",
+      "url": "https://papers.nips.cc/paper/6749-terngrad-ternary-gradients-to-reduce-communication-in-distributed-deep-learning",
+      "category": "others",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "Post-Training 4bit",
+      "url": "https://arxiv.org/abs/1810.05723",
+      "category": "经典的建模方式",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "L1BN (Linear BN)",
+      "url": "https://arxiv.org/pdf/1802.09769.pdf",
+      "category": "bn-related",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "RangeBN",
+      "url": "https://arxiv.org/pdf/1802.09769.pdf",
+      "category": "bn-related",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "BNN",
+      "url": "https://arxiv.org/abs/1602.02830",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "BinaryConnect",
+      "url": "https://arxiv.org/abs/1511.00363",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "TernaryNet(TWN)",
+      "url": "https://arxiv.org/abs/1605.04711",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "XNorNet",
+      "url": "https://arxiv.org/pdf/1603.05279.pdf",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "ABCNet",
+      "url": "https://arxiv.org/abs/1711.11294",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "WRPN-Intel-ICLR2018",
+      "url": "https://openreview.net/pdf?id=B1ZvaaeAZ",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "DoReFaNet",
+      "url": "https://arxiv.org/pdf/1606.06160.pdf",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "TTQ(Trained Ternary Quantization)",
+      "url": "https://arxiv.org/pdf/1612.01064.pdf",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "Simultaneously Optimizing Weight and Quantizer of Ternary Neural Network using Truncated Gaussian Approximation",
+      "url": "https://arxiv.org/abs/1810.01018",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "Training Competitive Binary Neural Networks from Scratch",
+      "url": "https://arxiv.org/abs/1812.01965",
+      "category": "binary及其延申极低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+      "url": "https://arxiv.org/abs/1712.05877",
+      "category": "量化方法低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "PACT",
+      "url": "https://arxiv.org/abs/1805.06085",
+      "category": "量化方法低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "Incremental Quantization",
+      "url": "https://ieeexplore.ieee.org/document/4476718/",
+      "category": "量化方法低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "Model compression via distillation and quantization",
+      "url": "https://arxiv.org/abs/1802.05668",
+      "category": "量化方法低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "Training Deep Neural Networks with 8-bit Floating Point Numbers",
+      "url": "https://papers.nips.cc/paper/7994-training-deep-neural-networks-with-8-bit-floating-point-numbers.pdf",
+      "category": "量化方法低比特",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "Training Quantized Nets: A Deeper Understanding",
+      "url": "https://arxiv.org/abs/1706.02379",
+      "category": "理论分析",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "Towards The Limits Of Network Quantization",
+      "url": "https://openreview.net/pdf?id=rJ8uNptgl",
+      "category": "理论分析",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "Accumulation bit-width Scaling",
+      "url": "https://arxiv.org/abs/1901.06588",
+      "category": "理论分析",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "Per-Tensor-Quantization of BackProp",
+      "url": "https://arxiv.org/abs/1812.11732",
+      "category": "理论分析",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "Understanding Straight-Through Estimator in Training Activation Quantized Neural Nets",
+      "url": "https://arxiv.org/abs/1903.05662",
+      "category": "理论分析",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "An Empirical study of Binary Neural Networks' Optimisation",
+      "url": "https://openreview.net/pdf?id=rJfUCoR5KX",
+      "category": "理论分析",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "Scalable Methods for 8-bit Training of Neural Networks | Part 5",
+      "url": "https://arxiv.org/abs/1805.11046",
+      "category": "理论分析",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "ernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning",
+      "url": "https://papers.nips.cc/paper/6749-terngrad-ternary-gradients-to-reduce-communication-in-distributed-deep-learning",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "Deep Learning with Low Precision by Half-wave Gaussian Quantization",
+      "url": "https://arxiv.org/abs/1702.00953",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "Learning low-precision neural networks without Straight-Through Estimator (STE)",
+      "url": "https://arxiv.org/abs/1903.01061",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "SWALP: Stochastic Weight Averaging in Low-Precision Training",
+      "url": "https://arxiv.org/abs/1904.11943",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "Analysis Of Quantized MOdels-ICLR2019",
+      "url": "https://openreview.net/forum?id=ryM_IoAqYX",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "Training Quantized Network with Auxiliary Gradient Module",
+      "url": "https://arxiv.org/abs/1903.11236",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "Learning to Quantize Deep Networks by Optimizing Quantization Intervals with Task Loss",
+      "url": "https://arxiv.org/abs/1808.05779",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "ReLeQ: An Automatic Reinforcement Learning Approach for Deep Quantization of Neural Networks",
+      "url": "http://www-users.cselabs.umn.edu/classes/Spring-2019/csci8980/papers/releq.pdf",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "And the Bit Goes Down: Revisiting the Quantization of Neural Networks",
+      "url": "https://arxiv.org/abs/1907.05686",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "Ternary MobileNets via Per-Layer Hybrid Filter Banks",
+      "url": "https://arxiv.org/abs/1911.01028",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "Effective Training of Convolutional Neural Networks with Low-bitwidth Weights and Activations",
+      "url": "https://arxiv.org/abs/1908.04680",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "MoBiNet: A Mobile Binary Network for Image Classification",
+      "url": "https://arxiv.org/abs/1907.12629",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Precision Quantized Neural Networks via Encoding Decomposition of -1 and +1",
+      "url": "https://arxiv.org/abs/1905.13389",
+      "category": "奇技淫巧",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "Post-Training-Quantize的工具",
+      "url": "https://www.tensorflow.org/lite/performance/post_training_quantization",
+      "category": "tensorflow-lite",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L398",
+      "line": 398,
+      "properties": {}
+    },
+    {
+      "title": "Quantize-Aware Training",
+      "url": "https://github.com/tensorflow/tensorflow/tree/r1.14/tensorflow/contrib/quantize",
+      "category": "tensorflow-lite",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L402",
+      "line": 402,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-Model-Compression",
+      "url": "https://github.com/csyhhu/Awesome-Deep-Neural-Network-Compression/blob/master/Paper/PaperByConference.md",
+      "category": "references",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "Blog N0.0",
+      "url": "https://blueardour.github.io/2019/04/29/model-compression-summary.html",
+      "category": "references",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "TensorBoard Lite Doc",
+      "url": "https://www.tensorflow.org/lite/performance/post_training_quantization",
+      "category": "references",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "Distiller Doc",
+      "url": "https://nervanasystems.github.io/distiller/quantization.html",
+      "category": "references",
+      "source_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/blob/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817/README.md#L445",
+      "line": 445,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 109,
+  "unique_links": 77,
+  "category_count": 17,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "A-suozhang",
+      "url": "https://github.com/A-suozhang",
+      "contributions": 6
+    },
+    {
+      "login": "JoyFYan",
+      "url": "https://github.com/JoyFYan",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 7,
+    "has_more": false,
+    "path_commit_count": 7,
+    "public_contributors": 2,
+    "observed_at": "2026-09-03T17:57:30.911596+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by A-suozhang/awesome-quantization-and-fixed-point-training contributors.",
+  "license": null,
+  "license_url": "https://github.com/A-suozhang/awesome-quantization-and-fixed-point-training/tree/fce6bdb6d92a12c1ca5d317e9742aeb8c3922817",
+  "digest": "a6e48daa293552b4d5d27cd62768f2f8e1631d1927c2dfb68e2a2f13994b9683"
+}

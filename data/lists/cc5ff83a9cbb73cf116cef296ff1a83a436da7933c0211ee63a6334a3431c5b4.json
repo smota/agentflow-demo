@@ -1,0 +1,1422 @@
+{
+  "format_version": 3,
+  "repository_id": "1194389960",
+  "name": "antonbabenko/awesome-terraform-compliance",
+  "revision": "760e4e417870672952854872a812108cae4d0b9a",
+  "readme_path": "readme.md",
+  "readme_sha256": "773f7d7866c3938610d21c75acc1df987fe0466fbcbd02349ddc01c887250194",
+  "sections": [
+    {
+      "id": "awesome-terraform-compliance",
+      "title": "Awesome Terraform Compliance",
+      "level": 1,
+      "path": [
+        "Awesome Terraform Compliance"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#awesome-terraform-compliance",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Contents"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "legend",
+      "title": "Legend",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Legend"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#legend",
+      "entries": 0
+    },
+    {
+      "id": "policy-engines",
+      "title": "Policy Engines",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Policy Engines"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#policy-engines",
+      "entries": 4
+    },
+    {
+      "id": "iac-security-scanners",
+      "title": "IaC Security Scanners",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "IaC Security Scanners"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#iac-security-scanners",
+      "entries": 0
+    },
+    {
+      "id": "multi-framework-scanners",
+      "title": "Multi-Framework Scanners",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "IaC Security Scanners",
+        "Multi-Framework Scanners"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#multi-framework-scanners",
+      "entries": 6
+    },
+    {
+      "id": "terraform-specific-scanners",
+      "title": "Terraform-Specific Scanners",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "IaC Security Scanners",
+        "Terraform-Specific Scanners"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#terraform-specific-scanners",
+      "entries": 5
+    },
+    {
+      "id": "terraform-testing",
+      "title": "Terraform Testing",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "IaC Security Scanners",
+        "Terraform Testing"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#terraform-testing",
+      "entries": 2
+    },
+    {
+      "id": "intentionally-vulnerable-terraform",
+      "title": "Intentionally Vulnerable Terraform",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "IaC Security Scanners",
+        "Intentionally Vulnerable Terraform"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#intentionally-vulnerable-terraform",
+      "entries": 2
+    },
+    {
+      "id": "compliance-ready-modules",
+      "title": "Compliance-Ready Modules",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance-Ready Modules"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#compliance-ready-modules",
+      "entries": 0
+    },
+    {
+      "id": "aws",
+      "title": "AWS",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance-Ready Modules",
+        "AWS"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#aws",
+      "entries": 3
+    },
+    {
+      "id": "azure",
+      "title": "Azure",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance-Ready Modules",
+        "Azure"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#azure",
+      "entries": 1
+    },
+    {
+      "id": "gcp",
+      "title": "GCP",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance-Ready Modules",
+        "GCP"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#gcp",
+      "entries": 3
+    },
+    {
+      "id": "cloud-provider-compliance-tools",
+      "title": "Cloud Provider Compliance Tools",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Cloud Provider Compliance Tools"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#cloud-provider-compliance-tools",
+      "entries": 0
+    },
+    {
+      "id": "aws-1",
+      "title": "AWS",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Cloud Provider Compliance Tools",
+        "AWS"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#aws-1",
+      "entries": 7
+    },
+    {
+      "id": "azure-1",
+      "title": "Azure",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Cloud Provider Compliance Tools",
+        "Azure"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#azure-1",
+      "entries": 2
+    },
+    {
+      "id": "gcp-1",
+      "title": "GCP",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Cloud Provider Compliance Tools",
+        "GCP"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#gcp-1",
+      "entries": 2
+    },
+    {
+      "id": "multi-cloud",
+      "title": "Multi-Cloud",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Cloud Provider Compliance Tools",
+        "Multi-Cloud"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#multi-cloud",
+      "entries": 4
+    },
+    {
+      "id": "compliance-frameworks-and-standards",
+      "title": "Compliance Frameworks and Standards",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance Frameworks and Standards"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#compliance-frameworks-and-standards",
+      "entries": 0
+    },
+    {
+      "id": "cis-benchmarks",
+      "title": "CIS Benchmarks",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance Frameworks and Standards",
+        "CIS Benchmarks"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#cis-benchmarks",
+      "entries": 3
+    },
+    {
+      "id": "soc-2",
+      "title": "SOC 2",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance Frameworks and Standards",
+        "SOC 2"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#soc-2",
+      "entries": 1
+    },
+    {
+      "id": "pci-dss",
+      "title": "PCI DSS",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance Frameworks and Standards",
+        "PCI DSS"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#pci-dss",
+      "entries": 1
+    },
+    {
+      "id": "nist-and-fedramp",
+      "title": "NIST and FedRAMP",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Compliance Frameworks and Standards",
+        "NIST and FedRAMP"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#nist-and-fedramp",
+      "entries": 2
+    },
+    {
+      "id": "evidence-and-audit",
+      "title": "Evidence and Audit",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Evidence and Audit"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#evidence-and-audit",
+      "entries": 0
+    },
+    {
+      "id": "oscal-tooling",
+      "title": "OSCAL Tooling",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Evidence and Audit",
+        "OSCAL Tooling"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#oscal-tooling",
+      "entries": 3
+    },
+    {
+      "id": "evidence-generation",
+      "title": "Evidence Generation",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Evidence and Audit",
+        "Evidence Generation"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#evidence-generation",
+      "entries": 4
+    },
+    {
+      "id": "drift-detection",
+      "title": "Drift Detection",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Evidence and Audit",
+        "Drift Detection"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#drift-detection",
+      "entries": 5
+    },
+    {
+      "id": "policy-libraries-and-rulesets",
+      "title": "Policy Libraries and Rulesets",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Policy Libraries and Rulesets"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#policy-libraries-and-rulesets",
+      "entries": 0
+    },
+    {
+      "id": "oparego-libraries",
+      "title": "OPA/Rego Libraries",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Policy Libraries and Rulesets",
+        "OPA/Rego Libraries"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#oparego-libraries",
+      "entries": 4
+    },
+    {
+      "id": "sentinel-libraries",
+      "title": "Sentinel Libraries",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Policy Libraries and Rulesets",
+        "Sentinel Libraries"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#sentinel-libraries",
+      "entries": 1
+    },
+    {
+      "id": "guard-rule-libraries",
+      "title": "Guard Rule Libraries",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Policy Libraries and Rulesets",
+        "Guard Rule Libraries"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#guard-rule-libraries",
+      "entries": 1
+    },
+    {
+      "id": "terraform-automation-platforms",
+      "title": "Terraform Automation Platforms",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Terraform Automation Platforms"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#terraform-automation-platforms",
+      "entries": 11
+    },
+    {
+      "id": "cicd-and-platform-integration",
+      "title": "CI/CD and Platform Integration",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "CI/CD and Platform Integration"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#cicd-and-platform-integration",
+      "entries": 7
+    },
+    {
+      "id": "learning-resources",
+      "title": "Learning Resources",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Learning Resources"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "articles",
+      "title": "Articles",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Learning Resources",
+        "Articles"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#articles",
+      "entries": 7
+    },
+    {
+      "id": "conference-talks",
+      "title": "Conference Talks",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Learning Resources",
+        "Conference Talks"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#conference-talks",
+      "entries": 5
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Learning Resources",
+        "Books"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#books",
+      "entries": 3
+    },
+    {
+      "id": "courses",
+      "title": "Courses",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Learning Resources",
+        "Courses"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#courses",
+      "entries": 2
+    },
+    {
+      "id": "newsletters",
+      "title": "Newsletters",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Learning Resources",
+        "Newsletters"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#newsletters",
+      "entries": 3
+    },
+    {
+      "id": "related-awesome-lists",
+      "title": "Related Awesome Lists",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Related Awesome Lists"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#related-awesome-lists",
+      "entries": 5
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Contributing"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "footnotes",
+      "title": "Footnotes",
+      "level": 2,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Footnotes"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#footnotes",
+      "entries": 0
+    },
+    {
+      "id": "curation-policy",
+      "title": "Curation Policy",
+      "level": 3,
+      "path": [
+        "Awesome Terraform Compliance",
+        "Footnotes",
+        "Curation Policy"
+      ],
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#curation-policy",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Open Policy Agent (OPA)",
+      "url": "https://www.openpolicyagent.org/",
+      "category": "policy-engines",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "HashiCorp Sentinel",
+      "url": "https://www.hashicorp.com/sentinel",
+      "category": "policy-engines",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Terraform policy (tfpolicy)",
+      "url": "https://developer.hashicorp.com/terraform/policy",
+      "category": "policy-engines",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Cloud Custodian",
+      "url": "https://cloudcustodian.io/",
+      "category": "policy-engines",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Checkov",
+      "url": "https://www.checkov.io/",
+      "category": "multi-framework-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Trivy",
+      "url": "https://trivy.dev/",
+      "category": "multi-framework-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "KICS",
+      "url": "https://kics.io/",
+      "category": "multi-framework-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Snyk IaC",
+      "url": "https://snyk.io/product/infrastructure-as-code-security/",
+      "category": "multi-framework-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "SonarQube IaC Analysis",
+      "url": "https://github.com/SonarSource/sonar-iac",
+      "category": "multi-framework-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Drogon",
+      "url": "https://github.com/filipi86/drogonsec",
+      "category": "multi-framework-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "terraform-compliance",
+      "url": "https://terraform-compliance.com/",
+      "category": "terraform-specific-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "tflint",
+      "url": "https://github.com/terraform-linters/tflint",
+      "category": "terraform-specific-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "CloudFormation Guard (cfn-guard)",
+      "url": "https://github.com/aws-cloudformation/cloudformation-guard",
+      "category": "terraform-specific-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Tirith",
+      "url": "https://github.com/StackGuardian/tirith",
+      "category": "terraform-specific-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "pike",
+      "url": "https://github.com/jamesWoolfenden/pike",
+      "category": "terraform-specific-scanners",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Terratest",
+      "url": "https://terratest.gruntwork.io/",
+      "category": "terraform-testing",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Terraform test",
+      "url": "https://developer.hashicorp.com/terraform/language/tests",
+      "category": "terraform-testing",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "TerraGoat",
+      "url": "https://github.com/bridgecrewio/terragoat",
+      "category": "intentionally-vulnerable-terraform",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "sadcloud",
+      "url": "https://github.com/nccgroup/sadcloud",
+      "category": "intentionally-vulnerable-terraform",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Compliance.tf",
+      "url": "https://compliance.tf/",
+      "category": "aws",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "opsZero",
+      "url": "https://opszero.com/solutions/compliance/",
+      "category": "aws",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "terraform-aws-secure-baseline",
+      "url": "https://github.com/nozaq/terraform-aws-secure-baseline",
+      "category": "aws",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Azure CAF Terraform",
+      "url": "https://github.com/aztfmod/terraform-azurerm-caf",
+      "category": "azure",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Google Cloud Foundation Toolkit",
+      "url": "https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints",
+      "category": "gcp",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Secure Cloud Foundation",
+      "url": "https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding",
+      "category": "gcp",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "GCP Hardening Toolkit (GHT)",
+      "url": "https://github.com/GoogleCloudPlatform/gcp-hardening-toolkit",
+      "category": "gcp",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "AWS Config Rules",
+      "url": "https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html",
+      "category": "aws-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "AWS Security Hub",
+      "url": "https://aws.amazon.com/security-hub/",
+      "category": "aws-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "AWS Control Tower",
+      "url": "https://aws.amazon.com/controltower/",
+      "category": "aws-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "AWS Service Control Policies",
+      "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+      "category": "aws-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "AWS Control Tower Controls with Terraform",
+      "url": "https://github.com/aws-samples/aws-control-tower-controls-terraform",
+      "category": "aws-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "deny.cloud",
+      "url": "https://deny.cloud/",
+      "category": "aws-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "terraform-iam-policy-validator",
+      "url": "https://github.com/awslabs/terraform-iam-policy-validator",
+      "category": "aws-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Azure Policy",
+      "url": "https://learn.microsoft.com/en-us/azure/governance/policy/",
+      "category": "azure-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft Defender for Cloud",
+      "url": "https://www.microsoft.com/en-us/security/business/cloud-security/microsoft-defender-cloud/",
+      "category": "azure-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "GCP Organization Policy",
+      "url": "https://docs.cloud.google.com/organization-policy/overview",
+      "category": "gcp-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Security Command Center",
+      "url": "https://cloud.google.com/security/products/security-command-center",
+      "category": "gcp-1",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Prowler",
+      "url": "https://github.com/prowler-cloud/prowler",
+      "category": "multi-cloud",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Steampipe",
+      "url": "https://steampipe.io/",
+      "category": "multi-cloud",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Powerpipe",
+      "url": "https://powerpipe.io/",
+      "category": "multi-cloud",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "CloudQuery",
+      "url": "https://www.cloudquery.io/",
+      "category": "multi-cloud",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "CIS AWS Foundations Benchmark",
+      "url": "https://www.cisecurity.org/benchmark/amazon_web_services",
+      "category": "cis-benchmarks",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "CIS Azure Foundations Benchmark",
+      "url": "https://www.cisecurity.org/benchmark/azure",
+      "category": "cis-benchmarks",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "CIS GCP Foundations Benchmark",
+      "url": "https://www.cisecurity.org/benchmark/google_cloud_computing_platform",
+      "category": "cis-benchmarks",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "SOC 2 Compliance Mapping for Terraform",
+      "url": "https://compliance.tf/docs/frameworks/aws/soc_2/",
+      "category": "soc-2",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "PCI DSS v4.0 on AWS",
+      "url": "https://docs.aws.amazon.com/securityhub/latest/userguide/pci-standard.html",
+      "category": "pci-dss",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "OSCAL (Open Security Controls Assessment Language)",
+      "url": "https://pages.nist.gov/OSCAL/",
+      "category": "nist-and-fedramp",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "FedRAMP Authorization Boundary Guidance",
+      "url": "https://demo.fedramp.gov/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf",
+      "category": "nist-and-fedramp",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Compliance Trestle",
+      "url": "https://github.com/oscal-compass/compliance-trestle",
+      "category": "oscal-tooling",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Lula",
+      "url": "https://github.com/defenseunicorns/lula",
+      "category": "oscal-tooling",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "GovReady-Q",
+      "url": "https://github.com/GovReady/govready-q",
+      "category": "oscal-tooling",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Drata",
+      "url": "https://drata.com/",
+      "category": "evidence-generation",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "RegScale",
+      "url": "https://regscale.com/",
+      "category": "evidence-generation",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Yor",
+      "url": "https://github.com/bridgecrewio/yor",
+      "category": "evidence-generation",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "mapotf",
+      "url": "https://github.com/Azure/mapotf",
+      "category": "evidence-generation",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Digger",
+      "url": "https://digger.dev/",
+      "category": "drift-detection",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "cloud-concierge",
+      "url": "https://github.com/dragondrop-cloud/cloud-concierge",
+      "category": "drift-detection",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "DriftHound",
+      "url": "https://github.com/treezio/drifthound",
+      "category": "drift-detection",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "atlantis-drift-detection",
+      "url": "https://github.com/cresta/atlantis-drift-detection",
+      "category": "drift-detection",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "tfe-drift",
+      "url": "https://github.com/slok/tfe-drift",
+      "category": "drift-detection",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Conftest",
+      "url": "https://www.conftest.dev/",
+      "category": "oparego-libraries",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Regal",
+      "url": "https://www.openpolicyagent.org/projects/regal",
+      "category": "oparego-libraries",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "tflint-ruleset-opa",
+      "url": "https://github.com/terraform-linters/tflint-ruleset-opa",
+      "category": "oparego-libraries",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Prancer Compliance Test",
+      "url": "https://github.com/prancer-io/prancer-compliance-test",
+      "category": "oparego-libraries",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "terraform-sentinel-policies",
+      "url": "https://github.com/hashicorp/terraform-sentinel-policies",
+      "category": "sentinel-libraries",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "AWS Guard Rules Registry",
+      "url": "https://github.com/aws-cloudformation/aws-guard-rules-registry",
+      "category": "guard-rule-libraries",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "HCP Terraform and Terraform Enterprise",
+      "url": "https://developer.hashicorp.com/terraform/cloud-docs",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "Spacelift",
+      "url": "https://spacelift.io/",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "env0",
+      "url": "https://www.env0.com/",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Scalr",
+      "url": "https://scalr.com/",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "Terrateam",
+      "url": "https://terrateam.io/",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "StackGuardian",
+      "url": "https://stackguardian.io/",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "OTF",
+      "url": "https://github.com/leg100/otf",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Terrakube",
+      "url": "https://docs.terrakube.io/",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Terrapod",
+      "url": "https://github.com/mattrobinsonsre/terrapod",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "ops0",
+      "url": "https://ops0.com/",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Terramate",
+      "url": "https://terramate.io/",
+      "category": "terraform-automation-platforms",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Terraform Cloud Run Tasks",
+      "url": "https://developer.hashicorp.com/terraform/cloud-docs/integrations/run-tasks",
+      "category": "cicd-and-platform-integration",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Atlantis",
+      "url": "https://www.runatlantis.io/",
+      "category": "cicd-and-platform-integration",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Pre-commit Terraform",
+      "url": "https://github.com/antonbabenko/pre-commit-terraform",
+      "category": "cicd-and-platform-integration",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "grept",
+      "url": "https://github.com/Azure/grept",
+      "category": "cicd-and-platform-integration",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "trunk.io",
+      "url": "https://trunk.io/",
+      "category": "cicd-and-platform-integration",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Cloud Security Plugin",
+      "url": "https://github.com/NordCoderd/cloud-security-plugin",
+      "category": "cicd-and-platform-integration",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Terraform Risk Assessor",
+      "url": "https://github.com/Liam-Johnston/terraform-risk-assessor",
+      "category": "cicd-and-platform-integration",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "Policy as Code on AWS",
+      "url": "https://aws.amazon.com/blogs/infrastructure-and-automation/a-practical-guide-to-getting-started-with-policy-as-code/",
+      "category": "articles",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Terraform Best Practices",
+      "url": "https://www.terraform-best-practices.com/",
+      "category": "articles",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "A Deep Dive into Terraform Static Code Analysis Tools",
+      "url": "https://devdosvid.blog/2024/04/16/a-deep-dive-into-terraform-static-code-analysis-tools-features-and-comparisons/",
+      "category": "articles",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Shifting Cloud Security Left: Scanning Infrastructure as Code for Security Issues",
+      "url": "https://blog.christophetd.fr/shifting-cloud-security-left-scanning-infrastructure-as-code-for-security-issues/",
+      "category": "articles",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "Run Security Scans on Terraform and OpenTofu with Trivy and GitHub Actions",
+      "url": "https://janik6n.net/posts/run-security-scans-on-terraform-and-opentofu-project-with-trivy-and-github-actions/",
+      "category": "articles",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Compliant Secrets with Terraform",
+      "url": "https://infrahouse.com/blog/2024-09-30-compliant-secrets/",
+      "category": "articles",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "ISO 27001 on AWS with Terraform",
+      "url": "https://infrahouse.com/blog/2026-03-28-iso-27001-on-aws/",
+      "category": "articles",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Securely Deploying Infrastructure as Code",
+      "url": "https://www.youtube.com/watch?v=tPdDS3UZpOQ",
+      "category": "conference-talks",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "Supply Chain Attacks in the Terraform Registry",
+      "url": "https://www.youtube.com/watch?v=BZavu1e9eag",
+      "category": "conference-talks",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Managing Policy as Code With Terraform and Sentinel",
+      "url": "https://www.youtube.com/watch?v=z_m4fFYym30",
+      "category": "conference-talks",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Policy as Code: IT Governance With HashiCorp Sentinel",
+      "url": "https://www.youtube.com/watch?v=ORi4ZNcUVwg",
+      "category": "conference-talks",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "Open Policy Agent (OPA) Intro and Deep Dive",
+      "url": "https://www.youtube.com/watch?v=hENwFyrtm1g",
+      "category": "conference-talks",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Terraform: Up & Running",
+      "url": "https://www.terraformupandrunning.com/",
+      "category": "books",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Infrastructure as Code",
+      "url": "https://infrastructure-as-code.com/",
+      "category": "books",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "The Dao of Terraform Modules",
+      "url": "https://lonegunmanb.github.io/dao-of-terraform-modules-book-english/",
+      "category": "books",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Styra Academy",
+      "url": "https://academy.styra.com/",
+      "category": "courses",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "HashiCorp Sentinel Training",
+      "url": "https://developer.hashicorp.com/sentinel/tutorials",
+      "category": "courses",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "weekly.tf",
+      "url": "https://www.weekly.tf/",
+      "category": "newsletters",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "tl;dr sec",
+      "url": "https://tldrsec.com/",
+      "category": "newsletters",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "CloudSecList",
+      "url": "https://cloudseclist.com/",
+      "category": "newsletters",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "awesome-tf",
+      "url": "https://github.com/shuaibiyy/awesome-tf",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "awesome-cloud-security",
+      "url": "https://github.com/4ndersonLin/awesome-cloud-security",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "awesome-devsecops",
+      "url": "https://github.com/JakobTheDev/awesome-devsecops",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "awesome-opa",
+      "url": "https://github.com/open-policy-agent/awesome-opa",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "awesome-oscal",
+      "url": "https://github.com/oscal-club/awesome-oscal",
+      "category": "related-awesome-lists",
+      "source_url": "https://github.com/antonbabenko/awesome-terraform-compliance/blob/760e4e417870672952854872a812108cae4d0b9a/readme.md#L293",
+      "line": 293,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 109,
+  "unique_links": 109,
+  "category_count": 30,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "antonbabenko",
+      "url": "https://github.com/antonbabenko",
+      "contributions": 16
+    },
+    {
+      "login": "Akshat0694",
+      "url": "https://github.com/Akshat0694",
+      "contributions": 1
+    },
+    {
+      "login": "Liam-Johnston",
+      "url": "https://github.com/Liam-Johnston",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 20,
+    "has_more": false,
+    "path_commit_count": 20,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:58:24.516188+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by antonbabenko/awesome-terraform-compliance contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/antonbabenko/awesome-terraform-compliance/tree/760e4e417870672952854872a812108cae4d0b9a",
+  "digest": "cc5ff83a9cbb73cf116cef296ff1a83a436da7933c0211ee63a6334a3431c5b4"
+}

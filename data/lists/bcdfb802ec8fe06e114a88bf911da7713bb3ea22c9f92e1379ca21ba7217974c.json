@@ -1,0 +1,2181 @@
+{
+  "format_version": 3,
+  "repository_id": "830908339",
+  "name": "ZJU-LLMs/Awesome-LoRAs",
+  "revision": "8e74e54dc4d75bb84c37c654dc7e3c3a3b895635",
+  "readme_path": "README.md",
+  "readme_sha256": "5682af6963e20e410abb4fbb86a89bbf24a848a7911acdcdeb609449b385c1c4",
+  "sections": [
+    {
+      "id": "a-survey-on-lora-of-large-language-models",
+      "title": "A Survey on LoRA of Large Language Models",
+      "level": 1,
+      "path": [
+        "A Survey on LoRA of Large Language Models"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#a-survey-on-lora-of-large-language-models",
+      "entries": 0
+    },
+    {
+      "id": "lora-of-llms",
+      "title": "LoRA of LLMs",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "LoRA of LLMs"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#lora-of-llms",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Contents"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "low-rank-adaptation",
+      "title": "Low-Rank Adaptation",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Low-Rank Adaptation"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#low-rank-adaptation",
+      "entries": 1
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--theoretical-analysis",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Theoretical Analysis",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Low-Rank Adaptation",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Theoretical Analysis"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--theoretical-analysis",
+      "entries": 5
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Beyond Fine-tuning",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Low-Rank Adaptation",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Beyond Fine-tuning"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "entries": 8
+    },
+    {
+      "id": "downstream-adaptation-improving",
+      "title": "Downstream Adaptation Improving",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#downstream-adaptation-improving",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--breaking-the-low-rank-bottleneck",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Breaking the Low-rank Bottleneck",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Breaking the Low-rank Bottleneck"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--breaking-the-low-rank-bottleneck",
+      "entries": 0
+    },
+    {
+      "id": "stacking-loras-along-fine-tuning",
+      "title": "Stacking LoRAs along Fine-tuning",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Breaking the Low-rank Bottleneck",
+        "Stacking LoRAs along Fine-tuning"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#stacking-loras-along-fine-tuning",
+      "entries": 4
+    },
+    {
+      "id": "updating-as-gradient-compressor",
+      "title": "Updating as gradient compressor",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Breaking the Low-rank Bottleneck",
+        "Updating as gradient compressor"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#updating-as-gradient-compressor",
+      "entries": 1
+    },
+    {
+      "id": "co-learning-llm-and-lora",
+      "title": "Co-learning LLM and LoRA",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Breaking the Low-rank Bottleneck",
+        "Co-learning LLM and LoRA"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#co-learning-llm-and-lora",
+      "entries": 1
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--dynamic-rank-allocation",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Dynamic Rank Allocation",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Dynamic Rank Allocation"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--dynamic-rank-allocation",
+      "entries": 0
+    },
+    {
+      "id": "svd-based-methods",
+      "title": "SVD-Based Methods",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Dynamic Rank Allocation",
+        "SVD-Based Methods"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#svd-based-methods",
+      "entries": 3
+    },
+    {
+      "id": "srd-based-methods",
+      "title": "SRD-Based Methods",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Dynamic Rank Allocation",
+        "SRD-Based Methods"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#srd-based-methods",
+      "entries": 4
+    },
+    {
+      "id": "rank-sampling-based-methods",
+      "title": "Rank Sampling-Based Methods",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Dynamic Rank Allocation",
+        "Rank Sampling-Based Methods"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#rank-sampling-based-methods",
+      "entries": 1
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--optimizing-the-learning-procedure",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Optimizing the Learning Procedure",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Optimizing the Learning Procedure"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--optimizing-the-learning-procedure",
+      "entries": 0
+    },
+    {
+      "id": "initialization-improvement",
+      "title": "Initialization Improvement",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Optimizing the Learning Procedure",
+        "Initialization Improvement"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#initialization-improvement",
+      "entries": 4
+    },
+    {
+      "id": "gradient-update-optimization",
+      "title": "Gradient Update Optimization",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Optimizing the Learning Procedure",
+        "Gradient Update Optimization"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#gradient-update-optimization",
+      "entries": 4
+    },
+    {
+      "id": "overfitting-mitigation",
+      "title": "Overfitting Mitigation",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Optimizing the Learning Procedure",
+        "Overfitting Mitigation"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#overfitting-mitigation",
+      "entries": 3
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--combining-with-other-learning-paradigms",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Combining with other Learning Paradigms",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Downstream Adaptation Improving",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Combining with other Learning Paradigms"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--combining-with-other-learning-paradigms",
+      "entries": 3
+    },
+    {
+      "id": "cross-task-generalization",
+      "title": "Cross-task Generalization",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Cross-task Generalization"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#cross-task-generalization",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--mixture-with-manually-designed-weights",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Mixture with Manually Designed Weights",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Cross-task Generalization",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Mixture with Manually Designed Weights"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--mixture-with-manually-designed-weights",
+      "entries": 6
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--mixture-with-learnt-weights",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Mixture with Learnt Weights",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Cross-task Generalization",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Mixture with Learnt Weights"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--mixture-with-learnt-weights",
+      "entries": 5
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Mixture of LoRA Experts",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Cross-task Generalization",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Mixture of LoRA Experts"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "entries": 14
+    },
+    {
+      "id": "efficiency-improving",
+      "title": "Efficiency Improving",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#efficiency-improving",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--parameter-reduction",
+      "title": "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Reduction",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Reduction"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--parameter-reduction",
+      "entries": 0
+    },
+    {
+      "id": "parameter-freezing",
+      "title": "Parameter Freezing",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Reduction",
+        "Parameter Freezing"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#parameter-freezing",
+      "entries": 6
+    },
+    {
+      "id": "parameter-pruning",
+      "title": "Parameter Pruning",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Reduction",
+        "Parameter Pruning"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#parameter-pruning",
+      "entries": 4
+    },
+    {
+      "id": "parameter-sharing",
+      "title": "Parameter Sharing",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Reduction",
+        "Parameter Sharing"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#parameter-sharing",
+      "entries": 3
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--parameter-quantization",
+      "title": "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Quantization",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Quantization"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--parameter-quantization",
+      "entries": 0
+    },
+    {
+      "id": "ptq-based-methods",
+      "title": "PTQ-Based Methods",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Quantization",
+        "PTQ-Based Methods"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#ptq-based-methods",
+      "entries": 2
+    },
+    {
+      "id": "qat-based-methods",
+      "title": "QAT-Based Methods",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parameter Quantization",
+        "QAT-Based Methods"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#qat-based-methods",
+      "entries": 3
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--parallel-lora-computing-frameworks",
+      "title": "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parallel LoRA Computing Frameworks",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parallel LoRA Computing Frameworks"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--parallel-lora-computing-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "parallel-fine-tuning",
+      "title": "Parallel Fine-tuning",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parallel LoRA Computing Frameworks",
+        "Parallel Fine-tuning"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#parallel-fine-tuning",
+      "entries": 1
+    },
+    {
+      "id": "parallel-inference",
+      "title": "Parallel Inference",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Efficiency Improving",
+        "<img src=\".\\fig\\star.svg\" width=\"15\" height=\"15\" /> Parallel LoRA Computing Frameworks",
+        "Parallel Inference"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#parallel-inference",
+      "entries": 3
+    },
+    {
+      "id": "lora-for-federated-learning",
+      "title": "LoRA for Federated Learning",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "LoRA for Federated Learning"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#lora-for-federated-learning",
+      "entries": 0
+    },
+    {
+      "id": "data-heterogeneity",
+      "title": "Data Heterogeneity",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "LoRA for Federated Learning",
+        "Data Heterogeneity"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#data-heterogeneity",
+      "entries": 3
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--device-heterogeneity",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Device Heterogeneity",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "LoRA for Federated Learning",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Device Heterogeneity"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--device-heterogeneity",
+      "entries": 4
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--model-heterogeneity",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Model Heterogeneity",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "LoRA for Federated Learning",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Model Heterogeneity"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--model-heterogeneity",
+      "entries": 1
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--parameter-privacy",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Parameter Privacy",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "LoRA for Federated Learning",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Parameter Privacy"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--parameter-privacy",
+      "entries": 2
+    },
+    {
+      "id": "applications-of-lora",
+      "title": "Applications of LoRA",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#applications-of-lora",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--language-tasks",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Language Tasks",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Language Tasks"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--language-tasks",
+      "entries": 0
+    },
+    {
+      "id": "traditional-nlp-task",
+      "title": "Traditional NLP Task",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Language Tasks",
+        "Traditional NLP Task"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#traditional-nlp-task",
+      "entries": 9
+    },
+    {
+      "id": "code-task",
+      "title": "Code Task",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Language Tasks",
+        "Code Task"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#code-task",
+      "entries": 6
+    },
+    {
+      "id": "model-alignment-task",
+      "title": "Model Alignment Task",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Language Tasks",
+        "Model Alignment Task"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#model-alignment-task",
+      "entries": 8
+    },
+    {
+      "id": "vertical-domain-task",
+      "title": "Vertical Domain Task",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Language Tasks",
+        "Vertical Domain Task"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#vertical-domain-task",
+      "entries": 12
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--vision-tasks",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Vision Tasks",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Vision Tasks"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--vision-tasks",
+      "entries": 0
+    },
+    {
+      "id": "image-generation-tasks",
+      "title": "Image Generation Tasks",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Vision Tasks",
+        "Image Generation Tasks"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#image-generation-tasks",
+      "entries": 29
+    },
+    {
+      "id": "image-segmentation-task",
+      "title": "Image Segmentation Task",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Vision Tasks",
+        "Image Segmentation Task"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#image-segmentation-task",
+      "entries": 9
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--multimodal-tasks",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Multimodal Tasks",
+      "level": 3,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Multimodal Tasks"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#img-srcfigstarsvg-width15-height15--multimodal-tasks",
+      "entries": 0
+    },
+    {
+      "id": "audio-text",
+      "title": "Audio-Text",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Multimodal Tasks",
+        "Audio-Text"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#audio-text",
+      "entries": 1
+    },
+    {
+      "id": "image-text",
+      "title": "Image-Text",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Multimodal Tasks",
+        "Image-Text"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#image-text",
+      "entries": 3
+    },
+    {
+      "id": "video-text",
+      "title": "Video-Text",
+      "level": 4,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Applications of LoRA",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Multimodal Tasks",
+        "Video-Text"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#video-text",
+      "entries": 3
+    },
+    {
+      "id": "contribution",
+      "title": "Contribution",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Contribution"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#contribution",
+      "entries": 0
+    },
+    {
+      "id": "citations",
+      "title": "Citations",
+      "level": 2,
+      "path": [
+        "A Survey on LoRA of Large Language Models",
+        "Citations"
+      ],
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#citations",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "category": "low-rank-adaptation",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2210.05643",
+      "category": "img-srcfigstarsvg-width15-height15--theoretical-analysis",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.15415",
+      "category": "img-srcfigstarsvg-width15-height15--theoretical-analysis",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.11867",
+      "category": "img-srcfigstarsvg-width15-height15--theoretical-analysis",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.16842",
+      "category": "img-srcfigstarsvg-width15-height15--theoretical-analysis",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.17513",
+      "category": "img-srcfigstarsvg-width15-height15--theoretical-analysis",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2307.05695",
+      "category": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2405.12130",
+      "category": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.16828",
+      "category": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.00228",
+      "category": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.11530",
+      "category": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.18865",
+      "category": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2309.12307",
+      "category": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.05678",
+      "category": "img-srcfigstarsvg-width15-height15--beyond-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2308.11730",
+      "category": "stacking-loras-along-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2307.05695",
+      "category": "stacking-loras-along-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.04151",
+      "category": "stacking-loras-along-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.17263",
+      "category": "stacking-loras-along-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.03293",
+      "category": "updating-as-gradient-compressor",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2309.02411",
+      "category": "co-learning-llm-and-lora",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2303.10512",
+      "category": "svd-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.mdpi.com/2227-7390/11/20/4317",
+      "category": "svd-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2308.12043",
+      "category": "svd-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2405.17357",
+      "category": "srd-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.09113",
+      "category": "srd-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.11696",
+      "category": "srd-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.16187",
+      "category": "srd-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2210.07558",
+      "category": "rank-sampling-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.08447",
+      "category": "initialization-improvement",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.02948",
+      "category": "initialization-improvement",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.09044",
+      "category": "initialization-improvement",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.11909",
+      "category": "initialization-improvement",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.02347",
+      "category": "gradient-update-optimization",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.12354",
+      "category": "gradient-update-optimization",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.18039",
+      "category": "gradient-update-optimization",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.11896",
+      "category": "gradient-update-optimization",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.13037",
+      "category": "overfitting-mitigation",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.09610",
+      "category": "overfitting-mitigation",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.00812",
+      "category": "overfitting-mitigation",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2308.13111",
+      "category": "img-srcfigstarsvg-width15-height15--combining-with-other-learning-paradigms",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.05621",
+      "category": "img-srcfigstarsvg-width15-height15--combining-with-other-learning-paradigms",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.01165",
+      "category": "img-srcfigstarsvg-width15-height15--combining-with-other-learning-paradigms",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.00035",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-manually-designed-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.09997",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-manually-designed-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.10847",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-manually-designed-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.01886",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-manually-designed-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/299a08ee712d4752c890938da99a77c6-Abstract-Conference.html",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-manually-designed-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.02428",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-manually-designed-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2307.13269",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-learnt-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.13171",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-learnt-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.04742",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-learnt-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.15896",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-learnt-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://pubs.aip.org/aip/aml/article/2/2/026119/3294581",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-with-learnt-weights",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.11260",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.09979",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.12379",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.18339",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2024.lrec-main.994/",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.11501",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Multi-Task_Dense_Prediction_via_Mixture_of_Low-Rank_Experts_CVPR_2024_paper.html",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Agiza_MTLoRA_Low-Rank_Adaptation_Approach_for_Efficient_Multi-Task_Learning_CVPR_2024_paper.html",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.08562",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.16160",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.09179",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.02684",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.05677",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.18865",
+      "category": "img-srcfigstarsvg-width15-height15--mixture-of-lora-experts",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2403.08822",
+      "category": "parameter-freezing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2308.03303",
+      "category": "parameter-freezing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2403.13269",
+      "category": "parameter-freezing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2402.17812",
+      "category": "parameter-freezing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.17604",
+      "category": "parameter-freezing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.01886",
+      "category": "parameter-freezing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2402.07721",
+      "category": "parameter-pruning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2305.18403",
+      "category": "parameter-pruning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.18356",
+      "category": "parameter-pruning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2305.08285",
+      "category": "parameter-pruning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.11454",
+      "category": "parameter-sharing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.15179",
+      "category": "parameter-sharing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.03003",
+      "category": "parameter-sharing",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2305.14314",
+      "category": "ptq-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2309.14717",
+      "category": "ptq-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.08659",
+      "category": "qat-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2402.05147",
+      "category": "qat-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2402.04902",
+      "category": "qat-based-methods",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2312.02515",
+      "category": "parallel-fine-tuning",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.18547",
+      "category": "parallel-inference",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L401",
+      "line": 401,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2311.03285",
+      "category": "parallel-inference",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2401.11240",
+      "category": "parallel-inference",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2308.06522",
+      "category": "data-heterogeneity",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2404.18848",
+      "category": "data-heterogeneity",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2403.12313",
+      "category": "data-heterogeneity",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2312.15926",
+      "category": "img-srcfigstarsvg-width15-height15--device-heterogeneity",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L425",
+      "line": 425,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2402.11505",
+      "category": "img-srcfigstarsvg-width15-height15--device-heterogeneity",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2402.11505",
+      "category": "img-srcfigstarsvg-width15-height15--device-heterogeneity",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/pdf?id=EmV9sGpZ7q",
+      "category": "img-srcfigstarsvg-width15-height15--device-heterogeneity",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.13283",
+      "category": "img-srcfigstarsvg-width15-height15--model-heterogeneity",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2401.09796",
+      "category": "img-srcfigstarsvg-width15-height15--parameter-privacy",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2311.14030",
+      "category": "img-srcfigstarsvg-width15-height15--parameter-privacy",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.11374v4",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.01208v1",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.10083v2",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L462",
+      "line": 462,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2308.10252v1",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.13448v1",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2402.15061v1",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2402.13929v3",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L474",
+      "line": 474,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.06208v1",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2202.09817",
+      "category": "traditional-nlp-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L480",
+      "line": 480,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.06247",
+      "category": "code-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L485",
+      "line": 485,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.11158",
+      "category": "code-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L488",
+      "line": 488,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2212.05901",
+      "category": "code-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.15698",
+      "category": "code-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L494",
+      "line": 494,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.12379",
+      "category": "code-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L497",
+      "line": 497,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.15539v2",
+      "category": "code-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L500",
+      "line": 500,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.10704v1",
+      "category": "model-alignment-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2309.00754v1",
+      "category": "model-alignment-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L508",
+      "line": 508,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2309.09055v1",
+      "category": "model-alignment-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.01197v1",
+      "category": "model-alignment-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L514",
+      "line": 514,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2401.16635v1",
+      "category": "model-alignment-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L517",
+      "line": 517,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2401.00243v1",
+      "category": "model-alignment-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L520",
+      "line": 520,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2402.13210v1",
+      "category": "model-alignment-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2308.13111v5",
+      "category": "model-alignment-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L526",
+      "line": 526,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.19975v2",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L531",
+      "line": 531,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2307.03042",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L534",
+      "line": 534,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2305.12031v2",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2307.05162v1",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2401.17602v1",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L544",
+      "line": 544,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2307.10512v1",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L547",
+      "line": 547,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2312.06974v1",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.12285v1",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L553",
+      "line": 553,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2308.13032v2",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L556",
+      "line": 556,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2307.10485v2",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L559",
+      "line": 559,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-31018-5",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L562",
+      "line": 562,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://link.springer.com/article/10.1007/s41019-023-00235-6",
+      "category": "vertical-domain-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L565",
+      "line": 565,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.18461v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L572",
+      "line": 572,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.14572v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L575",
+      "line": 575,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2308.14256v2",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L578",
+      "line": 578,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2305.19124v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L581",
+      "line": 581,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2312.03993v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L584",
+      "line": 584,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.07500v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L587",
+      "line": 587,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.10983v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L590",
+      "line": 590,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2311.00339v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L593",
+      "line": 593,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2305.11067v2",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L596",
+      "line": 596,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.18840v2",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L599",
+      "line": 599,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2312.04410v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L602",
+      "line": 602,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.02084v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L606",
+      "line": 606,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2311.18763v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L609",
+      "line": 609,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2311.17946v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L612",
+      "line": 612,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2309.01770v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L615",
+      "line": 615,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2305.18292v2",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L618",
+      "line": 618,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2311.05556v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L621",
+      "line": 621,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2312.06899v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L624",
+      "line": 624,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2402.14780v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L627",
+      "line": 627,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2312.02216v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L630",
+      "line": 630,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2306.07954v2",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L633",
+      "line": 633,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2308.00135v3",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L636",
+      "line": 636,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2311.15127v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L639",
+      "line": 639,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2307.04725v2",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L642",
+      "line": 642,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2312.06439v2",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L645",
+      "line": 645,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2312.00085v2",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L648",
+      "line": 648,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2311.13617v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L651",
+      "line": 651,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2311.16739v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L654",
+      "line": 654,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.02217v1",
+      "category": "image-generation-tasks",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L658",
+      "line": 658,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2401.06374v1",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L663",
+      "line": 663,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2401.15266v2",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L667",
+      "line": 667,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2401.13220v1",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L670",
+      "line": 670,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.07183v2",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2308.14133v1",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L677",
+      "line": 677,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2304.13785v2",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L680",
+      "line": 680,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2308.07156v1",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L683",
+      "line": 683,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.05231v1",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L686",
+      "line": 686,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2303.00917v2",
+      "category": "image-segmentation-task",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L689",
+      "line": 689,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.09424v1",
+      "category": "audio-text",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L696",
+      "line": 696,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2401.16420v1",
+      "category": "image-text",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L701",
+      "line": 701,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2304.14178v2",
+      "category": "image-text",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L704",
+      "line": 704,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2402.11248v2",
+      "category": "image-text",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L707",
+      "line": 707,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2402.15151v1",
+      "category": "video-text",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L712",
+      "line": 712,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2310.12798v4",
+      "category": "video-text",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L716",
+      "line": 716,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "http://arxiv.org/abs/2403.02221v2",
+      "category": "video-text",
+      "source_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/blob/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635/README.md#L719",
+      "line": 719,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 179,
+  "unique_links": 176,
+  "category_count": 36,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "A11en0",
+      "url": "https://github.com/A11en0",
+      "contributions": 13
+    },
+    {
+      "login": "lucky-star-king",
+      "url": "https://github.com/lucky-star-king",
+      "contributions": 8
+    },
+    {
+      "login": "iynews",
+      "url": "https://github.com/iynews",
+      "contributions": 3
+    },
+    {
+      "login": "BlackWaterDrop",
+      "url": "https://github.com/BlackWaterDrop",
+      "contributions": 2
+    },
+    {
+      "login": "ZJU-LLMs",
+      "url": "https://github.com/ZJU-LLMs",
+      "contributions": 2
+    },
+    {
+      "login": "Miiyuu",
+      "url": "https://github.com/Miiyuu",
+      "contributions": 1
+    },
+    {
+      "login": "wenyisir",
+      "url": "https://github.com/wenyisir",
+      "contributions": 1
+    },
+    {
+      "login": "wutaiqiang",
+      "url": "https://github.com/wutaiqiang",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 32,
+    "has_more": false,
+    "path_commit_count": 32,
+    "public_contributors": 8,
+    "observed_at": "2026-09-03T17:54:06.076487+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by ZJU-LLMs/Awesome-LoRAs contributors.",
+  "license": null,
+  "license_url": "https://github.com/ZJU-LLMs/Awesome-LoRAs/tree/8e74e54dc4d75bb84c37c654dc7e3c3a3b895635",
+  "digest": "bcdfb802ec8fe06e114a88bf911da7713bb3ea22c9f92e1379ca21ba7217974c"
+}

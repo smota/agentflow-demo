@@ -1,0 +1,445 @@
+{
+  "format_version": 3,
+  "repository_id": "1206178559",
+  "name": "lirantal/pypi-security-best-practices",
+  "revision": "252af6a8eddd2cbc45b7cc60fd478666c3236499",
+  "readme_path": "README.md",
+  "readme_sha256": "6b1c85760806bb81686c167e79f89cd4091fb9dfeed2cf63e24929cbde9b374b",
+  "sections": [
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "1-prefer-binary-only-installs",
+      "title": "1. Prefer Binary-Only Installs",
+      "level": 2,
+      "path": [
+        "1. Prefer Binary-Only Installs"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#1-prefer-binary-only-installs",
+      "entries": 0
+    },
+    {
+      "id": "2-install-with-cooldown",
+      "title": "2. Install with Cooldown",
+      "level": 2,
+      "path": [
+        "2. Install with Cooldown"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#2-install-with-cooldown",
+      "entries": 0
+    },
+    {
+      "id": "21-uv-exclude-newer-cooldown",
+      "title": "2.1. uv exclude-newer cooldown",
+      "level": 3,
+      "path": [
+        "2. Install with Cooldown",
+        "2.1. uv exclude-newer cooldown"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#21-uv-exclude-newer-cooldown",
+      "entries": 0
+    },
+    {
+      "id": "22-pip-uploaded-prior-to-cooldown",
+      "title": "2.2. pip uploaded-prior-to cooldown",
+      "level": 3,
+      "path": [
+        "2. Install with Cooldown",
+        "2.2. pip uploaded-prior-to cooldown"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#22-pip-uploaded-prior-to-cooldown",
+      "entries": 0
+    },
+    {
+      "id": "23-dependabot-and-renovate-cooldowns",
+      "title": "2.3. Dependabot and Renovate cooldowns",
+      "level": 3,
+      "path": [
+        "2. Install with Cooldown",
+        "2.3. Dependabot and Renovate cooldowns"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#23-dependabot-and-renovate-cooldowns",
+      "entries": 0
+    },
+    {
+      "id": "3-pin-dependencies-with-hash-verification",
+      "title": "3. Pin Dependencies with Hash Verification",
+      "level": 2,
+      "path": [
+        "3. Pin Dependencies with Hash Verification"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#3-pin-dependencies-with-hash-verification",
+      "entries": 0
+    },
+    {
+      "id": "31-uv-lockfile-hash-verification",
+      "title": "3.1. uv lockfile hash verification",
+      "level": 3,
+      "path": [
+        "3. Pin Dependencies with Hash Verification",
+        "3.1. uv lockfile hash verification"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#31-uv-lockfile-hash-verification",
+      "entries": 0
+    },
+    {
+      "id": "32-pip-require-hashes-verification",
+      "title": "3.2. pip require-hashes verification",
+      "level": 3,
+      "path": [
+        "3. Pin Dependencies with Hash Verification",
+        "3.2. pip require-hashes verification"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#32-pip-require-hashes-verification",
+      "entries": 0
+    },
+    {
+      "id": "4-use-deterministic-installations",
+      "title": "4. Use Deterministic Installations",
+      "level": 2,
+      "path": [
+        "4. Use Deterministic Installations"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#4-use-deterministic-installations",
+      "entries": 0
+    },
+    {
+      "id": "lockfile-management-best-practices",
+      "title": "Lockfile management best practices",
+      "level": 3,
+      "path": [
+        "4. Use Deterministic Installations",
+        "Lockfile management best practices"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#lockfile-management-best-practices",
+      "entries": 1
+    },
+    {
+      "id": "5-prevent-dependency-confusion",
+      "title": "5. Prevent Dependency Confusion",
+      "level": 2,
+      "path": [
+        "5. Prevent Dependency Confusion"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#5-prevent-dependency-confusion",
+      "entries": 0
+    },
+    {
+      "id": "6-scan-for-known-vulnerabilities",
+      "title": "6. Scan for Known Vulnerabilities",
+      "level": 2,
+      "path": [
+        "6. Scan for Known Vulnerabilities"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#6-scan-for-known-vulnerabilities",
+      "entries": 0
+    },
+    {
+      "id": "61-pip-audit-for-vulnerability-scanning",
+      "title": "6.1. pip-audit for vulnerability scanning",
+      "level": 3,
+      "path": [
+        "6. Scan for Known Vulnerabilities",
+        "6.1. pip-audit for vulnerability scanning"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#61-pip-audit-for-vulnerability-scanning",
+      "entries": 0
+    },
+    {
+      "id": "62-uv-secure-for-lockfile-scanning",
+      "title": "6.2. uv-secure for lockfile scanning",
+      "level": 3,
+      "path": [
+        "6. Scan for Known Vulnerabilities",
+        "6.2. uv-secure for lockfile scanning"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#62-uv-secure-for-lockfile-scanning",
+      "entries": 0
+    },
+    {
+      "id": "7-harden-package-installs-with-security-tools",
+      "title": "7. Harden Package Installs with Security Tools",
+      "level": 2,
+      "path": [
+        "7. Harden Package Installs with Security Tools"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#7-harden-package-installs-with-security-tools",
+      "entries": 0
+    },
+    {
+      "id": "what-socket-firewall-checks",
+      "title": "What Socket Firewall checks",
+      "level": 4,
+      "path": [
+        "7. Harden Package Installs with Security Tools",
+        "What Socket Firewall checks"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#what-socket-firewall-checks",
+      "entries": 0
+    },
+    {
+      "id": "report-suspicious-packages",
+      "title": "Report suspicious packages",
+      "level": 3,
+      "path": [
+        "7. Harden Package Installs with Security Tools",
+        "Report suspicious packages"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#report-suspicious-packages",
+      "entries": 0
+    },
+    {
+      "id": "8-no-plaintext-secrets-in-env-files",
+      "title": "8. No Plaintext Secrets in .env Files",
+      "level": 2,
+      "path": [
+        "8. No Plaintext Secrets in .env Files"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#8-no-plaintext-secrets-in-env-files",
+      "entries": 0
+    },
+    {
+      "id": "follow-up-secure-secrets-resources",
+      "title": "Follow-up secure secrets resources",
+      "level": 3,
+      "path": [
+        "8. No Plaintext Secrets in .env Files",
+        "Follow-up secure secrets resources"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#follow-up-secure-secrets-resources",
+      "entries": 2
+    },
+    {
+      "id": "9-work-in-dev-containers",
+      "title": "9. Work in Dev Containers",
+      "level": 2,
+      "path": [
+        "9. Work in Dev Containers"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#9-work-in-dev-containers",
+      "entries": 0
+    },
+    {
+      "id": "follow-up-resources",
+      "title": "Follow-up resources",
+      "level": 3,
+      "path": [
+        "9. Work in Dev Containers",
+        "Follow-up resources"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#follow-up-resources",
+      "entries": 0
+    },
+    {
+      "id": "10-enable-2fa-for-pypi-accounts",
+      "title": "10. Enable 2FA for PyPI Accounts",
+      "level": 2,
+      "path": [
+        "10. Enable 2FA for PyPI Accounts"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#10-enable-2fa-for-pypi-accounts",
+      "entries": 1
+    },
+    {
+      "id": "11-publish-with-trusted-publishing-oidc",
+      "title": "11. Publish with Trusted Publishing (OIDC)",
+      "level": 2,
+      "path": [
+        "11. Publish with Trusted Publishing (OIDC)"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#11-publish-with-trusted-publishing-oidc",
+      "entries": 1
+    },
+    {
+      "id": "security-considerations-for-trusted-publishing",
+      "title": "Security considerations for Trusted Publishing",
+      "level": 3,
+      "path": [
+        "11. Publish with Trusted Publishing (OIDC)",
+        "Security considerations for Trusted Publishing"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#security-considerations-for-trusted-publishing",
+      "entries": 0
+    },
+    {
+      "id": "12-publish-with-package-attestations",
+      "title": "12. Publish with Package Attestations",
+      "level": 2,
+      "path": [
+        "12. Publish with Package Attestations"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#12-publish-with-package-attestations",
+      "entries": 0
+    },
+    {
+      "id": "13-secure-your-cicd-release-pipeline",
+      "title": "13. Secure Your CI/CD Release Pipeline",
+      "level": 2,
+      "path": [
+        "13. Secure Your CI/CD Release Pipeline"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#13-secure-your-cicd-release-pipeline",
+      "entries": 0
+    },
+    {
+      "id": "additional-cicd-hardening-measures",
+      "title": "Additional CI/CD hardening measures",
+      "level": 3,
+      "path": [
+        "13. Secure Your CI/CD Release Pipeline",
+        "Additional CI/CD hardening measures"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#additional-cicd-hardening-measures",
+      "entries": 0
+    },
+    {
+      "id": "14-reduce-your-package-dependency-tree",
+      "title": "14. Reduce Your Package Dependency Tree",
+      "level": 2,
+      "path": [
+        "14. Reduce Your Package Dependency Tree"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#14-reduce-your-package-dependency-tree",
+      "entries": 0
+    },
+    {
+      "id": "15-generate-and-track-sboms",
+      "title": "15. Generate and Track SBOMs",
+      "level": 2,
+      "path": [
+        "15. Generate and Track SBOMs"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#15-generate-and-track-sboms",
+      "entries": 0
+    },
+    {
+      "id": "16-consult-vulnerability-databases-for-package-health",
+      "title": "16. Consult Vulnerability Databases for Package Health",
+      "level": 2,
+      "path": [
+        "16. Consult Vulnerability Databases for Package Health"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#16-consult-vulnerability-databases-for-package-health",
+      "entries": 0
+    },
+    {
+      "id": "17-verify-published-package-contents",
+      "title": "17. Verify Published Package Contents",
+      "level": 2,
+      "path": [
+        "17. Verify Published Package Contents"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#17-verify-published-package-contents",
+      "entries": 0
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "author",
+      "title": "Author",
+      "level": 2,
+      "path": [
+        "Author"
+      ],
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#author",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "PEP 751",
+      "url": "https://peps.python.org/pep-0751/",
+      "category": "lockfile-management-best-practices",
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "Secrets Automation with 1Password CLI",
+      "url": "https://developer.1password.com/docs/cli/get-started/",
+      "category": "follow-up-secure-secrets-resources",
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "Getting Started with Infisical CLI",
+      "url": "https://infisical.com/blog/stop-using-env-files",
+      "category": "follow-up-secure-secrets-resources",
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "PyPI",
+      "url": "https://pypi.org/manage/account/",
+      "category": "10-enable-2fa-for-pypi-accounts",
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#L584",
+      "line": 584,
+      "properties": {}
+    },
+    {
+      "title": "pypi.org",
+      "url": "https://pypi.org/",
+      "category": "11-publish-with-trusted-publishing-oidc",
+      "source_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/README.md#L609",
+      "line": 609,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 5,
+  "unique_links": 5,
+  "category_count": 4,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "lirantal",
+      "url": "https://github.com/lirantal",
+      "contributions": 9
+    },
+    {
+      "login": "joaopalmeiro",
+      "url": "https://github.com/joaopalmeiro",
+      "contributions": 1
+    },
+    {
+      "login": "oskarols",
+      "url": "https://github.com/oskarols",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 11,
+    "has_more": false,
+    "path_commit_count": 11,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:59:21.489628+00:00"
+  },
+  "contributing_url": "https://github.com/lirantal/pypi-security-best-practices/blob/252af6a8eddd2cbc45b7cc60fd478666c3236499/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by lirantal/pypi-security-best-practices contributors.",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/lirantal/pypi-security-best-practices/tree/252af6a8eddd2cbc45b7cc60fd478666c3236499",
+  "digest": "c70b68c401f39bb6db2b2f07c39ce334b6fcb073ed98a57b6f4b26faca542ee5"
+}
