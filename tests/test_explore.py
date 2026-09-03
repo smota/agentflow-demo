@@ -6,7 +6,7 @@ import pytest
 from streamlit.testing.v1 import AppTest
 from awesome.catalogue import digest
 from awesome.explore import DEFAULTS, normalize, filtered, page_slice, share_url, content_filter
-from awesome.lists import parse_readme, profile
+from awesome.lists import FORMAT, parse_readme, profile
 from tests.test_lists import MD, meta
 
 
@@ -19,7 +19,7 @@ def fixture_index():
         parsed = parse_readme(MD, source["name"], source["revision"])
         item, detail = profile(source, parsed, MD)
         records.append(item); details[item["detail"]] = detail
-    index = {"format_version": 2, "min_stars": 100, "lists": records,
+    index = {"format_version": FORMAT, "min_stars": 100, "lists": records,
              "counts": {"eligible": 15}, "generated_at": "2026-09-03T00:00:00Z",
              "coverage": {"scope": "Fixture observations, not a census", "enrichment_pending": 0, "queued_partitions": 0}}
     index["digest"] = digest(index)
@@ -65,7 +65,7 @@ def preview(tmp_path, monkeypatch):
     (directory / "lists").mkdir()
     (directory / "list-index.json").write_text(json.dumps(index), encoding="utf-8")
     for path, detail in details.items(): (directory / path).write_text(json.dumps(detail), encoding="utf-8")
-    (tmp_path / "package.json").write_text('{"version":"2.0.0-alpha.1"}')
+    (tmp_path / "package.json").write_text('{"version":"2.0.0-alpha.2"}')
     monkeypatch.delenv("GH_TOKEN", raising=False); monkeypatch.delenv("GITHUB_TOKEN", raising=False)
     def denied(*args, **kwargs): raise AssertionError("Hosted UI attempted networking")
     monkeypatch.setattr(socket.socket, "connect", denied)

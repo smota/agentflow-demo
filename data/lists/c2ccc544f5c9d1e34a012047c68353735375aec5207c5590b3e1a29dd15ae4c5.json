@@ -1,0 +1,1453 @@
+{
+  "format_version": 3,
+  "repository_id": "777737317",
+  "name": "and-mill/Awesome-GenAI-Watermarking",
+  "revision": "ae97862c403c2f4a667b217d3b4453cd47ecfab0",
+  "readme_path": "README.md",
+  "readme_sha256": "91215d2864aa5877a9b430dd303940b15f9959cf9f8c28a3916cc3c2fbb380ce",
+  "sections": [
+    {
+      "id": "awesome-genai-watermarking",
+      "title": "Awesome-GenAI-Watermarking",
+      "level": 1,
+      "path": [
+        "Awesome-GenAI-Watermarking"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#awesome-genai-watermarking",
+      "entries": 0
+    },
+    {
+      "id": "1-introduction",
+      "title": "1. Introduction",
+      "level": 1,
+      "path": [
+        "1. Introduction"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#1-introduction",
+      "entries": 0
+    },
+    {
+      "id": "11-watermarking-goals",
+      "title": "1.1 Watermarking Goals",
+      "level": 2,
+      "path": [
+        "1. Introduction",
+        "1.1 Watermarking Goals"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#11-watermarking-goals",
+      "entries": 1
+    },
+    {
+      "id": "12-differences-between-watermarking-schemes",
+      "title": "1.2 Differences Between Watermarking Schemes",
+      "level": 2,
+      "path": [
+        "1. Introduction",
+        "1.2 Differences Between Watermarking Schemes"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#12-differences-between-watermarking-schemes",
+      "entries": 7
+    },
+    {
+      "id": "13-what-information-is-transported-by-the-watermark",
+      "title": "1.3 What Information is Transported by the Watermark?",
+      "level": 2,
+      "path": [
+        "1. Introduction",
+        "1.3 What Information is Transported by the Watermark?"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#13-what-information-is-transported-by-the-watermark",
+      "entries": 0
+    },
+    {
+      "id": "14-attacks-on-watermarking",
+      "title": "1.4 Attacks on Watermarking",
+      "level": 2,
+      "path": [
+        "1. Introduction",
+        "1.4 Attacks on Watermarking"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#14-attacks-on-watermarking",
+      "entries": 3
+    },
+    {
+      "id": "threat-models",
+      "title": "Threat models",
+      "level": 3,
+      "path": [
+        "1. Introduction",
+        "1.4 Attacks on Watermarking",
+        "Threat models"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#threat-models",
+      "entries": 0
+    },
+    {
+      "id": "difference-between-watermarking-and-cryptography",
+      "title": "Difference between Watermarking and Cryptography",
+      "level": 3,
+      "path": [
+        "1. Introduction",
+        "1.4 Attacks on Watermarking",
+        "Difference between Watermarking and Cryptography"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#difference-between-watermarking-and-cryptography",
+      "entries": 1
+    },
+    {
+      "id": "2-image-domain",
+      "title": "2. Image Domain",
+      "level": 1,
+      "path": [
+        "2. Image Domain"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#2-image-domain",
+      "entries": 0
+    },
+    {
+      "id": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "title": "2.1 Papers on Watermarking Diffusion Models (outputs) (Image)",
+      "level": 2,
+      "path": [
+        "2. Image Domain",
+        "2.1 Papers on Watermarking Diffusion Models (outputs) (Image)"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#21-papers-on-watermarking-diffusion-models-outputs-image",
+      "entries": 22
+    },
+    {
+      "id": "22-watermarks-to-guide-other-objectives",
+      "title": "2.2 Watermarks to Guide Other Objectives",
+      "level": 2,
+      "path": [
+        "2. Image Domain",
+        "2.2 Watermarks to Guide Other Objectives"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#22-watermarks-to-guide-other-objectives",
+      "entries": 3
+    },
+    {
+      "id": "23-hardware-assisted-watermarking",
+      "title": "2.3 Hardware-Assisted Watermarking",
+      "level": 2,
+      "path": [
+        "2. Image Domain",
+        "2.3 Hardware-Assisted Watermarking"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#23-hardware-assisted-watermarking",
+      "entries": 1
+    },
+    {
+      "id": "24-misc-papers-to-be-categorized",
+      "title": "2.4 Misc Papers (to be categorized...)",
+      "level": 2,
+      "path": [
+        "2. Image Domain",
+        "2.4 Misc Papers (to be categorized...)"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#24-misc-papers-to-be-categorized",
+      "entries": 35
+    },
+    {
+      "id": "3-audio-domain",
+      "title": "3. Audio Domain",
+      "level": 1,
+      "path": [
+        "3. Audio Domain"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#3-audio-domain",
+      "entries": 0
+    },
+    {
+      "id": "31-papers-on-watermarking-audio",
+      "title": "3.1 Papers on Watermarking (Audio)",
+      "level": 2,
+      "path": [
+        "3. Audio Domain",
+        "3.1 Papers on Watermarking (Audio)"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#31-papers-on-watermarking-audio",
+      "entries": 13
+    },
+    {
+      "id": "32-audio-synthesis-datasets",
+      "title": "3.2 Audio Synthesis Datasets",
+      "level": 2,
+      "path": [
+        "3. Audio Domain",
+        "3.2 Audio Synthesis Datasets"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#32-audio-synthesis-datasets",
+      "entries": 3
+    },
+    {
+      "id": "33-news-on-audio-watermarking",
+      "title": "3.3 News on Audio Watermarking",
+      "level": 2,
+      "path": [
+        "3. Audio Domain",
+        "3.3 News on Audio Watermarking"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#33-news-on-audio-watermarking",
+      "entries": 1
+    },
+    {
+      "id": "34-further-links-on-audio-synthesis-and-detection",
+      "title": "3.4 Further Links on Audio Synthesis and Detection",
+      "level": 2,
+      "path": [
+        "3. Audio Domain",
+        "3.4 Further Links on Audio Synthesis and Detection"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#34-further-links-on-audio-synthesis-and-detection",
+      "entries": 10
+    },
+    {
+      "id": "4-text-domain",
+      "title": "4. Text Domain",
+      "level": 1,
+      "path": [
+        "4. Text Domain"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#4-text-domain",
+      "entries": 8
+    },
+    {
+      "id": "5-related-news",
+      "title": "5. Related News",
+      "level": 1,
+      "path": [
+        "5. Related News"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#5-related-news",
+      "entries": 14
+    },
+    {
+      "id": "6-generative-model-stealing-papers",
+      "title": "6. Generative Model stealing Papers",
+      "level": 1,
+      "path": [
+        "6. Generative Model stealing Papers"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#6-generative-model-stealing-papers",
+      "entries": 3
+    },
+    {
+      "id": "7-survey-papers",
+      "title": "7. Survey Papers",
+      "level": 1,
+      "path": [
+        "7. Survey Papers"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#7-survey-papers",
+      "entries": 7
+    },
+    {
+      "id": "71-a-systematic-review-on-model-watermarking-for-neural-networks",
+      "title": "7.1 A Systematic Review on Model Watermarking for Neural Networks",
+      "level": 2,
+      "path": [
+        "7. Survey Papers",
+        "7.1 A Systematic Review on Model Watermarking for Neural Networks"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#71-a-systematic-review-on-model-watermarking-for-neural-networks",
+      "entries": 0
+    },
+    {
+      "id": "taxonomy",
+      "title": "Taxonomy",
+      "level": 3,
+      "path": [
+        "7. Survey Papers",
+        "7.1 A Systematic Review on Model Watermarking for Neural Networks",
+        "Taxonomy"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#taxonomy",
+      "entries": 0
+    },
+    {
+      "id": "requirements--security-goals",
+      "title": "Requirements & Security Goals",
+      "level": 3,
+      "path": [
+        "7. Survey Papers",
+        "7.1 A Systematic Review on Model Watermarking for Neural Networks",
+        "Requirements & Security Goals"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#requirements--security-goals",
+      "entries": 0
+    },
+    {
+      "id": "threat-model",
+      "title": "Threat Model",
+      "level": 3,
+      "path": [
+        "7. Survey Papers",
+        "7.1 A Systematic Review on Model Watermarking for Neural Networks",
+        "Threat Model"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#threat-model",
+      "entries": 0
+    },
+    {
+      "id": "attacks-against-watermarking",
+      "title": "Attacks against Watermarking",
+      "level": 3,
+      "path": [
+        "7. Survey Papers",
+        "7.1 A Systematic Review on Model Watermarking for Neural Networks",
+        "Attacks against Watermarking"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#attacks-against-watermarking",
+      "entries": 0
+    },
+    {
+      "id": "categorizing-watermarking-methods",
+      "title": "Categorizing Watermarking Methods",
+      "level": 3,
+      "path": [
+        "7. Survey Papers",
+        "7.1 A Systematic Review on Model Watermarking for Neural Networks",
+        "Categorizing Watermarking Methods"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#categorizing-watermarking-methods",
+      "entries": 0
+    },
+    {
+      "id": "8-further-links",
+      "title": "8 Further Links",
+      "level": 1,
+      "path": [
+        "8 Further Links"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#8-further-links",
+      "entries": 0
+    },
+    {
+      "id": "practical-tools-for-text-watermark-checks",
+      "title": "Practical tools for text watermark checks",
+      "level": 3,
+      "path": [
+        "8 Further Links",
+        "Practical tools for text watermark checks"
+      ],
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#practical-tools-for-text-watermark-checks",
+      "entries": 1
+    }
+  ],
+  "entries": [
+    {
+      "title": "Self-Consuming Generative Models Go MAD",
+      "url": "https://openreview.net/forum?id=ShjMHfmPs0",
+      "category": "11-watermarking-goals",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "TrojDiff: Trojan Attacks on Diffusion Models with Diverse Targets",
+      "url": "https://arxiv.org/abs/2303.05762",
+      "category": "12-differences-between-watermarking-schemes",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "How to Backdoor Diffusion Models?",
+      "url": "https://arxiv.org/abs/2212.05400",
+      "category": "12-differences-between-watermarking-schemes",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Artificial Fingerprinting for Generative Models: Rooting Deepfake Attribution in Training Data",
+      "url": "https://ieeexplore.ieee.org/document/9711167",
+      "category": "12-differences-between-watermarking-schemes",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "The Stable Signature: Rooting Watermarks in Latent Diffusion Models",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Fernandez_The_Stable_Signature_Rooting_Watermarks_in_Latent_Diffusion_Models_ICCV_2023_paper.html",
+      "category": "12-differences-between-watermarking-schemes",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Artificial Fingerprinting for Generative Models: Rooting Deepfake Attribution in Training Data",
+      "url": "https://ieeexplore.ieee.org/document/9711167",
+      "category": "12-differences-between-watermarking-schemes",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "The Stable Signature: Rooting Watermarks in Latent Diffusion Models",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Fernandez_The_Stable_Signature_Rooting_Watermarks_in_Latent_Diffusion_Models_ICCV_2023_paper.html",
+      "category": "12-differences-between-watermarking-schemes",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Flexible and Secure Watermarking for Latent Diffusion Model",
+      "url": "https://dl.acm.org/doi/10.1145/3581783.3612448",
+      "category": "12-differences-between-watermarking-schemes",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Responsible Disclosure of Generative Models Using Scalable Fingerprinting",
+      "url": "https://openreview.net/forum?id=sOK-zS6WHB",
+      "category": "14-attacks-on-watermarking",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Robustness of AI-Image Detectors: Fundamental Limits and Practical Attacks",
+      "url": "https://openreview.net/forum?id=dLoAdIKENc&referrer=%5Bthe%20profile%20of%20Soheil%20Feizi%5D(%2Fprofile%3Fid%3D~Soheil_Feizi2)",
+      "category": "14-attacks-on-watermarking",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Robustness of AI-Image Detectors: Fundamental Limits and Practical Attacks",
+      "url": "https://openreview.net/forum?id=dLoAdIKENc&referrer=%5Bthe%20profile%20of%20Soheil%20Feizi%5D(%2Fprofile%3Fid%3D~Soheil_Feizi2)",
+      "category": "14-attacks-on-watermarking",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Watermarking is not Cryptography",
+      "url": "https://link.springer.com/chapter/10.1007/11922841_1#citeas",
+      "category": "difference-between-watermarking-and-cryptography",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Artificial Fingerprinting for Generative Models: Rooting Deepfake Attribution in Training Data",
+      "url": "https://ieeexplore.ieee.org/document/9711167",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "PTW: Pivotal Tuning Watermarking for Pre-Trained Image Generators",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/lukas",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "The Stable Signature: Rooting Watermarks in Latent Diffusion Models",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Fernandez_The_Stable_Signature_Rooting_Watermarks_in_Latent_Diffusion_Models_ICCV_2023_paper.html",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/pdf/2405.07145",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Flexible and Secure Watermarking for Latent Diffusion Model",
+      "url": "https://dl.acm.org/doi/10.1145/3581783.3612448",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2404.05607",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "WOUAF: Weight Modulation for User Attribution and Fingerprinting in Text-to-Image Diffusion Models",
+      "url": "https://openreview.net/forum?id=IMU-LkRKki&referrer=%5Bthe%20profile%20of%20Sheng%20Cheng%5D(%2Fprofile%3Fid%3D~Sheng_Cheng1)",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "RoSteALS: Robust Steganography using Autoencoder Latent Space",
+      "url": "https://ieeexplore.ieee.org/document/10208817",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models",
+      "url": "https://neurips.cc/virtual/2023/74895",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/yunqing-me/WatermarkDM.git",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2306.03436",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/zengxianyu/genwm",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2305.12502",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2309.05940",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2306.07754",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "OpenReview",
+      "url": "https://openreview.net/forum?id=xY4861TVUc",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Robustness of AI-Image Detectors: Fundamental Limits and Practical Attacks",
+      "url": "https://openreview.net/forum?id=dLoAdIKENc&referrer=%5Bthe%20profile%20of%20Soheil%20Feizi%5D(%2Fprofile%3Fid%3D~Soheil_Feizi2)",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2403.15365",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "EditGuard: Versatile Image Watermarking for Tamper Localization and Copyright Protection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_EditGuard_Versatile_Image_Watermarking_for_Tamper_Localization_and_Copyright_Protection_CVPR_2024_paper.pdf",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2404.00230",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2312.01284",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Robust Watermarking Using Generative Priors Against Image Editing: From Benchmarking to Advances",
+      "url": "https://openreview.net/forum?id=16O8GCm8Wn",
+      "category": "21-papers-on-watermarking-diffusion-models-outputs-image",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "StegaStamp: Invisible Hyperlinks in Physical Photographs",
+      "url": "https://ieeexplore.ieee.org/document/9156548",
+      "category": "22-watermarks-to-guide-other-objectives",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "ChartStamp: Robust Chart Embedding for Real-World Applications",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3503161.3548286",
+      "category": "22-watermarks-to-guide-other-objectives",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "Unadversarial Examples: Designing Objects for Robust Vision",
+      "url": "https://proceedings.neurips.cc/paper/2021/hash/816a6db41f0e44644bc65808b6db5ca4-Abstract.html",
+      "category": "22-watermarks-to-guide-other-objectives",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Robust ASIC-Based Image Authentication Using Reed-Solomon LSB Watermarking",
+      "url": "https://www.researchgate.net/publication/399723188_Robust_ASIC-Based_Image_Authentication_Using_Reed-Solomon_LSB_Watermarking_A_Hardware-Bound_Proof-of-Work_Approach",
+      "category": "23-hardware-assisted-watermarking",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/jeremyxianx/RAWatermark",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2403.12053",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://wavesbench.github.io/",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2406.08337",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2406.09026",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2403.15955",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "ProMark: Proactive Diffusion Watermarking for Causal Attribution",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Asnani_ProMark_Proactive_Diffusion_Watermarking_for_Causal_Attribution_CVPR_2024_paper.pdf",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Watermarking Images in Self-Supervised Latent Spaces",
+      "url": "https://ieeexplore.ieee.org/document/9746058",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Generative Autoencoders as Watermark Attackers: Analyses of Vulnerabilities and Threats",
+      "url": "https://openreview.net/forum?id=9xbArVQhnQ#all",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/XuandongZhao/WatermarkAttacker.git",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "WaterDiff: Perceptual Image Watermarks Via Diffusion Model",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10447095",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "Squint Hard Enough: Attacking Perceptual Hashing with Adversarial Machine Learning",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/prokos",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Evading Watermark based Detection of AI-Generated Content",
+      "url": "https://dl.acm.org/doi/10.1145/3576915.3623189",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "Diffusion Models for Adversarial Purification",
+      "url": "https://proceedings.mlr.press/v162/nie22a.html",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Flow-Based Robust Watermarking with Invertible Noise Layer for Black-Box Distortions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25633",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "HiDDeN: Hiding Data With Deep Networks",
+      "url": "https://dl.acm.org/doi/abs/10.1007/978-3-030-01267-0_40",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Glaze: Protecting artists from style mimicry by text-to-image models",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2308.09889",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Responsible Disclosure of Generative Models Using Scalable Fingerprinting",
+      "url": "https://openreview.net/forum?id=sOK-zS6WHB",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2008.09194",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Towards Blind Watermarking: Combining Invertible and Non-invertible Mechanisms",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3503161.3547950",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "DocDiff: Document Enhancement via Residual Diffusion Models",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3581783.3611730",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2310.07726",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Leveraging Optimization for Adaptive Attacks on Image Watermarks",
+      "url": "https://openreview.net/forum?id=O9PArxKLe1",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2311.13713",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2308.11123",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://wavesbench.github.io/",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "Free Fine-tuning: A Plug-and-Play Watermarking Scheme for Deep Neural Networks",
+      "url": "https://dl.acm.org/doi/10.1145/3581783.3612331",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "Adversarial Attack for Robust Watermark Protection Against Inpainting-based and Blind Watermark Removers",
+      "url": "https://dl.acm.org/doi/10.1145/3581783.3612034",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "A Novel Deep Video Watermarking Framework with Enhanced Robustness to H.264/AVC Compression",
+      "url": "https://dl.acm.org/doi/10.1145/3581783.3612270",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Practical Deep Dispersed Watermarking with Synchronization and Fusion",
+      "url": "https://dl.acm.org/doi/10.1145/3581783.3612015",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/HighwayWu/LASTED",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing the Robustness of Deep Learning Based Fingerprinting to Improve Deepfake Attribution",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3551626.3564981",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "You are caught stealing my winning lottery ticket! Making a lottery ticket claim its ownership",
+      "url": "https://proceedings.neurips.cc/paper/2021/hash/0dfd8a39e2a5dd536c185e19a804a73b-Abstract.html",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Self-Consuming Generative Models Go MAD",
+      "url": "https://openreview.net/forum?id=ShjMHfmPs0",
+      "category": "24-misc-papers-to-be-categorized",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/facebookresearch/audioseal?tab=readme-ov-file",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "MaskMark: Robust Neural Watermarking for Real and Synthetic Speech",
+      "url": "https://interactiveaudiolab.github.io/assets/papers/oreilly_jin_su_pardo_watermark.pdf",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2309.15224",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis",
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/c5d736809766d46260d816d8dbc9eb44-Abstract.html",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Spoofed Training Data for Speech Spoofing Countermeasure Can Be Efficiently Created Using Neural Vocoders",
+      "url": "https://ieeexplore.ieee.org/document/10094779",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "AudioQR: Deep Neural Audio Watermarks For QR Code",
+      "url": "https://www.ijcai.org/proceedings/2023/687",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Detecting Voice Cloning Attacks via Timbre Watermarking",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2024-200-paper.pdf",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "WMCodec: End-to-End Neural Speech Codec with Deep Watermarking for Authenticity Verification",
+      "url": "https://ieeexplore.ieee.org/document/10888430",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "WavMark: Watermarking for Audio Generation",
+      "url": "https://arxiv.org/abs/2308.12770",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Speech Watermarking with Discrete Intermediate Representations",
+      "url": "https://arxiv.org/abs/2412.13917",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "AudioMarkNet: Audio Watermarking for Deepfake Speech Detection",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-zong.pdf",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis",
+      "url": "https://dl.acm.org/doi/10.1145/3664647.3680596",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Poisoning The Diffusion: A Simple and Robust Watermarking Method for Audio Generation",
+      "url": "https://ieeexplore.ieee.org/document/10889187/",
+      "category": "31-papers-on-watermarking-audio",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "ASVspoof 2021 Challenge",
+      "url": "https://www.asvspoof.org/asvspoof2021/asvspoof2021_evaluation_plan.pdf",
+      "category": "32-audio-synthesis-datasets",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "ADD 2022: the first Audio Deep Synthesis Detection Challenge",
+      "url": "https://ieeexplore.ieee.org/document/9746939",
+      "category": "32-audio-synthesis-datasets",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-DeepFake-Learning",
+      "url": "https://github.com/Billy1900/Awesome-DeepFake-Learning",
+      "category": "32-audio-synthesis-datasets",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Introducing the watermark algorithm for synthetic voice identification",
+      "url": "https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/introducing-the-watermark-algorithm-for-synthetic-voice/ba-p/3298548",
+      "category": "33-news-on-audio-watermarking",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Github topics: Audio Synthesis",
+      "url": "https://github.com/topics/audio-synthesis",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "Github topic: Audio Deepfake Detection",
+      "url": "https://github.com/topics/audio-deepfake-detection",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Deepfakes Detection",
+      "url": "https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection?tab=readme-ov-file#spatiotemporal-based",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Awesome-DeepFake-Learning",
+      "url": "https://github.com/Billy1900/Awesome-DeepFake-Learning",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Stable Audio: Fast Timing-Conditioned Latent Audio Diffusion",
+      "url": "https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "VoiceBox",
+      "url": "https://voicebox.metademolab.com/",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Coqui-AI library",
+      "url": "https://github.com/coqui-ai/TTS",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "Mimic3",
+      "url": "https://github.com/MycroftAI/mimic3",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Amphion-AI",
+      "url": "https://github.com/open-mmlab/Amphion",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "Tortoise TTS",
+      "url": "https://github.com/neonbjb/tortoise-tts",
+      "category": "34-further-links-on-audio-synthesis-and-detection",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/hlzhang109/impossibility-watermark",
+      "category": "4-text-domain",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding",
+      "url": "https://ieeexplore.ieee.org/document/9519400",
+      "category": "4-text-domain",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Github Appendix",
+      "url": "https://github.com/boutiquelee/ACW",
+      "category": "4-text-domain",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2401.16820",
+      "category": "4-text-domain",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "Provable Robust Watermarking for AI-Generated Text",
+      "url": "https://openreview.net/forum?id=SsmT8aO45L",
+      "category": "4-text-domain",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Towards Codable Watermarking for Injecting Multi-Bits Information to LLMs",
+      "url": "https://openreview.net/forum?id=JYu5Flqm9D",
+      "category": "4-text-domain",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation",
+      "url": "https://arxiv.org/abs/2510.18019",
+      "category": "4-text-domain",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Watermarking Degrades Alignment in Language Models: Analysis and Mitigation",
+      "url": "https://arxiv.org/abs/2506.04462",
+      "category": "4-text-domain",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "Coalition for Content Provenance and Authenticity (C2PA)",
+      "url": "https://c2pa.org/",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "C2PA Specifications",
+      "url": "https://c2pa.org/specifications/specifications/1.3/index.html",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Explainer",
+      "url": "https://c2pa.org/specifications/specifications/1.2/explainer/Explainer.html",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "ISCC - Content Codes",
+      "url": "https://iscc.codes/",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "Open-source tools for content authenticity and provenance",
+      "url": "https://opensource.contentauthenticity.org/",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "C2PA Specifications",
+      "url": "https://c2pa.org/specifications/specifications/1.3/index.html",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Deepmind SynthID",
+      "url": "https://deepmind.google/technologies/synthid/",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "Vertex AI imagen",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "Google DeepMind's Lyria",
+      "url": "https://deepmind.google/discover/blog/transforming-the-future-of-music-creation/",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Identifying and Mitigating the Security Risks of Generative AI",
+      "url": "https://arxiv.org/abs/2308.14840",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "OpenAI moving AI governance forward statement",
+      "url": "https://openai.com/blog/moving-ai-governance-forward",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "invisible-watermark repo",
+      "url": "https://github.com/ShieldMnt/invisible-watermark",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "Stable Diffusion XL",
+      "url": "https://huggingface.co/docs/diffusers/en/using-diffusers/sdxl#stable-diffusion-xl",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "China bans GenAI without Watermarks",
+      "url": "https://arstechnica.com/information-technology/2022/12/china-bans-ai-generated-media-without-watermarks/",
+      "category": "5-related-news",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "Stealing Machine Learning Models: Attacks and Countermeasures for Generative Adversarial Networks",
+      "url": "https://dl.acm.org/doi/10.1145/3485832.3485838",
+      "category": "6-generative-model-stealing-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "Model Extraction Attack and Defense on Deep Generative Models",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2189/1/012024/meta",
+      "category": "6-generative-model-stealing-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2101.02069",
+      "category": "6-generative-model-stealing-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "A Comprehensive Survey on Robust Image Watermarking",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231222002533?ref=cra_js_challenge&fr=njs",
+      "category": "7-survey-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "A Systematic Review on Model Watermarking for Neural Networks",
+      "url": "https://www.frontiersin.org/articles/10.3389/fdata.2021.729663/full",
+      "category": "7-survey-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2207.06909",
+      "category": "7-survey-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2402.02333",
+      "category": "7-survey-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2309.09435",
+      "category": "7-survey-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2402.00045",
+      "category": "7-survey-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "Arxiv",
+      "url": "https://arxiv.org/abs/2308.14970",
+      "category": "7-survey-papers",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "Mydentify AI Watermark and Claude Checker",
+      "url": "https://mydentify.com/tools/ai-watermark-detector",
+      "category": "practical-tools-for-text-watermark-checks",
+      "source_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/blob/ae97862c403c2f4a667b217d3b4453cd47ecfab0/README.md#L415",
+      "line": 415,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 133,
+  "unique_links": 121,
+  "category_count": 17,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "and-mill",
+      "url": "https://github.com/and-mill",
+      "contributions": 93
+    },
+    {
+      "login": "dapurv5",
+      "url": "https://github.com/dapurv5",
+      "contributions": 1
+    },
+    {
+      "login": "Framartin",
+      "url": "https://github.com/Framartin",
+      "contributions": 1
+    },
+    {
+      "login": "mitdralla",
+      "url": "https://github.com/mitdralla",
+      "contributions": 1
+    },
+    {
+      "login": "wawabinger",
+      "url": "https://github.com/wawabinger",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 97,
+    "has_more": false,
+    "path_commit_count": 97,
+    "public_contributors": 5,
+    "observed_at": "2026-09-03T17:58:20.017315+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by and-mill/Awesome-GenAI-Watermarking contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/and-mill/Awesome-GenAI-Watermarking/tree/ae97862c403c2f4a667b217d3b4453cd47ecfab0",
+  "digest": "c2ccc544f5c9d1e34a012047c68353735375aec5207c5590b3e1a29dd15ae4c5"
+}

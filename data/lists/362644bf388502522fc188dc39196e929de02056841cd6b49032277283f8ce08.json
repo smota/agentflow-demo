@@ -1,0 +1,1057 @@
+{
+  "format_version": 3,
+  "repository_id": "929487853",
+  "name": "perimetersec/evm-fuzzing-resources",
+  "revision": "674de0ff61cb659d74df325c16e24ed933e1d725",
+  "readme_path": "README.md",
+  "readme_sha256": "a6c810405039633a29f8d64cff5b327895ee0bf1f8a6b7e1fd7fba736e651c4e",
+  "sections": [
+    {
+      "id": "evm-fuzzing-resources",
+      "title": "EVM Fuzzing Resources",
+      "level": 1,
+      "path": [
+        "EVM Fuzzing Resources"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#evm-fuzzing-resources",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "fuzzing-software",
+      "title": "Fuzzing Software",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Fuzzing Software"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#fuzzing-software",
+      "entries": 0
+    },
+    {
+      "id": "mainstream-fuzzers",
+      "title": "Mainstream Fuzzers",
+      "level": 3,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Fuzzing Software",
+        "Mainstream Fuzzers"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#mainstream-fuzzers",
+      "entries": 3
+    },
+    {
+      "id": "emergingspecialized-fuzzers",
+      "title": "Emerging/Specialized Fuzzers",
+      "level": 3,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Fuzzing Software",
+        "Emerging/Specialized Fuzzers"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#emergingspecialized-fuzzers",
+      "entries": 3
+    },
+    {
+      "id": "tooling",
+      "title": "Tooling",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Tooling"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#tooling",
+      "entries": 0
+    },
+    {
+      "id": "libraries--frameworks",
+      "title": "Libraries & Frameworks",
+      "level": 3,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Tooling",
+        "Libraries & Frameworks"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#libraries--frameworks",
+      "entries": 5
+    },
+    {
+      "id": "utils",
+      "title": "Utils",
+      "level": 3,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Tooling",
+        "Utils"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#utils",
+      "entries": 9
+    },
+    {
+      "id": "ai",
+      "title": "AI",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "AI"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#ai",
+      "entries": 4
+    },
+    {
+      "id": "practical-code-samples",
+      "title": "Practical Code Samples",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Practical Code Samples"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#practical-code-samples",
+      "entries": 4
+    },
+    {
+      "id": "benchmarking",
+      "title": "Benchmarking",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Benchmarking"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#benchmarking",
+      "entries": 5
+    },
+    {
+      "id": "reusable-properties",
+      "title": "Reusable properties",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Reusable properties"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#reusable-properties",
+      "entries": 6
+    },
+    {
+      "id": "articles",
+      "title": "Articles",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Articles"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#articles",
+      "entries": 0
+    },
+    {
+      "id": "tutorials--guides",
+      "title": "Tutorials & Guides",
+      "level": 3,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Articles",
+        "Tutorials & Guides"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#tutorials--guides",
+      "entries": 20
+    },
+    {
+      "id": "research--background",
+      "title": "Research & Background",
+      "level": 3,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Articles",
+        "Research & Background"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#research--background",
+      "entries": 14
+    },
+    {
+      "id": "videos",
+      "title": "Videos",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Videos"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#videos",
+      "entries": 0
+    },
+    {
+      "id": "tutorials--guides-1",
+      "title": "Tutorials & Guides",
+      "level": 3,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Videos",
+        "Tutorials & Guides"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#tutorials--guides-1",
+      "entries": 7
+    },
+    {
+      "id": "talks--discussion",
+      "title": "Talks & Discussion",
+      "level": 3,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Videos",
+        "Talks & Discussion"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#talks--discussion",
+      "entries": 18
+    },
+    {
+      "id": "fuzzing-background",
+      "title": "Fuzzing Background",
+      "level": 2,
+      "path": [
+        "EVM Fuzzing Resources",
+        "Fuzzing Background"
+      ],
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#fuzzing-background",
+      "entries": 2
+    }
+  ],
+  "entries": [
+    {
+      "title": "Echidna",
+      "url": "https://github.com/crytic/echidna",
+      "category": "mainstream-fuzzers",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "Medusa",
+      "url": "https://github.com/crytic/medusa",
+      "category": "mainstream-fuzzers",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "Foundry",
+      "url": "https://github.com/foundry-rs/foundry",
+      "category": "mainstream-fuzzers",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "ItyFuzz",
+      "url": "https://github.com/fuzzland/ityfuzz",
+      "category": "emergingspecialized-fuzzers",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "Wake",
+      "url": "https://github.com/Ackee-Blockchain/wake",
+      "category": "emergingspecialized-fuzzers",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "Recon Fuzzer",
+      "url": "https://github.com/Recon-Fuzz/recon-fuzzer",
+      "category": "emergingspecialized-fuzzers",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "Chimera",
+      "url": "https://github.com/Recon-Fuzz/chimera",
+      "category": "libraries--frameworks",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzlib",
+      "url": "https://github.com/perimetersec/fuzzlib",
+      "category": "libraries--frameworks",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "Arachne",
+      "url": "https://github.com/perimetersec/arachne",
+      "category": "libraries--frameworks",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Universal Fuzzing",
+      "url": "https://github.com/GuardianOrg/UniversalFuzzing",
+      "category": "libraries--frameworks",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Medusa Template Generator",
+      "url": "https://crates.io/crates/medusa-gen",
+      "category": "libraries--frameworks",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "fuzz-utils",
+      "url": "https://github.com/crytic/fuzz-utils",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "Recon VS Code Extension",
+      "url": "https://github.com/Recon-Fuzz/recon-extension",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "CloudExec",
+      "url": "https://github.com/crytic/cloudexec",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Echidna Coverage Reporter",
+      "url": "https://github.com/Simon-Busch/echidna-coverage",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Runes",
+      "url": "https://github.com/Enigma-Dark/runes",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "echidna-trace-parser",
+      "url": "https://github.com/Enigma-Dark/fuzz-trace-parser",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Osiris Lite",
+      "url": "https://github.com/Enigma-Dark/osiris-lite",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Youdusa",
+      "url": "https://crates.io/crates/youdusa",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Echidna Logs Scraper",
+      "url": "https://getrecon.xyz/tools/echidna",
+      "category": "utils",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Fizz",
+      "url": "https://github.com/pashov/skills/tree/main/fizz",
+      "category": "ai",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Recon Magic Framework",
+      "url": "https://github.com/Recon-Fuzz/recon-magic-framework",
+      "category": "ai",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Ultrafuzz: end-to-end agentic fuzzing for Solidity smart contracts",
+      "url": "https://www.monad.xyz/blog/ultrafuzz",
+      "category": "ai",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Vibe Fuzzing Guide for Wake's Manually-Guided Fuzzing",
+      "url": "https://ackee.xyz/blog/vibe-fuzzing-guide-for-wakes-manually-guided-fuzzing/",
+      "category": "ai",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "List of Public Fuzzing Campaigns",
+      "url": "https://github.com/perimetersec/public-fuzzing-campaigns-list",
+      "category": "practical-code-samples",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzer Gas Metric Benchmark",
+      "url": "https://github.com/rappie/fuzzer-gas-metric-benchmark",
+      "category": "practical-code-samples",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Reproduction of the $41M Curve reentrancy hacks on July 30 2023 using on-chain fuzzing with Echidna",
+      "url": "https://github.com/rappie/echidna-curve-reentrancy-hack",
+      "category": "practical-code-samples",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Reproduction of the $80M Rari Finance Hack on April 30 2022 using on-chain fuzzing with Echidna",
+      "url": "https://github.com/rappie/echidna-rari-hack",
+      "category": "practical-code-samples",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "scfuzzbench",
+      "url": "https://scfuzzbench.com/introduction",
+      "category": "benchmarking",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "Solidity Fuzzing Comparison",
+      "url": "https://github.com/devdacian/solidity-fuzzing-comparison",
+      "category": "benchmarking",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Property-based Testing Benchmark",
+      "url": "https://github.com/aviggiano/property-based-testing-benchmark",
+      "category": "benchmarking",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Daedaluzz",
+      "url": "https://github.com/ConsenSysDiligence/daedaluzz/tree/master",
+      "category": "benchmarking",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzing Evaluation Guidelines",
+      "url": "https://github.com/fuzz-evaluator/guidelines",
+      "category": "benchmarking",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "ERC20",
+      "url": "https://github.com/crytic/properties?tab=readme-ov-file#erc20-tests",
+      "category": "reusable-properties",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "ERC721",
+      "url": "https://github.com/crytic/properties?tab=readme-ov-file#erc721-tests",
+      "category": "reusable-properties",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "ERC4626",
+      "url": "https://github.com/crytic/properties?tab=readme-ov-file#erc4626-tests",
+      "category": "reusable-properties",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "ERC7540",
+      "url": "https://github.com/Recon-Fuzz/erc7540-reusable-properties",
+      "category": "reusable-properties",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "ABDKMath64x64",
+      "url": "https://github.com/crytic/properties?tab=readme-ov-file#abdkmath64x64-tests",
+      "category": "reusable-properties",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "ERCx Token Test Library",
+      "url": "https://github.com/runtimeverification/ercx-tests",
+      "category": "reusable-properties",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Echidna Tutorial",
+      "url": "https://github.com/crytic/building-secure-contracts/tree/master/program-analysis/echidna",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Medusa Official Documentation",
+      "url": "https://secure-contracts.com/program-analysis/medusa/docs/src/index.html",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "Foundry Invariant Testing Official Documentation",
+      "url": "https://www.getfoundry.sh/guides/invariant-testing",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Wake Fuzzing Guide",
+      "url": "https://ackee.xyz/wake/docs/latest/testing-framework/fuzzing/",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Recon Book",
+      "url": "https://book.getrecon.xyz/introduction/introduction.html",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Invariant Testing WETH With Foundry",
+      "url": "https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to fuzzing",
+      "url": "https://allthingsfuzzy.substack.com/p/introduction-to-fuzzing",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Benefits of Fuzzing",
+      "url": "https://github.com/perimetersec/resources/blob/main/services/Benefits%20of%20Fuzzing.md",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Creating Invariant Tests for an AMM Smart Contract",
+      "url": "https://allthingsfuzzy.substack.com/p/creating-invariant-tests-for-an-amm",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Debugging Echidna Coverage",
+      "url": "https://allthingsfuzzy.substack.com/p/debugging-echidna-coverage",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "First Day At Invariant School",
+      "url": "https://getrecon.substack.com/p/first-day-at-invariant-school",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Generating unit tests from broken stateful invariant tests",
+      "url": "https://allthingsfuzzy.substack.com/p/generating-unit-tests-from-broken",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Finding Denial of Service Bugs At Scale With Invariant Tests",
+      "url": "https://allthingsfuzzy.substack.com/p/finding-denial-of-service-bugs-at",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "A Guide to Crafting Robust Invariants",
+      "url": "https://allthingsfuzzy.substack.com/p/a-guide-to-crafting-robust-invariants",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Using Echidna to test a smart contract library",
+      "url": "https://blog.trailofbits.com/2020/08/17/using-echidna-to-test-a-smart-contract-library/",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "How To Define Invariants",
+      "url": "https://getrecon.substack.com/p/how-to-define-invariants",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Implementing Your First Smart Contract Invariants: A Practical Guide",
+      "url": "https://getrecon.substack.com/p/implementing-your-first-few-invariants",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting Precision Loss via Fuzz Testing",
+      "url": "https://dacian.me/exploiting-precision-loss-via-fuzz-testing",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Echidna Enters a New Era of Symbolic Execution",
+      "url": "https://gustavo-grieco.github.io/blog/echidna-symexec/",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Find Highs Before External Auditors Using Invariant Fuzz Testing",
+      "url": "https://dacian.me/find-highs-before-external-auditors-using-invariant-fuzz-testing",
+      "category": "tutorials--guides",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Learnings from 6 weeks of fuzzing Badger DAO's eBTC protocol",
+      "url": "https://allthingsfuzzy.substack.com/p/learnings-from-6-weeks-of-fuzzing",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Certora vs Echidna: a case study on invariant testing in eBTC",
+      "url": "https://allthingsfuzzy.substack.com/p/certora-vs-echidna-a-case-study-on",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "Uniswap v3: A Fuzzing Review",
+      "url": "https://allthingsfuzzy.substack.com/p/uniswap-v3-a-fuzzing-review",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "part 1",
+      "url": "https://getrecon.substack.com/p/lessons-learned-from-fuzzing-centrifuge",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "eBTC Retrospective: A reflection on lessons learned in our extended fuzzing of eBTC",
+      "url": "https://getrecon.substack.com/p/ebtc-retrospective",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Lessons From The Fuzzing Trenches",
+      "url": "https://getrecon.substack.com/p/lessons-from-the-fuzzing-trenches",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Finding Real Vulnerabilities with the Renzo Fuzzing Repo",
+      "url": "https://getrecon.substack.com/p/finding-real-vulnerabilities-with",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzing in the Cloud: A review of the different cloud based options for fuzzing Solidity contracts",
+      "url": "https://getrecon.substack.com/p/fuzzing-in-the-cloud",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Corn Engagement Retrospective: Lessons learned from our engagement fuzzing the Corn protocol",
+      "url": "https://getrecon.substack.com/p/corn-engagement-retrospective",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzing vs. Formal Verification Discussion",
+      "url": "https://x.com/0xScourgedev/status/1824122421844025622",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Manually Guided Fuzzing: A New Approach in Smart Contract Testing",
+      "url": "https://ackee.xyz/blog/introducing-manually-guided-fuzzing-a-new-approach-in-smart-contract-testing/",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "The call for invariant-driven development",
+      "url": "https://blog.trailofbits.com/2025/02/12/the-call-for-invariant-driven-development/",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Why Audited Projects Are Getting Hacked & How To Avoid It (Invariants)",
+      "url": "https://guardianaudits.notion.site/Why-Audited-Projects-Are-Getting-Hacked-How-To-Avoid-It-Invariants-1d78bda5828c804fb1c1c2263ab5766a",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "The Bug That Was Missed - How fuzzing for preconditions can lead to high severity vulnerabilities",
+      "url": "https://getrecon.substack.com/p/the-bug-that-was-missed",
+      "category": "research--background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Learn how to fuzz like a pro",
+      "url": "https://www.youtube.com/playlist?list=PLciHOL_J7Iwqdja9UH4ZzE8dP1IxtsBXI",
+      "category": "tutorials--guides-1",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzing for Security Researchers",
+      "url": "https://www.youtube.com/watch?v=3A7aa5B8aak",
+      "category": "tutorials--guides-1",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "bloqarl",
+      "url": "https://x.com/TheBlockChainer",
+      "category": "tutorials--guides-1",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "part 1",
+      "url": "https://www.youtube.com/watch?v=xLGTd5OH8xU",
+      "category": "tutorials--guides-1",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Invariant Testing WETH with Foundry",
+      "url": "https://www.youtube.com/watch?v=sJpL21yJpgs",
+      "category": "tutorials--guides-1",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Invariant Driven Development - Build a CDP system using Invariants as Safety Nets",
+      "url": "https://youtu.be/ZM6479HeI5U?si=7Zlbq8Ao4y1sFtSw",
+      "category": "tutorials--guides-1",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Wake Framework - Swiss Knife to Ethereum Tooling",
+      "url": "https://www.youtube.com/watch?v=sckN41TgRFY",
+      "category": "tutorials--guides-1",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzing and Heuristics interview with @devdacian",
+      "url": "https://www.youtube.com/watch?v=IZTvXfC14Ig",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzing Like a Degen: Building a Smart Contract Fuzzer",
+      "url": "https://youtu.be/qdtQ9k3gCX8?si=AquZxyikCZJwRaU5",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "All Things Fuzzing with Victor Martinez",
+      "url": "https://youtu.be/83q14K-WNKM?si=ez3uZRBvm-3iksFT",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Advanced Fuzzing Techniques: An eBTC Case Study",
+      "url": "https://youtu.be/ELY_zjIAKuE?si=1CfWOLuRaeTwQVT2",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "Invariant Testing Workshop",
+      "url": "https://youtu.be/YAF79t_Sfiw?si=AhJ-0pepG6-P_Ux8",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Euler v2 Fuzzing Workshop by Víctor Martinez",
+      "url": "https://youtu.be/WO3Xu7E4Tdg?si=MuQ1LJERLjRc8Pdc",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Test your tests The dos and don'ts of testing",
+      "url": "https://www.youtube.com/watch?v=7TcnUZGuk_s",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Find Highs Using Invariant Fuzz Testing",
+      "url": "https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=15s",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Submit your first PR to Medusa",
+      "url": "https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=3855s",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "You should probably be fuzzing",
+      "url": "https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=6565s",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Echidna Made Me Do It!",
+      "url": "https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=8030s",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Uniswap V4: Taking Invariant Testing Where Manual Review Cannot Go",
+      "url": "https://www.youtube.com/watch?v=Cqmu-mhSLt8&t=8991s",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "The Efficacy of Fuzzing",
+      "url": "https://www.youtube.com/watch?v=BBw_odMWFOI",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Uncover Hidden Bugs with Fuzzing",
+      "url": "https://www.youtube.com/watch?v=GZTWKxgmGM8",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Invariant Testing - Fuzzing Defi Protocols",
+      "url": "https://www.youtube.com/watch?v=FpDlI4hXRxE",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Past, Present and Future of EVM Smart Contract Fuzzers",
+      "url": "https://youtu.be/6-zv5ON2N1c?si=RcyQ7sxuvRr4_fJt",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "The Art of Manually Guided Fuzzing",
+      "url": "https://www.youtube.com/watch?v=xYG-I3vle24",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Smart Contracts Fuzzing: Current Problems and Proposed Solutions",
+      "url": "https://www.youtube.com/watch?v=DidSdyN18Mw",
+      "category": "talks--discussion",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "The Fuzzing Book",
+      "url": "https://www.fuzzingbook.org/",
+      "category": "fuzzing-background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Fuzzing",
+      "url": "https://github.com/secfigo/Awesome-Fuzzing",
+      "category": "fuzzing-background",
+      "source_url": "https://github.com/perimetersec/evm-fuzzing-resources/blob/674de0ff61cb659d74df325c16e24ed933e1d725/README.md#L148",
+      "line": 148,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 100,
+  "unique_links": 100,
+  "category_count": 13,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "rappie",
+      "url": "https://github.com/rappie",
+      "contributions": 6
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 6,
+    "has_more": false,
+    "path_commit_count": 6,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:54:43.638272+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by perimetersec/evm-fuzzing-resources contributors.",
+  "license": null,
+  "license_url": "https://github.com/perimetersec/evm-fuzzing-resources/tree/674de0ff61cb659d74df325c16e24ed933e1d725",
+  "digest": "362644bf388502522fc188dc39196e929de02056841cd6b49032277283f8ce08"
+}

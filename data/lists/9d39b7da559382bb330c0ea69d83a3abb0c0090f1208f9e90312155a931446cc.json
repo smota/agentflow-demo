@@ -1,0 +1,3887 @@
+{
+  "format_version": 3,
+  "repository_id": "772614578",
+  "name": "NishilBalar/Awesome-LVLM-Hallucination",
+  "revision": "e3b6af6513e586462bf7b83bcc6614a9dcd3a83a",
+  "readme_path": "README.md",
+  "readme_sha256": "4e8a44fb184c5b1fbaf885670018ee69ba4c6f3a619edb41a6ee897c0b27d41d",
+  "sections": [
+    {
+      "id": "awesome-lvlm-hallucination",
+      "title": "Awesome-LVLM-Hallucination",
+      "level": 1,
+      "path": [
+        "Awesome-LVLM-Hallucination"
+      ],
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#awesome-lvlm-hallucination",
+      "entries": 0
+    },
+    {
+      "id": "evaluation-benchmark",
+      "title": "Evaluation-Benchmark",
+      "level": 2,
+      "path": [
+        "Awesome-LVLM-Hallucination",
+        "Evaluation-Benchmark"
+      ],
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#evaluation-benchmark",
+      "entries": 105
+    },
+    {
+      "id": "detection",
+      "title": "Detection",
+      "level": 2,
+      "path": [
+        "Awesome-LVLM-Hallucination",
+        "Detection"
+      ],
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#detection",
+      "entries": 45
+    },
+    {
+      "id": "mitigation",
+      "title": "Mitigation",
+      "level": 2,
+      "path": [
+        "Awesome-LVLM-Hallucination",
+        "Mitigation"
+      ],
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#mitigation",
+      "entries": 313
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "level": 2,
+      "path": [
+        "Awesome-LVLM-Hallucination",
+        "Survey"
+      ],
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#survey",
+      "entries": 11
+    }
+  ],
+  "entries": [
+    {
+      "title": "Object Hallucination in Image Captioning",
+      "url": "https://arxiv.org/abs/1809.02156",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Object Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2305.10355.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2306.13394.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L25",
+      "line": 25,
+      "properties": {}
+    },
+    {
+      "title": "Detecting and Preventing Hallucinations in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2308.06394.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "Evaluation and Analysis of Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2308.15126.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "Contrastive Instruction Evaluation Method for Better Instruction Tuning",
+      "url": "https://arxiv.org/pdf/2309.02301.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Cross-modal Alignment Similarity Test for Vision Language Models",
+      "url": "https://arxiv.org/abs/2409.11007",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Large Multimodal Models with Factually Augmented RLHF",
+      "url": "https://arxiv.org/pdf/2309.14525.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning",
+      "url": "https://arxiv.org/pdf/2306.14565.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "Negative Object Presence Evaluation (NOPE) to Measure Object Hallucination in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2310.05338.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2310.14566.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2311.01477.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges",
+      "url": "https://arxiv.org/pdf/2311.03287.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "An LLM-free Multi-dimensional Benchmark for MLLMs Hallucination Evaluation",
+      "url": "https://arxiv.org/pdf/2311.07397.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Visual Language Models with Visual Supervision",
+      "url": "https://arxiv.org/pdf/2311.16479.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Multi-modal Evaluation Benchmark for Large Image-Language Models",
+      "url": "https://arxiv.org/pdf/2312.02219.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "HallE-Switch: Controlling Object Hallucination in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2310.01779.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Fine-Grained Hallucination by Fine-Tuning Large Vision-Language Models with Caption Rewrites",
+      "url": "https://arxiv.org/pdf/2312.01701.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Open-Vocabulary Caption Hallucinations",
+      "url": "https://arxiv.org/pdf/2312.03631.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "The Instinctive Bias: Spurious Images lead to Hallucination in MLLMs",
+      "url": "https://arxiv.org/pdf/2402.03757.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Improving Visual Grounding of Large Vision Language Models with Fine-Grained Reward Modeling",
+      "url": "https://arxiv.org/pdf/2402.06118.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Visually Dehallucinative Instruction Generation: Know What You Don’t Know",
+      "url": "https://arxiv.org/pdf/2402.09717.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Unified Hallucination Detection for Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2402.03190.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts",
+      "url": "https://arxiv.org/pdf/2402.13220.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Visual Hallucinations of Multi-modal Large Language Models",
+      "url": "https://arxiv.org/pdf/2402.14683v1.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "A Universal and Fine-grained Hallucination Evaluation Framework for Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2402.15721.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating and Mitigating Number Hallucinations in Large Vision-Language Models: A Consistency Perspective",
+      "url": "https://arxiv.org/pdf/2403.01373.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Dialogue Hallucination for Large Multi-modal Models via Adversarial Instruction Tuning",
+      "url": "https://arxiv.org/pdf/2403.10492.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "PhD: A Prompted Visual Hallucination Evaluation Dataset",
+      "url": "https://arxiv.org/pdf/2403.11116.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Trustworthiness of Vision Language Models",
+      "url": "https://arxiv.org/pdf/2403.20331",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "A New Measure for Hallucination in Captioning Models",
+      "url": "https://arxiv.org/pdf/2404.02904v1.pdf",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Holistic Coverage and Faithfulness Evaluation of Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2404.13874",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "An Object-based Hallucination Benchmark for the Free-form Generations of Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2405.05256",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Automated Multi-level Preference for MLLMs",
+      "url": "https://arxiv.org/pdf/2405.11165",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Measuring Language Priors in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2406.08702",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "A Relation Understanding Dataset and Benchmark in the MLLM Era",
+      "url": "https://arxiv.org/pdf/2406.09121",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Detecting and Evaluating Medical Hallucinations in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2406.10185",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Automatic Generation of Hallucination Benchmarks for Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2406.10900",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking Multimodal Fact-Checking with Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2406.11288",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Does Object Grounding Really Reduce Hallucination of Large Vision-Language Models?",
+      "url": "https://arxiv.org/pdf/2406.14492",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating and Analyzing Relationship Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2406.16449",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating the Quality of Hallucination Benchmarks for Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2406.17115",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Intrinsic and Extrinsic Hallucinations in Large Video-Language Models",
+      "url": "https://arxiv.org/pdf/2406.16338",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Investigating and Mitigating the Multimodal Hallucination Snowballing in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2407.00569",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Towards Systematic Evaluation of Hallucination for Large Vision Language Models in the Medical Context",
+      "url": "https://arxiv.org/pdf/2407.02730",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Object Hallucination in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2407.06192",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-language Models",
+      "url": "https://arxiv.org/pdf/2407.13442",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "A Visual Hallucination Dataset for Advancing Multimodal Reasoning",
+      "url": "https://arxiv.org/pdf/2407.15680",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "A High-Quality Multi-Modal Instruction Tuning Dataset with Extensive Diversity",
+      "url": "https://arxiv.org/pdf/2407.15838",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Hallucination in Multi-modal Large Language Models within Perturbed Inputs",
+      "url": "https://arxiv.org/pdf/2408.01355",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "A Comprehensive Benchmark for Relation Hallucination Evaluation, Analysis and Mitigation in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2408.09429",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Understanding Multimodal Hallucination with Parameter-Free Representation Alignment",
+      "url": "https://arxiv.org/pdf/2409.01151",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Open-Set Evaluation of Hallucinations in Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2409.09318",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "Explore the Hallucination on Low-level Perception for MLLMs",
+      "url": "https://arxiv.org/pdf/2409.09748",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "Cross-modal Alignment Similarity Test for Vision Language Models",
+      "url": "https://arxiv.org/pdf/2409.11007",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "Challenging One-Stop Vision-Language Understanding Benchmark of Generated Images",
+      "url": "https://arxiv.org/pdf/2409.12953",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Autonomous Hallucination Evaluation in Vision-Language Models with Davidson Scene Graphs",
+      "url": "https://arxiv.org/pdf/2409.13612",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "here",
+      "url": "https://anonymous.4open.science/r/FIHA-45BB/README.md",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Diagnosing Event Hallucinations in Video LLMs",
+      "url": "https://arxiv.org/pdf/2409.16597",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking Large Vision-Language Models on Trustworthiness with Unanswerable Questions",
+      "url": "https://arxiv.org/pdf/2410.04107",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Long-Context Hallucination Evaluation for MultiModal Large Language Models",
+      "url": "https://arxiv.org/pdf/2410.09962",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Have the VLMs Lost Confidence? A Study of Sycophancy in VLMs",
+      "url": "https://arxiv.org/pdf/2410.11302",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "Tackling Multimodal Hallucination via Extremely Simple Instructions",
+      "url": "https://arxiv.org/pdf/2410.11701",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "MLLM can see? Dynamic Correction Decoding for Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2410.11779",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio",
+      "url": "https://arxiv.org/pdf/2410.12787",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Programmatic VLM Evaluation in the Wild",
+      "url": "https://arxiv.org/pdf/2410.13121",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "project_page",
+      "url": "https://prove-explorer.netlify.app/",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "Unified Triplet-Level Hallucination Evaluation for Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2410.23114",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Hierarchical Polling-based Probing Evaluation of Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2411.04077",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking Temporal Hallucinations in Vision LLMs",
+      "url": "https://arxiv.org/pdf/2411.16771",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "A Benchmark for Evaluating Object Hallucination in Large Visual-Language Models",
+      "url": "https://arxiv.org/pdf/2412.20622",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Hallucination in Large Vision-Language Models based on Context-Aware Object Similarities",
+      "url": "https://arxiv.org/pdf/2501.15046",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "Hallucination Attack on Multi-modal Large Language Models with Only Attention Sink",
+      "url": "https://arxiv.org/pdf/2501.15269",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "HF link",
+      "url": "https://huggingface.co/RachelHGF/Mirage-in-the-Eyes",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Rethinking the Impact of Language Priors in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2502.12359",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2502.20780",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Impact of Annotation Errors on the POPE Benchmark",
+      "url": "https://arxiv.org/pdf/2504.15707",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "A Unified Framework for Mitigating LVLM Hallucinations in Counterfactual Presupposition and Object Perception",
+      "url": "https://arxiv.org/pdf/2504.20468",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "A Comprehensive Analysis for Visual Object Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.01958",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "A Hallucination Evaluation Benchmark for Grounded Medical Multimodal LLMs",
+      "url": "https://arxiv.org/pdf/2505.00744",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating Emotion Hallucinations in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2505.11405",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Assessing Hallucination in Multimodal Reasoning Chains of MLLM",
+      "url": "https://arxiv.org/pdf/2505.24238",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Robust Multimodal Large Language Models Against Modality Conflict",
+      "url": "https://arxiv.org/pdf/2507.07151",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "A Leaderboard for Detailed Image Captioning from Quality to Societal Bias and User Preferences",
+      "url": "https://arxiv.org/pdf/2507.19362",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "Hugging face link",
+      "url": "https://huggingface.co/spaces/nvidia/lotus-vlm-bias-leaderboard",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking and Mitigating Multi-Image Hallucinations in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2508.00726",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "What Makes \"Good\" Distractors for Object Hallucination Evaluation in Large Vision-Language Models?",
+      "url": "https://arxiv.org/pdf/2508.06530",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "A Scalable Benchmark for Fine-grained Hallucination Evaluation in LVLMs",
+      "url": "https://arxiv.org/pdf/2508.09584",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "Measuring Epistemic Humility in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2509.09658",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Diving into Mitigating Hallucinations from a Vision Perspective for Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2509.13836",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "A Fine-grained Framework Evaluating Hallucination of Large Vision Language Models in Chart Understanding",
+      "url": "https://arxiv.org/pdf/2509.17481",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Can Vision-Language Models Pass Color Blindness Tests?",
+      "url": "https://arxiv.org/pdf/2509.19070",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "What's in Common? Multimodal Models Hallucinate When Reasoning Across Scenes",
+      "url": "https://arxiv.org/pdf/2511.03768v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "HuggingFace dataset",
+      "url": "https://huggingface.co/datasets/facebook/Common-O",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Causal-HalBench: Uncovering LVLMs Object Hallucinations Through Causal Intervention",
+      "url": "https://arxiv.org/pdf/2511.10268v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "What Color Is It? A Text-Interference Multimodal Hallucination Benchmark",
+      "url": "https://arxiv.org/pdf/2511.13400v2",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "A Comprehensive Benchmark for Evaluating Robustness to Misleading Visual Inputs in LVLMs",
+      "url": "https://arxiv.org/pdf/2511.14159v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "Mechanisms of Prompt-Induced Hallucination in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2601.05201v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Once Correct, Still Wrong: Counterfactual Hallucination in Multilingual Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2602.05437v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "A Benchmark for Evaluating the Cross-modal Safety and Reliability of MLLMs",
+      "url": "https://arxiv.org/abs/2602.03263v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Benchmarking Hallucination Detector in Image Captioning",
+      "url": "https://arxiv.org/abs/2603.15253v2",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "MLLMs Hallucinate under Fine-grained Negative Queries",
+      "url": "https://arxiv.org/abs/2603.17662v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "A Fine-grained Hallucination Evaluation Benchmark for Advanced MLLMs",
+      "url": "https://arxiv.org/abs/2603.19765v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Revealing Multi-View Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/abs/2603.23934v1",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "CDH-Bench: A Commonsense-Driven Hallucination Benchmark for Evaluating Visual Fidelity in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2603.27982v2",
+      "category": "evaluation-benchmark",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Detecting and Preventing Hallucinations in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2308.06394.pdf",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "Evaluation and Analysis of Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2308.15126.pdf",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Controlling Object Hallucination in Large Vision Language Models",
+      "url": "https://arxiv.org/abs/2310.01779",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinatory Toxicity in Visual Instruction Data",
+      "url": "https://arxiv.org/pdf/2311.13614.pdf",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Logical Closed Loop: Uncovering Object Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2402.11622.pdf",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Unified Hallucination Detection for Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2402.03190.pdf",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback",
+      "url": "https://arxiv.org/pdf/2404.14233",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Detecting Hallucination in Image Descriptions by Meta Classification",
+      "url": "https://arxiv.org/pdf/2405.19186",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "An Automatic Framework for Creating Accurate and Detailed Image Descriptions",
+      "url": "https://arxiv.org/pdf/2406.07502",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "Detecting and Evaluating Medical Hallucinations in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2406.10185",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "Correcting Hallucination in Vision-LLMs via Claim Decomposition and Program of Thought Verification",
+      "url": "https://arxiv.org/pdf/2407.02352",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "Reference-free Hallucination Detection for Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2408.05767",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "Pre-Training Multimodal Hallucination Detectors with Corrupted Grounding Data",
+      "url": "https://arxiv.org/pdf/2409.00238",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "LLMs Can Check Their Own Results to Mitigate Hallucinations in Traffic Understanding Tasks",
+      "url": "https://arxiv.org/pdf/2409.12580",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Token-Level Detective Reward Model for Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2410.04734",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "A Black-Box Hallucination Detection Method for Medical Vision Language Models",
+      "url": "https://arxiv.org/pdf/2411.00299",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "Detecting Hallucination in Large Vision-Language Model via Uncertainty Estimation",
+      "url": "https://arxiv.org/pdf/2411.11919",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "Detecting Hallucinations by Cross-modal Attention Pattern in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2411.18659",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "Contextual Embeddings for Robust Hallucination Detection & Grounding in VLMs",
+      "url": "https://arxiv.org/pdf/2411.19187",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Multimodal Hallucination Detector with Visual-aid Knowledge Base",
+      "url": "https://arxiv.org/pdf/2502.12591",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "A Framework for Explainable Hallucination Detection through Conceptual Counterfactuals in Image Captioning",
+      "url": "https://arxiv.org/pdf/2503.00436",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "Detection and Assessment of Systematic Hallucinations of VLMs",
+      "url": "https://arxiv.org/pdf/2503.23573",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Contrastive Decoding with Probabilistic Hallucination Detection - Mitigating Hallucinations in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2504.12137",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "Diverging Towards Hallucination: Detection of Failures in Vision-Language Models via Multi-token Aggregation",
+      "url": "https://arxiv.org/pdf/2505.11741",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "Multimodal Fine-grained Hallucination Detection and Editing",
+      "url": "https://arxiv.org/pdf/2506.13130",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://yuiga.dev/zina/",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "A Progressive Hybrid Knowledge Distillation Framework for Robust Multimodal Hallucination and Factuality Detection in VLMs",
+      "url": "http://arxiv.org/pdf/2506.13038",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "Visual hallucination detection in large vision-language models via evidential conflict",
+      "url": "https://arxiv.org/pdf/2506.19513",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "Leveraging NTPs for Efficient Hallucination Detection in VLMs",
+      "url": "https://arxiv.org/pdf/2509.20379",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://huggingface.co/datasets/wrom/Language-Vision-Hallucinations",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "Detecting Object Hallucinations in LVLMs via Global-Local Similarity",
+      "url": "https://arxiv.org/pdf/2508.19972",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "Prelim Attention Score for Detecting Object Hallucinations in Large Vision--Language Models",
+      "url": "https://arxiv.org/pdf/2511.11502v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "Seeing is Believing: Rich-Context Hallucination Detection for MLLMs via Backward Visual Grounding",
+      "url": "https://arxiv.org/pdf/2511.12140v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "HEDGE: Hallucination Estimation via Dense Geometric Entropy for VQA with Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2511.12693v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "Bridging Language and Vision through Internal Representation Shifts for Hierarchical Hallucinations in MLLMs",
+      "url": "https://arxiv.org/pdf/2512.07687v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "Model-Driven Single-Pass Hallucination Detection for Faithful Visual Question Answering",
+      "url": "https://arxiv.org/pdf/2601.00269v3",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "Detecting Misbehaviors of Large Vision-Language Models by Evidential Uncertainty Quantification",
+      "url": "https://arxiv.org/pdf/2602.05535v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "Vision-Aware Uncertainty Quantification for LVLM Self-Evaluation",
+      "url": "https://arxiv.org/abs/2602.21054v2",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "Detecting Hallucinations in Vision-Language Models without Generating a Single Token",
+      "url": "https://arxiv.org/abs/2603.05465v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "Lyapunov Probes for Hallucination Detection in Large Foundation Models",
+      "url": "https://arxiv.org/abs/2603.06081v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "Overthinking Causes Hallucination: Tracing Confounder Propagation in Vision Language Models",
+      "url": "https://arxiv.org/abs/2603.07619v2",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "Project Page",
+      "url": "https://overthinking-cvpr26.github.io/Overthinking-VLMs-CVPR26.github.io/",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "Anatomy of a Lie: A Multi-Stage Diagnostic Framework for Tracing Hallucinations in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2603.15557v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "Segmentation-Based Attention Entropy: Detecting and Mitigating Object Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/abs/2603.16558v1",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "To See or To Please: Uncovering Visual Sycophancy and Split Beliefs in VLMs",
+      "url": "https://arxiv.org/abs/2603.18373v4",
+      "category": "detection",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "Plausible May Not Be Faithful: Probing Object Hallucination in Vision-Language Pre-training",
+      "url": "https://arxiv.org/pdf/2210.07688.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L399",
+      "line": 399,
+      "properties": {}
+    },
+    {
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "url": "https://arxiv.org/pdf/2302.00923.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L403",
+      "line": 403,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning",
+      "url": "https://arxiv.org/pdf/2306.14565.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Large Multimodal Models with Factually Augmented RLHF",
+      "url": "https://arxiv.org/pdf/2309.14525.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "Analyzing and Mitigating Object Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2310.00754.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L415",
+      "line": 415,
+      "properties": {}
+    },
+    {
+      "title": "Controlling Object Hallucination in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2310.01779.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "Hallucination Correction for Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2310.16045",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L425",
+      "line": 425,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Multimodal Hallucination through Self-Feedback Guided Revision",
+      "url": "https://arxiv.org/pdf/2311.07362.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinatory Toxicity in Visual Instruction Data",
+      "url": "https://arxiv.org/pdf/2311.13614.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Visual Language Models with Visual Supervision",
+      "url": "https://arxiv.org/pdf/2311.16479.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Hallucinations: Enhancing LVLMs through Hallucination-Aware Direct Preference Optimization",
+      "url": "https://arxiv.org/pdf/2311.16839.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2311.16922.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation",
+      "url": "https://arxiv.org/pdf/2311.17911.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Fine-Grained Hallucination by Fine-Tuning Large Vision-Language Models with Caption Rewrites",
+      "url": "https://arxiv.org/pdf/2312.01701.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback",
+      "url": "https://arxiv.org/pdf/2312.00849.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Open-Vocabulary Caption Hallucinations",
+      "url": "https://arxiv.org/pdf/2312.03631.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "Hallucination Augmented Contrastive Learning for Multimodal Large Language Model",
+      "url": "https://arxiv.org/pdf/2312.06968.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "Preference Distillation for Large Visual Language Models",
+      "url": "https://arxiv.org/pdf/2312.10665.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L458",
+      "line": 458,
+      "properties": {}
+    },
+    {
+      "title": "Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning",
+      "url": "https://arxiv.org/pdf/2401.12863.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing Multimodal Large Language Models with Vision Detection Models: An Empirical Study",
+      "url": "https://arxiv.org/pdf/2401.17981.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L463",
+      "line": 463,
+      "properties": {}
+    },
+    {
+      "title": "Improving Visual Grounding of Large Vision Language Models with Fine-Grained Reward Modeling",
+      "url": "https://arxiv.org/pdf/2402.06118.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "A Simple Method to Reduce Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2402.01345.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucination in Large Vision-Language Models via Classifier-Free Guidance",
+      "url": "https://arxiv.org/pdf/2402.08680.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "Visually Dehallucinative Instruction Generation: Know What You Don’t Know",
+      "url": "https://arxiv.org/pdf/2402.09717.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Fine-grained Unlearning Framework for Mitigating Hallucinations in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2402.09801.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "Logical Closed Loop: Uncovering Object Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2402.11622.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Modalities in Vision Large Language Models via Preference Fine-tuning",
+      "url": "https://arxiv.org/pdf/2402.11411.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Multimodal Hallucination from an EOS Decision Perspective",
+      "url": "https://arxiv.org/pdf/2402.14545.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "Seeing is Believing: Mitigating Hallucination in Large Vision-Language Models via CLIP-Guided Decoding",
+      "url": "https://arxiv.org/pdf/2402.15300.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L482",
+      "line": 482,
+      "properties": {}
+    },
+    {
+      "title": "Alleviating Hallucinations in Large Vision-Language Models via Image-Biased Decoding",
+      "url": "https://arxiv.org/pdf/2402.18476.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L485",
+      "line": 485,
+      "properties": {}
+    },
+    {
+      "title": "Object Hallucination Reduction via Adaptive Focal-Contrast Decoding",
+      "url": "https://arxiv.org/pdf/2403.00425.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L488",
+      "line": 488,
+      "properties": {}
+    },
+    {
+      "title": "Evaluating and Mitigating Number Hallucinations in Large Vision-Language Models: A Consistency Perspective",
+      "url": "https://arxiv.org/pdf/2403.01373.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Dialogue Hallucination for Large Multi-modal Models via Adversarial Instruction Tuning",
+      "url": "https://arxiv.org/pdf/2403.10492.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L494",
+      "line": 494,
+      "properties": {}
+    },
+    {
+      "title": "What if...?: Counterfactual Inception to Mitigate Hallucination Effects in Large Multimodal Models",
+      "url": "https://arxiv.org/pdf/2403.13513.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L496",
+      "line": 496,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Modal Hallucination Control by Visual Information Grounding",
+      "url": "https://arxiv.org/pdf/2403.14003.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L498",
+      "line": 498,
+      "properties": {}
+    },
+    {
+      "title": "Retrospect-then-Compare Mitigates Visual Hallucination",
+      "url": "https://arxiv.org/pdf/2403.14401.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L501",
+      "line": 501,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting Semantic Reconstruction to Mitigate Hallucinations in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2403.16167.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L504",
+      "line": 504,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2403.18715.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Large Vision-Language Models with Fine-grained AI Feedback",
+      "url": "https://arxiv.org/pdf/2404.05046.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models via Targeted Instruction Tuning",
+      "url": "https://arxiv.org/pdf/2404.10332.pdf",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "Teaching MLLMs with Faithful, Concise and Transferable Rationales",
+      "url": "https://arxiv.org/pdf/2404.11129",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "Exploring the Transferability of Visual Prompting for Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2404.11207",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L515",
+      "line": 515,
+      "properties": {}
+    },
+    {
+      "title": "Scaling up Text-Centric Visual Instruction Tuning",
+      "url": "https://arxiv.org/pdf/2404.12803",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L517",
+      "line": 517,
+      "properties": {}
+    },
+    {
+      "title": "Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback",
+      "url": "https://arxiv.org/pdf/2404.14233",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L519",
+      "line": 519,
+      "properties": {}
+    },
+    {
+      "title": "Enabling High-Fidelity Detailed Caption Generation",
+      "url": "https://arxiv.org/pdf/2404.19752",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "Calibrated Self-Rewarding Vision Language Models",
+      "url": "https://arxiv.org/pdf/2405.14622",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "Alleviating Hallucinations in Large Vision-Language Models through Hallucination-Induced Optimization",
+      "url": "https://arxiv.org/pdf/2405.15356",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L527",
+      "line": 527,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating LVLM Hallucinations in Cognitive Prompts by Bridging the Visual Perception Gap",
+      "url": "https://arxiv.org/pdf/2405.15683",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthines",
+      "url": "https://arxiv.org/pdf/2405.17220",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L531",
+      "line": 531,
+      "properties": {}
+    },
+    {
+      "title": "Don’t Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2405.17820",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "Random Image Transformations as a Universal Anti-hallucination Lever in LVLMs",
+      "url": "https://arxiv.org/pdf/2405.17821",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L535",
+      "line": 535,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucination via Data Augmented Contrastive Tuning",
+      "url": "https://arxiv.org/pdf/2405.18654",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "Alleviating Hallucination with Noise Perturbation for Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2405.20081",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "Contrasting Self-generated Description to Combat Hallucination in Large Multi-modal Model",
+      "url": "https://arxiv.org/pdf/2406.01920v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L542",
+      "line": 542,
+      "properties": {}
+    },
+    {
+      "title": "Conditional Preference Optimization for Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2406.11839",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L544",
+      "line": 544,
+      "properties": {}
+    },
+    {
+      "title": "Do More Details Always Introduce More Hallucinations in LVLM-based Image Captioning?",
+      "url": "https://arxiv.org/pdf/2406.12663",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L546",
+      "line": 546,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations in Large Vision-Language Models with Assembly of Global and Local Attention",
+      "url": "https://arxiv.org/pdf/2406.12718",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "Investigating and Mitigating the Multimodal Hallucination Snowballing in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2407.00569",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L552",
+      "line": 552,
+      "properties": {}
+    },
+    {
+      "title": "UNDERSTANDING ALIGNMENT IN MULTIMODAL LLMS: A COMPREHENSIVE STUDY",
+      "url": "https://arxiv.org/pdf/2407.02477",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "Reflective Instruction Tuning: Mitigating Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2407.11422",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L557",
+      "line": 557,
+      "properties": {}
+    },
+    {
+      "title": "Visual Augmented Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2408.05337",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L560",
+      "line": 560,
+      "properties": {}
+    },
+    {
+      "title": "Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs",
+      "url": "https://arxiv.org/pdf/2407.21771",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L564",
+      "line": 564,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Multilingual Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2408.00550",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L566",
+      "line": 566,
+      "properties": {}
+    },
+    {
+      "title": "Alleviating Hallucination in Large Vision-Language Models with Active Retrieval Augmentation",
+      "url": "https://arxiv.org/pdf/2408.00555",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L568",
+      "line": 568,
+      "properties": {}
+    },
+    {
+      "title": "Self-Introspective Decoding: Alleviating Hallucinations for Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2408.02032",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L571",
+      "line": 571,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models (LVLMs) via Language-Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2408.04664",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L575",
+      "line": 575,
+      "properties": {}
+    },
+    {
+      "title": "A Comprehensive Benchmark for Relation Hallucination Evaluation, Analysis and Mitigation in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2408.09429",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L578",
+      "line": 578,
+      "properties": {}
+    },
+    {
+      "title": "Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs",
+      "url": "https://arxiv.org/pdf/2408.10433",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L582",
+      "line": 582,
+      "properties": {}
+    },
+    {
+      "title": "Towards Analyzing and Mitigating Sycophancy in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2408.11261",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L586",
+      "line": 586,
+      "properties": {}
+    },
+    {
+      "title": "A Robust Visual Reward Model Optimized via Auxiliary Textual Preference Data",
+      "url": "https://arxiv.org/pdf/2408.12109",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L590",
+      "line": 590,
+      "properties": {}
+    },
+    {
+      "title": "Contrastive Decoding with Hallucination Visualization for Mitigating Hallucinations in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2408.13906",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L594",
+      "line": 594,
+      "properties": {}
+    },
+    {
+      "title": "Counterfactually Regularized Image Captioning",
+      "url": "https://arxiv.org/pdf/2408.16809",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L599",
+      "line": 599,
+      "properties": {}
+    },
+    {
+      "title": "Alleviating Hallucination in Large Vision-Language Models via Multi-View Multi-Path Reasoning",
+      "url": "https://arxiv.org/pdf/2408.17150",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L601",
+      "line": 601,
+      "properties": {}
+    },
+    {
+      "title": "Generating Faithful and Salient Text from Multimodal Data",
+      "url": "https://arxiv.org/pdf/2409.03961",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L604",
+      "line": 604,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Visual-Language Models via Re-Balancing Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2409.06485",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L606",
+      "line": 606,
+      "properties": {}
+    },
+    {
+      "title": "Effectively Enhancing Vision Language Large Models by Prompt Augmentation and Caption Utilization",
+      "url": "https://arxiv.org/pdf/2409.14484",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L609",
+      "line": 609,
+      "properties": {}
+    },
+    {
+      "title": "A Unified Hallucination Mitigation Framework for Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2409.16494",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L611",
+      "line": 611,
+      "properties": {}
+    },
+    {
+      "title": "Diagnosing Event Hallucinations in Video LLMs",
+      "url": "https://arxiv.org/pdf/2409.16597",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L613",
+      "line": 613,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination of LVLMs by Hierarchical Feedback Learning with Vision-enhanced Penalty Decoding",
+      "url": "https://arxiv.org/pdf/2409.20429",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L615",
+      "line": 615,
+      "properties": {}
+    },
+    {
+      "title": "Interpreting and Editing Vision-Language Representations to Mitigate Hallucinations",
+      "url": "https://arxiv.org/pdf/2410.02762",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L618",
+      "line": 618,
+      "properties": {}
+    },
+    {
+      "title": "Investigating and Mitigating Object Hallucinations in Pretrained Vision-Language (CLIP) Models",
+      "url": "https://arxiv.org/pdf/2410.03176",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L620",
+      "line": 620,
+      "properties": {}
+    },
+    {
+      "title": "Memory-Space Visual Retracing for Hallucination Mitigation in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2410.03577",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L622",
+      "line": 622,
+      "properties": {}
+    },
+    {
+      "title": "Dive into the Attention Mechanism of LVLM to Reduce Object Hallucination",
+      "url": "https://arxiv.org/pdf/2410.04514",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L624",
+      "line": 624,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Modality Prior-Induced Hallucinations in Multimodal Large Language Models via Deciphering Attention Causality",
+      "url": "https://arxiv.org/pdf/2410.04780",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L627",
+      "line": 627,
+      "properties": {}
+    },
+    {
+      "title": "Revisiting Object Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2410.06795",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L629",
+      "line": 629,
+      "properties": {}
+    },
+    {
+      "title": "Automatically Generating Visual Hallucination Test Cases for Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2410.11242",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L631",
+      "line": 631,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models via Summary-Guided Decoding",
+      "url": "https://arxiv.org/pdf/2410.13321",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L633",
+      "line": 633,
+      "properties": {}
+    },
+    {
+      "title": "Preference Modeling as Next-token Prediction in Vision-Language Alignment",
+      "url": "https://arxiv.org/pdf/2410.14148",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L636",
+      "line": 636,
+      "properties": {}
+    },
+    {
+      "title": "Modality-Fair Preference Optimization for Trustworthy MLLM Alignment",
+      "url": "https://arxiv.org/pdf/2410.15334",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L638",
+      "line": 638,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucination via Concentric Causal Attention",
+      "url": "https://arxiv.org/pdf/2410.15926",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L640",
+      "line": 640,
+      "properties": {}
+    },
+    {
+      "title": "Reducing Hallucinations in Vision-Language Models via Latent Space Steering",
+      "url": "https://arxiv.org/pdf/2410.15778",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L642",
+      "line": 642,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Large Vision Language Models viaVision-Guided Direct Preference Optimization",
+      "url": "https://arxiv.org/pdf/2411.02712",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L644",
+      "line": 644,
+      "properties": {}
+    },
+    {
+      "title": "Seeing Clearly by Layer Two: Enhancing Attention Heads to Alleviate Hallucination in LVLMs",
+      "url": "https://arxiv.org/pdf/2411.09968",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L646",
+      "line": 646,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Multimodal Large Language Model via Hallucination-targeted Direct Preference Optimization",
+      "url": "https://arxiv.org/pdf/2411.10436",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L648",
+      "line": 648,
+      "properties": {}
+    },
+    {
+      "title": "Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination",
+      "url": "https://arxiv.org/pdf/2411.12591",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L650",
+      "line": 650,
+      "properties": {}
+    },
+    {
+      "title": "Complementary Adaptive Token-level Contrastive Decoding to Mitigate Hallucinations in LVLMs",
+      "url": "https://arxiv.org/pdf/2411.12713",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L652",
+      "line": 652,
+      "properties": {}
+    },
+    {
+      "title": "Reducing Language bias in Large Vision-Language Models via Multimodal Dual-Attention and Soft-Image Guidance",
+      "url": "https://arxiv.org/pdf/2411.14279",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L654",
+      "line": 654,
+      "properties": {}
+    },
+    {
+      "title": "project page",
+      "url": "https://lacing-lvlm.github.io/",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L655",
+      "line": 655,
+      "properties": {}
+    },
+    {
+      "title": "Image-Object Cross-Level Trusted Intervention for Mitigating Object Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2411.15268",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L657",
+      "line": 657,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating the Hallucination of Large Vision Language Models by Visual Layer Fusion Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2411.15839",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L660",
+      "line": 660,
+      "properties": {}
+    },
+    {
+      "title": "Interpreting, Detecting and Mitigating Object Hallucinations via Attention Lens",
+      "url": "https://arxiv.org/pdf/2411.16724",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L662",
+      "line": 662,
+      "properties": {}
+    },
+    {
+      "title": "A Topic-level Self-Correctional Approach to Mitigate Hallucinations in MLLMs",
+      "url": "https://arxiv.org/pdf/2411.17265",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L664",
+      "line": 664,
+      "properties": {}
+    },
+    {
+      "title": "Probing Hidden Hallucination Factors in Large Vision-Language Model via Causality Analysis",
+      "url": "https://arxiv.org/pdf/2412.02946",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L666",
+      "line": 666,
+      "properties": {}
+    },
+    {
+      "title": "Scaling Inference-Time Search with Vision Value Model for Improved Visual Comprehension",
+      "url": "https://arxiv.org/pdf/2412.03704",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L668",
+      "line": 668,
+      "properties": {}
+    },
+    {
+      "title": "Unveiling and Assessing Verb Concept Hallucinations in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2412.04939",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L670",
+      "line": 670,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing Reliability in Vision-Language Models with Uncertainty-Guided Dropout Decoding",
+      "url": "https://arxiv.org/pdf/2412.06474",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "Delve into Visual Contrastive Decoding for Hallucination Mitigation of Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2412.06775",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L675",
+      "line": 675,
+      "properties": {}
+    },
+    {
+      "title": "Combating Multimodal LLM Hallucination via Bottom-Up Holistic Reasoning",
+      "url": "https://arxiv.org/pdf/2412.11124",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L677",
+      "line": 677,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations in Large Vision-Language Models via HalluSpace Projection",
+      "url": "https://arxiv.org/pdf/2412.13817",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L679",
+      "line": 679,
+      "properties": {}
+    },
+    {
+      "title": "Cracking the Code of Hallucination in LVLMs with Vision-aware Head Divergence",
+      "url": "https://arxiv.org/pdf/2412.13949",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L681",
+      "line": 681,
+      "properties": {}
+    },
+    {
+      "title": "Token Preference Optimization with Self-Calibrated Visual-Anchored Rewards for Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2412.14487",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L683",
+      "line": 683,
+      "properties": {}
+    },
+    {
+      "title": "A Multiagent Approach and Dual Evaluation Metrics for Factuality and Coverage",
+      "url": "https://arxiv.org/pdf/2412.15484",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L685",
+      "line": 685,
+      "properties": {}
+    },
+    {
+      "title": "Visual Ordinal Calibration for Mitigating Object Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2412.15739",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L687",
+      "line": 687,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Human Data: Aligning Multimodal Large Language Models by Iterative Self-Evolution",
+      "url": "https://arxiv.org/pdf/2412.15650",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L689",
+      "line": 689,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination for Large Vision Language Model by Inter-Modality Correlation Calibration Decoding",
+      "url": "https://arxiv.org/pdf/2501.01926",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L692",
+      "line": 692,
+      "properties": {}
+    },
+    {
+      "title": "Enhanced Visual Grounding Minimizes Hallucinations in Instructional Multimodal Models",
+      "url": "https://arxiv.org/pdf/2501.02699",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L694",
+      "line": 694,
+      "properties": {}
+    },
+    {
+      "title": "Learn to Self-guide Multimodal Reasoning in the Wild",
+      "url": "https://arxiv.org/pdf/2501.02964",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L696",
+      "line": 696,
+      "properties": {}
+    },
+    {
+      "title": "Towards Efficient Visual Hallucination Mitigation for Large Vision-Language Model via Visual-Aware Sparsification",
+      "url": "https://arxiv.org/pdf/2501.06553",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L698",
+      "line": 698,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models via DPO: On-Policy Data Hold the Key",
+      "url": "https://arxiv.org/search/cs?query=hallucination+vision+&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L700",
+      "line": 700,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations on Object Attributes using Multiview Images and Negative Instructions",
+      "url": "https://arxiv.org/pdf/2501.10011",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L702",
+      "line": 702,
+      "properties": {}
+    },
+    {
+      "title": "Fixing Imbalanced Attention to Mitigate In-Context Hallucination of Large Vision-Language Model",
+      "url": "https://arxiv.org/pdf/2501.12206",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L704",
+      "line": 704,
+      "properties": {}
+    },
+    {
+      "title": "Cross-modal Hierarchical Direct Preference Optimization for Multimodal LLMs",
+      "url": "https://arxiv.org/pdf/2501.16629",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L706",
+      "line": 706,
+      "properties": {}
+    },
+    {
+      "title": "Visual Noise for Mitigating Object Hallucinations in LVMs",
+      "url": "https://arxiv.org/pdf/2501.19164",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L708",
+      "line": 708,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models via Token Reduction",
+      "url": "https://arxiv.org/pdf/2502.00717",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L710",
+      "line": 710,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models with Internal Fact-based Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2502.01056",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L712",
+      "line": 712,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations in Large Vision-Language Models via Attention Calibration",
+      "url": "https://arxiv.org/pdf/2502.01969",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L714",
+      "line": 714,
+      "properties": {}
+    },
+    {
+      "title": "The Hidden Life of Tokens: Reducing Hallucination of Large Vision-Language Models via Visual Information Steering",
+      "url": "https://arxiv.org/pdf/2502.03628",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L716",
+      "line": 716,
+      "properties": {}
+    },
+    {
+      "title": "Self-Correcting Decoding with Generative Feedback for Mitigating Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2502.06130",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L718",
+      "line": 718,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Multimodal Spatial Relations through Constraint-Aware Prompting",
+      "url": "https://arxiv.org/pdf/2502.08317",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L720",
+      "line": 720,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Vision Language Models via Retrieval-Augmented Direct Preference Optimization",
+      "url": "https://arxiv.org/pdf/2502.13146",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L722",
+      "line": 722,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Vision-Language Models with Minimal Contrastive Images",
+      "url": "https://arxiv.org/pdf/2502.13928",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L724",
+      "line": 724,
+      "properties": {}
+    },
+    {
+      "title": "The Role of Background Information in Reducing Object Hallucination in Vision-Language Models: Insights from Cutoff API Prompting",
+      "url": "https://arxiv.org/pdf/2502.15389",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L726",
+      "line": 726,
+      "properties": {}
+    },
+    {
+      "title": "Exploring Causes and Mitigation of Hallucinations in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2502.16842",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L728",
+      "line": 728,
+      "properties": {}
+    },
+    {
+      "title": "Vision-Encoders (Already) Know What They See: Mitigating Object Hallucination via Simple Fine-Grained CLIPScore",
+      "url": "https://arxiv.org/pdf/2502.20034",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L730",
+      "line": 730,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models by Adaptively Constraining Information Flow",
+      "url": "https://arxiv.org/pdf/2502.20750",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L732",
+      "line": 732,
+      "properties": {}
+    },
+    {
+      "title": "Alleviating Hallucination via Dynamic Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2503.00361",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L734",
+      "line": 734,
+      "properties": {}
+    },
+    {
+      "title": "Cross-Temporal Prediction Connection for Vision-Language Model Hallucination Reduction",
+      "url": "https://arxiv.org/pdf/2503.04457",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L736",
+      "line": 736,
+      "properties": {}
+    },
+    {
+      "title": "A Causal Approach to Hallucination",
+      "url": "https://arxiv.org/pdf/2503.06169",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L738",
+      "line": 738,
+      "properties": {}
+    },
+    {
+      "title": "Reducing Multimodal Hallucinations with Perturbative Visual Training",
+      "url": "https://arxiv.org/pdf/2503.06486",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L740",
+      "line": 740,
+      "properties": {}
+    },
+    {
+      "title": "Eliminating Hallucinations in LVLMs by Zeroing out Hallucinatory Image Tokens",
+      "url": "https://arxiv.org/pdf/2503.07772",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L742",
+      "line": 742,
+      "properties": {}
+    },
+    {
+      "title": "Towards Zero-cost and Controllable Hallucination Mitigation of MLLMs",
+      "url": "https://arxiv.org/pdf/2503.08342",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L744",
+      "line": 744,
+      "properties": {}
+    },
+    {
+      "title": "Detect and Disentangle Attention Hijacking in LVLMs for Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2503.08216",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L746",
+      "line": 746,
+      "properties": {}
+    },
+    {
+      "title": "Adaptive Perception Magnification for Hallucination-Free VLM Decoding",
+      "url": "https://arxiv.org/pdf/2503.10183",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L748",
+      "line": 748,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating LVLM Object Hallucination Via Latent Truthful-Guided Pre-Intervention",
+      "url": "https://arxiv.org/pdf/2503.10602",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L750",
+      "line": 750,
+      "properties": {}
+    },
+    {
+      "title": "Visual Signal Enhancement for Object Hallucination Mitigation in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2503.13107",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L752",
+      "line": 752,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations in MLLMs via Multi-Frequency Perturbations",
+      "url": "https://arxiv.org/pdf/2503.14895",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L754",
+      "line": 754,
+      "properties": {}
+    },
+    {
+      "title": "Instruction-Aligned Visual Attention for Mitigating Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2503.18556",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L757",
+      "line": 757,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Low-Level Visual Hallucinations Requires Self-Awareness: Database, Model and Training Strategy",
+      "url": "https://arxiv.org/pdf/2503.20673",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L759",
+      "line": 759,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in LVLMs via Temporal Attention Real-time Accumulative Connection",
+      "url": "https://arxiv.org/pdf/2504.04099",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L761",
+      "line": 761,
+      "properties": {}
+    },
+    {
+      "title": "Robust Hallucination Mitigation in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2504.08809",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L763",
+      "line": 763,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Contrastive Decoding with Probabilistic Hallucination Detection - Mitigating Hallucinations in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2504.12137",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L766",
+      "line": 766,
+      "properties": {}
+    },
+    {
+      "title": "Reducing Hallucination in Vision-Language Models with Retrospective Resampling",
+      "url": "https://arxiv.org/pdf/2504.13169",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L771",
+      "line": 771,
+      "properties": {}
+    },
+    {
+      "title": "An Agentic Reasoning Approach for Enhancing Adversarial Robustness and Mitigating Hallucinations in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2504.14395",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L773",
+      "line": 773,
+      "properties": {}
+    },
+    {
+      "title": "Black-Box Visual Prompt Engineering for Mitigating Object Hallucination in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2504.21559",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L775",
+      "line": 775,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Image Captioning Hallucinations in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.03420",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L777",
+      "line": 777,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination through Rationale-Augmented Instruction Tuning",
+      "url": "https://arxiv.org/pdf/2505.07172",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L779",
+      "line": 779,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations via Inter-Layer ConsistencyAggregation in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.12343",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L781",
+      "line": 781,
+      "properties": {}
+    },
+    {
+      "title": "Cross-Image Contrastive Decoding: Precise, Lossless Suppression of Language Priors in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.10634",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L783",
+      "line": 783,
+      "properties": {}
+    },
+    {
+      "title": "Aligning Attention Distribution to Information Flow for Hallucination Mitigation in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.14257",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L786",
+      "line": 786,
+      "properties": {}
+    },
+    {
+      "title": "Online Vision-Language Preference Learning",
+      "url": "https://arxiv.org/pdf/2505.15963",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L788",
+      "line": 788,
+      "properties": {}
+    },
+    {
+      "title": "Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2505.16146",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L790",
+      "line": 790,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Vision-Language Models through Image-Guided Head Suppression",
+      "url": "https://arxiv.org/pdf/2505.16411",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L792",
+      "line": 792,
+      "properties": {}
+    },
+    {
+      "title": "Do You Keep an Eye on What I Ask? Mitigating Multimodal Hallucination via Attention-Guided Ensemble Decoding",
+      "url": "https://arxiv.org/pdf/2505.17529",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L794",
+      "line": 794,
+      "properties": {}
+    },
+    {
+      "title": "Seeing It or Not? Interpretable Vision-aware Latent Steering to Mitigate Object Hallucinations",
+      "url": "https://arxiv.org/pdf/2505.17812",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L796",
+      "line": 796,
+      "properties": {}
+    },
+    {
+      "title": "Image Tokens Matter: Mitigating Hallucination in Discrete Tokenizer-based Large Vision-Language Models via Latent Editing",
+      "url": "https://arxiv.org/pdf/2505.21547",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L798",
+      "line": 798,
+      "properties": {}
+    },
+    {
+      "title": "Enhancing Visual Reliance in Text Generation: A Bayesian Perspective on Mitigating Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.19498",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L800",
+      "line": 800,
+      "properties": {}
+    },
+    {
+      "title": "Grounding Language with Vision: A Conditional Mutual Information Calibrated Decoding Strategy for Reducing Hallucinations in LVLMs",
+      "url": "https://arxiv.org/pdf/2505.19678",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L802",
+      "line": 802,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Large Vision-Language Models via Adaptive Attention Calibration",
+      "url": "https://arxiv.org/pdf/2505.21472",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L804",
+      "line": 804,
+      "properties": {}
+    },
+    {
+      "title": "Retrieval Visual Contrastive Decoding to Mitigate Object Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.20569",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L806",
+      "line": 806,
+      "properties": {}
+    },
+    {
+      "title": "Bijective Maximum Likelihood Learning Approach to Hallucination Prediction and Mitigation in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.24649",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L808",
+      "line": 808,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://uark-cviu.github.io/",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L809",
+      "line": 809,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Multilingual Object Hallucination in Large Vision-Language Models with Cross-Lingual Attention Intervention",
+      "url": "https://arxiv.org/pdf/2506.11073",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L810",
+      "line": 810,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models via Entity-Centric Multimodal Preference Optimization",
+      "url": "https://arxiv.org/pdf/2506.04039",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L812",
+      "line": 812,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Large Multimodal Models Hallucinationsin Scene Text Spotting and Understanding",
+      "url": "https://arxiv.org/pdf/2506.05551",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L814",
+      "line": 814,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucination via Robust Local Perception Search",
+      "url": "https://arxiv.org/pdf/2506.06729",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L816",
+      "line": 816,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in MLLMs with Attention Causal Decoding",
+      "url": "https://arxiv.org/pdf/2505.16652",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L818",
+      "line": 818,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://mllms-farsight.github.io/",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L820",
+      "line": 820,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Behavioral Hallucination in Multimodal Large Language Models for Sequential Images",
+      "url": "https://arxiv.org/pdf/2506.07184",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L821",
+      "line": 821,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Perceptual Hallucination in Vision-Language Models via Selective and Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2506.08391",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L823",
+      "line": 823,
+      "properties": {}
+    },
+    {
+      "title": "Mixture of Decoding: An Attention-Inspired Adaptive Decoding Strategy to Mitigate Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2505.17061",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L825",
+      "line": 825,
+      "properties": {}
+    },
+    {
+      "title": "Revisit What You See: Disclose Language Prior in Vision Tokens for Efficient Guided Decoding of LVLMs",
+      "url": "https://arxiv.org/pdf/2506.09522",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L827",
+      "line": 827,
+      "properties": {}
+    },
+    {
+      "title": "Token-level Localization of Hallucinations for Vision Language Models",
+      "url": "https://arxiv.org/pdf/2506.10286",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L829",
+      "line": 829,
+      "properties": {}
+    },
+    {
+      "title": "Stop learning it all to mitigate visual hallucination, Focus on the hallucination target.",
+      "url": "https://arxiv.org/pdf/2506.11417",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L831",
+      "line": 831,
+      "properties": {}
+    },
+    {
+      "title": "Not All Tokens and Heads Are Equally Important: Dual-Level Attention Intervention for Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2506.12609",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L833",
+      "line": 833,
+      "properties": {}
+    },
+    {
+      "title": "Attention-Steerable Contrastive Decoding for Reducing Hallucination in MLLM",
+      "url": "https://arxiv.org/pdf/2506.14766",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L835",
+      "line": 835,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations via Recurrent Cross-Layer Reasoning in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2506.17587",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L837",
+      "line": 837,
+      "properties": {}
+    },
+    {
+      "title": "Memory-Driven Sparse Attention Matrix for LVLMs Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2506.17664",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L839",
+      "line": 839,
+      "properties": {}
+    },
+    {
+      "title": "Multimodal Grounding as a Corrective Lens for MLLMs",
+      "url": "https://arxiv.org/pdf/2506.17901",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L841",
+      "line": 841,
+      "properties": {}
+    },
+    {
+      "title": "Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2506.20168",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L843",
+      "line": 843,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination of Large Vision-Language Models via Dynamic Logits Calibration",
+      "url": "https://arxiv.org/pdf/2506.21509",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L845",
+      "line": 845,
+      "properties": {}
+    },
+    {
+      "title": "Reminder Composition Mitigates Hallucinations in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2506.22636",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L847",
+      "line": 847,
+      "properties": {}
+    },
+    {
+      "title": "An Input-Level Approach for Multimodal Language Model",
+      "url": "https://arxiv.org/pdf/2506.22636",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L849",
+      "line": 849,
+      "properties": {}
+    },
+    {
+      "title": "Caption-Sensitive Attention Intervention for Mitigating Object Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2506.23590",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L851",
+      "line": 851,
+      "properties": {}
+    },
+    {
+      "title": "One-Layer Intervention Sufficiently Mitigates Hallucinations in Large Vision-Language Models",
+      "url": "http://arxiv.org/pdf/2507.00898",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L853",
+      "line": 853,
+      "properties": {}
+    },
+    {
+      "title": "Identify, Isolate, and Purge: Mitigating Hallucinations in LVLMs via Self-Evolving Distillation",
+      "url": "https://arxiv.org/pdf/2507.04680",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L855",
+      "line": 855,
+      "properties": {}
+    },
+    {
+      "title": "\"Seeing Twice and Thinking Backwards\" via Closed-loop Training to Mitigate Hallucinations in Multimodal understanding",
+      "url": "https://arxiv.org/pdf/2507.04943",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L857",
+      "line": 857,
+      "properties": {}
+    },
+    {
+      "title": "Energy-Guided Decoding for Object Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2507.07731",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L859",
+      "line": 859,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations via Sentence-Level Early Intervention",
+      "url": "https://arxiv.org/pdf/2507.12455",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L861",
+      "line": 861,
+      "properties": {}
+    },
+    {
+      "title": "Extracting Visual Facts from Intermediate Layers for Mitigating Hallucinations in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2507.15652",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L863",
+      "line": 863,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Large Vision-Language Models by Interaction Guidance Sampling",
+      "url": "https://arxiv.org/pdf/2507.05056",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L865",
+      "line": 865,
+      "properties": {}
+    },
+    {
+      "title": "Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2507.09184",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L867",
+      "line": 867,
+      "properties": {}
+    },
+    {
+      "title": "A Layer-wise Integration and Suppression Approach for Hallucination Mitigation in Multimodal Large Language Models",
+      "url": "https://arxiv.org/pdf/2507.19110",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L869",
+      "line": 869,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations via Sentence-Level Early Intervention",
+      "url": "http://arxiv.org/pdf/2507.12455",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L871",
+      "line": 871,
+      "properties": {}
+    },
+    {
+      "title": "See Different, Think Better: Visual Variations Mitigating Hallucinations in LVLMs",
+      "url": "https://arxiv.org/pdf/2507.22003",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L873",
+      "line": 873,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models with Map-Level Attention Processing",
+      "url": "https://arxiv.org/pdf/2508.01653",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L875",
+      "line": 875,
+      "properties": {}
+    },
+    {
+      "title": "Cure or Poison? Embedding Instructions Visually Alters Hallucination in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2508.01678",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L877",
+      "line": 877,
+      "properties": {}
+    },
+    {
+      "title": "Analyzing and Mitigating Object Hallucination via Attention Lens",
+      "url": "https://arxiv.org/pdf/2508.02419",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L879",
+      "line": 879,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models via Style-Aware Visual Early Revision",
+      "url": "https://arxiv.org/pdf/2508.03177",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L881",
+      "line": 881,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Visual Attention Degradation in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2508.03469",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L883",
+      "line": 883,
+      "properties": {}
+    },
+    {
+      "title": "Hacking Hallucinations of MLLMs with Causal Sufficiency and Necessity",
+      "url": "https://arxiv.org/pdf/2508.04182",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L885",
+      "line": 885,
+      "properties": {}
+    },
+    {
+      "title": "Analyzing and Mitigating Object Hallucination: A Training Bias Perspective",
+      "url": "https://arxiv.org/pdf/2508.04567",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L887",
+      "line": 887,
+      "properties": {}
+    },
+    {
+      "title": "MinMax Token-Adaptive Preference Strategy for MLLM Hallucination Reduction",
+      "url": "https://arxiv.org/pdf/2507.21584",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L889",
+      "line": 889,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Region Fusion Decoding with Self-Consistency for Mitigating Hallucinations in LVLMs",
+      "url": "https://arxiv.org/pdf/2508.10264",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L891",
+      "line": 891,
+      "properties": {}
+    },
+    {
+      "title": "Controlling Multimodal LLMs via Reward-guided Decoding",
+      "url": "https://arxiv.org/pdf/2508.11616",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L893",
+      "line": 893,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Multimodal LLMs via Object-aware Preference Optimization",
+      "url": "https://arxiv.org/pdf/2508.20181",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L895",
+      "line": 895,
+      "properties": {}
+    },
+    {
+      "title": "Two Causes, Not One: Rethinking Omission and Fabrication Hallucinations in MLLMs",
+      "url": "https://arxiv.org/pdf/2509.00371",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L897",
+      "line": 897,
+      "properties": {}
+    },
+    {
+      "title": "Localizing and Correcting Hallucinations in Multimodal LLMs via Layer-to-head Attention Diagnostics",
+      "url": "https://arxiv.org/pdf/2509.07864",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L899",
+      "line": 899,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Large Vision-Language Models by Self-Injecting Hallucinations",
+      "url": "https://arxiv.org/pdf/2509.11287",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L901",
+      "line": 901,
+      "properties": {}
+    },
+    {
+      "title": "Diving into Mitigating Hallucinations from a Vision Perspective for Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2509.13836",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L903",
+      "line": 903,
+      "properties": {}
+    },
+    {
+      "title": "VLMs Representation Editing With Generative Anchors",
+      "url": "https://arxiv.org/pdf/2509.21997",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L905",
+      "line": 905,
+      "properties": {}
+    },
+    {
+      "title": "Reducing Hallucinations in Vision-Language Models via Self-Reflection",
+      "url": "https://arxiv.org/pdf/2509.23236",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L907",
+      "line": 907,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Visual Hallucinations via Semantic Curriculum Preference Optimization in MLLMs",
+      "url": "https://arxiv.org/pdf/2509.24491",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L909",
+      "line": 909,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Multimodal LLMs with Layer Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2509.25177",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L911",
+      "line": 911,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Multimodal Hallucinations via Gradient-based Self-Reflection",
+      "url": "https://arxiv.org/pdf/2509.03113",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L913",
+      "line": 913,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating LVLM Hallucinations by Image Head Masked Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2510.02790v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L916",
+      "line": 916,
+      "properties": {}
+    },
+    {
+      "title": "Interleaved Text-Image Reasoning Chains for Mitigating Relation Hallucinations",
+      "url": "https://arxiv.org/pdf/2510.06292v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L918",
+      "line": 918,
+      "properties": {}
+    },
+    {
+      "title": "On Epistemic Uncertainty of Visual Tokens for Object Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2510.09008v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L920",
+      "line": 920,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Multimodal Reasoning via Functional Attention Control",
+      "url": "https://arxiv.org/pdf/2510.10285v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L922",
+      "line": 922,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://anonymous.4open.science/r/Functional-Attention-Control",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L923",
+      "line": 923,
+      "properties": {}
+    },
+    {
+      "title": "When Images Speak Louder: Mitigating Language Bias-induced Hallucinations in VLMs through Cross-Modal Guidance",
+      "url": "https://arxiv.org/pdf/2510.10466v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L925",
+      "line": 925,
+      "properties": {}
+    },
+    {
+      "title": "Vision Language Models Map Logos to Text via Semantic Entanglement in the Visual Projector",
+      "url": "https://arxiv.org/pdf/2510.12287v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L927",
+      "line": 927,
+      "properties": {}
+    },
+    {
+      "title": "Self-Augmented Visual Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2510.13315v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L929",
+      "line": 929,
+      "properties": {}
+    },
+    {
+      "title": "Watermarking for Factuality: Guiding Vision-Language Models Toward Truth via Tri-layer Contrastive Decoding",
+      "url": "https://arxiv.org/pdf/2510.14304v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L931",
+      "line": 931,
+      "properties": {}
+    },
+    {
+      "title": "Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense",
+      "url": "https://arxiv.org/pdf/2510.16596v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L933",
+      "line": 933,
+      "properties": {}
+    },
+    {
+      "title": "Token-Level Inference-Time Alignment for Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2510.21794",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L936",
+      "line": 936,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Single Models: Mitigating Multimodal Hallucinations via Adaptive Token Ensemble Decoding",
+      "url": "https://arxiv.org/pdf/2510.18321v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L938",
+      "line": 938,
+      "properties": {}
+    },
+    {
+      "title": "PruneHal: Reducing Hallucinations in Multi-modal Large Language Models through Adaptive KV Cache Pruning",
+      "url": "https://arxiv.org/pdf/2510.19183v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L940",
+      "line": 940,
+      "properties": {}
+    },
+    {
+      "title": "Why LVLMs Are More Prone to Hallucinations in Longer Responses: The Role of Context",
+      "url": "https://arxiv.org/pdf/2510.20229v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L943",
+      "line": 943,
+      "properties": {}
+    },
+    {
+      "title": "Generating Accurate and Detailed Captions for High-Resolution Images",
+      "url": "https://arxiv.org/pdf/2510.27164v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L945",
+      "line": 945,
+      "properties": {}
+    },
+    {
+      "title": "Towards Mitigating Hallucinations in Large Vision-Language Models by Refining Textual Embeddings",
+      "url": "https://arxiv.org/pdf/2511.05017v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L947",
+      "line": 947,
+      "properties": {}
+    },
+    {
+      "title": "Causal Tracing of Object Representations in Large Vision Language Models: Mechanistic Interpretability and Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2511.05923v3",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L949",
+      "line": 949,
+      "properties": {}
+    },
+    {
+      "title": "Capturing Gaze Shifts for Guidance: Cross-Modal Fusion Enhancement for VLM Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2510.22067",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L951",
+      "line": 951,
+      "properties": {}
+    },
+    {
+      "title": "Causally-Grounded Dual-Path Attention Intervention for Object Hallucination Mitigation in LVLMs",
+      "url": "https://arxiv.org/pdf/2511.09018v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L953",
+      "line": 953,
+      "properties": {}
+    },
+    {
+      "title": "Taming Object Hallucinations with Verified Atomic Confidence Estimation",
+      "url": "https://arxiv.org/pdf/2511.09228v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L955",
+      "line": 955,
+      "properties": {}
+    },
+    {
+      "title": "Adaptive Residual-Update Steering for Low-Overhead Hallucination Mitigation in Large Vision Language Models",
+      "url": "https://arxiv.org/pdf/2511.10292v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L957",
+      "line": 957,
+      "properties": {}
+    },
+    {
+      "title": "code base",
+      "url": "https://anonymous.4open.science/r/RrUuDdDdER-1C13/README.md",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L958",
+      "line": 958,
+      "properties": {}
+    },
+    {
+      "title": "Suppressing VLM Hallucinations with Spectral Representation Filtering",
+      "url": "https://arxiv.org/pdf/2511.12220v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L960",
+      "line": 960,
+      "properties": {}
+    },
+    {
+      "title": "Unified Mitigation of LVLM Hallucinations across Alignment Formats",
+      "url": "https://arxiv.org/pdf/2511.17254v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L962",
+      "line": 962,
+      "properties": {}
+    },
+    {
+      "title": "Attention Guided Alignment in Efficient Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2511.17793v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L964",
+      "line": 964,
+      "properties": {}
+    },
+    {
+      "title": "Tell Model Where to Look: Mitigating Hallucinations in MLLMs by Vision-Guided Attention",
+      "url": "https://arxiv.org/pdf/2511.20032v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L966",
+      "line": 966,
+      "properties": {}
+    },
+    {
+      "title": "Optimizing LVLMs with On-Policy Data for Effective Hallucination Mitigation",
+      "url": "https://arxiv.org/pdf/2512.00706v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L968",
+      "line": 968,
+      "properties": {}
+    },
+    {
+      "title": "Hallucination Mitigation via Introspection and Cross-Modal Multi-Agent Collaboration",
+      "url": "https://arxiv.org/pdf/2512.02981v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L970",
+      "line": 970,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Multimodal Large Language Models via Visual Inference-Time Intervention",
+      "url": "https://arxiv.org/pdf/2512.03542v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L972",
+      "line": 972,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object and Action Hallucinations in Multimodal LLMs via Self-Augmented Contrastive Alignment",
+      "url": "https://arxiv.org/pdf/2512.04356v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L974",
+      "line": 974,
+      "properties": {}
+    },
+    {
+      "title": "Conscious Gaze: Adaptive Attention Mechanisms for Hallucination Mitigation in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2512.05546v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L976",
+      "line": 976,
+      "properties": {}
+    },
+    {
+      "title": "Toward More Reliable Artificial Intelligence: Reducing Hallucinations in Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2512.07564v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L978",
+      "line": 978,
+      "properties": {}
+    },
+    {
+      "title": "Sparse Autoencoder-Driven Visual Information Enhancement for Mitigating Object Hallucination",
+      "url": "https://arxiv.org/pdf/2512.07730v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L980",
+      "line": 980,
+      "properties": {}
+    },
+    {
+      "title": "VEGAS: Mitigating Hallucinations in Large Vision-Language Models via Vision-Encoder Attention Guided Adaptive Steering",
+      "url": "https://arxiv.org/pdf/2512.12089v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L982",
+      "line": 982,
+      "properties": {}
+    },
+    {
+      "title": "Revealing Perception and Generation Dynamics in LVLMs: Mitigating Hallucinations via Validated Dominance Correction",
+      "url": "https://arxiv.org/pdf/2512.18813v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L984",
+      "line": 984,
+      "properties": {}
+    },
+    {
+      "title": "Watch Closely: Mitigating Object Hallucinations in Large Vision-Language Models with Disentangled Decoding",
+      "url": "https://arxiv.org/pdf/2512.19070v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L986",
+      "line": 986,
+      "properties": {}
+    },
+    {
+      "title": "Look Closer! An Adversarial Parametric Editing Framework for Hallucination Mitigation in VLMs",
+      "url": "https://arxiv.org/pdf/2512.21999v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L988",
+      "line": 988,
+      "properties": {}
+    },
+    {
+      "title": "CoFi-Dec: Hallucination-Resistant Decoding via Coarse-to-Fine Generative Feedback in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2512.23453v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L990",
+      "line": 990,
+      "properties": {}
+    },
+    {
+      "title": "Cost-efficient Difficulty-aware Preference Optimization for Reducing MLLM Hallucinations",
+      "url": "https://arxiv.org/pdf/2601.00623v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L992",
+      "line": 992,
+      "properties": {}
+    },
+    {
+      "title": "A Training-Free Hallucination Mitigation Framework for Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2601.00659v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L994",
+      "line": 994,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating the Object Hallucination of LVLM via Adaptive Factual-Guided Activation Editing",
+      "url": "https://arxiv.org/pdf/2601.01957v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L996",
+      "line": 996,
+      "properties": {}
+    },
+    {
+      "title": "Text-Guided Layer Fusion Mitigates Hallucination in Multimodal LLMs",
+      "url": "https://arxiv.org/pdf/2601.03100v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L998",
+      "line": 998,
+      "properties": {}
+    },
+    {
+      "title": "Structure-Disrupted Contrastive Decoding for Mitigating Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2601.03500v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1000",
+      "line": 1000,
+      "properties": {}
+    },
+    {
+      "title": "Vision-Language Introspection: Mitigating Overconfident Hallucinations in MLLMs via Interpretable Bi-Causal Steering",
+      "url": "https://arxiv.org/pdf/2601.05159v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1002",
+      "line": 1002,
+      "properties": {}
+    },
+    {
+      "title": "VIB-Probe: Detecting and Mitigating Hallucinations in Vision-Language Models via Variational Information Bottleneck",
+      "url": "https://arxiv.org/pdf/2601.05547v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1004",
+      "line": 1004,
+      "properties": {}
+    },
+    {
+      "title": "Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization",
+      "url": "https://arxiv.org/pdf/2601.06224",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1007",
+      "line": 1007,
+      "properties": {}
+    },
+    {
+      "title": "Context-Aware Decoding for Faithful Vision-Language Generation",
+      "url": "https://arxiv.org/pdf/2601.05939v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1009",
+      "line": 1009,
+      "properties": {}
+    },
+    {
+      "title": "Attention-space Contrastive Guidance for Efficient Hallucination Mitigation in LVLMs",
+      "url": "https://arxiv.org/pdf/2601.13707v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1011",
+      "line": 1011,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Superficial Unlearning: Sharpness-Aware Robust Erasure of Hallucinations in Multimodal LLMs",
+      "url": "https://arxiv.org/pdf/2601.16527v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1013",
+      "line": 1013,
+      "properties": {}
+    },
+    {
+      "title": "Hallucination Begins Where Saliency Drops",
+      "url": "https://arxiv.org/pdf/2601.20279v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1015",
+      "line": 1015,
+      "properties": {}
+    },
+    {
+      "title": "Countering the Over-Reliance Trap: Mitigating Object Hallucination for LVLMs via a Self-Validation Framework",
+      "url": "https://arxiv.org/pdf/2601.22451v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1017",
+      "line": 1017,
+      "properties": {}
+    },
+    {
+      "title": "One-shot Optimized Steering Vector for Hallucination Mitigation for VLMs",
+      "url": "https://arxiv.org/pdf/2601.23041v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1019",
+      "line": 1019,
+      "properties": {}
+    },
+    {
+      "title": "Towards Interpretable Hallucination Analysis and Mitigation in LVLMs via Contrastive Neuron Steering",
+      "url": "https://arxiv.org/pdf/2602.00621v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1021",
+      "line": 1021,
+      "properties": {}
+    },
+    {
+      "title": "Residual Decoding: Mitigating Hallucinations in Large Vision-Language Models via History-Aware Residual Guidance",
+      "url": "https://arxiv.org/pdf/2602.01047v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1023",
+      "line": 1023,
+      "properties": {}
+    },
+    {
+      "title": "Model-Aware Contrastive Decoding via Counterfactual Data",
+      "url": "https://arxiv.org/pdf/2602.01740v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1025",
+      "line": 1025,
+      "properties": {}
+    },
+    {
+      "title": "KVSmooth: Mitigating Hallucination in Multi-modal Large Language Models through Key-Value Smoothing",
+      "url": "https://arxiv.org/pdf/2602.04268v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1028",
+      "line": 1028,
+      "properties": {}
+    },
+    {
+      "title": "Logit Lens Supervision for Patch-Level Explanations in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2602.01530v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1030",
+      "line": 1030,
+      "properties": {}
+    },
+    {
+      "title": "Implicit Reward-Guided Internal Sifting for Mitigating Multimodal Hallucination",
+      "url": "https://arxiv.org/abs/2602.01769v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1032",
+      "line": 1032,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement",
+      "url": "https://arxiv.org/abs/2602.04304v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1034",
+      "line": 1034,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucination in Large Vision-Language Models via Stability-Aware Knowledge Enhanced Decoding",
+      "url": "https://arxiv.org/abs/2602.09825v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1036",
+      "line": 1036,
+      "properties": {}
+    },
+    {
+      "title": "Fine-Grained Alignment of Attention Activation Manifolds via Mixture Gaussian Bridges to Mitigate Multimodal Hallucination",
+      "url": "https://arxiv.org/abs/2602.09541v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1038",
+      "line": 1038,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in Multimodal Large Language Models via Solving the Schrödinger Bridge Problem",
+      "url": "https://arxiv.org/abs/2602.09528v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1040",
+      "line": 1040,
+      "properties": {}
+    },
+    {
+      "title": "Attention to details, logits to truth: visual-aware attention and logits enhancement to mitigate hallucinations in LVLMs",
+      "url": "https://arxiv.org/abs/2602.09521v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1042",
+      "line": 1042,
+      "properties": {}
+    },
+    {
+      "title": "Eliminate Hallucination via Accurate Hallucination-Inducing Counterfactual Images",
+      "url": "https://arxiv.org/abs/2602.10425v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1044",
+      "line": 1044,
+      "properties": {}
+    },
+    {
+      "title": "Sparse Latent Steering to Mitigate Object Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/abs/2602.11824v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1046",
+      "line": 1046,
+      "properties": {}
+    },
+    {
+      "title": "Mask What Matters: Mitigating Object Hallucinations in Multimodal Large Language Models with Object-Aligned Visual Contrastive Decoding",
+      "url": "https://arxiv.org/abs/2602.11737v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1048",
+      "line": 1048,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Hallucinations in LVLMs via Step-wise Adaptive Visual Attention Amplification",
+      "url": "https://arxiv.org/abs/2602.13600v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1050",
+      "line": 1050,
+      "properties": {}
+    },
+    {
+      "title": "Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs",
+      "url": "https://arxiv.org/abs/2602.15556v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1052",
+      "line": 1052,
+      "properties": {}
+    },
+    {
+      "title": "Bridging Modality Disconnect in Self-Reflection via Closed-Loop Visually Grounded Verification",
+      "url": "https://arxiv.org/abs/2602.18746v3",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1054",
+      "line": 1054,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations in LVLMs via Hallucination Insensitivity Model Editing",
+      "url": "https://arxiv.org/abs/2602.18711v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1056",
+      "line": 1056,
+      "properties": {}
+    },
+    {
+      "title": "Causal Decoding for Hallucination-Resistant Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2602.21441v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1058",
+      "line": 1058,
+      "properties": {}
+    },
+    {
+      "title": "Beyond Dominant Patches: Spatial Credit Redistribution For Grounded Vision-Language Models",
+      "url": "https://arxiv.org/abs/2602.22469v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1060",
+      "line": 1060,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations in Large Vision-Language Models via Dynamic Suppression of Language Priors",
+      "url": "https://arxiv.org/abs/2602.22144v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1062",
+      "line": 1062,
+      "properties": {}
+    },
+    {
+      "title": "Dynamic Multimodal Activation Steering for Hallucination Mitigation in Large Vision-Language Models",
+      "url": "https://arxiv.org/abs/2602.21704v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1064",
+      "line": 1064,
+      "properties": {}
+    },
+    {
+      "title": "Single-Pass Evidence-Consistent Subspace Editing for Mitigating Hallucinations in Large Vision-Language Models",
+      "url": "https://arxiv.org/abs/2602.22727v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1066",
+      "line": 1066,
+      "properties": {}
+    },
+    {
+      "title": "Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation",
+      "url": "https://arxiv.org/abs/2602.24041v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1068",
+      "line": 1068,
+      "properties": {}
+    },
+    {
+      "title": "Self-Correction Inside the Model: Leveraging Layer Attention to Mitigate Hallucinations in Large Vision Language Models",
+      "url": "https://arxiv.org/abs/2603.00437v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1070",
+      "line": 1070,
+      "properties": {}
+    },
+    {
+      "title": "Adaptively Increasing Attention to Generated Text to Alleviate Hallucinations in LVLM",
+      "url": "https://arxiv.org/abs/2603.04908v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1072",
+      "line": 1072,
+      "properties": {}
+    },
+    {
+      "title": "Awakening Pixel-Level Visual Encoders with Adaptive Multi-Granularity Semantics for MLLM",
+      "url": "https://arxiv.org/abs/2603.08800v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1074",
+      "line": 1074,
+      "properties": {}
+    },
+    {
+      "title": "GroundCount: Grounding Vision-Language Models with Object Detection for Mitigating Counting Hallucinations",
+      "url": "https://arxiv.org/abs/2603.10978v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1076",
+      "line": 1076,
+      "properties": {}
+    },
+    {
+      "title": "Fighting Hallucinations with Counterfactuals: Diffusion-Guided Perturbations for LVLM Hallucination Suppression",
+      "url": "https://arxiv.org/abs/2603.10470v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1078",
+      "line": 1078,
+      "properties": {}
+    },
+    {
+      "title": "One Token, Two Fates: A Unified Framework via Vision Token Manipulation Against MLLMs Hallucination",
+      "url": "https://arxiv.org/abs/2603.10360v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1080",
+      "line": 1080,
+      "properties": {}
+    },
+    {
+      "title": "Grounding Self-Refinement for LVLM Hallucination Mitigation",
+      "url": "https://arxiv.org/abs/2603.16664v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1082",
+      "line": 1082,
+      "properties": {}
+    },
+    {
+      "title": "Locate-then-Sparsify: Attribution Guided Sparse Strategy for Visual Hallucination Mitigation",
+      "url": "https://arxiv.org/abs/2603.16284v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1084",
+      "line": 1084,
+      "properties": {}
+    },
+    {
+      "title": "Mitigating Object Hallucinations in LVLMs via Attention Imbalance Rectification",
+      "url": "https://arxiv.org/abs/2603.24058v2",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1086",
+      "line": 1086,
+      "properties": {}
+    },
+    {
+      "title": "Visual Attention Drifts,but Anchors Hold:Mitigating Hallucination in Multimodal Large Language Models via Cross-Layer Visual Anchors",
+      "url": "https://arxiv.org/abs/2603.25088v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1088",
+      "line": 1088,
+      "properties": {}
+    },
+    {
+      "title": "CLIP-Guided Test-Time Training Helps LVLMs See Better",
+      "url": "https://arxiv.org/abs/2603.26486v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1090",
+      "line": 1090,
+      "properties": {}
+    },
+    {
+      "title": "Sink-Aware Grounded Decoding for Multimodal Hallucination Mitigation",
+      "url": "https://arxiv.org/abs/2603.27898v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1092",
+      "line": 1092,
+      "properties": {}
+    },
+    {
+      "title": "Hallucination-aware intermediate representation edit in large vision-language models",
+      "url": "https://arxiv.org/abs/2603.29405v1",
+      "category": "mitigation",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1094",
+      "line": 1094,
+      "properties": {}
+    },
+    {
+      "title": "DEEP LEARNING APPROACHES ON IMAGE CAPTIONING: A REVIEW",
+      "url": "https://arxiv.org/pdf/2201.12944.pdf",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1101",
+      "line": 1101,
+      "properties": {}
+    },
+    {
+      "title": "A Survey on Hallucination in Large Vision-Language Models",
+      "url": "https://arxiv.org/pdf/2402.00253.pdf",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1102",
+      "line": 1102,
+      "properties": {}
+    },
+    {
+      "title": "Visual Hallucination: Definition, Quantification, and Prescriptive Remediations",
+      "url": "https://arxiv.org/pdf/2403.17306.pdf",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1103",
+      "line": 1103,
+      "properties": {}
+    },
+    {
+      "title": "Hallucination of Multimodal Large Language Models: A Survey",
+      "url": "https://arxiv.org/pdf/2404.18930",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1104",
+      "line": 1104,
+      "properties": {}
+    },
+    {
+      "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation Models: A Comprehensive Survey",
+      "url": "https://arxiv.org/pdf/2405.09589",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1105",
+      "line": 1105,
+      "properties": {}
+    },
+    {
+      "title": "Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey",
+      "url": "https://arxiv.org/pdf/2501.02189",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1106",
+      "line": 1106,
+      "properties": {}
+    },
+    {
+      "title": "Image Captioning Evaluation in the Age of Multimodal LLMs: Challenges and Future Perspectives",
+      "url": "https://arxiv.org/pdf/2503.19622",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1107",
+      "line": 1107,
+      "properties": {}
+    },
+    {
+      "title": "Exploring Hallucination of Large Multimodal Models in Video Understanding: Benchmark, Analysis and Mitigation",
+      "url": "https://arxiv.org/pdf/2503.19622",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1108",
+      "line": 1108,
+      "properties": {}
+    },
+    {
+      "title": "Why Contrastive Decoding Fails to Address Multimodal Hallucination",
+      "url": "https://arxiv.org/pdf/2504.10020",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1109",
+      "line": 1109,
+      "properties": {}
+    },
+    {
+      "title": "A Survey of Multimodal Hallucination Evaluation and Detection",
+      "url": "https://arxiv.org/pdf/2507.19024",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1110",
+      "line": 1110,
+      "properties": {}
+    },
+    {
+      "title": "Review of Hallucination Understanding in Large Language and Vision Models",
+      "url": "https://arxiv.org/pdf/2510.00034",
+      "category": "survey",
+      "source_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/blob/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a/README.md#L1111",
+      "line": 1111,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 474,
+  "unique_links": 450,
+  "category_count": 4,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "NishilBalar",
+      "url": "https://github.com/NishilBalar",
+      "contributions": 63
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 63,
+    "has_more": false,
+    "path_commit_count": 63,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:53:16.896028+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by NishilBalar/Awesome-LVLM-Hallucination contributors.",
+  "license": null,
+  "license_url": "https://github.com/NishilBalar/Awesome-LVLM-Hallucination/tree/e3b6af6513e586462bf7b83bcc6614a9dcd3a83a",
+  "digest": "9d39b7da559382bb330c0ea69d83a3abb0c0090f1208f9e90312155a931446cc"
+}

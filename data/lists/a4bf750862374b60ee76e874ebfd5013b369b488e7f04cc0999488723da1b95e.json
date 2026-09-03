@@ -1,0 +1,2144 @@
+{
+  "format_version": 3,
+  "repository_id": "115909376",
+  "name": "r3p3r/nixawk-awesome-windows-exploitation",
+  "revision": "90ae2f61539759acf7c03afde86f3922fc51eeec",
+  "readme_path": "README.md",
+  "readme_sha256": "b5ef13125a50625dcf64ff1c900ba1203e818893435ef9cdca5a651e8ba7698c",
+  "sections": [
+    {
+      "id": "awesome-windows-exploitation",
+      "title": "Awesome Windows Exploitation",
+      "level": 1,
+      "path": [
+        "Awesome Windows Exploitation"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#awesome-windows-exploitation",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 3,
+      "path": [
+        "Awesome Windows Exploitation",
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "a-namewindows_stack_overflows-windows-stack-overflows",
+      "title": "<a name=\"windows_stack_overflows\" />Windows stack overflows",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"windows_stack_overflows\" />Windows stack overflows"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-namewindows_stack_overflows-windows-stack-overflows",
+      "entries": 4
+    },
+    {
+      "id": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "title": "<a name=\"windows_heap_overflows\" />Windows heap overflows",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"windows_heap_overflows\" />Windows heap overflows"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-namewindows_heap_overflows-windows-heap-overflows",
+      "entries": 14
+    },
+    {
+      "id": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "title": "<a name=\"kernel_based_Windows_overflows\" />Kernel based Windows overflows",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"kernel_based_Windows_overflows\" />Kernel based Windows overflows"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "entries": 25
+    },
+    {
+      "id": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "title": "<a name=\"windows_kernel_memory_corruption\" />Windows Kernel Memory Corruption",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"windows_kernel_memory_corruption\" />Windows Kernel Memory Corruption"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "entries": 25
+    },
+    {
+      "id": "a-namereturn_oriented_programming-return-oriented-programming",
+      "title": "<a name=\"Return_oriented_programming\" />Return Oriented Programming",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"Return_oriented_programming\" />Return Oriented Programming"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-namereturn_oriented_programming-return-oriented-programming",
+      "entries": 19
+    },
+    {
+      "id": "a-namewindows_memory_protections-windows-memory-protections",
+      "title": "<a name=\"Windows_memory_protections\" />Windows memory protections",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"Windows_memory_protections\" />Windows memory protections"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-namewindows_memory_protections-windows-memory-protections",
+      "entries": 5
+    },
+    {
+      "id": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "title": "<a name=\"Bypassing_filter_and_protections\" />Bypassing filter and protections",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"Bypassing_filter_and_protections\" />Bypassing filter and protections"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "entries": 27
+    },
+    {
+      "id": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "title": "<a name=\"Typical_windows_exploits\" />Typical windows exploits",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"Typical_windows_exploits\" />Typical windows exploits"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-nametypical_windows_exploits-typical-windows-exploits",
+      "entries": 14
+    },
+    {
+      "id": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "title": "<a name=\"Exploit_development_tutorial_series\" />Exploit development tutorial series",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"Exploit_development_tutorial_series\" />Exploit development tutorial series"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "entries": 83
+    },
+    {
+      "id": "a-nametools-tools",
+      "title": "<a name=\"tools\" />Tools",
+      "level": 2,
+      "path": [
+        "Awesome Windows Exploitation",
+        "<a name=\"tools\" />Tools"
+      ],
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#a-nametools-tools",
+      "entries": 28
+    }
+  ],
+  "entries": [
+    {
+      "title": "Win32 Buffer Overflows (Location, Exploitation and Prevention)",
+      "url": "http://www.phrack.com/issues.html?issue=55&id=15#article",
+      "category": "a-namewindows_stack_overflows-windows-stack-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "Writing Stack Based Overflows on Windows",
+      "url": "http://www.packetstormsecurity.org/papers/win/",
+      "category": "a-namewindows_stack_overflows-windows-stack-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "Stack Smashing as of Today",
+      "url": "https://www.blackhat.com/presentations/bh-europe-09/Fritsch/Blackhat-Europe-2009-Fritsch-Bypassing-aslr-slides.pdf",
+      "category": "a-namewindows_stack_overflows-windows-stack-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "SMASHING C++ VPTRS",
+      "url": "http://phrack.org/issues/56/8.html",
+      "category": "a-namewindows_stack_overflows-windows-stack-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "Third Generation Exploitation smashing heap on 2k",
+      "url": "http://www.blackhat.com/presentations/win-usa-02/halvarflake-winsec02.ppt",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting the MSRPC Heap Overflow Part 1",
+      "url": "http://freeworld.thc.org/root/docs/exploit_writing/msrpcheap.pdf",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting the MSRPC Heap Overflow Part 2",
+      "url": "http://freeworld.thc.org/root/docs/exploit_writing/msrpcheap2.pdf",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "Windows heap overflow penetration in black hat",
+      "url": "https://www.blackhat.com/presentations/win-usa-04/bh-win-04-litchfield/bh-win-04-litchfield.ppt",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Glibc Adventures: The Forgotten Chunk",
+      "url": "http://www.contextis.com/documents/120/Glibc_Adventures-The_Forgotten_Chunks.pdf",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Pseudomonarchia jemallocum",
+      "url": "http://www.phrack.org/issues/68/10.html",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "The House Of Lore: Reloaded",
+      "url": "http://phrack.org/issues/67/8.html",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "Malloc Des-Maleficarum",
+      "url": "http://phrack.org/issues/66/10.html",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "free() exploitation technique",
+      "url": "http://phrack.org/issues/66/6.html",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Understanding the heap by breaking it",
+      "url": "https://www.blackhat.com/presentations/bh-usa-07/Ferguson/Whitepaper/bh-usa-07-ferguson-WP.pdf",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "The use of set_head to defeat the wilderness",
+      "url": "http://phrack.org/issues/64/9.html",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "The Malloc Maleficarum",
+      "url": "http://seclists.org/bugtraq/2005/Oct/118",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting The Wilderness",
+      "url": "http://seclists.org/vuln-dev/2004/Feb/25",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Advanced Doug lea's malloc exploits",
+      "url": "http://phrack.org/issues/61/6.html",
+      "category": "a-namewindows_heap_overflows-windows-heap-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "How to attack kernel based vulns on windows was done",
+      "url": "http://www.derkeiler.com/Mailing-Lists/Full-Disclosure/2003-08/0101.html",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Sec-lab old whitepaper",
+      "url": "http://www.artofhacking.com/tucops/hack/windows/live/aoh_win32dcv.htm",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Sec-lab old exploit",
+      "url": "http://www.securityfocus.com/bid/8329/info",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Windows Local Kernel Exploitation (based on sec-lab research)",
+      "url": "http://www.packetstormsecurity.org/hitb04/hitb04-sk-chong.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "How to exploit Windows kernel memory pool",
+      "url": "http://packetstormsecurity.nl/Xcon2005/Xcon2005_SoBeIt.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting remote kernel overflows in windows",
+      "url": "http://research.eeye.com/html/papers/download/StepIntoTheRing.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Kernel-mode Payloads on Windows in uninformed",
+      "url": "http://www.uninformed.org/?v=3&a=4&t=pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting 802.11 Wireless Driver Vulnerabilities on Windows",
+      "url": "http://www.uninformed.org/?v=6&a=2&t=pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "BH US 2007 Attacking the Windows Kernel",
+      "url": "http://www.blackhat.com/presentations/bh-usa-07/Lindsay/Whitepaper/bh-usa-07-lindsay-WP.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Remote and Local Exploitation of Network Drivers",
+      "url": "http://www.blackhat.com/presentations/bh-usa-07/Bulygin/Presentation/bh-usa-07-bulygin.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting Comon Flaws In Drivers",
+      "url": "http://www.reversemode.com/index.php?option=com_content&task=view&id=38&Itemid=1",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "I2OMGMT Driver Impersonation Attack",
+      "url": "http://www.immunityinc.com/downloads/DriverImpersonationAttack_i2omgmt.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Real World Kernel Pool Exploitation",
+      "url": "http://sebug.net/paper/Meeting-Documents/syscanhk/KernelPool.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Exploit for windows 2k3 and 2k8",
+      "url": "http://www.argeniss.com/research/TokenKidnapping.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Alyzing local privilege escalations in win32k",
+      "url": "http://www.uninformed.org/?v=10&a=2&t=pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Intro to Windows Kernel Security Development",
+      "url": "http://www.dontstuffbeansupyournose.com/trac/browser/projects/ucon09/Intro_NT_kernel_security_stuff.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "There’s a party at ring0 and you’re invited",
+      "url": "http://www.cr0.org/paper/to-jt-party-at-ring0.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Windows kernel vulnerability exploitation",
+      "url": "http://vexillium.org/dl.php?call_gate_exploitation.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "A New CVE-2015-0057 Exploit Technology",
+      "url": "https://www.blackhat.com/docs/asia-16/materials/asia-16-Wang-A-New-CVE-2015-0057-Exploit-Technology-wp.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting CVE-2014-4113 on Windows 8.1",
+      "url": "https://labs.bluefrostsecurity.de/publications/2016/01/07/exploiting-cve-2014-4113-on-windows-8.1/",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Easy local Windows Kernel exploitation",
+      "url": "http://media.blackhat.com/bh-us-12/Briefings/Cerrudo/BH_US_12_Cerrudo_Windows_Kernel_WP.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Windows Kernel Exploitation",
+      "url": "http://www.hacking-training.com/download/WKE.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting MS16-098 RGNOBJ Integer Overflow on Windows 8.1 x64 bit by abusing GDI objects",
+      "url": "https://sensepost.com/blog/2017/exploiting-ms16-098-rgnobj-integer-overflow-on-windows-8.1-x64-bit-by-abusing-gdi-objects/",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Windows Kernel Exploitation : This Time Font hunt you down in 4 bytes",
+      "url": "http://www.slideshare.net/PeterHlavaty/windows-kernel-exploitation-this-time-font-hunt-you-down-in-4-bytes",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Abusing GDI for ring0 exploit primitives",
+      "url": "https://www.coresecurity.com/system/files/publications/2016/10/Abusing-GDI-Reloaded-ekoparty-2016_0.pdf",
+      "category": "a-namekernel_based_windows_overflows-kernel-based-windows-overflows",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Remote Windows Kernel Exploitation",
+      "url": "https://cansecwest.com/core05/windowsremotekernel.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "windows kernel-mode payload fundamentals",
+      "url": "http://uninformed.org/index.cgi?v=3&a=4&t=sumry",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "exploiting 802.11 wireless driver vulnerabilities on windows",
+      "url": "http://www.uninformed.org/?v=6&a=2&t=sumry",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Kernel Pool Exploitation on Windows 7",
+      "url": "https://media.blackhat.com/bh-dc-11/Mandt/BlackHat_DC_2011_Mandt_kernelpool-wp.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Windows Kernel-mode GS Cookies and 1 bit of entropy",
+      "url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/vexillium.org/dl.php?/Windows_Kernel-mode_GS_Cookies_subverted.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Subtle information disclosure in WIN32K.SYS syscall return values",
+      "url": "http://j00ru.vexillium.org/?p=762",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "nt!NtMapUserPhysicalPages and Kernel Stack-Spraying Techniques",
+      "url": "http://j00ru.vexillium.org/?p=769",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "SMEP: What is it, and how to beat it on Windows",
+      "url": "http://j00ru.vexillium.org/?p=783",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Kernel Attacks through User-Mode Callbacks",
+      "url": "http://www.mista.nu/research/mandt-win32k-paper.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Windows Security Hardening Through Kernel Address Protection",
+      "url": "http://j00ru.vexillium.org/blog/04_12_11/Windows_Kernel_Address_Protection.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Reversing Windows8: Interesting Features of Kernel Security",
+      "url": "http://hitcon.org/2012/download/0720A5_360.MJ0011_Reversing%20Windows8-Interesting%20Features%20of%20Kernel%20Security.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Smashing The Atom: Extraordinary String Based Attacks",
+      "url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/mista.nu/research/smashing_the_atom.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Easy local Windows Kernel exploitation",
+      "url": "http://media.blackhat.com/bh-us-12/Briefings/Cerrudo/BH_US_12_Cerrudo_Windows_Kernel_WP.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Using a Patched Vulnerability to Bypass Windows 8 x64 Driver Signature Enforcement",
+      "url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/www.powerofcommunity.net/poc2012/mj0011.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "MWR Labs Pwn2Own 2013 Write-up - Kernel Exploit",
+      "url": "https://labs.mwrinfosecurity.com/blog/mwr-labs-pwn2own-2013-write-up-kernel-exploit/",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "KASLR Bypass Mitigations in Windows 8.1",
+      "url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/www.alex-ionescu.com/?p=82",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "First Dip Into the Kernel Pool: MS10-058",
+      "url": "http://doar-e.github.io/blog/2014/03/11/first-dip-into-the-kernel-pool-ms10-058/",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Windows 8 Kernel Memory Protections Bypass",
+      "url": "https://labs.mwrinfosecurity.com/blog/windows-8-kernel-memory-protections-bypass/",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "An Analysis of A Windows Kernel-Mode Vulnerability (CVE-2014-4113)",
+      "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/an-analysis-of-a-windows-kernel-mode-vulnerability-cve-2014-4113/",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Sheep Year Kernel Heap Fengshui: Spraying in the Big Kids’ Pool",
+      "url": "http://www.alex-ionescu.com/?p=231",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting the win32k!xxxEnableWndSBArrows use-after-free (CVE 2015-0057) bug on both 32-bit and 64-bit",
+      "url": "https://www.nccgroup.trust/globalassets/newsroom/uk/blog/documents/2015/07/exploiting-cve-2015.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting MS15-061 Microsoft Windows Kernel Use-After-Free (win32k!xxxSetClassLong)",
+      "url": "https://www.nccgroup.trust/globalassets/our-research/uk/whitepapers/2015/08/2015-08-27_-_ncc_group_-_exploiting_ms15_061_uaf_-_release.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting CVE-2015-2426, and How I Ported it to a Recent Windows 8.1 64-bit",
+      "url": "https://www.nccgroup.trust/globalassets/our-research/uk/whitepapers/2015/09/2015-08-28_-_ncc_group_-_exploiting_cve_2015_2426_-_release.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Abusing GDI for ring0 exploit primitives",
+      "url": "https://www.coresecurity.com/blog/abusing-gdi-for-ring0-exploit-primitives",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Duqu 2.0 Win32k exploit analysis",
+      "url": "https://www.virusbulletin.com/uploads/pdf/conference_slides/2015/OhFlorio-VB2015.pdf",
+      "category": "a-namewindows_kernel_memory_corruption-windows-kernel-memory-corruption",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "The Geometry of Innocent Flesh on the Bone: Return-into-libc without Function Calls",
+      "url": "http://cseweb.ucsd.edu/~hovav/dist/geometry.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Blind return-oriented programming",
+      "url": "http://www.scs.stanford.edu/brop/bittau-brop.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Sigreturn-oriented Programming",
+      "url": "https://www.cs.vu.nl/~herbertb/papers/srop_sp14.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Jump-Oriented Programming: A New Class of Code-Reuse Attack",
+      "url": "http://ftp.ncsu.edu/pub/tech/2010/TR-2010-8.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Out of control: Overcoming control-flow integrity",
+      "url": "http://www.cs.stevens.edu/~gportoka/files/outofcontrol_oakland14.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "ROP is Still Dangerous: Breaking Modern Defenses",
+      "url": "http://www.cs.berkeley.edu/~daw/papers/rop-usenix14.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "Loop-Oriented Programming(LOP): A New Code Reuse Attack to Bypass Modern Defenses",
+      "url": "https://www.sec.in.tum.de/assets/staff/muntean/Loop-Oriented_Programming_A_New_Code_Reuse_Attack_to_Bypass_Modern0ADefenses.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Systematic Analysis of Defenses Against Return-Oriented Programming",
+      "url": "https://people.csail.mit.edu/nickolai/papers/skowyra-rop.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Return-oriented programming without returns",
+      "url": "https://www.cs.uic.edu/~s/papers/noret_ccs2010/noret_ccs2010.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Jump-oriented programming: a new class of code-reuse attack",
+      "url": "https://www.comp.nus.edu.sg/~liangzk/papers/asiaccs11.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Stitching the gadgets: on the ineffectiveness of coarse-grained control-flow integrity protection",
+      "url": "https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-davi.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Size does matter: Why using gadget-chain length to prevent code-reuse attacks is hard",
+      "url": "https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-goktas.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Buffer overflow attacks bypassing DEP (NX/XD bits) – part 1",
+      "url": "http://www.mastropaolo.com/2005/06/04/buffer-overflow-attacks-bypassing-dep-nxxd-bits-part-1/",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Buffer overflow attacks bypassing DEP (NX/XD bits) – part 2",
+      "url": "http://www.mastropaolo.com/2005/06/05/buffer-overflow-attacks-bypassing-dep-nxxd-bits-part-2-code-injection/",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Practical Rop",
+      "url": "http://trailofbits.files.wordpress.com/2010/04/practical-rop.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Exploitation with WriteProcessMemory",
+      "url": "https://packetstormsecurity.com/papers/general/Windows-DEP-WPM.txt",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Exploitation techniques and mitigations on Windows",
+      "url": "http://hick.org/~mmiller/presentations/misc/exploitation_techniques_and_mitigations_on_windows.pdf",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "A little return oriented exploitation on Windows x86 – Part 1",
+      "url": "http://blog.harmonysecurity.com/2010/04/little-return-oriented-exploitation-on.html",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "A little return oriented exploitation on Windows x86 – Part 2",
+      "url": "http://blog.harmonysecurity.com/2010/04/little-return-oriented-exploitation-on_16.html",
+      "category": "a-namereturn_oriented_programming-return-oriented-programming",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Data Execution Prevention",
+      "url": "http://support.microsoft.com/kb/875352",
+      "category": "a-namewindows_memory_protections-windows-memory-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "/GS (Buffer Security Check)",
+      "url": "http://msdn.microsoft.com/en-us/library/Aa290051",
+      "category": "a-namewindows_memory_protections-windows-memory-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "/SAFESEH",
+      "url": "http://msdn.microsoft.com/en-us/library/9a89h429(VS.80).aspx",
+      "category": "a-namewindows_memory_protections-windows-memory-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "ASLR",
+      "url": "http://blogs.msdn.com/michael_howard/archive/2006/05/26/address-space-layout-randomization-in-windows-vista.aspx",
+      "category": "a-namewindows_memory_protections-windows-memory-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "SEHOP",
+      "url": "http://blogs.technet.com/srd/archive/2009/02/02/preventing-the-exploitation-of-seh-overwrites-with-sehop.aspx",
+      "category": "a-namewindows_memory_protections-windows-memory-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Third Generation Exploitation smashing heap on 2k",
+      "url": "http://www.blackhat.com/presentations/win-usa-02/halvarflake-winsec02.ppt",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Creating Arbitrary Shellcode In Unicode Expanded Strings",
+      "url": "http://www.net-security.org/dl/articles/unicodebo.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Advanced windows exploitation",
+      "url": "http://www.immunityinc.com/downloads/immunity_win32_exploitation.final2.ppt",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Defeating the Stack Based Buffer Overflow Prevention Mechanism of Microsoft Windows 2003 Server",
+      "url": "http://www.ngssoftware.com/papers/defeating-w2k3-stack-protection.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Reliable heap exploits and after that Windows Heap Exploitation (Win2KSP0 through WinXPSP2)",
+      "url": "http://cybertech.net/~sh0ksh0k/projects/winheap/XPSP2%20Heap%20Exploitation.ppt",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Safely Searching Process Virtual Address Space",
+      "url": "http://www.hick.org/code/skape/papers/egghunt-shellcode.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "IE exploit and used a technology called Heap Spray",
+      "url": "http://www.exploit-db.com/exploits/612",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing hardware-enforced DEP",
+      "url": "http://www.uninformed.org/?v=2&a=4&t=pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting Freelist[0] On XP Service Pack 2",
+      "url": "http://www.orkspace.net/secdocs/Windows/Protection/Bypass/Exploiting%20Freelist%5B0%5D%20On%20XP%20Service%20Pack%202.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Kernel-mode Payloads on Windows in uninformed",
+      "url": "http://www.uninformed.org/?v=3&a=4&t=pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting 802.11 Wireless Driver Vulnerabilities on Windows",
+      "url": "http://www.uninformed.org/?v=6&a=2&t=pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Exploiting Comon Flaws In Drivers",
+      "url": "http://www.reversemode.com/index.php?option=com_content&task=view&id=38&Itemid=1",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "Heap Feng Shui in JavaScript",
+      "url": "http://www.blackhat.com/presentations/bh-europe-07/Sotirov/Presentation/bh-eu-07-sotirov-apr19.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Understanding and bypassing Windows Heap Protection",
+      "url": "http://kkamagui.springnote.com/pages/1350732/attachments/579350",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "Heaps About Heaps",
+      "url": "http://www.insomniasec.com/publications/Heaps_About_Heaps.ppt",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing browser memory protections in Windows Vista",
+      "url": "http://taossa.com/archive/bh08sotirovdowd.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "Attacking the Vista Heap",
+      "url": "http://www.ruxcon.org.au/files/2008/hawkes_ruxcon.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Return oriented programming Exploitation without Code Injection",
+      "url": "http://cseweb.ucsd.edu/~hovav/dist/blackhat08.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Token Kidnapping and a super reliable exploit for windows 2k3 and 2k8",
+      "url": "http://www.argeniss.com/research/TokenKidnapping.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "Defeating DEP Immunity Way",
+      "url": "http://www.immunityinc.com/downloads/DEPLIB.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Practical Windows XP2003 Heap Exploitation",
+      "url": "http://www.blackhat.com/presentations/bh-usa-09/MCDONALD/BHUSA09-McDonald-WindowsHeap-PAPER.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing SEHOP",
+      "url": "http://www.sysdream.com/articles/sehop_en.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Interpreter Exploitation : Pointer Inference and JIT Spraying",
+      "url": "http://www.semantiscope.com/research/BHDC2010/BHDC-2010-Slides-v2.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Write-up of Pwn2Own 2010",
+      "url": "http://vreugdenhilresearch.nl/Pwn2Own-2010-Windows7-InternetExplorer8.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "All in one 0day presented in rootedCON",
+      "url": "http://wintercore.com/downloads/rootedcon_0day_english.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "DEP/ASLR bypass using 3rd party",
+      "url": "http://web.archive.org/web/20130820021520/http://abysssec.com/files/The_Arashi.pdf",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing EMET 5.0",
+      "url": "http://blog.sec-consult.com/2014/10/microsoft-emet-armor-against-zero-days.html",
+      "category": "a-namebypassing_filter_and_protections-bypassing-filter-and-protections",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "Real-world HW-DEP bypass Exploit",
+      "url": "http://www.exploit-db.com/exploits/3652",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "Bypassing DEP by returning into HeapCreate",
+      "url": "http://www.metasploit.com/redmine/projects/framework/repository/revisions/7246/entry/modules/exploits/windows/brightstor/mediasrv_sunrpc.rb",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "First public ASLR bypass exploit by using partial overwrite",
+      "url": "http://www.metasploit.com/redmine/projects/framework/repository/entry/modules/exploits/windows/email/ani_loadimage_chunksize.rb",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Heap spray and bypassing DEP",
+      "url": "http://skypher.com/SkyLined/download/www.edup.tudelft.nl/%7Ebjwever/exploits/InternetExploiter2.zip",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "First public exploit that used ROP for bypassing DEP in adobe lib TIFF vulnerability",
+      "url": "http://www.metasploit.com/redmine/projects/framework/repository/revisions/8833/raw/modules/exploits/windows/fileformat/adobe_libtiff.rb",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Exploit codes of bypassing browsers memory protections",
+      "url": "http://phreedom.org/research/bypassing-browser-memory-protections/bypassing-browser-memory-protections-code.zip",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "PoC’s on Tokken TokenKidnapping . PoC for 2k3 -part 1",
+      "url": "http://www.argeniss.com/research/Churrasco.zip",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "PoC’s on Tokken TokenKidnapping . PoC for 2k8 -part 2",
+      "url": "http://www.argeniss.com/research/Churrasco2.zip",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "An exploit works from win 3.1 to win 7",
+      "url": "http://lock.cmpxchg8b.com/c0af0967d904cef2ad4db766a00bc6af/KiTrap0D.zip",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Old ms08-067 metasploit module multi-target and DEP bypass",
+      "url": "http://metasploit.com/svn/framework3/trunk/modules/exploits/windows/smb/ms08_067_netapi.rb",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "PHP 6.0 Dev str_transliterate() Buffer overflow – NX + ASLR Bypass",
+      "url": "http://www.exploit-db.com/exploits/12189",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "SMBv2 Exploit",
+      "url": "http://www.metasploit.com/redmine/projects/framework/repository/revisions/8916/raw/modules/exploits/windows/smb/ms09_050_smb2_negotiate_func_index.rb",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Microsoft IIS 7.5 remote heap buffer overflow",
+      "url": "http://www.phrack.org/issues/68/12.html",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Browser Exploitation Case Study for Internet Explorer 11",
+      "url": "https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf",
+      "category": "a-nametypical_windows_exploits-typical-windows-exploits",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 1 : Stack Based Overflows",
+      "url": "https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 2 : Stack Based Overflows – jumping to shellcode",
+      "url": "https://www.corelan.be/index.php/2009/07/23/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-2/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 3 : SEH Based Exploits",
+      "url": "https://www.corelan.be/index.php/2009/07/25/writing-buffer-overflow-exploits-a-quick-and-basic-tutorial-part-3-seh/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 3b : SEH Based Exploits – just another example",
+      "url": "https://www.corelan.be/index.php/2009/07/28/seh-based-exploit-writing-tutorial-continued-just-another-example-part-3b/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 4 : From Exploit to Metasploit – The basics",
+      "url": "https://www.corelan.be/index.php/2009/08/12/exploit-writing-tutorials-part-4-from-exploit-to-metasploit-the-basics/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 5 : How debugger modules & plugins can speed up basic exploit development",
+      "url": "https://www.corelan.be/index.php/2009/09/05/exploit-writing-tutorial-part-5-how-debugger-modules-plugins-can-speed-up-basic-exploit-development/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 6 : Bypassing Stack Cookies, SafeSeh, SEHOP, HW DEP and ASLR",
+      "url": "https://www.corelan.be/index.php/2009/09/21/exploit-writing-tutorial-part-6-bypassing-stack-cookies-safeseh-hw-dep-and-aslr/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 7 : Unicode – from 0x00410041 to calc",
+      "url": "https://www.corelan.be/index.php/2009/11/06/exploit-writing-tutorial-part-7-unicode-from-0x00410041-to-calc/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 8 : Win32 Egg Hunting",
+      "url": "https://www.corelan.be/index.php/2010/01/09/exploit-writing-tutorial-part-8-win32-egg-hunting/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 9 : Introduction to Win32 shellcoding",
+      "url": "https://www.corelan.be/index.php/2010/02/25/exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 10 : Chaining DEP with ROP – the Rubik’s Cube",
+      "url": "https://www.corelan.be/index.php/2010/06/16/exploit-writing-tutorial-part-10-chaining-dep-with-rop-the-rubikstm-cube/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Exploit writing tutorial part 11 : Heap Spraying Demystified",
+      "url": "https://www.corelan.be/index.php/2011/12/31/exploit-writing-tutorial-part-11-heap-spraying-demystified/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Part 1: Introduction to Exploit Development",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/1.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Part 2: Saved Return Pointer Overflows",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/2.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "Part 3: Structured Exception Handler (SEH)",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/3.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Part 4: Egg Hunters",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/4.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Part 5: Unicode 0x00410041",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/5.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "Part 6: Writing W32 shellcode",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/6.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "Part 7: Return Oriented Programming",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/7.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Part 8: Spraying the Heap Chapter 1: Vanilla EIP",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/8.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "Part 9: Spraying the Heap Chapter 2: Use-After-Free",
+      "url": "https://www.fuzzysecurity.com/tutorials/expDev/11.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Part 10: Kernel Exploitation -> Stack Overflow",
+      "url": "http://www.fuzzysecurity.com/tutorials/expDev/14.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Part 11: Kernel Exploitation -> Write-What-Where",
+      "url": "http://www.fuzzysecurity.com/tutorials/expDev/15.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Part 12: Kernel Exploitation -> Null Pointer Dereference",
+      "url": "http://www.fuzzysecurity.com/tutorials/expDev/16.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Part 13: Kernel Exploitation -> Uninitialized Stack Variable",
+      "url": "http://www.fuzzysecurity.com/tutorials/expDev/17.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "Part 14: Kernel Exploitation -> Integer Overflow",
+      "url": "http://www.fuzzysecurity.com/tutorials/expDev/18.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "Part 15: Kernel Exploitation -> UAF",
+      "url": "http://www.fuzzysecurity.com/tutorials/expDev/19.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Part 16: Kernel Exploitation -> Pool Overflow",
+      "url": "http://www.fuzzysecurity.com/tutorials/expDev/20.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Part 17: Kernel Exploitation -> GDI Bitmap Abuse (Win7-10 32/64bit)",
+      "url": "http://www.fuzzysecurity.com/tutorials/expDev/21.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Heap Overflows For Humans 101",
+      "url": "http://www.fuzzysecurity.com/tutorials/mr_me/2.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "Heap Overflows For Humans 102",
+      "url": "http://www.fuzzysecurity.com/tutorials/mr_me/3.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Heap Overflows For Humans 102.5",
+      "url": "http://www.fuzzysecurity.com/tutorials/mr_me/4.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "Heap Overflows For Humans 103",
+      "url": "http://www.fuzzysecurity.com/tutorials/mr_me/5.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Heap Overflows For Humans 103.5",
+      "url": "http://www.fuzzysecurity.com/tutorials/mr_me/6.html",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Windows Exploit Development – Part 1: The Basics",
+      "url": "http://www.securitysift.com/windows-exploit-development-part-1-basics/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "Windows Exploit Development – Part 2: Intro to Stack Based Overflows",
+      "url": "http://www.securitysift.com/windows-exploit-development-part-2-intro-stack-overflow/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Windows Exploit Development – Part 3: Changing Offsets and Rebased Modules",
+      "url": "http://www.securitysift.com/windows-exploit-development-part-3-changing-offsets-and-rebased-modules/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Windows Exploit Development – Part 4: Locating Shellcode With Jumps",
+      "url": "http://www.securitysift.com/windows-exploit-development-part-4-locating-shellcode-jumps/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Windows Exploit Development – Part 5: Locating Shellcode With Egghunting",
+      "url": "http://www.securitysift.com/windows-exploit-development-part-5-locating-shellcode-egghunting/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Windows Exploit Development – Part 6: SEH Exploits",
+      "url": "http://www.securitysift.com/windows-exploit-development-part-6-seh-exploits/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Windows Exploit Development – Part 7: Unicode Buffer Overflows",
+      "url": "http://www.securitysift.com/windows-exploit-development-part-7-unicode-buffer-overflows/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Intro to Windows kernel exploitation 1/N: Kernel Debugging",
+      "url": "https://www.whitehatters.academy/intro-to-kernel-exploitation-part-1/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "Intro to Windows kernel exploitation 2/N: HackSys Extremely Vulnerable Driver",
+      "url": "https://www.whitehatters.academy/intro-to-windows-kernel-exploitation-2-windows-drivers/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Intro to Windows kernel exploitation 3/N: My first Driver exploit",
+      "url": "https://www.whitehatters.academy/intro-to-windows-kernel-exploitation-3-my-first-driver-exploit/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Intro to Windows kernel exploitation 3.5/N: A bit more of the HackSys Driver",
+      "url": "https://www.whitehatters.academy/intro-to-windows-kernel-exploitation-more-of-the-hacksys-driver/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Backdoor 103: Fully Undetected",
+      "url": "https://www.whitehatters.academy/backdoor-103-fully-undetected/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Backdoor 102",
+      "url": "https://www.whitehatters.academy/backdoor-102/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Backdoor 101",
+      "url": "https://www.whitehatters.academy/backdoor101-vysec/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "corelan - integer overflows - exercise solution",
+      "url": "http://thesprawl.org/research/corelan-integer-overflows-exercise-solution/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "heap overflows for humans - 102 - exercise solution",
+      "url": "http://thesprawl.org/research/heap-overflows-humans-102-exercise-solution/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "exploit exercises - protostar - final levels",
+      "url": "http://thesprawl.org/research/exploit-exercises-protostar-final/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "exploit exercises - protostar - network levels",
+      "url": "http://thesprawl.org/research/exploit-exercises-protostar-network/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "exploit exercises - protostar - heap levels",
+      "url": "http://thesprawl.org/research/exploit-exercises-protostar-heap/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "exploit exercises - protostar - format string levels",
+      "url": "http://thesprawl.org/research/exploit-exercises-protostar-format/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "exploit exercises - protostar - stack levels",
+      "url": "http://thesprawl.org/research/exploit-exercises-protostar-stack/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "open security training - introduction to software exploits - uninitialized variable overflow",
+      "url": "http://thesprawl.org/research/ost-introduction-software-exploits-uninit-overflow/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "open security training - introduction to software exploits - off-by-one",
+      "url": "http://thesprawl.org/research/ost-introduction-exploits-offbyone/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "open security training - introduction to re - bomb lab secret phase",
+      "url": "http://thesprawl.org/research/ost-introduction-re-bomb-secret-phase/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "open security training - introductory x86 - buffer overflow mystery box",
+      "url": "http://thesprawl.org/research/ost-introductory-x86-buffer-overflow-mystery-box/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "corelan - tutorial 10 - exercise solution",
+      "url": "http://thesprawl.org/research/corelan-tutorial-10-exercise-solution/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "corelan - tutorial 9 - exercise solution",
+      "url": "http://thesprawl.org/research/corelan-tutorial-9-exercise-solution/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "corelan - tutorial 7 - exercise solution",
+      "url": "http://thesprawl.org/research/corelan-tutorial-7-exercise-solution/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "getting from seh to nseh",
+      "url": "http://thesprawl.org/research/seh-to-nseh/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "corelan - tutorial 3b - exercise solution",
+      "url": "http://thesprawl.org/research/corelan-tutorial-3b-exercise-solution/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "WinDbg",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/17/windbg/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "Mona 2",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/19/mona-2/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Structure Exception Handling (SEH)",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/19/structured-exception-handling-seh/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Heap",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/20/heap/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Windows Basics",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/20/windows-basics/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "Shellcode",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/22/shellcode/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Exploitme1 (ret eip overwrite)",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/26/exploitme1-ret-eip-overwrite/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Exploitme2 (Stack cookies & SEH)",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/26/exploitme2-stack-cookies-seh-2/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Exploitme3 (DEP)",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/27/exploitme3-dep/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L277",
+      "line": 277,
+      "properties": {}
+    },
+    {
+      "title": "Exploitme4 (ASLR)",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/28/exploitme4-aslr/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "Exploitme5 (Heap Spraying & UAF)",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/29/exploitme5-heap-spraying-uaf/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "EMET 5.2",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/29/emet-5-2-2/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "Internet Explorer 10 - Reverse Engineering IE",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/31/ie10-reverse-engineering-ie/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "Internet Explorer 10 - From one-byte-write to full process space read/write",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/31/ie-10-from-one-byte-write-to-full-process-space-readwrite/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "Internet Explorer 10 - God Mode (1)",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/05/31/ie10-god-mode-1/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "Internet Explorer 10 - God Mode (2)",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/06/01/ie10-god-mode-2/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "Internet Explorer 10 - Use-After-Free bug",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/06/01/ie10-use-free-bug/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "Internet Explorer 11 - Part 1",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/06/02/ie11-part-1/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Internet Explorer 11 - Part 2",
+      "url": "http://expdev-kiuhnm.rhcloud.com/2015/06/02/ie11-part-2/",
+      "category": "a-nameexploit_development_tutorial_series-exploit-development-tutorial-series",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "angr",
+      "url": "https://github.com/angr/angr",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "BARF",
+      "url": "https://github.com/programa-stic/barf-project",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Binary Ninja",
+      "url": "https://binary.ninja/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "binnavi",
+      "url": "https://github.com/google/binnavi",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Bokken",
+      "url": "http://www.bokken.re/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "Capstone",
+      "url": "https://github.com/aquynh/capstone",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "codebro",
+      "url": "https://github.com/hugsy/codebro",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "dnSpy",
+      "url": "https://github.com/0xd4d/dnSpy",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Evan's Debugger (EDB)",
+      "url": "http://codef00.com/projects#debugger",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "GDB",
+      "url": "http://www.sourceware.org/gdb/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "GEF",
+      "url": "https://github.com/hugsy/gef",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "hackers-grep",
+      "url": "https://github.com/codypierce/hackers-grep",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "IDA Pro",
+      "url": "https://www.hex-rays.com/products/ida/index.shtml",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "Immunity Debugger",
+      "url": "http://debugger.immunityinc.com/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "ltrace",
+      "url": "http://ltrace.org/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "objdump",
+      "url": "https://en.wikipedia.org/wiki/Objdump",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "OllyDbg",
+      "url": "http://www.ollydbg.de/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "PANDA",
+      "url": "https://github.com/moyix/panda",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "PEDA",
+      "url": "https://github.com/longld/peda",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "pestudio",
+      "url": "https://winitor.com/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Process Monitor",
+      "url": "https://technet.microsoft.com/en-us/sysinternals/bb896645.aspx",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Pyew",
+      "url": "https://github.com/joxeankoret/pyew",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "Radare2",
+      "url": "http://www.radare.org/r/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "SMRT",
+      "url": "https://github.com/pidydx/SMRT",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "strace",
+      "url": "http://sourceforge.net/projects/strace/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "Udis86",
+      "url": "https://github.com/vmt/udis86",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "Vivisect",
+      "url": "https://github.com/vivisect/vivisect",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "X64dbg",
+      "url": "https://github.com/x64dbg/",
+      "category": "a-nametools-tools",
+      "source_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/README.md#L346",
+      "line": 346,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 244,
+  "unique_links": 238,
+  "category_count": 10,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "farzinenddo",
+      "url": "https://github.com/farzinenddo",
+      "contributions": 38
+    },
+    {
+      "login": "nixawk",
+      "url": "https://github.com/nixawk",
+      "contributions": 1
+    },
+    {
+      "login": "OJ",
+      "url": "https://github.com/OJ",
+      "contributions": 1
+    },
+    {
+      "login": "triplepointfive",
+      "url": "https://github.com/triplepointfive",
+      "contributions": 1
+    },
+    {
+      "login": "v-p-b",
+      "url": "https://github.com/v-p-b",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 42,
+    "has_more": false,
+    "path_commit_count": 42,
+    "public_contributors": 5,
+    "observed_at": "2026-09-03T17:56:10.252937+00:00"
+  },
+  "contributing_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/blob/90ae2f61539759acf7c03afde86f3922fc51eeec/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by r3p3r/nixawk-awesome-windows-exploitation contributors.",
+  "license": "Artistic-2.0",
+  "license_url": "https://github.com/r3p3r/nixawk-awesome-windows-exploitation/tree/90ae2f61539759acf7c03afde86f3922fc51eeec",
+  "digest": "a4bf750862374b60ee76e874ebfd5013b369b488e7f04cc0999488723da1b95e"
+}

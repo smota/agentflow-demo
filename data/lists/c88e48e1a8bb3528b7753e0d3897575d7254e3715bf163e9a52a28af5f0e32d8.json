@@ -1,0 +1,1193 @@
+{
+  "format_version": 3,
+  "repository_id": "999044006",
+  "name": "digailab/awesome-llm-implicit-reasoning",
+  "revision": "29a460bd87ce243bbcbb39ac060556ea7164525c",
+  "readme_path": "README.md",
+  "readme_sha256": "4cddb1d655d77b646cd0df93a46757209418e366e645a76f56a8a428e861c797",
+  "sections": [
+    {
+      "id": "1-introduction",
+      "title": "1. Introduction",
+      "level": 2,
+      "path": [
+        "1. Introduction"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#1-introduction",
+      "entries": 0
+    },
+    {
+      "id": "2-preliminaries",
+      "title": "2. Preliminaries",
+      "level": 2,
+      "path": [
+        "2. Preliminaries"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#2-preliminaries",
+      "entries": 0
+    },
+    {
+      "id": "3-technical-paradigms-for-implicit-reasoning",
+      "title": "3. Technical Paradigms for Implicit Reasoning",
+      "level": 2,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#3-technical-paradigms-for-implicit-reasoning",
+      "entries": 0
+    },
+    {
+      "id": "31-latent-optimization",
+      "title": "3.1 Latent Optimization",
+      "level": 3,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.1 Latent Optimization"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#31-latent-optimization",
+      "entries": 0
+    },
+    {
+      "id": "311-token-level",
+      "title": "3.1.1 Token-Level",
+      "level": 4,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.1 Latent Optimization",
+        "3.1.1 Token-Level"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#311-token-level",
+      "entries": 5
+    },
+    {
+      "id": "312-trajectory-level",
+      "title": "3.1.2 Trajectory-Level",
+      "level": 4,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.1 Latent Optimization",
+        "3.1.2 Trajectory-Level"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#312-trajectory-level",
+      "entries": 0
+    },
+    {
+      "id": "3121-semantic-anchoring",
+      "title": "3.1.2.1 Semantic Anchoring",
+      "level": 5,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.1 Latent Optimization",
+        "3.1.2 Trajectory-Level",
+        "3.1.2.1 Semantic Anchoring"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#3121-semantic-anchoring",
+      "entries": 5
+    },
+    {
+      "id": "3122-adaptive-efficiency",
+      "title": "3.1.2.2 Adaptive Efficiency",
+      "level": 5,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.1 Latent Optimization",
+        "3.1.2 Trajectory-Level",
+        "3.1.2.2 Adaptive Efficiency"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#3122-adaptive-efficiency",
+      "entries": 3
+    },
+    {
+      "id": "3123-progressive-refinement",
+      "title": "3.1.2.3 Progressive Refinement",
+      "level": 5,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.1 Latent Optimization",
+        "3.1.2 Trajectory-Level",
+        "3.1.2.3 Progressive Refinement"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#3123-progressive-refinement",
+      "entries": 6
+    },
+    {
+      "id": "3124-exploratory-diversification",
+      "title": "3.1.2.4 Exploratory Diversification",
+      "level": 5,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.1 Latent Optimization",
+        "3.1.2 Trajectory-Level",
+        "3.1.2.4 Exploratory Diversification"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#3124-exploratory-diversification",
+      "entries": 10
+    },
+    {
+      "id": "313-internal-state-level",
+      "title": "3.1.3 Internal-State-Level",
+      "level": 4,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.1 Latent Optimization",
+        "3.1.3 Internal-State-Level"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#313-internal-state-level",
+      "entries": 9
+    },
+    {
+      "id": "32-signal-guided-control",
+      "title": "3.2 Signal-Guided Control",
+      "level": 3,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.2 Signal-Guided Control"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#32-signal-guided-control",
+      "entries": 0
+    },
+    {
+      "id": "321-single-type-signal",
+      "title": "3.2.1 Single-Type Signal",
+      "level": 4,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.2 Signal-Guided Control",
+        "3.2.1 Single-Type Signal"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#321-single-type-signal",
+      "entries": 7
+    },
+    {
+      "id": "322-multi-type-signal",
+      "title": "3.2.2 Multi-Type Signal",
+      "level": 4,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.2 Signal-Guided Control",
+        "3.2.2 Multi-Type Signal"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#322-multi-type-signal",
+      "entries": 2
+    },
+    {
+      "id": "33-layer-recurrent-execution",
+      "title": "3.3 Layer-Recurrent Execution",
+      "level": 3,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.3 Layer-Recurrent Execution"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#33-layer-recurrent-execution",
+      "entries": 7
+    },
+    {
+      "id": "34-discussion",
+      "title": "3.4 Discussion",
+      "level": 3,
+      "path": [
+        "3. Technical Paradigms for Implicit Reasoning",
+        "3.4 Discussion"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#34-discussion",
+      "entries": 0
+    },
+    {
+      "id": "4-mechanistic-and-behavioral-evidence",
+      "title": "4. Mechanistic and Behavioral Evidence",
+      "level": 2,
+      "path": [
+        "4. Mechanistic and Behavioral Evidence"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#4-mechanistic-and-behavioral-evidence",
+      "entries": 0
+    },
+    {
+      "id": "41-layer-wise-structural-evidence",
+      "title": "4.1 Layer-wise Structural Evidence",
+      "level": 3,
+      "path": [
+        "4. Mechanistic and Behavioral Evidence",
+        "4.1 Layer-wise Structural Evidence"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#41-layer-wise-structural-evidence",
+      "entries": 5
+    },
+    {
+      "id": "42-behavioral-signatures",
+      "title": "4.2 Behavioral Signatures",
+      "level": 3,
+      "path": [
+        "4. Mechanistic and Behavioral Evidence",
+        "4.2 Behavioral Signatures"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#42-behavioral-signatures",
+      "entries": 4
+    },
+    {
+      "id": "43-representation-based-probing",
+      "title": "4.3 Representation-Based Probing",
+      "level": 3,
+      "path": [
+        "4. Mechanistic and Behavioral Evidence",
+        "4.3 Representation-Based Probing"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#43-representation-based-probing",
+      "entries": 8
+    },
+    {
+      "id": "5-evaluation-methods-and-benchmarks",
+      "title": "5. Evaluation Methods and Benchmarks",
+      "level": 2,
+      "path": [
+        "5. Evaluation Methods and Benchmarks"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#5-evaluation-methods-and-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "51-metrics",
+      "title": "5.1 Metrics",
+      "level": 3,
+      "path": [
+        "5. Evaluation Methods and Benchmarks",
+        "5.1 Metrics"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#51-metrics",
+      "entries": 0
+    },
+    {
+      "id": "52-benchmarks",
+      "title": "5.2 Benchmarks",
+      "level": 3,
+      "path": [
+        "5. Evaluation Methods and Benchmarks",
+        "5.2 Benchmarks"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#52-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "521-general-knowledge-and-commonsense-reasoning-benchmarks",
+      "title": "5.2.1 General Knowledge and Commonsense Reasoning Benchmarks",
+      "level": 4,
+      "path": [
+        "5. Evaluation Methods and Benchmarks",
+        "5.2 Benchmarks",
+        "5.2.1 General Knowledge and Commonsense Reasoning Benchmarks"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#521-general-knowledge-and-commonsense-reasoning-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "522-mathematical-reasoning-and-programming-benchmarks",
+      "title": "5.2.2 Mathematical Reasoning and Programming Benchmarks",
+      "level": 4,
+      "path": [
+        "5. Evaluation Methods and Benchmarks",
+        "5.2 Benchmarks",
+        "5.2.2 Mathematical Reasoning and Programming Benchmarks"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#522-mathematical-reasoning-and-programming-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "523-language-modeling-and-reading-comprehension-benchmarks",
+      "title": "5.2.3 Language Modeling and Reading Comprehension Benchmarks",
+      "level": 4,
+      "path": [
+        "5. Evaluation Methods and Benchmarks",
+        "5.2 Benchmarks",
+        "5.2.3 Language Modeling and Reading Comprehension Benchmarks"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#523-language-modeling-and-reading-comprehension-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "524-complex-multi-hop-and-multidisciplinary-qa-benchmarks",
+      "title": "5.2.4 Complex Multi-hop and Multidisciplinary QA Benchmarks",
+      "level": 4,
+      "path": [
+        "5. Evaluation Methods and Benchmarks",
+        "5.2 Benchmarks",
+        "5.2.4 Complex Multi-hop and Multidisciplinary QA Benchmarks"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#524-complex-multi-hop-and-multidisciplinary-qa-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "525-multi-modal-reasoning-benchmarks",
+      "title": "5.2.5 Multi-modal Reasoning Benchmarks",
+      "level": 4,
+      "path": [
+        "5. Evaluation Methods and Benchmarks",
+        "5.2 Benchmarks",
+        "5.2.5 Multi-modal Reasoning Benchmarks"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#525-multi-modal-reasoning-benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "related-survey",
+      "title": "Related Survey",
+      "level": 2,
+      "path": [
+        "Related Survey"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#related-survey",
+      "entries": 0
+    },
+    {
+      "id": "reasoning",
+      "title": "Reasoning",
+      "level": 3,
+      "path": [
+        "Related Survey",
+        "Reasoning"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#reasoning",
+      "entries": 6
+    },
+    {
+      "id": "efficient-reasoning",
+      "title": "Efficient Reasoning",
+      "level": 3,
+      "path": [
+        "Related Survey",
+        "Efficient Reasoning"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#efficient-reasoning",
+      "entries": 6
+    },
+    {
+      "id": "latent-reasoning",
+      "title": "Latent Reasoning",
+      "level": 3,
+      "path": [
+        "Related Survey",
+        "Latent Reasoning"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#latent-reasoning",
+      "entries": 2
+    },
+    {
+      "id": "related-reposority",
+      "title": "Related Reposority",
+      "level": 2,
+      "path": [
+        "Related Reposority"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#related-reposority",
+      "entries": 0
+    },
+    {
+      "id": "reasoning-1",
+      "title": "Reasoning",
+      "level": 3,
+      "path": [
+        "Related Reposority",
+        "Reasoning"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#reasoning-1",
+      "entries": 2
+    },
+    {
+      "id": "efficient-reasoning-1",
+      "title": "Efficient Reasoning",
+      "level": 3,
+      "path": [
+        "Related Reposority",
+        "Efficient Reasoning"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#efficient-reasoning-1",
+      "entries": 5
+    },
+    {
+      "id": "-citation",
+      "title": "📖 Citation",
+      "level": 2,
+      "path": [
+        "📖 Citation"
+      ],
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#-citation",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.08524v1",
+      "category": "311-token-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.12629",
+      "category": "311-token-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "[ICML]",
+      "url": "https://icml.cc/virtual/2025/poster/44849",
+      "category": "311-token-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "[ICML]",
+      "url": "https://icml.cc/virtual/2025/poster/44409",
+      "category": "311-token-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2510.15522",
+      "category": "311-token-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2412.13171",
+      "category": "3121-semantic-anchoring",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2409.08561",
+      "category": "3121-semantic-anchoring",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.21074",
+      "category": "3121-semantic-anchoring",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2508.00574",
+      "category": "3121-semantic-anchoring",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2509.20317",
+      "category": "3121-semantic-anchoring",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.15589",
+      "category": "3122-adaptive-efficiency",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.09601",
+      "category": "3122-adaptive-efficiency",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.16552",
+      "category": "3122-adaptive-efficiency",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2405.14838",
+      "category": "3123-progressive-refinement",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "[ICLR]",
+      "url": "https://iclr.cc/virtual/2025/32772",
+      "category": "3123-progressive-refinement",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2501.19201",
+      "category": "3123-progressive-refinement",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.20674",
+      "category": "3123-progressive-refinement",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2503.18866",
+      "category": "3123-progressive-refinement",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2511.08983",
+      "category": "3123-progressive-refinement",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2411.04282",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.15778v1",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2510.05069",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2508.03440",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2509.19170",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.12134",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.11484",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2510.07745v1",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.23648",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2511.07124",
+      "category": "3124-exploratory-diversification",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2311.01460",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "[NeurIPS Workshop]",
+      "url": "https://neurips.cc/virtual/2024/104303",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2503.22675",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.21030",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.18962",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "[ICML]",
+      "url": "https://icml.cc/virtual/2025/poster/43587",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.18454",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2412.17747",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2510.00494",
+      "category": "313-internal-state-level",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2405.08644",
+      "category": "321-single-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "[ICLR]",
+      "url": "https://iclr.cc/virtual/2024/poster/17771",
+      "category": "321-single-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "[CoLM--OpenReview]",
+      "url": "https://openreview.net/forum?id=oRXPiSOGH9#discussion",
+      "category": "321-single-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "[CoLM--OpenReview]",
+      "url": "https://openreview.net/forum?id=NikbrdtYvG#discussion",
+      "category": "321-single-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "[CoLM--OpenReview]",
+      "url": "https://openreview.net/forum?id=wi9IffRhVM",
+      "category": "321-single-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.13308v1",
+      "category": "321-single-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2506.03616",
+      "category": "321-single-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2411.13504",
+      "category": "322-multi-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.13379",
+      "category": "322-multi-type-signal",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.17416",
+      "category": "33-layer-recurrent-execution",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.13842",
+      "category": "33-layer-recurrent-execution",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "[NeurIPS Workshop]",
+      "url": "https://openreview.net/pdf?id=rBgo4Mi8vZ",
+      "category": "33-layer-recurrent-execution",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2511.08577",
+      "category": "33-layer-recurrent-execution",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.08482",
+      "category": "33-layer-recurrent-execution",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.05171",
+      "category": "33-layer-recurrent-execution",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2510.25741",
+      "category": "33-layer-recurrent-execution",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "[ACL-LREC-COLING]",
+      "url": "https://aclanthology.org/2024.lrec-main.840/",
+      "category": "41-layer-wise-structural-evidence",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2503.07604",
+      "category": "41-layer-wise-structural-evidence",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L481",
+      "line": 481,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.14530",
+      "category": "41-layer-wise-structural-evidence",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L486",
+      "line": 486,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.12514",
+      "category": "41-layer-wise-structural-evidence",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.19245",
+      "category": "41-layer-wise-structural-evidence",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L494",
+      "line": 494,
+      "properties": {}
+    },
+    {
+      "title": "[ICML Workshop--OpenReview]",
+      "url": "https://openreview.net/forum?id=ns8IH5Sn5y",
+      "category": "42-behavioral-signatures",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "[ACL]",
+      "url": "https://aclanthology.org/2024.acl-long.550/",
+      "category": "42-behavioral-signatures",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "[NeurIPS]",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/504fa7e518da9d1b53a233ed20a38b46-Abstract-Conference.html",
+      "category": "42-behavioral-signatures",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L516",
+      "line": 516,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2504.10615",
+      "category": "42-behavioral-signatures",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "[EMNLP]",
+      "url": "https://aclanthology.org/2023.emnlp-main.299/",
+      "category": "43-representation-based-probing",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L535",
+      "line": 535,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2412.01113",
+      "category": "43-representation-based-probing",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2411.15862",
+      "category": "43-representation-based-probing",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L545",
+      "line": 545,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2406.13858",
+      "category": "43-representation-based-probing",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "[ACL]",
+      "url": "https://aclanthology.org/2024.findings-acl.242/",
+      "category": "43-representation-based-probing",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L554",
+      "line": 554,
+      "properties": {}
+    },
+    {
+      "title": "[ICLR Workshop]",
+      "url": "https://iclr.cc/virtual/2025/33087",
+      "category": "43-representation-based-probing",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L560",
+      "line": 560,
+      "properties": {}
+    },
+    {
+      "title": "[ICLR]",
+      "url": "https://iclr.cc/virtual/2025/poster/28606",
+      "category": "43-representation-based-probing",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L564",
+      "line": 564,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2507.02199",
+      "category": "43-representation-based-probing",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L569",
+      "line": 569,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2312.11562",
+      "category": "reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L624",
+      "line": 624,
+      "properties": {}
+    },
+    {
+      "title": "[ACL]",
+      "url": "https://aclanthology.org/2024.eacl-srw.17/",
+      "category": "reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L628",
+      "line": 628,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2504.21277",
+      "category": "reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L632",
+      "line": 632,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2503.09567",
+      "category": "reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L635",
+      "line": 635,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2502.17419",
+      "category": "reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L640",
+      "line": 640,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2506.23918",
+      "category": "reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L644",
+      "line": 644,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2503.21614",
+      "category": "efficient-reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L650",
+      "line": 650,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2503.23077",
+      "category": "efficient-reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L654",
+      "line": 654,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2504.10903",
+      "category": "efficient-reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L658",
+      "line": 658,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2503.24377",
+      "category": "efficient-reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L662",
+      "line": 662,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2503.16419",
+      "category": "efficient-reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L666",
+      "line": 666,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2508.02120",
+      "category": "efficient-reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L670",
+      "line": 670,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/abs/2505.16782",
+      "category": "latent-reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L677",
+      "line": 677,
+      "properties": {}
+    },
+    {
+      "title": "[arXiv]",
+      "url": "https://arxiv.org/pdf/2507.06203v1",
+      "category": "latent-reasoning",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L681",
+      "line": 681,
+      "properties": {}
+    },
+    {
+      "title": "[Github]",
+      "url": "https://github.com/The-Martyr/Awesome-Multimodal-Reasoning",
+      "category": "reasoning-1",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L691",
+      "line": 691,
+      "properties": {}
+    },
+    {
+      "title": "[GitHub]",
+      "url": "https://github.com/atfortes/Awesome-LLM-Reasoning",
+      "category": "reasoning-1",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L694",
+      "line": 694,
+      "properties": {}
+    },
+    {
+      "title": "[Github]",
+      "url": "https://github.com/hemingkx/Awesome-Efficient-Reasoning",
+      "category": "efficient-reasoning-1",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L701",
+      "line": 701,
+      "properties": {}
+    },
+    {
+      "title": "[Github]",
+      "url": "https://github.com/Blueyee/Efficient-CoT-LRMs",
+      "category": "efficient-reasoning-1",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L704",
+      "line": 704,
+      "properties": {}
+    },
+    {
+      "title": "[Github]",
+      "url": "https://github.com/Hongcheng-Gao/Awesome-Long2short-on-LRMs",
+      "category": "efficient-reasoning-1",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L707",
+      "line": 707,
+      "properties": {}
+    },
+    {
+      "title": "[Github]",
+      "url": "https://github.com/zcccccz/Awesome-LLM-Implicit-Reasoning",
+      "category": "efficient-reasoning-1",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L710",
+      "line": 710,
+      "properties": {}
+    },
+    {
+      "title": "[Github]",
+      "url": "https://github.com/zzli2022/Awesome-System2-Reasoning-LLM",
+      "category": "efficient-reasoning-1",
+      "source_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/blob/29a460bd87ce243bbcbb39ac060556ea7164525c/README.md#L713",
+      "line": 713,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 92,
+  "unique_links": 92,
+  "category_count": 17,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "jindongli-Ai",
+      "url": "https://github.com/jindongli-Ai",
+      "contributions": 46
+    },
+    {
+      "login": "Yali-Fu",
+      "url": "https://github.com/Yali-Fu",
+      "contributions": 18
+    },
+    {
+      "login": "AIhyperdrive",
+      "url": "https://github.com/AIhyperdrive",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 65,
+    "has_more": false,
+    "path_commit_count": 65,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:59:46.343413+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by digailab/awesome-llm-implicit-reasoning contributors.",
+  "license": null,
+  "license_url": "https://github.com/digailab/awesome-llm-implicit-reasoning/tree/29a460bd87ce243bbcbb39ac060556ea7164525c",
+  "digest": "c88e48e1a8bb3528b7753e0d3897575d7254e3715bf163e9a52a28af5f0e32d8"
+}

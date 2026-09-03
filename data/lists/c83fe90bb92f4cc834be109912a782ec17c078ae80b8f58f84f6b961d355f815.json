@@ -1,0 +1,4711 @@
+{
+  "format_version": 3,
+  "repository_id": "157096490",
+  "name": "snoopysecurity/awesome-burp-extensions",
+  "revision": "7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c",
+  "readme_path": "README.md",
+  "readme_sha256": "82e12cd09acead43c4d3c14ecd566620f65cefee3a14b18bf619c2fba0ff9fa8",
+  "sections": [
+    {
+      "id": "awesome-burp-extensions",
+      "title": "Awesome Burp Extensions",
+      "level": 1,
+      "path": [
+        "Awesome Burp Extensions"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#awesome-burp-extensions",
+      "entries": 0
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 1,
+      "path": [
+        "Contributing"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "how-to-use",
+      "title": "How to Use",
+      "level": 1,
+      "path": [
+        "How to Use"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#how-to-use",
+      "entries": 0
+    },
+    {
+      "id": "content",
+      "title": "Content",
+      "level": 1,
+      "path": [
+        "Content"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#content",
+      "entries": 72
+    },
+    {
+      "id": "custom-features",
+      "title": "Custom Features",
+      "level": 2,
+      "path": [
+        "Content",
+        "Custom Features"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#custom-features",
+      "entries": 58
+    },
+    {
+      "id": "beautifiers-and-decoders",
+      "title": "Beautifiers and Decoders",
+      "level": 2,
+      "path": [
+        "Content",
+        "Beautifiers and Decoders"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#beautifiers-and-decoders",
+      "entries": 30
+    },
+    {
+      "id": "cloud-security",
+      "title": "Cloud Security",
+      "level": 2,
+      "path": [
+        "Content",
+        "Cloud Security"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#cloud-security",
+      "entries": 7
+    },
+    {
+      "id": "scripting",
+      "title": "Scripting",
+      "level": 2,
+      "path": [
+        "Content",
+        "Scripting"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#scripting",
+      "entries": 17
+    },
+    {
+      "id": "oauth-and-sso",
+      "title": "OAuth and SSO",
+      "level": 2,
+      "path": [
+        "Content",
+        "OAuth and SSO"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#oauth-and-sso",
+      "entries": 16
+    },
+    {
+      "id": "information-gathering",
+      "title": "Information Gathering",
+      "level": 2,
+      "path": [
+        "Content",
+        "Information Gathering"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#information-gathering",
+      "entries": 18
+    },
+    {
+      "id": "vulnerability-specific-extensions",
+      "title": "Vulnerability Specific Extensions",
+      "level": 2,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#vulnerability-specific-extensions",
+      "entries": 0
+    },
+    {
+      "id": "cross-site-scripting",
+      "title": "Cross-site scripting",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Cross-site scripting"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#cross-site-scripting",
+      "entries": 11
+    },
+    {
+      "id": "broken-access-control",
+      "title": "Broken Access Control",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Broken Access Control"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#broken-access-control",
+      "entries": 12
+    },
+    {
+      "id": "cross-site-request-forgery",
+      "title": "Cross-Site Request Forgery",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Cross-Site Request Forgery"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#cross-site-request-forgery",
+      "entries": 10
+    },
+    {
+      "id": "deserialization",
+      "title": "Deserialization",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Deserialization"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#deserialization",
+      "entries": 11
+    },
+    {
+      "id": "sensitive-data-exposure",
+      "title": "Sensitive Data Exposure",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Sensitive Data Exposure"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#sensitive-data-exposure",
+      "entries": 24
+    },
+    {
+      "id": "sqlnosql-injection",
+      "title": "SQL/NoSQL Injection",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "SQL/NoSQL Injection"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#sqlnosql-injection",
+      "entries": 9
+    },
+    {
+      "id": "xxe",
+      "title": "XXE",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "XXE"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#xxe",
+      "entries": 2
+    },
+    {
+      "id": "insecure-file-uploads",
+      "title": "Insecure File Uploads",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Insecure File Uploads"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#insecure-file-uploads",
+      "entries": 3
+    },
+    {
+      "id": "directory-traversal",
+      "title": "Directory Traversal",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Directory Traversal"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#directory-traversal",
+      "entries": 2
+    },
+    {
+      "id": "session-management",
+      "title": "Session Management",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Session Management"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#session-management",
+      "entries": 16
+    },
+    {
+      "id": "cors-misconfigurations",
+      "title": "CORS Misconfigurations",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "CORS Misconfigurations"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#cors-misconfigurations",
+      "entries": 1
+    },
+    {
+      "id": "command-injection",
+      "title": "Command Injection",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Command Injection"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#command-injection",
+      "entries": 2
+    },
+    {
+      "id": "template-injection",
+      "title": "Template Injection",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Template Injection"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#template-injection",
+      "entries": 1
+    },
+    {
+      "id": "type-confusion",
+      "title": "Type Confusion",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "Type Confusion"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#type-confusion",
+      "entries": 1
+    },
+    {
+      "id": "ssrf",
+      "title": "SSRF",
+      "level": 3,
+      "path": [
+        "Content",
+        "Vulnerability Specific Extensions",
+        "SSRF"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#ssrf",
+      "entries": 1
+    },
+    {
+      "id": "web-application-firewall-evasion",
+      "title": "Web Application Firewall Evasion",
+      "level": 2,
+      "path": [
+        "Content",
+        "Web Application Firewall Evasion"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#web-application-firewall-evasion",
+      "entries": 14
+    },
+    {
+      "id": "logging-and-notes",
+      "title": "Logging and Notes",
+      "level": 2,
+      "path": [
+        "Content",
+        "Logging and Notes"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#logging-and-notes",
+      "entries": 24
+    },
+    {
+      "id": "payload-generators-and-fuzzers",
+      "title": "Payload Generators and Fuzzers",
+      "level": 2,
+      "path": [
+        "Content",
+        "Payload Generators and Fuzzers"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#payload-generators-and-fuzzers",
+      "entries": 28
+    },
+    {
+      "id": "cryptography",
+      "title": "Cryptography",
+      "level": 2,
+      "path": [
+        "Content",
+        "Cryptography"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#cryptography",
+      "entries": 11
+    },
+    {
+      "id": "web-services",
+      "title": "Web Services",
+      "level": 2,
+      "path": [
+        "Content",
+        "Web Services"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#web-services",
+      "entries": 19
+    },
+    {
+      "id": "tool-integration",
+      "title": "Tool Integration",
+      "level": 2,
+      "path": [
+        "Content",
+        "Tool Integration"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#tool-integration",
+      "entries": 26
+    },
+    {
+      "id": "misc",
+      "title": "Misc",
+      "level": 2,
+      "path": [
+        "Content",
+        "Misc"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#misc",
+      "entries": 60
+    },
+    {
+      "id": "burp-extension-training-resources",
+      "title": "Burp Extension Training Resources",
+      "level": 2,
+      "path": [
+        "Content",
+        "Burp Extension Training Resources"
+      ],
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#burp-extension-training-resources",
+      "entries": 24
+    }
+  ],
+  "entries": [
+    {
+      "title": "Active Scan++",
+      "url": "https://github.com/albinowax/ActiveScanPlusPlus",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Burp Vulners Scanner",
+      "url": "https://github.com/vulnersCom/burp-vulners-scanner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "Additional Scanner checks",
+      "url": "https://github.com/portswigger/additional-scanner-checks",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "CSRF Scanner",
+      "url": "https://github.com/ah8r/csrf",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "HTML5 Auditor",
+      "url": "https://github.com/PortSwigger/html5-auditor",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Software Version Reporter",
+      "url": "https://github.com/augustd/burp-suite-software-version-checks",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "J2EEScan",
+      "url": "https://github.com/ilmila/J2EEScan",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "Java Deserialization Scanner",
+      "url": "https://github.com/federicodotta/Java-Deserialization-Scanner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "CSP Bypass",
+      "url": "https://github.com/moloch--/CSP-Bypass",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Burp Sentinel",
+      "url": "https://github.com/dobin/BurpSentinel",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Backslash Powered Scanner",
+      "url": "https://github.com/PortSwigger/backslash-powered-scanner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Collaborator Everywhere",
+      "url": "https://github.com/PortSwigger/collaborator-everywhere",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Burp Molly Pack",
+      "url": "https://github.com/yandex/burp-molly-pack",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Noopener Burp Extension",
+      "url": "https://github.com/snoopysecurity/Noopener-Burp-Extension",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "ActiveScan3Plus",
+      "url": "https://github.com/silentsignal/ActiveScan3Plus",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Burp Image Size",
+      "url": "https://github.com/silentsignal/burp-image-size",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "UUID issues for Burp Suite",
+      "url": "https://github.com/silentsignal/burp-uuid",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "JSON array issues for Burp Suite",
+      "url": "https://github.com/silentsignal/burp-json-array",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Burp Retire JS",
+      "url": "https://github.com/h3xstream/burp-retire-js",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "SOMEtime",
+      "url": "https://github.com/linkedin/sometime",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "HTTPoxy Scanner",
+      "url": "https://github.com/PortSwigger/httpoxy-scanner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "ParrotNG",
+      "url": "https://github.com/ikkisoft/ParrotNG",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Error Message Checks",
+      "url": "https://github.com/augustd/burp-suite-error-message-checks",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Identity Crisis",
+      "url": "https://github.com/EnableSecurity/Identity-Crisis",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "CSP Auditor",
+      "url": "https://github.com/GoSecure/csp-auditor",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Burp Suite GWT Scan",
+      "url": "https://github.com/augustd/burp-suite-gwt-scan",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Minesweeper",
+      "url": "https://github.com/codingo/Minesweeper",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Yara",
+      "url": "https://portswigger.net/bappstore/11e2ec6923f2497db9c18ec92492c63a",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "WordPress Scanner",
+      "url": "https://portswigger.net/bappstore/77a12b2966844f04bba032de5744cd35",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "Web Cache Deception Burp Extension",
+      "url": "https://portswigger.net/bappstore/7c1ca94a61474d9e897d307c858d52f0",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "UUID Detector",
+      "url": "https://portswigger.net/bappstore/65f32f209a72480ea5f1a0dac4f38248",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Software Vulnerability Scanner",
+      "url": "https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Reverse Proxy Detector",
+      "url": "https://portswigger.net/bappstore/a112997070354d249b64b4cf68eabc04",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "SRI Check",
+      "url": "https://github.com/SolomonSklash/sri-check",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Reflected File Download Checker",
+      "url": "https://portswigger.net/bappstore/34cd4392e7e04999b9ca0cc91f58886c",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Length Extension Attacks",
+      "url": "https://portswigger.net/bappstore/f156669cae8d4c10a3cd9d0b5270bcf6",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Headers Analyzer",
+      "url": "https://portswigger.net/bappstore/8b4fe2571ec54983b6d6c21fbfe17cb2",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "HeartBleed",
+      "url": "https://portswigger.net/bappstore/d405150b57e54887b1dcfa563b7c0b6f",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Image Size Issues",
+      "url": "https://portswigger.net/bappstore/1b602a9ae78a4ba4bc9f7b2c405a2b4e",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "CMS Scanner",
+      "url": "https://portswigger.net/bappstore/1bf95d0be40c447b94981f5696b1a18e",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Detect Dynamic JS",
+      "url": "https://portswigger.net/bappstore/4a657674ebe3410b92280613aa512304",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "CTFHelper",
+      "url": "https://github.com/unamer/CTFHelper",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Broken Link Hijacking",
+      "url": "https://github.com/arbazkiraak/BurpBLH",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Discover Reverse Tabnabbing",
+      "url": "https://github.com/GabsJahBless/discovering-reversetabnabbing",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Scan manual insertion point",
+      "url": "https://github.com/cnotin/burp-scan-manual-insertion-point",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "AdminPanelFinder",
+      "url": "https://github.com/moeinfatehi/Admin-Panel_Finder",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "HTTP Request Smuggler",
+      "url": "https://github.com/portswigger/http-request-smuggler",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "iRule Detector",
+      "url": "https://github.com/kugg/irule-detector",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Burp AEM Security Scanner Extension",
+      "url": "https://github.com/thomashartm/burp-aem-scanner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "FlareQuench",
+      "url": "https://github.com/aress31/flarequench",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Cypher Injection Scanner",
+      "url": "https://github.com/morkin1792/cypher-injection-scanner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "InQL Scanner",
+      "url": "https://github.com/doyensec/inql",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Attack Surface Detector",
+      "url": "https://github.com/secdec/attack-surface-detector-burp",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Endpoint Finder",
+      "url": "https://github.com/ettic-team/EndpointFinder",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "ESLinter",
+      "url": "https://github.com/parsiya/eslinter",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "403Bypasser",
+      "url": "https://github.com/sting8k/BurpSuite_403Bypasser",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "BurpShiroPassiveScan",
+      "url": "https://github.com/pmiaowu/BurpShiroPassiveScan",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Log4j2Scan",
+      "url": "https://github.com/whwlsfb/Log4j2Scan",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Log4J Scanner",
+      "url": "https://github.com/0xDexter0us/Log4J-Scanner/",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Log4Shell scanner for Burp Suite",
+      "url": "https://github.com/silentsignal/burp-log4shell",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Burp JS Miner",
+      "url": "https://github.com/minamo7sen/burp-JS-Miner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Trishul",
+      "url": "https://github.com/gauravnarwani97/Trishul",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "RouteVulScan",
+      "url": "https://github.com/F6JO/RouteVulScan",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "Agartha",
+      "url": "https://github.com/volkandindar/agartha",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "RouteVulScan",
+      "url": "https://github.com/F6JO/RouteVulScan",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Burp DOM Scanner",
+      "url": "https://github.com/fcavallarin/burp-dom-scanner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "JSpector",
+      "url": "https://github.com/hisxo/JSpector",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Server-Side Prototype Pollution Scanner",
+      "url": "https://github.com/hackvertor/server-side-prototype-pollution",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Host Header Inchecktion",
+      "url": "https://github.com/fabianbinna/host_header_inchecktion",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "DNS Analyzer",
+      "url": "https://github.com/The-Login/DNS-Analyzer",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "PasskeyScanner",
+      "url": "https://github.com/alexcowperthwaite/PasskeyScanner",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "blinks",
+      "url": "https://github.com/0xanuj/blinks",
+      "category": "content",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Burp Bounty - Scan Check Builder",
+      "url": "https://github.com/wagiro/BurpBounty",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Scan Manual Insertion Point",
+      "url": "https://portswigger.net/bappstore/ca7ee4e746b54514a0ca5059329e926f",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Distribute Damage",
+      "url": "https://portswigger.net/bappstore/543ab7a08d954390bd1a5f4253d3763b",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "Add & Track Custom Issues",
+      "url": "https://github.com/JAMESM0RR1S/Add-And-Track-Custom-Issues",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "Decoder Pro",
+      "url": "https://github.com/Matanatr96/DecoderProBurpSuite",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "Decoder Improved",
+      "url": "https://portswigger.net/bappstore/0a05afd37da44adca514acef1cdde3b9",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Request Highlighter",
+      "url": "https://github.com/BeDefended/RequestHighlighter",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Request Minimizer",
+      "url": "https://portswigger.net/bappstore/cc16f37549ff416b990d4312490f5fd1",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Wildcard",
+      "url": "https://github.com/hvqzao/burp-wildcard",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Hackvertor",
+      "url": "https://github.com/hackvertor/hackvertor",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Browser Highlighting",
+      "url": "https://portswigger.net/bappstore/29fb77b2611d4c27a9a0b8bc504d8ca2",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "Manual Scan Issues",
+      "url": "https://portswigger.net/bappstore/3ebca77f69434faea1e3e97e0269fe17",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Handy Collaborator",
+      "url": "https://portswigger.net/bappstore/dcf7c44cdc7b4698bba86d94c692fb7f",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "BadIntent",
+      "url": "https://github.com/mateuszk87/BadIntent",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Custom Send To",
+      "url": "https://github.com/PortSwigger/custom-send-to",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "IP Rotate",
+      "url": "https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Timeinator",
+      "url": "https://github.com/mwrlabs/timeinator",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "Auto-Drop Requests",
+      "url": "https://github.com/sunny0day/burp-auto-drop",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Scope Monitor",
+      "url": "https://github.com/Regala/burp-scope-monitor",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Taborator",
+      "url": "https://github.com/hackvertor/taborator",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "pip3line",
+      "url": "https://github.com/portswigger/pip3line",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Auto Drop",
+      "url": "https://github.com/sunny0day/burp-auto-drop",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "Bookmarks",
+      "url": "https://github.com/TypeError/Bookmarks",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "Stepper",
+      "url": "https://github.com/CoreyD97/Stepper",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "Response Pattern Matcher",
+      "url": "https://github.com/JackJ07/Response-Pattern-Matcher",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "Add & Track Custom Issues",
+      "url": "https://github.com/jamesm0rr1s/BurpSuite-Add-and-Track-Custom-Issues",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "cstc",
+      "url": "https://github.com/usdAG/cstc",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "Piper for Burp Suite",
+      "url": "https://github.com/silentsignal/burp-piper",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Response Grepper",
+      "url": "https://github.com/b4dpxl/Burp-ResponseGrepper",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "Attack Surface Detector",
+      "url": "https://github.com/secdec/attack-surface-detector-burp",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Timeinator",
+      "url": "https://github.com/FSecureLABS/timeinator",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "Copy Request & Response",
+      "url": "https://github.com/CompassSecurity/burp-copy-request-response",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "HaE - Highlighter and Extractor",
+      "url": "https://github.com/gh0stkey/HaE",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "Burp-IndicatorsOfVulnerability",
+      "url": "https://github.com/codewatchorg/Burp-IndicatorsOfVulnerability",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "BurpSuiteSharpener",
+      "url": "https://github.com/mdsecresearch/BurpSuiteSharpener",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Burp-Send-To-Extension",
+      "url": "https://github.com/bytebutcher/burp-send-to",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "PwnFox",
+      "url": "https://github.com/B-i-t-K/PwnFox",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "Reshaper for Burp",
+      "url": "https://github.com/synfron/ReshaperForBurp",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "RepeaterClips",
+      "url": "https://github.com/0xd0ug/burpExtensions-clipboardRepeater",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "Burp Customizer",
+      "url": "https://github.com/CoreyD97/BurpCustomizer",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Copy Regex Matches",
+      "url": "https://github.com/honoki/burp-copy-regex-matches",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "match-replace-burp",
+      "url": "https://github.com/daffainfo/match-replace-burp",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "Backup Finder",
+      "url": "https://github.com/moeinfatehi/Backup-Finder",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "Diff Last Response",
+      "url": "https://github.com/hackvertor/diffy",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "WebAuthn CBOR Decoder",
+      "url": "https://github.com/srikanthramu/webauthn-cbor-burp",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "GAP-Burp-Extension",
+      "url": "https://github.com/xnl-h4ck3r/GAP-Burp-Extension",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "SocketSleuth",
+      "url": "https://github.com/snyk/socketsleuth",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "WebSocket Turbo Intruder",
+      "url": "https://github.com/Hannah-PortSwigger/WebSocketTurboIntruder",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "PyCript WebSocket",
+      "url": "https://github.com/Anof-cyber/PyCript-WebSocket/",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "HAR Importer",
+      "url": "https://github.com/fortalice/HARImporter",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Conditional Match and Replace (CMAR)",
+      "url": "https://github.com/CyberCX-STA/cmar",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "BlazorTrafficProcessor (BTP)",
+      "url": "https://github.com/AonCyberLabs/BlazorTrafficProcessor",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "MagicByteSelector",
+      "url": "https://github.com/websecnl/MagicByteSelector",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "CookieMonster",
+      "url": "https://github.com/baegmon/CookieMonster",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "SocketSleuth",
+      "url": "https://github.com/snyk/socketsleuth",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "DNS-Exfilnspector",
+      "url": "https://github.com/LazyTitan33/DNS-Exfilnspector",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "BatchRepeater",
+      "url": "https://github.com/Mathemag1cian/BatchRepeater",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "reDOM",
+      "url": "https://github.com/weirdmachine64/reDOM",
+      "category": "custom-features",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": ".NET Beautifier",
+      "url": "https://github.com/allfro/dotNetBeautifier",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "JS Beautifier",
+      "url": "https://github.com/irsdl/BurpSuiteJSBeautifier",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Burp ASN1 Toolbox",
+      "url": "https://github.com/silentsignal/burp-asn1",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "JSON JTree viewer for Burp Suite",
+      "url": "https://github.com/silentsignal/burp-json-jtree",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "JSON Beautifier",
+      "url": "https://github.com/NetSPI/JSONBeautifier",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "Browser Repeater",
+      "url": "https://github.com/allfro/browserRepeater",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "GQL Parser",
+      "url": "https://github.com/br3akp0int/GQLParser",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "XChromeLogger Decoder",
+      "url": "https://portswigger.net/bappstore/a68f0a880362410baaf884ddb383fe4c",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "WebSphere Portlet State Decoder",
+      "url": "https://portswigger.net/bappstore/49e9917c721e4abfa4c2540b07f35eb7",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "PDF Viewer",
+      "url": "https://portswigger.net/bappstore/4b0cbd1e44da4212881cc1480ba1bc68",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "NTLM Challenge Decoder",
+      "url": "https://portswigger.net/bappstore/30d095e075e64a109b8d12fc8281b5e3",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "JCryption Handler",
+      "url": "https://portswigger.net/bappstore/fe2a5a42985b4ac8b1801a09b670758f",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "JSWS Parser",
+      "url": "https://portswigger.net/bappstore/1d1b8fd9be354c64a5887f25fc271e56",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "JSON Decoder",
+      "url": "https://portswigger.net/bappstore/ceed5b1568ba4b92abecce0dff1e1f2c",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "MessagePack",
+      "url": "https://portswigger.net/bappstore/c199ec3330864d548ff7d6bf761960ba",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Fast Infoset Tester",
+      "url": "https://portswigger.net/bappstore/2f640c88e0394bb09e788378f1bcc80f",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "burp-protobuf-decoder",
+      "url": "https://github.com/mwielgoszewski/burp-protobuf-decoder",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "BurpAMFDSer",
+      "url": "https://github.com/NetSPI/Burp-Extensions/tree/master/BurpAMFDSer",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "Deflate Burp Plugin",
+      "url": "https://github.com/GDSSecurity/Deflate-Burp-Plugin",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Burp Suite GWT wrapper",
+      "url": "https://github.com/dnet/burp-gwt-wrapper",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Beautifier",
+      "url": "https://github.com/zidekmat/graphql_beautifier",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "Decoder Improved",
+      "url": "https://github.com/nccgroup/Decoder-Improved",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "Cyber Security Transformation Chef",
+      "url": "https://github.com/usdAG/cstc",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "GraphQL Raider",
+      "url": "https://github.com/denniskniep/GQLRaider",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "JSONPath",
+      "url": "https://github.com/augustd/burp-suite-jsonpath",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "Burp Beautifier",
+      "url": "https://github.com/Ovi3/BurpBeautifier",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "JSON/JS Beautifier",
+      "url": "https://github.com/Manjesh24/JSON-JS-Beautifier",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "burp-suite-jsonpath",
+      "url": "https://github.com/augustd/burp-suite-jsonpath",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Burp-Timestamp-Editor",
+      "url": "https://github.com/b4dpxl/Burp-Timestamp-Editor",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "ViewState Editor",
+      "url": "https://github.com/portswigger/viewstate-editor",
+      "category": "beautifiers-and-decoders",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "AWS Security Checks",
+      "url": "https://github.com/PortSwigger/aws-security-checks",
+      "category": "cloud-security",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "AWS Extender",
+      "url": "https://github.com/VirtueSecurity/aws-extender",
+      "category": "cloud-security",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "AWS Signer",
+      "url": "https://github.com/NetSPI/AWSSigner",
+      "category": "cloud-security",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "cloud_enum",
+      "url": "https://github.com/initstring/cloud_enum",
+      "category": "cloud-security",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "AWS SigV4",
+      "url": "https://github.com/anvilventures/aws-sigv4",
+      "category": "cloud-security",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "Burp-AnonymousCloud",
+      "url": "https://github.com/codewatchorg/Burp-AnonymousCloud",
+      "category": "cloud-security",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "AWS Cognito",
+      "url": "https://github.com/ncoblentz/BurpMontoyaCognito",
+      "category": "cloud-security",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "Python Scripter",
+      "url": "https://github.com/portswigger/python-scripter",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Burpkit",
+      "url": "https://github.com/allfro/BurpKit",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "Burp Requests",
+      "url": "https://github.com/silentsignal/burp-requests",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Burpy",
+      "url": "https://github.com/debasishm89/burpy",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "Buby",
+      "url": "https://github.com/tduehr/buby",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Burpee",
+      "url": "https://github.com/GDSSecurity/burpee",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Burp Jython Tab",
+      "url": "https://github.com/mwielgoszewski/burp-jython-tab",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Reissue Request Scripter",
+      "url": "https://portswigger.net/bappstore/6e0b53d8c801471c9dc614a016d8a20d",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "Burp Buddy",
+      "url": "https://github.com/tomsteele/burpbuddy",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Copy As Python-Requests",
+      "url": "https://github.com/portswigger/copy-as-python-requests",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Copy as PowerShell Requests",
+      "url": "https://portswigger.net/bappstore/4da25d602db04f5ca7c4b668e4611cfe",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "Copy as Node Request",
+      "url": "https://portswigger.net/bappstore/e170472f83ef4da1bca5897203b6b33d",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "Copy as JavaScript Request",
+      "url": "https://github.com/celsogbezerra/Copy-as-JavaScript-Request",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "BReWSki",
+      "url": "https://github.com/Burp-BReWSki/BReWSki",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "JScriptor",
+      "url": "https://github.com/ngduyquockhanh/JScriptor",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "BcryptMontoya",
+      "url": "https://github.com/cyal1/BcryptMontoya",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Kollaborator Module Builder",
+      "url": "https://github.com/mbkunal/KollaboratorModuleBuilder",
+      "category": "scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "SAML Raider",
+      "url": "https://github.com/SAMLRaider/SAMLRaider",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Burp OAuth",
+      "url": "https://github.com/dnet/burp-oauth",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "EsPReSSO",
+      "url": "https://github.com/RUB-NDS/BurpSSOExtension",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "SAML Encoder/Decoder",
+      "url": "https://portswigger.net/bappstore/9ff11c976383491b976389ce23091ee3",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "SAML Editor",
+      "url": "https://portswigger.net/bappstore/32c38cd10ef44c1cbca9d54483f78e88",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "PeopleSoft Token Extractor",
+      "url": "https://portswigger.net/bappstore/df04d7d1af004ed6b50c555c4920232d",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "JSON Web Token Attacker",
+      "url": "https://portswigger.net/bappstore/82d6c60490b540369d6d5d01822bdf61",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "JSON Web Tokens",
+      "url": "https://portswigger.net/bappstore/f923cbf91698420890354c1d8958fee6",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "AuthHeader Updater",
+      "url": "https://github.com/sampsonc/AuthHeaderUpdater",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "Dupe Key Injector",
+      "url": "https://github.com/pwntester/DupeKeyInjector",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "SAMLReQuest",
+      "url": "https://github.com/ernw/burpsuite-extensions/tree/master/SAMLReQuest",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "OAUTHScan",
+      "url": "https://github.com/akabe1/OAUTHScan",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "JWT Re-auth",
+      "url": "https://github.com/nccgroup/jwt-reauth",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "OAuthv1 - Signing",
+      "url": "https://github.com/L1GH7/OAuthv1---Signing-Burp-Extension-",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "JWT Editor",
+      "url": "https://github.com/DolphFlynn/jwt-editor",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "SignSaboteur",
+      "url": "https://github.com/d0ge/sign-saboteur",
+      "category": "oauth-and-sso",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Google Hack",
+      "url": "https://portswigger.net/bappstore/a00a906943de49159092e329cc4f95f4",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "PwnBack/Wayback Machine",
+      "url": "https://github.com/P3GLEG/PwnBack",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "Directory File Listing Parser Importer",
+      "url": "https://github.com/SmeegeSec/Directory_File_Listing_Parser_Importer",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "Site Map Extractor",
+      "url": "https://portswigger.net/bappstore/f991b67d4ef94f3c8692c3edca06583e",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "Site Map Fetcher",
+      "url": "https://portswigger.net/bappstore/93bbecc3da434ef7ba5a5b2b98265169",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "Burp CSJ",
+      "url": "https://github.com/malerisch/burp-csj",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "Attack Surface Detector",
+      "url": "https://portswigger.net/bappstore/47027b96525d4353aea5844781894fb1",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "domain_hunter",
+      "url": "https://github.com/bit4woo/domain_hunter",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "BigIP Discover",
+      "url": "https://github.com/raise-isayan/BigIPDiscover",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "AdminPanelFinder",
+      "url": "https://github.com/moeinfatehi/Admin-Panel_Finder",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "Asset Discover",
+      "url": "https://github.com/redhuntlabs/BurpSuite-Asset_Discover",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "DirectoryImporter",
+      "url": "https://github.com/Static-Flow/DirectoryImporter",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Dr. Watson",
+      "url": "https://github.com/prodigysml/Dr.-Watson",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "Filter OPTIONS Method",
+      "url": "https://github.com/capt-meelo/filter-options-method",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "Subdomain Extractor",
+      "url": "https://github.com/Regala/burp-subdomains",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "SAN Scanner",
+      "url": "https://github.com/seisvelas/SAN-Scanner",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "Add to sitemap++",
+      "url": "https://github.com/quahac/burp-add-to-sitemap-plusplus",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "Look Over There",
+      "url": "https://github.com/yg-ht/Burp-LookOverThere",
+      "category": "information-gathering",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "XSS Validator",
+      "url": "https://github.com/nVisium/xssValidator",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "burp-xss-sql-plugin",
+      "url": "https://github.com/attackercan/burp-xss-sql-plugin",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "Burp Hunter",
+      "url": "https://github.com/mystech7/Burp-Hunter",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "DOM XSS Checks",
+      "url": "https://www.codemagi.com/downloads/private/9982e094925d19aa1b122da5f1dbcd86/DOMXSSChecks.zip",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Reflector",
+      "url": "https://github.com/elkokc/reflector",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "BitBlinder",
+      "url": "https://github.com/BitTheByte/BitBlinder",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "JavaScript Security",
+      "url": "https://github.com/phefley/burp-javascript-security-extension",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "Reflected Parameters",
+      "url": "https://github.com/portswigger/reflected-parameters",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "jsonp",
+      "url": "https://github.com/kapytein/jsonp",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "feminda",
+      "url": "https://github.com/wish-i-was/femida",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "XSS Cheatsheet",
+      "url": "https://github.com/0kman/XSS-Cheatsheet",
+      "category": "cross-site-scripting",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "Burplay/Multi Session Replay",
+      "url": "https://github.com/SpiderLabs/burplay",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "AuthMatrix",
+      "url": "https://github.com/SecurityInnovation/AuthMatrix",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "Autorize",
+      "url": "https://github.com/Quitten/Autorize",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "AutoRepeater",
+      "url": "https://github.com/nccgroup/AutoRepeater",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "UUID issues for Burp Suite",
+      "url": "https://github.com/silentsignal/burp-uuid",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L323",
+      "line": 323,
+      "properties": {}
+    },
+    {
+      "title": "Authz",
+      "url": "https://github.com/wuntee/BurpAuthzPlugin",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "Paramalyzer",
+      "url": "https://github.com/JGillam/burp-paramalyzer",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "Burp SessionAuth",
+      "url": "https://github.com/thomaspatzke/Burp-SessionAuthTool",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "Auto Repeater",
+      "url": "https://portswigger.net/bappstore/f89f2837c22c4ab4b772f31522647ed8",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "IncrementMe Please",
+      "url": "https://github.com/alexlauerman/IncrementMePlease",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "Auth Analyzer",
+      "url": "https://github.com/simioni87/auth_analyzer",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "AdminPanelFinder",
+      "url": "https://github.com/moeinfatehi/Admin-Panel_Finder",
+      "category": "broken-access-control",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "CSRF Scanner",
+      "url": "https://github.com/ah8r/csrf",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "CSurfer",
+      "url": "https://github.com/asaafan/CSurfer",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "Additional CSRF Checks/EasyCSRF",
+      "url": "https://github.com/0ang3el/EasyCSRF",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "Match/Replace Session Action",
+      "url": "https://portswigger.net/bappstore/9b5c532966ca4d5eb13c09c72ba7aac2",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "Token Extractor",
+      "url": "https://portswigger.net/bappstore/f24211fa6fcd4bbea6b21f99c5cad27a",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "CSRF Token Tracker",
+      "url": "https://portswigger.net/bappstore/61ddd8a0464544218dfd94114c910548",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "Token Rewrite",
+      "url": "https://github.com/hvqzao/burp-token-rewrite",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "burp-multistep-csrf-poc",
+      "url": "https://github.com/wrvenkat/burp-multistep-csrf-poc",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "Anti-CSRF Token From Referer",
+      "url": "https://github.com/CompassSecurity/anti-csrf-token-from-referer",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "burp-samesite-reporter",
+      "url": "https://github.com/ldionmarcil/burp-samesite-reporter",
+      "category": "cross-site-request-forgery",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L342",
+      "line": 342,
+      "properties": {}
+    },
+    {
+      "title": "Java-Deserialization-Scanner",
+      "url": "https://github.com/federicodotta/Java-Deserialization-Scanner",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "Java Serial Killer",
+      "url": "https://github.com/NetSPI/JavaSerialKiller",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "BurpJDSer-ng",
+      "url": "https://github.com/IOActive/BurpJDSer-ng",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "PHP Object Injection Check",
+      "url": "https://portswigger.net/bappstore/24dab228311049d89a27a4d721e17ef7",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "Java Serialized Payloads",
+      "url": "https://portswigger.net/bappstore/bc737909a5d742eab91544705c14d34f",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "Freddy, Deserialization Bug Finder",
+      "url": "https://portswigger.net/bappstore/ae1cce0c6d6c47528b4af35faebc3ab3",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "CustomDeserializer",
+      "url": "https://portswigger.net/bappstore/84ff4dceaae14e84990c6f3f7fe999bd",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "BurpJDSer",
+      "url": "https://github.com/NetSPI/Burp-Extensions/tree/master/BurpJDSer",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "PHP Object Injection Slinger",
+      "url": "https://github.com/ricardojba/poi-slinger",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "GadgetProbe",
+      "url": "https://github.com/BishopFox/GadgetProbe",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "fastjson-check",
+      "url": "https://github.com/bigsizeme/fastjson-check",
+      "category": "deserialization",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "Burp Smart Buster",
+      "url": "https://github.com/pathetiq/BurpSmartBuster",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "PDF Metadata",
+      "url": "https://github.com/luh2/PDFMetadata",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "SpyDir",
+      "url": "https://github.com/aur3lius-dev/SpyDir",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "Burp Hash",
+      "url": "https://github.com/burp-hash/burp-hash",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "Param Miner",
+      "url": "https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "MindMap Exporter",
+      "url": "https://portswigger.net/bappstore/676b2e91c5a347289fca66fa67cca545",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "Image Location and Privacy Scanner",
+      "url": "https://portswigger.net/bappstore/f3aec37088aa494c81962d965219be46",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "Image Metadata",
+      "url": "https://portswigger.net/bappstore/3996aa01e0474b1a990db586a7f14ab7",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "ExifTool Scanner",
+      "url": "https://portswigger.net/bappstore/858352a27e6e4a6caa802e61fdeb7dd4",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "Interesting Files Scanner",
+      "url": "https://github.com/modzero/interestingFileScanner",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "BeanStack - Stack-trace Fingerprinter",
+      "url": "https://github.com/x41sec/BeanStack",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "Directory Importer",
+      "url": "https://github.com/Static-Flow/DirectoryImporter",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "JS Link Finder",
+      "url": "https://github.com/InitRoot/BurpJSLinkFinder",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "Secret Finder",
+      "url": "https://github.com/m4ll0k/BurpSuite-Secret_Finder",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "Xkeys",
+      "url": "https://github.com/vsec7/BurpSuite-Xkeys",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "SSL Scanner",
+      "url": "https://portswigger.net/bappstore/474b3c575a1a4584aa44dfefc70f269d",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "Secret Finder (beta v0.1)",
+      "url": "https://github.com/m4ll0k/BurpSuite-Secret_Finder",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "HTTP Methods Discloser",
+      "url": "https://github.com/xxux11/http-methods-discloser",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "Burp JS Miner",
+      "url": "https://github.com/minamo7sen/burp-JS-Miner",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "CYS4-SensitiveDiscoverer",
+      "url": "https://github.com/CYS4srl/CYS4-SensitiveDiscoverer",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "GAP-Burp-Extension",
+      "url": "https://github.com/xnl-h4ck3r/GAP-Burp-Extension",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "Levo Burp Extension",
+      "url": "https://github.com/levoai/levoai-burp-extension",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "Headers Burp Extension",
+      "url": "https://github.com/dh0ck/Headers",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "Sensitive Discoverer",
+      "url": "https://github.com/CYS4srl/SensitiveDiscoverer",
+      "category": "sensitive-data-exposure",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "CO2",
+      "url": "https://github.com/JGillam/burp-co2",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "SQLiPy",
+      "url": "https://github.com/codewatchorg/sqlipy",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "burp-xss-sql-plugin",
+      "url": "https://github.com/attackercan/burp-xss-sql-plugin",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "SQLiPy Sqlmap Integration",
+      "url": "https://portswigger.net/bappstore/f154175126a04bfe8edc6056f340f52e",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "InjectMate",
+      "url": "https://github.com/laconicwolf/burp-extensions/blob/master/InjectMate.py",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "Burptime",
+      "url": "https://github.com/virusdefender/burptime",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "SQLi Query Tampering",
+      "url": "https://github.com/xer0days/SQLi-Query-Tampering",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "Burp NoSQLi Scanner",
+      "url": "https://github.com/matrix/Burp-NoSQLiScanner",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "SQLMap DNS Collaborator",
+      "url": "https://github.com/lucacapacci/SqlmapDnsCollaborator",
+      "category": "sqlnosql-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "Office OpenXML Editor",
+      "url": "https://github.com/PortSwigger/office-open-xml-editor",
+      "category": "xxe",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "Content Type Converter",
+      "url": "https://github.com/NetSPI/Burp-Extensions/tree/master/ContentTypeConverter",
+      "category": "xxe",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L397",
+      "line": 397,
+      "properties": {}
+    },
+    {
+      "title": "Upload Scanner",
+      "url": "https://github.com/modzero/mod0BurpUploadScanner",
+      "category": "insecure-file-uploads",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L400",
+      "line": 400,
+      "properties": {}
+    },
+    {
+      "title": "ZIP File Raider",
+      "url": "https://github.com/destine21/ZIPFileRaider",
+      "category": "insecure-file-uploads",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L401",
+      "line": 401,
+      "properties": {}
+    },
+    {
+      "title": "File Upload Traverser",
+      "url": "https://portswigger.net/bappstore/5f46fe766e9c435992c610160bb53cba",
+      "category": "insecure-file-uploads",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L402",
+      "line": 402,
+      "properties": {}
+    },
+    {
+      "title": "Uploader",
+      "url": "https://github.com/thec00n/Uploader",
+      "category": "directory-traversal",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L405",
+      "line": 405,
+      "properties": {}
+    },
+    {
+      "title": "off-by-slash",
+      "url": "https://github.com/bayotop/off-by-slash",
+      "category": "directory-traversal",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L406",
+      "line": 406,
+      "properties": {}
+    },
+    {
+      "title": "WAFDetect",
+      "url": "https://portswigger.net/bappstore/12bef6b7607e46cf965c16f76e905a4c",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "TokenJar",
+      "url": "https://portswigger.net/bappstore/d9e05bf81c8f4bae8a5b0b01955c5578",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "Token Incrementor",
+      "url": "https://portswigger.net/bappstore/ae166662024149f981bb6920cf3c8960",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "Token Extractor",
+      "url": "https://portswigger.net/bappstore/f24211fa6fcd4bbea6b21f99c5cad27a",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "Session Auth",
+      "url": "https://portswigger.net/bappstore/9cbdeea2d3744e5ab0f2d08632438985",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "Session Timeout Test",
+      "url": "https://portswigger.net/bappstore/c4bfd29882974712a1d69c6d8f05874e",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L414",
+      "line": 414,
+      "properties": {}
+    },
+    {
+      "title": "Session Tracking Checks",
+      "url": "https://portswigger.net/bappstore/1ab99dc6b61b45469759fdc38f371278",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L415",
+      "line": 415,
+      "properties": {}
+    },
+    {
+      "title": "ExtendedMacro",
+      "url": "https://portswigger.net/bappstore/33839d04fdaa4e3b80292fbed115db13",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "AuthHeader Updater",
+      "url": "https://github.com/sampsonc/AuthHeaderUpdater",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L417",
+      "line": 417,
+      "properties": {}
+    },
+    {
+      "title": "Request Randomizer",
+      "url": "https://portswigger.net/bappstore/36d6d7e35dac489b976c2f120ce34ae2",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L418",
+      "line": 418,
+      "properties": {}
+    },
+    {
+      "title": "BearerAuthToken",
+      "url": "https://github.com/twelvesec/BearerAuthToken",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "Burp Wicket Handler",
+      "url": "https://github.com/Meatballs1/burp_wicket_handler/tree/8047692597e837de02810b5ef3ad97ed0da1385a",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "Add Request to Macro",
+      "url": "https://github.com/pajswigger/add-request-to-macro",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "Cookie Decrypter",
+      "url": "https://github.com/SolomonSklash/cookie-decrypter",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "Authentication Token Obtain and Replace (ATOR)",
+      "url": "https://github.com/synopsys-sig/ATOR-Burp",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "Session-Handler-Plus",
+      "url": "https://github.com/V9Y1nf0S3C/Session-Handler-Plus",
+      "category": "session-management",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "CORS* - Additional CORS Checks",
+      "url": "https://github.com/ybieri/Additional_CORS_Checks",
+      "category": "cors-misconfigurations",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "Command Injection Attacker",
+      "url": "https://github.com/portswigger/command-injection-attacker",
+      "category": "command-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "Argument Injection Hammer",
+      "url": "https://github.com/nccgroup/argumentinjectionhammer",
+      "category": "command-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "tplmap Burp Extenson",
+      "url": "https://github.com/epinna/tplmap/tree/master/burp_extension",
+      "category": "template-injection",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "Type Confusion Extension",
+      "url": "https://github.com/certuscyber/bapp-certus",
+      "category": "type-confusion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "Encode IP",
+      "url": "https://github.com/e1abrador/Burp-Encode-IP",
+      "category": "ssrf",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "Bypass WAF",
+      "url": "https://github.com/codewatchorg/bypasswaf",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "Random IP Address Header",
+      "url": "https://github.com/PortSwigger/random-ip-address-header",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L450",
+      "line": 450,
+      "properties": {}
+    },
+    {
+      "title": "Burp Suite HTTP Smuggler",
+      "url": "https://github.com/nccgroup/BurpSuiteHTTPSmuggler/",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "What-The-WAF",
+      "url": "https://portswigger.net/bappstore/5da470c526ea4661a82187ec3e0f94aa",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "WAF Cookie Fetcher",
+      "url": "https://portswigger.net/bappstore/0f6ce51c1cb349689ecb4025e8db060a",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "WAFDetect",
+      "url": "https://portswigger.net/bappstore/12bef6b7607e46cf965c16f76e905a4c",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "LightBulb WAF Auditing Framework",
+      "url": "https://portswigger.net/bappstore/3144e67e904a4fdf91ea96cf4c694c39",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "BurpSuiteHTTPSmuggler",
+      "url": "https://github.com/nccgroup/BurpSuiteHTTPSmuggler",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "Chunked coding converter",
+      "url": "https://github.com/c0ny1/chunked-coding-converter",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "403Bypasser",
+      "url": "https://github.com/Gilzy/403Bypasser",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L458",
+      "line": 458,
+      "properties": {}
+    },
+    {
+      "title": "Awesome TLS",
+      "url": "https://github.com/sleeyax/burp-awesome-tls",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "Awesome TLS Plus",
+      "url": "https://github.com/Robin528919/burp-awesome-tls-plus",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L460",
+      "line": 460,
+      "properties": {}
+    },
+    {
+      "title": "JSON Escaper",
+      "url": "https://github.com/akashc99/JSON-Escaper-Burp-Suite-Python-plugin",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "WAF Bypadd",
+      "url": "https://github.com/julianjm/waf_bypadd",
+      "category": "web-application-firewall-evasion",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L462",
+      "line": 462,
+      "properties": {}
+    },
+    {
+      "title": "Burp Notes",
+      "url": "https://github.com/SpiderLabs/BurpNotesExtension",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "Logger++",
+      "url": "https://github.com/nccgroup/BurpSuiteLoggerPlusPlus",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "Burp Dump",
+      "url": "https://github.com/crashgrindrips/burp-dump",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L470",
+      "line": 470,
+      "properties": {}
+    },
+    {
+      "title": "Burp SQLite logger",
+      "url": "https://github.com/silentsignal/burp-sqlite-logger",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "Burp Git Version",
+      "url": "https://github.com/silentsignal/burp-git-version",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L472",
+      "line": 472,
+      "properties": {}
+    },
+    {
+      "title": "Burp Commentator",
+      "url": "https://github.com/silentsignal/burp-commentator",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "Burp Suite Importer",
+      "url": "https://github.com/SmeegeSec/Burp-Importer",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L474",
+      "line": 474,
+      "properties": {}
+    },
+    {
+      "title": "Burp Replicator",
+      "url": "https://github.com/portswigger/replicator",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "Notes",
+      "url": "https://portswigger.net/bappstore/b150353ea3d54f61bdc482a4a8470356",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L476",
+      "line": 476,
+      "properties": {}
+    },
+    {
+      "title": "Log Requests to SQLite",
+      "url": "https://portswigger.net/bappstore/d916d94506734f3490e49391595d8747",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "Flow",
+      "url": "https://portswigger.net/bappstore/ee1c45f4cc084304b2af4b7e92c0a49d",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L478",
+      "line": 478,
+      "properties": {}
+    },
+    {
+      "title": "Custom Logger",
+      "url": "https://portswigger.net/bappstore/f5ca4f46dc37424c9666845a6ad0ecef",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "Log Requests to SQLite",
+      "url": "https://github.com/righettod/log-requests-to-sqlite",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L480",
+      "line": 480,
+      "properties": {}
+    },
+    {
+      "title": "Burp Response Clusterer",
+      "url": "https://github.com/modzero/burp-ResponseClusterer",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L481",
+      "line": 481,
+      "properties": {}
+    },
+    {
+      "title": "Burp Collect500",
+      "url": "https://github.com/floyd-fuh/burp-Collect500",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L482",
+      "line": 482,
+      "properties": {}
+    },
+    {
+      "title": "Sink Logger",
+      "url": "https://github.com/bayotop/sink-logger",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L483",
+      "line": 483,
+      "properties": {}
+    },
+    {
+      "title": "Burp Scope Monitor Extension",
+      "url": "https://github.com/Regala/burp-scope-monitor",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L484",
+      "line": 484,
+      "properties": {}
+    },
+    {
+      "title": "Burp Savetofile",
+      "url": "https://github.com/jksecurity/burp_savetofile",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L485",
+      "line": 485,
+      "properties": {}
+    },
+    {
+      "title": "Log Viewer",
+      "url": "https://github.com/ax/burp-logs",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L486",
+      "line": 486,
+      "properties": {}
+    },
+    {
+      "title": "Rapid",
+      "url": "https://github.com/iamaldi/rapid",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L487",
+      "line": 487,
+      "properties": {}
+    },
+    {
+      "title": "Bookmarks",
+      "url": "https://github.com/TypeError/Bookmarks",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L488",
+      "line": 488,
+      "properties": {}
+    },
+    {
+      "title": "Scope Monitor",
+      "url": "https://github.com/portswigger/scope-monitor",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L489",
+      "line": 489,
+      "properties": {}
+    },
+    {
+      "title": "Progress Tracker",
+      "url": "https://github.com/dariusztytko/progress-burp",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L490",
+      "line": 490,
+      "properties": {}
+    },
+    {
+      "title": "Pentest Mapper",
+      "url": "https://github.com/Anof-cyber/Pentest-Mapper",
+      "category": "logging-and-notes",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L491",
+      "line": 491,
+      "properties": {}
+    },
+    {
+      "title": "CO2",
+      "url": "https://github.com/JGillam/burp-co2",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L498",
+      "line": 498,
+      "properties": {}
+    },
+    {
+      "title": "Bradamsa",
+      "url": "https://github.com/ikkisoft/bradamsa",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L499",
+      "line": 499,
+      "properties": {}
+    },
+    {
+      "title": "Payload Parser",
+      "url": "https://github.com/infodel/burp.extension-payloadparser",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L500",
+      "line": 500,
+      "properties": {}
+    },
+    {
+      "title": "Burp Luhn Payload Processor",
+      "url": "https://github.com/EnableSecurity/burp-luhn-payload-processor",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L501",
+      "line": 501,
+      "properties": {}
+    },
+    {
+      "title": "Gather Contacts",
+      "url": "https://github.com/clr2of8/GatherContacts",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "Blazer",
+      "url": "https://github.com/ikkisoft/blazer",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L503",
+      "line": 503,
+      "properties": {}
+    },
+    {
+      "title": "Wordlist Extractor",
+      "url": "https://portswigger.net/bappstore/21df56baa03d499c8439018fe075d3d7",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L504",
+      "line": 504,
+      "properties": {}
+    },
+    {
+      "title": "PsychoPATH",
+      "url": "https://portswigger.net/bappstore/554059e593ce446585574b92344b9675",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "Meth0dMan",
+      "url": "https://portswigger.net/bappstore/8ba6e98e367e40c79824f562f22d2221",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "Intruder File Payload Generator",
+      "url": "https://portswigger.net/bappstore/880cf2cf689b4067afd9db8e2aefb8ba",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L507",
+      "line": 507,
+      "properties": {}
+    },
+    {
+      "title": "Intruder Time Payloads",
+      "url": "https://portswigger.net/bappstore/ad5f51b515d14490ae8842ce61f60df5",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L508",
+      "line": 508,
+      "properties": {}
+    },
+    {
+      "title": "reCAPTCHA",
+      "url": "https://github.com/bit4woo/reCAPTCHA.git",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "Virtual Host Payload Generator",
+      "url": "https://github.com/righettod/virtualhost-payload-generator",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "Stepper",
+      "url": "https://github.com/CoreyD97/Stepper",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "Turbo Intruder",
+      "url": "https://github.com/PortSwigger/turbo-intruder",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L512",
+      "line": 512,
+      "properties": {}
+    },
+    {
+      "title": "HackBar",
+      "url": "https://github.com/d3vilbug/HackBar",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L513",
+      "line": 513,
+      "properties": {}
+    },
+    {
+      "title": "burpContextAwareFuzzer",
+      "url": "https://github.com/mgeeky/burpContextAwareFuzzer",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L514",
+      "line": 514,
+      "properties": {}
+    },
+    {
+      "title": "Adhoc Payload Processors",
+      "url": "https://github.com/GeoffWalton/burp--Adhoc-Payload-Processors",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L515",
+      "line": 515,
+      "properties": {}
+    },
+    {
+      "title": "Username Generator",
+      "url": "https://github.com/jstrosch/Username_Generator",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L516",
+      "line": 516,
+      "properties": {}
+    },
+    {
+      "title": "LogicalFuzzingEngine",
+      "url": "https://github.com/wdahlenburg/LogicalFuzzingEngine",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L517",
+      "line": 517,
+      "properties": {}
+    },
+    {
+      "title": "Hashcat Maskprocessor Intruder Payloads",
+      "url": "https://github.com/quahac/burp-intruder-hashcat-maskprocessor",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L518",
+      "line": 518,
+      "properties": {}
+    },
+    {
+      "title": "Fuzzy Encoding Generator",
+      "url": "https://github.com/GoSecure/burp-fuzzy-encoding-generator",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L519",
+      "line": 519,
+      "properties": {}
+    },
+    {
+      "title": "HopLa",
+      "url": "https://github.com/synacktiv/HopLa",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L520",
+      "line": 520,
+      "properties": {}
+    },
+    {
+      "title": "Agartha - LFI, RCE, SQLi, Authentication, Authorization and Copy as JavaScript",
+      "url": "https://github.com/volkandindar/agartha",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L521",
+      "line": 521,
+      "properties": {}
+    },
+    {
+      "title": "ParaForge",
+      "url": "https://github.com/Anof-cyber/ParaForge",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L522",
+      "line": 522,
+      "properties": {}
+    },
+    {
+      "title": "GAP (Get All Parameters, Links, and Words)",
+      "url": "https://github.com/xnl-h4ck3r/GAP-Burp-Extension",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "Sheet Intruder",
+      "url": "https://github.com/Redguard/Sheet-Intruder",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "URL Fuzzer 401/403 Bypass",
+      "url": "https://github.com/akenofu/URL_Fuzzer_401_403_Bypass",
+      "category": "payload-generators-and-fuzzers",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "WhatsApp Protocol Decryption Burp Tool",
+      "url": "https://github.com/romanzaikin/BurpExtension-WhatsApp-Decryption-CheckPoint",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L532",
+      "line": 532,
+      "properties": {}
+    },
+    {
+      "title": "AES Burp/AES Payloads",
+      "url": "https://github.com/lgrangeia/aesburp",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "Crypto Attacker",
+      "url": "https://github.com/PortSwigger/crypto-attacker",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L534",
+      "line": 534,
+      "properties": {}
+    },
+    {
+      "title": "AES Killer",
+      "url": "https://github.com/Ebryx/AES-Killer",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L535",
+      "line": 535,
+      "properties": {}
+    },
+    {
+      "title": "Length Extension Attacks",
+      "url": "https://portswigger.net/bappstore/f156669cae8d4c10a3cd9d0b5270bcf6",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L536",
+      "line": 536,
+      "properties": {}
+    },
+    {
+      "title": "TLS-Attacker-BurpExtension",
+      "url": "https://github.com/RUB-NDS/TLS-Attacker-BurpExtension",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "Resign v2.0",
+      "url": "https://github.com/bit4woo/ReSign",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L538",
+      "line": 538,
+      "properties": {}
+    },
+    {
+      "title": "BurpCrypto",
+      "url": "https://github.com/whwlsfb/BurpCrypto",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L539",
+      "line": 539,
+      "properties": {}
+    },
+    {
+      "title": "Padding Oracle Hunter",
+      "url": "https://github.com/GovTech-CSG/PaddingOracleHunter",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "PyCript",
+      "url": "https://github.com/Anof-cyber/PyCript",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "Add To TLS Pass Through Extension",
+      "url": "https://github.com/WhiteOakSecurity/addToTLSPassThrough",
+      "category": "cryptography",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L542",
+      "line": 542,
+      "properties": {}
+    },
+    {
+      "title": "WCF-Binary-SOAP-Plug-In",
+      "url": "https://github.com/GDSSecurity/WCF-Binary-SOAP-Plug-In",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L548",
+      "line": 548,
+      "properties": {}
+    },
+    {
+      "title": "WSDL Wizard",
+      "url": "https://github.com/SmeegeSec/WSDLWizard",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "BurpWCFDSer",
+      "url": "https://github.com/NetSPI/Burp-Extensions/tree/master/BurpWCFDser",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "JSWS",
+      "url": "https://github.com/NetSPI/JSWS",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L551",
+      "line": 551,
+      "properties": {}
+    },
+    {
+      "title": "JSON Decoder",
+      "url": "https://github.com/PortSwigger/json-decoder",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L552",
+      "line": 552,
+      "properties": {}
+    },
+    {
+      "title": "WSDLer",
+      "url": "https://github.com/NetSPI/Wsdler",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L553",
+      "line": 553,
+      "properties": {}
+    },
+    {
+      "title": "POST2JSON",
+      "url": "https://github.com/cyberisltd/POST2JSON/tree/3d6109a4749352849e5e7f27737e5384f78c4552",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L554",
+      "line": 554,
+      "properties": {}
+    },
+    {
+      "title": "WCF Deserializer",
+      "url": "https://portswigger.net/bappstore/1ddd8919e946459f9c1bb47eedb19376",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "Postman Integration",
+      "url": "https://portswigger.net/bappstore/6ae9ede3630949748842a43518e840a7",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L556",
+      "line": 556,
+      "properties": {}
+    },
+    {
+      "title": "OpenAPI Parser",
+      "url": "https://portswigger.net/bappstore/6bf7574b632847faaaa4eb5e42f1757c",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L557",
+      "line": 557,
+      "properties": {}
+    },
+    {
+      "title": "Content Type Converter",
+      "url": "https://github.com/NetSPI/Burp-Extensions/tree/master/ContentTypeConverter",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L558",
+      "line": 558,
+      "properties": {}
+    },
+    {
+      "title": "Burp Non HTTP Extension",
+      "url": "https://github.com/summitt/Burp-Non-HTTP-Extension",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L559",
+      "line": 559,
+      "properties": {}
+    },
+    {
+      "title": "Swurg",
+      "url": "https://github.com/AresS31/swurg",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L560",
+      "line": 560,
+      "properties": {}
+    },
+    {
+      "title": "WCFDSer-ngng",
+      "url": "https://github.com/nccgroup/WCFDSer-ngng",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L561",
+      "line": 561,
+      "properties": {}
+    },
+    {
+      "title": "UPnP Hunter",
+      "url": "https://github.com/akabe1/upnp-bhunter",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L562",
+      "line": 562,
+      "properties": {}
+    },
+    {
+      "title": "burp-suite-swaggy",
+      "url": "https://github.com/augustd/burp-suite-swaggy",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L563",
+      "line": 563,
+      "properties": {}
+    },
+    {
+      "title": "Burp WS-Security",
+      "url": "https://github.com/RobinFassina-Moschini/Burp-WS-Security",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L564",
+      "line": 564,
+      "properties": {}
+    },
+    {
+      "title": "5GC_API_parse",
+      "url": "https://github.com/PentHertz/5GC_API_parse",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L565",
+      "line": 565,
+      "properties": {}
+    },
+    {
+      "title": "SwaggerParser-BurpExtension",
+      "url": "https://github.com/Trendyol/swagger-parser-burp-extension",
+      "category": "web-services",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L566",
+      "line": 566,
+      "properties": {}
+    },
+    {
+      "title": "Report To Elastic Search",
+      "url": "https://portswigger.net/bappstore/8493f7ae00aa4e01b6ffbbd1b8381ccc",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L572",
+      "line": 572,
+      "properties": {}
+    },
+    {
+      "title": "Qualys WAS",
+      "url": "https://portswigger.net/bappstore/3b0105b95e4645a7929faa0cbda1df28",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L573",
+      "line": 573,
+      "properties": {}
+    },
+    {
+      "title": "NMAP Parser",
+      "url": "https://portswigger.net/bappstore/0780c0a9f12e47848a94ac3e43dccbd9",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L574",
+      "line": 574,
+      "properties": {}
+    },
+    {
+      "title": "WebInspect Connector",
+      "url": "https://github.com/portswigger/webinspect-connector",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L575",
+      "line": 575,
+      "properties": {}
+    },
+    {
+      "title": "Faraday",
+      "url": "https://portswigger.net/bappstore/82f3cbaea46c4f158fd85bbccc90c31c",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L576",
+      "line": 576,
+      "properties": {}
+    },
+    {
+      "title": "Git Bridge",
+      "url": "https://portswigger.net/bappstore/ae94d3ff6007497d863313fdded20daa",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L577",
+      "line": 577,
+      "properties": {}
+    },
+    {
+      "title": "Issue Poster",
+      "url": "https://portswigger.net/bappstore/5e1ec745965b4e768d1f4908cc5cf22d",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L578",
+      "line": 578,
+      "properties": {}
+    },
+    {
+      "title": "Code Dx",
+      "url": "https://portswigger.net/bappstore/03b096411fed48e49ccf585659650348",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L579",
+      "line": 579,
+      "properties": {}
+    },
+    {
+      "title": "ElasticBurp",
+      "url": "https://portswigger.net/bappstore/67f5c31f93d04ad3a3b0a1808b3648fa",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L580",
+      "line": 580,
+      "properties": {}
+    },
+    {
+      "title": "Dradis Framework",
+      "url": "https://portswigger.net/bappstore/c1be8787ebdd45f58c091f6ae30f1af2",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L581",
+      "line": 581,
+      "properties": {}
+    },
+    {
+      "title": "Burp Dirbuster",
+      "url": "https://github.com/vulnersCom/burp-Dirbuster",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L582",
+      "line": 582,
+      "properties": {}
+    },
+    {
+      "title": "Pcap Importer",
+      "url": "https://portswigger.net/bappstore/01da4fdd9f6e4e12b0622fbdaa2dd26d",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L583",
+      "line": 583,
+      "properties": {}
+    },
+    {
+      "title": "Brida",
+      "url": "https://github.com/federicodotta/Brida",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L584",
+      "line": 584,
+      "properties": {}
+    },
+    {
+      "title": "Burp Chat",
+      "url": "https://portswigger.net/bappstore/1d0986521ace4b2dbf0b70836efa999d",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L585",
+      "line": 585,
+      "properties": {}
+    },
+    {
+      "title": "ThreadFix",
+      "url": "https://portswigger.net/bappstore/0b0100a98b1c4a0e927f34eac9d01afe",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L586",
+      "line": 586,
+      "properties": {}
+    },
+    {
+      "title": "Nessus Loader",
+      "url": "https://github.com/xorrbit/Burp-NessusLoader",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L587",
+      "line": 587,
+      "properties": {}
+    },
+    {
+      "title": "Peach API Integration",
+      "url": "https://github.com/PeachTech/peachapisec-burp",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L588",
+      "line": 588,
+      "properties": {}
+    },
+    {
+      "title": "YesWeBurp",
+      "url": "https://github.com/yeswehack/YesWeBurp",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L589",
+      "line": 589,
+      "properties": {}
+    },
+    {
+      "title": "Nucleus Burp Extension",
+      "url": "https://github.com/nucleus-security/Nucleus-Burp-Extension",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L590",
+      "line": 590,
+      "properties": {}
+    },
+    {
+      "title": "Import To Sitemap",
+      "url": "https://github.com/nccgroup/BurpImportSitemap",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L591",
+      "line": 591,
+      "properties": {}
+    },
+    {
+      "title": "bbrf-burp-plugin",
+      "url": "https://github.com/honoki/bbrf-burp-plugin",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L592",
+      "line": 592,
+      "properties": {}
+    },
+    {
+      "title": "GAT Security Platform Integration",
+      "url": "https://github.com/wmspydev/burp-gat-core-integration",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L593",
+      "line": 593,
+      "properties": {}
+    },
+    {
+      "title": "Nuclei Template Generator Burp Plugin",
+      "url": "https://github.com/projectdiscovery/nuclei-burp-plugin",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L594",
+      "line": 594,
+      "properties": {}
+    },
+    {
+      "title": "Semgrepper",
+      "url": "https://github.com/gand3lf/semgrepper",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L595",
+      "line": 595,
+      "properties": {}
+    },
+    {
+      "title": "Burptrast",
+      "url": "https://github.com/Contrast-Security-OSS/Burptrast",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L596",
+      "line": 596,
+      "properties": {}
+    },
+    {
+      "title": "Faction Burp Suite Extension",
+      "url": "https://github.com/factionsecurity/Faction-Burp",
+      "category": "tool-integration",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L597",
+      "line": 597,
+      "properties": {}
+    },
+    {
+      "title": "knife",
+      "url": "https://github.com/bit4woo/knife",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L601",
+      "line": 601,
+      "properties": {}
+    },
+    {
+      "title": "Burp Rest API",
+      "url": "https://github.com/vmware/burp-rest-api",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L602",
+      "line": 602,
+      "properties": {}
+    },
+    {
+      "title": "Burpa",
+      "url": "https://github.com/0x4D31/burpa",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L603",
+      "line": 603,
+      "properties": {}
+    },
+    {
+      "title": "CVSS Calculator",
+      "url": "https://portswigger.net/bappstore/e2209cdad8474342a695b2e279c294f0",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L604",
+      "line": 604,
+      "properties": {}
+    },
+    {
+      "title": "Burp Uniqueness",
+      "url": "https://github.com/silentsignal/burp-uniqueness",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L605",
+      "line": 605,
+      "properties": {}
+    },
+    {
+      "title": "Sample Burp Suite extension: custom scanner checks",
+      "url": "https://github.com/PortSwigger/example-scanner-checks",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L606",
+      "line": 606,
+      "properties": {}
+    },
+    {
+      "title": "Burp Bing translator",
+      "url": "https://github.com/yehgdotnet/burp-extention-bing-translator",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L607",
+      "line": 607,
+      "properties": {}
+    },
+    {
+      "title": "Similar Request Excluder",
+      "url": "https://github.com/tijme/similar-request-excluder",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L608",
+      "line": 608,
+      "properties": {}
+    },
+    {
+      "title": "jython-burp-api",
+      "url": "https://github.com/mwielgoszewski/jython-burp-api",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L609",
+      "line": 609,
+      "properties": {}
+    },
+    {
+      "title": "Jython Burp Extensions",
+      "url": "https://github.com/mwielgoszewski/jython-burp-extensions",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L610",
+      "line": 610,
+      "properties": {}
+    },
+    {
+      "title": "Add Custom Header",
+      "url": "https://github.com/lorenzog/burpAddCustomHeader",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L611",
+      "line": 611,
+      "properties": {}
+    },
+    {
+      "title": "Target Redirector",
+      "url": "https://portswigger.net/bappstore/d938ed20acbe4cd9889aa06bd23ba7e1",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L612",
+      "line": 612,
+      "properties": {}
+    },
+    {
+      "title": "Similar Request Excluder",
+      "url": "https://portswigger.net/bappstore/9ecd51851baf4ae6b69c6a951257387a",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L613",
+      "line": 613,
+      "properties": {}
+    },
+    {
+      "title": "Request Timer",
+      "url": "https://portswigger.net/bappstore/56675bcf2a804d3096465b2868ec1d65",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L614",
+      "line": 614,
+      "properties": {}
+    },
+    {
+      "title": "Response Clusterer",
+      "url": "https://portswigger.net/bappstore/e63f09f290ad4d9ea20031e84767b303",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L615",
+      "line": 615,
+      "properties": {}
+    },
+    {
+      "title": "Hackbar",
+      "url": "https://github.com/d3vilbug/HackBar",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L616",
+      "line": 616,
+      "properties": {}
+    },
+    {
+      "title": "HUNT",
+      "url": "https://github.com/bugcrowd/HUNT",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L617",
+      "line": 617,
+      "properties": {}
+    },
+    {
+      "title": "Autowasp",
+      "url": "https://github.com/GovTech-CSG/Autowasp",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L618",
+      "line": 618,
+      "properties": {}
+    },
+    {
+      "title": "Replicator",
+      "url": "https://portswigger.net/bappstore/56cf924977874104ac35e52962a9a553",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L619",
+      "line": 619,
+      "properties": {}
+    },
+    {
+      "title": "Kerberos Authentication",
+      "url": "https://portswigger.net/bappstore/94135ed444c84cc095c72e6520bcc583",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L620",
+      "line": 620,
+      "properties": {}
+    },
+    {
+      "title": "Kerberos Upstream Proxy Extension for Burp Suite",
+      "url": "https://github.com/agreenbhm/BurpKerberosUpstreamProxy",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L621",
+      "line": 621,
+      "properties": {}
+    },
+    {
+      "title": "JVM Property Editor",
+      "url": "https://portswigger.net/bappstore/150c653f60b54b4eb556ca289a6aa800",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L622",
+      "line": 622,
+      "properties": {}
+    },
+    {
+      "title": "Lair",
+      "url": "https://portswigger.net/bappstore/16ac195454f8429baac1c5357b0d3952",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L623",
+      "line": 623,
+      "properties": {}
+    },
+    {
+      "title": "Google Authenticator",
+      "url": "https://portswigger.net/bappstore/fb3685f958f8424493945c6c60c0920c",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L624",
+      "line": 624,
+      "properties": {}
+    },
+    {
+      "title": "GWT Insertion Points",
+      "url": "https://portswigger.net/bappstore/a0740678763a4c748bbe7c79151cbe00",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L625",
+      "line": 625,
+      "properties": {}
+    },
+    {
+      "title": "Headless Burp",
+      "url": "https://portswigger.net/bappstore/d54b11f7af3c4dfeb6b81fb5db72e381",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L626",
+      "line": 626,
+      "properties": {}
+    },
+    {
+      "title": "HTTP Mock",
+      "url": "https://portswigger.net/bappstore/42680f96fc214513bc5211b3f25fd98b",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L627",
+      "line": 627,
+      "properties": {}
+    },
+    {
+      "title": "Carbonator",
+      "url": "https://portswigger.net/bappstore/e3a26fff8e1d401dade52f3a8d42d06b",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L628",
+      "line": 628,
+      "properties": {}
+    },
+    {
+      "title": "Batch Scan Report Generator",
+      "url": "https://portswigger.net/bappstore/bc4ad87282e64fc4b35e9b9b05bac1dd",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L629",
+      "line": 629,
+      "properties": {}
+    },
+    {
+      "title": "Decompressor",
+      "url": "https://portswigger.net/bappstore/ef36a66ebeb04412a52ffc17c2f5e15e",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L630",
+      "line": 630,
+      "properties": {}
+    },
+    {
+      "title": "Custom Parameter Handler",
+      "url": "https://portswigger.net/bappstore/a0c0cd68ab7c4928b3bf0a9ad48ec8c7",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L631",
+      "line": 631,
+      "properties": {}
+    },
+    {
+      "title": "CFURL Cache inspector for Burp Suite",
+      "url": "https://github.com/silentsignal/burp-cfurl-cache",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L632",
+      "line": 632,
+      "properties": {}
+    },
+    {
+      "title": "Proxy Auto Config",
+      "url": "https://portswigger.net/bappstore/7b3eae07aa724196ab85a8b64cd095d1",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L633",
+      "line": 633,
+      "properties": {}
+    },
+    {
+      "title": "Proxy Action Rules",
+      "url": "https://github.com/jamesm0rr1s/BurpSuite-Active-AutoProxy",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L634",
+      "line": 634,
+      "properties": {}
+    },
+    {
+      "title": "Perfmon",
+      "url": "https://github.com/sampsonc/Perfmon",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L635",
+      "line": 635,
+      "properties": {}
+    },
+    {
+      "title": "Unicode To Chinese",
+      "url": "https://github.com/bit4woo/u2c",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L636",
+      "line": 636,
+      "properties": {}
+    },
+    {
+      "title": "Curlit",
+      "url": "https://github.com/faffi/curlit/tree/b5cf116d4716376e36cb0e522bdfe90915a7a961",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L637",
+      "line": 637,
+      "properties": {}
+    },
+    {
+      "title": "burp-suite-paste-curl",
+      "url": "https://github.com/augustd/burp-suite-paste-curl",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L638",
+      "line": 638,
+      "properties": {}
+    },
+    {
+      "title": "Copy as FFUF Command",
+      "url": "https://github.com/phlmox/burp_copy_as_ffuf_command",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L639",
+      "line": 639,
+      "properties": {}
+    },
+    {
+      "title": "BurpSuite-Team-Extension",
+      "url": "https://github.com/Static-Flow/BurpSuite-Team-Extension",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L640",
+      "line": 640,
+      "properties": {}
+    },
+    {
+      "title": "BurpelFish",
+      "url": "https://github.com/bao7uo/BurpelFish",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L641",
+      "line": 641,
+      "properties": {}
+    },
+    {
+      "title": "BlockerLite",
+      "url": "https://github.com/bomsi/BlockerLite",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L642",
+      "line": 642,
+      "properties": {}
+    },
+    {
+      "title": "Filter Options Method",
+      "url": "https://github.com/capt-meelo/filter-options-method",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L643",
+      "line": 643,
+      "properties": {}
+    },
+    {
+      "title": "Burp-Quicker-Context-Extension",
+      "url": "https://github.com/bytebutcher/burp-quicker-context",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L644",
+      "line": 644,
+      "properties": {}
+    },
+    {
+      "title": "Burp Share Requests",
+      "url": "https://github.com/Static-Flow/BurpSuiteShareRequests",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L645",
+      "line": 645,
+      "properties": {}
+    },
+    {
+      "title": "Tea Break",
+      "url": "https://github.com/humblelad/TeaBreak",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L646",
+      "line": 646,
+      "properties": {}
+    },
+    {
+      "title": "Turbo Data Miner",
+      "url": "https://github.com/chopicalqui/TurboDataMiner",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L647",
+      "line": 647,
+      "properties": {}
+    },
+    {
+      "title": "BugPoC",
+      "url": "https://github.com/bugpoc-ryan/BugPoC-Burp-Extension",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L648",
+      "line": 648,
+      "properties": {}
+    },
+    {
+      "title": "Burp Customizer",
+      "url": "https://github.com/CoreyD97/BurpCustomizer",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L649",
+      "line": 649,
+      "properties": {}
+    },
+    {
+      "title": "FixerUpper",
+      "url": "https://github.com/FSecureLABS/FixerUpper",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L650",
+      "line": 650,
+      "properties": {}
+    },
+    {
+      "title": "SourceMapper",
+      "url": "https://github.com/yg-ht/SourceMapper",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L651",
+      "line": 651,
+      "properties": {}
+    },
+    {
+      "title": "uproot-JS",
+      "url": "https://github.com/0xDexter0us/uproot-JS",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L652",
+      "line": 652,
+      "properties": {}
+    },
+    {
+      "title": "OData Explorer",
+      "url": "https://github.com/xybytes/OData-Explorer",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L653",
+      "line": 653,
+      "properties": {}
+    },
+    {
+      "title": "Copy to Bcheck",
+      "url": "https://github.com/vrechson/copy-to-bcheck",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L654",
+      "line": 654,
+      "properties": {}
+    },
+    {
+      "title": "Copy Headers As -H Arguments",
+      "url": "https://github.com/n0kovo/burp-copy-headers-as-args",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L655",
+      "line": 655,
+      "properties": {}
+    },
+    {
+      "title": "Burp Suite History Explorer",
+      "url": "https://github.com/marduc812/BurpSuiteHistoryExplorer",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L656",
+      "line": 656,
+      "properties": {}
+    },
+    {
+      "title": "Asset Saver - Burp Suite",
+      "url": "https://github.com/gaberust/burp_asset_saver",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L657",
+      "line": 657,
+      "properties": {}
+    },
+    {
+      "title": "BCheck Helper",
+      "url": "https://github.com/josh-psw/bcheck-helper",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L658",
+      "line": 658,
+      "properties": {}
+    },
+    {
+      "title": "Change Menu Level",
+      "url": "https://github.com/Ovi3/burp-menu-level",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L659",
+      "line": 659,
+      "properties": {}
+    },
+    {
+      "title": "Header Snipper",
+      "url": "https://github.com/e1abrador/Burp-headerSnipper",
+      "category": "misc",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L660",
+      "line": 660,
+      "properties": {}
+    },
+    {
+      "title": "Burp Extension Generator",
+      "url": "https://github.com/rsrdesarrollo/generator-burp-extension",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L666",
+      "line": 666,
+      "properties": {}
+    },
+    {
+      "title": "Burp plugin development for java n00bs - Marc Wickenden",
+      "url": "https://www.slideshare.net/marcwickenden/burp-plugin-development-for-java-n00bs-44-con",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L667",
+      "line": 667,
+      "properties": {}
+    },
+    {
+      "title": "Developing Burp Suite Extensions - Doyensec",
+      "url": "https://github.com/doyensec/burpdeveltraining",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L668",
+      "line": 668,
+      "properties": {}
+    },
+    {
+      "title": "Writing your first Burp Suite extension - Portswigger",
+      "url": "https://portswigger.net/burp/extender/writing-your-first-burp-suite-extension",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L669",
+      "line": 669,
+      "properties": {}
+    },
+    {
+      "title": "Burp Extension Writing Workshop - Sanoop Thomas",
+      "url": "https://devilslab.in/files/Burp%20Extension%20Writing%20Workshop.pdf",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L670",
+      "line": 670,
+      "properties": {}
+    },
+    {
+      "title": "Extending Burp with Python",
+      "url": "https://www.owasp.org/images/9/9f/Extending-Burp-with-Python.pptx",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L671",
+      "line": 671,
+      "properties": {}
+    },
+    {
+      "title": "Creating Burp Extensions in",
+      "url": "https://blog.stalkr.net/2015/04/creating-burp-extensions-in-.html",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L672",
+      "line": 672,
+      "properties": {}
+    },
+    {
+      "title": "Burp Extensions in and Pentesting Custom Webservices - Neohapsis",
+      "url": "https://labs.neohapsis.com/2013/09/16/burp-extensions-in--pentesting-custom-web-services/",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "Writing Burp Suite Marcos and Plugins - Pluralsight",
+      "url": "https://www.pluralsight.com/courses/writing-burp-suite-macros-plugins",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L674",
+      "line": 674,
+      "properties": {}
+    },
+    {
+      "title": "Extending Burp with Extensions - Chris Bush",
+      "url": "http://blog.opensecurityresearch.com/2014/03/extending-burp.html",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L675",
+      "line": 675,
+      "properties": {}
+    },
+    {
+      "title": "Burp Suite Extension Development series - Prakhar Prasad",
+      "url": "https://prakharprasad.com/burp-suite-extension-development-series/",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L676",
+      "line": 676,
+      "properties": {}
+    },
+    {
+      "title": "BSidesCHS 2015: Building Burp Extensions - Jason Gillam",
+      "url": "https://www.youtube.com/watch?v=v7Yjdi9NvOY",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L677",
+      "line": 677,
+      "properties": {}
+    },
+    {
+      "title": "Intro to Burp Extender Jython - nVisium",
+      "url": "https://www.youtube.com/watch?v=4f05lNULX1I",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L678",
+      "line": 678,
+      "properties": {}
+    },
+    {
+      "title": "Intro to Burp Extender Java - nVisium",
+      "url": "https://www.youtube.com/watch?v=wR1ENja0lI0",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L679",
+      "line": 679,
+      "properties": {}
+    },
+    {
+      "title": "Web Penetration Testing with Burp and the CO2 Extension - Jason Gillam",
+      "url": "https://www.youtube.com/watch?v=ez9KSqlYoWU",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L680",
+      "line": 680,
+      "properties": {}
+    },
+    {
+      "title": "Developing Burp Suite Extensions with Luca Carettoni - eLearnSecurity",
+      "url": "https://www.youtube.com/watch?v=yCnPMuan2fQ",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L681",
+      "line": 681,
+      "properties": {}
+    },
+    {
+      "title": "Quick start your Burp Suite extensions Jython and automation - Marius Nepomuceno",
+      "url": "https://www.youtube.com/watch?v=LEkqKOijp7Q",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L682",
+      "line": 682,
+      "properties": {}
+    },
+    {
+      "title": "Writing a Burp Extension – Part One - Carl Sampson",
+      "url": "https://chs.us/writing-a-burp-extension-part-one/",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L683",
+      "line": 683,
+      "properties": {}
+    },
+    {
+      "title": "OWASP Bay Area - Writing Burp Extensons",
+      "url": "https://www.youtube.com/watch?v=OkQiP_Tcs68",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L684",
+      "line": 684,
+      "properties": {}
+    },
+    {
+      "title": "Portswigger - The top 10 best pentesting tools and extensions in Burp Suite",
+      "url": "https://portswigger.net/testers/penetration-testing-tools",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L685",
+      "line": 685,
+      "properties": {}
+    },
+    {
+      "title": "Burp Suite Webinar for h1-702",
+      "url": "https://www.youtube.com/watch?v=IdzmnSVidvU",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L686",
+      "line": 686,
+      "properties": {}
+    },
+    {
+      "title": "Burp Suite 2 Series",
+      "url": "https://www.youtube.com/playlist?list=PLZOToVAK85MoBg65au9EeFkK7qwzppcnU",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L687",
+      "line": 687,
+      "properties": {}
+    },
+    {
+      "title": "Hacker101 - Burp Suite Playlist",
+      "url": "https://www.hacker101.com/playlists/burp_suite.html",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L688",
+      "line": 688,
+      "properties": {}
+    },
+    {
+      "title": "AIAIAI",
+      "url": "https://github.com/Hipapheralkus/AIAIAI/",
+      "category": "burp-extension-training-resources",
+      "source_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/README.md#L689",
+      "line": 689,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 530,
+  "unique_links": 500,
+  "category_count": 30,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "snoopysecurity",
+      "url": "https://github.com/snoopysecurity",
+      "contributions": 68
+    },
+    {
+      "login": "tellmewhatwhyhow",
+      "url": "https://github.com/tellmewhatwhyhow",
+      "contributions": 3
+    },
+    {
+      "login": "Anof-cyber",
+      "url": "https://github.com/Anof-cyber",
+      "contributions": 2
+    },
+    {
+      "login": "sleeyax",
+      "url": "https://github.com/sleeyax",
+      "contributions": 2
+    },
+    {
+      "login": "arbazkiraak",
+      "url": "https://github.com/arbazkiraak",
+      "contributions": 1
+    },
+    {
+      "login": "bytebutcher",
+      "url": "https://github.com/bytebutcher",
+      "contributions": 1
+    },
+    {
+      "login": "humblelad",
+      "url": "https://github.com/humblelad",
+      "contributions": 1
+    },
+    {
+      "login": "JChamblee99",
+      "url": "https://github.com/JChamblee99",
+      "contributions": 1
+    },
+    {
+      "login": "Mr-xn",
+      "url": "https://github.com/Mr-xn",
+      "contributions": 1
+    },
+    {
+      "login": "Robin528919",
+      "url": "https://github.com/Robin528919",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 162,
+    "public_contributors": 14,
+    "observed_at": "2026-09-03T17:43:49.114433+00:00"
+  },
+  "contributing_url": "https://github.com/snoopysecurity/awesome-burp-extensions/blob/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by snoopysecurity/awesome-burp-extensions contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/snoopysecurity/awesome-burp-extensions/tree/7cbf7fdf4d690af55b33be6fcf5cb7e6ac093e8c",
+  "digest": "c83fe90bb92f4cc834be109912a782ec17c078ae80b8f58f84f6b961d355f815"
+}

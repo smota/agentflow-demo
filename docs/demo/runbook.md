@@ -90,6 +90,13 @@ prove every imported helper is fresh; verify the changed behavior explicitly.
 
 Record current issue/role, branch/commit, last accepted action, input/output digests, relevant test evidence, open rework, remote object IDs and next safe action after every role and before/after external mutations. Commit coherent issue-scoped increments. The checkpoint is a recovery aid, not authority or evidence that tests passed.
 
+For list-profile enrichment, keep `--batch-size` within 1–16 and `--workers`
+within 1–4; the tested long-run setting is 8 and 4. Each completed batch is
+applied deterministically to a small digest-bound `profile-checkpoint.json`
+sidecar. A successful merge saves the main checkpoint and removes the sidecar.
+Do not edit or transplant a sidecar across engine/run identities. Before removing
+an orphaned writer lock, resolve its exact path and prove its recorded PID is gone.
+
 ## Retry policy
 
 Use bounded network timeouts and at most three retries with backoff for transient failures. Honor rate-limit reset times. Never blindly retry a write whose outcome is unknown: inspect its remote identifier first. Repeated identical failures trigger diagnosis/replanning, not infinite retries. Continue independent authorized work when possible. Never weaken a gate to show progress.

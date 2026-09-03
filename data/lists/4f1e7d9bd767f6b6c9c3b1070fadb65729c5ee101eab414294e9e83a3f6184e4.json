@@ -1,0 +1,2308 @@
+{
+  "format_version": 3,
+  "repository_id": "192870025",
+  "name": "lifeparticle/Ruby-Cheatsheet",
+  "revision": "f9fcc6201114bbfcc7b9c78352ea801dd06be6df",
+  "readme_path": "README.md",
+  "readme_sha256": "2b32667192668ffca492468757ebef60df7a8a48f7fe9b7f23f3c8ca03c9df40",
+  "sections": [
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 1,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "the-latest-news-from-ruby-langorg",
+      "title": "The latest news from ruby-lang.org",
+      "level": 1,
+      "path": [
+        "The latest news from ruby-lang.org"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#the-latest-news-from-ruby-langorg",
+      "entries": 10
+    },
+    {
+      "id": "installation",
+      "title": "Installation",
+      "level": 1,
+      "path": [
+        "Installation"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#installation",
+      "entries": 0
+    },
+    {
+      "id": "how-to-install-ruby",
+      "title": "How to install Ruby",
+      "level": 2,
+      "path": [
+        "Installation",
+        "How to install Ruby"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-install-ruby",
+      "entries": 0
+    },
+    {
+      "id": "debian-ubuntu",
+      "title": "Debian, Ubuntu",
+      "level": 3,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "Debian, Ubuntu"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#debian-ubuntu",
+      "entries": 0
+    },
+    {
+      "id": "windows-package-manager",
+      "title": "Windows Package Manager",
+      "level": 3,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "Windows Package Manager"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#windows-package-manager",
+      "entries": 0
+    },
+    {
+      "id": "macos",
+      "title": "macOS",
+      "level": 3,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "macOS"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#macos",
+      "entries": 0
+    },
+    {
+      "id": "docker",
+      "title": "Docker",
+      "level": 3,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "Docker"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#docker",
+      "entries": 0
+    },
+    {
+      "id": "install-rbenv-with-package-managers",
+      "title": "Install rbenv with package managers",
+      "level": 3,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "Install rbenv with package managers"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#install-rbenv-with-package-managers",
+      "entries": 0
+    },
+    {
+      "id": "macos-1",
+      "title": "macOS",
+      "level": 4,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "Install rbenv with package managers",
+        "macOS"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#macos-1",
+      "entries": 0
+    },
+    {
+      "id": "debian-ubuntu-and-other-derivatives",
+      "title": "Debian, ubuntu and other derivatives",
+      "level": 4,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "Install rbenv with package managers",
+        "Debian, ubuntu and other derivatives"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#debian-ubuntu-and-other-derivatives",
+      "entries": 0
+    },
+    {
+      "id": "install-ruby-with-rbenv",
+      "title": "Install ruby with rbenv",
+      "level": 3,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "Install ruby with rbenv"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#install-ruby-with-rbenv",
+      "entries": 0
+    },
+    {
+      "id": "install-ruby-with-rvm",
+      "title": "Install ruby with RVM",
+      "level": 3,
+      "path": [
+        "Installation",
+        "How to install Ruby",
+        "Install ruby with RVM"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#install-ruby-with-rvm",
+      "entries": 0
+    },
+    {
+      "id": "how-to-install-ruby-gem-manager-bundler-gem",
+      "title": "How to install ruby gem manager, bundler gem",
+      "level": 2,
+      "path": [
+        "Installation",
+        "How to install ruby gem manager, bundler gem"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-install-ruby-gem-manager-bundler-gem",
+      "entries": 0
+    },
+    {
+      "id": "what-is-a-gemfile-and-gemfilelock",
+      "title": "What is a Gemfile and Gemfile.lock",
+      "level": 2,
+      "path": [
+        "Installation",
+        "What is a Gemfile and Gemfile.lock"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#what-is-a-gemfile-and-gemfilelock",
+      "entries": 0
+    },
+    {
+      "id": "how-to-install-a-specific-version-of-a-particular-ruby-gem",
+      "title": "How to install a specific version of a particular ruby gem",
+      "level": 2,
+      "path": [
+        "Installation",
+        "How to install a specific version of a particular ruby gem"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-install-a-specific-version-of-a-particular-ruby-gem",
+      "entries": 0
+    },
+    {
+      "id": "how-to-update-a-single-gem-using-bundler",
+      "title": "How to update a single gem using Bundler",
+      "level": 2,
+      "path": [
+        "Installation",
+        "How to update a single gem using Bundler"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-update-a-single-gem-using-bundler",
+      "entries": 0
+    },
+    {
+      "id": "how-to-update-every-gem-in-the-gemfile-using-bundler",
+      "title": "How to update every gem in the Gemfile using Bundler",
+      "level": 2,
+      "path": [
+        "Installation",
+        "How to update every gem in the Gemfile using Bundler"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-update-every-gem-in-the-gemfile-using-bundler",
+      "entries": 0
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "level": 1,
+      "path": [
+        "Introduction"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#introduction",
+      "entries": 0
+    },
+    {
+      "id": "reserved-words",
+      "title": "Reserved Words",
+      "level": 1,
+      "path": [
+        "Reserved Words"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#reserved-words",
+      "entries": 0
+    },
+    {
+      "id": "comment",
+      "title": "Comment",
+      "level": 1,
+      "path": [
+        "Comment"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#comment",
+      "entries": 0
+    },
+    {
+      "id": "operators",
+      "title": "Operators",
+      "level": 1,
+      "path": [
+        "Operators"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#operators",
+      "entries": 0
+    },
+    {
+      "id": "usage",
+      "title": "Usage",
+      "level": 2,
+      "path": [
+        "Operators",
+        "Usage"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#usage",
+      "entries": 0
+    },
+    {
+      "id": "operator-precedence-table",
+      "title": "Operator Precedence Table",
+      "level": 2,
+      "path": [
+        "Operators",
+        "Operator Precedence Table"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#operator-precedence-table",
+      "entries": 0
+    },
+    {
+      "id": "variables-and-scope",
+      "title": "Variables and Scope",
+      "level": 1,
+      "path": [
+        "Variables and Scope"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#variables-and-scope",
+      "entries": 0
+    },
+    {
+      "id": "local-variable",
+      "title": "Local Variable",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Local Variable"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#local-variable",
+      "entries": 0
+    },
+    {
+      "id": "instance-variable",
+      "title": "Instance Variable",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Instance Variable"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#instance-variable",
+      "entries": 0
+    },
+    {
+      "id": "class-variable",
+      "title": "Class Variable",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Class Variable"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#class-variable",
+      "entries": 0
+    },
+    {
+      "id": "global-variable",
+      "title": "Global Variable",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Global Variable"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#global-variable",
+      "entries": 0
+    },
+    {
+      "id": "constant-variable",
+      "title": "Constant Variable",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Constant Variable"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#constant-variable",
+      "entries": 0
+    },
+    {
+      "id": "pseudo-variables",
+      "title": "Pseudo variables",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Pseudo variables"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#pseudo-variables",
+      "entries": 0
+    },
+    {
+      "id": "pre-defined-variables",
+      "title": "Pre-defined variables",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Pre-defined variables"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#pre-defined-variables",
+      "entries": 0
+    },
+    {
+      "id": "option-variables",
+      "title": "Option variables",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Option variables"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#option-variables",
+      "entries": 0
+    },
+    {
+      "id": "pre-defined-global-constants",
+      "title": "Pre-defined global constants",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "Pre-defined global constants"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#pre-defined-global-constants",
+      "entries": 0
+    },
+    {
+      "id": "how-to-check-scope-of-variables",
+      "title": "How to check scope of variables",
+      "level": 2,
+      "path": [
+        "Variables and Scope",
+        "How to check scope of variables"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-check-scope-of-variables",
+      "entries": 0
+    },
+    {
+      "id": "conditional-structures",
+      "title": "Conditional structures",
+      "level": 1,
+      "path": [
+        "Conditional structures"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#conditional-structures",
+      "entries": 0
+    },
+    {
+      "id": "if-modifier",
+      "title": "if Modifier",
+      "level": 2,
+      "path": [
+        "Conditional structures",
+        "if Modifier"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#if-modifier",
+      "entries": 0
+    },
+    {
+      "id": "if-elsif-else-statement",
+      "title": "If elsif else Statement",
+      "level": 2,
+      "path": [
+        "Conditional structures",
+        "If elsif else Statement"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#if-elsif-else-statement",
+      "entries": 0
+    },
+    {
+      "id": "unless-statement",
+      "title": "unless Statement",
+      "level": 2,
+      "path": [
+        "Conditional structures",
+        "unless Statement"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#unless-statement",
+      "entries": 0
+    },
+    {
+      "id": "case-statements",
+      "title": "Case Statements",
+      "level": 2,
+      "path": [
+        "Conditional structures",
+        "Case Statements"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#case-statements",
+      "entries": 0
+    },
+    {
+      "id": "data-types",
+      "title": "Data types",
+      "level": 1,
+      "path": [
+        "Data types"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#data-types",
+      "entries": 8
+    },
+    {
+      "id": "integer",
+      "title": "Integer",
+      "level": 2,
+      "path": [
+        "Data types",
+        "Integer"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#integer",
+      "entries": 0
+    },
+    {
+      "id": "float",
+      "title": "Float",
+      "level": 2,
+      "path": [
+        "Data types",
+        "Float"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#float",
+      "entries": 0
+    },
+    {
+      "id": "string",
+      "title": "String",
+      "level": 2,
+      "path": [
+        "Data types",
+        "String"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#string",
+      "entries": 0
+    },
+    {
+      "id": "array",
+      "title": "Array",
+      "level": 2,
+      "path": [
+        "Data types",
+        "Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#array",
+      "entries": 0
+    },
+    {
+      "id": "hash",
+      "title": "Hash",
+      "level": 2,
+      "path": [
+        "Data types",
+        "Hash"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#hash",
+      "entries": 0
+    },
+    {
+      "id": "boolean",
+      "title": "Boolean",
+      "level": 2,
+      "path": [
+        "Data types",
+        "Boolean"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#boolean",
+      "entries": 0
+    },
+    {
+      "id": "symbol",
+      "title": "Symbol",
+      "level": 2,
+      "path": [
+        "Data types",
+        "Symbol"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#symbol",
+      "entries": 0
+    },
+    {
+      "id": "how-to-check-the-data-type",
+      "title": "How to check the data type",
+      "level": 2,
+      "path": [
+        "Data types",
+        "How to check the data type"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-check-the-data-type",
+      "entries": 0
+    },
+    {
+      "id": "symbol-1",
+      "title": "Symbol",
+      "level": 1,
+      "path": [
+        "Symbol"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#symbol-1",
+      "entries": 0
+    },
+    {
+      "id": "string-1",
+      "title": "String",
+      "level": 1,
+      "path": [
+        "String"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#string-1",
+      "entries": 0
+    },
+    {
+      "id": "string-interpolation",
+      "title": "String Interpolation",
+      "level": 2,
+      "path": [
+        "String",
+        "String Interpolation"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#string-interpolation",
+      "entries": 0
+    },
+    {
+      "id": "how-to-extract-a-substring",
+      "title": "How to Extract a Substring",
+      "level": 2,
+      "path": [
+        "String",
+        "How to Extract a Substring"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-extract-a-substring",
+      "entries": 0
+    },
+    {
+      "id": "how-to-convert-string-to-lower-or-upper-case",
+      "title": "How to convert String to lower or upper case",
+      "level": 2,
+      "path": [
+        "String",
+        "How to convert String to lower or upper case"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-convert-string-to-lower-or-upper-case",
+      "entries": 0
+    },
+    {
+      "id": "helpful-methods",
+      "title": "Helpful methods",
+      "level": 2,
+      "path": [
+        "String",
+        "Helpful methods"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#helpful-methods",
+      "entries": 0
+    },
+    {
+      "id": "integer-1",
+      "title": "Integer",
+      "level": 1,
+      "path": [
+        "Integer"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#integer-1",
+      "entries": 0
+    },
+    {
+      "id": "helpful-methods-1",
+      "title": "Helpful methods",
+      "level": 2,
+      "path": [
+        "Integer",
+        "Helpful methods"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#helpful-methods-1",
+      "entries": 0
+    },
+    {
+      "id": "range",
+      "title": "Range",
+      "level": 1,
+      "path": [
+        "Range"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#range",
+      "entries": 0
+    },
+    {
+      "id": "helpful-methods-2",
+      "title": "Helpful methods",
+      "level": 2,
+      "path": [
+        "Range",
+        "Helpful methods"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#helpful-methods-2",
+      "entries": 0
+    },
+    {
+      "id": "how-to-use-step-with-range",
+      "title": "How to use step with Range",
+      "level": 2,
+      "path": [
+        "Range",
+        "How to use step with Range"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-use-step-with-range",
+      "entries": 0
+    },
+    {
+      "id": "methods",
+      "title": "Methods",
+      "level": 1,
+      "path": [
+        "Methods"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#methods",
+      "entries": 0
+    },
+    {
+      "id": "how-to-declare-a-method",
+      "title": "How to declare a method",
+      "level": 2,
+      "path": [
+        "Methods",
+        "How to declare a method"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-declare-a-method",
+      "entries": 0
+    },
+    {
+      "id": "how-to-call-a-method",
+      "title": "How to call a method",
+      "level": 2,
+      "path": [
+        "Methods",
+        "How to call a method"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-call-a-method",
+      "entries": 0
+    },
+    {
+      "id": "how-to-define-a-default-value-for-a-method-parameter",
+      "title": "How to define a default value for a method parameter",
+      "level": 2,
+      "path": [
+        "Methods",
+        "How to define a default value for a method parameter"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-define-a-default-value-for-a-method-parameter",
+      "entries": 0
+    },
+    {
+      "id": "how-to-use-another-parameter-for-the-default-value",
+      "title": "How to use another parameter for the default value",
+      "level": 2,
+      "path": [
+        "Methods",
+        "How to use another parameter for the default value"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-use-another-parameter-for-the-default-value",
+      "entries": 0
+    },
+    {
+      "id": "how-to-pass-variable-length-argument-to-a-method-parameter",
+      "title": "How to pass variable length argument to a method parameter",
+      "level": 2,
+      "path": [
+        "Methods",
+        "How to pass variable length argument to a method parameter"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-pass-variable-length-argument-to-a-method-parameter",
+      "entries": 0
+    },
+    {
+      "id": "modify-object",
+      "title": "Modify object",
+      "level": 2,
+      "path": [
+        "Methods",
+        "Modify object"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#modify-object",
+      "entries": 0
+    },
+    {
+      "id": "boolean-method",
+      "title": "Boolean method",
+      "level": 2,
+      "path": [
+        "Methods",
+        "Boolean method"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#boolean-method",
+      "entries": 0
+    },
+    {
+      "id": "class-method",
+      "title": "Class method",
+      "level": 2,
+      "path": [
+        "Methods",
+        "Class method"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#class-method",
+      "entries": 0
+    },
+    {
+      "id": "blocks",
+      "title": "Blocks",
+      "level": 1,
+      "path": [
+        "Blocks"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#blocks",
+      "entries": 0
+    },
+    {
+      "id": "how-to-check-if-a-block-is-given",
+      "title": "How to check if a block is given",
+      "level": 2,
+      "path": [
+        "Blocks",
+        "How to check if a block is given"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-check-if-a-block-is-given",
+      "entries": 0
+    },
+    {
+      "id": "procs",
+      "title": "Procs",
+      "level": 1,
+      "path": [
+        "Procs"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#procs",
+      "entries": 0
+    },
+    {
+      "id": "lambdas",
+      "title": "Lambdas",
+      "level": 1,
+      "path": [
+        "Lambdas"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#lambdas",
+      "entries": 0
+    },
+    {
+      "id": "blocks-vs-procs-vs-lambdas",
+      "title": "Blocks VS Procs VS Lambdas",
+      "level": 1,
+      "path": [
+        "Blocks VS Procs VS Lambdas"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#blocks-vs-procs-vs-lambdas",
+      "entries": 0
+    },
+    {
+      "id": "array-1",
+      "title": "Array",
+      "level": 1,
+      "path": [
+        "Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#array-1",
+      "entries": 0
+    },
+    {
+      "id": "how-to-iterate-an-array",
+      "title": "How to iterate an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to iterate an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-iterate-an-array",
+      "entries": 0
+    },
+    {
+      "id": "each",
+      "title": "each",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "each"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#each",
+      "entries": 0
+    },
+    {
+      "id": "each_with_index",
+      "title": "each_with_index",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "each_with_index"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#each_with_index",
+      "entries": 0
+    },
+    {
+      "id": "each_with_object",
+      "title": "each_with_object",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "each_with_object"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#each_with_object",
+      "entries": 0
+    },
+    {
+      "id": "each_index",
+      "title": "each_index",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "each_index"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#each_index",
+      "entries": 0
+    },
+    {
+      "id": "map",
+      "title": "map",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "map"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#map",
+      "entries": 0
+    },
+    {
+      "id": "collect",
+      "title": "collect",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "collect"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#collect",
+      "entries": 0
+    },
+    {
+      "id": "while",
+      "title": "while",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "while"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#while",
+      "entries": 0
+    },
+    {
+      "id": "do-while",
+      "title": "do while",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "do while"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#do-while",
+      "entries": 0
+    },
+    {
+      "id": "for",
+      "title": "for",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "for"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#for",
+      "entries": 0
+    },
+    {
+      "id": "until",
+      "title": "until",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "until"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#until",
+      "entries": 0
+    },
+    {
+      "id": "times",
+      "title": "times",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "times"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#times",
+      "entries": 0
+    },
+    {
+      "id": "upto",
+      "title": "upto",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "upto"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#upto",
+      "entries": 0
+    },
+    {
+      "id": "downto",
+      "title": "downto",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "downto"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#downto",
+      "entries": 0
+    },
+    {
+      "id": "step",
+      "title": "step",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "step"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#step",
+      "entries": 0
+    },
+    {
+      "id": "inject",
+      "title": "inject",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "inject"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#inject",
+      "entries": 0
+    },
+    {
+      "id": "reduce",
+      "title": "reduce",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "reduce"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#reduce",
+      "entries": 0
+    },
+    {
+      "id": "detect",
+      "title": "detect",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "detect"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#detect",
+      "entries": 0
+    },
+    {
+      "id": "find",
+      "title": "find",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "find"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#find",
+      "entries": 0
+    },
+    {
+      "id": "select",
+      "title": "select",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "select"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#select",
+      "entries": 0
+    },
+    {
+      "id": "reject",
+      "title": "reject",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "reject"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#reject",
+      "entries": 0
+    },
+    {
+      "id": "keep_if",
+      "title": "keep_if",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "keep_if"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#keep_if",
+      "entries": 0
+    },
+    {
+      "id": "delete_if",
+      "title": "delete_if",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "delete_if"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#delete_if",
+      "entries": 0
+    },
+    {
+      "id": "drop_while",
+      "title": "drop_while",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "drop_while"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#drop_while",
+      "entries": 0
+    },
+    {
+      "id": "reverse_each",
+      "title": "reverse_each",
+      "level": 3,
+      "path": [
+        "Array",
+        "How to iterate an Array",
+        "reverse_each"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#reverse_each",
+      "entries": 0
+    },
+    {
+      "id": "boolean-enumerable-methods",
+      "title": "Boolean Enumerable methods",
+      "level": 2,
+      "path": [
+        "Array",
+        "Boolean Enumerable methods"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#boolean-enumerable-methods",
+      "entries": 0
+    },
+    {
+      "id": "all",
+      "title": "all?",
+      "level": 3,
+      "path": [
+        "Array",
+        "Boolean Enumerable methods",
+        "all?"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#all",
+      "entries": 0
+    },
+    {
+      "id": "any",
+      "title": "any?",
+      "level": 3,
+      "path": [
+        "Array",
+        "Boolean Enumerable methods",
+        "any?"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#any",
+      "entries": 0
+    },
+    {
+      "id": "one",
+      "title": "one?",
+      "level": 3,
+      "path": [
+        "Array",
+        "Boolean Enumerable methods",
+        "one?"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#one",
+      "entries": 0
+    },
+    {
+      "id": "none",
+      "title": "none?",
+      "level": 3,
+      "path": [
+        "Array",
+        "Boolean Enumerable methods",
+        "none?"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#none",
+      "entries": 0
+    },
+    {
+      "id": "empty",
+      "title": "empty?",
+      "level": 3,
+      "path": [
+        "Array",
+        "Boolean Enumerable methods",
+        "empty?"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#empty",
+      "entries": 0
+    },
+    {
+      "id": "methods-for-combining",
+      "title": "Methods for combining",
+      "level": 2,
+      "path": [
+        "Array",
+        "Methods for combining"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#methods-for-combining",
+      "entries": 0
+    },
+    {
+      "id": "section-4762",
+      "title": "&",
+      "level": 3,
+      "path": [
+        "Array",
+        "Methods for combining",
+        "&"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#",
+      "entries": 0
+    },
+    {
+      "id": "intersection",
+      "title": "intersection",
+      "level": 3,
+      "path": [
+        "Array",
+        "Methods for combining",
+        "intersection"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#intersection",
+      "entries": 0
+    },
+    {
+      "id": "-1",
+      "title": "+",
+      "level": 3,
+      "path": [
+        "Array",
+        "Methods for combining",
+        "+"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#-1",
+      "entries": 0
+    },
+    {
+      "id": "-",
+      "title": "-",
+      "level": 3,
+      "path": [
+        "Array",
+        "Methods for combining",
+        "-"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#-",
+      "entries": 0
+    },
+    {
+      "id": "union",
+      "title": "union",
+      "level": 3,
+      "path": [
+        "Array",
+        "Methods for combining",
+        "union"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#union",
+      "entries": 0
+    },
+    {
+      "id": "difference",
+      "title": "difference",
+      "level": 3,
+      "path": [
+        "Array",
+        "Methods for combining",
+        "difference"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#difference",
+      "entries": 0
+    },
+    {
+      "id": "product",
+      "title": "product",
+      "level": 3,
+      "path": [
+        "Array",
+        "Methods for combining",
+        "product"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#product",
+      "entries": 0
+    },
+    {
+      "id": "how-to-check-if-a-value-exists-in-an-array-include",
+      "title": "How to check if a value exists in an Array (include?)",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to check if a value exists in an Array (include?)"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-check-if-a-value-exists-in-an-array-include",
+      "entries": 0
+    },
+    {
+      "id": "how-to-get-array-size",
+      "title": "How to get array size",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to get array size"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-get-array-size",
+      "entries": 0
+    },
+    {
+      "id": "how-to-clear-an-array",
+      "title": "How to clear an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to clear an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-clear-an-array",
+      "entries": 0
+    },
+    {
+      "id": "how-to-get-the-first-element-of-an-array",
+      "title": "How to get the first element of an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to get the first element of an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-get-the-first-element-of-an-array",
+      "entries": 0
+    },
+    {
+      "id": "how-to-get-the-last-element-of-an-array",
+      "title": "How to get the last element of an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to get the last element of an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-get-the-last-element-of-an-array",
+      "entries": 0
+    },
+    {
+      "id": "how-to-merge-two-arrays",
+      "title": "How to merge two Arrays",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to merge two Arrays"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-merge-two-arrays",
+      "entries": 0
+    },
+    {
+      "id": "how-to-sort-an-array",
+      "title": "How to sort an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to sort an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-sort-an-array",
+      "entries": 0
+    },
+    {
+      "id": "how-to-get-the-maximum-from-an-array",
+      "title": "How to get the maximum from an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to get the maximum from an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-get-the-maximum-from-an-array",
+      "entries": 0
+    },
+    {
+      "id": "how-to-get-array-elements-using-a-range",
+      "title": "How to get Array elements using a range",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to get Array elements using a range"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-get-array-elements-using-a-range",
+      "entries": 0
+    },
+    {
+      "id": "how-to-get-first-n-elements-of-an-array",
+      "title": "How to get first n elements of an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to get first n elements of an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-get-first-n-elements-of-an-array",
+      "entries": 0
+    },
+    {
+      "id": "how-to-access-an-element",
+      "title": "How to access an element",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to access an element"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-access-an-element",
+      "entries": 0
+    },
+    {
+      "id": "how-to-remove-one-or-more-elements-of-an-array",
+      "title": "How to remove one or more elements of an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to remove one or more elements of an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-remove-one-or-more-elements-of-an-array",
+      "entries": 0
+    },
+    {
+      "id": "how-to-remove-duplicate-elements-from-an-array",
+      "title": "How to remove duplicate elements from an Array",
+      "level": 2,
+      "path": [
+        "Array",
+        "How to remove duplicate elements from an Array"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-remove-duplicate-elements-from-an-array",
+      "entries": 0
+    },
+    {
+      "id": "hash-1",
+      "title": "Hash",
+      "level": 1,
+      "path": [
+        "Hash"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#hash-1",
+      "entries": 0
+    },
+    {
+      "id": "how-to-group-by-count",
+      "title": "How to group by count",
+      "level": 2,
+      "path": [
+        "Hash",
+        "How to group by count"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-group-by-count",
+      "entries": 0
+    },
+    {
+      "id": "whats-the-difference-between-hashnew0-and-",
+      "title": "What's the difference between Hash.new(0) and {}",
+      "level": 2,
+      "path": [
+        "Hash",
+        "What's the difference between Hash.new(0) and {}"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#whats-the-difference-between-hashnew0-and-",
+      "entries": 0
+    },
+    {
+      "id": "how-to-sort-a-hash",
+      "title": "How to sort a Hash",
+      "level": 2,
+      "path": [
+        "Hash",
+        "How to sort a Hash"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-sort-a-hash",
+      "entries": 0
+    },
+    {
+      "id": "how-to-get-the-maximum-from-a-hash",
+      "title": "How to get the maximum from a Hash",
+      "level": 2,
+      "path": [
+        "Hash",
+        "How to get the maximum from a Hash"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-get-the-maximum-from-a-hash",
+      "entries": 0
+    },
+    {
+      "id": "hash-built-in-methods",
+      "title": "Hash Built-in Methods",
+      "level": 2,
+      "path": [
+        "Hash",
+        "Hash Built-in Methods"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#hash-built-in-methods",
+      "entries": 0
+    },
+    {
+      "id": "loop",
+      "title": "Loop",
+      "level": 1,
+      "path": [
+        "Loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#loop",
+      "entries": 0
+    },
+    {
+      "id": "while-loop",
+      "title": "while loop",
+      "level": 2,
+      "path": [
+        "Loop",
+        "while loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#while-loop",
+      "entries": 0
+    },
+    {
+      "id": "for-loop",
+      "title": "for loop",
+      "level": 2,
+      "path": [
+        "Loop",
+        "for loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#for-loop",
+      "entries": 0
+    },
+    {
+      "id": "dowhile-loop",
+      "title": "do..while Loop",
+      "level": 2,
+      "path": [
+        "Loop",
+        "do..while Loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#dowhile-loop",
+      "entries": 0
+    },
+    {
+      "id": "until-loop",
+      "title": "until Loop",
+      "level": 2,
+      "path": [
+        "Loop",
+        "until Loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#until-loop",
+      "entries": 0
+    },
+    {
+      "id": "how-to-break-out-from-loop",
+      "title": "How to break out from loop",
+      "level": 2,
+      "path": [
+        "Loop",
+        "How to break out from loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-break-out-from-loop",
+      "entries": 0
+    },
+    {
+      "id": "how-to-skip-inside-a-loop",
+      "title": "How to skip inside a loop",
+      "level": 2,
+      "path": [
+        "Loop",
+        "How to skip inside a loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-skip-inside-a-loop",
+      "entries": 0
+    },
+    {
+      "id": "how-to-repeat-the-current-iteration",
+      "title": "How to repeat the current iteration",
+      "level": 2,
+      "path": [
+        "Loop",
+        "How to repeat the current iteration"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-repeat-the-current-iteration",
+      "entries": 0
+    },
+    {
+      "id": "how-to-restart-a-loop",
+      "title": "How to restart a loop",
+      "level": 2,
+      "path": [
+        "Loop",
+        "How to restart a loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-restart-a-loop",
+      "entries": 0
+    },
+    {
+      "id": "classes",
+      "title": "Classes",
+      "level": 1,
+      "path": [
+        "Classes"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#classes",
+      "entries": 0
+    },
+    {
+      "id": "how-to-inherit-a-class",
+      "title": "How to inherit a class",
+      "level": 2,
+      "path": [
+        "Classes",
+        "How to inherit a class"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-inherit-a-class",
+      "entries": 0
+    },
+    {
+      "id": "how-to-check-instance-type",
+      "title": "How to check instance type",
+      "level": 2,
+      "path": [
+        "Classes",
+        "How to check instance type"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-check-instance-type",
+      "entries": 0
+    },
+    {
+      "id": "print-all-method-names-of-a-class",
+      "title": "Print all method names of a class",
+      "level": 2,
+      "path": [
+        "Classes",
+        "Print all method names of a class"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#print-all-method-names-of-a-class",
+      "entries": 0
+    },
+    {
+      "id": "check-if-a-class-has-a-particular-method",
+      "title": "Check if a Class has a particular method",
+      "level": 2,
+      "path": [
+        "Classes",
+        "Check if a Class has a particular method"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#check-if-a-class-has-a-particular-method",
+      "entries": 0
+    },
+    {
+      "id": "modules",
+      "title": "Modules",
+      "level": 1,
+      "path": [
+        "Modules"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#modules",
+      "entries": 0
+    },
+    {
+      "id": "operator-overloading",
+      "title": "Operator Overloading",
+      "level": 1,
+      "path": [
+        "Operator Overloading"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#operator-overloading",
+      "entries": 0
+    },
+    {
+      "id": "exception-handling",
+      "title": "Exception Handling",
+      "level": 1,
+      "path": [
+        "Exception Handling"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#exception-handling",
+      "entries": 0
+    },
+    {
+      "id": "regular-expression",
+      "title": "Regular expression",
+      "level": 1,
+      "path": [
+        "Regular expression"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#regular-expression",
+      "entries": 0
+    },
+    {
+      "id": "miscellaneous",
+      "title": "Miscellaneous",
+      "level": 1,
+      "path": [
+        "Miscellaneous"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#miscellaneous",
+      "entries": 0
+    },
+    {
+      "id": "how-to-generate-random-number",
+      "title": "How to generate random number",
+      "level": 2,
+      "path": [
+        "Miscellaneous",
+        "How to generate random number"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#how-to-generate-random-number",
+      "entries": 0
+    },
+    {
+      "id": "check-the-syntax-of-a-ruby-file",
+      "title": "Check the syntax of a Ruby file",
+      "level": 2,
+      "path": [
+        "Miscellaneous",
+        "Check the syntax of a Ruby file"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#check-the-syntax-of-a-ruby-file",
+      "entries": 0
+    },
+    {
+      "id": "concatenate-string-in-a-loop",
+      "title": "Concatenate String in a loop",
+      "level": 2,
+      "path": [
+        "Miscellaneous",
+        "Concatenate String in a loop"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#concatenate-string-in-a-loop",
+      "entries": 0
+    },
+    {
+      "id": "camelcase-string-split",
+      "title": "CamelCase String split",
+      "level": 2,
+      "path": [
+        "Miscellaneous",
+        "CamelCase String split"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#camelcase-string-split",
+      "entries": 0
+    },
+    {
+      "id": "ruby-scripts",
+      "title": "Ruby scripts",
+      "level": 2,
+      "path": [
+        "Miscellaneous",
+        "Ruby scripts"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#ruby-scripts",
+      "entries": 0
+    },
+    {
+      "id": "platforms-that-supports-ruby",
+      "title": "Platforms that supports Ruby",
+      "level": 1,
+      "path": [
+        "Platforms that supports Ruby"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#platforms-that-supports-ruby",
+      "entries": 4
+    },
+    {
+      "id": "ruby-frameworks",
+      "title": "Ruby frameworks",
+      "level": 1,
+      "path": [
+        "Ruby frameworks"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#ruby-frameworks",
+      "entries": 12
+    },
+    {
+      "id": "my-ruby-articles",
+      "title": "My Ruby Articles",
+      "level": 1,
+      "path": [
+        "My Ruby Articles"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#my-ruby-articles",
+      "entries": 8
+    },
+    {
+      "id": "books-and-other-resources",
+      "title": "Books and other resources",
+      "level": 1,
+      "path": [
+        "Books and other resources"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#books-and-other-resources",
+      "entries": 9
+    },
+    {
+      "id": "bug-reports-and-feature-requests",
+      "title": "Bug Reports and Feature Requests",
+      "level": 1,
+      "path": [
+        "Bug Reports and Feature Requests"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#bug-reports-and-feature-requests",
+      "entries": 0
+    },
+    {
+      "id": "contribution-guidelines",
+      "title": "Contribution Guidelines",
+      "level": 1,
+      "path": [
+        "Contribution Guidelines"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#contribution-guidelines",
+      "entries": 0
+    },
+    {
+      "id": "author",
+      "title": "Author",
+      "level": 1,
+      "path": [
+        "Author"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#author",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 1,
+      "path": [
+        "License"
+      ],
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Security advisories: CVE-2026-80212 and CVE-2026-80213",
+      "url": "https://www.ruby-lang.org/en/news/2026/08/27/multiple-vulnerabilities-in-resolv/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Ruby 3.3.12 Released",
+      "url": "https://www.ruby-lang.org/en/news/2026/07/16/ruby-3-3-12-released/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Ruby 4.0.6 Released",
+      "url": "https://www.ruby-lang.org/en/news/2026/07/14/ruby-4-0-6-released/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Ruby 3.4.10 Released",
+      "url": "https://www.ruby-lang.org/en/news/2026/06/30/ruby-3-4-10-released/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Ruby 4.0.5 Released",
+      "url": "https://www.ruby-lang.org/en/news/2026/05/20/ruby-4-0-5-released/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "CVE-2026-46727: Use-after-free in pthread-based getaddrinfo timeout handler",
+      "url": "https://www.ruby-lang.org/en/news/2026/05/20/getaddrinfo-cve-2026-46727/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Ruby 4.0.4 Released",
+      "url": "https://www.ruby-lang.org/en/news/2026/05/11/ruby-4-0-4-released/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Ruby 4.0.3 Released",
+      "url": "https://www.ruby-lang.org/en/news/2026/04/21/ruby-4-0-3-released/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "CVE-2026-41316: ERB @_init deserialization guard bypass via def_module / def_method / def_class",
+      "url": "https://www.ruby-lang.org/en/news/2026/04/21/erb-cve-2026-41316/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Ruby 3.2.11 Released",
+      "url": "https://www.ruby-lang.org/en/news/2026/03/27/ruby-3-2-11-released/",
+      "category": "the-latest-news-from-ruby-langorg",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "link",
+      "url": "https://ruby-doc.org/core-3.1.2/Integer.html",
+      "category": "data-types",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L1047",
+      "line": 1047,
+      "properties": {
+        "Type": "Integer"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://ruby-doc.org/core-3.1.2/Float.html",
+      "category": "data-types",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L1048",
+      "line": 1048,
+      "properties": {
+        "Type": "Float"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://ruby-doc.org/core-3.1.2/String.html",
+      "category": "data-types",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L1049",
+      "line": 1049,
+      "properties": {
+        "Type": "String"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://ruby-doc.org/core-3.1.2/Array.html",
+      "category": "data-types",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L1050",
+      "line": 1050,
+      "properties": {
+        "Type": "Array"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://ruby-doc.org/core-3.1.2/Hash.html",
+      "category": "data-types",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L1051",
+      "line": 1051,
+      "properties": {
+        "Type": "Hash"
+      }
+    },
+    {
+      "title": "TrueClass",
+      "url": "https://ruby-doc.org/core-3.1.2/TrueClass.html",
+      "category": "data-types",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L1052",
+      "line": 1052,
+      "properties": {
+        "Type": "Boolean"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://ruby-doc.org/core-3.1.2/Symbol.html",
+      "category": "data-types",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L1053",
+      "line": 1053,
+      "properties": {
+        "Type": "Symbol"
+      }
+    },
+    {
+      "title": "link",
+      "url": "https://ruby-doc.org/core-3.1.2/NilClass.html",
+      "category": "data-types",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L1054",
+      "line": 1054,
+      "properties": {
+        "Type": "Nil"
+      }
+    },
+    {
+      "title": "Heroku",
+      "url": "https://www.heroku.com/ruby",
+      "category": "platforms-that-supports-ruby",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3576",
+      "line": 3576,
+      "properties": {}
+    },
+    {
+      "title": "Vercel",
+      "url": "https://vercel.com/docs/serverless-functions/supported-languages#ruby",
+      "category": "platforms-that-supports-ruby",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3577",
+      "line": 3577,
+      "properties": {}
+    },
+    {
+      "title": "AWS Lambda",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-ruby.html",
+      "category": "platforms-that-supports-ruby",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3578",
+      "line": 3578,
+      "properties": {}
+    },
+    {
+      "title": "Fly.io",
+      "url": "https://fly.io/",
+      "category": "platforms-that-supports-ruby",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3579",
+      "line": 3579,
+      "properties": {}
+    },
+    {
+      "title": "Ruby on Rails",
+      "url": "https://rubyonrails.org/",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3583",
+      "line": 3583,
+      "properties": {}
+    },
+    {
+      "title": "Sinatra",
+      "url": "http://sinatrarb.com/",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3584",
+      "line": 3584,
+      "properties": {}
+    },
+    {
+      "title": "Padrino",
+      "url": "http://padrinorb.com/",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3585",
+      "line": 3585,
+      "properties": {}
+    },
+    {
+      "title": "Goliath",
+      "url": "https://postrank-labs.github.io/goliath/",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3586",
+      "line": 3586,
+      "properties": {}
+    },
+    {
+      "title": "Hanami",
+      "url": "https://hanamirb.org/",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3587",
+      "line": 3587,
+      "properties": {}
+    },
+    {
+      "title": "NYNY",
+      "url": "https://alisnic.github.io/nyny/",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3588",
+      "line": 3588,
+      "properties": {}
+    },
+    {
+      "title": "Cuba",
+      "url": "https://github.com/soveran/cuba",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3589",
+      "line": 3589,
+      "properties": {}
+    },
+    {
+      "title": "Grape",
+      "url": "https://www.ruby-grape.org/",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3590",
+      "line": 3590,
+      "properties": {}
+    },
+    {
+      "title": "Scorched",
+      "url": "https://scorchedrb.com/",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3591",
+      "line": 3591,
+      "properties": {}
+    },
+    {
+      "title": "Roda",
+      "url": "https://roda.jeremyevans.net/documentation.html",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3592",
+      "line": 3592,
+      "properties": {}
+    },
+    {
+      "title": "Volt",
+      "url": "https://github.com/voltrb/volt",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3593",
+      "line": 3593,
+      "properties": {}
+    },
+    {
+      "title": "Hobbit",
+      "url": "https://github.com/patriciomacadden/hobbit",
+      "category": "ruby-frameworks",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3594",
+      "line": 3594,
+      "properties": {}
+    },
+    {
+      "title": "A Beginner’s Guide To Ruby",
+      "url": "https://medium.com/@lifeparticle/a-beginners-guide-to-ruby-810f230c53da",
+      "category": "my-ruby-articles",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3598",
+      "line": 3598,
+      "properties": {}
+    },
+    {
+      "title": "17 Useful Ruby String Methods to Clean and Format Your Data",
+      "url": "https://towardsdatascience.com/17-useful-ruby-string-methods-to-clean-and-format-your-data-9c9147ff87b9",
+      "category": "my-ruby-articles",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3599",
+      "line": 3599,
+      "properties": {}
+    },
+    {
+      "title": "How to Deploy a Ruby Serverless Function to Vercel",
+      "url": "https://towardsdatascience.com/how-to-deploy-a-ruby-serverless-function-to-vercel-da8c3581f7c2",
+      "category": "my-ruby-articles",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3600",
+      "line": 3600,
+      "properties": {}
+    },
+    {
+      "title": "Useful Ruby Array Methods to Manage Your Data",
+      "url": "https://towardsdatascience.com/useful-ruby-array-methods-to-manage-your-data-4d2813c63ccf",
+      "category": "my-ruby-articles",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3601",
+      "line": 3601,
+      "properties": {}
+    },
+    {
+      "title": "An Introduction to Ruby Hashes",
+      "url": "https://towardsdatascience.com/an-introduction-to-ruby-hash-1c1c4b2dd905",
+      "category": "my-ruby-articles",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3602",
+      "line": 3602,
+      "properties": {}
+    },
+    {
+      "title": "How to Dockerize an Existing Sinatra Application",
+      "url": "https://towardsdatascience.com/how-to-dockerize-an-existing-sinatra-application-3a6943d7a428",
+      "category": "my-ruby-articles",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3603",
+      "line": 3603,
+      "properties": {}
+    },
+    {
+      "title": "How To Dockerize an Existing Ruby on Rails Application",
+      "url": "https://towardsdatascience.com/how-to-dockerize-an-existing-ruby-on-rails-application-3eb6d16ec392",
+      "category": "my-ruby-articles",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3604",
+      "line": 3604,
+      "properties": {}
+    },
+    {
+      "title": "How To Parse Data Using Ruby and Selenium",
+      "url": "https://towardsdatascience.com/how-to-parse-data-using-ruby-and-selenium-5cf11605340c",
+      "category": "my-ruby-articles",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3605",
+      "line": 3605,
+      "properties": {}
+    },
+    {
+      "title": "Ruby doc",
+      "url": "https://ruby-doc.org/",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3609",
+      "line": 3609,
+      "properties": {}
+    },
+    {
+      "title": "What is attr_accessor in Ruby?",
+      "url": "https://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3610",
+      "line": 3610,
+      "properties": {}
+    },
+    {
+      "title": "Ruby Module Mixin Awesomeness",
+      "url": "https://johnmcaliley.wordpress.com/2010/03/10/ruby-module-mixin-awesomeness/",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3611",
+      "line": 3611,
+      "properties": {}
+    },
+    {
+      "title": "Tutorials",
+      "url": "https://www.cosmiclearn.com/ruby/index.php",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3612",
+      "line": 3612,
+      "properties": {}
+    },
+    {
+      "title": "Pattern matching - New feature in Ruby 2.7",
+      "url": "https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7?slide=24",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3613",
+      "line": 3613,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Ruby Blogs",
+      "url": "https://github.com/Yegorov/awesome-ruby-blogs",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3614",
+      "line": 3614,
+      "properties": {}
+    },
+    {
+      "title": "Ruby Scripts",
+      "url": "https://github.com/jakewmeyer/Ruby-Scripts",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3615",
+      "line": 3615,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Ruby",
+      "url": "https://github.com/markets/awesome-ruby",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3616",
+      "line": 3616,
+      "properties": {}
+    },
+    {
+      "title": "Ruby Bookmarks",
+      "url": "https://github.com/dreikanter/ruby-bookmarks",
+      "category": "books-and-other-resources",
+      "source_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/README.md#L3617",
+      "line": 3617,
+      "properties": {}
+    }
+  ],
+  "properties": [
+    "Type"
+  ],
+  "entry_count": 51,
+  "unique_links": 51,
+  "category_count": 6,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "orinify",
+      "url": "https://github.com/orinify",
+      "contributions": 15
+    },
+    {
+      "login": "lifeparticle",
+      "url": "https://github.com/lifeparticle",
+      "contributions": 11
+    },
+    {
+      "login": "antarr",
+      "url": "https://github.com/antarr",
+      "contributions": 1
+    },
+    {
+      "login": "tianosouza",
+      "url": "https://github.com/tianosouza",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 376,
+    "public_contributors": 4,
+    "observed_at": "2026-09-03T17:55:27.728700+00:00"
+  },
+  "contributing_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/blob/f9fcc6201114bbfcc7b9c78352ea801dd06be6df/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by lifeparticle/Ruby-Cheatsheet contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/lifeparticle/Ruby-Cheatsheet/tree/f9fcc6201114bbfcc7b9c78352ea801dd06be6df",
+  "digest": "4f1e7d9bd767f6b6c9c3b1070fadb65729c5ee101eab414294e9e83a3f6184e4"
+}

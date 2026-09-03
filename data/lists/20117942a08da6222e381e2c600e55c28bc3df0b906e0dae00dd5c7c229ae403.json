@@ -1,0 +1,484 @@
+{
+  "format_version": 3,
+  "repository_id": "796480284",
+  "name": "gpu-mode/awesomeMLSys",
+  "revision": "49031c21e586ae93829d700fcb46543aecfc0f27",
+  "readme_path": "README.md",
+  "readme_sha256": "b11a81c100d1d1e58a3c0686190f47ed2fed939c28781474496d2f350d6cae2c",
+  "sections": [
+    {
+      "id": "ml-systems-onboarding-reading-list",
+      "title": "ML Systems Onboarding Reading List",
+      "level": 2,
+      "path": [
+        "ML Systems Onboarding Reading List"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#ml-systems-onboarding-reading-list",
+      "entries": 0
+    },
+    {
+      "id": "attention-mechanism",
+      "title": "Attention Mechanism",
+      "level": 2,
+      "path": [
+        "Attention Mechanism"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#attention-mechanism",
+      "entries": 7
+    },
+    {
+      "id": "performance-optimizations",
+      "title": "Performance Optimizations",
+      "level": 2,
+      "path": [
+        "Performance Optimizations"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#performance-optimizations",
+      "entries": 10
+    },
+    {
+      "id": "quantization",
+      "title": "Quantization",
+      "level": 2,
+      "path": [
+        "Quantization"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#quantization",
+      "entries": 5
+    },
+    {
+      "id": "long-context-length",
+      "title": "Long context length",
+      "level": 2,
+      "path": [
+        "Long context length"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#long-context-length",
+      "entries": 3
+    },
+    {
+      "id": "sparsity",
+      "title": "Sparsity",
+      "level": 2,
+      "path": [
+        "Sparsity"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#sparsity",
+      "entries": 3
+    },
+    {
+      "id": "distributed",
+      "title": "Distributed",
+      "level": 2,
+      "path": [
+        "Distributed"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#distributed",
+      "entries": 13
+    },
+    {
+      "id": "speculative-decoding",
+      "title": "Speculative decoding",
+      "level": 2,
+      "path": [
+        "Speculative decoding"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#speculative-decoding",
+      "entries": 4
+    },
+    {
+      "id": "linear-attention",
+      "title": "Linear attention",
+      "level": 2,
+      "path": [
+        "Linear attention"
+      ],
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#linear-attention",
+      "entries": 1
+    }
+  ],
+  "entries": [
+    {
+      "title": "Attention is all you need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "category": "attention-mechanism",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L8",
+      "line": 8,
+      "properties": {}
+    },
+    {
+      "title": "Online normalizer calculation for softmax",
+      "url": "https://arxiv.org/abs/1805.02867",
+      "category": "attention-mechanism",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L9",
+      "line": 9,
+      "properties": {}
+    },
+    {
+      "title": "Self Attention does not need O(n^2) memory",
+      "url": "https://arxiv.org/abs/2112.05682",
+      "category": "attention-mechanism",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L10",
+      "line": 10,
+      "properties": {}
+    },
+    {
+      "title": "Flash Attention 2",
+      "url": "https://arxiv.org/abs/2307.08691",
+      "category": "attention-mechanism",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L11",
+      "line": 11,
+      "properties": {}
+    },
+    {
+      "title": "Llama 2 paper",
+      "url": "https://arxiv.org/abs/2307.09288",
+      "category": "attention-mechanism",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L12",
+      "line": 12,
+      "properties": {}
+    },
+    {
+      "title": "gpt-fast",
+      "url": "https://github.com/pytorch-labs/gpt-fast",
+      "category": "attention-mechanism",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L13",
+      "line": 13,
+      "properties": {}
+    },
+    {
+      "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+      "url": "https://arxiv.org/abs/2108.12409",
+      "category": "attention-mechanism",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L14",
+      "line": 14,
+      "properties": {}
+    },
+    {
+      "title": "Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems",
+      "url": "https://arxiv.org/abs/2312.15234",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "Efficiently Scaling transformer inference",
+      "url": "https://arxiv.org/abs/2211.05102",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "Making Deep Learning go Brrr from First Principles",
+      "url": "https://horace.io/brrr_intro.html",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "Fast Inference from Transformers via Speculative Decoding",
+      "url": "https://arxiv.org/abs/2211.17192",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "Group Query Attention",
+      "url": "https://arxiv.org/pdf/2305.13245",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "Orca: A Distributed Serving System for Transformer-Based Generative Models",
+      "url": "https://www.usenix.org/conference/osdi22/presentation/yu",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "url": "https://arxiv.org/abs/2309.06180",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "Colfax Research Blog",
+      "url": "https://research.colfax-intl.com/blog/",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L25",
+      "line": 25,
+      "properties": {}
+    },
+    {
+      "title": "Sarathi LLM",
+      "url": "https://arxiv.org/abs/2308.16369",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "Epilogue Visitor Tree",
+      "url": "https://dl.acm.org/doi/10.1145/3620666.3651369",
+      "category": "performance-optimizations",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "A White Paper on Neural Network Quantization",
+      "url": "https://arxiv.org/abs/2106.08295",
+      "category": "quantization",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "LLM.int8",
+      "url": "https://arxiv.org/abs/2208.07339",
+      "category": "quantization",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "FP8 formats for deep learning",
+      "url": "https://arxiv.org/abs/2209.05433",
+      "category": "quantization",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "Smoothquant",
+      "url": "https://arxiv.org/abs/2211.10438",
+      "category": "quantization",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "Mixed precision training",
+      "url": "https://arxiv.org/abs/1710.03740",
+      "category": "quantization",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+      "url": "https://arxiv.org/abs/2104.09864",
+      "category": "long-context-length",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+      "url": "https://arxiv.org/abs/2309.00071",
+      "category": "long-context-length",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Ring Attention with Blockwise Transformers for Near-Infinite Context",
+      "url": "https://arxiv.org/abs/2310.01889",
+      "category": "long-context-length",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Venom",
+      "url": "https://arxiv.org/pdf/2310.02065",
+      "category": "sparsity",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Megablocks",
+      "url": "https://arxiv.org/pdf/2211.15841",
+      "category": "sparsity",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "ReLu Strikes Back",
+      "url": "https://openreview.net/pdf?id=osoWxY8q2E",
+      "category": "sparsity",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Singularity",
+      "url": "https://arxiv.org/abs/2202.07848",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Local SGD",
+      "url": "https://arxiv.org/abs/1805.09767",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "OpenDiloco",
+      "url": "https://arxiv.org/abs/2407.07852",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "torchtitan",
+      "url": "https://arxiv.org/abs/2410.06511",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "pipedream",
+      "url": "https://arxiv.org/abs/1806.03377",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "jit checkpointing",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3627703.3650085",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "Reducing Activation Recomputation in Large Transformer models",
+      "url": "https://arxiv.org/abs/2205.05198",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Breaking the computation and communication abstraction barrier",
+      "url": "https://arxiv.org/abs/2105.05720",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+      "url": "https://arxiv.org/abs/1910.02054",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Megatron-LM",
+      "url": "https://arxiv.org/abs/1909.08053",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "DistServe",
+      "url": "https://arxiv.org/abs/2401.09670",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "HybridFlow",
+      "url": "https://arxiv.org/abs/2409.19256",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Ray",
+      "url": "https://arxiv.org/abs/1712.05889",
+      "category": "distributed",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Fast Inference from Transformers via Speculative Decoding",
+      "url": "https://arxiv.org/abs/2211.17192",
+      "category": "speculative-decoding",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "Medusa",
+      "url": "https://arxiv.org/abs/2401.10774",
+      "category": "speculative-decoding",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "EAGLE series",
+      "url": "https://github.com/SafeAILab/EAGLE",
+      "category": "speculative-decoding",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "Deepseek MTP in V3",
+      "url": "https://arxiv.org/abs/2412.19437",
+      "category": "speculative-decoding",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Flash linear attention",
+      "url": "https://github.com/fla-org/flash-linear-attention",
+      "category": "linear-attention",
+      "source_url": "https://github.com/gpu-mode/awesomeMLSys/blob/49031c21e586ae93829d700fcb46543aecfc0f27/README.md#L68",
+      "line": 68,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 46,
+  "unique_links": 45,
+  "category_count": 8,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "contributor_observation": null,
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by gpu-mode/awesomeMLSys contributors.",
+  "license": null,
+  "license_url": "https://github.com/gpu-mode/awesomeMLSys/tree/49031c21e586ae93829d700fcb46543aecfc0f27",
+  "digest": "20117942a08da6222e381e2c600e55c28bc3df0b906e0dae00dd5c7c229ae403"
+}

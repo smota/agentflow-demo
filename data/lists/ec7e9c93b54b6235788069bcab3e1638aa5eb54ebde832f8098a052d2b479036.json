@@ -1,0 +1,625 @@
+{
+  "format_version": 3,
+  "repository_id": "268741950",
+  "name": "miguelmota/bash-streams-handbook",
+  "revision": "fc3bb79b2224826705c4497bd09baa486a19763d",
+  "readme_path": "README.md",
+  "readme_sha256": "81bc408a1bc264ce93372fc7f5f9460f0b9d317538688df30cb8ce67856f2242",
+  "sections": [
+    {
+      "id": "bash-streams-handbook",
+      "title": "Bash Streams Handbook",
+      "level": 1,
+      "path": [
+        "Bash Streams Handbook"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#bash-streams-handbook",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Contents"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "standard-streams",
+      "title": "Standard streams",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Standard streams"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#standard-streams",
+      "entries": 0
+    },
+    {
+      "id": "symlinks",
+      "title": "symlinks",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Standard streams",
+        "symlinks"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#symlinks",
+      "entries": 0
+    },
+    {
+      "id": "redirection",
+      "title": "Redirection",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Redirection"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#redirection",
+      "entries": 2
+    },
+    {
+      "id": "standard-input",
+      "title": "Standard input",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Redirection",
+        "Standard input"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#standard-input",
+      "entries": 0
+    },
+    {
+      "id": "standard-output",
+      "title": "Standard output",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Redirection",
+        "Standard output"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#standard-output",
+      "entries": 0
+    },
+    {
+      "id": "standard-error",
+      "title": "Standard error",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Redirection",
+        "Standard error"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#standard-error",
+      "entries": 0
+    },
+    {
+      "id": "shorthand",
+      "title": "Shorthand",
+      "level": 4,
+      "path": [
+        "Bash Streams Handbook",
+        "Redirection",
+        "Standard error",
+        "Shorthand"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#shorthand",
+      "entries": 0
+    },
+    {
+      "id": "pipelines",
+      "title": "Pipelines",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Pipelines"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#pipelines",
+      "entries": 0
+    },
+    {
+      "id": "section-640",
+      "title": "&&",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Pipelines",
+        "&&"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#",
+      "entries": 0
+    },
+    {
+      "id": "-1",
+      "title": "||",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Pipelines",
+        "||"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#-1",
+      "entries": 0
+    },
+    {
+      "id": "-2",
+      "title": ";",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Pipelines",
+        ";"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#-2",
+      "entries": 0
+    },
+    {
+      "id": "-3",
+      "title": "&",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Pipelines",
+        "&"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#-3",
+      "entries": 0
+    },
+    {
+      "id": "named-pipes",
+      "title": "Named pipes",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Named pipes"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#named-pipes",
+      "entries": 0
+    },
+    {
+      "id": "command-grouping",
+      "title": "Command grouping",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Command grouping"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#command-grouping",
+      "entries": 0
+    },
+    {
+      "id": "pipefail",
+      "title": "pipefail",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Command grouping",
+        "pipefail"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#pipefail",
+      "entries": 0
+    },
+    {
+      "id": "process-substitution",
+      "title": "Process Substitution",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Process Substitution"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#process-substitution",
+      "entries": 0
+    },
+    {
+      "id": "subshells",
+      "title": "Subshells",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Subshells"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#subshells",
+      "entries": 0
+    },
+    {
+      "id": "examples",
+      "title": "Examples",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#examples",
+      "entries": 0
+    },
+    {
+      "id": "pipe-only-on-stderr",
+      "title": "Pipe only on stderr",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Pipe only on stderr"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#pipe-only-on-stderr",
+      "entries": 0
+    },
+    {
+      "id": "echo-to-stderr",
+      "title": "Echo to stderr",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Echo to stderr"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#echo-to-stderr",
+      "entries": 0
+    },
+    {
+      "id": "diff-two-commands",
+      "title": "Diff two commands",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Diff two commands"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#diff-two-commands",
+      "entries": 0
+    },
+    {
+      "id": "record-ssh-session",
+      "title": "Record SSH session",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Record SSH session"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#record-ssh-session",
+      "entries": 0
+    },
+    {
+      "id": "split-pipe-into-multiple-streams",
+      "title": "Split pipe into multiple streams",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Split pipe into multiple streams"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#split-pipe-into-multiple-streams",
+      "entries": 0
+    },
+    {
+      "id": "send-text-to-another-terminal",
+      "title": "Send text to another terminal",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Send text to another terminal"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#send-text-to-another-terminal",
+      "entries": 0
+    },
+    {
+      "id": "pipe-terminal-output-to-another-terminal",
+      "title": "Pipe terminal output to another terminal",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Pipe terminal output to another terminal"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#pipe-terminal-output-to-another-terminal",
+      "entries": 0
+    },
+    {
+      "id": "read-pipe-into-variable",
+      "title": "Read pipe into variable",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Read pipe into variable"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#read-pipe-into-variable",
+      "entries": 0
+    },
+    {
+      "id": "pipe-to-file-descriptor",
+      "title": "Pipe to file descriptor",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Pipe to file descriptor"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#pipe-to-file-descriptor",
+      "entries": 0
+    },
+    {
+      "id": "read-stdin-line-by-line-in-bash",
+      "title": "Read stdin line by line in Bash",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Read stdin line by line in Bash"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#read-stdin-line-by-line-in-bash",
+      "entries": 0
+    },
+    {
+      "id": "read-command-output-as-line-by-line-in-bash",
+      "title": "Read command output as line by line in Bash",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Read command output as line by line in Bash"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#read-command-output-as-line-by-line-in-bash",
+      "entries": 0
+    },
+    {
+      "id": "pipe-terminal-to-another-computers-terminal",
+      "title": "Pipe terminal to another computer's terminal",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Pipe terminal to another computer's terminal"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#pipe-terminal-to-another-computers-terminal",
+      "entries": 0
+    },
+    {
+      "id": "redirect-the-output-of-multiple-commands",
+      "title": "Redirect the output of multiple commands",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Redirect the output of multiple commands"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#redirect-the-output-of-multiple-commands",
+      "entries": 0
+    },
+    {
+      "id": "stream-audio",
+      "title": "Stream audio",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Stream audio"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#stream-audio",
+      "entries": 0
+    },
+    {
+      "id": "stream-directory-contents-to-remote-server",
+      "title": "Stream directory contents to remote server",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Stream directory contents to remote server"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#stream-directory-contents-to-remote-server",
+      "entries": 0
+    },
+    {
+      "id": "take-webcam-picture-on-mouse-move",
+      "title": "Take webcam picture on mouse move",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Take webcam picture on mouse move"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#take-webcam-picture-on-mouse-move",
+      "entries": 0
+    },
+    {
+      "id": "group-commands-with-or",
+      "title": "Group commands with OR",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Group commands with OR"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#group-commands-with-or",
+      "entries": 0
+    },
+    {
+      "id": "writing-standard-input-to-a-file",
+      "title": "Writing standard input to a file",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Writing standard input to a file"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#writing-standard-input-to-a-file",
+      "entries": 0
+    },
+    {
+      "id": "concatenating-files-with-standard-input-in-between",
+      "title": "Concatenating files with standard input in between",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Concatenating files with standard input in between"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#concatenating-files-with-standard-input-in-between",
+      "entries": 0
+    },
+    {
+      "id": "send-commands-to-terminal-through-a-named-pipe",
+      "title": "Send commands to terminal through a named pipe",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Send commands to terminal through a named pipe"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#send-commands-to-terminal-through-a-named-pipe",
+      "entries": 0
+    },
+    {
+      "id": "filter-input-for-reading-with-process-substitution",
+      "title": "Filter input for reading with process substitution",
+      "level": 3,
+      "path": [
+        "Bash Streams Handbook",
+        "Examples",
+        "Filter input for reading with process substitution"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#filter-input-for-reading-with-process-substitution",
+      "entries": 0
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Contributing"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#contributing",
+      "entries": 0
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "Resources"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#resources",
+      "entries": 6
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "Bash Streams Handbook",
+        "License"
+      ],
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Here documents",
+      "url": "http://tldp.org/LDP/abs/html/here-docs.html",
+      "category": "redirection",
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "Here strings",
+      "url": "http://www.tldp.org/LDP/abs/html/x17837.html",
+      "category": "redirection",
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "GNU Bash Manual - Redirections",
+      "url": "https://www.gnu.org/software/bash/manual/html_node/Redirections.html",
+      "category": "resources",
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#L1824",
+      "line": 1824,
+      "properties": {}
+    },
+    {
+      "title": "Advanced Bash-Scripting Guide: Process Substitution",
+      "url": "https://tldp.org/LDP/abs/html/process-sub.html",
+      "category": "resources",
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#L1825",
+      "line": 1825,
+      "properties": {}
+    },
+    {
+      "title": "Introduction to Linux - I/O redirection",
+      "url": "https://linux.die.net/Intro-Linux/chap_05.html",
+      "category": "resources",
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#L1826",
+      "line": 1826,
+      "properties": {}
+    },
+    {
+      "title": "The Linux Command Line",
+      "url": "http://linuxcommand.org/tlcl.php",
+      "category": "resources",
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#L1827",
+      "line": 1827,
+      "properties": {}
+    },
+    {
+      "title": "Bash One-Liners Explained: All about redirections",
+      "url": "https://catonmat.net/bash-one-liners-explained-part-three",
+      "category": "resources",
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#L1828",
+      "line": 1828,
+      "properties": {}
+    },
+    {
+      "title": "Bash Redirection Cheat Sheet",
+      "url": "https://catonmat.net/ftp/bash-redirections-cheat-sheet.pdf",
+      "category": "resources",
+      "source_url": "https://github.com/miguelmota/bash-streams-handbook/blob/fc3bb79b2224826705c4497bd09baa486a19763d/README.md#L1829",
+      "line": 1829,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 8,
+  "unique_links": 8,
+  "category_count": 2,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "miguelmota",
+      "url": "https://github.com/miguelmota",
+      "contributions": 9
+    },
+    {
+      "login": "landstander668",
+      "url": "https://github.com/landstander668",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 10,
+    "has_more": false,
+    "path_commit_count": 10,
+    "public_contributors": 2,
+    "observed_at": "2026-09-03T17:54:23.203049+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by miguelmota/bash-streams-handbook contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/miguelmota/bash-streams-handbook/tree/fc3bb79b2224826705c4497bd09baa486a19763d",
+  "digest": "ec7e9c93b54b6235788069bcab3e1638aa5eb54ebde832f8098a052d2b479036"
+}

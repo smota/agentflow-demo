@@ -1,0 +1,575 @@
+{
+  "format_version": 3,
+  "repository_id": "502311087",
+  "name": "bertjiazheng/Awesome-CAD",
+  "revision": "2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301",
+  "readme_path": "README.md",
+  "readme_sha256": "cfe2775f9bc9a2d88081e834f466e9a4ffdecadf48f95e996ddcb0b130192f87",
+  "sections": [
+    {
+      "id": "awesome-cad",
+      "title": "Awesome CAD",
+      "level": 1,
+      "path": [
+        "Awesome CAD"
+      ],
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#awesome-cad",
+      "entries": 0
+    },
+    {
+      "id": "survey",
+      "title": "Survey",
+      "level": 2,
+      "path": [
+        "Awesome CAD",
+        "Survey"
+      ],
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#survey",
+      "entries": 2
+    },
+    {
+      "id": "datasets",
+      "title": "Datasets",
+      "level": 2,
+      "path": [
+        "Awesome CAD",
+        "Datasets"
+      ],
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#datasets",
+      "entries": 7
+    },
+    {
+      "id": "cad-reconstruction",
+      "title": "CAD Reconstruction",
+      "level": 2,
+      "path": [
+        "Awesome CAD",
+        "CAD Reconstruction"
+      ],
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#cad-reconstruction",
+      "entries": 13
+    },
+    {
+      "id": "cad-generation",
+      "title": "CAD Generation",
+      "level": 2,
+      "path": [
+        "Awesome CAD",
+        "CAD Generation"
+      ],
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#cad-generation",
+      "entries": 19
+    },
+    {
+      "id": "cad-representation",
+      "title": "CAD Representation",
+      "level": 2,
+      "path": [
+        "Awesome CAD",
+        "CAD Representation"
+      ],
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#cad-representation",
+      "entries": 8
+    },
+    {
+      "id": "cad-recognition",
+      "title": "CAD Recognition",
+      "level": 2,
+      "path": [
+        "Awesome CAD",
+        "CAD Recognition"
+      ],
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#cad-recognition",
+      "entries": 7
+    }
+  ],
+  "entries": [
+    {
+      "title": "Geometric Deep Learning for Computer-Aided Design: A Survey",
+      "url": "https://arxiv.org/abs/2402.17695",
+      "category": "survey",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L8",
+      "line": 8,
+      "properties": {}
+    },
+    {
+      "title": "Large Language Models for Computer-Aided Design: A Survey",
+      "url": "https://arxiv.org/abs/2505.08137",
+      "category": "survey",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L9",
+      "line": 9,
+      "properties": {}
+    },
+    {
+      "title": "CADOps-Net: Jointly Learning CAD Operation Types and Steps from Boundary-Representations",
+      "url": "https://arxiv.org/abs/2208.10555",
+      "category": "datasets",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L15",
+      "line": 15,
+      "properties": {}
+    },
+    {
+      "title": "Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction from Human Design Sequences",
+      "url": "https://arxiv.org/abs/2010.02392",
+      "category": "datasets",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L16",
+      "line": 16,
+      "properties": {}
+    },
+    {
+      "title": "AutoMate: A Dataset and Learning Approach for Automatic Mating of CAD Assemblies",
+      "url": "https://arxiv.org/abs/2105.12238",
+      "category": "datasets",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L17",
+      "line": 17,
+      "properties": {}
+    },
+    {
+      "title": "PVDeconv: Point-voxel deconvolution for autoencoding cad construction in 3D",
+      "url": "https://arxiv.org/abs/2101.04493",
+      "category": "datasets",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "SketchGraphs: A Large-Scale Dataset for Modeling Relational Geometry in Computer-Aided Design",
+      "url": "https://arxiv.org/abs/2007.08506",
+      "category": "datasets",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "A Large-scale Annotated Mechanical Components Benchmark for Classification and Retrieval Tasks with Deep Neural Networks (MCB)",
+      "url": "https://www.cs.utexas.edu/~huangqx/mcb_benchmark.pdf",
+      "category": "datasets",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "ABC: A Big CAD Model Dataset For Geometric Deep Learning",
+      "url": "https://arxiv.org/abs/1812.06216",
+      "category": "datasets",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "BRep Boundary and Junction Detection for CAD Reverse Engineering",
+      "url": "https://arxiv.org/abs/2409.14087",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L27",
+      "line": 27,
+      "properties": {}
+    },
+    {
+      "title": "CAD-GPT: Synthesising CAD Construction Sequence with Spatial Reasoning-Enhanced Multimodal LLMs",
+      "url": "https://arxiv.org/abs/2412.19663",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L28",
+      "line": 28,
+      "properties": {}
+    },
+    {
+      "title": "CAD-Recode: Reverse Engineering CAD Code from Point Clouds",
+      "url": "https://arxiv.org/abs/2412.14042",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "From 2D CAD Drawings to 3D Parametric Models: A Vision-Language Approach",
+      "url": "https://arxiv.org/abs/2412.11892",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L30",
+      "line": 30,
+      "properties": {}
+    },
+    {
+      "title": "PlankAssembly: Robust 3D Reconstruction from Three Orthographic Views with Learnt Shape Programs",
+      "url": "https://arxiv.org/abs/2308.05744",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "SolidGen: An Autoregressive Model for Direct B-rep Synthesis",
+      "url": "https://arxiv.org/abs/2203.13944",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "Reconstructing Editable Prismatic CAD from Rounded Voxel Models",
+      "url": "https://arxiv.org/abs/2209.01161",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "ComplexGen: CAD Reconstruction by B-Rep Chain Complex Generation",
+      "url": "https://arxiv.org/abs/2205.14573",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L34",
+      "line": 34,
+      "properties": {}
+    },
+    {
+      "title": "Point2Cyl: Reverse Engineering 3D Objects from Point Clouds to Extrusion Cylinders",
+      "url": "https://arxiv.org/abs/2112.09329",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds",
+      "url": "https://arxiv.org/abs/2103.02766",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "PIE-NET: Parametric Inference of Point Cloud Edges",
+      "url": "https://arxiv.org/abs/2007.04883",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "ParSeNet: A Parametric Surface Fitting Network for 3D Point Clouds",
+      "url": "https://arxiv.org/abs/2003.12181",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Supervised Fitting of Geometric Primitives to 3D Point Clouds",
+      "url": "https://arxiv.org/abs/1811.08988",
+      "category": "cad-reconstruction",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "BrepDiff: Single-stage B-rep Diffusion Model",
+      "url": "https://drive.google.com/file/d/1ZkdjmljmbJer5Lbn55UwKRqR9AcHBydA/view",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "HoLa: B-Rep Generation using a Holistic Latent Representation",
+      "url": "https://arxiv.org/abs/2504.14257",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Text-to-CadQuery: A New Paradigm for CAD Generation with Scalable Large Model Capabilities",
+      "url": "https://www.arxiv.org/abs/2505.06507",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "FlexCAD: Unified and Versatile Controllable CAD Generation with Fine-tuned Large Language Models",
+      "url": "https://arxiv.org/abs/2411.05823",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Don’t Mesh with Me: Generating Constructive Solid Geometry Instead of Meshes by Fine-Tuning a Code-Generation LLM",
+      "url": "https://arxiv.org/abs/2411.15279",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "Text2CAD: Text to 3D CAD Generation via Technical Drawings",
+      "url": "https://arxiv.org/abs/2411.06206",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "CadVLM: Bridging Language and Vision in the Generation of Parametric CAD Sketches",
+      "url": "https://arxiv.org/abs/2409.17457",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry",
+      "url": "https://arxiv.org/abs/2401.15563",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "3DALL-E: Integrating Text-to-Image AI in 3D Design Workflows",
+      "url": "https://arxiv.org/abs/2210.11603",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "project",
+      "url": "https://geometry.cs.ucl.ac.uk/projects/2022/free2cad/",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "SkexGen: Autoregressive Generation of CAD Construction Sequences with Disentangled Codebooks",
+      "url": "https://arxiv.org/abs/2207.04632",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Vitruvion: A Generative Model of Parametric CAD Sketches",
+      "url": "https://arxiv.org/abs/2109.14124",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "JoinABLe: Learning Bottom-up Assembly of Parametric CAD Joints",
+      "url": "https://arxiv.org/abs/2111.12772",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "SketchGen: Generating Constrained CAD Sketches",
+      "url": "https://arxiv.org/abs/2106.02711",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Computer-Aided Design as Language",
+      "url": "https://arxiv.org/abs/2105.02769",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "DeepCAD: A Deep Generative Network for Computer-Aided Design Models",
+      "url": "https://arxiv.org/abs/2105.09492",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Engineering Sketch Generation for Computer-Aided Design",
+      "url": "https://arxiv.org/abs/2104.09621",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Sketch2CAD: Sequential CAD Modeling by Sketching in Context",
+      "url": "https://arxiv.org/abs/2009.04927",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L62",
+      "line": 62,
+      "properties": {}
+    },
+    {
+      "title": "PolyGen: An Autoregressive Generative Model of 3D Meshes",
+      "url": "https://arxiv.org/abs/2002.10880",
+      "category": "cad-generation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "DualCSG: Learning Dual CSG Trees for General and Compact CAD Modeling",
+      "url": "https://arxiv.org/abs/2301.11497",
+      "category": "cad-representation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Discovering Design Concepts for CAD Sketches",
+      "url": "https://arxiv.org/abs/2210.14451",
+      "category": "cad-representation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Self-Supervised Representation Learning for CAD",
+      "url": "https://arxiv.org/abs/2210.10807",
+      "category": "cad-representation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "CADOps-Net: Jointly Learning CAD Operation Types and Steps from Boundary-Representations",
+      "url": "https://arxiv.org/abs/2208.10555",
+      "category": "cad-representation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "CSG-Stump: A Learning Friendly CSG-Like Representation for Interpretable Shape Parsing",
+      "url": "https://arxiv.org/abs/2108.11305",
+      "category": "cad-representation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "UV-Net: Learning from Boundary Representations",
+      "url": "https://arxiv.org/abs/2006.10211",
+      "category": "cad-representation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "BRepNet: A Topological Message Passing System for Solid Models",
+      "url": "https://arxiv.org/abs/2104.00706",
+      "category": "cad-representation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "CSGNet: Neural Shape Parser for Constructive Solid Geometry",
+      "url": "https://arxiv.org/abs/1712.08290",
+      "category": "cad-representation",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "ArchCAD-400K: An Open Large-Scale Architectural CAD Dataset and New Baseline for Panoptic Symbol Spotting",
+      "url": "https://arxiv.org/abs/2503.22346",
+      "category": "cad-recognition",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "CADSpotting: Robust Panoptic Symbol Spotting on Large-Scale CAD Drawings",
+      "url": "https://arxiv.org/abs/2412.07377",
+      "category": "cad-recognition",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "Symbol as Points: Panoptic Symbol Spotting via Point-based Representation",
+      "url": "https://arxiv.org/abs/2401.10556",
+      "category": "cad-recognition",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "VectorFloorSeg: Two-Stream Graph Attention Network for Vectorized Roughcast Floorplan Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yang_VectorFloorSeg_Two-Stream_Graph_Attention_Network_for_Vectorized_Roughcast_Floorplan_Segmentation_CVPR_2023_paper.html",
+      "category": "cad-recognition",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "CADTransformer: Panoptic Symbol Spotting Transformer for CAD Drawings",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Fan_CADTransformer_Panoptic_Symbol_Spotting_Transformer_for_CAD_Drawings_CVPR_2022_paper.pdf",
+      "category": "cad-recognition",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "GAT-CADNet: Graph Attention Network for Panoptic Symbol Spotting in CAD Drawings",
+      "url": "https://arxiv.org/abs/2201.00625",
+      "category": "cad-recognition",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "FloorPlanCAD: A Large-Scale CAD Drawing Dataset for Panoptic Symbol Spotting",
+      "url": "https://arxiv.org/abs/2105.07147",
+      "category": "cad-recognition",
+      "source_url": "https://github.com/bertjiazheng/Awesome-CAD/blob/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301/README.md#L88",
+      "line": 88,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 56,
+  "unique_links": 55,
+  "category_count": 6,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "bertjiazheng",
+      "url": "https://github.com/bertjiazheng",
+      "contributions": 32
+    },
+    {
+      "login": "Dekai21",
+      "url": "https://github.com/Dekai21",
+      "contributions": 4
+    },
+    {
+      "login": "Elona-Dupont",
+      "url": "https://github.com/Elona-Dupont",
+      "contributions": 3
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 47,
+    "has_more": false,
+    "path_commit_count": 47,
+    "public_contributors": 3,
+    "observed_at": "2026-09-03T17:53:16.387705+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by bertjiazheng/Awesome-CAD contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/bertjiazheng/Awesome-CAD/tree/2aa5fb5809c3b969c1ec72b7c1ea600cb48f5301",
+  "digest": "8e5d271c8a1c824e612e01ab12c85118de188082cff78dda803e37bafd8b449f"
+}

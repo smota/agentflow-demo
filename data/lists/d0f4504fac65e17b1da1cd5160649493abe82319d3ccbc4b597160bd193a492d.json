@@ -1,0 +1,3997 @@
+{
+  "format_version": 3,
+  "repository_id": "328770750",
+  "name": "vavkamil/awesome-bugbounty-tools",
+  "revision": "84152c9dc82314b82b1e88c9f0b4887f5815b64d",
+  "readme_path": "README.md",
+  "readme_sha256": "c92243f8ca642abf0aad9be23ec72f00f18f9d1951eaac9c261a88a1d728d42f",
+  "sections": [
+    {
+      "id": "awesome-bug-bounty-tools",
+      "title": "Awesome Bug Bounty Tools",
+      "level": 1,
+      "path": [
+        "Awesome Bug Bounty Tools"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#awesome-bug-bounty-tools",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Contents"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "recon",
+      "title": "Recon",
+      "level": 2,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#recon",
+      "entries": 0
+    },
+    {
+      "id": "subdomain-enumeration",
+      "title": "Subdomain Enumeration",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Subdomain Enumeration"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#subdomain-enumeration",
+      "entries": 42
+    },
+    {
+      "id": "port-scanning",
+      "title": "Port Scanning",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Port Scanning"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#port-scanning",
+      "entries": 8
+    },
+    {
+      "id": "screenshots",
+      "title": "Screenshots",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Screenshots"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#screenshots",
+      "entries": 10
+    },
+    {
+      "id": "technologies",
+      "title": "Technologies",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Technologies"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#technologies",
+      "entries": 12
+    },
+    {
+      "id": "content-discovery",
+      "title": "Content Discovery",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Content Discovery"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#content-discovery",
+      "entries": 15
+    },
+    {
+      "id": "content-filtering",
+      "title": "Content Filtering",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Content Filtering"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#content-filtering",
+      "entries": 1
+    },
+    {
+      "id": "links",
+      "title": "Links",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Links"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#links",
+      "entries": 17
+    },
+    {
+      "id": "parameters",
+      "title": "Parameters",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Parameters"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#parameters",
+      "entries": 6
+    },
+    {
+      "id": "fuzzing",
+      "title": "Fuzzing",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Fuzzing"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#fuzzing",
+      "entries": 9
+    },
+    {
+      "id": "monitoring",
+      "title": "Monitoring",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Recon",
+        "Monitoring"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#monitoring",
+      "entries": 2
+    },
+    {
+      "id": "exploitation",
+      "title": "Exploitation",
+      "level": 2,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#exploitation",
+      "entries": 0
+    },
+    {
+      "id": "command-injection",
+      "title": "Command Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Command Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#command-injection",
+      "entries": 1
+    },
+    {
+      "id": "cors-misconfiguration",
+      "title": "CORS Misconfiguration",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "CORS Misconfiguration"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#cors-misconfiguration",
+      "entries": 5
+    },
+    {
+      "id": "crlf-injection",
+      "title": "CRLF Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "CRLF Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#crlf-injection",
+      "entries": 4
+    },
+    {
+      "id": "csrf-injection",
+      "title": "CSRF Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "CSRF Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#csrf-injection",
+      "entries": 1
+    },
+    {
+      "id": "directory-traversal",
+      "title": "Directory Traversal",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Directory Traversal"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#directory-traversal",
+      "entries": 4
+    },
+    {
+      "id": "file-inclusion",
+      "title": "File Inclusion",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "File Inclusion"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#file-inclusion",
+      "entries": 5
+    },
+    {
+      "id": "graphql-injection",
+      "title": "GraphQL Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "GraphQL Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#graphql-injection",
+      "entries": 5
+    },
+    {
+      "id": "header-injection",
+      "title": "Header Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Header Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#header-injection",
+      "entries": 1
+    },
+    {
+      "id": "insecure-deserialization",
+      "title": "Insecure Deserialization",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Insecure Deserialization"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#insecure-deserialization",
+      "entries": 4
+    },
+    {
+      "id": "insecure-direct-object-references",
+      "title": "Insecure Direct Object References",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Insecure Direct Object References"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#insecure-direct-object-references",
+      "entries": 1
+    },
+    {
+      "id": "open-redirect",
+      "title": "Open Redirect",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Open Redirect"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#open-redirect",
+      "entries": 4
+    },
+    {
+      "id": "race-condition",
+      "title": "Race Condition",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Race Condition"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#race-condition",
+      "entries": 5
+    },
+    {
+      "id": "request-smuggling",
+      "title": "Request Smuggling",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Request Smuggling"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#request-smuggling",
+      "entries": 5
+    },
+    {
+      "id": "server-side-request-forgery",
+      "title": "Server Side Request Forgery",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Server Side Request Forgery"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#server-side-request-forgery",
+      "entries": 21
+    },
+    {
+      "id": "sql-injection",
+      "title": "SQL Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "SQL Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#sql-injection",
+      "entries": 16
+    },
+    {
+      "id": "xss-injection",
+      "title": "XSS Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "XSS Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#xss-injection",
+      "entries": 40
+    },
+    {
+      "id": "xxe-injection",
+      "title": "XXE Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "XXE Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#xxe-injection",
+      "entries": 9
+    },
+    {
+      "id": "ssti-injection",
+      "title": "SSTI Injection",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "SSTI Injection"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#ssti-injection",
+      "entries": 2
+    },
+    {
+      "id": "web-cache-poisoning",
+      "title": "Web-Cache-Poisoning",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Web-Cache-Poisoning"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#web-cache-poisoning",
+      "entries": 1
+    },
+    {
+      "id": "waf-evasion",
+      "title": "Waf Evasion",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Exploitation",
+        "Waf Evasion"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#waf-evasion",
+      "entries": 4
+    },
+    {
+      "id": "miscellaneous",
+      "title": "Miscellaneous",
+      "level": 2,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#miscellaneous",
+      "entries": 0
+    },
+    {
+      "id": "passwords",
+      "title": "Passwords",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Passwords"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#passwords",
+      "entries": 5
+    },
+    {
+      "id": "secrets",
+      "title": "Secrets",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Secrets"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#secrets",
+      "entries": 29
+    },
+    {
+      "id": "git",
+      "title": "Git",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Git"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#git",
+      "entries": 7
+    },
+    {
+      "id": "buckets",
+      "title": "Buckets",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Buckets"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#buckets",
+      "entries": 18
+    },
+    {
+      "id": "cms",
+      "title": "CMS",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "CMS"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#cms",
+      "entries": 9
+    },
+    {
+      "id": "json-web-token",
+      "title": "JSON Web Token",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "JSON Web Token"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#json-web-token",
+      "entries": 7
+    },
+    {
+      "id": "postmessage",
+      "title": "postMessage",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "postMessage"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#postmessage",
+      "entries": 2
+    },
+    {
+      "id": "subdomain-takeover",
+      "title": "Subdomain Takeover",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Subdomain Takeover"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#subdomain-takeover",
+      "entries": 13
+    },
+    {
+      "id": "vulnerability-scanners",
+      "title": "Vulnerability Scanners",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Vulnerability Scanners"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#vulnerability-scanners",
+      "entries": 21
+    },
+    {
+      "id": "permutation",
+      "title": "Permutation",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Permutation"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#permutation",
+      "entries": 6
+    },
+    {
+      "id": "web-proxy-and-traffic-interception",
+      "title": "Web Proxy and Traffic Interception",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Web Proxy and Traffic Interception"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#web-proxy-and-traffic-interception",
+      "entries": 5
+    },
+    {
+      "id": "origin-ip",
+      "title": "Origin IP",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Origin IP"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#origin-ip",
+      "entries": 2
+    },
+    {
+      "id": "useful",
+      "title": "Useful",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "Useful"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#useful",
+      "entries": 8
+    },
+    {
+      "id": "ai-agents",
+      "title": "AI Agents",
+      "level": 3,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Miscellaneous",
+        "AI Agents"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#ai-agents",
+      "entries": 4
+    },
+    {
+      "id": "uncategorized",
+      "title": "Uncategorized",
+      "level": 2,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Uncategorized"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#uncategorized",
+      "entries": 16
+    },
+    {
+      "id": "contribute",
+      "title": "Contribute",
+      "level": 2,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "Contribute"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#contribute",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "Awesome Bug Bounty Tools",
+        "License"
+      ],
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Sublist3r",
+      "url": "https://github.com/aboul3la/Sublist3r",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "Amass",
+      "url": "https://github.com/OWASP/Amass",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "massdns",
+      "url": "https://github.com/blechschmidt/massdns",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Findomain",
+      "url": "https://github.com/Findomain/Findomain",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Sudomy",
+      "url": "https://github.com/Screetsec/Sudomy",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "chaos-client",
+      "url": "https://github.com/projectdiscovery/chaos-client",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "domained",
+      "url": "https://github.com/TypeError/domained",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "bugcrowd-levelup-subdomain-enumeration",
+      "url": "https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "shuffledns",
+      "url": "https://github.com/projectdiscovery/shuffledns",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "puredns",
+      "url": "https://github.com/d3mondev/puredns",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "censys-subdomain-finder",
+      "url": "https://github.com/christophetd/censys-subdomain-finder",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Turbolist3r",
+      "url": "https://github.com/fleetcaptain/Turbolist3r",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "censys-enumeration",
+      "url": "https://github.com/0xbharath/censys-enumeration",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "tugarecon",
+      "url": "https://github.com/LordNeoStark/tugarecon",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "as3nt",
+      "url": "https://github.com/cinerieus/as3nt",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Subra",
+      "url": "https://github.com/si9int/Subra",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Substr3am",
+      "url": "https://github.com/nexxai/Substr3am",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "domain",
+      "url": "https://github.com/jhaddix/domain/",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "altdns",
+      "url": "https://github.com/infosec-au/altdns",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "brutesubs",
+      "url": "https://github.com/anshumanbh/brutesubs",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "dns-parallel-prober",
+      "url": "https://github.com/lorenzog/dns-parallel-prober",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "dnscan",
+      "url": "https://github.com/rbsec/dnscan",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "knock",
+      "url": "https://github.com/guelfoweb/knock",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "hakrevdns",
+      "url": "https://github.com/hakluke/hakrevdns",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "dnsx",
+      "url": "https://github.com/projectdiscovery/dnsx",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "subfinder",
+      "url": "https://github.com/projectdiscovery/subfinder",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "assetfinder",
+      "url": "https://github.com/tomnomnom/assetfinder",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "crtndstry",
+      "url": "https://github.com/nahamsec/crtndstry",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "VHostScan",
+      "url": "https://github.com/codingo/VHostScan",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "scilla",
+      "url": "https://github.com/edoardottt/scilla",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "sub3suite",
+      "url": "https://github.com/3nock/sub3suite",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "cero",
+      "url": "https://github.com/glebarez/cero",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "shosubgo",
+      "url": "https://github.com/incogbyte/shosubgo",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "haktrails",
+      "url": "https://github.com/hakluke/haktrails",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "bbot",
+      "url": "https://github.com/blacklanternsecurity/bbot",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "crt.go",
+      "url": "https://github.com/TaurusOmar/crt.sh",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "github-subdomains",
+      "url": "https://github.com/gwen001/github-subdomains",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "gitlab-subdomains",
+      "url": "https://github.com/gwen001/gitlab-subdomains",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "subdominator",
+      "url": "https://github.com/RevoltSecurities/Subdominator",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "csprecon",
+      "url": "https://github.com/edoardottt/csprecon",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "related-domains",
+      "url": "https://github.com/gwen001/related-domains",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "hakip2host",
+      "url": "https://github.com/hakluke/hakip2host",
+      "category": "subdomain-enumeration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "masscan",
+      "url": "https://github.com/robertdavidgraham/masscan",
+      "category": "port-scanning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "RustScan",
+      "url": "https://github.com/RustScan/RustScan",
+      "category": "port-scanning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "naabu",
+      "url": "https://github.com/projectdiscovery/naabu",
+      "category": "port-scanning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "nmap",
+      "url": "https://github.com/nmap/nmap",
+      "category": "port-scanning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "sandmap",
+      "url": "https://github.com/trimstray/sandmap",
+      "category": "port-scanning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "ScanCannon",
+      "url": "https://github.com/johnnyxmas/ScanCannon",
+      "category": "port-scanning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "nrich",
+      "url": "https://gitlab.com/shodan-public/nrich",
+      "category": "port-scanning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "NimScan",
+      "url": "https://github.com/elddy/NimScan/",
+      "category": "port-scanning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "EyeWitness",
+      "url": "https://github.com/FortyNorthSecurity/EyeWitness",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "aquatone",
+      "url": "https://github.com/michenriksen/aquatone",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "screenshoteer",
+      "url": "https://github.com/vladocar/screenshoteer",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "gowitness",
+      "url": "https://github.com/sensepost/gowitness",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "WitnessMe",
+      "url": "https://github.com/byt3bl33d3r/WitnessMe",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "eyeballer",
+      "url": "https://github.com/BishopFox/eyeballer",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "scrying",
+      "url": "https://github.com/nccgroup/scrying",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Depix",
+      "url": "https://github.com/beurtschipper/Depix",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "httpscreenshot",
+      "url": "https://github.com/breenmachine/httpscreenshot/",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "invisible-playwright",
+      "url": "https://github.com/feder-cr/invisible_playwright",
+      "category": "screenshots",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "wappalyzer",
+      "url": "https://github.com/AliasIO/wappalyzer",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "webanalyze",
+      "url": "https://github.com/rverton/webanalyze",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "python-builtwith",
+      "url": "https://github.com/claymation/python-builtwith",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "whatweb",
+      "url": "https://github.com/urbanadventurer/whatweb",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "retire.js",
+      "url": "https://github.com/RetireJS/retire.js",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "httpx",
+      "url": "https://github.com/projectdiscovery/httpx",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "fingerprintx",
+      "url": "https://github.com/praetorian-inc/fingerprintx",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "graphw00f",
+      "url": "https://github.com/dolevf/graphw00f",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "wafw00f",
+      "url": "https://github.com/EnableSecurity/wafw00f",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "cdncheck",
+      "url": "https://github.com/projectdiscovery/cdncheck",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "tlsx",
+      "url": "https://github.com/projectdiscovery/tlsx",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "MurMurHash",
+      "url": "https://github.com/Viralmaniar/MurMurHash",
+      "category": "technologies",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "gobuster",
+      "url": "https://github.com/OJ/gobuster",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "recursebuster",
+      "url": "https://github.com/C-Sto/recursebuster",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "feroxbuster",
+      "url": "https://github.com/epi052/feroxbuster",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "dirsearch",
+      "url": "https://github.com/maurosoria/dirsearch",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "dirsearch",
+      "url": "https://github.com/evilsocket/dirsearch",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "filebuster",
+      "url": "https://github.com/henshin/filebuster",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "dirstalk",
+      "url": "https://github.com/stefanoj3/dirstalk",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "dirbuster-ng",
+      "url": "https://github.com/digination/dirbuster-ng",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "gospider",
+      "url": "https://github.com/jaeles-project/gospider",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "hakrawler",
+      "url": "https://github.com/hakluke/hakrawler",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "crawley",
+      "url": "https://github.com/s0rg/crawley",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "katana",
+      "url": "https://github.com/projectdiscovery/katana",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "kiterunner",
+      "url": "https://github.com/assetnote/kiterunner",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "vaf",
+      "url": "https://github.com/andreiverse/vaf",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "uncover",
+      "url": "https://github.com/projectdiscovery/uncover",
+      "category": "content-discovery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "Hacker-Scoper",
+      "url": "https://github.com/ItsIgnacioPortal/Hacker-Scoper",
+      "category": "content-filtering",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "LinkFinder",
+      "url": "https://github.com/GerbenJavado/LinkFinder",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "JS-Scan",
+      "url": "https://github.com/zseano/JS-Scan",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "LinksDumper",
+      "url": "https://github.com/arbazkiraak/LinksDumper",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "GoLinkFinder",
+      "url": "https://github.com/0xsha/GoLinkFinder",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "BurpJSLinkFinder",
+      "url": "https://github.com/InitRoot/BurpJSLinkFinder",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "urlgrab",
+      "url": "https://github.com/IAmStoxe/urlgrab",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "waybackurls",
+      "url": "https://github.com/tomnomnom/waybackurls",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "gau",
+      "url": "https://github.com/lc/gau",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "getJS",
+      "url": "https://github.com/003random/getJS",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "linx",
+      "url": "https://github.com/riza/linx",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "waymore",
+      "url": "https://github.com/xnl-h4ck3r/waymore",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "xnLinkFinder",
+      "url": "https://github.com/xnl-h4ck3r/xnLinkFinder",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "URLFinder",
+      "url": "https://github.com/projectdiscovery/urlfinder",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "github-endpoints",
+      "url": "https://github.com/gwen001/github-endpoints",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "jsleak",
+      "url": "https://github.com/byt3hx/jsleak",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "jsfinder",
+      "url": "https://github.com/kacakb/jsfinder",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "jsluice",
+      "url": "https://github.com/BishopFox/jsluice",
+      "category": "links",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "parameth",
+      "url": "https://github.com/maK-/parameth",
+      "category": "parameters",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "param-miner",
+      "url": "https://github.com/PortSwigger/param-miner",
+      "category": "parameters",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "ParamPamPam",
+      "url": "https://github.com/Bo0oM/ParamPamPam",
+      "category": "parameters",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "Arjun",
+      "url": "https://github.com/s0md3v/Arjun",
+      "category": "parameters",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "ParamSpider",
+      "url": "https://github.com/devanshbatham/ParamSpider",
+      "category": "parameters",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "x8",
+      "url": "https://github.com/Sh1Yo/x8",
+      "category": "parameters",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "wfuzz",
+      "url": "https://github.com/xmendez/wfuzz",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "ffuf",
+      "url": "https://github.com/ffuf/ffuf",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "fuzzdb",
+      "url": "https://github.com/fuzzdb-project/fuzzdb",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "IntruderPayloads",
+      "url": "https://github.com/1N3/IntruderPayloads",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L200",
+      "line": 200,
+      "properties": {}
+    },
+    {
+      "title": "fuzz.txt",
+      "url": "https://github.com/Bo0oM/fuzz.txt",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "fuzzilli",
+      "url": "https://github.com/googleprojectzero/fuzzilli",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "fuzzapi",
+      "url": "https://github.com/Fuzzapi/fuzzapi",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "qsfuzz",
+      "url": "https://github.com/ameenmaali/qsfuzz",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "vaf",
+      "url": "https://github.com/d4rckh/vaf",
+      "category": "fuzzing",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "bbscope",
+      "url": "https://github.com/sw33tLie/bbscope",
+      "category": "monitoring",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "jsmon",
+      "url": "https://github.com/robre/jsmon",
+      "category": "monitoring",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "commix",
+      "url": "https://github.com/commixproject/commix",
+      "category": "command-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Corsy",
+      "url": "https://github.com/s0md3v/Corsy",
+      "category": "cors-misconfiguration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Corser",
+      "url": "https://github.com/cyinnove/corser",
+      "category": "cors-misconfiguration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "CORStest",
+      "url": "https://github.com/RUB-NDS/CORStest",
+      "category": "cors-misconfiguration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "cors-scanner",
+      "url": "https://github.com/laconicwolf/cors-scanner",
+      "category": "cors-misconfiguration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "CorsMe",
+      "url": "https://github.com/Shivangx01b/CorsMe",
+      "category": "cors-misconfiguration",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "CRLFsuite",
+      "url": "https://github.com/Nefcore/CRLFsuite",
+      "category": "crlf-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "crlfuzz",
+      "url": "https://github.com/dwisiswant0/crlfuzz",
+      "category": "crlf-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "CRLF-Injection-Scanner",
+      "url": "https://github.com/MichaelStott/CRLF-Injection-Scanner",
+      "category": "crlf-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "Injectus",
+      "url": "https://github.com/BountyStrike/Injectus",
+      "category": "crlf-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "XSRFProbe",
+      "url": "https://github.com/0xInfection/XSRFProbe",
+      "category": "csrf-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "dotdotpwn",
+      "url": "https://github.com/wireghoul/dotdotpwn",
+      "category": "directory-traversal",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "FDsploit",
+      "url": "https://github.com/chrispetrou/FDsploit",
+      "category": "directory-traversal",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "off-by-slash",
+      "url": "https://github.com/bayotop/off-by-slash",
+      "category": "directory-traversal",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "liffier",
+      "url": "https://github.com/momenbasel/liffier",
+      "category": "directory-traversal",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "liffy",
+      "url": "https://github.com/mzfr/liffy",
+      "category": "file-inclusion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "Burp-LFI-tests",
+      "url": "https://github.com/Team-Firebugs/Burp-LFI-tests",
+      "category": "file-inclusion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L249",
+      "line": 249,
+      "properties": {}
+    },
+    {
+      "title": "LFI-Enum",
+      "url": "https://github.com/mthbernardes/LFI-Enum",
+      "category": "file-inclusion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "LFISuite",
+      "url": "https://github.com/D35m0nd142/LFISuite",
+      "category": "file-inclusion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "LFI-files",
+      "url": "https://github.com/hussein98d/LFI-files",
+      "category": "file-inclusion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "inql",
+      "url": "https://github.com/doyensec/inql",
+      "category": "graphql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "GraphQLmap",
+      "url": "https://github.com/swisskyrepo/GraphQLmap",
+      "category": "graphql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "shapeshifter",
+      "url": "https://github.com/szski/shapeshifter",
+      "category": "graphql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "graphql_beautifier",
+      "url": "https://github.com/zidekmat/graphql_beautifier",
+      "category": "graphql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L259",
+      "line": 259,
+      "properties": {}
+    },
+    {
+      "title": "clairvoyance",
+      "url": "https://github.com/nikitastupin/clairvoyance",
+      "category": "graphql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "headi",
+      "url": "https://github.com/mlcsec/headi",
+      "category": "header-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "ysoserial",
+      "url": "https://github.com/frohoff/ysoserial",
+      "category": "insecure-deserialization",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "GadgetProbe",
+      "url": "https://github.com/BishopFox/GadgetProbe",
+      "category": "insecure-deserialization",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "ysoserial.net",
+      "url": "https://github.com/pwntester/ysoserial.net",
+      "category": "insecure-deserialization",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "phpggc",
+      "url": "https://github.com/ambionics/phpggc",
+      "category": "insecure-deserialization",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Autorize",
+      "url": "https://github.com/Quitten/Autorize",
+      "category": "insecure-direct-object-references",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "Oralyzer",
+      "url": "https://github.com/r0075h3ll/Oralyzer",
+      "category": "open-redirect",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "Injectus",
+      "url": "https://github.com/BountyStrike/Injectus",
+      "category": "open-redirect",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "dom-red",
+      "url": "https://github.com/Naategh/dom-red",
+      "category": "open-redirect",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "OpenRedireX",
+      "url": "https://github.com/devanshbatham/OpenRedireX",
+      "category": "open-redirect",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "razzer",
+      "url": "https://github.com/compsec-snu/razzer",
+      "category": "race-condition",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "racepwn",
+      "url": "https://github.com/racepwn/racepwn",
+      "category": "race-condition",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "requests-racer",
+      "url": "https://github.com/nccgroup/requests-racer",
+      "category": "race-condition",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "turbo-intruder",
+      "url": "https://github.com/PortSwigger/turbo-intruder",
+      "category": "race-condition",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "race-the-web",
+      "url": "https://github.com/TheHackerDev/race-the-web",
+      "category": "race-condition",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "http-request-smuggling",
+      "url": "https://github.com/anshumanpattnaik/http-request-smuggling",
+      "category": "request-smuggling",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "smuggler",
+      "url": "https://github.com/defparam/smuggler",
+      "category": "request-smuggling",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L295",
+      "line": 295,
+      "properties": {}
+    },
+    {
+      "title": "h2csmuggler",
+      "url": "https://github.com/BishopFox/h2csmuggler",
+      "category": "request-smuggling",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "tiscripts",
+      "url": "https://github.com/defparam/tiscripts",
+      "category": "request-smuggling",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L297",
+      "line": 297,
+      "properties": {}
+    },
+    {
+      "title": "smugglex",
+      "url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/github.com/hahwul/smugglex",
+      "category": "request-smuggling",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "SSRFmap",
+      "url": "https://github.com/swisskyrepo/SSRFmap",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "Gopherus",
+      "url": "https://github.com/tarunkant/Gopherus",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L303",
+      "line": 303,
+      "properties": {}
+    },
+    {
+      "title": "ground-control",
+      "url": "https://github.com/jobertabma/ground-control",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "SSRFire",
+      "url": "https://github.com/micha3lb3n/SSRFire",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "httprebind",
+      "url": "https://github.com/daeken/httprebind",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "ssrf-sheriff",
+      "url": "https://github.com/teknogeek/ssrf-sheriff",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "B-XSSRF",
+      "url": "https://github.com/SpiderMate/B-XSSRF",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "extended-ssrf-search",
+      "url": "https://github.com/Damian89/extended-ssrf-search",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "gaussrf",
+      "url": "https://github.com/KathanP19/gaussrf",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "ssrfDetector",
+      "url": "https://github.com/JacobReynolds/ssrfDetector",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "grafana-ssrf",
+      "url": "https://github.com/RandomRobbieBF/grafana-ssrf",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "sentrySSRF",
+      "url": "https://github.com/xawdxawdx/sentrySSRF",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "lorsrf",
+      "url": "https://github.com/knassar702/lorsrf",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "singularity",
+      "url": "https://github.com/nccgroup/singularity",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "whonow",
+      "url": "https://github.com/brannondorsey/whonow",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "dns-rebind-toolkit",
+      "url": "https://github.com/brannondorsey/dns-rebind-toolkit",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "dref",
+      "url": "https://github.com/FSecureLABS/dref",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "rbndr",
+      "url": "https://github.com/taviso/rbndr",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L319",
+      "line": 319,
+      "properties": {}
+    },
+    {
+      "title": "httprebind",
+      "url": "https://github.com/daeken/httprebind",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "dnsFookup",
+      "url": "https://github.com/makuga01/dnsFookup",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "surf",
+      "url": "https://github.com/assetnote/surf",
+      "category": "server-side-request-forgery",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "sqlmap",
+      "url": "https://github.com/sqlmapproject/sqlmap",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L326",
+      "line": 326,
+      "properties": {}
+    },
+    {
+      "title": "NoSQLMap",
+      "url": "https://github.com/codingo/NoSQLMap",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L327",
+      "line": 327,
+      "properties": {}
+    },
+    {
+      "title": "SQLiScanner",
+      "url": "https://github.com/0xbug/SQLiScanner",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "SleuthQL",
+      "url": "https://github.com/RhinoSecurityLabs/SleuthQL",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "mssqlproxy",
+      "url": "https://github.com/blackarrowsec/mssqlproxy",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "sqli-hunter",
+      "url": "https://github.com/zt2/sqli-hunter",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "waybackSqliScanner",
+      "url": "https://github.com/ghostlulzhacks/waybackSqliScanner",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "ESC",
+      "url": "https://github.com/NetSPI/ESC",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "mssqli-duet",
+      "url": "https://github.com/Keramas/mssqli-duet",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "burp-to-sqlmap",
+      "url": "https://github.com/Miladkhoshdel/burp-to-sqlmap",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "BurpSQLTruncSanner",
+      "url": "https://github.com/InitRoot/BurpSQLTruncSanner",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "andor",
+      "url": "https://github.com/sadicann/andor",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "Blinder",
+      "url": "https://github.com/mhaskar/Blinder",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L338",
+      "line": 338,
+      "properties": {}
+    },
+    {
+      "title": "sqliv",
+      "url": "https://github.com/the-robot/sqliv",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "nosqli",
+      "url": "https://github.com/Charlie-belmer/nosqli",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "ghauri",
+      "url": "https://github.com/r0oth3x49/ghauri",
+      "category": "sql-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "XSStrike",
+      "url": "https://github.com/s0md3v/XSStrike",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "xssor2",
+      "url": "https://github.com/evilcos/xssor2",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "xsscrapy",
+      "url": "https://github.com/DanMcInerney/xsscrapy",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L347",
+      "line": 347,
+      "properties": {}
+    },
+    {
+      "title": "sleepy-puppy",
+      "url": "https://github.com/Netflix-Skunkworks/sleepy-puppy",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "ezXSS",
+      "url": "https://github.com/ssl/ezXSS",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "xsshunter",
+      "url": "https://github.com/mandatoryprogrammer/xsshunter",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "dalfox",
+      "url": "https://github.com/hahwul/dalfox",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "xsser",
+      "url": "https://github.com/epsylon/xsser",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "XSpear",
+      "url": "https://github.com/hahwul/XSpear",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "weaponised-XSS-payloads",
+      "url": "https://github.com/hakluke/weaponised-XSS-payloads",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "tracy",
+      "url": "https://github.com/nccgroup/tracy",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "ground-control",
+      "url": "https://github.com/jobertabma/ground-control",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "xssValidator",
+      "url": "https://github.com/nVisium/xssValidator",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "JSShell",
+      "url": "https://github.com/Den1al/JSShell",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "bXSS",
+      "url": "https://github.com/LewisArdern/bXSS",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "docem",
+      "url": "https://github.com/whitel1st/docem",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "XSS-Radar",
+      "url": "https://github.com/bugbountyforum/XSS-Radar",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "BruteXSS",
+      "url": "https://github.com/rajeshmajumdar/BruteXSS",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "findom-xss",
+      "url": "https://github.com/dwisiswant0/findom-xss",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "domdig",
+      "url": "https://github.com/fcavallarin/domdig",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "femida",
+      "url": "https://github.com/wish-i-was/femida",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "B-XSSRF",
+      "url": "https://github.com/SpiderMate/B-XSSRF",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L366",
+      "line": 366,
+      "properties": {}
+    },
+    {
+      "title": "domxssscanner",
+      "url": "https://github.com/yaph/domxssscanner",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L367",
+      "line": 367,
+      "properties": {}
+    },
+    {
+      "title": "xsshunter_client",
+      "url": "https://github.com/mandatoryprogrammer/xsshunter_client",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "extended-xss-search",
+      "url": "https://github.com/Damian89/extended-xss-search",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "xssmap",
+      "url": "https://github.com/Jewel591/xssmap",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "XSSCon",
+      "url": "https://github.com/menkrep1337/XSSCon",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "BitBlinder",
+      "url": "https://github.com/BitTheByte/BitBlinder",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "XSSOauthPersistence",
+      "url": "https://github.com/dxa4481/XSSOauthPersistence",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "shadow-workers",
+      "url": "https://github.com/shadow-workers/shadow-workers",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "rexsser",
+      "url": "https://github.com/profmoriarity/rexsser",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "xss-flare",
+      "url": "https://github.com/EgeBalci/xss-flare",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "Xss-Sql-Fuzz",
+      "url": "https://github.com/jiangsir404/Xss-Sql-Fuzz",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "vaya-ciego-nen",
+      "url": "https://github.com/hipotermia/vaya-ciego-nen",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "dom-based-xss-finder",
+      "url": "https://github.com/AsaiKen/dom-based-xss-finder",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "XSSTerminal",
+      "url": "https://github.com/machinexa2/XSSTerminal",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "xss2png",
+      "url": "https://github.com/vavkamil/xss2png",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "XSSwagger",
+      "url": "https://github.com/vavkamil/XSSwagger",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "JSONBee",
+      "url": "https://github.com/zigoo0/JSONBee",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "CSPBypass",
+      "url": "https://github.com/renniepak/CSPBypass",
+      "category": "xss-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "ground-control",
+      "url": "https://github.com/jobertabma/ground-control",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "dtd-finder",
+      "url": "https://github.com/GoSecure/dtd-finder",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "docem",
+      "url": "https://github.com/whitel1st/docem",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "xxeserv",
+      "url": "https://github.com/staaldraad/xxeserv",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "xxexploiter",
+      "url": "https://github.com/luisfontes19/xxexploiter",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "B-XSSRF",
+      "url": "https://github.com/SpiderMate/B-XSSRF",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "XXEinjector",
+      "url": "https://github.com/enjoiz/XXEinjector",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L394",
+      "line": 394,
+      "properties": {}
+    },
+    {
+      "title": "oxml_xxe",
+      "url": "https://github.com/BuffaloWill/oxml_xxe",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L395",
+      "line": 395,
+      "properties": {}
+    },
+    {
+      "title": "metahttp",
+      "url": "https://github.com/vp777/metahttp",
+      "category": "xxe-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "tplmap",
+      "url": "https://github.com/epinna/tplmap",
+      "category": "ssti-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L400",
+      "line": 400,
+      "properties": {}
+    },
+    {
+      "title": "SSTImap",
+      "url": "https://github.com/vladko312/SSTImap",
+      "category": "ssti-injection",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L401",
+      "line": 401,
+      "properties": {}
+    },
+    {
+      "title": "toxicache",
+      "url": "https://github.com/xhzeem/toxicache",
+      "category": "web-cache-poisoning",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L405",
+      "line": 405,
+      "properties": {}
+    },
+    {
+      "title": "nomore403",
+      "url": "https://github.com/devploit/nomore403",
+      "category": "waf-evasion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "XFFenum",
+      "url": "https://github.com/vavkamil/XFFenum",
+      "category": "waf-evasion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "Forbidden Buster",
+      "url": "https://github.com/Sn1r/Forbidden-Buster",
+      "category": "waf-evasion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "nowafpls",
+      "url": "https://github.com/assetnote/nowafpls/",
+      "category": "waf-evasion",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "thc-hydra",
+      "url": "https://github.com/vanhauser-thc/thc-hydra",
+      "category": "passwords",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "DefaultCreds-cheat-sheet",
+      "url": "https://github.com/ihebski/DefaultCreds-cheat-sheet",
+      "category": "passwords",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "changeme",
+      "url": "https://github.com/ztgrace/changeme",
+      "category": "passwords",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "BruteX",
+      "url": "https://github.com/1N3/BruteX",
+      "category": "passwords",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "patator",
+      "url": "https://github.com/lanjelot/patator",
+      "category": "passwords",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "git-secrets",
+      "url": "https://github.com/awslabs/git-secrets",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "gitleaks",
+      "url": "https://github.com/zricethezav/gitleaks",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "truffleHog",
+      "url": "https://github.com/dxa4481/truffleHog",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "gitGraber",
+      "url": "https://github.com/hisxo/gitGraber",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "talisman",
+      "url": "https://github.com/thoughtworks/talisman",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "GitGot",
+      "url": "https://github.com/BishopFox/GitGot",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "git-all-secrets",
+      "url": "https://github.com/anshumanbh/git-all-secrets",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "github-search",
+      "url": "https://github.com/gwen001/github-search",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "git-vuln-finder",
+      "url": "https://github.com/cve-search/git-vuln-finder",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L436",
+      "line": 436,
+      "properties": {}
+    },
+    {
+      "title": "commit-stream",
+      "url": "https://github.com/x1sec/commit-stream",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L437",
+      "line": 437,
+      "properties": {}
+    },
+    {
+      "title": "gitrob",
+      "url": "https://github.com/michenriksen/gitrob",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L438",
+      "line": 438,
+      "properties": {}
+    },
+    {
+      "title": "repo-supervisor",
+      "url": "https://github.com/auth0/repo-supervisor",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "GitMiner",
+      "url": "https://github.com/UnkL4b/GitMiner",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L440",
+      "line": 440,
+      "properties": {}
+    },
+    {
+      "title": "shhgit",
+      "url": "https://github.com/eth0izzle/shhgit",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L441",
+      "line": 441,
+      "properties": {}
+    },
+    {
+      "title": "detect-secrets",
+      "url": "https://github.com/Yelp/detect-secrets",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L442",
+      "line": 442,
+      "properties": {}
+    },
+    {
+      "title": "rusty-hog",
+      "url": "https://github.com/newrelic/rusty-hog",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "whispers",
+      "url": "https://github.com/Skyscanner/whispers",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "yar",
+      "url": "https://github.com/nielsing/yar",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "dufflebag",
+      "url": "https://github.com/BishopFox/dufflebag",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "secret-bridge",
+      "url": "https://github.com/duo-labs/secret-bridge",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "earlybird",
+      "url": "https://github.com/americanexpress/earlybird",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L448",
+      "line": 448,
+      "properties": {}
+    },
+    {
+      "title": "Trufflehog-Chrome-Extension",
+      "url": "https://github.com/trufflesecurity/Trufflehog-Chrome-Extension",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "noseyparker",
+      "url": "https://github.com/praetorian-inc/noseyparker",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L450",
+      "line": 450,
+      "properties": {}
+    },
+    {
+      "title": "GitHound",
+      "url": "https://github.com/tillson/git-hound",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "cariddi",
+      "url": "https://github.com/edoardottt/cariddi",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "SecretFinder",
+      "url": "https://github.com/m4ll0k/SecretFinder",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "js-snitch",
+      "url": "https://github.com/vavkamil/js-snitch",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "keyhacks",
+      "url": "https://github.com/streaak/keyhacks",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "keyFinder",
+      "url": "https://github.com/momenbasel/keyFinder",
+      "category": "secrets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "GitTools",
+      "url": "https://github.com/internetwache/GitTools",
+      "category": "git",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "gitjacker",
+      "url": "https://github.com/liamg/gitjacker",
+      "category": "git",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L462",
+      "line": 462,
+      "properties": {}
+    },
+    {
+      "title": "git-dumper",
+      "url": "https://github.com/arthaud/git-dumper",
+      "category": "git",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L463",
+      "line": 463,
+      "properties": {}
+    },
+    {
+      "title": "GitHunter",
+      "url": "https://github.com/digininja/GitHunter",
+      "category": "git",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L464",
+      "line": 464,
+      "properties": {}
+    },
+    {
+      "title": "dvcs-ripper",
+      "url": "https://github.com/kost/dvcs-ripper",
+      "category": "git",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "Gato (Github Attack TOolkit)",
+      "url": "https://github.com/praetorian-inc/gato",
+      "category": "git",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L466",
+      "line": 466,
+      "properties": {}
+    },
+    {
+      "title": "zizmor",
+      "url": "https://github.com/zizmorcore/zizmor",
+      "category": "git",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "S3Scanner",
+      "url": "https://github.com/sa7mon/S3Scanner",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L471",
+      "line": 471,
+      "properties": {}
+    },
+    {
+      "title": "AWSBucketDump",
+      "url": "https://github.com/jordanpotti/AWSBucketDump",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L472",
+      "line": 472,
+      "properties": {}
+    },
+    {
+      "title": "CloudScraper",
+      "url": "https://github.com/jordanpotti/CloudScraper",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "s3viewer",
+      "url": "https://github.com/SharonBrizinov/s3viewer",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L474",
+      "line": 474,
+      "properties": {}
+    },
+    {
+      "title": "festin",
+      "url": "https://github.com/cr0hn/festin",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L475",
+      "line": 475,
+      "properties": {}
+    },
+    {
+      "title": "s3reverse",
+      "url": "https://github.com/hahwul/s3reverse",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L476",
+      "line": 476,
+      "properties": {}
+    },
+    {
+      "title": "mass-s3-bucket-tester",
+      "url": "https://github.com/random-robbie/mass-s3-bucket-tester",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "S3BucketList",
+      "url": "https://github.com/AlecBlance/S3BucketList",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L478",
+      "line": 478,
+      "properties": {}
+    },
+    {
+      "title": "dirlstr",
+      "url": "https://github.com/cybercdh/dirlstr",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L479",
+      "line": 479,
+      "properties": {}
+    },
+    {
+      "title": "Burp-AnonymousCloud",
+      "url": "https://github.com/codewatchorg/Burp-AnonymousCloud",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L480",
+      "line": 480,
+      "properties": {}
+    },
+    {
+      "title": "kicks3",
+      "url": "https://github.com/abuvanth/kicks3",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L481",
+      "line": 481,
+      "properties": {}
+    },
+    {
+      "title": "2tearsinabucket",
+      "url": "https://github.com/Revenant40/2tearsinabucket",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L482",
+      "line": 482,
+      "properties": {}
+    },
+    {
+      "title": "s3_objects_check",
+      "url": "https://github.com/nccgroup/s3_objects_check",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L483",
+      "line": 483,
+      "properties": {}
+    },
+    {
+      "title": "s3tk",
+      "url": "https://github.com/ankane/s3tk",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L484",
+      "line": 484,
+      "properties": {}
+    },
+    {
+      "title": "CloudBrute",
+      "url": "https://github.com/0xsha/CloudBrute",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L485",
+      "line": 485,
+      "properties": {}
+    },
+    {
+      "title": "s3cario",
+      "url": "https://github.com/0xspade/s3cario",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L486",
+      "line": 486,
+      "properties": {}
+    },
+    {
+      "title": "S3Cruze",
+      "url": "https://github.com/JR0ch17/S3Cruze",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L487",
+      "line": 487,
+      "properties": {}
+    },
+    {
+      "title": "s3dns",
+      "url": "https://github.com/olizimmermann/s3dns",
+      "category": "buckets",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L488",
+      "line": 488,
+      "properties": {}
+    },
+    {
+      "title": "wpscan",
+      "url": "https://github.com/wpscanteam/wpscan",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L492",
+      "line": 492,
+      "properties": {}
+    },
+    {
+      "title": "WPSpider",
+      "url": "https://github.com/cyc10n3/WPSpider",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L493",
+      "line": 493,
+      "properties": {}
+    },
+    {
+      "title": "wprecon",
+      "url": "https://github.com/blackcrw/wprecon",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L494",
+      "line": 494,
+      "properties": {}
+    },
+    {
+      "title": "Temodar Agent",
+      "url": "https://github.com/xeloxa/temodar-agent",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L495",
+      "line": 495,
+      "properties": {}
+    },
+    {
+      "title": "CMSmap",
+      "url": "https://github.com/Dionach/CMSmap",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L496",
+      "line": 496,
+      "properties": {}
+    },
+    {
+      "title": "joomscan",
+      "url": "https://github.com/OWASP/joomscan",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L497",
+      "line": 497,
+      "properties": {}
+    },
+    {
+      "title": "pyfiscan",
+      "url": "https://github.com/fgeek/pyfiscan",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L498",
+      "line": 498,
+      "properties": {}
+    },
+    {
+      "title": "aemhacker",
+      "url": "https://github.com/0ang3el/aem-hacker",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L499",
+      "line": 499,
+      "properties": {}
+    },
+    {
+      "title": "aemscan",
+      "url": "https://github.com/Raz0r/aemscan",
+      "category": "cms",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L500",
+      "line": 500,
+      "properties": {}
+    },
+    {
+      "title": "jwt_tool",
+      "url": "https://github.com/ticarpi/jwt_tool",
+      "category": "json-web-token",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L505",
+      "line": 505,
+      "properties": {}
+    },
+    {
+      "title": "c-jwt-cracker",
+      "url": "https://github.com/brendan-rius/c-jwt-cracker",
+      "category": "json-web-token",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "jwt-heartbreaker",
+      "url": "https://github.com/wallarm/jwt-heartbreaker",
+      "category": "json-web-token",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L507",
+      "line": 507,
+      "properties": {}
+    },
+    {
+      "title": "jwtear",
+      "url": "https://github.com/KINGSABRI/jwtear",
+      "category": "json-web-token",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L508",
+      "line": 508,
+      "properties": {}
+    },
+    {
+      "title": "jwt-key-id-injector",
+      "url": "https://github.com/dariusztytko/jwt-key-id-injector",
+      "category": "json-web-token",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L509",
+      "line": 509,
+      "properties": {}
+    },
+    {
+      "title": "jwt-hack",
+      "url": "https://github.com/hahwul/jwt-hack",
+      "category": "json-web-token",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "jwt-cracker",
+      "url": "https://github.com/lmammino/jwt-cracker",
+      "category": "json-web-token",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L511",
+      "line": 511,
+      "properties": {}
+    },
+    {
+      "title": "postMessage-tracker",
+      "url": "https://github.com/fransr/postMessage-tracker",
+      "category": "postmessage",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L515",
+      "line": 515,
+      "properties": {}
+    },
+    {
+      "title": "PostMessage_Fuzz_Tool",
+      "url": "https://github.com/kiranreddyrebel/PostMessage_Fuzz_Tool",
+      "category": "postmessage",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L516",
+      "line": 516,
+      "properties": {}
+    },
+    {
+      "title": "subjack",
+      "url": "https://github.com/haccer/subjack",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L520",
+      "line": 520,
+      "properties": {}
+    },
+    {
+      "title": "SubOver",
+      "url": "https://github.com/Ice3man543/SubOver",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L521",
+      "line": 521,
+      "properties": {}
+    },
+    {
+      "title": "autoSubTakeover",
+      "url": "https://github.com/JordyZomer/autoSubTakeover",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L522",
+      "line": 522,
+      "properties": {}
+    },
+    {
+      "title": "NSBrute",
+      "url": "https://github.com/shivsahni/NSBrute",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L523",
+      "line": 523,
+      "properties": {}
+    },
+    {
+      "title": "can-i-take-over-xyz",
+      "url": "https://github.com/EdOverflow/can-i-take-over-xyz",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L524",
+      "line": 524,
+      "properties": {}
+    },
+    {
+      "title": "cnames",
+      "url": "https://github.com/cybercdh/cnames",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L525",
+      "line": 525,
+      "properties": {}
+    },
+    {
+      "title": "subHijack",
+      "url": "https://github.com/vavkamil/old-repos-backup/tree/master/subHijack-master",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L526",
+      "line": 526,
+      "properties": {}
+    },
+    {
+      "title": "tko-subs",
+      "url": "https://github.com/anshumanbh/tko-subs",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L527",
+      "line": 527,
+      "properties": {}
+    },
+    {
+      "title": "HostileSubBruteforcer",
+      "url": "https://github.com/nahamsec/HostileSubBruteforcer",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L528",
+      "line": 528,
+      "properties": {}
+    },
+    {
+      "title": "second-order",
+      "url": "https://github.com/mhmdiaa/second-order",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "takeover",
+      "url": "https://github.com/mzfr/takeover",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L530",
+      "line": 530,
+      "properties": {}
+    },
+    {
+      "title": "dnsReaper",
+      "url": "https://github.com/punk-security/dnsReaper",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L531",
+      "line": 531,
+      "properties": {}
+    },
+    {
+      "title": "subzy",
+      "url": "https://github.com/PentestPad/subzy",
+      "category": "subdomain-takeover",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L532",
+      "line": 532,
+      "properties": {}
+    },
+    {
+      "title": "nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L536",
+      "line": 536,
+      "properties": {}
+    },
+    {
+      "title": "nuclei-templates",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L537",
+      "line": 537,
+      "properties": {}
+    },
+    {
+      "title": "Sn1per",
+      "url": "https://github.com/1N3/Sn1per",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L538",
+      "line": 538,
+      "properties": {}
+    },
+    {
+      "title": "metasploit-framework",
+      "url": "https://github.com/rapid7/metasploit-framework",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L539",
+      "line": 539,
+      "properties": {}
+    },
+    {
+      "title": "nikto",
+      "url": "https://github.com/sullo/nikto",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "arachni",
+      "url": "https://github.com/Arachni/arachni",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L541",
+      "line": 541,
+      "properties": {}
+    },
+    {
+      "title": "jaeles",
+      "url": "https://github.com/jaeles-project/jaeles",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L542",
+      "line": 542,
+      "properties": {}
+    },
+    {
+      "title": "retire.js",
+      "url": "https://github.com/RetireJS/retire.js",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L543",
+      "line": 543,
+      "properties": {}
+    },
+    {
+      "title": "Osmedeus",
+      "url": "https://github.com/j3ssie/Osmedeus",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L544",
+      "line": 544,
+      "properties": {}
+    },
+    {
+      "title": "Vigolium",
+      "url": "https://github.com/vigolium/vigolium",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L545",
+      "line": 545,
+      "properties": {}
+    },
+    {
+      "title": "getsploit",
+      "url": "https://github.com/vulnersCom/getsploit",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L546",
+      "line": 546,
+      "properties": {}
+    },
+    {
+      "title": "flan",
+      "url": "https://github.com/cloudflare/flan",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L547",
+      "line": 547,
+      "properties": {}
+    },
+    {
+      "title": "Findsploit",
+      "url": "https://github.com/1N3/Findsploit",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L548",
+      "line": 548,
+      "properties": {}
+    },
+    {
+      "title": "BlackWidow",
+      "url": "https://github.com/1N3/BlackWidow",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L549",
+      "line": 549,
+      "properties": {}
+    },
+    {
+      "title": "backslash-powered-scanner",
+      "url": "https://github.com/PortSwigger/backslash-powered-scanner",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L550",
+      "line": 550,
+      "properties": {}
+    },
+    {
+      "title": "Eagle",
+      "url": "https://github.com/BitTheByte/Eagle",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L551",
+      "line": 551,
+      "properties": {}
+    },
+    {
+      "title": "cariddi",
+      "url": "https://github.com/edoardottt/cariddi",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L552",
+      "line": 552,
+      "properties": {}
+    },
+    {
+      "title": "OWASP ZAP",
+      "url": "https://github.com/zaproxy/zaproxy",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L553",
+      "line": 553,
+      "properties": {}
+    },
+    {
+      "title": "SSTImap",
+      "url": "https://github.com/vladko312/SSTImap",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L554",
+      "line": 554,
+      "properties": {}
+    },
+    {
+      "title": "Lonkero",
+      "url": "https://github.com/bountyyfi/lonkero",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L555",
+      "line": 555,
+      "properties": {}
+    },
+    {
+      "title": "OWASP PTK",
+      "url": "https://github.com/DenisPodgurskii/pentestkit",
+      "category": "vulnerability-scanners",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L556",
+      "line": 556,
+      "properties": {}
+    },
+    {
+      "title": "alterx",
+      "url": "https://github.com/projectdiscovery/alterx",
+      "category": "permutation",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L561",
+      "line": 561,
+      "properties": {}
+    },
+    {
+      "title": "gotator",
+      "url": "https://github.com/Josue87/gotator",
+      "category": "permutation",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L562",
+      "line": 562,
+      "properties": {}
+    },
+    {
+      "title": "ripgen",
+      "url": "https://github.com/resyncgg/ripgen",
+      "category": "permutation",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L563",
+      "line": 563,
+      "properties": {}
+    },
+    {
+      "title": "dnsgen",
+      "url": "https://github.com/AlephNullSK/dnsgen",
+      "category": "permutation",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L564",
+      "line": 564,
+      "properties": {}
+    },
+    {
+      "title": "goaltdns",
+      "url": "https://github.com/subfinder/goaltdns",
+      "category": "permutation",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L565",
+      "line": 565,
+      "properties": {}
+    },
+    {
+      "title": "altdns",
+      "url": "https://github.com/infosec-au/altdns",
+      "category": "permutation",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L566",
+      "line": 566,
+      "properties": {}
+    },
+    {
+      "title": "mitmproxy",
+      "url": "https://github.com/mitmproxy/mitmproxy",
+      "category": "web-proxy-and-traffic-interception",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L570",
+      "line": 570,
+      "properties": {}
+    },
+    {
+      "title": "proxify",
+      "url": "https://github.com/projectdiscovery/proxify",
+      "category": "web-proxy-and-traffic-interception",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L571",
+      "line": 571,
+      "properties": {}
+    },
+    {
+      "title": "FoxyProxy Browser Extension",
+      "url": "https://github.com/foxyproxy/browser-extension",
+      "category": "web-proxy-and-traffic-interception",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L572",
+      "line": 572,
+      "properties": {}
+    },
+    {
+      "title": "zaproxy",
+      "url": "https://github.com/zaproxy/zaproxy",
+      "category": "web-proxy-and-traffic-interception",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L573",
+      "line": 573,
+      "properties": {}
+    },
+    {
+      "title": "hetty",
+      "url": "https://github.com/dstotijn/hetty",
+      "category": "web-proxy-and-traffic-interception",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L574",
+      "line": 574,
+      "properties": {}
+    },
+    {
+      "title": "CloudRip",
+      "url": "https://github.com/staxsum/CloudRip",
+      "category": "origin-ip",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L578",
+      "line": 578,
+      "properties": {}
+    },
+    {
+      "title": "hakoriginfinder",
+      "url": "https://github.com/hakluke/hakoriginfinder",
+      "category": "origin-ip",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L579",
+      "line": 579,
+      "properties": {}
+    },
+    {
+      "title": "anew",
+      "url": "https://github.com/tomnomnom/anew",
+      "category": "useful",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L583",
+      "line": 583,
+      "properties": {}
+    },
+    {
+      "title": "gf",
+      "url": "https://github.com/tomnomnom/gf",
+      "category": "useful",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L584",
+      "line": 584,
+      "properties": {}
+    },
+    {
+      "title": "uro",
+      "url": "https://github.com/s0md3v/uro",
+      "category": "useful",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L585",
+      "line": 585,
+      "properties": {}
+    },
+    {
+      "title": "unfurl",
+      "url": "https://github.com/tomnomnom/unfurl",
+      "category": "useful",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L586",
+      "line": 586,
+      "properties": {}
+    },
+    {
+      "title": "qsreplace",
+      "url": "https://github.com/tomnomnom/qsreplace",
+      "category": "useful",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L587",
+      "line": 587,
+      "properties": {}
+    },
+    {
+      "title": "interactsh",
+      "url": "https://github.com/projectdiscovery/interactsh",
+      "category": "useful",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L588",
+      "line": 588,
+      "properties": {}
+    },
+    {
+      "title": "CyberChef",
+      "url": "https://github.com/gchq/CyberChef",
+      "category": "useful",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L589",
+      "line": 589,
+      "properties": {}
+    },
+    {
+      "title": "notify",
+      "url": "https://github.com/projectdiscovery/notify",
+      "category": "useful",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L590",
+      "line": 590,
+      "properties": {}
+    },
+    {
+      "title": "shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "category": "ai-agents",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L594",
+      "line": 594,
+      "properties": {}
+    },
+    {
+      "title": "Darkmoon",
+      "url": "https://github.com/ASCIT31/Dark-Moon",
+      "category": "ai-agents",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L595",
+      "line": 595,
+      "properties": {}
+    },
+    {
+      "title": "PentestGPT",
+      "url": "https://github.com/GreyDGL/PentestGPT",
+      "category": "ai-agents",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L596",
+      "line": 596,
+      "properties": {}
+    },
+    {
+      "title": "Agentic Bug Bounty Hunter",
+      "url": "https://github.com/Awarexone/Agentic-Bug-Hunter",
+      "category": "ai-agents",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L597",
+      "line": 597,
+      "properties": {}
+    },
+    {
+      "title": "ARS3NAL",
+      "url": "https://github.com/inflictx/Arsenal",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L603",
+      "line": 603,
+      "properties": {}
+    },
+    {
+      "title": "RF Swift",
+      "url": "https://github.com/PentHertz/RF-Swift",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L604",
+      "line": 604,
+      "properties": {}
+    },
+    {
+      "title": "bountyplz",
+      "url": "https://github.com/fransr/bountyplz",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L605",
+      "line": 605,
+      "properties": {}
+    },
+    {
+      "title": "PayloadsAllTheThings",
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L606",
+      "line": 606,
+      "properties": {}
+    },
+    {
+      "title": "bounty-targets-data",
+      "url": "https://github.com/arkadiyt/bounty-targets-data",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L607",
+      "line": 607,
+      "properties": {}
+    },
+    {
+      "title": "android-security-awesome",
+      "url": "https://github.com/ashishb/android-security-awesome",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L608",
+      "line": 608,
+      "properties": {}
+    },
+    {
+      "title": "awesome-mobile-security",
+      "url": "https://github.com/vaib25vicky/awesome-mobile-security",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L609",
+      "line": 609,
+      "properties": {}
+    },
+    {
+      "title": "awesome-vulnerable-apps",
+      "url": "https://github.com/vavkamil/awesome-vulnerable-apps",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L610",
+      "line": 610,
+      "properties": {}
+    },
+    {
+      "title": "SecLists",
+      "url": "https://github.com/danielmiessler/SecLists",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L611",
+      "line": 611,
+      "properties": {}
+    },
+    {
+      "title": "asnmap",
+      "url": "https://github.com/projectdiscovery/asnmap",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L612",
+      "line": 612,
+      "properties": {}
+    },
+    {
+      "title": "mapcidr",
+      "url": "https://github.com/projectdiscovery/mapcidr",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L613",
+      "line": 613,
+      "properties": {}
+    },
+    {
+      "title": "BigBountyRecon",
+      "url": "https://github.com/Viralmaniar/BigBountyRecon",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L614",
+      "line": 614,
+      "properties": {}
+    },
+    {
+      "title": "Bypass bot detection",
+      "url": "https://github.com/portswigger/bypass-bot-detection",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L615",
+      "line": 615,
+      "properties": {}
+    },
+    {
+      "title": "cvemap",
+      "url": "https://github.com/projectdiscovery/cvemap",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L616",
+      "line": 616,
+      "properties": {}
+    },
+    {
+      "title": "cut-cdn",
+      "url": "https://github.com/ImAyrix/cut-cdn",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L617",
+      "line": 617,
+      "properties": {}
+    },
+    {
+      "title": "ds_store_exp",
+      "url": "https://github.com/lijiejie/ds_store_exp",
+      "category": "uncategorized",
+      "source_url": "https://github.com/vavkamil/awesome-bugbounty-tools/blob/84152c9dc82314b82b1e88c9f0b4887f5815b64d/README.md#L618",
+      "line": 618,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 412,
+  "unique_links": 400,
+  "category_count": 45,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "vavkamil",
+      "url": "https://github.com/vavkamil",
+      "contributions": 40
+    },
+    {
+      "login": "N0rmalizer",
+      "url": "https://github.com/N0rmalizer",
+      "contributions": 13
+    },
+    {
+      "login": "Chirag8023",
+      "url": "https://github.com/Chirag8023",
+      "contributions": 8
+    },
+    {
+      "login": "zerbaliy3v",
+      "url": "https://github.com/zerbaliy3v",
+      "contributions": 6
+    },
+    {
+      "login": "Dev2023-Op",
+      "url": "https://github.com/Dev2023-Op",
+      "contributions": 2
+    },
+    {
+      "login": "ShubhamJagtap2000",
+      "url": "https://github.com/ShubhamJagtap2000",
+      "contributions": 2
+    },
+    {
+      "login": "0xPugal",
+      "url": "https://github.com/0xPugal",
+      "contributions": 1
+    },
+    {
+      "login": "14kartiksingh",
+      "url": "https://github.com/14kartiksingh",
+      "contributions": 1
+    },
+    {
+      "login": "3nock",
+      "url": "https://github.com/3nock",
+      "contributions": 1
+    },
+    {
+      "login": "andrealungh1",
+      "url": "https://github.com/andrealungh1",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 98,
+    "has_more": false,
+    "path_commit_count": 98,
+    "public_contributors": 32,
+    "observed_at": "2026-09-03T17:42:48.480926+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by vavkamil/awesome-bugbounty-tools contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/vavkamil/awesome-bugbounty-tools/tree/84152c9dc82314b82b1e88c9f0b4887f5815b64d",
+  "digest": "d0f4504fac65e17b1da1cd5160649493abe82319d3ccbc4b597160bd193a492d"
+}

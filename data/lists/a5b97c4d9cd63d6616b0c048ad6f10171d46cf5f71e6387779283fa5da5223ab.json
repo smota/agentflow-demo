@@ -1,0 +1,1372 @@
+{
+  "format_version": 3,
+  "repository_id": "563156667",
+  "name": "TaoWangzj/Awesome-Face-Restoration",
+  "revision": "6b070f3ae4ee301959403184523451e40a97e5a3",
+  "readme_path": "README.md",
+  "readme_sha256": "2ce2c4a26fb9a493eaf704f23c6b66783a3735dee21fd62073df358359ef1f6f",
+  "sections": [
+    {
+      "id": "survey-paper",
+      "title": "Survey paper",
+      "level": 2,
+      "path": [
+        "Survey paper"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#survey-paper",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of contents",
+      "level": 2,
+      "path": [
+        "Table of contents"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "surveys",
+      "title": "Surveys",
+      "level": 2,
+      "path": [
+        "Surveys"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#surveys",
+      "entries": 7
+    },
+    {
+      "id": "deep-blind-face-restoration",
+      "title": "Deep Blind Face Restoration",
+      "level": 2,
+      "path": [
+        "Deep Blind Face Restoration"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#deep-blind-face-restoration",
+      "entries": 30
+    },
+    {
+      "id": "deep-face-super-resolution",
+      "title": "Deep Face Super-Resolution",
+      "level": 2,
+      "path": [
+        "Deep Face Super-Resolution"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#deep-face-super-resolution",
+      "entries": 33
+    },
+    {
+      "id": "deep-face-deblurring",
+      "title": "Deep Face Deblurring",
+      "level": 2,
+      "path": [
+        "Deep Face Deblurring"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#deep-face-deblurring",
+      "entries": 11
+    },
+    {
+      "id": "deep-face-denoising",
+      "title": "Deep Face Denoising",
+      "level": 2,
+      "path": [
+        "Deep Face Denoising"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#deep-face-denoising",
+      "entries": 3
+    },
+    {
+      "id": "deep-face-artifact-removal",
+      "title": "Deep Face Artifact Removal",
+      "level": 2,
+      "path": [
+        "Deep Face Artifact Removal"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#deep-face-artifact-removal",
+      "entries": 3
+    },
+    {
+      "id": "other-related-works",
+      "title": "Other Related Works",
+      "level": 2,
+      "path": [
+        "Other Related Works"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#other-related-works",
+      "entries": 9
+    },
+    {
+      "id": "image-quality-assessment",
+      "title": "Image Quality Assessment",
+      "level": 2,
+      "path": [
+        "Image Quality Assessment"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#image-quality-assessment",
+      "entries": 14
+    },
+    {
+      "id": "benchmark-datasets",
+      "title": "Benchmark Datasets",
+      "level": 2,
+      "path": [
+        "Benchmark Datasets"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#benchmark-datasets",
+      "entries": 0
+    },
+    {
+      "id": "recommended-datasets",
+      "title": "Recommended Datasets",
+      "level": 3,
+      "path": [
+        "Benchmark Datasets",
+        "Recommended Datasets"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#recommended-datasets",
+      "entries": 6
+    },
+    {
+      "id": "all-datasets",
+      "title": "All Datasets",
+      "level": 3,
+      "path": [
+        "Benchmark Datasets",
+        "All Datasets"
+      ],
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#all-datasets",
+      "entries": 28
+    }
+  ],
+  "entries": [
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2211.02831.pdf",
+      "category": "surveys",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://dl.acm.org/doi/full/10.1145/3485132",
+      "category": "surveys",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-ipr.2018.6545",
+      "category": "surveys",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320318300049",
+      "category": "surveys",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8722416",
+      "category": "surveys",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://d1wqtxts1xzle7.cloudfront.net/48096013/A_Comprehensive_Survey_to_Face_Hallucina20160816-23072-psaoh5-with-cover-page-v2.pdf?Expires=1667883349&Signature=CO8qTT-ea~qrcn7G6PXKe7lgy8ZephuTzx-9sZx5hJkkZOZipg8ufrsKifsOBKiYoHoNurU9fIcAcht3uTbvCa9N-YknSAcrbGl8sGeVTMFlp1gGRPW3nMiisHB-HT5us6bsrVyDIpCumf0hIOEX5DT5tN~uKmPTkcCpkcXqaI6EKZuR1bTMMgz8Ome6CVoE0C0oW8spIKa2T10kREyCwZi2PPFyi4A7v29h5cj8CNHH96NH2lOS-fJn4WzCKULDBFNXCPrDbuDzbWt3eDfknTASLyWls53BDFpC86KMwK2h2wZx91BtaOCYjCJulJCIIO1JakYCgVgwj9EbnxcPfQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA",
+      "category": "surveys",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-35136-5_11",
+      "category": "surveys",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_ECCV_2018/papers/Xiaoming_Li_Learning_Warped_Guidance_ECCV_2018_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_FSRNet_End-to-End_Learning_CVPR_2018_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/1904.04241.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2008.00418",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Enhanced_Blind_Face_Restoration_With_Multi-Exemplar_Images_and_Adaptive_Spatial_CVPR_2020_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2005.05005.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L80",
+      "line": 80,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Gu_Image_Processing_Using_Multi-Code_GAN_Prior_CVPR_2020_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.zora.uzh.ch/id/eprint/214478/1/ZORA214478.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Progressive_Semantic-Aware_Style_Transformation_for_Blind_Face_Restoration_CVPR_2021_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Towards_Real-World_Blind_Face_Restoration_With_Generative_Facial_Prior_CVPR_2021_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_GAN_Prior_Embedded_Network_for_Blind_Face_Restoration_in_the_CVPR_2021_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.13962.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Blind_Face_Restoration_via_Integrating_Face_Shape_and_Generative_Priors_CVPR_2022_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2201.06374.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.11253.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2203.08444.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2207.09790.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.03697.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2205.06803.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2210.08160.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2212.06512.pdf?trk=public_post_comment-text",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/abs/2303.06885",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023W/MULA/papers/Xie_TFRGAN_Leveraging_Text_Information_for_Blind_Face_Restoration_With_Extreme_CVPRW_2023_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10044117",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.frontiersin.org/articles/10.3389/frsip.2023.1106465/full",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Nair_AT-DDPM_Restoring_Faces_Degraded_by_Atmospheric_Turbulence_Using_Denoising_Diffusion_WACV_2023_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3581783.3611731",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2312.15736.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/WACV2024/papers/Suin_Diffuse_and_Restore_A_Region-Adaptive_Diffusion_Model_for_Identity-Preserving_Blind_WACV_2024_paper.pdf",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/27889/27803",
+      "category": "deep-blind-face-restoration",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewPDFInterstitial/9752/9824",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "http://home.ie.cuhk.edu.hk/~ccloy/files/eccv_2016_hallucination.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_20.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Cao_Attention-Aware_Face_Hallucination_CVPR_2017_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Yu_Hallucinating_Very_Low-Resolution_CVPR_2017_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Xu_Learning_to_Super-Resolve_ICCV_2017_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/11206",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Yu_Face_Super-resolution_Guided_ECCV_2018_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Bulat_Super-FAN_Integrated_Facial_CVPR_2018_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_ECCV_2018/papers/Adrian_Bulat_To_learn_image_ECCV_2018_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Dogan_Exemplar_Guided_Face_Image_Super-Resolution_Without_Facial_Landmarks_CVPRW_2019_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/1908.08239.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_WACV_2020/papers/Kalarot_Component_Attention_Guided_Face_Super-Resolution_Network_CAGFace_WACV_2020_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9229100",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231219310203",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Menon_PULSE_Self-Supervised_Photo_Upsampling_via_Latent_Space_Exploration_of_Generative_CVPR_2020_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9353687",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2010.11575.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9506610",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/He_GCFSR_A_Generative_and_Controllable_Face_Super_Resolution_Method_Without_CVPR_2022_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2110.05031.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10036448",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2211.13524.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Spatial-Frequency_Mutual_Learning_for_Face_Super-Resolution_CVPR_2023_paper.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10023973",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10145603",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10207832",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L136",
+      "line": 136,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031320323002030",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2205.03777.pdf",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.mdpi.com/2076-3417/13/14/8110",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10044127",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10044127",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608023000060",
+      "category": "deep-face-super-resolution",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/1711.09515.pdf",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L147",
+      "line": 147,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Deep_Semantic_Face_CVPR_2018_paper.pdf",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2001.06822.pdf",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/1907.13106.pdf",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2005.05005.pdf",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6818/6672",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3528223.3530131",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://openaccess.thecvf.com/content/WACV2022/papers/Jung_Deep_Feature_Prior_Guided_Face_Deblurring_WACV_2022_paper.pdf",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.13962.pdf",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.03697.pdf",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://www.wslai.net/publications/fusion_deblur/",
+      "category": "deep-face-deblurring",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2005.05005.pdf",
+      "category": "deep-face-denoising",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.13962.pdf",
+      "category": "deep-face-denoising",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.03697.pdf",
+      "category": "deep-face-denoising",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2005.05005.pdf",
+      "category": "deep-face-artifact-removal",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.03697.pdf",
+      "category": "deep-face-artifact-removal",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "paper",
+      "url": "https://arxiv.org/pdf/2206.13962.pdf",
+      "category": "deep-face-artifact-removal",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3474085.3475666",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9744329/",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8067496",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1077314217300930",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L179",
+      "line": 179,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lei_ABPN_Adaptive_Blend_Pyramid_Network_for_Real-Time_Local_Retouching_of_CVPR_2022_paper.pdf",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://openaccess.thecvf.com/content/WACV2021/papers/Shafaei_AutoRetouch_Automatic_Professional_Face_Retouching_WACV_2021_paper.pdf",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://arxiv.org/abs/2105.06528",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3343031.3351066",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Link",
+      "url": "https://www.ijcai.org/proceedings/2021/0187.pdf",
+      "category": "other-related-works",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/XPixelGroup/BasicSR/blob/master/basicsr/metrics/psnr_ssim.py",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L189",
+      "line": 189,
+      "properties": {
+        "Type": "Full-Reference"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/XPixelGroup/BasicSR/blob/master/basicsr/metrics/psnr_ssim.py",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L190",
+      "line": 190,
+      "properties": {
+        "Type": "Full-Reference"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/VainF/pytorch-msssim/blob/master/pytorch_msssim/ssim.py",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L191",
+      "line": 191,
+      "properties": {
+        "Type": "Full-Reference"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/richzhang/PerceptualSimilarity",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L192",
+      "line": 192,
+      "properties": {
+        "Type": "Full-Reference"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/utlive/niqe",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L193",
+      "line": 193,
+      "properties": {
+        "Type": "Non-Reference"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/bioinf-jku/TTUR",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L194",
+      "line": 194,
+      "properties": {
+        "Type": "Non-Reference"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/chaoma99/sr-metric",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L195",
+      "line": 195,
+      "properties": {
+        "Type": "Non-Reference"
+      }
+    },
+    {
+      "title": "Ref",
+      "url": "https://www.itu.int/rec/R-REC-BT.500/",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L196",
+      "line": 196,
+      "properties": {
+        "Type": "Subject-Metric"
+      }
+    },
+    {
+      "title": "Ref",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_Rethinking_Deep_Face_Restoration_CVPR_2022_paper.pdf",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L197",
+      "line": 197,
+      "properties": {
+        "Type": "Task Driven-Metric"
+      }
+    },
+    {
+      "title": "Ref",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_Rethinking_Deep_Face_Restoration_CVPR_2022_paper.pdf",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L198",
+      "line": 198,
+      "properties": {
+        "Type": "Task Driven-Metric"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/Lotayou/Face-Renovation",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L199",
+      "line": 199,
+      "properties": {
+        "Type": "Task Driven-Metric"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/TencentARC/GFPGAN",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L200",
+      "line": 200,
+      "properties": {
+        "Type": "Task Driven-Metric"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/bitzpy/Blind-Face-Restoration-Benchmark-Datasets-and-a-Baseline-Model",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L201",
+      "line": 201,
+      "properties": {
+        "Type": "Task Driven-Metric"
+      }
+    },
+    {
+      "title": "Code",
+      "url": "https://github.com/bitzpy/Blind-Face-Restoration-Benchmark-Datasets-and-a-Baseline-Model",
+      "category": "image-quality-assessment",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L202",
+      "line": 202,
+      "properties": {
+        "Type": "Task Driven-Metric"
+      }
+    },
+    {
+      "title": "EDFace-Celeb",
+      "url": "https://github.com/HDCVLab/EDFace-Celeb-1M",
+      "category": "recommended-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L209",
+      "line": 209,
+      "properties": {
+        "Type": "paired dataset"
+      }
+    },
+    {
+      "title": "PFHQ",
+      "url": "https://github.com/chenxx89/BFRffusion",
+      "category": "recommended-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L210",
+      "line": 210,
+      "properties": {
+        "Type": "paired dataset"
+      }
+    },
+    {
+      "title": "FFHQ",
+      "url": "https://github.com/NVlabs/ffhq-dataset",
+      "category": "recommended-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L211",
+      "line": 211,
+      "properties": {
+        "Type": "non-paired dataset"
+      }
+    },
+    {
+      "title": "CelebChild-Test",
+      "url": "https://xinntao.github.io/projects/gfpgan",
+      "category": "recommended-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L212",
+      "line": 212,
+      "properties": {
+        "Type": "non-paired real-world dataset"
+      }
+    },
+    {
+      "title": "WebPhoto-Test",
+      "url": "https://xinntao.github.io/projects/gfpgan",
+      "category": "recommended-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L213",
+      "line": 213,
+      "properties": {
+        "Type": "non-paired real-world dataset"
+      }
+    },
+    {
+      "title": "LFW-Test",
+      "url": "https://xinntao.github.io/projects/gfpgan",
+      "category": "recommended-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L214",
+      "line": 214,
+      "properties": {
+        "Type": "non-paired real-world dataset"
+      }
+    },
+    {
+      "title": "BioID",
+      "url": "https://www.bioid.com/facedb/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "LFW",
+      "url": "http://vis-www.cs.umass.edu/lfw/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "Pubfig",
+      "url": "https://www1.cs.columbia.edu/CAVE/databases/pubfig/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Multi-PIE",
+      "url": "https://www.cs.cmu.edu/afs/cs/project/PIE/MultiPie/Multi-Pie/Home.html",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "AFLW",
+      "url": "https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Helen",
+      "url": "http://www.ifp.illinois.edu/~vuongle2/helen",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "300W",
+      "url": "https://ibug.doc.ic.ac.uk/resources/300-W/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "CASIA-WebFace",
+      "url": "https://pan.baidu.com/share/init?surl=hQCOD4Kr66MOW0_PE8bL0w",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L226",
+      "line": 226,
+      "properties": {}
+    },
+    {
+      "title": "CelebA",
+      "url": "http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "IMDB-WIKI",
+      "url": "https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "LSUN",
+      "url": "https://www.yf.io/p/lsun",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "VGGFace",
+      "url": "https://www.robots.ox.ac.uk/~vgg/software/vgg_face/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "300W-LP",
+      "url": "http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "VoxCeleb1",
+      "url": "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "LS3D-W",
+      "url": "https://www.adrianbulat.com/face-alignment",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "LS3D-W balanced",
+      "url": "https://www.adrianbulat.com/face-alignment",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Menpo",
+      "url": "https://github.com/jiankangdeng/MenpoBenchmark",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "VGGFace2",
+      "url": "https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "VoxCeleb2",
+      "url": "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "FFHQ",
+      "url": "https://github.com/NVlabs/ffhq-dataset",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "CelebChild-Test",
+      "url": "https://xinntao.github.io/projects/gfpgan",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "WebPhoto-Test",
+      "url": "https://xinntao.github.io/projects/gfpgan",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "CelebA-Test",
+      "url": "https://xinntao.github.io/projects/gfpgan",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "LFW-Test",
+      "url": "https://xinntao.github.io/projects/gfpgan",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "VFHQ",
+      "url": "https://liangbinxie.github.io/projects/vfhq/",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "EDFace-Celeb",
+      "url": "https://github.com/HDCVLab/EDFace-Celeb-1M",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "EDFace-Celeb-1M (BFR128)",
+      "url": "https://github.com/bitzpy/Blind-Face-Restoration-Benchmark-Datasets-and-a-Baseline-Model",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "EDFace-Celeb-150K (BFR512)",
+      "url": "https://github.com/bitzpy/Blind-Face-Restoration-Benchmark-Datasets-and-a-Baseline-Model",
+      "category": "all-datasets",
+      "source_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/blob/6b070f3ae4ee301959403184523451e40a97e5a3/README.md#L246",
+      "line": 246,
+      "properties": {}
+    }
+  ],
+  "properties": [
+    "Type"
+  ],
+  "entry_count": 144,
+  "unique_links": 120,
+  "category_count": 10,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "TaoWangzj",
+      "url": "https://github.com/TaoWangzj",
+      "contributions": 36
+    },
+    {
+      "login": "HDCVLab",
+      "url": "https://github.com/HDCVLab",
+      "contributions": 2
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 40,
+    "has_more": false,
+    "path_commit_count": 40,
+    "public_contributors": 2,
+    "observed_at": "2026-09-03T17:51:21.029723+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by TaoWangzj/Awesome-Face-Restoration contributors.",
+  "license": null,
+  "license_url": "https://github.com/TaoWangzj/Awesome-Face-Restoration/tree/6b070f3ae4ee301959403184523451e40a97e5a3",
+  "digest": "a5b97c4d9cd63d6616b0c048ad6f10171d46cf5f71e6387779283fa5da5223ab"
+}

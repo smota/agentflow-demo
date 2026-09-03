@@ -1,0 +1,857 @@
+{
+  "format_version": 3,
+  "repository_id": "446508932",
+  "name": "ocaml-multicore/awesome-multicore-ocaml",
+  "revision": "6fb739ade38151cc55c9a138700c156c1ae959b9",
+  "readme_path": "README.md",
+  "readme_sha256": "f4ab18fb3a6d4ab70e07fdaae276880d77865d11923389d3c0835ee3b4e0d411",
+  "sections": [
+    {
+      "id": "awesome-multicore-ocaml",
+      "title": "Awesome Multicore OCaml",
+      "level": 1,
+      "path": [
+        "Awesome Multicore OCaml"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#awesome-multicore-ocaml",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 2,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "installation",
+      "title": "Installation",
+      "level": 2,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Installation"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#installation",
+      "entries": 0
+    },
+    {
+      "id": "libraries",
+      "title": "Libraries",
+      "level": 2,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#libraries",
+      "entries": 0
+    },
+    {
+      "id": "eio",
+      "title": "Eio",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Eio"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#eio",
+      "entries": 0
+    },
+    {
+      "id": "affect",
+      "title": "Affect",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Affect"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#affect",
+      "entries": 0
+    },
+    {
+      "id": "domainslib",
+      "title": "Domainslib",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Domainslib"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#domainslib",
+      "entries": 0
+    },
+    {
+      "id": "lockfree",
+      "title": "Lockfree",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Lockfree"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#lockfree",
+      "entries": 0
+    },
+    {
+      "id": "lwt-support",
+      "title": "Lwt Support",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Lwt Support"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#lwt-support",
+      "entries": 2
+    },
+    {
+      "id": "lwt_eio",
+      "title": "Lwt_eio",
+      "level": 4,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Lwt Support",
+        "Lwt_eio"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#lwt_eio",
+      "entries": 0
+    },
+    {
+      "id": "lwt_domain",
+      "title": "Lwt_domain",
+      "level": 4,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Lwt Support",
+        "Lwt_domain"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#lwt_domain",
+      "entries": 0
+    },
+    {
+      "id": "async-support",
+      "title": "Async Support",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Async Support"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#async-support",
+      "entries": 0
+    },
+    {
+      "id": "async_eio",
+      "title": "Async_eio",
+      "level": 4,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Async Support",
+        "Async_eio"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#async_eio",
+      "entries": 0
+    },
+    {
+      "id": "parany",
+      "title": "Parany",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Parany"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#parany",
+      "entries": 0
+    },
+    {
+      "id": "ocaml-processor",
+      "title": "OCaml Processor",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "OCaml Processor"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#ocaml-processor",
+      "entries": 0
+    },
+    {
+      "id": "cohttp-eio",
+      "title": "cohttp-eio",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "cohttp-eio"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#cohttp-eio",
+      "entries": 0
+    },
+    {
+      "id": "mirage-crypto-rng-eio",
+      "title": "mirage-crypto-rng-eio",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "mirage-crypto-rng-eio"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#mirage-crypto-rng-eio",
+      "entries": 0
+    },
+    {
+      "id": "js_of_ocaml",
+      "title": "Js_of_ocaml",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "Js_of_ocaml"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#js_of_ocaml",
+      "entries": 0
+    },
+    {
+      "id": "ocaml-tls",
+      "title": "ocaml-tls",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "ocaml-tls"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#ocaml-tls",
+      "entries": 0
+    },
+    {
+      "id": "algaeff",
+      "title": "algaeff",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Libraries",
+        "algaeff"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#algaeff",
+      "entries": 0
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "level": 2,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Testing"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#testing",
+      "entries": 0
+    },
+    {
+      "id": "multicoretests",
+      "title": "Multicoretests",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Testing",
+        "Multicoretests"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#multicoretests",
+      "entries": 0
+    },
+    {
+      "id": "tooling",
+      "title": "Tooling",
+      "level": 2,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Tooling"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#tooling",
+      "entries": 0
+    },
+    {
+      "id": "olly",
+      "title": "Olly",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Tooling",
+        "Olly"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#olly",
+      "entries": 0
+    },
+    {
+      "id": "eio-console",
+      "title": "Eio-console",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Tooling",
+        "Eio-console"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#eio-console",
+      "entries": 0
+    },
+    {
+      "id": "tsan",
+      "title": "TSan",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Tooling",
+        "TSan"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#tsan",
+      "entries": 0
+    },
+    {
+      "id": "experiments",
+      "title": "Experiments",
+      "level": 2,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Experiments"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#experiments",
+      "entries": 0
+    },
+    {
+      "id": "dream",
+      "title": "Dream",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Experiments",
+        "Dream"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#dream",
+      "entries": 0
+    },
+    {
+      "id": "ppx_effects",
+      "title": "Ppx_effects",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Experiments",
+        "Ppx_effects"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#ppx_effects",
+      "entries": 0
+    },
+    {
+      "id": "gemini-protocol",
+      "title": "Gemini Protocol",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Experiments",
+        "Gemini Protocol"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#gemini-protocol",
+      "entries": 0
+    },
+    {
+      "id": "multi-shot-continuations",
+      "title": "Multi-shot Continuations",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Experiments",
+        "Multi-shot Continuations"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#multi-shot-continuations",
+      "entries": 0
+    },
+    {
+      "id": "mirage-networking-experiments",
+      "title": "Mirage networking experiments",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Experiments",
+        "Mirage networking experiments"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#mirage-networking-experiments",
+      "entries": 0
+    },
+    {
+      "id": "capnp-rpc",
+      "title": "capnp-rpc",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Experiments",
+        "capnp-rpc"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#capnp-rpc",
+      "entries": 0
+    },
+    {
+      "id": "grpc",
+      "title": "gRPC",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Experiments",
+        "gRPC"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#grpc",
+      "entries": 0
+    },
+    {
+      "id": "ideas",
+      "title": "Ideas",
+      "level": 2,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Ideas"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#ideas",
+      "entries": 0
+    },
+    {
+      "id": "non-blocking-codec",
+      "title": "Non-blocking Codec",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Ideas",
+        "Non-blocking Codec"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#non-blocking-codec",
+      "entries": 0
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "level": 2,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#resources",
+      "entries": 0
+    },
+    {
+      "id": "wiki",
+      "title": "Wiki",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources",
+        "Wiki"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#wiki",
+      "entries": 2
+    },
+    {
+      "id": "papers",
+      "title": "Papers",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources",
+        "Papers"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#papers",
+      "entries": 6
+    },
+    {
+      "id": "talks",
+      "title": "Talks",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources",
+        "Talks"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#talks",
+      "entries": 16
+    },
+    {
+      "id": "discuss-threads",
+      "title": "Discuss Threads",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources",
+        "Discuss Threads"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#discuss-threads",
+      "entries": 6
+    },
+    {
+      "id": "monthlies",
+      "title": "Monthlies",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources",
+        "Monthlies"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#monthlies",
+      "entries": 0
+    },
+    {
+      "id": "benchmarks",
+      "title": "Benchmarks",
+      "level": 3,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources",
+        "Benchmarks"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#benchmarks",
+      "entries": 0
+    },
+    {
+      "id": "sandmark",
+      "title": "Sandmark",
+      "level": 4,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources",
+        "Benchmarks",
+        "Sandmark"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#sandmark",
+      "entries": 0
+    },
+    {
+      "id": "http-benchmarks",
+      "title": "Http Benchmarks",
+      "level": 4,
+      "path": [
+        "Awesome Multicore OCaml",
+        "Resources",
+        "Benchmarks",
+        "Http Benchmarks"
+      ],
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#http-benchmarks",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Is mixing lwt and multicore safe?",
+      "url": "https://discuss.ocaml.org/t/is-mixing-lwt-and-multicore-safe/8714",
+      "category": "lwt-support",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Multicore, Async and Lwt",
+      "url": "https://discuss.ocaml.org/t/multicore-async-and-lwt/2687",
+      "category": "lwt-support",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Effects examples",
+      "url": "https://github.com/ocaml-multicore/effects-examples",
+      "category": "wiki",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Parallel Programming in Multicore OCaml",
+      "url": "https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml",
+      "category": "wiki",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Retrofitting Effect Handlers onto OCaml",
+      "url": "https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf",
+      "category": "papers",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L251",
+      "line": 251,
+      "properties": {}
+    },
+    {
+      "title": "Parallelising your OCaml code with Multicore OCaml",
+      "url": "https://github.com/ocaml-multicore/multicore-talks/blob/master/ocaml2020-workshop-parallel/multicore-ocaml20.pdf",
+      "category": "papers",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L252",
+      "line": 252,
+      "properties": {}
+    },
+    {
+      "title": "Retrofitting Parallelism onto OCaml",
+      "url": "https://kcsrk.info/papers/retro-parallel_icfp_20.pdf",
+      "category": "papers",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Multicore OCaml memory model",
+      "url": "http://kcsrk.info/papers/pldi18-memory.pdf",
+      "category": "papers",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Concurrent System Programming with Effect Handlers",
+      "url": "http://kcsrk.info/papers/system_effects_feb_18.pdf",
+      "category": "papers",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "Multicore OCaml",
+      "url": "https://ocaml.org/meetings/ocaml/2014/ocaml2014_1.pdf",
+      "category": "papers",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "video",
+      "url": "https://watch.ocaml.org/w/1k1T919WGXoT4tjnRZEmMd",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "k-CAS for sweat-free concurrent programming",
+      "url": "https://gist.github.com/polytypic/3214389ad69b16d28b957ced86e1b1a4#k-cas-for-sweat-free-concurrent-programming",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "video",
+      "url": "https://www.youtube.com/watch?v=zJ4G0TKwzVc&t",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Experiences with Effects in OCaml",
+      "url": "https://icfp21.sigplan.org/details/ocaml-2021-papers/16/Experiences-with-Effects",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "Parafuzz: Coverage-guided Property Fuzzing for Multicore OCaml programs",
+      "url": "https://icfp21.sigplan.org/details/ocaml-2021-papers/9/Parafuzz-Coverage-guided-Property-Fuzzing-for-Multicore-OCaml-programs",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "Adapting the OCaml Ecosystem for Multicore OCaml",
+      "url": "https://icfp21.sigplan.org/details/ocaml-2021-papers/7/Adapting-the-OCaml-ecosystem-for-Multicore-OCaml",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Effective Programming in OCaml",
+      "url": "https://kcsrk.info/slides/jet_brains_21.pdf",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Multicore OCaml -- what's coming in 2021",
+      "url": "https://speakerdeck.com/kayceesrk/multicore-ocaml-whats-coming-in-2021",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "Parallelising your OCaml code with Multicore OCaml",
+      "url": "https://github.com/ocaml-multicore/multicore-talks/blob/master/ocaml2020-workshop-parallel/slides-with-speaker-notes.pdf",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "Retrofitting parallelism onto OCaml",
+      "url": "https://speakerdeck.com/kayceesrk/retrofitting-parallelism-onto-ocaml",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L269",
+      "line": 269,
+      "properties": {}
+    },
+    {
+      "title": "A deep dive into Multicore OCaml GC",
+      "url": "https://speakerdeck.com/kayceesrk/multicore-ocaml-gc",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Reagents: Lock-free programming for the masses",
+      "url": "https://speakerdeck.com/kayceesrk/reagents-lock-free-programming-for-the-masses",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Arrows and Reagents",
+      "url": "https://speakerdeck.com/kayceesrk/arrows-and-reagents",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Concurrent & Multicore OCaml: A deep dive",
+      "url": "https://speakerdeck.com/kayceesrk/concurrent-and-multicore-ocaml-a-deep-dive",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "Effective Concurrency with Algebraic Effects",
+      "url": "http://kcsrk.info/slides/OCaml15.pdf",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Multicore OCaml",
+      "url": "https://www.cl.cam.ac.uk/~sd601/papers/multicore_slides.pdf",
+      "category": "talks",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "initial release",
+      "url": "https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/9298",
+      "category": "discuss-threads",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "scopes and effect handlers",
+      "url": "https://hackmd.io/@yF_ntUhmRvKUt15g7m1uGw/Bk-5NXh15",
+      "category": "discuss-threads",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L283",
+      "line": 283,
+      "properties": {}
+    },
+    {
+      "title": "\"How to block in an agnostic way\"",
+      "url": "https://discuss.ocaml.org/t/how-to-block-in-an-agnostic-way/9368",
+      "category": "discuss-threads",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "cancellation in the presence of concurrency from effects",
+      "url": "https://discuss.ocaml.org/t/understanding-cancellation-in-eio/9369",
+      "category": "discuss-threads",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L285",
+      "line": 285,
+      "properties": {}
+    },
+    {
+      "title": "How do spawn and join interact with try_with",
+      "url": "https://discuss.ocaml.org/t/multicore-how-do-spawn-and-join-interact-with-try-with/9362",
+      "category": "discuss-threads",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "roguelike",
+      "url": "https://en.wikipedia.org/wiki/Roguelike",
+      "category": "discuss-threads",
+      "source_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/README.md#L287",
+      "line": 287,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 32,
+  "unique_links": 32,
+  "category_count": 5,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "patricoferris",
+      "url": "https://github.com/patricoferris",
+      "contributions": 15
+    },
+    {
+      "login": "Sudha247",
+      "url": "https://github.com/Sudha247",
+      "contributions": 7
+    },
+    {
+      "login": "bikallem",
+      "url": "https://github.com/bikallem",
+      "contributions": 2
+    },
+    {
+      "login": "tmcgilchrist",
+      "url": "https://github.com/tmcgilchrist",
+      "contributions": 2
+    },
+    {
+      "login": "favonia",
+      "url": "https://github.com/favonia",
+      "contributions": 1
+    },
+    {
+      "login": "UnixJunkie",
+      "url": "https://github.com/UnixJunkie",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 28,
+    "has_more": false,
+    "path_commit_count": 28,
+    "public_contributors": 6,
+    "observed_at": "2026-09-03T17:57:31.550378+00:00"
+  },
+  "contributing_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/blob/6fb739ade38151cc55c9a138700c156c1ae959b9/CONTRIBUTING.md",
+  "source_data_links": [],
+  "attribution": "Content curated by ocaml-multicore/awesome-multicore-ocaml contributors.",
+  "license": null,
+  "license_url": "https://github.com/ocaml-multicore/awesome-multicore-ocaml/tree/6fb739ade38151cc55c9a138700c156c1ae959b9",
+  "digest": "d3dbb8827d363d33c64a74331e9b1c960abb4726fb3857b676431cbd272179a9"
+}

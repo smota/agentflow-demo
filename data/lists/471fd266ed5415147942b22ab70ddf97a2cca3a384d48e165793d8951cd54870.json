@@ -1,0 +1,591 @@
+{
+  "format_version": 3,
+  "repository_id": "432806189",
+  "name": "mikeroyal/Windows-Terminal-Guide",
+  "revision": "06d71b450701d2f20744a8091080374dee242588",
+  "readme_path": "README.md",
+  "readme_sha256": "def885c4f58c5d5da5086993d700536a13d98a0b162f1988e0ce3e3153032063",
+  "sections": [
+    {
+      "id": "a-guide-covering-windows-terminal-including-the-applications-libraries-and-tools-that-will-make-you-a-better-and-more-efficient-with-windows-terminal-development",
+      "title": "A guide covering Windows Terminal including the applications, libraries and tools that will make you a better and more efficient with Windows Terminal development.",
+      "level": 4,
+      "path": [
+        "A guide covering Windows Terminal including the applications, libraries and tools that will make you a better and more efficient with Windows Terminal development."
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#a-guide-covering-windows-terminal-including-the-applications-libraries-and-tools-that-will-make-you-a-better-and-more-efficient-with-windows-terminal-development",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 1,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "getting-started-with-windows-terminal",
+      "title": "Getting Started with Windows Terminal",
+      "level": 1,
+      "path": [
+        "Getting Started with Windows Terminal"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#getting-started-with-windows-terminal",
+      "entries": 0
+    },
+    {
+      "id": "vscode-development",
+      "title": "VSCode Development",
+      "level": 1,
+      "path": [
+        "VSCode Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#vscode-development",
+      "entries": 0
+    },
+    {
+      "id": "vs-code-extensions-for-developer-productivity",
+      "title": "VS Code Extensions for Developer Productivity",
+      "level": 3,
+      "path": [
+        "VSCode Development",
+        "VS Code Extensions for Developer Productivity"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#vs-code-extensions-for-developer-productivity",
+      "entries": 0
+    },
+    {
+      "id": "windows-subsystem-for-linux-wsl",
+      "title": "Windows Subsystem for Linux (WSL)",
+      "level": 1,
+      "path": [
+        "Windows Subsystem for Linux (WSL)"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#windows-subsystem-for-linux-wsl",
+      "entries": 0
+    },
+    {
+      "id": "wsl-learning-resources",
+      "title": "WSL Learning Resources",
+      "level": 2,
+      "path": [
+        "Windows Subsystem for Linux (WSL)",
+        "WSL Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#wsl-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "wsl-tools--projects",
+      "title": "WSL Tools & Projects",
+      "level": 2,
+      "path": [
+        "Windows Subsystem for Linux (WSL)",
+        "WSL Tools & Projects"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#wsl-tools--projects",
+      "entries": 0
+    },
+    {
+      "id": "setting-up-wsl-linux-distributions",
+      "title": "Setting up WSL Linux Distributions",
+      "level": 2,
+      "path": [
+        "Windows Subsystem for Linux (WSL)",
+        "Setting up WSL Linux Distributions"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#setting-up-wsl-linux-distributions",
+      "entries": 0
+    },
+    {
+      "id": "azure-development",
+      "title": "Azure Development",
+      "level": 1,
+      "path": [
+        "Azure Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#azure-development",
+      "entries": 0
+    },
+    {
+      "id": "azure-learning-resources",
+      "title": "Azure Learning Resources",
+      "level": 2,
+      "path": [
+        "Azure Development",
+        "Azure Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#azure-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "azure-tools",
+      "title": "Azure Tools",
+      "level": 2,
+      "path": [
+        "Azure Development",
+        "Azure Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#azure-tools",
+      "entries": 0
+    },
+    {
+      "id": "aws-development",
+      "title": "AWS Development",
+      "level": 1,
+      "path": [
+        "AWS Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#aws-development",
+      "entries": 0
+    },
+    {
+      "id": "aws-learning-resources",
+      "title": "AWS Learning Resources",
+      "level": 2,
+      "path": [
+        "AWS Development",
+        "AWS Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#aws-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "aws-tools",
+      "title": "AWS Tools",
+      "level": 2,
+      "path": [
+        "AWS Development",
+        "AWS Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#aws-tools",
+      "entries": 0
+    },
+    {
+      "id": "google-cloud-development",
+      "title": "Google Cloud Development",
+      "level": 1,
+      "path": [
+        "Google Cloud Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#google-cloud-development",
+      "entries": 0
+    },
+    {
+      "id": "google-cloud-learning-resources",
+      "title": "Google Cloud Learning Resources",
+      "level": 2,
+      "path": [
+        "Google Cloud Development",
+        "Google Cloud Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#google-cloud-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "google-cloud-tools",
+      "title": "Google Cloud Tools",
+      "level": 2,
+      "path": [
+        "Google Cloud Development",
+        "Google Cloud Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#google-cloud-tools",
+      "entries": 0
+    },
+    {
+      "id": "kubernetes",
+      "title": "Kubernetes",
+      "level": 1,
+      "path": [
+        "Kubernetes"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#kubernetes",
+      "entries": 0
+    },
+    {
+      "id": "kubernetes-learning-resources",
+      "title": "Kubernetes Learning Resources",
+      "level": 2,
+      "path": [
+        "Kubernetes",
+        "Kubernetes Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#kubernetes-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "kubernetes-tools-frameworks-and-projects",
+      "title": "Kubernetes Tools, Frameworks, and Projects",
+      "level": 2,
+      "path": [
+        "Kubernetes",
+        "Kubernetes Tools, Frameworks, and Projects"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#kubernetes-tools-frameworks-and-projects",
+      "entries": 0
+    },
+    {
+      "id": "docker",
+      "title": "Docker",
+      "level": 1,
+      "path": [
+        "Docker"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#docker",
+      "entries": 0
+    },
+    {
+      "id": "docker-learning-resources",
+      "title": "Docker Learning Resources",
+      "level": 2,
+      "path": [
+        "Docker",
+        "Docker Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#docker-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "docker-tools",
+      "title": "Docker Tools",
+      "level": 2,
+      "path": [
+        "Docker",
+        "Docker Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#docker-tools",
+      "entries": 0
+    },
+    {
+      "id": "powershell-development",
+      "title": "PowerShell Development",
+      "level": 1,
+      "path": [
+        "PowerShell Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#powershell-development",
+      "entries": 0
+    },
+    {
+      "id": "powershell-learning-resources",
+      "title": "PowerShell Learning Resources",
+      "level": 2,
+      "path": [
+        "PowerShell Development",
+        "PowerShell Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#powershell-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "powershell-tools",
+      "title": "PowerShell Tools",
+      "level": 2,
+      "path": [
+        "PowerShell Development",
+        "PowerShell Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#powershell-tools",
+      "entries": 0
+    },
+    {
+      "id": "net-development",
+      "title": ".NET Development",
+      "level": 1,
+      "path": [
+        ".NET Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#net-development",
+      "entries": 0
+    },
+    {
+      "id": "net-learning-resources",
+      "title": ".NET Learning Resources",
+      "level": 2,
+      "path": [
+        ".NET Development",
+        ".NET Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#net-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "net-tools-and-frameworks",
+      "title": ".NET Tools and Frameworks",
+      "level": 2,
+      "path": [
+        ".NET Development",
+        ".NET Tools and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#net-tools-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "c-development",
+      "title": "C# Development",
+      "level": 1,
+      "path": [
+        "C# Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#c-development",
+      "entries": 0
+    },
+    {
+      "id": "c-learning-resources",
+      "title": "C# Learning Resources",
+      "level": 2,
+      "path": [
+        "C# Development",
+        "C# Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#c-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "c-tools",
+      "title": "C# Tools",
+      "level": 2,
+      "path": [
+        "C# Development",
+        "C# Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#c-tools",
+      "entries": 0
+    },
+    {
+      "id": "f-development",
+      "title": "F# Development",
+      "level": 1,
+      "path": [
+        "F# Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#f-development",
+      "entries": 0
+    },
+    {
+      "id": "f-learning-resources",
+      "title": "F# Learning Resources",
+      "level": 2,
+      "path": [
+        "F# Development",
+        "F# Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#f-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "f-tools",
+      "title": "F# Tools",
+      "level": 2,
+      "path": [
+        "F# Development",
+        "F# Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#f-tools",
+      "entries": 0
+    },
+    {
+      "id": "xaramin-development",
+      "title": "Xaramin Development",
+      "level": 1,
+      "path": [
+        "Xaramin Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#xaramin-development",
+      "entries": 0
+    },
+    {
+      "id": "xaramin-learning-resources",
+      "title": "Xaramin Learning Resources",
+      "level": 2,
+      "path": [
+        "Xaramin Development",
+        "Xaramin Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#xaramin-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "xaramin-tools-libraries-and-frameworks",
+      "title": "Xaramin Tools, Libraries, and Frameworks",
+      "level": 2,
+      "path": [
+        "Xaramin Development",
+        "Xaramin Tools, Libraries, and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#xaramin-tools-libraries-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "typescript-development",
+      "title": "TypeScript Development",
+      "level": 1,
+      "path": [
+        "TypeScript Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#typescript-development",
+      "entries": 0
+    },
+    {
+      "id": "typescript-learning-resources",
+      "title": "TypeScript Learning Resources",
+      "level": 2,
+      "path": [
+        "TypeScript Development",
+        "TypeScript Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#typescript-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "typescript-tools-libraries-and-frameworks",
+      "title": "TypeScript Tools, Libraries, and Frameworks",
+      "level": 2,
+      "path": [
+        "TypeScript Development",
+        "TypeScript Tools, Libraries, and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#typescript-tools-libraries-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "level": 1,
+      "path": [
+        "Networking"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#networking",
+      "entries": 0
+    },
+    {
+      "id": "network-learning-resources",
+      "title": "Network Learning Resources",
+      "level": 2,
+      "path": [
+        "Networking",
+        "Network Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#network-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "networking-tools--concepts",
+      "title": "Networking Tools & Concepts",
+      "level": 2,
+      "path": [
+        "Networking",
+        "Networking Tools & Concepts"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#networking-tools--concepts",
+      "entries": 0
+    },
+    {
+      "id": "network-layers",
+      "title": "Network Layers",
+      "level": 2,
+      "path": [
+        "Networking",
+        "Network Layers"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#network-layers",
+      "entries": 0
+    },
+    {
+      "id": "interfaces",
+      "title": "Interfaces",
+      "level": 3,
+      "path": [
+        "Networking",
+        "Network Layers",
+        "Interfaces"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#interfaces",
+      "entries": 0
+    },
+    {
+      "id": "network-protocols",
+      "title": "Network Protocols",
+      "level": 2,
+      "path": [
+        "Networking",
+        "Network Protocols"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#network-protocols",
+      "entries": 0
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "level": 1,
+      "path": [
+        "Databases"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#databases",
+      "entries": 0
+    },
+    {
+      "id": "sqlnosql-learning-resources",
+      "title": "SQL/NoSQL Learning Resources",
+      "level": 2,
+      "path": [
+        "Databases",
+        "SQL/NoSQL Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#sqlnosql-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "sqlnosql-tools-and-databases",
+      "title": "SQL/NoSQL Tools and Databases",
+      "level": 2,
+      "path": [
+        "Databases",
+        "SQL/NoSQL Tools and Databases"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#sqlnosql-tools-and-databases",
+      "entries": 0
+    },
+    {
+      "id": "contribute",
+      "title": "Contribute",
+      "level": 2,
+      "path": [
+        "Databases",
+        "Contribute"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#contribute",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "Databases",
+        "License"
+      ],
+      "source_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/blob/06d71b450701d2f20744a8091080374dee242588/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [],
+  "properties": [],
+  "entry_count": 0,
+  "unique_links": 0,
+  "category_count": 0,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "contributor_observation": null,
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by mikeroyal/Windows-Terminal-Guide contributors.",
+  "license": null,
+  "license_url": "https://github.com/mikeroyal/Windows-Terminal-Guide/tree/06d71b450701d2f20744a8091080374dee242588",
+  "digest": "471fd266ed5415147942b22ab70ddf97a2cca3a384d48e165793d8951cd54870"
+}

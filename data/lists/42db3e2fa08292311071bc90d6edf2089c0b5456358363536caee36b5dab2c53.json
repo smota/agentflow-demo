@@ -1,0 +1,1730 @@
+{
+  "format_version": 3,
+  "repository_id": "672673877",
+  "name": "PeterGriffinJin/Awesome-Language-Model-on-Graphs",
+  "revision": "ded2416718b351ed649d9415fa5f2e5a92c2203b",
+  "readme_path": "README.md",
+  "readme_sha256": "a86b9e54c06eca3d32318b89561afc4a30ebd514fe801cf5b1fa811523a91ac0",
+  "sections": [
+    {
+      "id": "awesome-language-model-on-graphs",
+      "title": "Awesome-Language-Model-on-Graphs",
+      "level": 1,
+      "path": [
+        "Awesome-Language-Model-on-Graphs"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#awesome-language-model-on-graphs",
+      "entries": 0
+    },
+    {
+      "id": "why-llms-on-graphs",
+      "title": "Why LLMs on graphs?",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Why LLMs on graphs?"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#why-llms-on-graphs",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Contents"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "keywords-convention",
+      "title": "Keywords Convention",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Contents",
+        "Keywords Convention"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#keywords-convention",
+      "entries": 0
+    },
+    {
+      "id": "perspectives",
+      "title": "Perspectives",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Perspectives"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#perspectives",
+      "entries": 4
+    },
+    {
+      "id": "pure-graphs",
+      "title": "Pure Graphs",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Pure Graphs"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#pure-graphs",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--datasets",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Datasets",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Pure Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Datasets"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--datasets",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Direct Answering",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Pure Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Direct Answering"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--direct-answering",
+      "entries": 9
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Heuristic Reasoning",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Pure Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Heuristic Reasoning"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "entries": 21
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--algorithmic-reasoning",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Algorithmic Reasoning",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Pure Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Algorithmic Reasoning"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--algorithmic-reasoning",
+      "entries": 4
+    },
+    {
+      "id": "text-attributed-graphs",
+      "title": "Text-Attributed Graphs",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#text-attributed-graphs",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--datasets-1",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Datasets",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Datasets"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--datasets-1",
+      "entries": 1
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--llm-as-predictor-node",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Node)",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Node)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--llm-as-predictor-node",
+      "entries": 0
+    },
+    {
+      "id": "graph-as-sequence-node",
+      "title": "Graph As Sequence (Node)",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Node)",
+        "Graph As Sequence (Node)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#graph-as-sequence-node",
+      "entries": 18
+    },
+    {
+      "id": "graph-empowered-llm-node",
+      "title": "Graph-Empowered LLM (Node)",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Node)",
+        "Graph-Empowered LLM (Node)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#graph-empowered-llm-node",
+      "entries": 12
+    },
+    {
+      "id": "graph-aware-llm-finetuning",
+      "title": "Graph-Aware LLM Finetuning",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Node)",
+        "Graph-Aware LLM Finetuning"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#graph-aware-llm-finetuning",
+      "entries": 13
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--llm-as-encoder",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Encoder",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Encoder"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--llm-as-encoder",
+      "entries": 0
+    },
+    {
+      "id": "optimization",
+      "title": "Optimization",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Encoder",
+        "Optimization"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#optimization",
+      "entries": 8
+    },
+    {
+      "id": "data-augmentation",
+      "title": "Data Augmentation",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Encoder",
+        "Data Augmentation"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#data-augmentation",
+      "entries": 8
+    },
+    {
+      "id": "efficiency",
+      "title": "Efficiency",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Encoder",
+        "Efficiency"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#efficiency",
+      "entries": 7
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--llm-as-aligner-node",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Aligner (Node)",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Aligner (Node)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--llm-as-aligner-node",
+      "entries": 0
+    },
+    {
+      "id": "prediction-alignment",
+      "title": "Prediction Alignment",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Aligner (Node)",
+        "Prediction Alignment"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#prediction-alignment",
+      "entries": 2
+    },
+    {
+      "id": "latent-space-alignment-node",
+      "title": "Latent Space Alignment (Node)",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Attributed Graphs",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Aligner (Node)",
+        "Latent Space Alignment (Node)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#latent-space-alignment-node",
+      "entries": 4
+    },
+    {
+      "id": "text-paired-graphs-molecules",
+      "title": "Text-Paired Graphs (Molecules)",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Paired Graphs (Molecules)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#text-paired-graphs-molecules",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--datasets-2",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Datasets",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Paired Graphs (Molecules)",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> Datasets"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--datasets-2",
+      "entries": 0
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--llm-as-predictor-graph",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Graph)",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Paired Graphs (Molecules)",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Graph)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--llm-as-predictor-graph",
+      "entries": 0
+    },
+    {
+      "id": "graph-as-sequence",
+      "title": "Graph As Sequence",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Paired Graphs (Molecules)",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Graph)",
+        "Graph As Sequence"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#graph-as-sequence",
+      "entries": 22
+    },
+    {
+      "id": "graph-empowered-llm-graph",
+      "title": "Graph-Empowered LLM (Graph)",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Paired Graphs (Molecules)",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Predictor (Graph)",
+        "Graph-Empowered LLM (Graph)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#graph-empowered-llm-graph",
+      "entries": 6
+    },
+    {
+      "id": "img-srcfigstarsvg-width15-height15--llm-as-aligner-graph",
+      "title": "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Aligner (Graph)",
+      "level": 3,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Paired Graphs (Molecules)",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Aligner (Graph)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#img-srcfigstarsvg-width15-height15--llm-as-aligner-graph",
+      "entries": 0
+    },
+    {
+      "id": "latent-space-alignment-graph",
+      "title": "Latent Space Alignment (Graph)",
+      "level": 4,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Text-Paired Graphs (Molecules)",
+        "<img src=\"./fig/star.svg\" width=\"15\" height=\"15\" /> LLM as Aligner (Graph)",
+        "Latent Space Alignment (Graph)"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#latent-space-alignment-graph",
+      "entries": 10
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Others"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#others",
+      "entries": 7
+    },
+    {
+      "id": "contribution",
+      "title": "Contribution",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Contribution"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#contribution",
+      "entries": 0
+    },
+    {
+      "id": "citations",
+      "title": "Citations",
+      "level": 2,
+      "path": [
+        "Awesome-Language-Model-on-Graphs",
+        "Citations"
+      ],
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#citations",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2306.08302.pdf",
+      "category": "perspectives",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.05499.pdf",
+      "category": "perspectives",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.11829.pdf",
+      "category": "perspectives",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2311.12399.pdf",
+      "category": "perspectives",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://browse.arxiv.org/pdf/2305.10037.pdf",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2305.15066",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2308.11224",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.04560.pdf",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.05845.pdf",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.17110.pdf",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2311.09862.pdf",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2407.00379",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2409.00159",
+      "category": "img-srcfigstarsvg-width15-height15--direct-answering",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2305.09645",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2307.07697",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2307.05722",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2308.11730",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2309.01538v3",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.01061",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.03965",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.06853",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.01805",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.02130",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.02805",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.11821",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L178",
+      "line": 178,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.13415",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.04483",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.08593",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.14358",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2409.03258",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2409.19667",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.19494",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2411.00369",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2025.coling-main.531/",
+      "category": "img-srcfigstarsvg-width15-height15--heuristic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2304.11116",
+      "category": "img-srcfigstarsvg-width15-height15--algorithmic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L220",
+      "line": 220,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.07103",
+      "category": "img-srcfigstarsvg-width15-height15--algorithmic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.16130",
+      "category": "img-srcfigstarsvg-width15-height15--algorithmic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.22597",
+      "category": "img-srcfigstarsvg-width15-height15--algorithmic-reasoning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.10310",
+      "category": "img-srcfigstarsvg-width15-height15--datasets-1",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2102.07349",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2104.06378",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2308.07134",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2309.16595",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2309.15427",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2309.02848.pdf",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.01089",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.13023.pdf",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.06684",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.18152.pdf",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L286",
+      "line": 286,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.00158",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2401.06072",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L294",
+      "line": 294,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.13227",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.03720",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L302",
+      "line": 302,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.05862",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.08785",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L310",
+      "line": 310,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.06572",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2408.14512",
+      "category": "graph-as-sequence-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L318",
+      "line": 318,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/1904.02342",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2105.02605",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://cs.stanford.edu/~myasu/papers/greaselm_iclr22.pdf",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2205.10282",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2207.03777",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L340",
+      "line": 340,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://cs.stanford.edu/~myasu/papers/dragon_neurips22.pdf",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L344",
+      "line": 344,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/pdf?id=2YQrqe4RNv",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L348",
+      "line": 348,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2305.12268",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.07105",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.15569",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.07309",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.11235",
+      "category": "graph-empowered-llm-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L368",
+      "line": 368,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2002.00317",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2004.07180",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2108.09346",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2202.06671.pdf",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://yuzhimanhua.github.io/papers/www22zhang.pdf",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2203.15827.pdf",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2208.04609.pdf",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L400",
+      "line": 400,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2209.07562",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L404",
+      "line": 404,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2309.13885",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L408",
+      "line": 408,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.10661",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/pdf?id=ZrG8kTbt70",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.06764",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.12052",
+      "category": "graph-aware-llm-finetuning",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L424",
+      "line": 424,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2110.08743",
+      "category": "optimization",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2111.00064.pdf",
+      "category": "optimization",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L435",
+      "line": 435,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2101.06323.pdf",
+      "category": "optimization",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L439",
+      "line": 439,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2104.12080.pdf",
+      "category": "optimization",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2206.10781",
+      "category": "optimization",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L447",
+      "line": 447,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2306.02592.pdf",
+      "category": "optimization",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2307.03393",
+      "category": "optimization",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2308.02565.pdf",
+      "category": "optimization",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L459",
+      "line": 459,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2305.19523.pdf",
+      "category": "data-augmentation",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.04668.pdf",
+      "category": "data-augmentation",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L469",
+      "line": 469,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.09872.pdf",
+      "category": "data-augmentation",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L473",
+      "line": 473,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2311.14324.pdf",
+      "category": "data-augmentation",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L477",
+      "line": 477,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/pdf?id=m2mbfoSuJ1",
+      "category": "data-augmentation",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L481",
+      "line": 481,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.07237",
+      "category": "data-augmentation",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L485",
+      "line": 485,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2405.18414",
+      "category": "data-augmentation",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L489",
+      "line": 489,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.11945",
+      "category": "data-augmentation",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L493",
+      "line": 493,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2304.10668",
+      "category": "efficiency",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L498",
+      "line": 498,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2312.04737",
+      "category": "efficiency",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L502",
+      "line": 502,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.12022",
+      "category": "efficiency",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L506",
+      "line": 506,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2404.18271",
+      "category": "efficiency",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L510",
+      "line": 510,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.12608",
+      "category": "efficiency",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L514",
+      "line": 514,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2024.acl-long.245/",
+      "category": "efficiency",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L518",
+      "line": 518,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2412.08174",
+      "category": "efficiency",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L522",
+      "line": 522,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2102.11479",
+      "category": "prediction-alignment",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L529",
+      "line": 529,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://openreview.net/pdf?id=q0nmYciuuZN",
+      "category": "prediction-alignment",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L533",
+      "line": 533,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2305.14321",
+      "category": "latent-space-alignment-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L540",
+      "line": 540,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2305.03324",
+      "category": "latent-space-alignment-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L544",
+      "line": 544,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2310.15109",
+      "category": "latent-space-alignment-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L548",
+      "line": 548,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.12580.pdf",
+      "category": "latent-space-alignment-node",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L552",
+      "line": 552,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://par.nsf.gov/servlets/purl/10168888",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L569",
+      "line": 569,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.1c00600",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L573",
+      "line": 573,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.nature.com/articles/s41467-022-28494-3",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L577",
+      "line": 577,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://iopscience.iop.org/article/10.1088/2632-2153/ac3ffb/meta",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L581",
+      "line": 581,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://pubs.acs.org/doi/full/10.1021/acs.jcim.2c00715",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L585",
+      "line": 585,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2211.09085",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L589",
+      "line": 589,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2204.11817.pdf",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L593",
+      "line": 593,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2301.12586.pdf",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L597",
+      "line": 597,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2305.18365.pdf",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L601",
+      "line": 601,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2305.10688",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L605",
+      "line": 605,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2306.11976",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L610",
+      "line": 610,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2306.06615",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L614",
+      "line": 614,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://www.nature.com/articles/s42256-023-00639-z",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L618",
+      "line": 618,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://browse.arxiv.org/pdf/2307.07443.pdf",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L622",
+      "line": 622,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2306.08018",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L626",
+      "line": 626,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.03030.pdf",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L630",
+      "line": 630,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.07361",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L634",
+      "line": 634,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2401.13923",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L638",
+      "line": 638,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.03781",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L642",
+      "line": 642,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.04197",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L646",
+      "line": 646,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.14021",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L650",
+      "line": 650,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2406.12950",
+      "category": "graph-as-sequence",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L654",
+      "line": 654,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://aclanthology.org/2021.emnlp-main.47.pdf",
+      "category": "graph-empowered-llm-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L661",
+      "line": 661,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2306.13089",
+      "category": "graph-empowered-llm-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L665",
+      "line": 665,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2307.14367",
+      "category": "graph-empowered-llm-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L669",
+      "line": 669,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.13590.pdf",
+      "category": "graph-empowered-llm-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L673",
+      "line": 673,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2311.17330",
+      "category": "graph-empowered-llm-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L677",
+      "line": 677,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2403.00791",
+      "category": "graph-empowered-llm-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L681",
+      "line": 681,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2209.05481.pdf",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L690",
+      "line": 690,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2212.10789.pdf",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L694",
+      "line": 694,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2307.12996",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L698",
+      "line": 698,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2301.12040.pdf",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L702",
+      "line": 702,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://proceedings.mlr.press/v202/seidl23a/seidl23a.pdf",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L707",
+      "line": 707,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2307.09484.pdf",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L711",
+      "line": 711,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2308.06911",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L715",
+      "line": 715,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2310.12798v1.pdf",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L719",
+      "line": 719,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2402.10980",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L723",
+      "line": 723,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2412.08174",
+      "category": "latent-space-alignment-graph",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L727",
+      "line": 727,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.16806",
+      "category": "others",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L734",
+      "line": 734,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2408.16667",
+      "category": "others",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L738",
+      "line": 738,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/pdf/2405.19119",
+      "category": "others",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L742",
+      "line": 742,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.18032",
+      "category": "others",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L746",
+      "line": 746,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.19084",
+      "category": "others",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L750",
+      "line": 750,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2410.20783",
+      "category": "others",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L754",
+      "line": 754,
+      "properties": {}
+    },
+    {
+      "title": "PDF",
+      "url": "https://arxiv.org/abs/2502.18540",
+      "category": "others",
+      "source_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/blob/ded2416718b351ed649d9415fa5f2e5a92c2203b/README.md#L758",
+      "line": 758,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 156,
+  "unique_links": 155,
+  "category_count": 17,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "PeterGriffinJin",
+      "url": "https://github.com/PeterGriffinJin",
+      "contributions": 81
+    },
+    {
+      "login": "liugangcode",
+      "url": "https://github.com/liugangcode",
+      "contributions": 4
+    },
+    {
+      "login": "YiFang99",
+      "url": "https://github.com/YiFang99",
+      "contributions": 4
+    },
+    {
+      "login": "lixin4sky",
+      "url": "https://github.com/lixin4sky",
+      "contributions": 2
+    },
+    {
+      "login": "ZIKEYUAN",
+      "url": "https://github.com/ZIKEYUAN",
+      "contributions": 2
+    },
+    {
+      "login": "chensyCN",
+      "url": "https://github.com/chensyCN",
+      "contributions": 1
+    },
+    {
+      "login": "erwanlemerrer",
+      "url": "https://github.com/erwanlemerrer",
+      "contributions": 1
+    },
+    {
+      "login": "karthiksoman",
+      "url": "https://github.com/karthiksoman",
+      "contributions": 1
+    },
+    {
+      "login": "MoritzPlenz",
+      "url": "https://github.com/MoritzPlenz",
+      "contributions": 1
+    },
+    {
+      "login": "Violet24K",
+      "url": "https://github.com/Violet24K",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 129,
+    "public_contributors": 12,
+    "observed_at": "2026-09-03T17:47:46.467685+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by PeterGriffinJin/Awesome-Language-Model-on-Graphs contributors.",
+  "license": "MIT",
+  "license_url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs/tree/ded2416718b351ed649d9415fa5f2e5a92c2203b",
+  "digest": "42db3e2fa08292311071bc90d6edf2089c0b5456358363536caee36b5dab2c53"
+}

@@ -1,0 +1,584 @@
+{
+  "format_version": 3,
+  "repository_id": "802466959",
+  "name": "puzzlepeaches/awesome-password-spraying",
+  "revision": "1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e",
+  "readme_path": "README.md",
+  "readme_sha256": "af40b93680b01a8875e203f022ac1edb219a8c72e7b23c794dfb653ce5a9129c",
+  "sections": [
+    {
+      "id": "cloud-enumeration",
+      "title": "Cloud Enumeration",
+      "level": 2,
+      "path": [
+        "Cloud Enumeration"
+      ],
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#cloud-enumeration",
+      "entries": 3
+    },
+    {
+      "id": "username-enumeration",
+      "title": "Username Enumeration",
+      "level": 2,
+      "path": [
+        "Username Enumeration"
+      ],
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#username-enumeration",
+      "entries": 5
+    },
+    {
+      "id": "password-generation",
+      "title": "Password Generation",
+      "level": 2,
+      "path": [
+        "Password Generation"
+      ],
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#password-generation",
+      "entries": 2
+    },
+    {
+      "id": "spraying-tools",
+      "title": "Spraying Tools",
+      "level": 3,
+      "path": [
+        "Password Generation",
+        "Spraying Tools"
+      ],
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#spraying-tools",
+      "entries": 17
+    },
+    {
+      "id": "credential-abuse",
+      "title": "Credential Abuse",
+      "level": 2,
+      "path": [
+        "Credential Abuse"
+      ],
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#credential-abuse",
+      "entries": 14
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "level": 2,
+      "path": [
+        "Resources"
+      ],
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#resources",
+      "entries": 7
+    }
+  ],
+  "entries": [
+    {
+      "title": "Outsider_Recon",
+      "url": "https://github.com/blacklanternsecurity/offensive-azure/tree/dev/offensive_azure/Outsider_Recon",
+      "category": "cloud-enumeration",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L29",
+      "line": 29,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "succ",
+      "url": "https://github.com/puzzlepeaches/succ",
+      "category": "cloud-enumeration",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L30",
+      "line": 30,
+      "properties": {
+        "Programming Language": "Go"
+      }
+    },
+    {
+      "title": "Invoke-AADIntReconAsOutsider",
+      "url": "https://github.com/Gerenios/AADInternals/blob/master/KillChain.ps1",
+      "category": "cloud-enumeration",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L31",
+      "line": 31,
+      "properties": {
+        "Programming Language": "PowerShell"
+      }
+    },
+    {
+      "title": "linkedin2username",
+      "url": "https://github.com/initstring/linkedin2username",
+      "category": "username-enumeration",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L40",
+      "line": 40,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "o365enum",
+      "url": "https://github.com/gremwell/o365enum",
+      "category": "username-enumeration",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L41",
+      "line": 41,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "onedrive_user_enum",
+      "url": "https://github.com/nyxgeek/onedrive_user_enum",
+      "category": "username-enumeration",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L42",
+      "line": 42,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "TeamsUserEnum",
+      "url": "https://github.com/immunIT/TeamsUserEnum",
+      "category": "username-enumeration",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L43",
+      "line": 43,
+      "properties": {
+        "Programming Language": "Go"
+      }
+    },
+    {
+      "title": "Oh365UserFinder",
+      "url": "https://github.com/dievus/Oh365UserFinder",
+      "category": "username-enumeration",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L44",
+      "line": 44,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "weakpasswords.net",
+      "url": "https://weakpasswords.net/",
+      "category": "password-generation",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L52",
+      "line": 52,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "pypassgen",
+      "url": "https://github.com/puzzlepeaches/pypassgen",
+      "category": "password-generation",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L53",
+      "line": 53,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "spraycharles",
+      "url": "https://github.com/Tw1sm/spraycharles",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L63",
+      "line": 63,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "TeamFiltration",
+      "url": "https://github.com/Flangvik/TeamFiltration",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L64",
+      "line": 64,
+      "properties": {
+        "Programming Language": "C#"
+      }
+    },
+    {
+      "title": "CredMaster",
+      "url": "https://github.com/knavesec/CredMaster",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L65",
+      "line": 65,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "TREVORspray",
+      "url": "https://github.com/blacklanternsecurity/TREVORspray",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L66",
+      "line": 66,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "git-rotate",
+      "url": "https://github.com/dunderhay/git-rotate",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L67",
+      "line": 67,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "Go365",
+      "url": "https://github.com/optiv/Go365",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L68",
+      "line": 68,
+      "properties": {
+        "Programming Language": "Go"
+      }
+    },
+    {
+      "title": "Spray365",
+      "url": "https://github.com/MarkoH17/Spray365",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L69",
+      "line": 69,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "RagingRotator",
+      "url": "https://github.com/nickzer0/RagingRotator",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L70",
+      "line": 70,
+      "properties": {
+        "Programming Language": "Go"
+      }
+    },
+    {
+      "title": "MSOLSpray",
+      "url": "https://github.com/dafthack/MSOLSpray/",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L71",
+      "line": 71,
+      "properties": {
+        "Programming Language": "PowerShell"
+      }
+    },
+    {
+      "title": "MSOLSpray.py",
+      "url": "https://github.com/MartinIngesen/MSOLSpray",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L72",
+      "line": 72,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "Omnispray",
+      "url": "https://github.com/0xZDH/Omnispray",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L73",
+      "line": 73,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "Trident",
+      "url": "https://github.com/praetorian-inc/trident",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L74",
+      "line": 74,
+      "properties": {
+        "Programming Language": "Go"
+      }
+    },
+    {
+      "title": "GoMapEnum",
+      "url": "https://github.com/nodauf/GoMapEnum",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L75",
+      "line": 75,
+      "properties": {
+        "Programming Language": "Go"
+      }
+    },
+    {
+      "title": "SprayCannon",
+      "url": "https://github.com/CausticKirbyZ/SprayCannon",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L76",
+      "line": 76,
+      "properties": {
+        "Programming Language": "Crystal"
+      }
+    },
+    {
+      "title": "SprayingToolkit",
+      "url": "https://github.com/byt3bl33d3r/SprayingToolkit",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L77",
+      "line": 77,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "AzurePasswordSprayer",
+      "url": "https://github.com/boringthegod/AzurePasswordSprayer",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L78",
+      "line": 78,
+      "properties": {
+        "Programming Language": "Rust"
+      }
+    },
+    {
+      "title": "SSOh-No",
+      "url": "https://github.com/optionalCTF/SSOh-No",
+      "category": "spraying-tools",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L79",
+      "line": 79,
+      "properties": {
+        "Programming Language": "Go"
+      }
+    },
+    {
+      "title": "ROADTools",
+      "url": "https://github.com/dirkjanm/ROADtools",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L90",
+      "line": 90,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "Azure-AD-Password-Checker",
+      "url": "https://github.com/quahac/Azure-AD-Password-Checker",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L91",
+      "line": 91,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "msspray",
+      "url": "https://github.com/SecurityRiskAdvisors/msspray",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L92",
+      "line": 92,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "TeamSniper",
+      "url": "https://github.com/xRET2pwn/Teamsniper",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L93",
+      "line": 93,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "MailSniper",
+      "url": "https://github.com/dafthack/MailSniper",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L94",
+      "line": 94,
+      "properties": {
+        "Programming Language": "PowerShell"
+      }
+    },
+    {
+      "title": "MFade",
+      "url": "https://github.com/ibaiC/MFade",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L95",
+      "line": 95,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "MFASweep",
+      "url": "https://github.com/dafthack/MFASweep",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L96",
+      "line": 96,
+      "properties": {
+        "Programming Language": "PowerShell"
+      }
+    },
+    {
+      "title": "AzureHound",
+      "url": "https://github.com/BloodHoundAD/AzureHound",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L97",
+      "line": 97,
+      "properties": {
+        "Programming Language": "Go"
+      }
+    },
+    {
+      "title": "BARK",
+      "url": "https://github.com/BloodHoundAD/BARK",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L98",
+      "line": 98,
+      "properties": {
+        "Programming Language": "PowerShell"
+      }
+    },
+    {
+      "title": "GraphRunner",
+      "url": "https://github.com/dafthack/GraphRunner",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L99",
+      "line": 99,
+      "properties": {
+        "Programming Language": "PowerShell"
+      }
+    },
+    {
+      "title": "offensive-azure",
+      "url": "https://github.com/blacklanternsecurity/offensive-azure",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L100",
+      "line": 100,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "TokenTacticsV2",
+      "url": "https://github.com/f-bader/TokenTacticsV2",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L101",
+      "line": 101,
+      "properties": {
+        "Programming Language": "PowerShell"
+      }
+    },
+    {
+      "title": "TokenTactics",
+      "url": "https://github.com/rvrsh3ll/TokenTactics",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L102",
+      "line": 102,
+      "properties": {
+        "Programming Language": "PowerShell"
+      }
+    },
+    {
+      "title": "GraphSpy",
+      "url": "https://github.com/RedByte1337/GraphSpy",
+      "category": "credential-abuse",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L103",
+      "line": 103,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "family-of-client-ids-research",
+      "url": "https://github.com/secureworks/family-of-client-ids-research",
+      "category": "resources",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L112",
+      "line": 112,
+      "properties": {
+        "Programming Language": "Python"
+      }
+    },
+    {
+      "title": "saas-attacks",
+      "url": "https://github.com/pushsecurity/saas-attacks",
+      "category": "resources",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L113",
+      "line": 113,
+      "properties": {
+        "Programming Language": "N/A"
+      }
+    },
+    {
+      "title": "AAD Kill chain",
+      "url": "https://aadinternals.com/aadkillchain/",
+      "category": "resources",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L114",
+      "line": 114,
+      "properties": {
+        "Programming Language": "N/A"
+      }
+    },
+    {
+      "title": "Bypassing Conditional Access",
+      "url": "https://aadinternals.com/post/mdm/",
+      "category": "resources",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L115",
+      "line": 115,
+      "properties": {
+        "Programming Language": "N/A"
+      }
+    },
+    {
+      "title": "dirkjanm.io",
+      "url": "https://dirkjanm.io/",
+      "category": "resources",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L116",
+      "line": 116,
+      "properties": {
+        "Programming Language": "N/A"
+      }
+    },
+    {
+      "title": "Okta for Red Teamers — Perimeter Edition",
+      "url": "https://medium.com/nickvangilder/okta-for-red-teamers-perimeter-edition-c60cb8d53f23",
+      "category": "resources",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L117",
+      "line": 117,
+      "properties": {
+        "Programming Language": "N/A"
+      }
+    },
+    {
+      "title": "Hacking Cloud Tokens 2.0",
+      "url": "https://www.trustedsec.com/blog/hacking-your-cloud-tokens-edition-2-0",
+      "category": "resources",
+      "source_url": "https://github.com/puzzlepeaches/awesome-password-spraying/blob/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e/README.md#L118",
+      "line": 118,
+      "properties": {
+        "Programming Language": "N/A"
+      }
+    }
+  ],
+  "properties": [
+    "Programming Language"
+  ],
+  "entry_count": 48,
+  "unique_links": 48,
+  "category_count": 6,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "puzzlepeaches",
+      "url": "https://github.com/puzzlepeaches",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 9,
+    "has_more": false,
+    "path_commit_count": 9,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:57:49.356078+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by puzzlepeaches/awesome-password-spraying contributors.",
+  "license": null,
+  "license_url": "https://github.com/puzzlepeaches/awesome-password-spraying/tree/1ceb5dd42fdc302574a4277d5d8fe12ed5a4138e",
+  "digest": "306703b4c56a85caa285d396a098db7b0f60838628d4fa0c17737bfd8b7c5ffe"
+}

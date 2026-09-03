@@ -1,0 +1,2497 @@
+{
+  "format_version": 3,
+  "repository_id": "213027616",
+  "name": "LisaDziuba/Flawless-iOS",
+  "revision": "fa12d31dc9cae1cd30596ca5ca7aa06009106662",
+  "readme_path": "README.md",
+  "readme_sha256": "7c91cf23c2326948b9d649a26f453fdad5438dc883c3caf644d5f3b184aed25e",
+  "sections": [
+    {
+      "id": "table-of-content",
+      "title": "Table of Content",
+      "level": 2,
+      "path": [
+        "Table of Content"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#table-of-content",
+      "entries": 0
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture",
+      "level": 2,
+      "path": [
+        "Architecture"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#architecture",
+      "entries": 1
+    },
+    {
+      "id": "mvc",
+      "title": "MVC+",
+      "level": 3,
+      "path": [
+        "Architecture",
+        "MVC+"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#mvc",
+      "entries": 2
+    },
+    {
+      "id": "mvvm",
+      "title": "MVVM",
+      "level": 3,
+      "path": [
+        "Architecture",
+        "MVVM"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#mvvm",
+      "entries": 6
+    },
+    {
+      "id": "modular-architecture",
+      "title": "Modular Architecture",
+      "level": 3,
+      "path": [
+        "Architecture",
+        "Modular Architecture"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#modular-architecture",
+      "entries": 2
+    },
+    {
+      "id": "viper",
+      "title": "Viper",
+      "level": 3,
+      "path": [
+        "Architecture",
+        "Viper"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#viper",
+      "entries": 2
+    },
+    {
+      "id": "auto-layout",
+      "title": "Auto Layout",
+      "level": 2,
+      "path": [
+        "Auto Layout"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#auto-layout",
+      "entries": 1
+    },
+    {
+      "id": "closures",
+      "title": "Closures",
+      "level": 2,
+      "path": [
+        "Closures"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#closures",
+      "entries": 4
+    },
+    {
+      "id": "cocoapods",
+      "title": "CocoaPods",
+      "level": 2,
+      "path": [
+        "CocoaPods"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#cocoapods",
+      "entries": 1
+    },
+    {
+      "id": "combine",
+      "title": "Combine",
+      "level": 2,
+      "path": [
+        "Combine"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#combine",
+      "entries": 7
+    },
+    {
+      "id": "concurrency",
+      "title": "Concurrency",
+      "level": 2,
+      "path": [
+        "Concurrency"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#concurrency",
+      "entries": 6
+    },
+    {
+      "id": "continuous-integration--continuous-delivery",
+      "title": "Continuous Integration & Continuous Delivery",
+      "level": 2,
+      "path": [
+        "Continuous Integration & Continuous Delivery"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#continuous-integration--continuous-delivery",
+      "entries": 7
+    },
+    {
+      "id": "curation",
+      "title": "Curation",
+      "level": 2,
+      "path": [
+        "Curation"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#curation",
+      "entries": 4
+    },
+    {
+      "id": "data-structure",
+      "title": "Data Structure",
+      "level": 2,
+      "path": [
+        "Data Structure"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#data-structure",
+      "entries": 2
+    },
+    {
+      "id": "debugging",
+      "title": "Debugging",
+      "level": 2,
+      "path": [
+        "Debugging"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#debugging",
+      "entries": 2
+    },
+    {
+      "id": "deep-dive",
+      "title": "Deep Dive",
+      "level": 2,
+      "path": [
+        "Deep Dive"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#deep-dive",
+      "entries": 1
+    },
+    {
+      "id": "dependency-injection",
+      "title": "Dependency Injection",
+      "level": 2,
+      "path": [
+        "Dependency Injection"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#dependency-injection",
+      "entries": 1
+    },
+    {
+      "id": "design-system",
+      "title": "Design System",
+      "level": 2,
+      "path": [
+        "Design System"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#design-system",
+      "entries": 1
+    },
+    {
+      "id": "flawless-app",
+      "title": "Flawless App",
+      "level": 2,
+      "path": [
+        "Flawless App"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#flawless-app",
+      "entries": 2
+    },
+    {
+      "id": "flutter",
+      "title": "Flutter",
+      "level": 2,
+      "path": [
+        "Flutter"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#flutter",
+      "entries": 2
+    },
+    {
+      "id": "frameworks",
+      "title": "Frameworks",
+      "level": 2,
+      "path": [
+        "Frameworks"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#frameworks",
+      "entries": 2
+    },
+    {
+      "id": "git",
+      "title": "Git",
+      "level": 2,
+      "path": [
+        "Git"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#git",
+      "entries": 1
+    },
+    {
+      "id": "how-to-implement-an-app-case-studies",
+      "title": "How to Implement an App: Case-Studies",
+      "level": 2,
+      "path": [
+        "How to Implement an App: Case-Studies"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#how-to-implement-an-app-case-studies",
+      "entries": 6
+    },
+    {
+      "id": "image",
+      "title": "Image",
+      "level": 2,
+      "path": [
+        "Image"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#image",
+      "entries": 1
+    },
+    {
+      "id": "implementing-animations-in-ios",
+      "title": "Implementing Animations in iOS",
+      "level": 2,
+      "path": [
+        "Implementing Animations in iOS"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#implementing-animations-in-ios",
+      "entries": 6
+    },
+    {
+      "id": "implementing-integrations",
+      "title": "Implementing Integrations",
+      "level": 2,
+      "path": [
+        "Implementing Integrations"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#implementing-integrations",
+      "entries": 4
+    },
+    {
+      "id": "ios",
+      "title": "iOS",
+      "level": 2,
+      "path": [
+        "iOS"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#ios",
+      "entries": 0
+    },
+    {
+      "id": "ios-11",
+      "title": "iOS 11",
+      "level": 3,
+      "path": [
+        "iOS",
+        "iOS 11"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#ios-11",
+      "entries": 1
+    },
+    {
+      "id": "ios-12",
+      "title": "iOS 12",
+      "level": 3,
+      "path": [
+        "iOS",
+        "iOS 12"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#ios-12",
+      "entries": 1
+    },
+    {
+      "id": "ios-13",
+      "title": "iOS 13",
+      "level": 3,
+      "path": [
+        "iOS",
+        "iOS 13"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#ios-13",
+      "entries": 12
+    },
+    {
+      "id": "ios-simulator",
+      "title": "iOS Simulator",
+      "level": 2,
+      "path": [
+        "iOS Simulator"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#ios-simulator",
+      "entries": 1
+    },
+    {
+      "id": "ipados",
+      "title": "iPadOS",
+      "level": 2,
+      "path": [
+        "iPadOS"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#ipados",
+      "entries": 2
+    },
+    {
+      "id": "json-parsing",
+      "title": "JSON Parsing",
+      "level": 2,
+      "path": [
+        "JSON Parsing"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#json-parsing",
+      "entries": 1
+    },
+    {
+      "id": "localisation",
+      "title": "Localisation",
+      "level": 2,
+      "path": [
+        "Localisation"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#localisation",
+      "entries": 1
+    },
+    {
+      "id": "machine-learning-in-ios",
+      "title": "Machine Learning in iOS",
+      "level": 2,
+      "path": [
+        "Machine Learning in iOS"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#machine-learning-in-ios",
+      "entries": 5
+    },
+    {
+      "id": "making-xcode-work-better-for-you",
+      "title": "Making Xcode Work Better for You",
+      "level": 2,
+      "path": [
+        "Making Xcode Work Better for You"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#making-xcode-work-better-for-you",
+      "entries": 7
+    },
+    {
+      "id": "memory-management",
+      "title": "Memory Management",
+      "level": 2,
+      "path": [
+        "Memory Management"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#memory-management",
+      "entries": 3
+    },
+    {
+      "id": "navigation",
+      "title": "Navigation",
+      "level": 2,
+      "path": [
+        "Navigation"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#navigation",
+      "entries": 1
+    },
+    {
+      "id": "patterns",
+      "title": "Patterns",
+      "level": 2,
+      "path": [
+        "Patterns"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#patterns",
+      "entries": 7
+    },
+    {
+      "id": "playgrround",
+      "title": "Playgrround",
+      "level": 2,
+      "path": [
+        "Playgrround"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#playgrround",
+      "entries": 1
+    },
+    {
+      "id": "protocols",
+      "title": "Protocols",
+      "level": 2,
+      "path": [
+        "Protocols"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#protocols",
+      "entries": 3
+    },
+    {
+      "id": "push-notifications",
+      "title": "Push Notifications",
+      "level": 2,
+      "path": [
+        "Push Notifications"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#push-notifications",
+      "entries": 4
+    },
+    {
+      "id": "rxswift",
+      "title": "RxSwift",
+      "level": 2,
+      "path": [
+        "RxSwift"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#rxswift",
+      "entries": 3
+    },
+    {
+      "id": "siri",
+      "title": "Siri",
+      "level": 2,
+      "path": [
+        "Siri"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#siri",
+      "entries": 2
+    },
+    {
+      "id": "soft-skills",
+      "title": "Soft Skills",
+      "level": 2,
+      "path": [
+        "Soft Skills"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#soft-skills",
+      "entries": 3
+    },
+    {
+      "id": "sourcery",
+      "title": "Sourcery",
+      "level": 2,
+      "path": [
+        "Sourcery"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#sourcery",
+      "entries": 1
+    },
+    {
+      "id": "speeding-up-workflow--productivity-tips",
+      "title": "Speeding up workflow & productivity tips",
+      "level": 2,
+      "path": [
+        "Speeding up workflow & productivity tips"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#speeding-up-workflow--productivity-tips",
+      "entries": 9
+    },
+    {
+      "id": "storyboards",
+      "title": "Storyboards",
+      "level": 2,
+      "path": [
+        "Storyboards"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#storyboards",
+      "entries": 2
+    },
+    {
+      "id": "swift",
+      "title": "Swift",
+      "level": 2,
+      "path": [
+        "Swift"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#swift",
+      "entries": 17
+    },
+    {
+      "id": "swiftui",
+      "title": "SwiftUI",
+      "level": 2,
+      "path": [
+        "SwiftUI"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#swiftui",
+      "entries": 29
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "level": 2,
+      "path": [
+        "Testing"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#testing",
+      "entries": 7
+    },
+    {
+      "id": "texture",
+      "title": "Texture",
+      "level": 2,
+      "path": [
+        "Texture"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#texture",
+      "entries": 1
+    },
+    {
+      "id": "tutorial",
+      "title": "Tutorial",
+      "level": 2,
+      "path": [
+        "Tutorial"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#tutorial",
+      "entries": 5
+    },
+    {
+      "id": "uikit",
+      "title": "UIKit",
+      "level": 2,
+      "path": [
+        "UIKit"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#uikit",
+      "entries": 9
+    },
+    {
+      "id": "urls",
+      "title": "URLs",
+      "level": 2,
+      "path": [
+        "URLs"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#urls",
+      "entries": 4
+    },
+    {
+      "id": "ux--ui-design-for-mobile-developers",
+      "title": "UX & UI design for mobile developers",
+      "level": 2,
+      "path": [
+        "UX & UI design for mobile developers"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#ux--ui-design-for-mobile-developers",
+      "entries": 9
+    },
+    {
+      "id": "white-label-solutions",
+      "title": "White Label Solutions",
+      "level": 2,
+      "path": [
+        "White Label Solutions"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#white-label-solutions",
+      "entries": 2
+    },
+    {
+      "id": "writing-better-code",
+      "title": "Writing Better Code",
+      "level": 2,
+      "path": [
+        "Writing Better Code"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#writing-better-code",
+      "entries": 5
+    },
+    {
+      "id": "3d-touch",
+      "title": "3D Touch",
+      "level": 2,
+      "path": [
+        "3D Touch"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#3d-touch",
+      "entries": 1
+    },
+    {
+      "id": "addendum-reference--inspiration",
+      "title": "Addendum (Reference & Inspiration)",
+      "level": 2,
+      "path": [
+        "Addendum (Reference & Inspiration)"
+      ],
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#addendum-reference--inspiration",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "The only viable iOS architecture",
+      "url": "https://medium.com/flawless-app-stories/the-only-viable-ios-architecture-c42f7b4c845d",
+      "category": "architecture",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "“Massive” View Controllers or bad coding style?",
+      "url": "https://medium.com/flawless-app-stories/massive-view-controllers-or-bad-coding-style-bf2b0d57c268",
+      "category": "mvc",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Judging MVC",
+      "url": "https://medium.com/@iAmrSalman/judging-mvc-1b4f1850661c",
+      "category": "mvc",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "How not to get desperate with MVVM implementation",
+      "url": "https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-architecture-for-ios-46963c67be1b",
+      "category": "mvvm",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "A taste of MVVM and Reactive paradigm",
+      "url": "https://flawlessapp.io/blog/a-taste-of-mvvm-and-reactive-paradigm/",
+      "category": "mvvm",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Advanced iOS tutorial on MVVM",
+      "url": "https://medium.com/flawless-app-stories/advanced-ios-tutorial-use-mvvm-to-tackle-complicated-tableview-a2386ee817a9",
+      "category": "mvvm",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Applying Unit Tests to MVVM with Swift",
+      "url": "https://medium.com/flawless-app-stories/applying-unit-tests-to-mvvm-with-swift-ba5a79df8a18",
+      "category": "mvvm",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Practical MVVM + RxSwift",
+      "url": "https://medium.com/flawless-app-stories/practical-mvvm-rxswift-a330db6aa693",
+      "category": "mvvm",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Fighting state redundancy in MVVM",
+      "url": "https://medium.com/flawless-app-stories/mvvm-state-redundancy-c9e079ff02f3",
+      "category": "mvvm",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Modular Architecture in iOS",
+      "url": "https://medium.com/flawless-app-stories/a-modular-architecture-in-swift-aafd9026aa99",
+      "category": "modular-architecture",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Speed Up your iOS Development: The Modules’s Paradigm",
+      "url": "https://medium.com/flawless-app-stories/speed-up-your-ios-development-the-moduless-paradigm-part-1-1aab9fae02cd",
+      "category": "modular-architecture",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Implementing VIPER Architecture Pattern for iOS",
+      "url": "https://medium.com/flawless-app-stories/implementing-viper-archticture-pattern-for-ios-d24a6def8ba2",
+      "category": "viper",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "App Architecture and Object Composition in Swift",
+      "url": "https://medium.com/flawless-app-stories/app-architecture-and-object-composition-in-swift-c9101a9e37e3",
+      "category": "viper",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "How to make Auto Layout more convenient in iOS",
+      "url": "https://medium.com/flawless-app-stories/how-to-make-auto-layout-more-convenient-in-ios-df3b42fed37f",
+      "category": "auto-layout",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "Simplifying communication patterns with closure in Swift",
+      "url": "https://medium.com/flawless-app-stories/simplifying-communication-patterns-with-closure-in-swift-1938414468b3",
+      "category": "closures",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "You don’t (always) need [weak self]",
+      "url": "https://medium.com/flawless-app-stories/you-dont-always-need-weak-self-a778bec505ef",
+      "category": "closures",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "Closure in Swift: The Painful one!",
+      "url": "https://medium.com/flawless-app-stories/closure-in-swift-the-painful-one-7daff52a6e3f",
+      "category": "closures",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Unowned vs Weak",
+      "url": "https://medium.com/flawless-app-stories/unowned-vs-weak-614ac71ac516",
+      "category": "closures",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "Create your own CocoaPods library",
+      "url": "https://medium.com/flawless-app-stories/create-your-own-cocoapods-library-da589d5cd270",
+      "category": "cocoapods",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "Problem Solving with Combine Swift",
+      "url": "https://medium.com/flawless-app-stories/problem-solving-with-combine-swift-4751885fda77",
+      "category": "combine",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "Will Combine kill RxSwift?",
+      "url": "https://medium.com/flawless-app-stories/will-combine-kill-rxswift-64780a150d89",
+      "category": "combine",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Visualize Combine Magic with SwiftUI Part 1",
+      "url": "https://medium.com/flawless-app-stories/visualize-combine-magic-with-swiftui-part-1-3a56e2a461b3",
+      "category": "combine",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Visualize Combine Magic with SwiftUI Part 3",
+      "url": "https://medium.com/flawless-app-stories/visualize-combine-magic-with-swiftui-part-3-a3f0cc42bcc8",
+      "category": "combine",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Visualize Combine Magic with SwiftUI Part 5",
+      "url": "https://medium.com/flawless-app-stories/visualize-combine-magic-with-swiftui-part-5-2783adddbd1d",
+      "category": "combine",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Building smart Q&A app with CoreML, SwiftUI, and Combine",
+      "url": "https://medium.com/flawless-app-stories/building-smart-q-a-app-with-coreml-swiftui-and-combine-7c8f35b5d3c4",
+      "category": "combine",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "How to create custom Publisher in Combine",
+      "url": "https://medium.com/flawless-app-stories/swift-combine-custom-publisher-6d1cc3dc248f",
+      "category": "combine",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Parallel Programming with Swift: What could possibly go wrong?",
+      "url": "https://medium.com/flawless-app-stories/parallel-programming-with-swift-what-could-possibly-go-wrong-f5bcc38b1814",
+      "category": "concurrency",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "Parallel programming with Swift: Basics",
+      "url": "https://medium.com/flawless-app-stories/basics-of-parallel-programming-with-swift-93fee8425287",
+      "category": "concurrency",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "Parallel programming with Swift: Operations",
+      "url": "https://medium.com/flawless-app-stories/parallel-programming-with-swift-operations-54cbefaf3cb0",
+      "category": "concurrency",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Parallel programming with Swift: Promises",
+      "url": "https://medium.com/flawless-app-stories/parallel-programming-with-swift-promises-740be1a260ed",
+      "category": "concurrency",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Multithreaded Programming in iOS",
+      "url": "https://medium.com/flawless-app-stories/multithreaded-programming-in-ios-9de206afa620",
+      "category": "concurrency",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "GPU Speedup",
+      "url": "https://medium.com/flawless-app-stories/gpu-speedup-5cd66012b91e",
+      "category": "concurrency",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "How to set up your iOS project with Continuous Integration and Delivery",
+      "url": "https://medium.com/flawless-app-stories/how-to-setup-your-ios-project-with-ci-cd-1abc48b6755f",
+      "category": "continuous-integration--continuous-delivery",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "How to set up GitLab Continuous Integration for iOS projects without a hassle",
+      "url": "https://medium.com/flawless-app-stories/how-to-set-up-gitlab-continuous-integration-for-ios-projects-without-a-hustle-53c2b642c90f",
+      "category": "continuous-integration--continuous-delivery",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "Build it, Test it, Deliver it! Complete iOS Guide on Continuous Delivery with fastlane and Jenkins",
+      "url": "https://medium.com/flawless-app-stories/build-it-test-it-deliver-it-complete-ios-guide-on-continuous-delivery-with-fastlane-and-jenkins-cbe44e996ac5",
+      "category": "continuous-integration--continuous-delivery",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "Automate your iOS apps using Bitrise",
+      "url": "https://medium.com/flawless-app-stories/automate-your-ios-apps-using-bitrise-6ded1712842b",
+      "category": "continuous-integration--continuous-delivery",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "Continuous Integration for Flutter with Codemagic",
+      "url": "https://medium.com/flawless-app-stories/continuous-integration-for-flutter-with-codemagic-239aa206a70",
+      "category": "continuous-integration--continuous-delivery",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L142",
+      "line": 142,
+      "properties": {}
+    },
+    {
+      "title": "iOS Continuous Integration with GitLab CI, Fastlane & OTA Installation",
+      "url": "https://medium.com/flawless-app-stories/ios-continuous-integration-with-gitlab-ci-fastlane-and-ota-installation-from-gitlab-pages-f312e07ab06e",
+      "category": "continuous-integration--continuous-delivery",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Secret variables in Xcode AND your CI for fun and profit",
+      "url": "https://medium.com/flawless-app-stories/secret-variables-in-xcode-and-your-ci-for-fun-and-profit-d387a50475d7",
+      "category": "continuous-integration--continuous-delivery",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Ladies iOS Engineers to Follow on Twitter",
+      "url": "https://medium.com/flawless-app-stories/awesome-ladies-ios-engineers-to-follow-on-twitter-4fd9dff8b242",
+      "category": "curation",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "15 great iOS newsletters you should know about",
+      "url": "https://medium.com/flawless-app-stories/15-great-ios-newsletters-you-should-know-about-e32978dd20e1",
+      "category": "curation",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L154",
+      "line": 154,
+      "properties": {}
+    },
+    {
+      "title": "33 awesome GitHub lists for iOS development",
+      "url": "https://medium.com/flawless-app-stories/33-awesome-github-lists-for-ios-development-336691520d0f",
+      "category": "curation",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Best resources for Advanced iOS Developer (Swift)",
+      "url": "https://medium.com/flawless-app-stories/best-resources-for-advanced-ios-developer-swift-ade30374593d",
+      "category": "curation",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L156",
+      "line": 156,
+      "properties": {}
+    },
+    {
+      "title": "Doubly Linked Lists — Swift 4",
+      "url": "https://medium.com/flawless-app-stories/doubly-linked-lists-swift-4-ae3cf8a5b975",
+      "category": "data-structure",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Error trees in iOS",
+      "url": "https://medium.com/flawless-app-stories/error-trees-d88df217bcc4",
+      "category": "data-structure",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "Advanced debugging with Xcode",
+      "url": "https://medium.com/flawless-app-stories/advanced-debugging-with-xcode-5e6c8dabd311",
+      "category": "debugging",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Bringing awesome logs to your iOS app",
+      "url": "https://medium.com/flawless-app-stories/bringing-awesome-logs-to-your-ios-app-70c18e891723",
+      "category": "debugging",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "IPC — Mach Message",
+      "url": "https://medium.com/flawless-app-stories/ipc-mach-message-cab64ff1b569",
+      "category": "deep-dive",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "iOS Dependency Injection Using Swinject",
+      "url": "https://medium.com/flawless-app-stories/ios-dependency-injection-using-swinject-9c4ceff99e41",
+      "category": "dependency-injection",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "What Design Language System looks from the engineers’ side?",
+      "url": "https://medium.com/flawless-app-stories/what-design-language-system-looks-from-the-engineers-side-54f8e2f0ec1e",
+      "category": "design-system",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "How Flawless App will make you a better UI designer",
+      "url": "https://medium.com/flawless-app-stories/how-flawless-app-will-make-you-a-better-ui-designer-23c7c5338e8c",
+      "category": "flawless-app",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "Flawless App update: redesigned UI and UX, dark mode and optimised file selection",
+      "url": "https://medium.com/flawless-app-stories/flawless-app-update-redesigned-ui-and-ux-dark-mode-and-optimised-file-selection-8675e4751f10",
+      "category": "flawless-app",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Flutter vs React Native: A Developer’s Perspective",
+      "url": "https://medium.com/flawless-app-stories/flutter-vs-react-native-a-developers-perspective-8914ca240a89",
+      "category": "flutter",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L180",
+      "line": 180,
+      "properties": {}
+    },
+    {
+      "title": "Flutter: TDD with Unit Tests",
+      "url": "https://medium.com/flawless-app-stories/flutter-tdd-with-unit-tests-5aa73ec3bce5",
+      "category": "flutter",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Getting Started with Reusable Frameworks for iOS Development",
+      "url": "https://medium.com/flawless-app-stories/getting-started-with-reusable-frameworks-for-ios-development-f00d74827d11",
+      "category": "frameworks",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Improve your iOS team’s productivity by building features as frameworks",
+      "url": "https://medium.com/flawless-app-stories/improve-your-ios-teams-productivity-by-building-features-as-frameworks-9d2a64cbcab5",
+      "category": "frameworks",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Useful git commands for everyday use!",
+      "url": "https://medium.com/flawless-app-stories/useful-git-commands-for-everyday-use-e1a4de64037d",
+      "category": "git",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "A Christmas Challenge — A Cinema app in just 7 days",
+      "url": "https://medium.com/flawless-app-stories/a-christmas-challenge-a-cinema-app-in-just-7-days-1c9aa998e765",
+      "category": "how-to-implement-an-app-case-studies",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "How I created Apple’s Voice Memos clone",
+      "url": "https://medium.com/flawless-app-stories/how-i-created-apples-voice-memos-clone-b6cd6d65f580",
+      "category": "how-to-implement-an-app-case-studies",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "Creating Game of Life on iOS",
+      "url": "https://medium.com/flawless-app-stories/creating-game-of-life-on-ios-73bd51b63430",
+      "category": "how-to-implement-an-app-case-studies",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "How you can build a private photo-sharing app in 30 minutes with Creo",
+      "url": "https://medium.com/flawless-app-stories/how-you-can-build-a-private-photo-sharing-app-in-30-minutes-with-creo-7517e79df943",
+      "category": "how-to-implement-an-app-case-studies",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "Implementing Foldable, Map and FlatMap",
+      "url": "https://medium.com/flawless-app-stories/foldable-map-and-flatmap-416dbd5ace36",
+      "category": "how-to-implement-an-app-case-studies",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Building Movie Trailer App Using SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/building-movie-trailer-app-using-swiftui-5d4dc5497462",
+      "category": "how-to-implement-an-app-case-studies",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "Image Cropping in Swift",
+      "url": "https://medium.com/flawless-app-stories/image-cropping-swift-26dfb09d3eae",
+      "category": "image",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Delightful animations in iOS",
+      "url": "https://medium.com/flawless-app-stories/delightful-animations-in-ios-7607e49945eb",
+      "category": "implementing-animations-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L202",
+      "line": 202,
+      "properties": {}
+    },
+    {
+      "title": "Using Sky Segmentation to create stunning background animations in iOS",
+      "url": "https://medium.com/flawless-app-stories/using-sky-segmentation-to-create-stunning-background-animations-in-ios-4b4b2548061",
+      "category": "implementing-animations-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "Cool Custom ViewController Transitions — Easy",
+      "url": "https://medium.com/flawless-app-stories/cool-view-controller-transitions-easy-8390bd8e378",
+      "category": "implementing-animations-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Cool Custom ViewController Transitions — Advanced",
+      "url": "https://medium.com/flawless-app-stories/cool-custom-view-controller-transitions-advanced-df2d0ca08029",
+      "category": "implementing-animations-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Animated gradient layers in Swift",
+      "url": "https://medium.com/flawless-app-stories/animated-gradient-layers-in-swift-bad094496644",
+      "category": "implementing-animations-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L206",
+      "line": 206,
+      "properties": {}
+    },
+    {
+      "title": "RxAnimated — animated bindings",
+      "url": "https://medium.com/flawless-app-stories/rxanimated-animated-bindings-c5daa7f7d591",
+      "category": "implementing-animations-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "Facebook Account Kit using Swift",
+      "url": "https://medium.com/flawless-app-stories/facebook-account-kit-using-swift-1dfee31ce9dd",
+      "category": "implementing-integrations",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "Unity Integration in Native iOS & APIs",
+      "url": "https://medium.com/flawless-app-stories/unity-integration-in-native-ios-b5e2ea501477",
+      "category": "implementing-integrations",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "Scratching the Firebase services with your iOS app",
+      "url": "https://medium.com/flawless-app-stories/scratching-the-firebase-services-with-your-ios-app-c2746881c6d8",
+      "category": "implementing-integrations",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "Managing your App Distribution with Firebase",
+      "url": "https://medium.com/flawless-app-stories/managing-your-app-distribution-using-firebase-b0e0178eedb",
+      "category": "implementing-integrations",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "Sneak peek into iOS 11 Drag & Drop API using Swift",
+      "url": "https://medium.com/flawless-app-stories/sneak-peek-into-ios-11-drag-drop-api-using-swift-14170021a671",
+      "category": "ios-11",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "All about iOS 12 Autofill Passwords Tool API’s",
+      "url": "https://medium.com/flawless-app-stories/all-about-ios-12-autofill-passwords-tool-apis-8f095127fd99",
+      "category": "ios-12",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "How To Prepare Your App For iOS 13",
+      "url": "https://medium.com/flawless-app-stories/how-to-prepare-your-app-for-ios-13-7ea95c3e5433",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "A “Swifty” way to pick Documents",
+      "url": "https://medium.com/flawless-app-stories/a-swifty-way-to-pick-documents-59cad1988a8a",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "iOS 13 UISegmentedControl: 3 important changes",
+      "url": "https://medium.com/flawless-app-stories/ios-13-uisegmentedcontrol-3-important-changes-d3a94fdd6763",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "How to Request Device Motion and Orientation Permission in iOS 13",
+      "url": "https://medium.com/flawless-app-stories/how-to-request-device-motion-and-orientation-permission-in-ios-13-74fc9d6cd140",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "How to use a full-text search on iOS?",
+      "url": "https://medium.com/flawless-app-stories/how-to-use-full-text-search-on-ios-7cc4553df0e0",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L234",
+      "line": 234,
+      "properties": {}
+    },
+    {
+      "title": "Handling iOS 13 Bluetooth Permissions",
+      "url": "https://medium.com/flawless-app-stories/handling-ios-13-bluetooth-permissions-26c6a8cbb816",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Backward compatible Dark Mode on iOS",
+      "url": "https://medium.com/flawless-app-stories/backward-compatible-dark-mode-on-ios-1f55e31e4c0e",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "Enable Accessibility VoiceOver for ImageView in iOS 13 on Xcode with Swift",
+      "url": "https://medium.com/flawless-app-stories/enable-accessibility-voiceover-for-uiimageview-in-ios-13-577aa4979d00",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "Implementing Dark Mode on iOS",
+      "url": "https://medium.com/flawless-app-stories/implementing-dark-mode-on-ios-d195cac098de",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "Getting started with PencilKit on iOS 13",
+      "url": "https://medium.com/flawless-app-stories/getting-started-with-pencilkit-on-ios-13-a4bda3323fd8",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "iOS 13: Optical Character Recognition",
+      "url": "https://medium.com/flawless-app-stories/ios-13-optical-character-recognition-d1bb8b710db1",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "Upgrade the UI with iOS 13",
+      "url": "https://medium.com/flawless-app-stories/upgrade-the-ui-with-ios-13-587328d389a5",
+      "category": "ios-13",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "iOS Simulator on steroids: Tips & Tricks",
+      "url": "https://medium.com/flawless-app-stories/simulator-on-steroids-c12774ca6b",
+      "category": "ios-simulator",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L250",
+      "line": 250,
+      "properties": {}
+    },
+    {
+      "title": "Multi-window development in iPadOS",
+      "url": "https://medium.com/flawless-app-stories/multi-window-development-in-ipados-cd6e5de0bc2c",
+      "category": "ipados",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L253",
+      "line": 253,
+      "properties": {}
+    },
+    {
+      "title": "Using native Apple’s Places",
+      "url": "https://medium.com/flawless-app-stories/using-native-apples-places-f5a4a462a8e5",
+      "category": "ipados",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Let’s parse the JSON like a Boss with Swift Codable protocol",
+      "url": "https://medium.com/flawless-app-stories/lets-parse-the-json-like-a-boss-with-swift-codable-protocol-3d4c4290c104",
+      "category": "json-parsing",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L257",
+      "line": 257,
+      "properties": {}
+    },
+    {
+      "title": "DRY String Localization with Interface Builder",
+      "url": "https://medium.com/flawless-app-stories/dry-string-localization-with-interface-builder-665496eb0270",
+      "category": "localisation",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "iOS Vision And Highlighting Text With Core ML",
+      "url": "https://medium.com/flawless-app-stories/ios-vision-and-highlighting-text-with-core-ml-aaca104e9427",
+      "category": "machine-learning-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning in iOS: IBM Watson and CoreML",
+      "url": "https://medium.com/flawless-app-stories/detecting-avengers-superheroes-in-your-ios-app-with-ibm-watson-and-coreml-fe38e493a4d1",
+      "category": "machine-learning-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning in iOS: Azure Custom Vision and CoreML",
+      "url": "https://medium.com/flawless-app-stories/machine-learning-in-ios-azure-custom-vision-and-coreml-645e93f35eee",
+      "category": "machine-learning-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L265",
+      "line": 265,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning in iOS: Turi Create and CoreML",
+      "url": "https://medium.com/flawless-app-stories/machine-learning-in-ios-turi-create-and-coreml-5ddce0dc8e26",
+      "category": "machine-learning-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L266",
+      "line": 266,
+      "properties": {}
+    },
+    {
+      "title": "Vision in iOS: Text detection and Tesseract recognition",
+      "url": "https://medium.com/flawless-app-stories/vision-in-ios-text-detection-and-tesseract-recognition-26bbcd735d8f",
+      "category": "machine-learning-in-ios",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L267",
+      "line": 267,
+      "properties": {}
+    },
+    {
+      "title": "Become more productive and efficient in Xcode",
+      "url": "https://medium.com/flawless-app-stories/become-more-productive-and-efficient-in-xcode-e2b5bc29f1ab",
+      "category": "making-xcode-work-better-for-you",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "One-Stop Xcode Coziness",
+      "url": "https://medium.com/flawless-app-stories/one-stop-xcode-coziness-ee8dc9c1eb8b",
+      "category": "making-xcode-work-better-for-you",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L271",
+      "line": 271,
+      "properties": {}
+    },
+    {
+      "title": "Optimize Swift build and compile times in Xcode",
+      "url": "https://medium.com/flawless-app-stories/optimize-swift-build-and-compile-times-in-xcode-8a212e2e7d86",
+      "category": "making-xcode-work-better-for-you",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Improve your Xcode (Swift) Compile Time",
+      "url": "https://medium.com/flawless-app-stories/improve-your-xcode-swift-compile-time-d9c1d3786473",
+      "category": "making-xcode-work-better-for-you",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L273",
+      "line": 273,
+      "properties": {}
+    },
+    {
+      "title": "Essential Xcode Shortcuts for More Efficient Coding",
+      "url": "https://medium.com/flawless-app-stories/essential-xcode-shortcuts-for-more-efficient-coding-1f8e58b2c907",
+      "category": "making-xcode-work-better-for-you",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L274",
+      "line": 274,
+      "properties": {}
+    },
+    {
+      "title": "Xcode 11 now makes “//MARK:” comments a lot more useful with Minimap feature",
+      "url": "https://medium.com/flawless-app-stories/xcode-11-now-makes-mark-comments-a-lot-more-useful-with-minimap-feature-f8c658b293f",
+      "category": "making-xcode-work-better-for-you",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L275",
+      "line": 275,
+      "properties": {}
+    },
+    {
+      "title": "7 Useful Tips and Tricks for Xcode",
+      "url": "https://medium.com/flawless-app-stories/7-useful-tips-and-tricks-for-xcode-52182ac1dfa1",
+      "category": "making-xcode-work-better-for-you",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Memory Leaks in Swift",
+      "url": "https://medium.com/flawless-app-stories/memory-leaks-in-swift-bfd5f95f3a74",
+      "category": "memory-management",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L279",
+      "line": 279,
+      "properties": {}
+    },
+    {
+      "title": "iOS Memory Management in Under 6 Minutes",
+      "url": "https://medium.com/flawless-app-stories/ios-memory-management-in-under-6-minutes-3be777f69b7e",
+      "category": "memory-management",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "Reducing Memory Footprint and OOM Terminations in iOS",
+      "url": "https://medium.com/flawless-app-stories/techniques-to-reduce-memory-footprint-and-oom-terminations-in-ios-a0f6bef38217",
+      "category": "memory-management",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L281",
+      "line": 281,
+      "properties": {}
+    },
+    {
+      "title": "Creating a UITabBarController Framework",
+      "url": "https://medium.com/flawless-app-stories/creating-a-uitabbarcontroller-framework-8bd7b1289244",
+      "category": "navigation",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "Returning Error vs Throwing Error in Swift",
+      "url": "https://medium.com/flawless-app-stories/returning-error-vs-throwing-error-in-swift-8d3657e1330d",
+      "category": "patterns",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L287",
+      "line": 287,
+      "properties": {}
+    },
+    {
+      "title": "Strategy pattern in Swift",
+      "url": "https://medium.com/flawless-app-stories/strategy-pattern-in-swift-1462dbddd9fe",
+      "category": "patterns",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L288",
+      "line": 288,
+      "properties": {}
+    },
+    {
+      "title": "Flow coordinator pattern on steroids",
+      "url": "https://medium.com/flawless-app-stories/flow-coordinator-pattern-on-steroids-a52021e31bfe",
+      "category": "patterns",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L289",
+      "line": 289,
+      "properties": {}
+    },
+    {
+      "title": "An elegant pattern to craft cache-efficient functions in Swift",
+      "url": "https://medium.com/flawless-app-stories/an-elegant-pattern-to-craft-cache-efficient-functions-in-swift-c1a18f73e28c",
+      "category": "patterns",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L290",
+      "line": 290,
+      "properties": {}
+    },
+    {
+      "title": "Design patterns by Tutorials— The power of OOP (part 1)",
+      "url": "https://medium.com/flawless-app-stories/design-patterns-by-tutorials-the-power-of-oop-2e871b551cbe",
+      "category": "patterns",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L291",
+      "line": 291,
+      "properties": {}
+    },
+    {
+      "title": "Design patterns by Tutorials — The power of OOP (part 3)",
+      "url": "https://medium.com/flawless-app-stories/adapter-pattern-design-patterns-by-tutorials-the-power-of-oop-part-3-112a956c1101",
+      "category": "patterns",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Builder Design Pattern in iOS",
+      "url": "https://medium.com/flawless-app-stories/builder-design-pattern-in-ios-d528c7614eac",
+      "category": "patterns",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L293",
+      "line": 293,
+      "properties": {}
+    },
+    {
+      "title": "Playground driven development in Swift",
+      "url": "https://medium.com/flawless-app-stories/playground-driven-development-in-swift-cf167489fe7b",
+      "category": "playgrround",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Writing a Network Layer in Swift: Protocol-Oriented Approach",
+      "url": "https://medium.com/flawless-app-stories/writing-network-layer-in-swift-protocol-oriented-approach-4fa40ef1f908",
+      "category": "protocols",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L299",
+      "line": 299,
+      "properties": {}
+    },
+    {
+      "title": "Improving code testability with Swift protocols",
+      "url": "https://medium.com/flawless-app-stories/solving-dependencies-in-swift-9ee6ad4a8941",
+      "category": "protocols",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Protocol-based Themes in iOS Apps",
+      "url": "https://medium.com/flawless-app-stories/protocol-based-themes-in-ios-apps-820971763837",
+      "category": "protocols",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L301",
+      "line": 301,
+      "properties": {}
+    },
+    {
+      "title": "iOS remote push notifications in a nutshell",
+      "url": "https://medium.com/flawless-app-stories/ios-remote-push-notifications-in-a-nutshell-d05f5ccac252",
+      "category": "push-notifications",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L305",
+      "line": 305,
+      "properties": {}
+    },
+    {
+      "title": "Strong-typed Notifications in Swift",
+      "url": "https://medium.com/flawless-app-stories/strong-typed-notifications-in-swift-a5de8f7f58e0",
+      "category": "push-notifications",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L306",
+      "line": 306,
+      "properties": {}
+    },
+    {
+      "title": "iOS Dynamic Push Notifications with AWS Pinpoint",
+      "url": "https://medium.com/flawless-app-stories/ios-push-notifications-with-aws-4bde95dfe7f4",
+      "category": "push-notifications",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L307",
+      "line": 307,
+      "properties": {}
+    },
+    {
+      "title": "Local Notifications in Swift 5 and iOS 13 with UNUSerNotificationCenter",
+      "url": "https://medium.com/flawless-app-stories/local-notifications-in-swift-5-and-ios-13-with-unusernotificationcenter-190e654a5615",
+      "category": "push-notifications",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Simplifying RxSwift code",
+      "url": "https://medium.com/flawless-app-stories/simplifying-rxswift-code-78071d5b780",
+      "category": "rxswift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L311",
+      "line": 311,
+      "properties": {}
+    },
+    {
+      "title": "Reactive Heart Rate Monitors in Swift",
+      "url": "https://medium.com/flawless-app-stories/https-medium-com-leandromperez-reactive-heart-rate-monitors-9e68a31a88b",
+      "category": "rxswift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L312",
+      "line": 312,
+      "properties": {}
+    },
+    {
+      "title": "The state of modern Rx in iOS",
+      "url": "https://medium.com/flawless-app-stories/rxflaws-state-of-modern-rx-in-ios-1ff2cae75fa3",
+      "category": "rxswift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "WWDC 2018 for iOS developers: Siri Shortcuts",
+      "url": "https://medium.com/flawless-app-stories/wwdc-2018-for-ios-developers-siri-shortcuts-e8e4a78f0ad7",
+      "category": "siri",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "Ask user input from Siri in custom Intent for iOS 13",
+      "url": "https://medium.com/flawless-app-stories/ask-user-input-from-siri-in-custom-intent-for-ios-13-3db243b9d739",
+      "category": "siri",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L317",
+      "line": 317,
+      "properties": {}
+    },
+    {
+      "title": "How I failed 39 interviews and what I’ve learned",
+      "url": "https://medium.com/flawless-app-stories/how-i-failed-39-interviews-and-what-ive-learned-515c8e6c4b53",
+      "category": "soft-skills",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "How to get the first job as an iOS developer",
+      "url": "https://medium.com/flawless-app-stories/14-resources-to-help-you-get-your-ios-engineering-job-1cca22cedafe",
+      "category": "soft-skills",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L321",
+      "line": 321,
+      "properties": {}
+    },
+    {
+      "title": "How to maintain the focus as a software developer?",
+      "url": "https://medium.com/flawless-app-stories/how-to-maintain-the-focus-as-a-software-developer-d43aeb25693c",
+      "category": "soft-skills",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L322",
+      "line": 322,
+      "properties": {}
+    },
+    {
+      "title": "How to supercharge Swift enum-based states with Sourcery",
+      "url": "https://medium.com/flawless-app-stories/enums-and-sourcery-5da57cda473b",
+      "category": "sourcery",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "Squeezing Xcode for hard drive space",
+      "url": "https://medium.com/flawless-app-stories/saving-space-as-an-ios-developer-c09f5b6af395",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L328",
+      "line": 328,
+      "properties": {}
+    },
+    {
+      "title": "iOS project best practices and tools",
+      "url": "https://medium.com/flawless-app-stories/ios-project-best-practices-and-tools-c46135b8116d",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Make your next iOS project a huge success",
+      "url": "https://medium.com/flawless-app-stories/make-your-next-ios-swift-project-a-huge-success-for-developers-f98c508299ff",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L330",
+      "line": 330,
+      "properties": {}
+    },
+    {
+      "title": "Achieving maximum test readability at no cost for iOS",
+      "url": "https://medium.com/flawless-app-stories/ios-achieving-maximum-test-readability-at-no-cost-906af0dbaa98",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Best iOS hacks from Twitter: October Edition",
+      "url": "https://medium.com/flawless-app-stories/best-ios-hacks-from-twitter-october-edition-ce253347f88a",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L332",
+      "line": 332,
+      "properties": {}
+    },
+    {
+      "title": "Best iOS hacks from Twitter: November Edition",
+      "url": "https://medium.com/flawless-app-stories/best-ios-hacks-from-twitter-november-edition-bd38edba8ea4",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "Best iOS hacks from Twitter: December Edition",
+      "url": "https://medium.com/flawless-app-stories/best-ios-hacks-from-twitter-december-edition-8134390309e2",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L334",
+      "line": 334,
+      "properties": {}
+    },
+    {
+      "title": "Best iOS hacks from Twitter: January & February Edition",
+      "url": "https://medium.com/flawless-app-stories/best-ios-hacks-from-twitter-january-february-edition-4348c1caac2c",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "Best iOS hacks from Twitter: March & April Edition",
+      "url": "https://medium.com/flawless-app-stories/best-ios-hacks-from-twitter-march-april-edition-8b538f553c83",
+      "category": "speeding-up-workflow--productivity-tips",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L336",
+      "line": 336,
+      "properties": {}
+    },
+    {
+      "title": "Will Storyboards still be alive?",
+      "url": "https://medium.com/flawless-app-stories/storyboard-or-no-storyboard-d3ce6eda91eb",
+      "category": "storyboards",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "Reducing iOS storyboard merge hell",
+      "url": "https://medium.com/flawless-app-stories/ios-storyboard-merge-hell-b4cbb2e57dfc",
+      "category": "storyboards",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L346",
+      "line": 346,
+      "properties": {}
+    },
+    {
+      "title": "UndoManager in Swift 5 with example",
+      "url": "https://medium.com/flawless-app-stories/undomanager-in-swift-5-with-simple-example-8c791e231b87",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L349",
+      "line": 349,
+      "properties": {}
+    },
+    {
+      "title": "Disjoint-set union in C++ and Swift",
+      "url": "https://medium.com/flawless-app-stories/disjoint-set-union-data-structure-in-c-and-swift-a52703b01fcb",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L350",
+      "line": 350,
+      "properties": {}
+    },
+    {
+      "title": "Access Control Basics in iOS Swift — Part 1",
+      "url": "https://medium.com/flawless-app-stories/access-control-basics-in-ios-swift-part-1-7438c0ebe3b0",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L351",
+      "line": 351,
+      "properties": {}
+    },
+    {
+      "title": "Access Control Basics in iOS Swift — Part 2",
+      "url": "https://medium.com/flawless-app-stories/access-control-basics-in-ios-swift-part-2-b293bdfd6ac1",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L352",
+      "line": 352,
+      "properties": {}
+    },
+    {
+      "title": "How can Property Wrappers and Function Builders be leveraged?",
+      "url": "https://medium.com/flawless-app-stories/how-can-property-wrappers-and-function-builders-be-leveraged-d43160de338f",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L353",
+      "line": 353,
+      "properties": {}
+    },
+    {
+      "title": "Dictionaries in Swift",
+      "url": "https://medium.com/flawless-app-stories/dictionaries-in-swift-90c4df6dd828",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L354",
+      "line": 354,
+      "properties": {}
+    },
+    {
+      "title": "Swift & Objective-C Mixed Languages App",
+      "url": "https://medium.com/flawless-app-stories/swift-objective-c-mixed-languages-app-16b6c9c3e9b0",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L355",
+      "line": 355,
+      "properties": {}
+    },
+    {
+      "title": "A practical guide to Weak Referencing in Swift",
+      "url": "https://medium.com/flawless-app-stories/a-practical-guide-to-weak-referencing-in-swift-60a1e4da2ef9",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L356",
+      "line": 356,
+      "properties": {}
+    },
+    {
+      "title": "Fireworks — A visual particles editor for Swift",
+      "url": "https://medium.com/flawless-app-stories/fireworks-a-visual-particles-editor-for-swift-618e76347798",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L357",
+      "line": 357,
+      "properties": {}
+    },
+    {
+      "title": "Static vs Dynamic Dispatch in Swift: A decisive choice",
+      "url": "https://medium.com/flawless-app-stories/static-vs-dynamic-dispatch-in-swift-a-decisive-choice-cece1e872d",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L358",
+      "line": 358,
+      "properties": {}
+    },
+    {
+      "title": "Stubbing in pair with Swift compiler: a spy registration",
+      "url": "https://medium.com/flawless-app-stories/stubbing-in-pair-with-swift-compiler-a-spy-registration-bbfdc1cf87a1",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L359",
+      "line": 359,
+      "properties": {}
+    },
+    {
+      "title": "Swift Compiler: What we can learn",
+      "url": "https://medium.com/flawless-app-stories/swift-compiler-what-we-can-learn-96872ea4b1b8",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L360",
+      "line": 360,
+      "properties": {}
+    },
+    {
+      "title": "What is PassKit and how to use it?",
+      "url": "https://medium.com/flawless-app-stories/what-is-passkit-and-how-to-use-it-24eee661a2db",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L361",
+      "line": 361,
+      "properties": {}
+    },
+    {
+      "title": "Reusable Image Cache in Swift",
+      "url": "https://medium.com/flawless-app-stories/reusable-image-cache-in-swift-9b90eb338e8d",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L362",
+      "line": 362,
+      "properties": {}
+    },
+    {
+      "title": "SwiftLint in Use",
+      "url": "https://medium.com/flawless-app-stories/swiftlint-in-use-279f44b3182e",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L363",
+      "line": 363,
+      "properties": {}
+    },
+    {
+      "title": "Say Goodbye to “Index out of range” — Swift",
+      "url": "https://medium.com/flawless-app-stories/say-goodbye-to-index-out-of-range-swift-eca7c4c7b6ca",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L364",
+      "line": 364,
+      "properties": {}
+    },
+    {
+      "title": "That “return” keyword in guard let statement in Swift",
+      "url": "https://medium.com/flawless-app-stories/that-return-keyword-in-guard-let-statement-in-swift-eeacf88f6270",
+      "category": "swift",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L365",
+      "line": 365,
+      "properties": {}
+    },
+    {
+      "title": "My takeaway from working with SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/my-takeaway-from-working-with-swiftui-7a589bbd1555",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L369",
+      "line": 369,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI — How to setup a project",
+      "url": "https://medium.com/flawless-app-stories/swiftui-getting-started-372389fff423",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L370",
+      "line": 370,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI - Understanding State",
+      "url": "https://medium.com/flawless-app-stories/swiftui-understanding-state-8afa23fd9f1f",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L371",
+      "line": 371,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI - Dynamic List & Identifiable",
+      "url": "https://medium.com/flawless-app-stories/swiftui-dynamic-list-identifiable-73c56215f9ff",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L372",
+      "line": 372,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI & Combine: Better Together",
+      "url": "https://medium.com/flawless-app-stories/swiftui-plus-combine-equals-love-791ad444a082",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L373",
+      "line": 373,
+      "properties": {}
+    },
+    {
+      "title": "Tips & Tricks: Remaking the 2048 game with SwiftUI and Combine",
+      "url": "https://medium.com/flawless-app-stories/2048-swiftui-dda67949beb",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L374",
+      "line": 374,
+      "properties": {}
+    },
+    {
+      "title": "The Simple Life(cycle) of a SwiftUI View",
+      "url": "https://medium.com/flawless-app-stories/the-simple-life-cycle-of-a-swiftui-view-95e2e14848a2",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L375",
+      "line": 375,
+      "properties": {}
+    },
+    {
+      "title": "Build fast and better Apps with SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/build-fast-and-better-apps-with-swiftui-dd33ca13e9c7",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L376",
+      "line": 376,
+      "properties": {}
+    },
+    {
+      "title": "An Instagram clone using SwiftUI and GraphQL — ProfileView",
+      "url": "https://medium.com/flawless-app-stories/an-instagram-clone-using-swiftui-and-graphql-profileview-cb20378effad",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L377",
+      "line": 377,
+      "properties": {}
+    },
+    {
+      "title": "Fast app prototyping with SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/fast-app-prototyping-with-swiftui-39ae03ab3eaa",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L378",
+      "line": 378,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility: Sort Priority",
+      "url": "https://medium.com/flawless-app-stories/swiftui-accessibility-sort-priority-3c878306ef19",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L379",
+      "line": 379,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility: Named Controls",
+      "url": "https://medium.com/flawless-app-stories/swiftui-accessibility-named-controls-298766c454bc",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L380",
+      "line": 380,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility: Images",
+      "url": "https://medium.com/flawless-app-stories/swiftui-image-accessibility-f3ca19aefdb1",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L381",
+      "line": 381,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility: Accessible User Interface",
+      "url": "https://medium.com/flawless-app-stories/swiftui-accessibility-accessible-user-interface-ae55edc265c8",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L382",
+      "line": 382,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility: Attributes",
+      "url": "https://medium.com/flawless-app-stories/swiftui-accessibility-attributes-4aa120b3cc76",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L383",
+      "line": 383,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility: Traits",
+      "url": "https://medium.com/flawless-app-stories/swiftui-accessibility-traits-5fee4b56c272",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L384",
+      "line": 384,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility: User Setting",
+      "url": "https://medium.com/flawless-app-stories/swiftui-accessibility-user-settings-cb4d121d7141",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L385",
+      "line": 385,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility: Semantic Views",
+      "url": "https://medium.com/flawless-app-stories/swiftui-accessibility-semantic-views-1f0dea3b9602",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L386",
+      "line": 386,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Accessibility",
+      "url": "https://medium.com/flawless-app-stories/swiftui-accessibility-e58d8850149f",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L387",
+      "line": 387,
+      "properties": {}
+    },
+    {
+      "title": "How To Build A Firebase App With SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/how-to-build-a-firebase-app-with-swiftui-5919d2d8a396",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L388",
+      "line": 388,
+      "properties": {}
+    },
+    {
+      "title": "Build a Compass app with SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/build-a-compass-app-with-swiftui-f9b7faa78098",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L389",
+      "line": 389,
+      "properties": {}
+    },
+    {
+      "title": "What’s the Delegation Protocol in SwiftUI?",
+      "url": "https://medium.com/flawless-app-stories/whats-the-protocol-in-swiftui-94c871f082e5",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L390",
+      "line": 390,
+      "properties": {}
+    },
+    {
+      "title": "Gradient in SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/gradient-in-swiftui-6c4fc408b7e8",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L391",
+      "line": 391,
+      "properties": {}
+    },
+    {
+      "title": "MapKit in SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/mapkit-in-swiftui-c0cc2b07c28a",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L392",
+      "line": 392,
+      "properties": {}
+    },
+    {
+      "title": "Programmatic navigation in SwiftUI project",
+      "url": "https://medium.com/flawless-app-stories/programmatic-navigation-in-swiftui-project-81200f35150",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L393",
+      "line": 393,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI Tutorial: Showing Badge on Tab Bar Item",
+      "url": "https://medium.com/flawless-app-stories/swiftui-tutorial-showing-badge-on-tab-bar-item-d71e4075b67a",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L394",
+      "line": 394,
+      "properties": {}
+    },
+    {
+      "title": "Gestures and Animations in SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/gestures-and-animations-in-swiftui-195625b822c9",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L395",
+      "line": 395,
+      "properties": {}
+    },
+    {
+      "title": "SwiftUI: Movie Booking App, Part 2: Movie & Actor Detail View",
+      "url": "https://medium.com/flawless-app-stories/swiftui-movie-booking-app-e6a6d8120246",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L396",
+      "line": 396,
+      "properties": {}
+    },
+    {
+      "title": "Getting Started with SwiftUI",
+      "url": "https://medium.com/flawless-app-stories/getting-started-with-swiftui-7fb8e66b98d6",
+      "category": "swiftui",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L397",
+      "line": 397,
+      "properties": {}
+    },
+    {
+      "title": "How to test iOS apps with Combine, ReactiveSwift and RxSwift",
+      "url": "https://medium.com/flawless-app-stories/how-to-test-ios-apps-with-combine-reactiveswift-and-rxswift-ebdf7b56aa83",
+      "category": "testing",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L407",
+      "line": 407,
+      "properties": {}
+    },
+    {
+      "title": "Automated UI Testing in Swift & iOS",
+      "url": "https://medium.com/flawless-app-stories/automated-ui-testing-in-swift-ios-46e1c9993316",
+      "category": "testing",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L408",
+      "line": 408,
+      "properties": {}
+    },
+    {
+      "title": "Guarantee Rx memory leaks absence",
+      "url": "https://medium.com/flawless-app-stories/guarantee-rx-memory-leaks-absence-3a90636ec49e",
+      "category": "testing",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L409",
+      "line": 409,
+      "properties": {}
+    },
+    {
+      "title": "Cracking the Tests for Core Data",
+      "url": "https://medium.com/flawless-app-stories/cracking-the-tests-for-core-data-15ef893a3fee",
+      "category": "testing",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L410",
+      "line": 410,
+      "properties": {}
+    },
+    {
+      "title": "The complete guide to Network Unit Testing in Swift",
+      "url": "https://medium.com/flawless-app-stories/the-complete-guide-to-network-unit-testing-in-swift-db8b3ee2c327",
+      "category": "testing",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L411",
+      "line": 411,
+      "properties": {}
+    },
+    {
+      "title": "How to use Golden Master testing for your iOS apps",
+      "url": "https://medium.com/flawless-app-stories/how-to-use-golden-master-testing-for-your-ios-apps-7a8a8e5afe00",
+      "category": "testing",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L412",
+      "line": 412,
+      "properties": {}
+    },
+    {
+      "title": "A complete list of articles on Unit Testing with Swift from 2017",
+      "url": "https://medium.com/flawless-app-stories/a-complete-list-of-articles-on-unit-testing-with-swift-from-2017-9be8f046ef25",
+      "category": "testing",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L413",
+      "line": 413,
+      "properties": {}
+    },
+    {
+      "title": "Why I build my apps using Texture (and why you should too)",
+      "url": "https://medium.com/flawless-app-stories/why-i-build-my-apps-using-texture-and-why-you-should-too-99587c73f278",
+      "category": "texture",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L416",
+      "line": 416,
+      "properties": {}
+    },
+    {
+      "title": "Getting Started with Moya",
+      "url": "https://medium.com/flawless-app-stories/getting-started-with-moya-f559c406e990",
+      "category": "tutorial",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L419",
+      "line": 419,
+      "properties": {}
+    },
+    {
+      "title": "Change splash screen in iOS app for dummies (the better way)",
+      "url": "https://medium.com/flawless-app-stories/change-splash-screen-in-ios-app-for-dummies-the-better-way-e385327219e",
+      "category": "tutorial",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L420",
+      "line": 420,
+      "properties": {}
+    },
+    {
+      "title": "Clean AppDelegate",
+      "url": "https://medium.com/flawless-app-stories/clean-appdelegate-1903e27f72c1",
+      "category": "tutorial",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L421",
+      "line": 421,
+      "properties": {}
+    },
+    {
+      "title": "Managing different environments in your Swift project with ease",
+      "url": "https://medium.com/flawless-app-stories/manage-different-environments-in-your-swift-project-with-ease-659f7f3fb1a6",
+      "category": "tutorial",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L422",
+      "line": 422,
+      "properties": {}
+    },
+    {
+      "title": "The Beginner’s Guide to Code Coverage",
+      "url": "https://medium.com/flawless-app-stories/the-beginners-guide-code-coverage-4e3c60e11d85",
+      "category": "tutorial",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L423",
+      "line": 423,
+      "properties": {}
+    },
+    {
+      "title": "Speed Up your iOS Development: Demystifying complex UIViews using Decorators",
+      "url": "https://medium.com/flawless-app-stories/speed-up-your-ios-development-demystifying-complex-uiviews-using-decorators-866d36279166",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L426",
+      "line": 426,
+      "properties": {}
+    },
+    {
+      "title": "A better way to update UICollectionView data in Swift with diff framework",
+      "url": "https://medium.com/flawless-app-stories/a-better-way-to-update-uicollectionview-data-in-swift-with-diff-framework-924db158db86",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L427",
+      "line": 427,
+      "properties": {}
+    },
+    {
+      "title": "Infinite UIScrollView",
+      "url": "https://medium.com/flawless-app-stories/infinite-uiscrollview-b516a5d14caf",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L428",
+      "line": 428,
+      "properties": {}
+    },
+    {
+      "title": "Container View Controllers Redux",
+      "url": "https://medium.com/flawless-app-stories/container-view-controllers-revisited-e076ef38853f",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L429",
+      "line": 429,
+      "properties": {}
+    },
+    {
+      "title": "Exploring View Hierarchy",
+      "url": "https://medium.com/flawless-app-stories/exploring-view-hierarchy-332ea63262e9",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L430",
+      "line": 430,
+      "properties": {}
+    },
+    {
+      "title": "How to create reusable UIViews in Swift",
+      "url": "https://medium.com/flawless-app-stories/reusable-uiviews-in-swift-3f9dca63eaf4",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L431",
+      "line": 431,
+      "properties": {}
+    },
+    {
+      "title": "How to use UICollectionViewDiffableDataSource",
+      "url": "https://medium.com/flawless-app-stories/how-to-use-uicollectionviewdiffabledatasource-55c60e9d3897",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L432",
+      "line": 432,
+      "properties": {}
+    },
+    {
+      "title": "All you need to know about UICollectionViewCompositionalLayout",
+      "url": "https://medium.com/flawless-app-stories/all-what-you-need-to-know-about-uicollectionviewcompositionallayout-f3b2f590bdbe",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L433",
+      "line": 433,
+      "properties": {}
+    },
+    {
+      "title": "How to build complex layout using UICollectionViewCompositionalLayout and UICollectionViewDiffableDataSource",
+      "url": "https://medium.com/flawless-app-stories/how-to-build-complex-layout-using-uicollectionviewcompositionallayout-and-9448b11dcbee",
+      "category": "uikit",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L434",
+      "line": 434,
+      "properties": {}
+    },
+    {
+      "title": "URL Routing in iOS apps: Compass Beginner Guide",
+      "url": "https://medium.com/flawless-app-stories/url-routing-with-compass-d59c0061e7e2",
+      "category": "urls",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L443",
+      "line": 443,
+      "properties": {}
+    },
+    {
+      "title": "Open URLs using the iOS UIResponder chain in Swift",
+      "url": "https://medium.com/flawless-app-stories/open-urls-using-the-ios-uiresponder-chain-in-swift-8ca8bc072686",
+      "category": "urls",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L444",
+      "line": 444,
+      "properties": {}
+    },
+    {
+      "title": "Building URLRequests with ease",
+      "url": "https://medium.com/flawless-app-stories/building-urlrequests-with-ease-f0136cdd56c3",
+      "category": "urls",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L445",
+      "line": 445,
+      "properties": {}
+    },
+    {
+      "title": "iOS Universal links and App Referrals using BranchIO Integration",
+      "url": "https://medium.com/flawless-app-stories/ios-universal-links-and-app-referrals-using-branchio-integration-31dd474be20",
+      "category": "urls",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L446",
+      "line": 446,
+      "properties": {}
+    },
+    {
+      "title": "The ultimate guide for mobile developers, who want to design",
+      "url": "https://medium.com/flawless-app-stories/https-medium-com-flawless-app-stories-the-ultimate-guide-for-mobile-developers-who-want-to-design-part1-a2d47c04fd49",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L449",
+      "line": 449,
+      "properties": {}
+    },
+    {
+      "title": "42 great UI Kits for iOS engineers",
+      "url": "https://medium.com/flawless-app-stories/30-great-ui-kits-for-ios-engineers-41b2732896b9",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L450",
+      "line": 450,
+      "properties": {}
+    },
+    {
+      "title": "10 Year Challenge: How Popular iOS Apps Have Changed",
+      "url": "https://medium.com/flawless-app-stories/10-year-challenge-how-popular-ios-apps-have-changed-a1e76ce66b55",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L451",
+      "line": 451,
+      "properties": {}
+    },
+    {
+      "title": "5 UX and Mobile Marketing Tips to Get Users Hooked to Your App",
+      "url": "https://medium.com/flawless-app-stories/5-ux-and-mobile-marketing-tips-to-get-users-hooked-to-your-app-67956c713037",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L452",
+      "line": 452,
+      "properties": {}
+    },
+    {
+      "title": "Animations in iOS: Tab Bar concepts",
+      "url": "https://medium.com/flawless-app-stories/animations-in-ios-tab-bar-concepts-e1fd73ddac67",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L453",
+      "line": 453,
+      "properties": {}
+    },
+    {
+      "title": "UI vs Print: Contradictions in typographical practice",
+      "url": "https://medium.com/flawless-app-stories/ui-vs-print-contradictions-in-typographical-practice-1396b857bcf7",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L454",
+      "line": 454,
+      "properties": {}
+    },
+    {
+      "title": "Designers guide to user data and CRUD",
+      "url": "https://medium.com/flawless-app-stories/designers-guide-to-user-data-and-crud-4e53f7c5150d",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L455",
+      "line": 455,
+      "properties": {}
+    },
+    {
+      "title": "How I Created Apple’s Shortcuts Icon System",
+      "url": "https://medium.com/flawless-app-stories/apples-shortcuts-826eabd44886",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L456",
+      "line": 456,
+      "properties": {}
+    },
+    {
+      "title": "iOS design by prototyping and iterating",
+      "url": "https://medium.com/flawless-app-stories/ios-design-by-prototyping-and-iterating-d35a222a63e8",
+      "category": "ux--ui-design-for-mobile-developers",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L457",
+      "line": 457,
+      "properties": {}
+    },
+    {
+      "title": "Managing White Label Solutions",
+      "url": "https://medium.com/flawless-app-stories/managing-white-label-solutions-8ed8ce9d7fa8",
+      "category": "white-label-solutions",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L460",
+      "line": 460,
+      "properties": {}
+    },
+    {
+      "title": "React Native App: White Label 101",
+      "url": "https://medium.com/flawless-app-stories/react-native-white-label-101-163c1967c12a",
+      "category": "white-label-solutions",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L461",
+      "line": 461,
+      "properties": {}
+    },
+    {
+      "title": "Beautiful Code Principles",
+      "url": "https://medium.com/flawless-app-stories/beautiful-code-principles-39420873eff8",
+      "category": "writing-better-code",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L464",
+      "line": 464,
+      "properties": {}
+    },
+    {
+      "title": "Four Rules of Simpler iOS Software Design",
+      "url": "https://medium.com/flawless-app-stories/four-rules-of-simpler-ios-software-design-c371818d08e0",
+      "category": "writing-better-code",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L465",
+      "line": 465,
+      "properties": {}
+    },
+    {
+      "title": "From hobbyist to professional iOS Developer: Single Responsibility Principle",
+      "url": "https://medium.com/flawless-app-stories/from-hobbyist-to-professional-ios-developer-solid-part-1-5a256e1d3b43",
+      "category": "writing-better-code",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L466",
+      "line": 466,
+      "properties": {}
+    },
+    {
+      "title": "From hobbyist to professional iOS Developer: Open/Closed Principle",
+      "url": "https://medium.com/flawless-app-stories/from-hobbyist-to-professional-ios-developer-open-close-principle-5f28d2f09f8c",
+      "category": "writing-better-code",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L467",
+      "line": 467,
+      "properties": {}
+    },
+    {
+      "title": "Explain SOLID Principles from Company perspective",
+      "url": "https://medium.com/flawless-app-stories/explain-solid-principles-from-company-perspective-with-few-codes-291fe396c22f",
+      "category": "writing-better-code",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L468",
+      "line": 468,
+      "properties": {}
+    },
+    {
+      "title": "Getting started with 3D Touch Peek & Pop— Swift",
+      "url": "https://medium.com/flawless-app-stories/getting-started-with-3d-touch-peek-pop-swift-d498da57ae19",
+      "category": "3d-touch",
+      "source_url": "https://github.com/LisaDziuba/Flawless-iOS/blob/fa12d31dc9cae1cd30596ca5ca7aa06009106662/README.md#L471",
+      "line": 471,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 233,
+  "unique_links": 233,
+  "category_count": 57,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "contributor_observation": null,
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by LisaDziuba/Flawless-iOS contributors.",
+  "license": null,
+  "license_url": "https://github.com/LisaDziuba/Flawless-iOS/tree/fa12d31dc9cae1cd30596ca5ca7aa06009106662",
+  "digest": "5a4ab8107ea69db952eaa8c92b48d84949e90ded76d77835574c3a9a542aa780"
+}

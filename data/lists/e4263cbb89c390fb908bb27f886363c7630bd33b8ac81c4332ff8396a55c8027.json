@@ -1,0 +1,1419 @@
+{
+  "format_version": 3,
+  "repository_id": "278641419",
+  "name": "madd86/awesome-system-design",
+  "revision": "52834671253b9c3a68c52f66fdf2d939990213be",
+  "readme_path": "readme.md",
+  "readme_sha256": "0fe711a1fb773d1787538cf0078bc8d968297a36a0921924d156b6f50487c93d",
+  "sections": [
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "articles",
+      "title": "Articles",
+      "level": 1,
+      "path": [
+        "Articles"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#articles",
+      "entries": 0
+    },
+    {
+      "id": "introduction--interviews",
+      "title": "Introduction / Interviews",
+      "level": 2,
+      "path": [
+        "Articles",
+        "Introduction / Interviews"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#introduction--interviews",
+      "entries": 7
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced",
+      "level": 2,
+      "path": [
+        "Articles",
+        "Advanced"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#advanced",
+      "entries": 8
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "level": 1,
+      "path": [
+        "Books"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#books",
+      "entries": 7
+    },
+    {
+      "id": "videos",
+      "title": "Videos",
+      "level": 1,
+      "path": [
+        "Videos"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#videos",
+      "entries": 0
+    },
+    {
+      "id": "introduction--interviews-1",
+      "title": "Introduction / Interviews",
+      "level": 2,
+      "path": [
+        "Videos",
+        "Introduction / Interviews"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#introduction--interviews-1",
+      "entries": 11
+    },
+    {
+      "id": "advanced-1",
+      "title": "Advanced",
+      "level": 2,
+      "path": [
+        "Videos",
+        "Advanced"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#advanced-1",
+      "entries": 3
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "level": 1,
+      "path": [
+        "Tools"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#tools",
+      "entries": 0
+    },
+    {
+      "id": "relational-database-management-system",
+      "title": "Relational Database Management System",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Relational Database Management System"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#relational-database-management-system",
+      "entries": 5
+    },
+    {
+      "id": "nosql",
+      "title": "NoSQL",
+      "level": 2,
+      "path": [
+        "Tools",
+        "NoSQL"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#nosql",
+      "entries": 0
+    },
+    {
+      "id": "cache-key-value",
+      "title": "Cache (Key-Value)",
+      "level": 3,
+      "path": [
+        "Tools",
+        "NoSQL",
+        "Cache (Key-Value)"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#cache-key-value",
+      "entries": 5
+    },
+    {
+      "id": "store-key-value",
+      "title": "Store (Key-Value)",
+      "level": 3,
+      "path": [
+        "Tools",
+        "NoSQL",
+        "Store (Key-Value)"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#store-key-value",
+      "entries": 2
+    },
+    {
+      "id": "document-store",
+      "title": "Document Store",
+      "level": 3,
+      "path": [
+        "Tools",
+        "NoSQL",
+        "Document Store"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#document-store",
+      "entries": 5
+    },
+    {
+      "id": "wide-column-store",
+      "title": "Wide Column Store",
+      "level": 3,
+      "path": [
+        "Tools",
+        "NoSQL",
+        "Wide Column Store"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#wide-column-store",
+      "entries": 6
+    },
+    {
+      "id": "graph",
+      "title": "Graph",
+      "level": 3,
+      "path": [
+        "Tools",
+        "NoSQL",
+        "Graph"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#graph",
+      "entries": 4
+    },
+    {
+      "id": "distributed-file-systems",
+      "title": "Distributed File Systems",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Distributed File Systems"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#distributed-file-systems",
+      "entries": 6
+    },
+    {
+      "id": "resource-management",
+      "title": "Resource Management",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Resource Management"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#resource-management",
+      "entries": 1
+    },
+    {
+      "id": "stream-processing",
+      "title": "Stream Processing",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Stream Processing"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#stream-processing",
+      "entries": 4
+    },
+    {
+      "id": "message-broker",
+      "title": "Message Broker",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Message Broker"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#message-broker",
+      "entries": 8
+    },
+    {
+      "id": "load-balancers",
+      "title": "Load Balancers",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Load Balancers"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#load-balancers",
+      "entries": 0
+    },
+    {
+      "id": "open-source-software",
+      "title": "Open Source Software",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Load Balancers",
+        "Open Source Software"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#open-source-software",
+      "entries": 6
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Load Balancers",
+        "Hardware"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#hardware",
+      "entries": 3
+    },
+    {
+      "id": "cloud",
+      "title": "Cloud",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Load Balancers",
+        "Cloud"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#cloud",
+      "entries": 5
+    },
+    {
+      "id": "hadoop-ecosystem",
+      "title": "Hadoop Ecosystem",
+      "level": 2,
+      "path": [
+        "Tools",
+        "Hadoop Ecosystem"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#hadoop-ecosystem",
+      "entries": 0
+    },
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Hadoop Ecosystem",
+        "Dashboard"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#dashboard",
+      "entries": 1
+    },
+    {
+      "id": "data-ingestion",
+      "title": "Data Ingestion",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Hadoop Ecosystem",
+        "Data Ingestion"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#data-ingestion",
+      "entries": 3
+    },
+    {
+      "id": "workflow-scheduler",
+      "title": "Workflow Scheduler",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Hadoop Ecosystem",
+        "Workflow Scheduler"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#workflow-scheduler",
+      "entries": 1
+    },
+    {
+      "id": "query",
+      "title": "Query",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Hadoop Ecosystem",
+        "Query"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#query",
+      "entries": 2
+    },
+    {
+      "id": "processing",
+      "title": "Processing",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Hadoop Ecosystem",
+        "Processing"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#processing",
+      "entries": 4
+    },
+    {
+      "id": "db",
+      "title": "DB",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Hadoop Ecosystem",
+        "DB"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#db",
+      "entries": 1
+    },
+    {
+      "id": "resource-management-1",
+      "title": "Resource Management",
+      "level": 3,
+      "path": [
+        "Tools",
+        "Hadoop Ecosystem",
+        "Resource Management"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#resource-management-1",
+      "entries": 2
+    },
+    {
+      "id": "rest-framework",
+      "title": "REST Framework",
+      "level": 2,
+      "path": [
+        "Tools",
+        "REST Framework"
+      ],
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#rest-framework",
+      "entries": 10
+    }
+  ],
+  "entries": [
+    {
+      "title": "System Design Primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "category": "introduction--interviews",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "System Design Interview Questions - Concepts you should know",
+      "url": "https://www.freecodecamp.org/news/systems-design-for-interviews/",
+      "category": "introduction--interviews",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "Grokking the System Design Interview",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview",
+      "category": "introduction--interviews",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "System Design in Software Development",
+      "url": "https://medium.com/the-andela-way/system-design-in-software-development-f360ce6fcbb9",
+      "category": "introduction--interviews",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "System Design",
+      "url": "https://www.interviewbit.com/courses/system-design/",
+      "category": "introduction--interviews",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "Design Pattern for Distributed Systems",
+      "url": "https://www.codemag.com/Article/1909071/Design-Patterns-for-Distributed-Systems",
+      "category": "introduction--interviews",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "Practice system design problems using AI on Codemia.io",
+      "url": "https://codemia.io/",
+      "category": "introduction--interviews",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Distributed Computing",
+      "url": "https://en.wikipedia.org/wiki/Distributed_computing",
+      "category": "advanced",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Fallacies of Distributed Computing",
+      "url": "https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing",
+      "category": "advanced",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "Fallacies of Distributed Computing Explained",
+      "url": "http://www.rgoarchitects.com/Files/fallacies.pdf",
+      "category": "advanced",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "CAP Theorem",
+      "url": "https://www.ibm.com/cloud/learn/cap-theorem",
+      "category": "advanced",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Pattern: Microservice Architecture",
+      "url": "https://microservices.io/patterns/microservices.html",
+      "category": "advanced",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Taxonomy of Distributed Systems",
+      "url": "https://www.cs.rutgers.edu/~pxk/rutgers/notes/content/01-intro.pdf",
+      "category": "advanced",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "Top 10 Secure Coding Practices",
+      "url": "https://wiki.sei.cmu.edu/confluence/display/seccode/Top+10+Secure+Coding+Practices",
+      "category": "advanced",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Scalable Web Architecture and Distributed Systems",
+      "url": "http://www.aosabook.org/en/distsys.html",
+      "category": "advanced",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable Services",
+      "url": "https://www.amazon.com/Designing-Distributed-Systems-Patterns-Paradigms/dp/1491983647",
+      "category": "books",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L81",
+      "line": 81,
+      "properties": {}
+    },
+    {
+      "title": "Designing Data Intensive Applications",
+      "url": "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=pd_lpo_14_t_0/140-0179130-4076567?_encoding=UTF8&pd_rd_i=1449373321&pd_rd_r=e1f26397-6b89-4ffe-923f-21ad2d124b7a&pd_rd_w=7kW0U&pd_rd_wg=HYohZ&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=FC1XXD2Q6DDAJ4Z1RN2K&psc=1&refRID=FC1XXD2Q6DDAJ4Z1RN2K",
+      "category": "books",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "The System Design Manual",
+      "url": "https://systemdesignmanual.com/",
+      "category": "books",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "Building Microservices",
+      "url": "http://ce.sharif.edu/courses/96-97/1/ce924-1/resources/root/Books/building-microservices-designing-fine-grained-systems.pdf",
+      "category": "books",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "Monolith to Microservices",
+      "url": "https://www.nginx.com/resources/library/monolith-to-microservices/",
+      "category": "books",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Distributed Systems (3rd Edition)",
+      "url": "https://www.distributed-systems.net/index.php/books/ds3/",
+      "category": "books",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Safe by Design",
+      "url": "https://github.com/SanQri/safe-by-design/",
+      "category": "books",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Gaurav Sen - System Design Series",
+      "url": "https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "Tech Dummies - System Design Series",
+      "url": "https://www.youtube.com/watch?v=mhUQe4BKZXs&list=PLkQkbY7JNJuBoTemzQfjym0sqbOHt5fnV",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Mock System Design Interview at Google",
+      "url": "https://www.youtube.com/watch?v=q0KGYwNbf-0",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "Google Preparation Guide",
+      "url": "https://www.youtube.com/watch?v=Gg318hR5JY0",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "System Design Interview",
+      "url": "https://www.youtube.com/c/SystemDesignInterview/",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "Intro to Architecture and System Design Interviews",
+      "url": "https://www.youtube.com/watch?v=ZgdS0EUmn70",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "System Design Introduction for Interview",
+      "url": "https://www.youtube.com/watch?v=UzLMhqg3_Wc",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "Distributed Systems",
+      "url": "https://www.youtube.com/playlist?list=PLOE1GTZ5ouRPbpTnrZ3Wqjamfwn_Q5Y9A",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "The Easy Way",
+      "url": "https://www.youtube.com/channel/UCVZfU1sp66H9d4sdYx4iNkQ",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "System Design by SDE Skills",
+      "url": "https://www.youtube.com/playlist?list=PLBtMh4xfa9FHSMKKgPZcPfoPbZmND5PC-",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "System Design by CodeKarle",
+      "url": "https://www.youtube.com/watch?v=EpASu_1dUdE&list=PLhgw50vUymyckXl3D1IlXoVl94wknJfUC",
+      "category": "introduction--interviews-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "The evolution of Reddit Architecture",
+      "url": "https://www.youtube.com/watch?v=nUcO7n4hek4",
+      "category": "advanced-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "6.824 Distributed Systems by MIT",
+      "url": "https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB",
+      "category": "advanced-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "CSE138 Distributed Systems by UCSC",
+      "url": "https://www.youtube.com/playlist?list=PLNPUF5QyWU8O0Wd8QDh9KaM1ggsxspJ31",
+      "category": "advanced-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "MariaDB",
+      "url": "https://mariadb.org/",
+      "category": "relational-database-management-system",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "MySQL",
+      "url": "https://dev.mysql.com/",
+      "category": "relational-database-management-system",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "PostgresSQL",
+      "url": "https://www.postgresql.org/",
+      "category": "relational-database-management-system",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L141",
+      "line": 141,
+      "properties": {}
+    },
+    {
+      "title": "SQLite",
+      "url": "https://www.sqlite.org/index.html",
+      "category": "relational-database-management-system",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "Sql Server",
+      "url": "https://www.microsoft.com/en-us/sql-server",
+      "category": "relational-database-management-system",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L145",
+      "line": 145,
+      "properties": {}
+    },
+    {
+      "title": "Apache Ignite",
+      "url": "https://github.com/apache/ignite",
+      "category": "cache-key-value",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "Couchbase",
+      "url": "https://developer.couchbase.com/open-source-projects",
+      "category": "cache-key-value",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "Oracle Coherence",
+      "url": "https://github.com/oracle/coherence",
+      "category": "cache-key-value",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "Memcached",
+      "url": "https://github.com/memcached/memcached",
+      "category": "cache-key-value",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "Redis",
+      "url": "https://github.com/redis/redis",
+      "category": "cache-key-value",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "Apple FoundationDB",
+      "url": "https://github.com/apple/foundationdb",
+      "category": "store-key-value",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L163",
+      "line": 163,
+      "properties": {}
+    },
+    {
+      "title": "Cosmos DB",
+      "url": "https://docs.microsoft.com/en-us/azure/cosmos-db/introduction",
+      "category": "store-key-value",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "CouchDB",
+      "url": "https://github.com/apache/couchdb",
+      "category": "document-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L169",
+      "line": 169,
+      "properties": {}
+    },
+    {
+      "title": "MongoDB",
+      "url": "https://www.mongodb.com/",
+      "category": "document-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L171",
+      "line": 171,
+      "properties": {}
+    },
+    {
+      "title": "RethinkDB",
+      "url": "https://github.com/rethinkdb/rethinkdb",
+      "category": "document-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "ElasticSearch",
+      "url": "https://github.com/elastic/elasticsearch",
+      "category": "document-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "Cosmos DB",
+      "url": "https://docs.microsoft.com/en-us/azure/cosmos-db/introduction",
+      "category": "document-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L177",
+      "line": 177,
+      "properties": {}
+    },
+    {
+      "title": "Amazon DynamoDB",
+      "url": "https://aws.amazon.com/dynamodb/",
+      "category": "wide-column-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "Google Bigtable",
+      "url": "https://cloud.google.com/bigtable",
+      "category": "wide-column-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "Cassandra",
+      "url": "https://cassandra.apache.org/",
+      "category": "wide-column-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Scylla",
+      "url": "https://github.com/scylladb/scylla",
+      "category": "wide-column-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "HBase",
+      "url": "https://github.com/apache/hbase",
+      "category": "wide-column-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L189",
+      "line": 189,
+      "properties": {}
+    },
+    {
+      "title": "Cosmos DB",
+      "url": "https://docs.microsoft.com/en-us/azure/cosmos-db/introduction",
+      "category": "wide-column-store",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L191",
+      "line": 191,
+      "properties": {}
+    },
+    {
+      "title": "Amazon Neptune",
+      "url": "https://aws.amazon.com/neptune/",
+      "category": "graph",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "ArangoDB",
+      "url": "https://github.com/arangodb/arangodb",
+      "category": "graph",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L197",
+      "line": 197,
+      "properties": {}
+    },
+    {
+      "title": "Neo4j",
+      "url": "https://github.com/neo4j/neo4j",
+      "category": "graph",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Cosmos DB",
+      "url": "https://docs.microsoft.com/en-us/azure/cosmos-db/introduction",
+      "category": "graph",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "HDFS",
+      "url": "https://hadoop.apache.org/",
+      "category": "distributed-file-systems",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "Lustre",
+      "url": "http://lustre.org/",
+      "category": "distributed-file-systems",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "CephFS",
+      "url": "https://ceph.io/",
+      "category": "distributed-file-systems",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "GlusterFS",
+      "url": "https://www.gluster.org/",
+      "category": "distributed-file-systems",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "MooseFS",
+      "url": "https://moosefs.com/",
+      "category": "distributed-file-systems",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "XtreemFS",
+      "url": "http://www.xtreemfs.org/",
+      "category": "distributed-file-systems",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "Kubernetes",
+      "url": "https://kubernetes.io/",
+      "category": "resource-management",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L219",
+      "line": 219,
+      "properties": {}
+    },
+    {
+      "title": "Apache Samza",
+      "url": "http://samza.apache.org/",
+      "category": "stream-processing",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "Apache Flink",
+      "url": "https://flink.apache.org/",
+      "category": "stream-processing",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L225",
+      "line": 225,
+      "properties": {}
+    },
+    {
+      "title": "Amazon Kinesis Streams",
+      "url": "https://aws.amazon.com/kinesis/data-streams/",
+      "category": "stream-processing",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L227",
+      "line": 227,
+      "properties": {}
+    },
+    {
+      "title": "Azure Stream Analytics",
+      "url": "https://azure.microsoft.com/en-us/services/stream-analytics/",
+      "category": "stream-processing",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "Amazon MQ",
+      "url": "https://aws.amazon.com/amazon-mq/",
+      "category": "message-broker",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L233",
+      "line": 233,
+      "properties": {}
+    },
+    {
+      "title": "Apache ActiveMQ",
+      "url": "https://activemq.apache.org/",
+      "category": "message-broker",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L235",
+      "line": 235,
+      "properties": {}
+    },
+    {
+      "title": "Apache Kafka",
+      "url": "https://kafka.apache.org/",
+      "category": "message-broker",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L237",
+      "line": 237,
+      "properties": {}
+    },
+    {
+      "title": "RabbitMQ",
+      "url": "https://www.rabbitmq.com/",
+      "category": "message-broker",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "IronMQ",
+      "url": "https://www.iron.io/mq",
+      "category": "message-broker",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "Apache Pulsar",
+      "url": "https://pulsar.apache.org/",
+      "category": "message-broker",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Kestrel",
+      "url": "https://github.com/twitter-archive/kestrel",
+      "category": "message-broker",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "Azure Service Bus",
+      "url": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview",
+      "category": "message-broker",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L248",
+      "line": 248,
+      "properties": {}
+    },
+    {
+      "title": "SeeSaw",
+      "url": "https://github.com/google/seesaw",
+      "category": "open-source-software",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "HAProxy",
+      "url": "https://www.haproxy.org/",
+      "category": "open-source-software",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L256",
+      "line": 256,
+      "properties": {}
+    },
+    {
+      "title": "Zevenet",
+      "url": "https://www.zevenet.com/products/community/#repository",
+      "category": "open-source-software",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L258",
+      "line": 258,
+      "properties": {}
+    },
+    {
+      "title": "Neutrino",
+      "url": "https://neutrinoslb.github.io/",
+      "category": "open-source-software",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L260",
+      "line": 260,
+      "properties": {}
+    },
+    {
+      "title": "Nginx",
+      "url": "https://www.nginx.com/",
+      "category": "open-source-software",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Openresty",
+      "url": "https://github.com/openresty/openresty",
+      "category": "open-source-software",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L264",
+      "line": 264,
+      "properties": {}
+    },
+    {
+      "title": "F5",
+      "url": "https://www.f5.com/services/resources/glossary/load-balancer",
+      "category": "hardware",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L268",
+      "line": 268,
+      "properties": {}
+    },
+    {
+      "title": "TP-Link",
+      "url": "https://www.tp-link.com/",
+      "category": "hardware",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L270",
+      "line": 270,
+      "properties": {}
+    },
+    {
+      "title": "Barracuda",
+      "url": "https://www.barracuda.com/products/loadbalancer",
+      "category": "hardware",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L272",
+      "line": 272,
+      "properties": {}
+    },
+    {
+      "title": "Amazon Elastic Load Balancing",
+      "url": "https://aws.amazon.com/elasticloadbalancing/",
+      "category": "cloud",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L276",
+      "line": 276,
+      "properties": {}
+    },
+    {
+      "title": "Google Load Balancing",
+      "url": "https://cloud.google.com/load-balancing",
+      "category": "cloud",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L278",
+      "line": 278,
+      "properties": {}
+    },
+    {
+      "title": "Cloudflare Load Balancing",
+      "url": "https://www.cloudflare.com/load-balancing/",
+      "category": "cloud",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L280",
+      "line": 280,
+      "properties": {}
+    },
+    {
+      "title": "DigitalOcean Load Balancing",
+      "url": "https://www.digitalocean.com/docs/networking/load-balancers/",
+      "category": "cloud",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L282",
+      "line": 282,
+      "properties": {}
+    },
+    {
+      "title": "Azure Load Balancing",
+      "url": "https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview",
+      "category": "cloud",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L284",
+      "line": 284,
+      "properties": {}
+    },
+    {
+      "title": "Ambari",
+      "url": "https://ambari.apache.org/",
+      "category": "dashboard",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L292",
+      "line": 292,
+      "properties": {}
+    },
+    {
+      "title": "Sqoop",
+      "url": "https://sqoop.apache.org/",
+      "category": "data-ingestion",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L296",
+      "line": 296,
+      "properties": {}
+    },
+    {
+      "title": "Flume",
+      "url": "https://flume.apache.org/",
+      "category": "data-ingestion",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L298",
+      "line": 298,
+      "properties": {}
+    },
+    {
+      "title": "Apache Kafka",
+      "url": "https://kafka.apache.org/",
+      "category": "data-ingestion",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L300",
+      "line": 300,
+      "properties": {}
+    },
+    {
+      "title": "Oozie",
+      "url": "https://oozie.apache.org/",
+      "category": "workflow-scheduler",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L304",
+      "line": 304,
+      "properties": {}
+    },
+    {
+      "title": "Hive",
+      "url": "https://hive.apache.org/",
+      "category": "query",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L308",
+      "line": 308,
+      "properties": {}
+    },
+    {
+      "title": "Pig",
+      "url": "https://pig.apache.org/",
+      "category": "query",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L309",
+      "line": 309,
+      "properties": {}
+    },
+    {
+      "title": "Tez",
+      "url": "https://tez.apache.org/",
+      "category": "processing",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L313",
+      "line": 313,
+      "properties": {}
+    },
+    {
+      "title": "Map Reduce",
+      "url": "https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html",
+      "category": "processing",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L314",
+      "line": 314,
+      "properties": {}
+    },
+    {
+      "title": "Spark",
+      "url": "https://spark.apache.org/",
+      "category": "processing",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L315",
+      "line": 315,
+      "properties": {}
+    },
+    {
+      "title": "Apex",
+      "url": "https://apex.apache.org/",
+      "category": "processing",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L316",
+      "line": 316,
+      "properties": {}
+    },
+    {
+      "title": "HBase",
+      "url": "https://github.com/apache/hbase",
+      "category": "db",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L320",
+      "line": 320,
+      "properties": {}
+    },
+    {
+      "title": "YARN",
+      "url": "https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html",
+      "category": "resource-management-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L324",
+      "line": 324,
+      "properties": {}
+    },
+    {
+      "title": "MESOS",
+      "url": "http://mesos.apache.org/",
+      "category": "resource-management-1",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L325",
+      "line": 325,
+      "properties": {}
+    },
+    {
+      "title": "Gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L329",
+      "line": 329,
+      "properties": {}
+    },
+    {
+      "title": "Phoenix",
+      "url": "https://github.com/phoenixframework/phoenix",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L331",
+      "line": 331,
+      "properties": {}
+    },
+    {
+      "title": "Express.js",
+      "url": "https://github.com/expressjs/express",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L333",
+      "line": 333,
+      "properties": {}
+    },
+    {
+      "title": "Rails",
+      "url": "https://github.com/rails/rails",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L335",
+      "line": 335,
+      "properties": {}
+    },
+    {
+      "title": "Play Framework",
+      "url": "https://github.com/playframework/playframework",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L337",
+      "line": 337,
+      "properties": {}
+    },
+    {
+      "title": "Flask",
+      "url": "https://github.com/pallets/flask",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L339",
+      "line": 339,
+      "properties": {}
+    },
+    {
+      "title": "FastAPI",
+      "url": "https://github.com/tiangolo/fastapi",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L341",
+      "line": 341,
+      "properties": {}
+    },
+    {
+      "title": "Django REST",
+      "url": "https://github.com/encode/django-rest-framework",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L343",
+      "line": 343,
+      "properties": {}
+    },
+    {
+      "title": "ASP.NET Core MVC",
+      "url": "https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-3.1",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L345",
+      "line": 345,
+      "properties": {}
+    },
+    {
+      "title": "Fastify",
+      "url": "https://github.com/fastify/fastify",
+      "category": "rest-framework",
+      "source_url": "https://github.com/madd86/awesome-system-design/blob/52834671253b9c3a68c52f66fdf2d939990213be/readme.md#L347",
+      "line": 347,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 120,
+  "unique_links": 115,
+  "category_count": 26,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "KashMoneyMillionaire",
+      "url": "https://github.com/KashMoneyMillionaire",
+      "contributions": 3
+    },
+    {
+      "login": "madd86",
+      "url": "https://github.com/madd86",
+      "contributions": 3
+    },
+    {
+      "login": "adityaprakash-bobby",
+      "url": "https://github.com/adityaprakash-bobby",
+      "contributions": 1
+    },
+    {
+      "login": "andreaswillems",
+      "url": "https://github.com/andreaswillems",
+      "contributions": 1
+    },
+    {
+      "login": "deekshakaul",
+      "url": "https://github.com/deekshakaul",
+      "contributions": 1
+    },
+    {
+      "login": "Eomm",
+      "url": "https://github.com/Eomm",
+      "contributions": 1
+    },
+    {
+      "login": "Margotaro",
+      "url": "https://github.com/Margotaro",
+      "contributions": 1
+    },
+    {
+      "login": "markqian",
+      "url": "https://github.com/markqian",
+      "contributions": 1
+    },
+    {
+      "login": "shobhitmittal",
+      "url": "https://github.com/shobhitmittal",
+      "contributions": 1
+    },
+    {
+      "login": "sid597",
+      "url": "https://github.com/sid597",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 45,
+    "has_more": false,
+    "path_commit_count": 45,
+    "public_contributors": 12,
+    "observed_at": "2026-09-03T17:42:07.930175+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by madd86/awesome-system-design contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/madd86/awesome-system-design/tree/52834671253b9c3a68c52f66fdf2d939990213be",
+  "digest": "e4263cbb89c390fb908bb27f886363c7630bd33b8ac81c4332ff8396a55c8027"
+}

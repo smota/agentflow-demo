@@ -1,0 +1,1446 @@
+{
+  "format_version": 3,
+  "repository_id": "304274477",
+  "name": "swoole/awesome-swoole",
+  "revision": "9bc16e5721d1214803964e63188d362593f118fe",
+  "readme_path": "README.md",
+  "readme_sha256": "22e086c36e84f86729e10cb099a5ce6a3aeb8b71c66988f7e670a18b24d9470e",
+  "sections": [
+    {
+      "id": "awesome-swoole",
+      "title": "Awesome Swoole",
+      "level": 1,
+      "path": [
+        "Awesome Swoole"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#awesome-swoole",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 1,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "architectural",
+      "title": "Architectural",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Architectural"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#architectural",
+      "entries": 2
+    },
+    {
+      "id": "client-packages",
+      "title": "Client Packages",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Client Packages"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#client-packages",
+      "entries": 7
+    },
+    {
+      "id": "cronjobs",
+      "title": "Cronjobs",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Cronjobs"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#cronjobs",
+      "entries": 2
+    },
+    {
+      "id": "database",
+      "title": "Database",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Database"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#database",
+      "entries": 7
+    },
+    {
+      "id": "debugging-and-profiling",
+      "title": "Debugging and Profiling",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Debugging and Profiling"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#debugging-and-profiling",
+      "entries": 5
+    },
+    {
+      "id": "development-environment",
+      "title": "Development Environment",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Development Environment"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#development-environment",
+      "entries": 4
+    },
+    {
+      "id": "distribution",
+      "title": "Distribution",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Distribution"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#distribution",
+      "entries": 3
+    },
+    {
+      "id": "frameworks",
+      "title": "Frameworks",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Frameworks"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#frameworks",
+      "entries": 38
+    },
+    {
+      "id": "framework-integration",
+      "title": "Framework Integration",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Framework Integration"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#framework-integration",
+      "entries": 17
+    },
+    {
+      "id": "grpc",
+      "title": "gRPC",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "gRPC"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#grpc",
+      "entries": 4
+    },
+    {
+      "id": "http-and-websocket",
+      "title": "HTTP and WebSocket",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "HTTP and WebSocket"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#http-and-websocket",
+      "entries": 8
+    },
+    {
+      "id": "logging",
+      "title": "Logging",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Logging"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#logging",
+      "entries": 4
+    },
+    {
+      "id": "serverless",
+      "title": "Serverless",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Serverless"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#serverless",
+      "entries": 1
+    },
+    {
+      "id": "soa-governance",
+      "title": "SOA governance",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "SOA governance"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#soa-governance",
+      "entries": 2
+    },
+    {
+      "id": "tasks-and-queues",
+      "title": "Tasks and Queues",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Tasks and Queues"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#tasks-and-queues",
+      "entries": 6
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Testing"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#testing",
+      "entries": 1
+    },
+    {
+      "id": "third-party-sdk",
+      "title": "Third-party SDK",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Third-party SDK"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#third-party-sdk",
+      "entries": 3
+    },
+    {
+      "id": "web-applications",
+      "title": "Web Applications",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Web Applications"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#web-applications",
+      "entries": 5
+    },
+    {
+      "id": "miscellaneous",
+      "title": "Miscellaneous",
+      "level": 2,
+      "path": [
+        "Table of Contents",
+        "Miscellaneous"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#miscellaneous",
+      "entries": 11
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "level": 1,
+      "path": [
+        "Resources"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#resources",
+      "entries": 0
+    },
+    {
+      "id": "swoole-books",
+      "title": "Swoole Books",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Swoole Books"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#swoole-books",
+      "entries": 2
+    },
+    {
+      "id": "swoole-videos",
+      "title": "Swoole Videos",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Swoole Videos"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#swoole-videos",
+      "entries": 3
+    },
+    {
+      "id": "miscellaneous-1",
+      "title": "Miscellaneous",
+      "level": 2,
+      "path": [
+        "Resources",
+        "Miscellaneous"
+      ],
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#miscellaneous-1",
+      "entries": 1
+    }
+  ],
+  "entries": [
+    {
+      "title": "leocarmo/circuit-breaker-php",
+      "url": "https://github.com/leocarmo/circuit-breaker-php",
+      "category": "architectural",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Phluxor",
+      "url": "https://github.com/ytake/phluxor",
+      "category": "architectural",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/jet",
+      "url": "https://github.com/hyperf/jet",
+      "category": "client-packages",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/consul",
+      "url": "https://github.com/hyperf/consul",
+      "category": "client-packages",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L50",
+      "line": 50,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/elasticsearch",
+      "url": "https://github.com/hyperf/elasticsearch",
+      "category": "client-packages",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/etcd",
+      "url": "https://github.com/hyperf/etcd",
+      "category": "client-packages",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L52",
+      "line": 52,
+      "properties": {}
+    },
+    {
+      "title": "simps/mqtt",
+      "url": "https://github.com/simps/mqtt",
+      "category": "client-packages",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "swoole/ext-postgresql",
+      "url": "https://github.com/swoole/ext-postgresql",
+      "category": "client-packages",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L54",
+      "line": 54,
+      "properties": {}
+    },
+    {
+      "title": "swoole/ext-zookeeper",
+      "url": "https://github.com/swoole/ext-zookeeper",
+      "category": "client-packages",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/crontab",
+      "url": "https://github.com/hyperf/crontab",
+      "category": "cronjobs",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "osgochina/swoole-crontab",
+      "url": "https://github.com/osgochina/swoole-crontab",
+      "category": "cronjobs",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/database",
+      "url": "https://github.com/hyperf/database",
+      "category": "database",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "mix/database",
+      "url": "https://github.com/mix-php/database",
+      "category": "database",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "mix/redis",
+      "url": "https://github.com/mix-php/redis",
+      "category": "database",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "mix/redis-subscriber",
+      "url": "https://github.com/mix-php/redis-subscriber",
+      "category": "database",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "open-smf/connection-pool",
+      "url": "https://github.com/open-smf/connection-pool",
+      "category": "database",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "simple-swoole/db",
+      "url": "https://github.com/simple-swoole/db",
+      "category": "database",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "SMProxy",
+      "url": "https://github.com/louislivi/SMProxy",
+      "category": "database",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "apache/skywalking-php",
+      "url": "https://github.com/apache/skywalking-php",
+      "category": "debugging-and-profiling",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Blackfire",
+      "url": "https://www.blackfire.io/",
+      "category": "debugging-and-profiling",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "upscale/swoole-blackfire",
+      "url": "https://github.com/upscalesoftware/swoole-blackfire",
+      "category": "debugging-and-profiling",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "swoole/debugger",
+      "url": "https://github.com/swoole/debugger",
+      "category": "debugging-and-profiling",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Xdebug",
+      "url": "https://xdebug.org/",
+      "category": "debugging-and-profiling",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "adhocore/lemp",
+      "url": "https://github.com/adhocore/docker-lemp",
+      "category": "development-environment",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "phpswoole/swoole",
+      "url": "https://github.com/swoole/docker-swoole",
+      "category": "development-environment",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Swoole IDE Helper",
+      "url": "https://plugins.jetbrains.com/plugin/13040-swoole-ide-helper",
+      "category": "development-environment",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "swoole/ide-helper",
+      "url": "https://github.com/swoole/ide-helper",
+      "category": "development-environment",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L87",
+      "line": 87,
+      "properties": {}
+    },
+    {
+      "title": "shivammathur/extensions",
+      "url": "https://github.com/shivammathur/homebrew-extensions",
+      "category": "distribution",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "static-php-cli",
+      "url": "https://github.com/crazywhalecc/static-php-cli",
+      "category": "distribution",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "swoole-cli",
+      "url": "https://github.com/swoole/swoole-cli",
+      "category": "distribution",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "chubbyphp-framework",
+      "url": "https://github.com/chubbyphp/chubbyphp-framework",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Fomo",
+      "url": "https://github.com/fomo-framework/fomo",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Hyperf",
+      "url": "https://github.com/hyperf/hyperf",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/amqp",
+      "url": "https://github.com/hyperf/amqp",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/async-queue",
+      "url": "https://github.com/hyperf/async-queue",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L102",
+      "line": 102,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/consul",
+      "url": "https://github.com/hyperf/consul",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/crontab",
+      "url": "https://github.com/hyperf/crontab",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/database",
+      "url": "https://github.com/hyperf/database",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/elasticsearch",
+      "url": "https://github.com/hyperf/elasticsearch",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/etcd",
+      "url": "https://github.com/hyperf/etcd",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/filesystem",
+      "url": "https://github.com/hyperf/filesystem",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L108",
+      "line": 108,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/jet",
+      "url": "https://github.com/hyperf/jet",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/logger",
+      "url": "https://github.com/hyperf/logger",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L110",
+      "line": 110,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/task",
+      "url": "https://github.com/hyperf/task",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/tracer",
+      "url": "https://github.com/hyperf/tracer",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "friendsofhyperf/components",
+      "url": "https://github.com/friendsofhyperf/components",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "96qbhy/hyperf-auth",
+      "url": "https://github.com/qbhy/hyperf-auth",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "opencodeco/hyperf-doctrine",
+      "url": "https://github.com/opencodeco/hyperf-doctrine",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L116",
+      "line": 116,
+      "properties": {}
+    },
+    {
+      "title": "reasno/fastmongo",
+      "url": "https://github.com/Reasno/fastmongo",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "Hypervel",
+      "url": "https://hypervel.org/",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "LightMVC",
+      "url": "https://lightmvcframework.net/",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Nano",
+      "url": "https://github.com/hyperf/nano",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "imi",
+      "url": "https://github.com/imiphp/imi",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "mezzio/mezzio-swoole",
+      "url": "https://github.com/mezzio/mezzio-swoole",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Siler",
+      "url": "https://github.com/leocavalcante/siler",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "lizhichao/one",
+      "url": "https://github.com/lizhichao/one",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L125",
+      "line": 125,
+      "properties": {}
+    },
+    {
+      "title": "Mix PHP",
+      "url": "https://github.com/mix-php/mix",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "mix/database",
+      "url": "https://github.com/mix-php/database",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "mix/monolog",
+      "url": "https://github.com/mix-php/monolog",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L129",
+      "line": 129,
+      "properties": {}
+    },
+    {
+      "title": "mix/redis",
+      "url": "https://github.com/mix-php/redis",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "mix/redis-subscriber",
+      "url": "https://github.com/mix-php/redis-subscriber",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "mix/tracing-zipkin",
+      "url": "https://github.com/mix-php/tracing-zipkin",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "mix/sync-invoke",
+      "url": "https://github.com/mix-php/sync-invoke",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Polyel",
+      "url": "https://github.com/Superbition/Polyel-Framework",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L134",
+      "line": 134,
+      "properties": {}
+    },
+    {
+      "title": "Resonance",
+      "url": "https://github.com/distantmagic/resonance",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L135",
+      "line": 135,
+      "properties": {}
+    },
+    {
+      "title": "QueryPHP",
+      "url": "https://github.com/hunzhiwange/queryphp",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "Simps",
+      "url": "https://github.com/simple-swoole/simps",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L138",
+      "line": 138,
+      "properties": {}
+    },
+    {
+      "title": "Ubiquity",
+      "url": "https://github.com/phpMv/ubiquity",
+      "category": "frameworks",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L139",
+      "line": 139,
+      "properties": {}
+    },
+    {
+      "title": "PHP Runtimes",
+      "url": "https://github.com/php-runtime/runtime",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L144",
+      "line": 144,
+      "properties": {}
+    },
+    {
+      "title": "The Swoole module for Drupal",
+      "url": "https://www.drupal.org/project/swoole",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "Laravel Octane",
+      "url": "https://github.com/laravel/octane",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L148",
+      "line": 148,
+      "properties": {}
+    },
+    {
+      "title": "hhxsv5/laravel-s",
+      "url": "https://github.com/hhxsv5/laravel-s",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "huang-yi/shadowfax",
+      "url": "https://github.com/huang-yi/shadowfax",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L150",
+      "line": 150,
+      "properties": {}
+    },
+    {
+      "title": "scil/laravel-fly",
+      "url": "https://github.com/scil/LaravelFly",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L151",
+      "line": 151,
+      "properties": {}
+    },
+    {
+      "title": "swooletw/laravel-swoole",
+      "url": "https://github.com/swooletw/laravel-swoole",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "toxmc/fast-laravel",
+      "url": "https://github.com/toxmc/fast-laravel",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L153",
+      "line": 153,
+      "properties": {}
+    },
+    {
+      "title": "phwoolcon/phwoolcon",
+      "url": "https://github.com/phwoolcon/phwoolcon",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "pachico/Slim-Swoole",
+      "url": "https://github.com/pachico/slim-swoole",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L157",
+      "line": 157,
+      "properties": {}
+    },
+    {
+      "title": "swoole-bundle/swoole-bundle",
+      "url": "https://github.com/symfony-swoole/swoole-bundle",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L159",
+      "line": 159,
+      "properties": {}
+    },
+    {
+      "title": "symfony/runtime",
+      "url": "https://github.com/symfony/runtime",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L160",
+      "line": 160,
+      "properties": {}
+    },
+    {
+      "title": "topthink/think-swoole",
+      "url": "https://github.com/top-think/think-swoole",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L162",
+      "line": 162,
+      "properties": {}
+    },
+    {
+      "title": "liufee/yii2-swoole",
+      "url": "https://github.com/liufee/yii2-swoole",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "klsoft/yii3-swoole",
+      "url": "https://github.com/klsoft-web/yii3-swoole",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L165",
+      "line": 165,
+      "properties": {}
+    },
+    {
+      "title": "Utopia",
+      "url": "https://github.com/utopia-php/http",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L166",
+      "line": 166,
+      "properties": {}
+    },
+    {
+      "title": "WordPress Swoole",
+      "url": "https://github.com/WordPress-PSR/swoole",
+      "category": "framework-integration",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L168",
+      "line": 168,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/grpc-client",
+      "url": "https://github.com/hyperf/grpc-client",
+      "category": "grpc",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L172",
+      "line": 172,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/grpc-server",
+      "url": "https://github.com/hyperf/grpc-server",
+      "category": "grpc",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "mix/grpc",
+      "url": "https://github.com/mix-php/grpc",
+      "category": "grpc",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L174",
+      "line": 174,
+      "properties": {}
+    },
+    {
+      "title": "swoole/grpc",
+      "url": "https://github.com/swoole/grpc",
+      "category": "grpc",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L175",
+      "line": 175,
+      "properties": {}
+    },
+    {
+      "title": "chubbyphp/chubbyphp-swoole-request-handler",
+      "url": "https://github.com/chubbyphp/chubbyphp-swoole-request-handler",
+      "category": "http-and-websocket",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "leocavalcante/request-callback",
+      "url": "https://github.com/leocavalcante/request-callback",
+      "category": "http-and-websocket",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L182",
+      "line": 182,
+      "properties": {}
+    },
+    {
+      "title": "fastd/http",
+      "url": "https://github.com/fastdlabs/http",
+      "category": "http-and-websocket",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L183",
+      "line": 183,
+      "properties": {}
+    },
+    {
+      "title": "razonyang/psr7-swoole",
+      "url": "https://github.com/razonyang/psr7-swoole",
+      "category": "http-and-websocket",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L184",
+      "line": 184,
+      "properties": {}
+    },
+    {
+      "title": "Saber",
+      "url": "https://github.com/swlib/saber",
+      "category": "http-and-websocket",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "Yurunsoft/Guzzle-Swoole",
+      "url": "https://github.com/Yurunsoft/Guzzle-Swoole",
+      "category": "http-and-websocket",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L186",
+      "line": 186,
+      "properties": {}
+    },
+    {
+      "title": "Yurunsoft/YurunHttp",
+      "url": "https://github.com/Yurunsoft/YurunHttp",
+      "category": "http-and-websocket",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L187",
+      "line": 187,
+      "properties": {}
+    },
+    {
+      "title": "Utopia WebSocket",
+      "url": "https://github.com/utopia-php/websocket",
+      "category": "http-and-websocket",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L188",
+      "line": 188,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/logger",
+      "url": "https://github.com/hyperf/logger",
+      "category": "logging",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "mix/monolog",
+      "url": "https://github.com/mix-php/monolog",
+      "category": "logging",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L193",
+      "line": 193,
+      "properties": {}
+    },
+    {
+      "title": "open-telemetry/context-swoole",
+      "url": "https://github.com/opentelemetry-php/context-swoole",
+      "category": "logging",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "upscale/swoole-newrelic",
+      "url": "https://github.com/upscalesoftware/swoole-newrelic",
+      "category": "logging",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L195",
+      "line": 195,
+      "properties": {}
+    },
+    {
+      "title": "Swoole Runtime for AWS Lambda",
+      "url": "https://github.com/leocavalcante/aws-lambda-swoole-runtime",
+      "category": "serverless",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/tracer",
+      "url": "https://github.com/hyperf/tracer",
+      "category": "soa-governance",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "mix/tracing-zipkin",
+      "url": "https://github.com/mix-php/tracing-zipkin",
+      "category": "soa-governance",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L204",
+      "line": 204,
+      "properties": {}
+    },
+    {
+      "title": "Archer",
+      "url": "https://github.com/swlib/archer",
+      "category": "tasks-and-queues",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L208",
+      "line": 208,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/amqp",
+      "url": "https://github.com/hyperf/amqp",
+      "category": "tasks-and-queues",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/async-queue",
+      "url": "https://github.com/hyperf/async-queue",
+      "category": "tasks-and-queues",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L210",
+      "line": 210,
+      "properties": {}
+    },
+    {
+      "title": "hyperf/task",
+      "url": "https://github.com/hyperf/task",
+      "category": "tasks-and-queues",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L211",
+      "line": 211,
+      "properties": {}
+    },
+    {
+      "title": "kcloze/swoole-jobs",
+      "url": "https://github.com/kcloze/swoole-jobs",
+      "category": "tasks-and-queues",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L212",
+      "line": 212,
+      "properties": {}
+    },
+    {
+      "title": "longlang/phpkafka",
+      "url": "https://github.com/swoole/phpkafka",
+      "category": "tasks-and-queues",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "deminy/counit",
+      "url": "https://github.com/deminy/counit",
+      "category": "testing",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "yansongda/pay",
+      "url": "https://github.com/yansongda/pay",
+      "category": "third-party-sdk",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L221",
+      "line": 221,
+      "properties": {}
+    },
+    {
+      "title": "Yurunsoft/PaySDK",
+      "url": "https://github.com/Yurunsoft/PaySDK",
+      "category": "third-party-sdk",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "Yurunsoft/YurunOAuthLogin",
+      "url": "https://github.com/Yurunsoft/YurunOAuthLogin",
+      "category": "third-party-sdk",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L223",
+      "line": 223,
+      "properties": {}
+    },
+    {
+      "title": "HyperfAdmin",
+      "url": "https://github.com/hyperf-admin/hyperf-admin",
+      "category": "web-applications",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L228",
+      "line": 228,
+      "properties": {}
+    },
+    {
+      "title": "MineAdmin",
+      "url": "https://github.com/mineadmin/MineAdmin",
+      "category": "web-applications",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L229",
+      "line": 229,
+      "properties": {}
+    },
+    {
+      "title": "wopits - A world of post-its",
+      "url": "https://github.com/esaracco/wopits",
+      "category": "web-applications",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L230",
+      "line": 230,
+      "properties": {}
+    },
+    {
+      "title": "yurun-crawler",
+      "url": "https://github.com/Yurunsoft/yurun-crawler",
+      "category": "web-applications",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L231",
+      "line": 231,
+      "properties": {}
+    },
+    {
+      "title": "zhamao-framework",
+      "url": "https://github.com/zhamao-robot/zhamao-framework",
+      "category": "web-applications",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L232",
+      "line": 232,
+      "properties": {}
+    },
+    {
+      "title": "crowdstar/exponential-backoff",
+      "url": "https://github.com/Crowdstar/exponential-backoff",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L236",
+      "line": 236,
+      "properties": {}
+    },
+    {
+      "title": "leocavalcante/swoole-futures",
+      "url": "https://github.com/leocavalcante/swoole-futures",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L238",
+      "line": 238,
+      "properties": {}
+    },
+    {
+      "title": "Swoole Futures",
+      "url": "https://github.com/distantmagic/swoole-futures",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L239",
+      "line": 239,
+      "properties": {}
+    },
+    {
+      "title": "hhxsv5/php-sse",
+      "url": "https://github.com/hhxsv5/php-sse",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L240",
+      "line": 240,
+      "properties": {}
+    },
+    {
+      "title": "k8s/client",
+      "url": "https://github.com/k8s-client/client",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L241",
+      "line": 241,
+      "properties": {}
+    },
+    {
+      "title": "leocavalcante/swoole-mutex",
+      "url": "https://github.com/leocavalcante/swoole-mutex",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L242",
+      "line": 242,
+      "properties": {}
+    },
+    {
+      "title": "mix/sync-invoke",
+      "url": "https://github.com/mix-php/sync-invoke",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L243",
+      "line": 243,
+      "properties": {}
+    },
+    {
+      "title": "Rubix ML",
+      "url": "https://github.com/RubixML/ML",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L244",
+      "line": 244,
+      "properties": {}
+    },
+    {
+      "title": "Shlink Event Dispatcher",
+      "url": "https://github.com/shlinkio/shlink-event-dispatcher",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L245",
+      "line": 245,
+      "properties": {}
+    },
+    {
+      "title": "siteone-crawler",
+      "url": "https://github.com/janreges/siteone-crawler",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L246",
+      "line": 246,
+      "properties": {}
+    },
+    {
+      "title": "xlswriter",
+      "url": "https://github.com/viest/php-ext-xlswriter",
+      "category": "miscellaneous",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L247",
+      "line": 247,
+      "properties": {}
+    },
+    {
+      "title": "Mastering Swoole PHP",
+      "url": "https://www.amazon.com/Mastering-Swoole-PHP-performance-concurrent-ebook/dp/B0881B227S",
+      "category": "swoole-books",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L254",
+      "line": 254,
+      "properties": {}
+    },
+    {
+      "title": "Swooleで学ぶPHP非同期処理 ～並行処理／並列処理の基礎から実践的な開発手法まで一気にわかる",
+      "url": "https://www.amazon.co.jp/-/en/%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC/dp/429713358X",
+      "category": "swoole-books",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L255",
+      "line": 255,
+      "properties": {}
+    },
+    {
+      "title": "CSP Programming in PHP",
+      "url": "https://nomadphp.com/video/306/csp-programming-in-php",
+      "category": "swoole-videos",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L261",
+      "line": 261,
+      "properties": {}
+    },
+    {
+      "title": "Building High-Performance Application Servers with Swoole",
+      "url": "https://www.youtube.com/watch?v=fVdDB4mbGYQ",
+      "category": "swoole-videos",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L262",
+      "line": 262,
+      "properties": {}
+    },
+    {
+      "title": "Build an All-In-One Application Server Using Swoole",
+      "url": "https://www.youtube.com/watch?v=SJPZxvEYXxI&t=1255s",
+      "category": "swoole-videos",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L263",
+      "line": 263,
+      "properties": {}
+    },
+    {
+      "title": "deminy/swoole-by-examples",
+      "url": "https://github.com/deminy/swoole-by-examples",
+      "category": "miscellaneous-1",
+      "source_url": "https://github.com/swoole/awesome-swoole/blob/9bc16e5721d1214803964e63188d362593f118fe/README.md#L267",
+      "line": 267,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 136,
+  "unique_links": 119,
+  "category_count": 22,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "deminy",
+      "url": "https://github.com/deminy",
+      "contributions": 86
+    },
+    {
+      "login": "andrew-demb",
+      "url": "https://github.com/andrew-demb",
+      "contributions": 2
+    },
+    {
+      "login": "rafael-neris",
+      "url": "https://github.com/rafael-neris",
+      "contributions": 2
+    },
+    {
+      "login": "doubaokun",
+      "url": "https://github.com/doubaokun",
+      "contributions": 1
+    },
+    {
+      "login": "embluk",
+      "url": "https://github.com/embluk",
+      "contributions": 1
+    },
+    {
+      "login": "janreges",
+      "url": "https://github.com/janreges",
+      "contributions": 1
+    },
+    {
+      "login": "klsoft-web",
+      "url": "https://github.com/klsoft-web",
+      "contributions": 1
+    },
+    {
+      "login": "leocavalcante",
+      "url": "https://github.com/leocavalcante",
+      "contributions": 1
+    },
+    {
+      "login": "matyhtf",
+      "url": "https://github.com/matyhtf",
+      "contributions": 1
+    },
+    {
+      "login": "mcharytoniuk",
+      "url": "https://github.com/mcharytoniuk",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 100,
+    "has_more": true,
+    "path_commit_count": 104,
+    "public_contributors": 13,
+    "observed_at": "2026-09-03T17:54:22.361766+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by swoole/awesome-swoole contributors.",
+  "license": "CC0-1.0",
+  "license_url": "https://github.com/swoole/awesome-swoole/tree/9bc16e5721d1214803964e63188d362593f118fe",
+  "digest": "0f1cdeb839d9ac44aa97b658b89260d9440d62cfa728982a8b29fff515184c57"
+}

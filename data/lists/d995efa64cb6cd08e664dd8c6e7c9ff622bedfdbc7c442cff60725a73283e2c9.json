@@ -1,0 +1,693 @@
+{
+  "format_version": 3,
+  "repository_id": "437671069",
+  "name": "mikeroyal/AMX-Guide",
+  "revision": "22b0c99389676045d29fd7fdc6bc68021235423c",
+  "readme_path": "README.md",
+  "readme_sha256": "e5bccb07acbe4b865943ead67a12775a2a87fce67a349e410c3b20e9f7a414c4",
+  "sections": [
+    {
+      "id": "a-guide-covering-advanced-matrix-extensions-amx-including-the-applications-libraries-and-tools-that-will-make-you-a-better-and-more-efficient-advanced-matrix-extensions-amx-development",
+      "title": "A guide covering Advanced Matrix Extensions (AMX) including the applications, libraries and tools that will make you a better and more efficient Advanced Matrix Extensions (AMX) development.",
+      "level": 4,
+      "path": [
+        "A guide covering Advanced Matrix Extensions (AMX) including the applications, libraries and tools that will make you a better and more efficient Advanced Matrix Extensions (AMX) development."
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#a-guide-covering-advanced-matrix-extensions-amx-including-the-applications-libraries-and-tools-that-will-make-you-a-better-and-more-efficient-advanced-matrix-extensions-amx-development",
+      "entries": 0
+    },
+    {
+      "id": "table-of-contents",
+      "title": "Table of Contents",
+      "level": 1,
+      "path": [
+        "Table of Contents"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#table-of-contents",
+      "entries": 0
+    },
+    {
+      "id": "getting-started-with-amx",
+      "title": "Getting Started with AMX",
+      "level": 1,
+      "path": [
+        "Getting Started with AMX"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#getting-started-with-amx",
+      "entries": 0
+    },
+    {
+      "id": "types-of-accelerators",
+      "title": "Types of Accelerators",
+      "level": 2,
+      "path": [
+        "Getting Started with AMX",
+        "Types of Accelerators"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#types-of-accelerators",
+      "entries": 4
+    },
+    {
+      "id": "fpga-development",
+      "title": "FPGA Development",
+      "level": 1,
+      "path": [
+        "FPGA Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#fpga-development",
+      "entries": 0
+    },
+    {
+      "id": "fpga-learning-resources",
+      "title": "FPGA Learning Resources",
+      "level": 2,
+      "path": [
+        "FPGA Development",
+        "FPGA Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#fpga-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "fpga-tools",
+      "title": "FPGA Tools",
+      "level": 2,
+      "path": [
+        "FPGA Development",
+        "FPGA Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#fpga-tools",
+      "entries": 0
+    },
+    {
+      "id": "llvm-development",
+      "title": "LLVM Development",
+      "level": 1,
+      "path": [
+        "LLVM Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#llvm-development",
+      "entries": 0
+    },
+    {
+      "id": "llvm-learning-resources",
+      "title": "LLVM Learning Resources",
+      "level": 2,
+      "path": [
+        "LLVM Development",
+        "LLVM Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#llvm-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "llvm-tools-libraries-and-frameworks",
+      "title": "LLVM Tools, Libraries and Frameworks",
+      "level": 2,
+      "path": [
+        "LLVM Development",
+        "LLVM Tools, Libraries and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#llvm-tools-libraries-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "cc-development",
+      "title": "C/C++ Development",
+      "level": 1,
+      "path": [
+        "C/C++ Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#cc-development",
+      "entries": 0
+    },
+    {
+      "id": "cc-learning-resources",
+      "title": "C/C++ Learning Resources",
+      "level": 2,
+      "path": [
+        "C/C++ Development",
+        "C/C++ Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#cc-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "cc-tools-and-frameworks",
+      "title": "C/C++ Tools and Frameworks",
+      "level": 2,
+      "path": [
+        "C/C++ Development",
+        "C/C++ Tools and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#cc-tools-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear Algebra",
+      "level": 1,
+      "path": [
+        "Linear Algebra"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#linear-algebra",
+      "entries": 0
+    },
+    {
+      "id": "linear-algebra-learning-resources",
+      "title": "Linear Algebra Learning Resources",
+      "level": 2,
+      "path": [
+        "Linear Algebra",
+        "Linear Algebra Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#linear-algebra-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "defintions",
+      "title": "Defintions",
+      "level": 2,
+      "path": [
+        "Linear Algebra",
+        "Defintions"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#defintions",
+      "entries": 0
+    },
+    {
+      "id": "i-vector-operations",
+      "title": "i. Vector operations",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Defintions",
+        "i. Vector operations"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#i-vector-operations",
+      "entries": 0
+    },
+    {
+      "id": "ii-matrix-operations",
+      "title": "ii. Matrix operations",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Defintions",
+        "ii. Matrix operations"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#ii-matrix-operations",
+      "entries": 0
+    },
+    {
+      "id": "iii-matrix-vector-product",
+      "title": "iii. Matrix-vector product",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Defintions",
+        "iii. Matrix-vector product"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#iii-matrix-vector-product",
+      "entries": 0
+    },
+    {
+      "id": "iv-linear-transformations",
+      "title": "iv. Linear transformations",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Defintions",
+        "iv. Linear transformations"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#iv-linear-transformations",
+      "entries": 0
+    },
+    {
+      "id": "v-fundamental-vector-spaces",
+      "title": "v. Fundamental vector spaces",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Defintions",
+        "v. Fundamental vector spaces"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#v-fundamental-vector-spaces",
+      "entries": 0
+    },
+    {
+      "id": "computational-linear-algebra",
+      "title": "Computational Linear Algebra",
+      "level": 2,
+      "path": [
+        "Linear Algebra",
+        "Computational Linear Algebra"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#computational-linear-algebra",
+      "entries": 0
+    },
+    {
+      "id": "i-solving-systems-of-equations",
+      "title": "i. Solving systems of equations",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Computational Linear Algebra",
+        "i. Solving systems of equations"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#i-solving-systems-of-equations",
+      "entries": 0
+    },
+    {
+      "id": "ii-systems-of-equations-as-matrix-equations",
+      "title": "ii. Systems of equations as matrix equations",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Computational Linear Algebra",
+        "ii. Systems of equations as matrix equations"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#ii-systems-of-equations-as-matrix-equations",
+      "entries": 0
+    },
+    {
+      "id": "computing-the-inverse-of-a-matrix",
+      "title": "Computing the Inverse of a Matrix",
+      "level": 2,
+      "path": [
+        "Linear Algebra",
+        "Computing the Inverse of a Matrix"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#computing-the-inverse-of-a-matrix",
+      "entries": 0
+    },
+    {
+      "id": "i-using-row-operations",
+      "title": "i. Using row operations",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Computing the Inverse of a Matrix",
+        "i. Using row operations"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#i-using-row-operations",
+      "entries": 0
+    },
+    {
+      "id": "ii-using-elementary-matrices",
+      "title": "ii. Using elementary matrices",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Computing the Inverse of a Matrix",
+        "ii. Using elementary matrices"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#ii-using-elementary-matrices",
+      "entries": 0
+    },
+    {
+      "id": "iii-transpose-of-a-matrix",
+      "title": "iii. Transpose of a Matrix",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Computing the Inverse of a Matrix",
+        "iii. Transpose of a Matrix"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#iii-transpose-of-a-matrix",
+      "entries": 0
+    },
+    {
+      "id": "other-linear-topics",
+      "title": "Other Linear Topics",
+      "level": 2,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#other-linear-topics",
+      "entries": 0
+    },
+    {
+      "id": "i-basis",
+      "title": "i. Basis",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics",
+        "i. Basis"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#i-basis",
+      "entries": 0
+    },
+    {
+      "id": "ii-matrix-representations-of-linear-transformations",
+      "title": "ii. Matrix representations of linear transformations",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics",
+        "ii. Matrix representations of linear transformations"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#ii-matrix-representations-of-linear-transformations",
+      "entries": 0
+    },
+    {
+      "id": "iii-dimension-and-basis-for-vector-spaces",
+      "title": "iii. Dimension and Basis for Vector Spaces",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics",
+        "iii. Dimension and Basis for Vector Spaces"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#iii-dimension-and-basis-for-vector-spaces",
+      "entries": 0
+    },
+    {
+      "id": "iv-row-space-columns-space-and-rank-of-a-matrix",
+      "title": "iv. Row space, columns space, and rank of a matrix",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics",
+        "iv. Row space, columns space, and rank of a matrix"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#iv-row-space-columns-space-and-rank-of-a-matrix",
+      "entries": 0
+    },
+    {
+      "id": "v-invertible-matrix-theorem",
+      "title": "v. Invertible matrix theorem",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics",
+        "v. Invertible matrix theorem"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#v-invertible-matrix-theorem",
+      "entries": 0
+    },
+    {
+      "id": "vi-determinants",
+      "title": "vi. Determinants",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics",
+        "vi. Determinants"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#vi-determinants",
+      "entries": 0
+    },
+    {
+      "id": "vii-eigenvalues-and-eigenvectors",
+      "title": "vii. Eigenvalues and eigenvectors",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics",
+        "vii. Eigenvalues and eigenvectors"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#vii-eigenvalues-and-eigenvectors",
+      "entries": 0
+    },
+    {
+      "id": "viii-linear-regression",
+      "title": "viii. Linear Regression",
+      "level": 3,
+      "path": [
+        "Linear Algebra",
+        "Other Linear Topics",
+        "viii. Linear Regression"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#viii-linear-regression",
+      "entries": 0
+    },
+    {
+      "id": "virtualization",
+      "title": "Virtualization",
+      "level": 1,
+      "path": [
+        "Virtualization"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#virtualization",
+      "entries": 0
+    },
+    {
+      "id": "parallel-computing",
+      "title": "Parallel Computing",
+      "level": 1,
+      "path": [
+        "Parallel Computing"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#parallel-computing",
+      "entries": 0
+    },
+    {
+      "id": "parallel-computing-learning-resources",
+      "title": "Parallel Computing Learning Resources",
+      "level": 2,
+      "path": [
+        "Parallel Computing",
+        "Parallel Computing Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#parallel-computing-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "parallel-computing-tools-libraries-and-frameworks",
+      "title": "Parallel Computing Tools, Libraries, and Frameworks",
+      "level": 2,
+      "path": [
+        "Parallel Computing",
+        "Parallel Computing Tools, Libraries, and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#parallel-computing-tools-libraries-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "opencl-development",
+      "title": "OpenCL Development",
+      "level": 1,
+      "path": [
+        "OpenCL Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#opencl-development",
+      "entries": 0
+    },
+    {
+      "id": "opencl-learning-resources",
+      "title": "OpenCL Learning Resources",
+      "level": 2,
+      "path": [
+        "OpenCL Development",
+        "OpenCL Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#opencl-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "opencl-tools-libraries-and-frameworks",
+      "title": "OpenCL Tools, Libraries and Frameworks",
+      "level": 2,
+      "path": [
+        "OpenCL Development",
+        "OpenCL Tools, Libraries and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#opencl-tools-libraries-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "cuda-development",
+      "title": "CUDA Development",
+      "level": 1,
+      "path": [
+        "CUDA Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#cuda-development",
+      "entries": 0
+    },
+    {
+      "id": "cuda-learning-resources",
+      "title": "CUDA Learning Resources",
+      "level": 2,
+      "path": [
+        "CUDA Development",
+        "CUDA Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#cuda-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "cuda-tools-libraries-and-frameworks",
+      "title": "CUDA Tools Libraries, and Frameworks",
+      "level": 2,
+      "path": [
+        "CUDA Development",
+        "CUDA Tools Libraries, and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#cuda-tools-libraries-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "algorithms",
+      "title": "Algorithms",
+      "level": 1,
+      "path": [
+        "Algorithms"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#algorithms",
+      "entries": 0
+    },
+    {
+      "id": "machine-learning",
+      "title": "Machine Learning",
+      "level": 1,
+      "path": [
+        "Machine Learning"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#machine-learning",
+      "entries": 0
+    },
+    {
+      "id": "learning-resources-for-ml",
+      "title": "Learning Resources for ML",
+      "level": 2,
+      "path": [
+        "Machine Learning",
+        "Learning Resources for ML"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#learning-resources-for-ml",
+      "entries": 0
+    },
+    {
+      "id": "ml-frameworks-libraries-and-tools",
+      "title": "ML Frameworks, Libraries, and Tools",
+      "level": 2,
+      "path": [
+        "Machine Learning",
+        "ML Frameworks, Libraries, and Tools"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#ml-frameworks-libraries-and-tools",
+      "entries": 0
+    },
+    {
+      "id": "deep-learning-development",
+      "title": "Deep Learning Development",
+      "level": 1,
+      "path": [
+        "Deep Learning Development"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#deep-learning-development",
+      "entries": 0
+    },
+    {
+      "id": "deep-learning-learning-resources",
+      "title": "Deep Learning Learning Resources",
+      "level": 2,
+      "path": [
+        "Deep Learning Development",
+        "Deep Learning Learning Resources"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#deep-learning-learning-resources",
+      "entries": 0
+    },
+    {
+      "id": "deep-learning-tools-libraries-and-frameworks",
+      "title": "Deep Learning Tools, Libraries, and Frameworks",
+      "level": 2,
+      "path": [
+        "Deep Learning Development",
+        "Deep Learning Tools, Libraries, and Frameworks"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#deep-learning-tools-libraries-and-frameworks",
+      "entries": 0
+    },
+    {
+      "id": "contribute",
+      "title": "Contribute",
+      "level": 2,
+      "path": [
+        "Deep Learning Development",
+        "Contribute"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#contribute",
+      "entries": 0
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "level": 2,
+      "path": [
+        "Deep Learning Development",
+        "License"
+      ],
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#license",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "Vector accelerator",
+      "url": "https://en.wikichip.org/w/index.php?title=Vector_accelerator&action=edit&redlink=1",
+      "category": "types-of-accelerators",
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "AI accelerator",
+      "url": "https://en.wikichip.org/wiki/AI_accelerator",
+      "category": "types-of-accelerators",
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Compression accelerator",
+      "url": "https://en.wikichip.org/w/index.php?title=Compression_accelerator&action=edit&redlink=1",
+      "category": "types-of-accelerators",
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "Cryptographic accelerator",
+      "url": "https://en.wikichip.org/w/index.php?title=Cryptographic_accelerator&action=edit&redlink=1",
+      "category": "types-of-accelerators",
+      "source_url": "https://github.com/mikeroyal/AMX-Guide/blob/22b0c99389676045d29fd7fdc6bc68021235423c/README.md#L67",
+      "line": 67,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 4,
+  "unique_links": 4,
+  "category_count": 1,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "mikeroyal",
+      "url": "https://github.com/mikeroyal",
+      "contributions": 9
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 9,
+    "has_more": false,
+    "path_commit_count": 9,
+    "public_contributors": 1,
+    "observed_at": "2026-09-03T17:59:40.847326+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by mikeroyal/AMX-Guide contributors.",
+  "license": null,
+  "license_url": "https://github.com/mikeroyal/AMX-Guide/tree/22b0c99389676045d29fd7fdc6bc68021235423c",
+  "digest": "d995efa64cb6cd08e664dd8c6e7c9ff622bedfdbc7c442cff60725a73283e2c9"
+}

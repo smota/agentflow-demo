@@ -1,0 +1,853 @@
+{
+  "format_version": 3,
+  "repository_id": "428716017",
+  "name": "fuzzylabs/awesome-open-mlops",
+  "revision": "60e12c40ace509fed741b5ef224e6212a50610c0",
+  "readme_path": "README.md",
+  "readme_sha256": "8c00b18b2c00900f69db1c9976ae7930b0d7fd76693cd8b9b34dd353c844d822",
+  "sections": [
+    {
+      "id": "open-source-mlops",
+      "title": "Open Source MLOps",
+      "level": 1,
+      "path": [
+        "Open Source MLOps"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#open-source-mlops",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Open Source MLOps",
+        "Contents"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "what-is-mlops-anyway",
+      "title": "What is MLOps anyway?",
+      "level": 1,
+      "path": [
+        "What is MLOps anyway?"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#what-is-mlops-anyway",
+      "entries": 0
+    },
+    {
+      "id": "what-counts-as-open-source",
+      "title": "What counts as open source?",
+      "level": 1,
+      "path": [
+        "What counts as open source?"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#what-counts-as-open-source",
+      "entries": 0
+    },
+    {
+      "id": "data-annotation",
+      "title": "Data annotation",
+      "level": 1,
+      "path": [
+        "Data annotation"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#data-annotation",
+      "entries": 5
+    },
+    {
+      "id": "data-validation",
+      "title": "Data validation",
+      "level": 1,
+      "path": [
+        "Data validation"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#data-validation",
+      "entries": 7
+    },
+    {
+      "id": "data-version-control",
+      "title": "Data version control",
+      "level": 1,
+      "path": [
+        "Data version control"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#data-version-control",
+      "entries": 4
+    },
+    {
+      "id": "experiment-tracking",
+      "title": "Experiment tracking",
+      "level": 1,
+      "path": [
+        "Experiment tracking"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#experiment-tracking",
+      "entries": 7
+    },
+    {
+      "id": "model-training",
+      "title": "Model training",
+      "level": 1,
+      "path": [
+        "Model training"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#model-training",
+      "entries": 4
+    },
+    {
+      "id": "model-validation",
+      "title": "Model validation",
+      "level": 1,
+      "path": [
+        "Model validation"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#model-validation",
+      "entries": 1
+    },
+    {
+      "id": "model-registries",
+      "title": "Model registries",
+      "level": 1,
+      "path": [
+        "Model registries"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#model-registries",
+      "entries": 3
+    },
+    {
+      "id": "workflows",
+      "title": "Workflows",
+      "level": 1,
+      "path": [
+        "Workflows"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#workflows",
+      "entries": 1
+    },
+    {
+      "id": "feature-stores",
+      "title": "Feature stores",
+      "level": 1,
+      "path": [
+        "Feature stores"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#feature-stores",
+      "entries": 3
+    },
+    {
+      "id": "feature-engineering",
+      "title": "Feature Engineering",
+      "level": 1,
+      "path": [
+        "Feature Engineering"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#feature-engineering",
+      "entries": 1
+    },
+    {
+      "id": "model-deployment-and-serving",
+      "title": "Model deployment and serving",
+      "level": 1,
+      "path": [
+        "Model deployment and serving"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#model-deployment-and-serving",
+      "entries": 3
+    },
+    {
+      "id": "model-monitoring",
+      "title": "Model monitoring",
+      "level": 1,
+      "path": [
+        "Model monitoring"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#model-monitoring",
+      "entries": 7
+    },
+    {
+      "id": "data-catalogues",
+      "title": "Data Catalogues",
+      "level": 1,
+      "path": [
+        "Data Catalogues"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#data-catalogues",
+      "entries": 3
+    },
+    {
+      "id": "full-stacks",
+      "title": "Full stacks",
+      "level": 1,
+      "path": [
+        "Full stacks"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#full-stacks",
+      "entries": 4
+    },
+    {
+      "id": "governance",
+      "title": "Governance",
+      "level": 1,
+      "path": [
+        "Governance"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#governance",
+      "entries": 1
+    },
+    {
+      "id": "more-resources",
+      "title": "More resources",
+      "level": 1,
+      "path": [
+        "More resources"
+      ],
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#more-resources",
+      "entries": 3
+    }
+  ],
+  "entries": [
+    {
+      "title": "Label Studio",
+      "url": "https://github.com/heartexlabs/label-studio",
+      "category": "data-annotation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L49",
+      "line": 49,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "doccano",
+      "url": "https://github.com/doccano/doccano",
+      "category": "data-annotation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L50",
+      "line": 50,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "labelme",
+      "url": "https://github.com/wkentaro/labelme",
+      "category": "data-annotation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L51",
+      "line": 51,
+      "properties": {
+        "License": "GPL-3"
+      }
+    },
+    {
+      "title": "Computer Vision Annotation Tool (CVAT)",
+      "url": "https://github.com/openvinotoolkit/cvat",
+      "category": "data-annotation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L52",
+      "line": 52,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "Praat",
+      "url": "https://github.com/praat/praat",
+      "category": "data-annotation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L53",
+      "line": 53,
+      "properties": {
+        "License": "GPL-3"
+      }
+    },
+    {
+      "title": "DataKitchen Data Observability",
+      "url": "https://github.com/DataKitchen/data-observability-installer",
+      "category": "data-validation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L64",
+      "line": 64,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "DQOps",
+      "url": "https://github.com/dqops/dqo",
+      "category": "data-validation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L65",
+      "line": 65,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Great Expectations",
+      "url": "https://github.com/great-expectations/great_expectations",
+      "category": "data-validation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L66",
+      "line": 66,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Data Validation Tool (DVT)",
+      "url": "https://github.com/GoogleCloudPlatform/professional-services-data-validator",
+      "category": "data-validation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L67",
+      "line": 67,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "data-diff",
+      "url": "https://github.com/datafold/data-diff",
+      "category": "data-validation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L68",
+      "line": 68,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "Cerberus",
+      "url": "https://github.com/pyeve/cerberus",
+      "category": "data-validation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L69",
+      "line": 69,
+      "properties": {
+        "License": "ISC"
+      }
+    },
+    {
+      "title": "deequ",
+      "url": "https://github.com/awslabs/deequ",
+      "category": "data-validation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L70",
+      "line": 70,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "DVC",
+      "url": "https://dvc.org/",
+      "category": "data-version-control",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L80",
+      "line": 80,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Delta Lake",
+      "url": "https://delta.io/",
+      "category": "data-version-control",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L81",
+      "line": 81,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "LakeFS",
+      "url": "https://lakefs.io/",
+      "category": "data-version-control",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L82",
+      "line": 82,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Git LFS",
+      "url": "https://www.atlassian.com/git/tutorials/git-lfs",
+      "category": "data-version-control",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L83",
+      "line": 83,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "Sacred",
+      "url": "https://github.com/IDSIA/sacred",
+      "category": "experiment-tracking",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L91",
+      "line": 91,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "CometLLM",
+      "url": "https://github.com/comet-ml/comet-llm",
+      "category": "experiment-tracking",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L92",
+      "line": 92,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "Tensorboard",
+      "url": "https://www.tensorflow.org/tensorboard",
+      "category": "experiment-tracking",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L93",
+      "line": 93,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "FastTrackML",
+      "url": "https://github.com/G-Research/fasttrackml",
+      "category": "experiment-tracking",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L94",
+      "line": 94,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Guild.AI",
+      "url": "https://guild.ai/",
+      "category": "experiment-tracking",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L95",
+      "line": 95,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "MLFlow",
+      "url": "https://mlflow.org/",
+      "category": "experiment-tracking",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L96",
+      "line": 96,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Kedro",
+      "url": "https://kedro.readthedocs.io/",
+      "category": "experiment-tracking",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L97",
+      "line": 97,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "MLFlow",
+      "url": "https://mlflow.org/",
+      "category": "model-training",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L103",
+      "line": 103,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Kubeflow",
+      "url": "https://www.kubeflow.org/",
+      "category": "model-training",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L104",
+      "line": 104,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Metaflow",
+      "url": "https://metaflow.org/",
+      "category": "model-training",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L105",
+      "line": 105,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "envd",
+      "url": "https://github.com/tensorchord/envd",
+      "category": "model-training",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L106",
+      "line": 106,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Trubrics",
+      "url": "https://github.com/trubrics/trubrics-sdk",
+      "category": "model-validation",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L113",
+      "line": 113,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Kubeflow Model Registry",
+      "url": "https://github.com/kubeflow/model-registry",
+      "category": "model-registries",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L121",
+      "line": 121,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "MLFlow",
+      "url": "https://mlflow.org/",
+      "category": "model-registries",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L122",
+      "line": 122,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "modelstore",
+      "url": "https://github.com/operatorai/modelstore",
+      "category": "model-registries",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L123",
+      "line": 123,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "CML",
+      "url": "https://github.com/iterative/cml",
+      "category": "workflows",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L129",
+      "line": 129,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Feast",
+      "url": "https://feast.dev/",
+      "category": "feature-stores",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L135",
+      "line": 135,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Hopsworks",
+      "url": "https://github.com/logicalclocks/hopsworks",
+      "category": "feature-stores",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L136",
+      "line": 136,
+      "properties": {
+        "License": "AGPL-3.0"
+      }
+    },
+    {
+      "title": "Feathr",
+      "url": "https://github.com/feathr-ai/feathr",
+      "category": "feature-stores",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L137",
+      "line": 137,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Hamilton",
+      "url": "https://github.com/stitchfix/hamilton",
+      "category": "feature-engineering",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L142",
+      "line": 142,
+      "properties": {
+        "License": "BSD-3 CC"
+      }
+    },
+    {
+      "title": "BentoML",
+      "url": "https://github.com/bentoml/BentoML",
+      "category": "model-deployment-and-serving",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L150",
+      "line": 150,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Bodywork",
+      "url": "https://www.bodyworkml.com/",
+      "category": "model-deployment-and-serving",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L151",
+      "line": 151,
+      "properties": {
+        "License": "AGPL-3.0"
+      }
+    },
+    {
+      "title": "MLEM",
+      "url": "https://github.com/iterative/mlem",
+      "category": "model-deployment-and-serving",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L153",
+      "line": 153,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "DriftGuard",
+      "url": "https://github.com/kiplangatkorir/driftguard",
+      "category": "model-monitoring",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L162",
+      "line": 162,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "Evidently",
+      "url": "https://evidentlyai.com/",
+      "category": "model-monitoring",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L163",
+      "line": 163,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Frouros",
+      "url": "https://github.com/IFCA-Advanced-Computing/frouros",
+      "category": "model-monitoring",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L164",
+      "line": 164,
+      "properties": {
+        "License": "BSD-3-Clause"
+      }
+    },
+    {
+      "title": "Boxkite ML",
+      "url": "https://github.com/boxkite-ml/boxkite",
+      "category": "model-monitoring",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L165",
+      "line": 165,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Alibi Detect",
+      "url": "https://github.com/SeldonIO/alibi-detect",
+      "category": "model-monitoring",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L166",
+      "line": 166,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "whylogs",
+      "url": "https://github.com/whylabs/whylogs",
+      "category": "model-monitoring",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L167",
+      "line": 167,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "RecList",
+      "url": "https://reclist.io/",
+      "category": "model-monitoring",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L168",
+      "line": 168,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "Magda",
+      "url": "https://magda.io/",
+      "category": "data-catalogues",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L176",
+      "line": 176,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Amundsen",
+      "url": "https://www.amundsen.io/",
+      "category": "data-catalogues",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L177",
+      "line": 177,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Apache Atlas",
+      "url": "https://atlas.apache.org/",
+      "category": "data-catalogues",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L178",
+      "line": 178,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Open MLOps",
+      "url": "https://github.com/datarevenue-berlin/OpenMLOps",
+      "category": "full-stacks",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L184",
+      "line": 184,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "You Don't Need a Bigger Boat",
+      "url": "https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat",
+      "category": "full-stacks",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L185",
+      "line": 185,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "Recommendations at \"Reasonable Scale\"",
+      "url": "https://github.com/jacopotagliabue/recs-at-resonable-scale",
+      "category": "full-stacks",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L186",
+      "line": 186,
+      "properties": {
+        "License": "MIT"
+      }
+    },
+    {
+      "title": "ZenML",
+      "url": "https://github.com/zenml-io/zenml",
+      "category": "full-stacks",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L187",
+      "line": 187,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Bailo",
+      "url": "https://github.com/gchq/Bailo",
+      "category": "governance",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L192",
+      "line": 192,
+      "properties": {
+        "License": "Apache 2.0"
+      }
+    },
+    {
+      "title": "Top 10 Open Source MLOps Tools",
+      "url": "https://thechief.io/c/editorial/top-10-open-source-mlops-tools",
+      "category": "more-resources",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L198",
+      "line": 198,
+      "properties": {}
+    },
+    {
+      "title": "Awesome MLOps",
+      "url": "https://github.com/visenger/awesome-mlops",
+      "category": "more-resources",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L199",
+      "line": 199,
+      "properties": {}
+    },
+    {
+      "title": "Best open source MLOps tools",
+      "url": "https://neptune.ai/blog/best-open-source-mlops-tools",
+      "category": "more-resources",
+      "source_url": "https://github.com/fuzzylabs/awesome-open-mlops/blob/60e12c40ace509fed741b5ef224e6212a50610c0/README.md#L200",
+      "line": 200,
+      "properties": {}
+    }
+  ],
+  "properties": [
+    "License"
+  ],
+  "entry_count": 57,
+  "unique_links": 55,
+  "category_count": 16,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [
+    {
+      "login": "archena",
+      "url": "https://github.com/archena",
+      "contributions": 17
+    },
+    {
+      "login": "anmorgan24",
+      "url": "https://github.com/anmorgan24",
+      "contributions": 1
+    },
+    {
+      "login": "ayush714",
+      "url": "https://github.com/ayush714",
+      "contributions": 1
+    },
+    {
+      "login": "dleybz",
+      "url": "https://github.com/dleybz",
+      "contributions": 1
+    },
+    {
+      "login": "dudeperf3ct",
+      "url": "https://github.com/dudeperf3ct",
+      "contributions": 1
+    },
+    {
+      "login": "ericvillemure",
+      "url": "https://github.com/ericvillemure",
+      "contributions": 1
+    },
+    {
+      "login": "gaocegege",
+      "url": "https://github.com/gaocegege",
+      "contributions": 1
+    },
+    {
+      "login": "GeorgePearse",
+      "url": "https://github.com/GeorgePearse",
+      "contributions": 1
+    },
+    {
+      "login": "jacopotagliabue",
+      "url": "https://github.com/jacopotagliabue",
+      "contributions": 1
+    },
+    {
+      "login": "jeffkayne",
+      "url": "https://github.com/jeffkayne",
+      "contributions": 1
+    }
+  ],
+  "contributor_observation": {
+    "status": "observed",
+    "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+    "commit_limit": 100,
+    "observed_commits": 37,
+    "has_more": false,
+    "path_commit_count": 37,
+    "public_contributors": 19,
+    "observed_at": "2026-09-03T17:51:21.158052+00:00"
+  },
+  "contributing_url": null,
+  "source_data_links": [],
+  "attribution": "Content curated by fuzzylabs/awesome-open-mlops contributors.",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/fuzzylabs/awesome-open-mlops/tree/60e12c40ace509fed741b5ef224e6212a50610c0",
+  "digest": "c1d84c2b76c2181a22edc9d197c5a253f8c2057f1d4e4392ace5fa25b9ab2229"
+}
