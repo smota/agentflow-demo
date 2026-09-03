@@ -1,0 +1,1144 @@
+{
+  "format_version": 2,
+  "repository_id": "160629829",
+  "name": "hookmaster/frida-all-in-one",
+  "revision": "67db9b89e97d7db0a6cbf367f67417b9479f112e",
+  "readme_path": "README.md",
+  "readme_sha256": "3c9de077087bafa0530cd4965489035306851133840296a1870605494a443fe7",
+  "sections": [
+    {
+      "id": "frida操作手册",
+      "title": "《Frida操作手册》",
+      "level": 1,
+      "path": [
+        "《Frida操作手册》"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#frida操作手册",
+      "entries": 0
+    },
+    {
+      "id": "changelog",
+      "title": "changelog：",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "changelog："
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#changelog",
+      "entries": 10
+    },
+    {
+      "id": "前言",
+      "title": "前言",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "前言"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#前言",
+      "entries": 0
+    },
+    {
+      "id": "一似水流年",
+      "title": "一、似水流年",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "前言",
+        "一、似水流年"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#一似水流年",
+      "entries": 0
+    },
+    {
+      "id": "二fridahook频道开设",
+      "title": "二、FRIDA/HOOK频道开设",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "前言",
+        "二、FRIDA/HOOK频道开设"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#二fridahook频道开设",
+      "entries": 0
+    },
+    {
+      "id": "第1章-多平台环境安装",
+      "title": "第1章. 多平台环境安装",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "第1章. 多平台环境安装"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#第1章-多平台环境安装",
+      "entries": 0
+    },
+    {
+      "id": "11-frida基本架构",
+      "title": "1.1 FRIDA基本架构",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第1章. 多平台环境安装",
+        "1.1 FRIDA基本架构"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#11-frida基本架构",
+      "entries": 0
+    },
+    {
+      "id": "12-windowsmacoslinux",
+      "title": "1.2 Windows/macOS/Linux",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第1章. 多平台环境安装",
+        "1.2 Windows/macOS/Linux"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#12-windowsmacoslinux",
+      "entries": 0
+    },
+    {
+      "id": "13-androidios安卓81",
+      "title": "1.3 Android/iOS（安卓8.1）",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第1章. 多平台环境安装",
+        "1.3 Android/iOS（安卓8.1）"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#13-androidios安卓81",
+      "entries": 0
+    },
+    {
+      "id": "131-android-root",
+      "title": "1.3.1 Android root",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第1章. 多平台环境安装",
+        "1.3 Android/iOS（安卓8.1）",
+        "1.3.1 Android root"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#131-android-root",
+      "entries": 0
+    },
+    {
+      "id": "132-android-frida-server-安装",
+      "title": "1.3.2 Android frida-server 安装",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第1章. 多平台环境安装",
+        "1.3 Android/iOS（安卓8.1）",
+        "1.3.2 Android frida-server 安装"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#132-android-frida-server-安装",
+      "entries": 0
+    },
+    {
+      "id": "14-源码编译",
+      "title": "1.4 源码编译",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第1章. 多平台环境安装",
+        "1.4 源码编译"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#14-源码编译",
+      "entries": 0
+    },
+    {
+      "id": "第2章-frida工具",
+      "title": "第2章. FRIDA工具",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "第2章. FRIDA工具"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#第2章-frida工具",
+      "entries": 0
+    },
+    {
+      "id": "21-frida-cli",
+      "title": "2.1 Frida CLI",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第2章. FRIDA工具",
+        "2.1 Frida CLI"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#21-frida-cli",
+      "entries": 0
+    },
+    {
+      "id": "22-frida-ps",
+      "title": "2.2 Frida-ps",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第2章. FRIDA工具",
+        "2.2 Frida-ps"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#22-frida-ps",
+      "entries": 0
+    },
+    {
+      "id": "23-frida-trace",
+      "title": "2.3 Frida-trace",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第2章. FRIDA工具",
+        "2.3 Frida-trace"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#23-frida-trace",
+      "entries": 0
+    },
+    {
+      "id": "24-frida-discover",
+      "title": "2.4 Frida-discover",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第2章. FRIDA工具",
+        "2.4 Frida-discover"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#24-frida-discover",
+      "entries": 0
+    },
+    {
+      "id": "25-frida-ls-devices",
+      "title": "2.5 Frida-ls-devices",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第2章. FRIDA工具",
+        "2.5 Frida-ls-devices"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#25-frida-ls-devices",
+      "entries": 0
+    },
+    {
+      "id": "26-frida-kill",
+      "title": "2.6 Frida-kill",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第2章. FRIDA工具",
+        "2.6 Frida-kill"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#26-frida-kill",
+      "entries": 0
+    },
+    {
+      "id": "第3章-基本案例上手",
+      "title": "第3章. 基本案例上手",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#第3章-基本案例上手",
+      "entries": 0
+    },
+    {
+      "id": "31-windows",
+      "title": "3.1 Windows",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.1 Windows"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#31-windows",
+      "entries": 0
+    },
+    {
+      "id": "311-cve-2017-4901-vmware虚拟机逃逸漏洞分析frida-windows实例",
+      "title": "3.1.1 CVE-2017-4901 VMware虚拟机逃逸漏洞分析【Frida Windows实例】",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.1 Windows",
+        "3.1.1 CVE-2017-4901 VMware虚拟机逃逸漏洞分析【Frida Windows实例】"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#311-cve-2017-4901-vmware虚拟机逃逸漏洞分析frida-windows实例",
+      "entries": 0
+    },
+    {
+      "id": "32-macos",
+      "title": "3.2 macOS",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.2 macOS"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#32-macos",
+      "entries": 0
+    },
+    {
+      "id": "33-linux",
+      "title": "3.3 Linux",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.3 Linux"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#33-linux",
+      "entries": 0
+    },
+    {
+      "id": "34-ios",
+      "title": "3.4 iOS",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.4 iOS"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#34-ios",
+      "entries": 0
+    },
+    {
+      "id": "35-android",
+      "title": "3.5 [Android]",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.5 [Android]"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#35-android",
+      "entries": 0
+    },
+    {
+      "id": "351-一篇文章带你领悟frida的精髓基于安卓81",
+      "title": "3.5.1 一篇文章带你领悟Frida的精髓（基于安卓8.1）",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.5 [Android]",
+        "3.5.1 一篇文章带你领悟Frida的精髓（基于安卓8.1）"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#351-一篇文章带你领悟frida的精髓基于安卓81",
+      "entries": 0
+    },
+    {
+      "id": "352-基本能力hook参数修改结果",
+      "title": "3.5.2 基本能力：hook参数、修改结果",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.5 [Android]",
+        "3.5.2 基本能力：hook参数、修改结果"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#352-基本能力hook参数修改结果",
+      "entries": 0
+    },
+    {
+      "id": "353-中级能力远程调用rpc",
+      "title": "3.5.3 中级能力：远程调用RPC",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.5 [Android]",
+        "3.5.3 中级能力：远程调用RPC"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#353-中级能力远程调用rpc",
+      "entries": 0
+    },
+    {
+      "id": "354-高级能力互联互通动态修改dwarf调试器",
+      "title": "3.5.4 高级能力：互联互通、动态修改(Dwarf调试器)",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第3章. 基本案例上手",
+        "3.5 [Android]",
+        "3.5.4 高级能力：互联互通、动态修改(Dwarf调试器)"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#354-高级能力互联互通动态修改dwarf调试器",
+      "entries": 0
+    },
+    {
+      "id": "第4章-frida-script",
+      "title": "第4章. FRIDA SCRIPT",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#第4章-frida-script",
+      "entries": 0
+    },
+    {
+      "id": "41-ios篇",
+      "title": "4.1 iOS篇",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.1 iOS篇"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#41-ios篇",
+      "entries": 0
+    },
+    {
+      "id": "42-android篇安卓81",
+      "title": "4.2 Android篇（安卓8.1）",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#42-android篇安卓81",
+      "entries": 0
+    },
+    {
+      "id": "421-frida-script的hello-world",
+      "title": "4.2.1 FRIDA SCRIPT的\"hello world\"",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.1 FRIDA SCRIPT的\"hello world\""
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#421-frida-script的hello-world",
+      "entries": 0
+    },
+    {
+      "id": "422-枚举所有的类并定位类",
+      "title": "4.2.2 枚举所有的类并定位类",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.2 枚举所有的类并定位类"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#422-枚举所有的类并定位类",
+      "entries": 0
+    },
+    {
+      "id": "423-枚举类的所有方法并定位方法",
+      "title": "4.2.3 枚举类的所有方法并定位方法",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.3 枚举类的所有方法并定位方法"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#423-枚举类的所有方法并定位方法",
+      "entries": 0
+    },
+    {
+      "id": "424-案例一综合案例在安卓81上dump蓝牙接口和实例",
+      "title": "4.2.4 案例一：综合案例：在安卓8.1上dump蓝牙接口和实例",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.4 案例一：综合案例：在安卓8.1上dump蓝牙接口和实例"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#424-案例一综合案例在安卓81上dump蓝牙接口和实例",
+      "entries": 0
+    },
+    {
+      "id": "425-hook方法的所有重载",
+      "title": "4.2.5 hook方法的所有重载",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.5 hook方法的所有重载"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#425-hook方法的所有重载",
+      "entries": 0
+    },
+    {
+      "id": "426-hook类的所有方法",
+      "title": "4.2.6 hook类的所有方法",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.6 hook类的所有方法"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#426-hook类的所有方法",
+      "entries": 0
+    },
+    {
+      "id": "427-hook包下的所有类",
+      "title": "4.2.7 hook包下的所有类",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.7 hook包下的所有类"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#427-hook包下的所有类",
+      "entries": 0
+    },
+    {
+      "id": "428-hook本地库的导出函数",
+      "title": "4.2.8 hook本地库的导出函数",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.8 hook本地库的导出函数"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#428-hook本地库的导出函数",
+      "entries": 0
+    },
+    {
+      "id": "429-案例二综合案例动静态结合逆向whatsapp",
+      "title": "4.2.9 案例二：综合案例：动静态结合逆向WhatsApp",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.9 案例二：综合案例：动静态结合逆向WhatsApp"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#429-案例二综合案例动静态结合逆向whatsapp",
+      "entries": 0
+    },
+    {
+      "id": "425-hook-io-inputstream",
+      "title": "4.2.5 Hook io InputStream",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.5 Hook io InputStream"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#425-hook-io-inputstream",
+      "entries": 0
+    },
+    {
+      "id": "426-android-make-toast",
+      "title": "4.2.6 Android make Toast",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.6 Android make Toast"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#426-android-make-toast",
+      "entries": 0
+    },
+    {
+      "id": "427-await-for-specific-module-to-load",
+      "title": "4.2.7 Await for specific module to load",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.7 Await for specific module to load"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#427-await-for-specific-module-to-load",
+      "entries": 0
+    },
+    {
+      "id": "428-print-stacktrace",
+      "title": "4.2.8 Print stacktrace",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.8 Print stacktrace"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#428-print-stacktrace",
+      "entries": 0
+    },
+    {
+      "id": "429-string-comparisononly-working-in-dvm",
+      "title": "4.2.9 String comparison(Only working in dvm)",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.9 String comparison(Only working in dvm)"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#429-string-comparisononly-working-in-dvm",
+      "entries": 0
+    },
+    {
+      "id": "4210-hook-jni",
+      "title": "4.2.10 Hook JNI",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.10 Hook JNI"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#4210-hook-jni",
+      "entries": 0
+    },
+    {
+      "id": "4211-hook-constructor",
+      "title": "4.2.11 Hook constructor",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.11 Hook constructor"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#4211-hook-constructor",
+      "entries": 0
+    },
+    {
+      "id": "4212-hook-java-reflection",
+      "title": "4.2.12 Hook Java reflection",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.12 Hook Java reflection"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#4212-hook-java-reflection",
+      "entries": 0
+    },
+    {
+      "id": "4213-trace-class",
+      "title": "4.2.13 Trace class",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.13 Trace class"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#4213-trace-class",
+      "entries": 0
+    },
+    {
+      "id": "4214-ssl-pinning-bypass",
+      "title": "4.2.14 SSL pinning bypass",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "4.2.14 SSL pinning bypass"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#4214-ssl-pinning-bypass",
+      "entries": 0
+    },
+    {
+      "id": "其他脚本一介召几个frida在安卓逆向中使用的脚本以及延时hook手法",
+      "title": "其他脚本一：介召几个frida在安卓逆向中使用的脚本以及延时Hook手法",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第4章. FRIDA SCRIPT",
+        "4.2 Android篇（安卓8.1）",
+        "其他脚本一：介召几个frida在安卓逆向中使用的脚本以及延时Hook手法"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#其他脚本一介召几个frida在安卓逆向中使用的脚本以及延时hook手法",
+      "entries": 0
+    },
+    {
+      "id": "第5章-frida高级应用",
+      "title": "第5章. frida高级应用",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#第5章-frida高级应用",
+      "entries": 0
+    },
+    {
+      "id": "51-静态分析r2frida-ida-plugin",
+      "title": "5.1 静态分析(r2frida, IDA plugin)",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.1 静态分析(r2frida, IDA plugin)"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#51-静态分析r2frida-ida-plugin",
+      "entries": 0
+    },
+    {
+      "id": "52-动态分析",
+      "title": "5.2 动态分析",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.2 动态分析"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#52-动态分析",
+      "entries": 0
+    },
+    {
+      "id": "53-数据提取",
+      "title": "5.3 数据提取",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.3 数据提取"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#53-数据提取",
+      "entries": 0
+    },
+    {
+      "id": "54-流程分析",
+      "title": "5.4 流程分析",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.4 流程分析"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#54-流程分析",
+      "entries": 0
+    },
+    {
+      "id": "55-接口分析",
+      "title": "5.5 接口分析",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.5 接口分析"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#55-接口分析",
+      "entries": 0
+    },
+    {
+      "id": "56-协议分析",
+      "title": "5.6 协议分析",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.6 协议分析"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#56-协议分析",
+      "entries": 0
+    },
+    {
+      "id": "57-fuzz",
+      "title": "5.7 Fuzz",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.7 Fuzz"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#57-fuzz",
+      "entries": 0
+    },
+    {
+      "id": "571-in-process-fuzzing-with-frida",
+      "title": "5.7.1 In-Process Fuzzing With Frida",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.7 Fuzz",
+        "5.7.1 In-Process Fuzzing With Frida"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#571-in-process-fuzzing-with-frida",
+      "entries": 0
+    },
+    {
+      "id": "58-抓包解包brida",
+      "title": "5.8 抓包解包(brida)",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.8 抓包解包(brida)"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#58-抓包解包brida",
+      "entries": 0
+    },
+    {
+      "id": "59-改包重放brida",
+      "title": "5.9 改包重放(brida)",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.9 改包重放(brida)"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#59-改包重放brida",
+      "entries": 0
+    },
+    {
+      "id": "510-加密解密",
+      "title": "5.10 加密解密",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.10 加密解密"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#510-加密解密",
+      "entries": 0
+    },
+    {
+      "id": "511-脱壳去保护",
+      "title": "5.11 脱壳去保护",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.11 脱壳去保护"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#511-脱壳去保护",
+      "entries": 0
+    },
+    {
+      "id": "512-各种检测bypass",
+      "title": "5.12 各种检测bypass",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.12 各种检测bypass"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#512-各种检测bypass",
+      "entries": 0
+    },
+    {
+      "id": "513-反调试与反反调试",
+      "title": "5.13 反调试与反反调试",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.13 反调试与反反调试"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#513-反调试与反反调试",
+      "entries": 0
+    },
+    {
+      "id": "514-frida检测方法汇总",
+      "title": "5.14 FRIDA检测方法汇总",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第5章. frida高级应用",
+        "5.14 FRIDA检测方法汇总"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#514-frida检测方法汇总",
+      "entries": 0
+    },
+    {
+      "id": "第6章-hook技巧总结javaccobjc",
+      "title": "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#第6章-hook技巧总结javaccobjc",
+      "entries": 0
+    },
+    {
+      "id": "61-cccmodule",
+      "title": "6.1 C/C++(CModule)",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+        "6.1 C/C++(CModule)"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#61-cccmodule",
+      "entries": 0
+    },
+    {
+      "id": "62-java",
+      "title": "6.2 Java",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+        "6.2 Java"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#62-java",
+      "entries": 0
+    },
+    {
+      "id": "621-变量参数自定义参数",
+      "title": "6.2.1 变量、参数、自定义参数",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+        "6.2 Java",
+        "6.2.1 变量、参数、自定义参数"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#621-变量参数自定义参数",
+      "entries": 0
+    },
+    {
+      "id": "622-函数隐藏函数构造函数重载",
+      "title": "6.2.2 函数、隐藏函数、构造函数、重载",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+        "6.2 Java",
+        "6.2.2 函数、隐藏函数、构造函数、重载"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#622-函数隐藏函数构造函数重载",
+      "entries": 0
+    },
+    {
+      "id": "623-自定义类内部类匿名内部类抽象类",
+      "title": "6.2.3 自定义类、内部类、匿名内部类、抽象类",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+        "6.2 Java",
+        "6.2.3 自定义类、内部类、匿名内部类、抽象类"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#623-自定义类内部类匿名内部类抽象类",
+      "entries": 0
+    },
+    {
+      "id": "624-",
+      "title": "6.2.4 ......",
+      "level": 4,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+        "6.2 Java",
+        "6.2.4 ......"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#624-",
+      "entries": 0
+    },
+    {
+      "id": "63-objc",
+      "title": "6.3 ObjC",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+        "6.3 ObjC"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#63-objc",
+      "entries": 0
+    },
+    {
+      "id": "64-hook多进程",
+      "title": "6.4 Hook多进程",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第6章. hook技巧总结（Java、C/C++、ObjC、...）",
+        "6.4 Hook多进程"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#64-hook多进程",
+      "entries": 0
+    },
+    {
+      "id": "第7章-二次开发案例",
+      "title": "第7章. 二次开发案例",
+      "level": 2,
+      "path": [
+        "《Frida操作手册》",
+        "第7章. 二次开发案例"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#第7章-二次开发案例",
+      "entries": 0
+    },
+    {
+      "id": "71-appmon",
+      "title": "7.1 Appmon",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第7章. 二次开发案例",
+        "7.1 Appmon"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#71-appmon",
+      "entries": 0
+    },
+    {
+      "id": "72-brida",
+      "title": "7.2 brida",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第7章. 二次开发案例",
+        "7.2 brida"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#72-brida",
+      "entries": 0
+    },
+    {
+      "id": "73-r2frida",
+      "title": "7.3 r2frida",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第7章. 二次开发案例",
+        "7.3 r2frida"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#73-r2frida",
+      "entries": 0
+    },
+    {
+      "id": "74-objection",
+      "title": "7.4 objection",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第7章. 二次开发案例",
+        "7.4 objection"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#74-objection",
+      "entries": 0
+    },
+    {
+      "id": "75-ssl_logger",
+      "title": "7.5 ssl_logger",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第7章. 二次开发案例",
+        "7.5 ssl_logger"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#75-ssl_logger",
+      "entries": 0
+    },
+    {
+      "id": "76-passionfruit",
+      "title": "7.6 passionfruit",
+      "level": 3,
+      "path": [
+        "《Frida操作手册》",
+        "第7章. 二次开发案例",
+        "7.6 passionfruit"
+      ],
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#76-passionfruit",
+      "entries": 0
+    }
+  ],
+  "entries": [
+    {
+      "title": "4.4 FRIDA脚本系列（四）更新篇：几个主要机制的大更新",
+      "url": "https://www.anquanke.com/post/id/177597",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L9",
+      "line": 9,
+      "properties": {}
+    },
+    {
+      "title": "4.3 FRIDA脚本系列（三）超神篇：百度AI“调教”抖音AI",
+      "url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/04.FRIDA-SCRIPTS",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L10",
+      "line": 10,
+      "properties": {}
+    },
+    {
+      "title": "Brida操作指南",
+      "url": "https://bbs.pediy.com/thread-248977.htm",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L11",
+      "line": 11,
+      "properties": {}
+    },
+    {
+      "title": "4.2 FRIDA脚本系列（二）成长篇：动静态结合逆向WhatsApp",
+      "url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/04.FRIDA-SCRIPTS",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L12",
+      "line": 12,
+      "properties": {}
+    },
+    {
+      "title": "介召几个frida在安卓逆向中使用的脚本以及延时Hook手法",
+      "url": "https://bbs.pediy.com/thread-248848.htm",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L13",
+      "line": 13,
+      "properties": {}
+    },
+    {
+      "title": "The King Of Hooking Tools.pptx",
+      "url": "https://github.com/hookmaster/frida-all-in-one/blob/master/FridaPPT/The%20King%20Of%20Hooking%20Tools.pptx",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L14",
+      "line": 14,
+      "properties": {}
+    },
+    {
+      "title": "4.2 FRIDA脚本系列（一）入门篇：在安卓8.1上dump蓝牙接口和实例",
+      "url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/04.FRIDA-SCRIPTS",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L15",
+      "line": 15,
+      "properties": {}
+    },
+    {
+      "title": "CVE-2017-4901 VMware虚拟机逃逸漏洞分析【Frida Windows实例】",
+      "url": "https://bbs.pediy.com/thread-248384.htm",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L17",
+      "line": 17,
+      "properties": {}
+    },
+    {
+      "title": "03.基本案例上手/3.5 Android",
+      "url": "https://www.freebuf.com/articles/system/190565.html",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "01.多平台环境安装/1.3.Android-iOS.md",
+      "url": "https://bbs.pediy.com/thread-248293.htm",
+      "category": "changelog",
+      "source_url": "https://github.com/hookmaster/frida-all-in-one/blob/67db9b89e97d7db0a6cbf367f67417b9479f112e/README.md#L19",
+      "line": 19,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 10,
+  "unique_links": 8,
+  "category_count": 1,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by hookmaster/frida-all-in-one contributors.",
+  "license": null,
+  "license_url": "https://github.com/hookmaster/frida-all-in-one/tree/67db9b89e97d7db0a6cbf367f67417b9479f112e",
+  "digest": "a7def050bbf12546b81383fd8bd5ebc7bbc44ddce0afa3b9d47be6b8499177a2"
+}

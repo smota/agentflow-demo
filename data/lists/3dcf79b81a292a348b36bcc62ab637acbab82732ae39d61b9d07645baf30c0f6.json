@@ -1,0 +1,911 @@
+{
+  "format_version": 2,
+  "repository_id": "155851168",
+  "name": "mbs0221/Multitask-Learning",
+  "revision": "f75486c366af3fd81fda23ba9b201a06f830c5e2",
+  "readme_path": "README.md",
+  "readme_sha256": "38fa8d0fc846104a18d28560089a56499fc3b85dae826773f6166a3e7587ae79",
+  "sections": [
+    {
+      "id": "multitask-learning",
+      "title": "Multitask-Learning",
+      "level": 1,
+      "path": [
+        "Multitask-Learning"
+      ],
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#multitask-learning",
+      "entries": 92
+    },
+    {
+      "id": "related-research-areas",
+      "title": "Related Research Areas",
+      "level": 2,
+      "path": [
+        "Multitask-Learning",
+        "Related Research Areas"
+      ],
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#related-research-areas",
+      "entries": 10
+    },
+    {
+      "id": "convex-optimization",
+      "title": "Convex Optimization",
+      "level": 2,
+      "path": [
+        "Multitask-Learning",
+        "Convex Optimization"
+      ],
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#convex-optimization",
+      "entries": 5
+    }
+  ],
+  "entries": [
+    {
+      "title": "CS330: Deep Multi-Task and Meta-Learning",
+      "url": "http://cs330.stanford.edu/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L6",
+      "line": 6,
+      "properties": {}
+    },
+    {
+      "title": "Rich Caruana's (terribly out-of-date) Home Page",
+      "url": "http://www.cs.cmu.edu/~caruana/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L8",
+      "line": 8,
+      "properties": {}
+    },
+    {
+      "title": "Massimiliano Pontil - UCL",
+      "url": "http://www0.cs.ucl.ac.uk/staff/M.Pontil/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L9",
+      "line": 9,
+      "properties": {}
+    },
+    {
+      "title": "Jiayu Zhou | Machine Learning at Michigan State University",
+      "url": "http://jiayuzhou.github.io/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L10",
+      "line": 10,
+      "properties": {}
+    },
+    {
+      "title": "Yu Zhang (张宇) - HKUST",
+      "url": "https://www.cse.ust.hk/~yuzhangcse/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L11",
+      "line": 11,
+      "properties": {}
+    },
+    {
+      "title": "Tong Zhang (张潼)- Tencent AI Lab",
+      "url": "http://tongzhang-ml.org/publication.html",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L12",
+      "line": 12,
+      "properties": {}
+    },
+    {
+      "title": "Fuzhen Zhuang (庄福振)",
+      "url": "http://www.intsci.ac.cn/users/zhuangfuzhen/#Resources",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L13",
+      "line": 13,
+      "properties": {}
+    },
+    {
+      "title": "Lei Han's Homepage",
+      "url": "http://sysbio.cvm.msstate.edu/~leihan/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L14",
+      "line": 14,
+      "properties": {}
+    },
+    {
+      "title": "Pattern Recognition & Neural Computing Group - NUAA",
+      "url": "http://parnec.nuaa.edu.cn/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L15",
+      "line": 15,
+      "properties": {}
+    },
+    {
+      "title": "Fei Sha University of Southern California",
+      "url": "http://www-bcf.usc.edu/~feisha/index.html",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L16",
+      "line": 16,
+      "properties": {}
+    },
+    {
+      "title": "Dr Xiaojun Chang – Faculty of Information Technology – Monash University",
+      "url": "http://www.cs.cmu.edu/~uqxchan1/index.html",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L17",
+      "line": 17,
+      "properties": {}
+    },
+    {
+      "title": "Yu-Gang Jiang Prof.",
+      "url": "http://www.yugangjiang.info/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L18",
+      "line": 18,
+      "properties": {}
+    },
+    {
+      "title": "Zhuoliang Kang Ph.D student, Computer Science, USC",
+      "url": "http://zhuoliang.me/research.html",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L19",
+      "line": 19,
+      "properties": {}
+    },
+    {
+      "title": "Shiliang Sun’s Home Page",
+      "url": "http://www.cs.ecnu.edu.cn/~slsun/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L20",
+      "line": 20,
+      "properties": {}
+    },
+    {
+      "title": "Dr. Timothy Hospedales",
+      "url": "http://www.eecs.qmul.ac.uk/~tmh/index.html#home",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L21",
+      "line": 21,
+      "properties": {}
+    },
+    {
+      "title": "ML^2 @ UCF",
+      "url": "http://ml.cecs.ucf.edu/node/52",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L22",
+      "line": 22,
+      "properties": {}
+    },
+    {
+      "title": "Elisa Ricci",
+      "url": "https://sites.google.com/site/elisaricciunipg/home",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L23",
+      "line": 23,
+      "properties": {}
+    },
+    {
+      "title": "Gjorgji Strezoski",
+      "url": "https://staff.fnwi.uva.nl/g.strezoski/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L24",
+      "line": 24,
+      "properties": {}
+    },
+    {
+      "title": "Machine Learning with Interdependent and Non-identically Distributed Data",
+      "url": "https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=15152",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L25",
+      "line": 25,
+      "properties": {}
+    },
+    {
+      "title": "SFU Machine Learning Reading Group",
+      "url": "https://www.cs.ubc.ca/~schmidtm/MLRG/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task logistic regression in brain-computer interfaces",
+      "url": "https://github.com/vinay-jayaram/MTlearning",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "Kernelized Bayesian Multitask Learning",
+      "url": "https://github.com/mehmetgonen/kbmtl",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "Parametric Bayesian multi-task learning for modeling biomarker trajectories",
+      "url": "https://github.com/LeonAksman/bayes-mtl-traj",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L32",
+      "line": 32,
+      "properties": {}
+    },
+    {
+      "title": "Bayesian Multitask Multiple Kernel Learning",
+      "url": "https://github.com/mehmetgonen/bmtmkl",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L33",
+      "line": 33,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task Gaussian process (MTGP)",
+      "url": "https://github.com/ebonilla/mtgp",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "Gaussian process multi-task learning",
+      "url": "https://github.com/amarquand/gpmtl",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L36",
+      "line": 36,
+      "properties": {}
+    },
+    {
+      "title": "Asymmetric Multi-Task Learning",
+      "url": "https://github.com/BlasterL/AMTL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L38",
+      "line": 38,
+      "properties": {}
+    },
+    {
+      "title": "Hierarchical_Multi_Task_Learning",
+      "url": "https://github.com/digbose92/Hierarchical_Multi_Task_Learning",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "Asynchronous Multi-Task Learning",
+      "url": "https://github.com/illidanlab/AMTL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L40",
+      "line": 40,
+      "properties": {}
+    },
+    {
+      "title": "HMTL: Hierarchical Multi-Task Learning",
+      "url": "https://github.com/huggingface/hmtl",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task feature learning",
+      "url": "https://github.com/argyriou/multi_task_learning",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L42",
+      "line": 42,
+      "properties": {}
+    },
+    {
+      "title": "Multiplicative MultiTask Feature Learning (MMTFL)",
+      "url": "https://github.com/JunYongJeong/MMTFL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "Learning Incoherent Sparse and Low-Rank Patterns from Multiple Tasks",
+      "url": "https://github.com/AlamiMejjati/Mtl-Implem",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L44",
+      "line": 44,
+      "properties": {}
+    },
+    {
+      "title": "Variable Selection and Task Grouping for Multi-Task Learning (VSTG-MTL)",
+      "url": "https://github.com/JunYongJeong/VSTG-MTL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "Calibrated Multi-Task Learning Based on Non-convex Low Rank",
+      "url": "https://github.com/sudalvxin/Multi-task-Learning",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L46",
+      "line": 46,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task_Survival_Analysis",
+      "url": "https://github.com/yanlirock/Multi-task_Survival_Analysis",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L47",
+      "line": 47,
+      "properties": {}
+    },
+    {
+      "title": "A Multi-Task Learning Formulation for Survival Analysis",
+      "url": "https://github.com/yanlirock/MTLSA",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L48",
+      "line": 48,
+      "properties": {}
+    },
+    {
+      "title": "Federated Multi-Task Learning",
+      "url": "https://github.com/gingsmith/fmtl",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "Online Multi-Task Learning Toolkit (OMT) v1.0",
+      "url": "https://github.com/lancopku/Multi-Task-Learning",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "Robust-Multitask-Reinforcement Learning",
+      "url": "https://github.com/Alfo5123/Robust-Multitask-RL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "MALSAR: Multi-task learning via Structural Regularization",
+      "url": "http://jiayuzhou.github.io/MALSAR/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "MALSAR package Version 1.1",
+      "url": "https://github.com/xiayan/MTL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L56",
+      "line": 56,
+      "properties": {}
+    },
+    {
+      "title": "Multi Task Learning Package for Matlab",
+      "url": "https://github.com/cciliber/matMTL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L57",
+      "line": 57,
+      "properties": {}
+    },
+    {
+      "title": "Regularized Multi-task Learning in R",
+      "url": "https://github.com/transbioZI/RMTL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L58",
+      "line": 58,
+      "properties": {}
+    },
+    {
+      "title": "Package to apply MTL on a few dataset",
+      "url": "https://github.com/chcorbi/MultiTaskLearning",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "Matlab MultiClass MultiTask Learning (MCMTL) toolbox",
+      "url": "https://github.com/dsmbgu8/MCMTL",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L60",
+      "line": 60,
+      "properties": {}
+    },
+    {
+      "title": "Personalized Multitask Learning",
+      "url": "https://github.com/mitmedialab/PersonalizedMultitaskLearning",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "Multitask Learning",
+      "url": "https://link.springer.com/article/10.1023/A:1007379606734",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "An overview of multi-task learning",
+      "url": "https://academic.oup.com/nsr/article/5/1/30/4101432",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L64",
+      "line": 64,
+      "properties": {}
+    },
+    {
+      "title": "A brief review on multi-task learning",
+      "url": "https://link.springer.com/article/10.1007%2Fs11042-018-6463-x",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L65",
+      "line": 65,
+      "properties": {}
+    },
+    {
+      "title": "A review on multi-task metric learning",
+      "url": "https://bdataanalytics.biomedcentral.com/articles/10.1186/s41044-018-0029-9",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L66",
+      "line": 66,
+      "properties": {}
+    },
+    {
+      "title": "Safe sample screening for regularized multi-task learning",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0950705120304469",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task feature learning by using trace norm regularization",
+      "url": "http://adsabs.harvard.edu/abs/2017OPhy...15...79J",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L68",
+      "line": 68,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Task Clustering with Model Relation Learning",
+      "url": "https://doi.org/10.24963/ijcai.2018/435",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L69",
+      "line": 69,
+      "properties": {}
+    },
+    {
+      "title": "Online Multitask Learning",
+      "url": "https://www.microsoft.com/en-us/research/publication/online-multitask-learning/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "Online multitask relative similarity learning",
+      "url": "https://ink.library.smu.edu.sg/sis_research/3846/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L71",
+      "line": 71,
+      "properties": {}
+    },
+    {
+      "title": "New Directions in Transfer and Multi-Task: Learning Across Domains and Tasks",
+      "url": "https://sites.google.com/site/learningacross/home/accepted-papers",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L72",
+      "line": 72,
+      "properties": {}
+    },
+    {
+      "title": "Manifold Regularized Multi-Task Learning",
+      "url": "https://doi.org/10.1007/978-3-642-34487-9_64",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Objective Multi-Task Learning",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Multi-Objective%20Multi-Task%20Learning.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L74",
+      "line": 74,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Task Active Learning",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Multi-Task%20Active%20Learning.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L75",
+      "line": 75,
+      "properties": {}
+    },
+    {
+      "title": "A Survey on Multi-Task Learning",
+      "url": "https://arxiv.org/abs/1707.08114",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L77",
+      "line": 77,
+      "properties": {}
+    },
+    {
+      "title": "Self-Paced Multi-Task Clustering",
+      "url": "https://arxiv.org/abs/1808.08068",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L78",
+      "line": 78,
+      "properties": {}
+    },
+    {
+      "title": "Model-Protected Multi-Task Learning",
+      "url": "https://arxiv.org/abs/1809.06546",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Task Feature Learning",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/oh06_argyriou_mtfl_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Stage Multi-Task Feature Learning",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/machine_zhang_learning_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L83",
+      "line": 83,
+      "properties": {}
+    },
+    {
+      "title": "A Dirty Model for Multitask Learning",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/nips2010_jalali_dmm_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L84",
+      "line": 84,
+      "properties": {}
+    },
+    {
+      "title": "Learning Incoherent Sparse and Low-Rank Patterns from Multiple Tasks",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/kdd2010_chen_lislrpmt_01.ppt",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "A Graph-based Framework for Multi-Task Multi-View Learning",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/A%20Graph-based%20Framework%20for%20Multi-Task%20Multi-View%20Learning.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L86",
+      "line": 86,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Task Learning: The Bayesian Way, 2006",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/oh06_heskes_bw_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task Gaussian Process Prediction, 2008",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/bark08_williams_mtlwgp_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L89",
+      "line": 89,
+      "properties": {}
+    },
+    {
+      "title": "Multitask Multiple Kernel Learning, 2010",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/nipsworkshops2010_widmer_mmk_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L90",
+      "line": 90,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task Regularization of Generative Similarity Models, 2011",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/simbad2011_cazzanti_generative_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "Learning Multiple Tasks with a Sparse Matrix-Normal Penalty, 2011",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Esther3.25.2011.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L92",
+      "line": 92,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Task Learning via Matrix Regularization",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/lkasok08_argyriou_mtlvmr_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L93",
+      "line": 93,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Task Learning: Theory, Algorithms, and Applications, 2012",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Multi-Task%20Learning-Theory,%20Algorithms,%20and%20Applications.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task and Transfer Learning, 2013",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Multi-task%20and%20Transfer%20Learning.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L95",
+      "line": 95,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task Learning and Structured Sparsity, 2013",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Multi-task%20Learning%20and%20Structured%20Sparsity.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L96",
+      "line": 96,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task Learning, 2013",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/roks2013_pontil_learning_01.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "Multi-task Learning, 2014",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Multi-task%20Learning-1.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L98",
+      "line": 98,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Task Learning: Models, Optimization and Applications, 2016",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Multi-Task%20Learning-Models,%20Optimization%20and%20Applications.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L99",
+      "line": 99,
+      "properties": {}
+    },
+    {
+      "title": "Domain Adaptation / Multi-Task Learning Methods and Examples",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/pdf/Domain%20Adaptation%20%E2%80%93%20Algorithms,%20Variants%20and%20Extensions.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "Recent Advances in Multi-Task Learning",
+      "url": "http://jiayuzhou.github.io/talks/advances_in_multitask_learning.pdf",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L101",
+      "line": 101,
+      "properties": {}
+    },
+    {
+      "title": "Task Sensitive Feature Exploration and Learning for Multi-Task Graph Classification",
+      "url": "http://www.cse.fau.edu/~xqzhu/FelMuG/index.html",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "BMTMKL: Bayesian Multitask Multiple Kernel Learning",
+      "url": "https://research.cs.aalto.fi/pml/software/bmtmkl/",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L104",
+      "line": 104,
+      "properties": {}
+    },
+    {
+      "title": "Multitask Learning / Domain Adaptation",
+      "url": "http://www.cs.cornell.edu/~kilian/research/multitasklearning/multitasklearning.html",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L105",
+      "line": 105,
+      "properties": {}
+    },
+    {
+      "title": "Multitask Kernel Methods",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/docs/mkl.md",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "Multitask Deep Learning",
+      "url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/docs/mdl.md",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L107",
+      "line": 107,
+      "properties": {}
+    },
+    {
+      "title": "RMTL: Regularized Multi-Task Learning",
+      "url": "https://cran.r-project.org/web/packages/RMTL/index.html",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "Multi-Task Learning: Theory, Algorithms, and Applications",
+      "url": "https://archive.siam.org/meetings/sdm12/multi.php",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L111",
+      "line": 111,
+      "properties": {}
+    },
+    {
+      "title": "An Tutorial for Regularized Multi-task Learning using the package RMTL",
+      "url": "https://cran.r-project.org/web/packages/RMTL/vignettes/rmtl.html",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "SparseMTL Toolbox",
+      "url": "http://asi.insa-rouen.fr/enseignants/~arakoto/code/SparseMTL.html#description",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L113",
+      "line": 113,
+      "properties": {}
+    },
+    {
+      "title": "Probabilistic Machine Learning",
+      "url": "https://research.cs.aalto.fi/pml/software.shtml",
+      "category": "multitask-learning",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L114",
+      "line": 114,
+      "properties": {}
+    },
+    {
+      "title": "KEEL-dataset repository",
+      "url": "https://sci2s.ugr.es/keel/multilabel.php#sub10",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L117",
+      "line": 117,
+      "properties": {}
+    },
+    {
+      "title": "PyTorch Meta-learning Framework for Researchers",
+      "url": "https://github.com/learnables/learn2learn",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L119",
+      "line": 119,
+      "properties": {}
+    },
+    {
+      "title": "Meta Learning / Learning to Learn / One Shot Learning / Few Shot Learning",
+      "url": "https://github.com/floodsung/Meta-Learning-Papers",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L120",
+      "line": 120,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Meta Learning",
+      "url": "https://github.com/sudharsan13296/Awesome-Meta-Learning",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "awesome-meta-learning",
+      "url": "https://github.com/dragen1860/awesome-meta-learning",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L122",
+      "line": 122,
+      "properties": {}
+    },
+    {
+      "title": "Torchmeta",
+      "url": "https://github.com/tristandeleu/pytorch-meta",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L123",
+      "line": 123,
+      "properties": {}
+    },
+    {
+      "title": "Model-Agnostic Meta-Learning",
+      "url": "https://github.com/dragen1860/MAML-Pytorch",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "Federated Learning",
+      "url": "https://github.com/ZeroWangZY/federated-learning",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L126",
+      "line": 126,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Federated Learning",
+      "url": "https://github.com/poga/awesome-federated-learning",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "Awesome Federated Computing",
+      "url": "https://github.com/tushar-semwal/awesome-federated-computing",
+      "category": "related-research-areas",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L128",
+      "line": 128,
+      "properties": {}
+    },
+    {
+      "title": "EE364a: Convex Optimization I Professor Stephen Boyd, Stanford University",
+      "url": "http://web.stanford.edu/class/ee364a/",
+      "category": "convex-optimization",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "EE227BT: Convex Optimization — Fall 2013",
+      "url": "https://people.eecs.berkeley.edu/~elghaoui/Teaching/EE227A/index.html",
+      "category": "convex-optimization",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L131",
+      "line": 131,
+      "properties": {}
+    },
+    {
+      "title": "CRAN - Package ADMM",
+      "url": "http://cran.stat.ucla.edu/web/packages/ADMM/",
+      "category": "convex-optimization",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L132",
+      "line": 132,
+      "properties": {}
+    },
+    {
+      "title": "Proximal-Proximal-Gradient Method",
+      "url": "https://www.math.ucla.edu/~wotaoyin/papers/prox_prox_grad.html",
+      "category": "convex-optimization",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "Proximal gradient method",
+      "url": "http://bicmr.pku.edu.cn/~wenzw/opt2015/lect-proxg.pdf",
+      "category": "convex-optimization",
+      "source_url": "https://github.com/mbs0221/Multitask-Learning/blob/f75486c366af3fd81fda23ba9b201a06f830c5e2/README.md#L134",
+      "line": 134,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 107,
+  "unique_links": 107,
+  "category_count": 3,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by mbs0221/Multitask-Learning contributors.",
+  "license": null,
+  "license_url": "https://github.com/mbs0221/Multitask-Learning/tree/f75486c366af3fd81fda23ba9b201a06f830c5e2",
+  "digest": "3dcf79b81a292a348b36bcc62ab637acbab82732ae39d61b9d07645baf30c0f6"
+}

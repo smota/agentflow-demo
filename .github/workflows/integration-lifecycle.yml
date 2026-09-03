@@ -1,25 +1,35 @@
 name: Integration lifecycle
-
 on:
   pull_request:
     types: [closed]
-
+    branches: [development]
 permissions:
   contents: read
-  issues: write
   pull-requests: read
-
+  issues: write
 jobs:
   close-integrated-issues:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: smota/agentflow-sdlc
+          ref: 60a0e800dc4d4ce9476c72231a0b853998131213
+          path: .tooling/agentflow-next
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Close issues integrated into the configured branch
+          node-version: '24'
+      - run: |
+          mkdir -p .agent-runs/ci
+          node .tooling/agentflow-next/scripts/integration-lifecycle.mjs --apply --receipt .agent-runs/ci/integration-receipt.json
         env:
           GH_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node scripts/integration-lifecycle.mjs --apply
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: integration-receipt
+          path: .agent-runs/ci/integration-receipt.json
+          if-no-files-found: ignore

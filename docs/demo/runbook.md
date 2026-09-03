@@ -14,14 +14,14 @@
 - Stable plan, architecture, story and runbook are committed.
 - GitHub is authoritative for issue/phase, PR, release and closeout status.
 - .agent-runs stores local checkpoints, role-pass drafts, logs and unfinished artifacts; never commit it.
-- .tooling/agentflow holds the pinned release source. .venv, .cache and data/raw are local-only.
+- .tooling/agentflow-next holds the current pinned source from agentflow-source.json. The older .tooling/agentflow is historical only. .venv, .cache and data/raw are local-only.
 - Set TEMP/TMP and package caches to project-local directories for tool commands that write them. Do not use global install or change global Git identity/trust.
 
 ## Installation
 
-Pin Agentflow v1.0.0 / d61b3ca71189f872a6fd78373076f2aab787f2e0. Its supported init installs framework-owned files and seeds missing project policy. Init is only for the empty initial target; use doctor and reviewed sync for later changes. Do not rerun init over authored edits.
+Use the exact revision in agentflow-source.json:60a0e800dc4d4ce9476c72231a0b853998131213. This is merged development, not a newer published release. The old v1 installation was explicitly retired and replaced by official fresh github-profile adoption; see wave2.md. Do not run retired init/sync commands.
 
-The newer source's adopt command requires an external rollback receipt; it is not used because it conflicts with the folder-only requirement. Do not silently replace the pinned version.
+Current adoption supports --storage project, with ignored receipts under .agentflow/transactions. Review adopt plan before applying the exact token. Never invent or modify lock hashes. JSON payload bytes are preserved with Git -text attributes because managed hashes are byte-based.
 
 From the demo root in PowerShell, restore the ignored source only if absent:
 
@@ -33,14 +33,19 @@ $env:TMP = $env:TEMP
 $env:npm_config_cache = Join-Path $demoRoot '.cache/npm'
 $env:PIP_CACHE_DIR = Join-Path $demoRoot '.cache/pip'
 $env:PYTHONDONTWRITEBYTECODE = '1'
-if (!(Test-Path .tooling/agentflow)) {
-  git clone --branch v1.0.0 --depth 1 https://github.com/smota/agentflow-sdlc.git .tooling/agentflow
+if (!(Test-Path .tooling/agentflow-next)) {
+  git clone --config core.autocrlf=false --no-checkout https://github.com/smota/agentflow-sdlc.git .tooling/agentflow-next
   if ($LASTEXITCODE) { throw 'Framework clone failed' }
+  git -C .tooling/agentflow-next checkout --detach 60a0e800dc4d4ce9476c72231a0b853998131213
+  if ($LASTEXITCODE) { throw 'Framework checkout failed' }
+  # Fresh tooling clone only: retain the raw pinned bytes, without text filters.
+  node -e "const fs=require('fs'), cp=require('child_process'), path=require('path'); const base=path.resolve('.tooling/agentflow-next'); const git=(...a)=>cp.execFileSync('git',['-c','safe.directory='+base,'-C',base,...a]); for(const e of git('ls-tree','-rz','HEAD').toString().split('\0').filter(Boolean)){const [m,p]=e.split('\t'); const [mode,type,oid]=m.split(' '); const f=path.resolve(base,p); if(type!=='blob'||!['100644','100755'].includes(mode)||!f.startsWith(base+path.sep))throw Error('Unexpected source entry'); fs.writeFileSync(f,git('cat-file','blob',oid));}"
+  if ($LASTEXITCODE) { throw 'Framework byte materialization failed' }
 }
-$frameworkSha = git -c safe.directory="$demoRoot/.tooling/agentflow" -C .tooling/agentflow rev-parse HEAD
-if ($frameworkSha -ne 'd61b3ca71189f872a6fd78373076f2aab787f2e0') { throw 'Unexpected framework revision' }
-node .tooling/agentflow/bin/cli.mjs doctor --target .
-if ($LASTEXITCODE) { throw 'Framework doctor failed' }
+$frameworkSha = git -c safe.directory="$demoRoot/.tooling/agentflow-next" -C .tooling/agentflow-next rev-parse HEAD
+if ($frameworkSha -ne '60a0e800dc4d4ce9476c72231a0b853998131213') { throw 'Unexpected framework revision' }
+node scripts/check-framework.mjs
+if ($LASTEXITCODE) { throw 'Framework validation failed' }
 ```
 
 Normal Node environments run `npm run check:workflow`. This workstation intercepts `npm`, so use its installed runtime directly (no package installation):
@@ -50,7 +55,19 @@ $demoNode = mise which node
 & $demoNode (Join-Path (Split-Path $demoNode) 'node_modules/npm/bin/npm-cli.js') run check:workflow
 ```
 
-Runtime discovery is workstation-specific; package.json and CI use the portable npm script. Caches remain ignored. No `init` is needed on a fresh clone: managed files and lock are already committed.
+Runtime discovery is workstation-specific; package.json and CI use the portable npm script. Caches remain ignored. No adoption is needed on a fresh clone: managed files and lock are already committed. For a future update, preserve authored changes and use official adopt plan/apply with project storage.
+
+The raw-byte step is necessary for this pin: an isolated Windows checkout changed
+91 files through line-ending filters despite `core.autocrlf=false`. A Git archive
+fixture also failed the exact-byte check. `git cat-file blob` is the tested source
+of authoritative bytes. Do not apply this overwrite step to an existing or authored
+checkout: inspect differences, preserve originals, and restore only proven cache
+materialization differences. A clean text-filtered Git status does not prove byte
+identity. The framework checker verifies every blob against the pinned tree.
+
+The pinned contained rollback CLI has a known receipt-field defect (issue18). The tested project adapter invokes the unmodified official API with the original signed receipt:
+`node scripts/adoption-rollback.mjs --target <absolute-demo-or-contained-fixture> --receipt <absolute-receipt> --confirm <receipt-token>`.
+It checks reserved contained paths and delegates digest/target/drift checks upstream. Retained receipts are not permission to overwrite later work. The exercised rollback was an isolated adoption fixture, not a production application rollback.
 
 For Python 3.11, after the project-local cache variables above are set:
 

@@ -1,5 +1,14 @@
 # Approved delivery goal
 
+> Wave2 supersedes the product/version targets below. Active user authorization:
+> 2026-09-03, execute to completion. [Epic16](https://github.com/smota/agentflow-demo/issues/16)
+> and [wave2 journal](wave2.md) define the current goal: Awesome lists themselves,
+> minimum100 observed stars, broader auditable discovery, list intelligence,
+> contributor credit, exploration/comparison/dashboarding and verified2.0 release.
+> Local processing, folder containment, free Streamlit hosting, durable recovery,
+> explicit simulated review and no heartbeat remain unchanged. The original v1
+> contract below is preserved as historical evidence, not the current threshold.
+
 Build and publish AwesomeAwesomeness through Agentflow's end-to-end SDLC. The application and the linked delivery story are equally required outcomes. User activation: 2026-09-02, explicit approval to execute with durable checkpoints, early deployment, recovery test, and no heartbeat.
 
 ## Product contract

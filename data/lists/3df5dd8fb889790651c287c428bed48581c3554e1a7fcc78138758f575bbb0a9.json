@@ -1,0 +1,778 @@
+{
+  "format_version": 2,
+  "repository_id": "196583580",
+  "name": "z-bingo/awesome-image-denoising-state-of-the-art",
+  "revision": "8c8104b0330ad85c594df1a8d379b82c710bfdd1",
+  "readme_path": "readme.md",
+  "readme_sha256": "87a2716a7ae243c53fa9b83a25ba8b843cd77a42b07338bf8f7aeb6792592349",
+  "sections": [
+    {
+      "id": "awesome-image-or-video-denoising-algorithms",
+      "title": "Awesome Image or Video Denoising Algorithms",
+      "level": 2,
+      "path": [
+        "Awesome Image or Video Denoising Algorithms"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#awesome-image-or-video-denoising-algorithms",
+      "entries": 0
+    },
+    {
+      "id": "contents",
+      "title": "Contents",
+      "level": 2,
+      "path": [
+        "Contents"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#contents",
+      "entries": 0
+    },
+    {
+      "id": "denoising-algorithms",
+      "title": "Denoising Algorithms",
+      "level": 2,
+      "path": [
+        "Denoising Algorithms"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#denoising-algorithms",
+      "entries": 0
+    },
+    {
+      "id": "filter",
+      "title": "Filter",
+      "level": 4,
+      "path": [
+        "Denoising Algorithms",
+        "Filter"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#filter",
+      "entries": 3
+    },
+    {
+      "id": "sparse-coding",
+      "title": "Sparse Coding",
+      "level": 4,
+      "path": [
+        "Denoising Algorithms",
+        "Sparse Coding"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#sparse-coding",
+      "entries": 6
+    },
+    {
+      "id": "effective-prior",
+      "title": "Effective Prior",
+      "level": 4,
+      "path": [
+        "Denoising Algorithms",
+        "Effective Prior"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#effective-prior",
+      "entries": 4
+    },
+    {
+      "id": "low-rank",
+      "title": "Low Rank",
+      "level": 4,
+      "path": [
+        "Denoising Algorithms",
+        "Low Rank"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#low-rank",
+      "entries": 3
+    },
+    {
+      "id": "deep-learning",
+      "title": "Deep Learning",
+      "level": 4,
+      "path": [
+        "Denoising Algorithms",
+        "Deep Learning"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#deep-learning",
+      "entries": 37
+    },
+    {
+      "id": "sparsity-and-low-rankness-combined",
+      "title": "Sparsity and Low-rankness Combined",
+      "level": 4,
+      "path": [
+        "Denoising Algorithms",
+        "Sparsity and Low-rankness Combined"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#sparsity-and-low-rankness-combined",
+      "entries": 1
+    },
+    {
+      "id": "combined-with-high-level-tasks",
+      "title": "Combined with High-Level Tasks",
+      "level": 4,
+      "path": [
+        "Denoising Algorithms",
+        "Combined with High-Level Tasks"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#combined-with-high-level-tasks",
+      "entries": 1
+    },
+    {
+      "id": "image-noise-level-estimation",
+      "title": "Image Noise Level Estimation",
+      "level": 4,
+      "path": [
+        "Denoising Algorithms",
+        "Image Noise Level Estimation"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#image-noise-level-estimation",
+      "entries": 4
+    },
+    {
+      "id": "benchmark-and-dataset",
+      "title": "Benchmark and Dataset",
+      "level": 2,
+      "path": [
+        "Benchmark and Dataset"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#benchmark-and-dataset",
+      "entries": 0
+    },
+    {
+      "id": "novel-benchmark",
+      "title": "Novel Benchmark",
+      "level": 4,
+      "path": [
+        "Benchmark and Dataset",
+        "Novel Benchmark"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#novel-benchmark",
+      "entries": 5
+    },
+    {
+      "id": "commonly-used-denoising-dataset",
+      "title": "Commonly Used Denoising Dataset",
+      "level": 4,
+      "path": [
+        "Benchmark and Dataset",
+        "Commonly Used Denoising Dataset"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#commonly-used-denoising-dataset",
+      "entries": 6
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "level": 2,
+      "path": [
+        "Others"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#others",
+      "entries": 0
+    },
+    {
+      "id": "commonly-used-image-quality-metric-code",
+      "title": "Commonly Used Image Quality Metric Code",
+      "level": 4,
+      "path": [
+        "Others",
+        "Commonly Used Image Quality Metric Code"
+      ],
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#commonly-used-image-quality-metric-code",
+      "entries": 3
+    }
+  ],
+  "entries": [
+    {
+      "title": "[Web]",
+      "url": "https://sites.google.com/site/shreyamsha/publications/image-denoising-based-on-nlfmt",
+      "category": "filter",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L26",
+      "line": 26,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://www.cs.tut.fi/~foi/GCF-BM3D/",
+      "category": "filter",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L29",
+      "line": 29,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://www.cgg.unibe.ch/publications/progressive-image-denoising",
+      "category": "filter",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L31",
+      "line": 31,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://www.cs.technion.ac.il/~ronrubin/software.html",
+      "category": "sparse-coding",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L35",
+      "line": 35,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://lear.inrialpes.fr/people/mairal/",
+      "category": "sparse-coding",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L37",
+      "line": 37,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://www4.comp.polyu.edu.hk/~cslzhang/NCSR.htm",
+      "category": "sparse-coding",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L39",
+      "line": 39,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://transformlearning.csl.illinois.edu/projects/",
+      "category": "sparse-coding",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L41",
+      "line": 41,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://jianzhang.tech/projects/GSR/",
+      "category": "sparse-coding",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L43",
+      "line": 43,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/csjunxu/TWSC-ECCV2018",
+      "category": "sparse-coding",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L45",
+      "line": 45,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://people.csail.mit.edu/danielzoran/",
+      "category": "effective-prior",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L49",
+      "line": 49,
+      "properties": {}
+    },
+    {
+      "title": "[Code]",
+      "url": "https://github.com/tingfengainiaini/GHPBasedImageRestoration",
+      "category": "effective-prior",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L51",
+      "line": 51,
+      "properties": {}
+    },
+    {
+      "title": "[Code]",
+      "url": "https://github.com/csjunxu/PGPD_Offline_BID",
+      "category": "effective-prior",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L53",
+      "line": 53,
+      "properties": {}
+    },
+    {
+      "title": "[Code]",
+      "url": "http://www4.comp.polyu.edu.hk/~cslzhang/code/PCLR.zip",
+      "category": "effective-prior",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L55",
+      "line": 55,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://see.xidian.edu.cn/faculty/wsdong/wsdong_Publication.htm",
+      "category": "low-rank",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L59",
+      "line": 59,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://sites.google.com/site/shuhanggu/home",
+      "category": "low-rank",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L61",
+      "line": 61,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://www4.comp.polyu.edu.hk/~csjunxu/Publications.html",
+      "category": "low-rank",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L63",
+      "line": 63,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#shrinkage_fields",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L67",
+      "line": 67,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://www.icg.tugraz.at/Members/Chenyunjin/about-yunjin-chen",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L70",
+      "line": 70,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://bitbucket.org/chhshen/image-denoising/",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L73",
+      "line": 73,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/cszn/DnCNN",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L76",
+      "line": 76,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/tyshiwo/MemNet",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L79",
+      "line": 79,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/cswin/WIN",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L82",
+      "line": 82,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/sunke123/FW-Net",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L85",
+      "line": 85,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://cig.skoltech.ru/publications",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L88",
+      "line": 88,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://dmitryulyanov.github.io/deep_image_prior",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L91",
+      "line": 91,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/kligvasser/xUnit",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L94",
+      "line": 94,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/cig-skoltech/UDNet",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L97",
+      "line": 97,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/lpj0/MWCNN",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L100",
+      "line": 100,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/cszn/FFDNet/",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L103",
+      "line": 103,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/csm9493/FC-AIDE",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L106",
+      "line": 106,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/GuoShi28/CBDNet",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L109",
+      "line": 109,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/yu4u/noise2noise",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L112",
+      "line": 112,
+      "properties": {}
+    },
+    {
+      "title": "[Official Code]",
+      "url": "https://github.com/TaoHuang2018/Neighbor2Neighbor",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L115",
+      "line": 115,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://cig.skoltech.ru/publications",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L118",
+      "line": 118,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/visinf/n3net",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L121",
+      "line": 121,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/Ding-Liu/NLRN",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L124",
+      "line": 124,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L127",
+      "line": 127,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L130",
+      "line": 130,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://visual.cs.ucl.ac.uk/pubs/deepBurstDenoising/",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L133",
+      "line": 133,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L137",
+      "line": 137,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L140",
+      "line": 140,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L143",
+      "line": 143,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L146",
+      "line": 146,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L149",
+      "line": 149,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L152",
+      "line": 152,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/xinntao/EDVR",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L155",
+      "line": 155,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/m-tassano/dvdnet",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L158",
+      "line": 158,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/m-tassano/fastdvdnet",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L161",
+      "line": 161,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L164",
+      "line": 164,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L167",
+      "line": 167,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L170",
+      "line": 170,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/swz30/CycleISP",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L173",
+      "line": 173,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/swz30/MIRNet",
+      "category": "deep-learning",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L176",
+      "line": 176,
+      "properties": {}
+    },
+    {
+      "title": "[PDF]",
+      "url": "http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf",
+      "category": "sparsity-and-low-rankness-combined",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L181",
+      "line": 181,
+      "properties": {}
+    },
+    {
+      "title": "[PDF]",
+      "url": "https://arxiv.org/pdf/1706.04284.pdf",
+      "category": "combined-with-high-level-tasks",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L185",
+      "line": 185,
+      "properties": {}
+    },
+    {
+      "title": "[PDF]",
+      "url": "http://www.ok.sc.e.titech.ac.jp/res/NLE/TIP2013-noise-level-estimation06607209.pdf",
+      "category": "image-noise-level-estimation",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L190",
+      "line": 190,
+      "properties": {}
+    },
+    {
+      "title": "[Code]",
+      "url": "https://github.com/GuoShi28/CBDNet",
+      "category": "image-noise-level-estimation",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L192",
+      "line": 192,
+      "properties": {}
+    },
+    {
+      "title": "[Code]",
+      "url": "https://github.com/SSL92/hyperIQA",
+      "category": "image-noise-level-estimation",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L194",
+      "line": 194,
+      "properties": {}
+    },
+    {
+      "title": "[Code]",
+      "url": "https://github.com/baidut/PaQ-2-PiQ",
+      "category": "image-noise-level-estimation",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L196",
+      "line": 196,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://ani.stat.fsu.edu/~abarbu/Renoir.html",
+      "category": "novel-benchmark",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L201",
+      "line": 201,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset",
+      "category": "novel-benchmark",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L203",
+      "line": 203,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://snam.ml/research/ccnoise",
+      "category": "novel-benchmark",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L205",
+      "line": 205,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://noise.visinf.tu-darmstadt.de/",
+      "category": "novel-benchmark",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L207",
+      "line": 207,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://www.eecs.yorku.ca/~kamel/sidd/dataset.php",
+      "category": "novel-benchmark",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L209",
+      "line": 209,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://r0k.us/graphics/kodak/",
+      "category": "commonly-used-denoising-dataset",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L213",
+      "line": 213,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://sipi.usc.edu/database/database.php?volume=misc",
+      "category": "commonly-used-denoising-dataset",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L214",
+      "line": 214,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/",
+      "category": "commonly-used-denoising-dataset",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L215",
+      "line": 215,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://toflow.csail.mit.edu/",
+      "category": "commonly-used-denoising-dataset",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L216",
+      "line": 216,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "https://data.csail.mit.edu/graphics/fivek/",
+      "category": "commonly-used-denoising-dataset",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L217",
+      "line": 217,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://storage.googleapis.com/openimages/web/index.html",
+      "category": "commonly-used-denoising-dataset",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L218",
+      "line": 218,
+      "properties": {}
+    },
+    {
+      "title": "[Wiki]",
+      "url": "https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio",
+      "category": "commonly-used-image-quality-metric-code",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L222",
+      "line": 222,
+      "properties": {}
+    },
+    {
+      "title": "[Wiki]",
+      "url": "https://en.wikipedia.org/wiki/Structural_similarity",
+      "category": "commonly-used-image-quality-metric-code",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L224",
+      "line": 224,
+      "properties": {}
+    },
+    {
+      "title": "[Web]",
+      "url": "http://live.ece.utexas.edu/research/Quality/nrqa.htm",
+      "category": "commonly-used-image-quality-metric-code",
+      "source_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/blob/8c8104b0330ad85c594df1a8d379b82c710bfdd1/readme.md#L226",
+      "line": 226,
+      "properties": {}
+    }
+  ],
+  "properties": [],
+  "entry_count": 73,
+  "unique_links": 61,
+  "category_count": 11,
+  "parser": "markdown-lists-and-tables-v2",
+  "coverage": "Supported Markdown list items and table rows in this pinned README; other files and embedded HTML are not counted.",
+  "contributors": [],
+  "attribution": "Content curated by z-bingo/awesome-image-denoising-state-of-the-art contributors.",
+  "license": null,
+  "license_url": "https://github.com/z-bingo/awesome-image-denoising-state-of-the-art/tree/8c8104b0330ad85c594df1a8d379b82c710bfdd1",
+  "digest": "3df5dd8fb889790651c287c428bed48581c3554e1a7fcc78138758f575bbb0a9"
+}

@@ -3,6 +3,8 @@
 
 # Markdown files always use LF (prevents CRLF noise on Windows checkouts)
 *.md text eol=lf
+# Preserve exact JSON payload bytes: Agentflow lock hashes are byte-based.
+*.json -text
 
 # Shell and Node.js scripts must always use LF line endings
 *.sh text eol=lf
