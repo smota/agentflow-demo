@@ -65,6 +65,14 @@ the PID in `.agent-runs/list-crawler.lock` before recovering a crashed process. 
 delete an active or unknown writer lock. A changed engine/checkpoint requires a new
 reviewed run; editing its hashes to force resume is prohibited.
 
+For a reviewed engine correction, `replay` creates a new generation from a completed
+discovery checkpoint. Supply `--source-run` and its exact `--expected-digest`, plus
+a new `--run-id`. It requires identical discovery queries and threshold, verifies
+each reused raw input's SHA-256, reparses rather than copying classifications, and
+records the source engine/digest. The source checkpoint is never modified. Resume
+unfinished enrichment normally against the new generation. Replays are local
+integrity checks, not cryptographic attestations from GitHub.
+
 `--interrupt-after` injects a real local interruption after durable search pages or
 enrichment batches. Resume with the same run ID without that flag. Test and actual
 live interruption observations are recorded separately in the delivery journal.

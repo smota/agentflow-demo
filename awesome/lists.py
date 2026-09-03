@@ -47,7 +47,7 @@ def parse_readme(markdown: str, repo: str, revision: str, path: str = "README.md
     """Extract factual titles/links and original hierarchy, not copied descriptions."""
     if len(markdown.encode()) > MAX_README:
         raise ValueError("README exceeds 2 MiB parse budget")
-    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]*/[A-Za-z0-9][A-Za-z0-9_.-]*", repo) or not re.fullmatch(r"[a-f0-9]{40}", revision):
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9_.-]+", repo) or repo.split("/")[-1] in {".", ".."} or not re.fullmatch(r"[a-f0-9]{40}", revision):
         raise ValueError("Invalid repository identity")
     source = f"https://github.com/{repo}/blob/{revision}/{quote(path, safe='/')}"
     tokens = MarkdownIt("commonmark", {"html": False}).enable("table").parse(markdown)

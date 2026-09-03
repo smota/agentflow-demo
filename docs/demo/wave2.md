@@ -113,6 +113,27 @@ The old checkpoint is retained as historical evidence, not relabelled as current
 resumed by editing its fingerprint. No README enrichment or public replacement had
 occurred in the old run.
 
-At this checkpoint, discovery/UI2.0 and public release are not implemented or accepted.
-The live application has not been replaced. Subsequent receipts belong to the epic and
-child issue handovers; no test, deployment or recovery claim should be inferred from this plan.
+## Recovery from a real parser edge case
+
+Run B completed discovery with 8,373 distinct candidates: 39 partition records,
+18 split and 21 reconciled, none queued or unresolved. At 1,146 completed content
+observations it encountered `gege-circle/.github`. The repository name is valid;
+our alphanumeric-first parser restriction was not. Regression tests now cover
+leading punctuation and reject traversal, and parser rejection stays per-repository.
+
+Rather than rewrite an engine fingerprint, a new explicit replay operation checks
+the old checkpoint's exact digest and discovery scope, verifies each available raw
+input, and reparses under a fresh engine. The old checkpoint remains unchanged.
+An advisory review also caught equal-length text/blob mismatches; pinned Git blob
+integrity is checked before source bytes are accepted. Run C exercised replay;
+run D superseded it after the integrity refinement and continues enrichment.
+119 tests pass at this code checkpoint. See the [durable recovery report](https://github.com/smota/agentflow-demo/issues/20#issuecomment-5522920082).
+
+A contained UI worktree now provides a labelled, unaccepted local list-first
+preview. Five offline tests cover filters, pagination, original categories, in-list
+search, share links and ambiguous parameters. The browser shows selfhosted with
+1,300 parsed entries and 86 categories. Content freshness and contributors remain
+unknown until their dedicated observation step, not guessed from repository pushes.
+
+Discovery code and preview code are implemented but live data/phase acceptance and
+public 2.0 release remain pending. The public v1 application has not been replaced.

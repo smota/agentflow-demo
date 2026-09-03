@@ -179,3 +179,73 @@ def test_publish_index_last_and_stale_shard(tmp_path):
     publish(index["digest"], tmp_path)
     detail["entry_count"] = 999; atomic_json(staging / index["lists"][0]["detail"], detail)
     with pytest.raises(ValueError): publish(index["digest"], tmp_path)
+
+
+def test_parser_rejection_is_isolated_to_repository(tmp_path, monkeypatch):
+    import tools.lists as crawler
+    from tests.test_lists import MD, meta
+    class Response:
+        def graphql(self, query):
+            return {"data": {f"r{i}": {"id": f"node{i}", "isPrivate": False,
+                    "f0": {"text": MD, "byteSize": len(MD.encode()), "isBinary": False}}
+                    for i in (1, 0)}}
+    original = crawler.parse_readme
+    def selective(text, name, revision, path):
+        if name == "owner/broken": raise ValueError("Fixture parser rejection")
+        return original(text, name, revision, path)
+    monkeypatch.setattr(crawler, "parse_readme", selective)
+    run = Run("test", tmp_path, Response())
+    sources = [meta(id=str(i), node_id=f"node{i}", name=f"owner/{name}") for i, name in enumerate(("broken", "good"))]
+    run.state["candidates"] = {m["id"]: m for m in sources}
+    run.content(sources)
+    assert "0" in run.state["errors"] and "1" in run.state["completed"]
+    assert Run("test", tmp_path, Response()).state["errors"] == run.state["errors"]
+
+
+@pytest.mark.parametrize("tamper", [False, True])
+@pytest.mark.parametrize("same_length", [False, True])
+def test_text_rendition_mismatch_fetches_exact_blob(tmp_path, tamper, same_length):
+    import base64
+    import hashlib
+    from tests.test_lists import MD, meta
+    raw = MD.replace("Tool", "Good").encode() if same_length else b"\xef\xbb\xbf" + MD.replace("\n", "\r\n").encode()
+    oid = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
+    class Response:
+        def graphql(self, query):
+            return {"data": {"r0": {"id": "node1", "isPrivate": False,
+                "f0": {"text": MD, "byteSize": len(raw), "isBinary": False, "oid": oid}}}}
+        def request(self, endpoint):
+            assert endpoint.endswith("/git/blobs/" + oid)
+            return {"encoding": "base64", "content": base64.b64encode(raw if not tamper else raw[:-1]).decode()}
+    run = Run("test", tmp_path, Response()); source = meta(id="1", node_id="node1")
+    run.state["candidates"]["1"] = source; run.content([source])
+    if tamper:
+        assert "1" in run.state["errors"] and not run.state["completed"]
+    else:
+        assert run.state["completed"]["1"]["entry_count"] == 5
+        assert run.state["completed"]["1"]["readme_sha256"] == hashlib.sha256(raw).hexdigest()
+
+
+def test_replay_verifies_source_and_reparses_raw(tmp_path, monkeypatch):
+    import tools.lists as crawler
+    from tests.test_lists import MD, meta
+    class Response:
+        def graphql(self, query):
+            return {"data": {"r0": {"id": "node1", "isPrivate": False,
+                "f0": {"text": MD, "byteSize": len(MD.encode()), "isBinary": False}}}}
+    old = Run("old", tmp_path, Response()); source = meta(id="1", node_id="node1")
+    old.state.update(queue=[], discovery_completed_at=source["observed_at"], candidates={"1": source}, metadata={"1": source})
+    old.content([source]); before = old.path.read_bytes()
+    checksum = json.loads(before)["checkpoint_digest"]
+    monkeypatch.setattr(crawler, "engine", lambda: "new-reviewed-engine")
+    with pytest.raises(ValueError): Run("old", tmp_path)
+    new = Run("new", tmp_path)
+    with pytest.raises(ValueError): new.replay("old", "0"*64)
+    new.replay("old", checksum)
+    assert new.state["completed"]["1"]["entry_count"] == 5
+    assert new.state["replay"]["raw_inputs_reparsed"] == 1
+    assert new.state["engine"] == "new-reviewed-engine" and old.path.read_bytes() == before
+    with pytest.raises(ValueError): new.replay("old", checksum)
+    raw = tmp_path / "data/raw/lists/1" / source["revision"] / "README.md"
+    raw.write_text("tampered")
+    with pytest.raises(ValueError): Run("tampered", tmp_path).replay("old", checksum)
