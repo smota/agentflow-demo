@@ -143,6 +143,47 @@ alone. Record both the incident and hosted recovery receipts.
 
 At a completed phase, freeze a checkpoint and evidence digest. A read-only fresh-context helper reconstructs the next action using these documents and GitHub without receiving the prior conversation. Compare its reconstruction with the recorded contract. A separate deterministic test rejects changed candidate digests and resumes an interrupted crawler without duplicate records. Identify replay/simulation versus actual interruption explicitly in the story.
 
+### GitHub-backed Agentflow run
+
+The final 2.0 exercise uses run ID `awesomeawesomeness-2-final`, goal `issue:24`,
+repository `smota/agentflow-demo` and coordination branch `agentflow-state`. First run
+the source preflight and inspect its current default-branch SHA, rules, permissions and
+workflow branch filters. Never reuse the historical setup digest from the story:
+
+```powershell
+node .tooling/agentflow-next/bin/cli.mjs run source-plan awesomeawesomeness-2-final --target . --json
+node .tooling/agentflow-next/bin/cli.mjs run status awesomeawesomeness-2-final --target . --json
+node .tooling/agentflow-next/bin/cli.mjs run context awesomeawesomeness-2-final --target . --json
+```
+
+Start a new run only after reviewing and authorizing the exact source-plan digest.
+Record the actual parent writer PID. Every mutation supplies the current owner and
+generation plus `--execute --boundary external-action`. Checkpoint and pause record
+Agentflow state; they do not claim to stop an arbitrary crawler or model provider.
+
+For replacement, first preview `run resume` with a real live replacement PID. Save the
+returned plan unchanged, review `priorWriter`, workspace identity, operations and digest,
+then apply that exact plan with `--confirm` and the old generation. An uncertain response
+must be resolved with `run status`/`run context` and a state-branch read-back before any
+retry. Continue with the returned generation. Never delete a lock merely because it is old.
+
+Publication follows the same intent-first rule: preview `run publish --issue 24`, save
+the exact plan, then apply it with its digest. Reapplying the same plan must reconcile the
+existing marker-backed comment. A newly previewed plan after the run revision changes is
+not the same operation and must not be used as a duplicate-write test.
+
+To reconstruct without transcript or scratch, fetch the coordination ref read-only and
+give an ephemeral successor only repository policy plus Git refs:
+
+```powershell
+git fetch origin agentflow-state:refs/remotes/origin/agentflow-state
+git show origin/agentflow-state:runs/awesomeawesomeness-2-final.json
+npm run check:recovery
+```
+
+Refresh the ref before making a later decision. The committed recovery evidence is a
+sanitized point-in-time test record; current GitHub state remains authoritative.
+
 ### Local crawler commands
 
 Use the project environment. `build` only stages a candidate; it never publishes.

@@ -10,6 +10,13 @@ from awesome.lists import FORMAT, parse_readme, profile
 from tests.test_lists import MD, meta
 
 
+def test_mobile_hero_emphasis_is_width_bounded():
+    from awesome.list_ui import CSS
+
+    mobile = CSS.split("@media(max-width:640px)", 1)[1]
+    assert ".hero em{display:inline-block;max-width:100%;overflow-wrap:anywhere}" in mobile
+
+
 def fixture_index():
     records, details = [], {}
     for i in range(15):
