@@ -1,85 +1,77 @@
-import socket
+"""Real published-snapshot acceptance; pure/corruption fixtures live separately."""
 import json
-from urllib.parse import parse_qs, urlsplit
+import socket
 from pathlib import Path
+from urllib.parse import parse_qs, urlsplit
 from streamlit.testing.v1 import AppTest
 
+ROOT = Path(__file__).resolve().parents[1]
 
-def test_credential_free_offline_app(monkeypatch):
+
+def action(app, label):
+    return next(x for x in app.button if x.label == label)
+
+
+def test_credential_free_offline_list_app(monkeypatch):
     monkeypatch.delenv("GH_TOKEN", raising=False)
     monkeypatch.delenv("GITHUB_TOKEN", raising=False)
-    def denied(*args, **kwargs):
-        raise AssertionError("Hosted app attempted networking")
+    def denied(*args, **kwargs): raise AssertionError("Hosted app attempted networking")
     monkeypatch.setattr(socket.socket, "connect", denied)
-    app = AppTest.from_file(Path(__file__).resolve().parents[1] / "app.py", default_timeout=20).run()
+    app = AppTest.from_file(ROOT / "app.py", default_timeout=30).run()
     assert not app.exception
-    assert any("3,037 resources" in c.value for c in app.caption)
-    app.text_input(key="query").set_value("zzzz-no-resource-matches-this").run()
+    index = json.loads((ROOT / "data/list-index.json").read_text(encoding="utf-8"))
+    assert app.metric[0].label == "Curated lists"
+    assert app.metric[0].value == f"{index['counts']['eligible']:,}"
+    app.text_input(key="le_q").set_value("zz-no-list-matches-zz").run()
+    assert any("No lists match" in x.value for x in app.info)
+    app.text_input(key="le_q").set_value("awesome-selfhosted/awesome-selfhosted").run()
+    action(app, "Explore list →").click().run()
+    assert app.title[0].value == "awesome-selfhosted/awesome-selfhosted"
+    assert int(app.metric[2].value.replace(",", "")) >= 1000
     assert not app.exception
-    assert "No finds" in app.info[0].value
-    app.text_input(key="query").set_value("terminal").run()
-    assert not app.exception
-    assert not app.info
-    app.text_input(key="query").set_value("").run()
-    app.selectbox(key="source").select("rust-unofficial/awesome-rust").run()
-    assert not app.exception
-    version = json.loads((Path(__file__).resolve().parents[1] / "package.json").read_text())["version"]
-    assert any(f"v{version}" in c.value for c in app.caption)
 
 
-def test_navigation_share_reset_and_deep_link():
-    path = Path(__file__).resolve().parents[1] / "app.py"
-    app = AppTest.from_file(path, default_timeout=20)
-    app.query_params.update({"q": "terminal", "page": "999999", "untrusted": "ignored"})
+def test_published_threshold_list_and_reset():
+    app = AppTest.from_file(ROOT / "app.py", default_timeout=30).run()
+    app.text_input(key="le_q").set_value("donovanglover/awesome-calculus").run()
+    action(app, "Explore list →").click().run()
+    assert app.metric[0].value == "100"
+    action(app, "← Back to results").click().run()
+    action(app, "Reset discovery").click().run()
+    assert app.text_input(key="le_q").value == ""
+    action(app, "Next →").click().run()
+    assert any("Page 2 of" in x.value for x in app.caption)
+    app.selectbox(key="le_sort").select("Name A–Z").run()
+    assert any("Page 1 of" in x.value for x in app.caption)
+    assert not app.exception
+
+
+def test_published_content_share_roundtrip():
+    app = AppTest.from_file(ROOT / "app.py", default_timeout=30)
+    app.query_params.update({"q": "selfhosted", "view": "List", "list": "36633370", "content_q": "nextcloud"})
     app.run()
     assert not app.exception
-    assert app.text_input(key="query").value == "terminal"
-    assert any("Page 5 of 5" in c.value for c in app.caption)
-    app.radio(key="view").set_value("Sources").run()
-    assert len(app.expander) == 3
-    app.radio(key="view").set_value("Delivery story").run()
-    assert not app.exception
-    app.radio(key="view").set_value("Discover").run()
-    assert app.text_input(key="query").value == "terminal"
-    next(b for b in app.button if b.label == "Share this search").click().run()
-    assert "private information" in app.warning[0].value
-    assert "q=terminal" in app.code[0].value
-    assert "untrusted" not in app.code[0].value
-    next(b for b in app.button if b.label == "Reset discovery").click().run()
-    assert app.text_input(key="query").value == ""
-    assert not app.query_params
-    assert any("Page 1 of 127" in c.value for c in app.caption)
-    next(b for b in app.button if b.label == "Next →").click().run()
-    assert any("Page 2 of 127" in c.value for c in app.caption)
-    app.selectbox(key="sort").select("Title Z–A").run()
-    assert any("Page 1 of 127" in c.value for c in app.caption)
-    assert not app.exception
-
-
-def test_ambiguous_query_parameters():
-    app = AppTest.from_file(Path(__file__).resolve().parents[1] / "app.py", default_timeout=20)
-    app.query_params.update({"q": ["terminal", "rust"], "view": "invalid", "source": "invalid"})
-    app.run()
-    assert not app.exception
-    assert app.text_input(key="query").value == ""
-    assert app.selectbox(key="source").value == "All sources"
-
-
-def test_generated_share_reopens_complete_context():
-    path = Path(__file__).resolve().parents[1] / "app.py"
-    app = AppTest.from_file(path, default_timeout=20)
-    app.query_params.update({"q": "a", "source": "sindresorhus/awesome-nodejs",
-                             "topic": "Command-line apps", "sort": "Title Z–A", "page": "2"})
-    app.run()
-    assert not app.exception
-    assert any("Page 2 of 2" in c.value for c in app.caption)
-    expected = app.session_state.discovery.copy()
-    next(b for b in app.button if b.label == "Share this search").click().run()
+    assert app.text_input(key="content_36633370").value == "nextcloud"
+    assert len(app.dataframe[0].value) == 3
+    action(app, "Share this view").click().run()
+    assert any("private information" in x.value for x in app.warning)
     params = {k: v[0] for k, v in parse_qs(urlsplit(app.code[0].value).query).items()}
-    reopened = AppTest.from_file(path, default_timeout=20)
-    reopened.query_params.update(params)
-    reopened.run()
+    reopened = AppTest.from_file(ROOT / "app.py", default_timeout=30)
+    reopened.query_params.update(params); reopened.run()
+    assert reopened.session_state.list_explorer == app.session_state.list_explorer
+    assert len(reopened.dataframe[0].value) == 3
     assert not reopened.exception
-    assert reopened.session_state.discovery == expected
-    assert reopened.text_input(key="query").value == "a"
-    assert reopened.selectbox(key="topic").value == "Command-line apps"
+
+
+def test_published_repeated_params_story_and_identity():
+    app = AppTest.from_file(ROOT / "app.py", default_timeout=30)
+    app.query_params.update({"q": ["a", "b"], "view": "invalid", "list": "../bad"})
+    app.run()
+    assert app.text_input(key="le_q").value == ""
+    action(app, "Delivery story").click().run()
+    assert app.title[0].value == "Built in the open."
+    version = json.loads((ROOT / "package.json").read_text())["version"]
+    index = json.loads((ROOT / "data/list-index.json").read_text(encoding="utf-8"))
+    assert any(f"v{version}" in x.value and index["digest"][:12] in x.value for x in app.caption)
+    assert not any("Local design preview" in x.value for x in app.warning)
+    assert not app.exception

@@ -27,3 +27,18 @@ No credentials or network are needed by these tests or the hosted reader.
 
 The council is agent advice, not human approval. Public alpha publication and
 independent public behavior/version/digest verification remain required.
+
+## Accepted-data alpha candidate
+
+After integration of the ingestion increment, the actual `app.py` now uses accepted
+snapshot `9ab420eac2c8`: 1,510 eligible lists from 8,373 candidates. The fresh local
+browser session found four selfhosted matches, opened the 1,300-entry original list,
+and found three Nextcloud entries. Filtering those by Analytics showed zero entries
+with an exact pinned category source link. Sharing retained discovery and content
+filters and displayed its privacy warning. At 390px, the profile wrapped correctly
+and two-column metrics fit without horizontal overflow. Existing images above
+remain historical design-stage evidence, not screenshots of this larger snapshot.
+
+The complete implementation suite now has 136 passing tests, including accepted-data
+acceptance and seven preview/state regressions. Exact source-bound verification,
+protected CI and public alpha closeout are recorded in issue #21.

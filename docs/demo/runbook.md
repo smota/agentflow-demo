@@ -38,6 +38,9 @@ if (!(Test-Path .tooling/agentflow-next)) {
   if ($LASTEXITCODE) { throw 'Framework clone failed' }
   git -C .tooling/agentflow-next checkout --detach 60a0e800dc4d4ce9476c72231a0b853998131213
   if ($LASTEXITCODE) { throw 'Framework checkout failed' }
+  # Fresh tooling clone only: retain the raw pinned bytes, without text filters.
+  node -e "const fs=require('fs'), cp=require('child_process'), path=require('path'); const base=path.resolve('.tooling/agentflow-next'); const git=(...a)=>cp.execFileSync('git',['-c','safe.directory='+base,'-C',base,...a]); for(const e of git('ls-tree','-rz','HEAD').toString().split('\0').filter(Boolean)){const [m,p]=e.split('\t'); const [mode,type,oid]=m.split(' '); const f=path.resolve(base,p); if(type!=='blob'||!['100644','100755'].includes(mode)||!f.startsWith(base+path.sep))throw Error('Unexpected source entry'); fs.writeFileSync(f,git('cat-file','blob',oid));}"
+  if ($LASTEXITCODE) { throw 'Framework byte materialization failed' }
 }
 $frameworkSha = git -c safe.directory="$demoRoot/.tooling/agentflow-next" -C .tooling/agentflow-next rev-parse HEAD
 if ($frameworkSha -ne '60a0e800dc4d4ce9476c72231a0b853998131213') { throw 'Unexpected framework revision' }
@@ -53,6 +56,14 @@ $demoNode = mise which node
 ```
 
 Runtime discovery is workstation-specific; package.json and CI use the portable npm script. Caches remain ignored. No adoption is needed on a fresh clone: managed files and lock are already committed. For a future update, preserve authored changes and use official adopt plan/apply with project storage.
+
+The raw-byte step is necessary for this pin: an isolated Windows checkout changed
+91 files through line-ending filters despite `core.autocrlf=false`. A Git archive
+fixture also failed the exact-byte check. `git cat-file blob` is the tested source
+of authoritative bytes. Do not apply this overwrite step to an existing or authored
+checkout: inspect differences, preserve originals, and restore only proven cache
+materialization differences. A clean text-filtered Git status does not prove byte
+identity. The framework checker verifies every blob against the pinned tree.
 
 The pinned contained rollback CLI has a known receipt-field defect (issue18). The tested project adapter invokes the unmodified official API with the original signed receipt:
 `node scripts/adoption-rollback.mjs --target <absolute-demo-or-contained-fixture> --receipt <absolute-receipt> --confirm <receipt-token>`.

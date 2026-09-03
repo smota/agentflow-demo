@@ -176,3 +176,22 @@ any existing checks. Candidate `573d82ca` then passed a new collector run:
 observation `d109d010`, owner acceptance `76579034`, and explicit rework resolution
 `a4a4bf18`. Review and documentation were repeated; earlier receipts remain historical.
 This was an actual discovered gap, not a staged failure or a simulated test result.
+
+## The alpha candidate meets the real browser
+
+The list-first entrypoint now reads the accepted 1,510-list snapshot. Fresh browser
+acceptance verified discovery, an exactly 100-star collection, selfhosted's 1,300
+entries, three Nextcloud matches, original category filtering, pinned source links,
+complete shared context and its privacy warning. The 390px profile has wrapped
+headings and two-column metrics without horizontal overflow. Earlier screenshots
+remain explicitly labelled design-stage evidence.
+
+The first source-bound test attempt passed all 136 application tests and both data
+validators, but rejected the isolated Agentflow cache: 91 files had line-ending
+changes despite a clean text-filtered Git status. Originals were preserved, raw
+pinned blobs restored, and the unchanged application candidate retested. A separate
+archive fixture also failed byte identity, so onboarding now uses raw Git blobs.
+Candidate `324aceea`, passing observation `579214b9` and acceptance `79bd118d`
+record this real recovery. The failed observation remains historical evidence.
+This is still local alpha acceptance; protected integration, promotion and exact
+public verification are separate gates.
