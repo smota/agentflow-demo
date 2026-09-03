@@ -27,6 +27,38 @@
     "allowPrerelease": true
   },
   "routing": {"defaultMode": "single-agent", "agents": {}, "roles": {}},
+  "delivery": {
+    "source": {
+      "kind": "github",
+      "repo": "smota/agentflow-demo",
+      "branch": "agentflow-state"
+    },
+    "candidate": {
+      "inputs": [
+        "docs/demo/evidence/recovery-contract.json",
+        "tests/test_recovery_contract.mjs",
+        "requirements.txt"
+      ]
+    },
+    "checks": {
+      "recovery-contract": {
+        "id": "recovery-contract",
+        "criterionId": "recovery-contract",
+        "executable": "node",
+        "args": ["--test", "--test-reporter=junit", "tests/test_recovery_contract.mjs"],
+        "assertions": [
+          "recovery contract fences writers and stale plans",
+          "publication and fresh-context boundaries are explicit",
+          "release evidence keeps independent observations"
+        ],
+        "timeoutMs": 30000,
+        "format": "junit-stdout"
+      }
+    },
+    "contracts": {
+      "product-manager": "agentflow/delivery/issue-24-product-manager.json"
+    }
+  },
   "capabilities": {
     "plan-before-edit": {"requiredFor": ["architect", "developer-planning", "developer"], "fallback": "framework-emulated"},
     "workflow-orchestration": {"preferred": "framework", "allowNative": true},

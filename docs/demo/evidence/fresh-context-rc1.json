@@ -1,0 +1,21 @@
+{
+  "issue": 24,
+  "branch": "codex/recovery-stable-2",
+  "candidate": "fe50b353a2dc6332a5389ee4e366308824eeed0e",
+  "gate": "active at product-manager; verify-and-advance",
+  "findings": [
+    "Generation-0 writer was paused and replaced by generation 1 with previousOwnerStopped=true and invalidateCandidate=true.",
+    "The first generation-1 observation failed because the frozen contract used one aggregate assertion while the collector reported three granular assertions.",
+    "The contract was re-frozen with the granular assertion IDs; the subsequent immutable collector observation passed all three.",
+    "Issue projection reached confirmed state after planned and submitted states, evidencing reconciled publication without advancing workflow state.",
+    "Release commit, checks, tag, GitHub Release, and deployment remain independent evidence domains; v2.0.0-alpha.3 remains the rollback until RC acceptance."
+  ],
+  "nextSafeAction": "Verify candidate commit fe50b353a2dc6332a5389ee4e366308824eeed0e against the frozen generation-1 contract, then advance from the product-manager gate only if that exact candidate passes.",
+  "evidence": [
+    "origin/agentflow-state at 22ba1f6f52a866867f673c667ce040c42d6da2fe contains runs/awesomeawesomeness-2-final.json.",
+    "The run goalRef is issue:24 and the confirmed projection records role=product-manager and nextAction=verify-and-advance.",
+    "The passing observation digest is af84febee3d44a8d5f79ae173fffa3df75dbed3ac78998b2c0b1e5bd14e6ce48.",
+    "origin/codex/recovery-stable-2 resolves to fe50b353a2dc6332a5389ee4e366308824eeed0e.",
+    "SPEC.md at the product candidate identifies Issue #24 and defines the recovery and release acceptance gates."
+  ]
+}

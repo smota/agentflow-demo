@@ -1,53 +1,66 @@
-# Issue #23: feat: add list comparison dashboards and responsive exploration
+# Issue #24: chore: verify recovery and publish AwesomeAwesomeness 2.0
 
 **Epic:** #16
 
 ## Background & Problem Statement
 
-The list-profile snapshot is complete, but users still have to inspect lists one at a
-time. They need an honest overview of the catalogue and an easy way to compare a small
-set of lists without inventing time series or loading thousands of detail shards.
+The catalogue, list profiles and insights dashboard are live as prereleases, but the
+2.0 release is not complete until its delivery can survive interruption, be resumed
+from durable evidence by a fresh executor and be promoted from an exact publicly
+accepted candidate. The final story must distinguish observed behavior from claims and
+must not treat local scratch state, a passing check or a tag as deployment proof.
 
 ## Requirements
 
-Add a first-class insights dashboard with population-labelled KPIs, topic and freshness
-distributions, stars-versus-indexed-content analysis and ranked list access. Let users
-compare two to four eligible lists across observed stars, forks, entries, categories,
-contributors and freshness. Keep controls keyboard accessible, responsive, URL-shareable
-and bounded for Streamlit Community Cloud. Derive everything from the loaded index only.
+Exercise the latest installed Agentflow GitHub-backed run contract against this issue.
+Demonstrate a fenced writer handoff after a recorded interruption, idempotent external
+publication and fail-closed stale evidence. Reconstruct the next safe action in a fresh
+Codex process using only repository and durable GitHub evidence. Publish and validate a
+2.0.0 release candidate, cold-start the hosted app, then promote the exact accepted
+content to stable 2.0.0 through protected branches. Extend the illustrated SDLC story
+and operator runbook with real evidence, limitations and recovery instructions.
 
 ## Business logic
 
-- **BR-1 (rule):** Dashboard denominators and unknown counts are explicit; no historical trend is inferred.
-- **BR-2 (rule):** Comparison accepts at most four current eligible lists and preserves metric units/observation meaning.
-- **BR-3 (rule):** Dashboard filters and comparison selections normalize safely, survive share/reopen and reset predictably.
-- **BR-4 (rule):** Aggregate rendering uses the index only; detail shards remain lazy and no hosted network/AI processing is added.
-- **BR-5 (rule):** Desktop and 390px mobile layouts retain readable labels, keyboard access, contrast and bounded chart density.
+- **BR-1 (rule):** Durable GitHub run state, product Git history and public deployment are separate evidence domains; local `.agent-runs/` files remain disposable scratch.
+- **BR-2 (rule):** Recovery changes writer identity and generation only through a digest-confirmed plan; obsolete writers, changed preconditions and unresolved operations fail closed.
+- **BR-3 (rule):** Repeating an authorized external projection reconciles its operation and never creates a duplicate issue comment.
+- **BR-4 (rule):** A fresh executor can name the exact issue, branch/candidate identity, current gate, findings and next safe action without conversation history or unpublished code.
+- **BR-5 (rule):** RC and stable acceptance separately resolve commit, checks, tag, GitHub release and cold hosted behavior with local Streamlit ports stopped.
+- **BR-6 (rule):** The final story uses real screenshots and auditable phase, council, review/rework, harness and recovery evidence; simulated review is never represented as independent or human review.
+- **BR-7 (rule):** Stable promotion contains the same accepted application/data tree as the RC except reviewed version and release-story metadata, and leaves the scoped checkout clean.
 
 ## Acceptance criteria
 
 ### Feature-specific
 
-- [ ] AC-1 (BR-1): KPIs and topic/freshness charts show their population, known/unknown coverage and observation date.
-- [ ] AC-2 (BR-2): Two-to-four-list comparison renders an accessible equivalent table plus bounded metric charts.
-- [ ] AC-3 (BR-3): Dashboard filters, comparisons, reset and shared URLs round-trip with malformed/extreme input tests.
-- [ ] AC-4 (BR-4): AppTest proves dashboard/profile navigation is offline and benchmark evidence fits free hosting.
-- [ ] AC-5 (BR-5): Browser acceptance passes desktop and 390px mobile without horizontal overflow or hidden controls.
+- [ ] AC-1 (BR-1): A GitHub-backed Agentflow run for issue #24 is readable after local scratch evidence is hidden, with source and product identities reported separately.
+- [ ] AC-2 (BR-2): An interruption/checkpoint/pause/resume exercise transfers to a replacement writer generation; the old writer and a stale recovery plan are rejected and the last-good public app remains available.
+- [ ] AC-3 (BR-3): Two publication attempts resolve to one durable workflow-status comment, with operation reconciliation recorded.
+- [ ] AC-4 (BR-4): A transcript-free fresh Codex process reconstructs the exact current state and next safe action from committed policy plus GitHub evidence, and its report is checked against an expected manifest.
+- [ ] AC-5 (BR-5): Full tests, recovery negatives, desktop/mobile browser acceptance and exact remote reconciliation pass for RC and stable with ports 8501/8502 stopped.
+- [ ] AC-6 (BR-6): The illustrated story and runbook link actual screenshots, failed/reworked paths, advisory councils, harness events, test evidence and limitations.
+- [ ] AC-7 (BR-7): Protected PRs, exact tags/releases and final public footer agree on 2.0.0; repository status is clean and secret/copyright/attribution scans pass.
 
 ## Test plan
 
-Pure aggregation/filter/normalization tests; AppTest for dashboard, comparison, empty and reset/share states; complete
-suite and source-bound Agentflow observation; measured index/load/render memory and time; fresh local browser desktop/mobile
-checks followed by exact hosted acceptance after protected promotion.
+Use the installed run CLI for GitHub source planning, start, context, checkpoint,
+pause, digest-confirmed resume and idempotent publish. Add a deterministic project
+harness that verifies the recorded recovery transcript, duplicate-write count, stale
+generation/plan rejection and fresh-context manifest. Run the complete Python and
+workflow suites, catalogue validation, secret/copyright/attribution scans, local
+desktop/mobile exploratory acceptance, protected GitHub checks and cold public
+desktop/mobile acceptance. Resolve commit, check, tag, release and deployment evidence
+independently for RC and stable.
 
 ## Workflow classification
 
 - **Profile:** standard
 - **Risk:** medium
 - **Effort:** medium
-- **Change surfaces:** public UI, URL state, index analytics, tests, release/story documentation
-- **Collaboration:** chief-designer/UX, data-honesty and performance advisory council; single accountable executor.
+- **Change surfaces:** Agentflow delivery configuration, recovery evidence harness, tests, release metadata, SDLC story/runbook and public deployment
+- **Collaboration:** recovery/integrity, release/operations and documentation/UX advisory council; single accountable executor; simulated review disclosed as self-review
 
 ## Open questions
 
-None. Alpha.2 remains the last-good public rollback until this increment passes hosted acceptance.
+None. v2.0.0-alpha.3 is the last-good public rollback until the release candidate passes cold hosted acceptance.
