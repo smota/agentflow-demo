@@ -1,5 +1,7 @@
 import json
 from pathlib import Path
+import threading
+import time
 
 import pytest
 from tools.lists import Run, split_partition, publish, atomic_json
@@ -314,3 +316,34 @@ def test_profile_interruption_uses_small_digest_bound_sidecar(tmp_path):
     assert len(sidecar["observations"]) == 1 and (run.directory / "profile-checkpoint.json").stat().st_size < 10_000
     Run("test", tmp_path, Response()).profiles(batch_size=1)
     assert not (run.directory / "profile-checkpoint.json").exists()
+
+
+def test_profile_windows_bound_concurrency_and_merge_deterministically(tmp_path):
+    from tests.test_lists import MD, meta
+    class Content:
+        def graphql(self, query):
+            return {"data": {"r0": {"id": "node1", "isPrivate": False,
+                "f0": {"text": MD, "byteSize": len(MD.encode()), "isBinary": False}}}}
+    run = Run("test", tmp_path, Content())
+    for number in range(4):
+        source = meta(id=str(number + 1), node_id="node1", name=f"owner/awesome-{number + 1}")
+        run.state["candidates"][source["id"]] = source
+        run.content([source])
+
+    class Concurrent:
+        def __init__(self):
+            self.lock = threading.Lock(); self.active = 0; self.maximum = 0
+        def graphql(self, query):
+            with self.lock:
+                self.active += 1; self.maximum = max(self.maximum, self.active)
+            time.sleep(0.03)
+            with self.lock: self.active -= 1
+            count = query.count("history(first:100")
+            value = {"id": "node1", "isPrivate": False,
+                "root": {"history": {"totalCount": 0, "pageInfo": {"hasNextPage": False}, "nodes": []}},
+                "c0": None, "c1": None}
+            return {"data": {f"r{i}": value for i in range(count)}}
+    api = Concurrent(); run.api = api
+    run.profiles(batch_size=1, workers=2)
+    assert api.maximum == 2
+    assert list(run.state["profile_observations"]) == ["1", "2", "3", "4"]

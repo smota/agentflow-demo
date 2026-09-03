@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import base64
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta, datetime, timezone
 import hashlib
 from importlib.metadata import version
@@ -208,7 +209,7 @@ class Run:
             profile_observations={}, profile_errors={})
         self.save()
 
-    def profiles(self, interrupt_after=None, batch_size=8):
+    def profiles(self, interrupt_after=None, batch_size=8, workers=1):
         """Observe pinned content history and bounded public contributors locally."""
         progress_path = self.directory / "profile-checkpoint.json"
         base_digest = digest(self.state)
@@ -235,8 +236,10 @@ class Run:
                 if item.get("state") == "eligible" and item.get("detail") and rid not in observations]
         todo.sort(key=lambda item: (-item["stars"], item["id"]))
         batches, total = 0, len(todo) + len(observations)
-        for offset in range(0, len(todo), batch_size):
-            batch = todo[offset:offset + batch_size]; fields = []
+        work = [todo[offset:offset + batch_size] for offset in range(0, len(todo), batch_size)]
+
+        def request(batch):
+            fields = []
             for i, item in enumerate(batch):
                 owner, name = item["name"].split("/"); rev, path = item["revision"], item["readme_path"]
                 fields.append(f'r{i}:repository(owner:{json.dumps(owner)},name:{json.dumps(name)}) {{ id isPrivate '
@@ -244,38 +247,45 @@ class Run:
                     '{ totalCount pageInfo { hasNextPage } nodes { committedDate author { user { login url } } } } } } '
                     f'c0:object(expression:{json.dumps(rev+":CONTRIBUTING.md")}) {{ ... on Blob {{ oid }} }} '
                     f'c1:object(expression:{json.dumps(rev+":.github/CONTRIBUTING.md")}) {{ ... on Blob {{ oid }} }} }}')
-            response = self.api.graphql("query { " + " ".join(fields) + " }")
-            bad = {str(error.get("path", [None])[0]) for error in response.get("errors", [])}
-            data = response.get("data") or {}
-            for i, item in enumerate(batch):
-                alias, value, rid = f"r{i}", data.get(f"r{i}"), item["id"]
-                if not value or alias in bad or "None" in bad or value.get("id") != item.get("node_id") or value.get("isPrivate") is not False:
-                    profile_errors[rid] = "Pinned profile history unavailable or repository identity/privacy changed"; continue
-                history = (value.get("root") or {}).get("history")
-                nodes = history.get("nodes") if history else None
-                if not isinstance(nodes, list) or any(not node.get("committedDate") for node in nodes):
-                    profile_errors[rid] = "Pinned README path history unavailable"; continue
-                counts, urls = Counter(), {}
-                for node in nodes:
-                    user = (node.get("author") or {}).get("user") or {}; login, url = user.get("login"), user.get("url")
-                    if re.fullmatch(r"[A-Za-z0-9-]{1,39}", login or "") and url == f"https://github.com/{login}":
-                        counts[login] += 1; urls[login] = url
-                contributors = [{"login": login, "url": urls[login], "contributions": count}
-                                for login, count in sorted(counts.items(), key=lambda pair: (-pair[1], pair[0].casefold()))[:10]]
-                contributing = next((path for key, path in (("c0", "CONTRIBUTING.md"), ("c1", ".github/CONTRIBUTING.md")) if value.get(key)), None)
-                observation = {"status": "observed", "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
-                    "commit_limit": 100, "observed_commits": len(nodes), "has_more": bool(history["pageInfo"]["hasNextPage"]),
-                    "path_commit_count": history.get("totalCount"), "public_contributors": len(counts), "observed_at": now()}
-                observations[rid] = {"content_updated_at": nodes[0]["committedDate"] if nodes else None,
-                    "content_update_status": "Newest commit affecting the pinned README path", "contributors": contributors,
-                    "contributor_observation": observation,
-                    "contributing_url": (f"https://github.com/{item['name']}/blob/{item['revision']}/{contributing}" if contributing else None)}
-                profile_errors.pop(rid, None)
-            progress.update(observations=observations, errors=profile_errors)
-            atomic_json(progress_path, {**progress, "digest": digest(progress)}); batches += 1
-            print(f"Profiles: {len(observations)}/{total}; {len(profile_errors)} pending errors", flush=True)
-            if interrupt_after and batches >= interrupt_after:
-                raise InterruptedError("Injected after durable profile batch; published index unchanged")
+            return self.api.graphql("query { " + " ".join(fields) + " }")
+
+        for offset in range(0, len(work), workers):
+            window = work[offset:offset + workers]
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                futures = [pool.submit(request, batch) for batch in window]
+                responses = [future.result() for future in futures]
+            for batch, response in zip(window, responses):
+                bad = {str(error.get("path", [None])[0]) for error in response.get("errors", [])}
+                data = response.get("data") or {}
+                for i, item in enumerate(batch):
+                    alias, value, rid = f"r{i}", data.get(f"r{i}"), item["id"]
+                    if not value or alias in bad or "None" in bad or value.get("id") != item.get("node_id") or value.get("isPrivate") is not False:
+                        profile_errors[rid] = "Pinned profile history unavailable or repository identity/privacy changed"; continue
+                    history = (value.get("root") or {}).get("history")
+                    nodes = history.get("nodes") if history else None
+                    if not isinstance(nodes, list) or any(not node.get("committedDate") for node in nodes):
+                        profile_errors[rid] = "Pinned README path history unavailable"; continue
+                    counts, urls = Counter(), {}
+                    for node in nodes:
+                        user = (node.get("author") or {}).get("user") or {}; login, url = user.get("login"), user.get("url")
+                        if re.fullmatch(r"[A-Za-z0-9-]{1,39}", login or "") and url == f"https://github.com/{login}":
+                            counts[login] += 1; urls[login] = url
+                    contributors = [{"login": login, "url": urls[login], "contributions": count}
+                                    for login, count in sorted(counts.items(), key=lambda pair: (-pair[1], pair[0].casefold()))[:10]]
+                    contributing = next((path for key, path in (("c0", "CONTRIBUTING.md"), ("c1", ".github/CONTRIBUTING.md")) if value.get(key)), None)
+                    observation = {"status": "observed", "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+                        "commit_limit": 100, "observed_commits": len(nodes), "has_more": bool(history["pageInfo"]["hasNextPage"]),
+                        "path_commit_count": history.get("totalCount"), "public_contributors": len(counts), "observed_at": now()}
+                    observations[rid] = {"content_updated_at": nodes[0]["committedDate"] if nodes else None,
+                        "content_update_status": "Newest commit affecting the pinned README path", "contributors": contributors,
+                        "contributor_observation": observation,
+                        "contributing_url": (f"https://github.com/{item['name']}/blob/{item['revision']}/{contributing}" if contributing else None)}
+                    profile_errors.pop(rid, None)
+                progress.update(observations=observations, errors=profile_errors)
+                atomic_json(progress_path, {**progress, "digest": digest(progress)}); batches += 1
+                print(f"Profiles: {len(observations)}/{total}; {len(profile_errors)} pending errors", flush=True)
+                if interrupt_after and batches >= interrupt_after:
+                    raise InterruptedError("Injected after durable profile batch; published index unchanged")
         self.state.update(profile_observations=observations, profile_errors=profile_errors)
         self.rebuild_profiles()
         progress_path.unlink(missing_ok=True)
@@ -501,6 +511,7 @@ def main():
     parser.add_argument("--interrupt-after", type=int)
     parser.add_argument("--source-run")
     parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument("--workers", type=int, default=1)
     args = parser.parse_args()
     lock = ROOT / ".agent-runs/list-crawler.lock"
     lock.parent.mkdir(parents=True, exist_ok=True)
@@ -525,9 +536,9 @@ def main():
                     parser.error("--batch-size must be 1..32")
                 run.enrich(args.interrupt_after, args.batch_size)
             elif args.command == "profiles":
-                if not 1 <= args.batch_size <= 16:
-                    parser.error("--batch-size must be 1..16")
-                run.profiles(args.interrupt_after, args.batch_size)
+                if not 1 <= args.batch_size <= 16 or not 1 <= args.workers <= 4:
+                    parser.error("--batch-size must be 1..16 and --workers must be 1..4")
+                run.profiles(args.interrupt_after, args.batch_size, args.workers)
             elif args.command == "replay":
                 if not args.source_run or not args.expected_digest:
                     parser.error("Replay requires --source-run and --expected-digest")
