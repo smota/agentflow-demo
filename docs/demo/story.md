@@ -221,6 +221,13 @@ footer or partial render cannot prove module freshness. An auxiliary 390px headl
 captured only Streamlit startup; it was rejected as evidence instead of being called a pass.
 Responsive acceptance therefore remains a protected hosted-release check.
 
+The first data-honesty review then returned an otherwise green candidate: its scatter
+input converted an unknown entry count to zero and its freshness bars were alphabetic,
+not chronological. The corrected dashboard preserves unknown table values, reports
+content-count coverage, uses the snapshot's canonical freshness ranges for filters and
+ordering, and has regressions for partial observations. The current complete snapshot
+would have hidden both defects, which is exactly why the review checked the general rule.
+
 On the real 6,377-list index, a cold validated load took 1.778 seconds, the complete
 dashboard aggregation took 0.026 seconds, and Python's measured peak was 251.3 MiB. The
 complete local suite passed 156 tests. These measurements describe the tested Windows

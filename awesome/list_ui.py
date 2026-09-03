@@ -132,6 +132,7 @@ def render(root: Path, preview=False):
         metrics[2].metric("Median stars", number(insight["median_stars"]))
         metrics[3].metric("Fresh ≤30 days", number(insight["fresh_30"]))
         st.caption(f"Population: {population:,} filtered eligible public lists · Freshness known: {insight['freshness_known']:,}; unknown: {insight['freshness_unknown']:,} · Snapshot observed {insight['observed_at']}")
+        st.caption(f"Indexed-content counts known: {insight['entries_known']:,}; unknown: {insight['entries_unknown']:,}. Observed entry totals never convert unknown counts to zero.")
         if not population:
             st.info("No eligible lists match these dashboard filters. Reset them to restore the full catalogue view.")
         else:

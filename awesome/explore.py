@@ -47,10 +47,12 @@ def filtered(index: dict, state: dict) -> list[dict]:
         if state["topic"] != "All topics" and state["topic"] not in item["topics"]: continue
         if state["archived"] == "Active only" and item.get("archived"): continue
         if state["forks"] == "Originals only" and item.get("is_fork"): continue
-        age = item.get("freshness", {}).get("days"); freshness = state["freshness"]
-        if freshness.startswith("Within") and (age is None or age > int(freshness.split()[1])): continue
-        if freshness == "Unknown" and age is not None: continue
-        if freshness == "Older than a year" and (age is None or age <= 365): continue
+        fresh_range = item.get("freshness", {}).get("range", "Unknown"); freshness = state["freshness"]
+        order = {"Within 30 days": 0, "Within 90 days": 1, "Within 180 days": 2,
+                 "Within 365 days": 3, "Older than a year": 4}
+        if freshness.startswith("Within") and (fresh_range not in order or order[fresh_range] > order[freshness]): continue
+        if freshness == "Unknown" and fresh_range != "Unknown": continue
+        if freshness == "Older than a year" and fresh_range != "Older than a year": continue
         text = " ".join([item["name"], item.get("scope") or "", item.get("description") or "", *item["topics"], *item.get("github_topics", [])]).casefold()
         if all(word in text for word in words): results.append(item)
     sort = state["sort"]

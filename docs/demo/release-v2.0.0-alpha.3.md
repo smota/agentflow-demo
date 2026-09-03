@@ -10,6 +10,8 @@ to understand and compare without adding hosted crawling or AI processing.
 - Compares two to four eligible Awesome lists across observed stars, forks, entries,
   original categories, bounded public contributor counts and freshness.
 - Provides accessible table equivalents for charts and exact comparison values.
+- Reports indexed-content known/unknown coverage, preserves unknown scatter values,
+  and presents freshness ranges in semantic age order.
 - Keeps aggregate work index-only and list details lazy for Streamlit Community Cloud.
 
 The accepted data remains the alpha.2 snapshot: 6,377 eligible public lists from 8,373

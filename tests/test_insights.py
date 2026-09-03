@@ -4,10 +4,13 @@ from tests.test_explore import fixture_index
 
 def test_dashboard_uses_only_eligible_population_and_explicit_unknowns():
     index, _ = fixture_index(); index["lists"][0]["state"] = "pending"
+    index["lists"][1]["entry_count"] = None
     result = dashboard(index)
     assert result["population"] == 14
     assert result["freshness_known"] == 0 and result["freshness_unknown"] == 14
     assert sum(row["Lists"] for row in result["freshness"]) == 14
+    assert result["entries_known"] == 13 and result["entries_unknown"] == 1
+    assert next(row for row in result["scatter"] if row["List"] == "owner/awesome-1")["Entries"] is None
     assert result["topics"] and len(result["scatter"]) == 14
     subset = dashboard(index, [index["lists"][1], index["lists"][2], index["lists"][3]])
     assert subset["population"] == 3 and len(subset["scatter"]) == 3

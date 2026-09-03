@@ -51,6 +51,9 @@ def test_all_results_boundaries_and_freshness():
     assert not filtered(index, state)
     state["freshness"] = "Unknown"
     assert len(filtered(index, state)) == 15
+    index["lists"][0]["freshness"] = {"days": 30, "range": "Within 90 days", "index": 88.8}
+    state["freshness"] = "Within 30 days"
+    assert index["lists"][0] not in filtered(index, state)
     assert page_slice(15, 9999) == (2, 2, 12, 15)
     assert page_slice(0, 3) == (1, 1, 0, 0)
 

@@ -4,6 +4,8 @@ from __future__ import annotations
 from collections import Counter
 from statistics import median
 
+FRESHNESS_ORDER = ("Within 30 days", "Within 90 days", "Within 180 days", "Within 365 days", "Older than a year", "Unknown")
+
 
 def eligible_lists(index: dict) -> list[dict]:
     return [item for item in index["lists"] if item.get("public") is True and item.get("state") == "eligible"]
@@ -14,17 +16,19 @@ def dashboard(index: dict, lists: list[dict] | None = None) -> dict:
         item for item in lists if item.get("public") is True and item.get("state") == "eligible"
     ]
     known_freshness = [item for item in lists if item.get("freshness", {}).get("days") is not None]
+    known_entries = [item for item in lists if item.get("entry_count") is not None]
     topics = Counter(topic for item in lists for topic in item.get("topics", []))
     ranges = Counter(item.get("freshness", {}).get("range", "Unknown") for item in lists)
-    scatter = [{"List": item["name"], "Stars": item["stars"], "Entries": item.get("entry_count") or 0,
+    scatter = [{"List": item["name"], "Stars": item["stars"], "Entries": item.get("entry_count"),
                 "Topic": (item.get("topics") or ["Other"])[0]} for item in lists]
     return {"population": len(lists), "observed_at": index["generated_at"][:10],
-            "total_entries": sum(item.get("entry_count") or 0 for item in lists),
+            "total_entries": sum(item["entry_count"] for item in known_entries),
+            "entries_known": len(known_entries), "entries_unknown": len(lists) - len(known_entries),
             "median_stars": round(median(item["stars"] for item in lists)) if lists else 0,
-            "fresh_30": sum(item["freshness"]["days"] <= 30 for item in known_freshness),
+            "fresh_30": ranges["Within 30 days"],
             "freshness_known": len(known_freshness), "freshness_unknown": len(lists) - len(known_freshness),
             "topics": [{"Topic": key, "Lists": value} for key, value in topics.most_common()],
-            "freshness": [{"Range": key, "Lists": value} for key, value in sorted(ranges.items())],
+            "freshness": [{"Range": key, "Lists": ranges[key]} for key in FRESHNESS_ORDER if ranges[key]],
             "scatter": scatter}
 
 
