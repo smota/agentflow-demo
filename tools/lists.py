@@ -17,7 +17,7 @@ import time
 from urllib.parse import quote
 
 from awesome.catalogue import digest
-from awesome.lists import MIN_STARS, MAX_README, parse_readme, profile, validate_index
+from awesome.lists import FORMAT, MIN_STARS, MAX_README, parse_readme, profile, validate_index
 from tools.crawl import atomic_json as _atomic_json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +35,16 @@ def atomic_json(path, data):
             if attempt == 2:
                 raise
             time.sleep(0.1 * (attempt + 1))
+
+
+def immutable_json(path, data):
+    """Reuse an identical content-addressed shard; never overwrite a collision."""
+    path = Path(path)
+    if path.exists():
+        if path.is_symlink() or json.loads(path.read_text(encoding="utf-8")) != data:
+            raise ValueError("Immutable detail collision")
+        return
+    atomic_json(path, data)
 
 
 def now():
@@ -135,11 +145,14 @@ class Run:
             if checksum != digest(state) or state["engine"] != engine():
                 raise ValueError("Checkpoint/engine changed; use a new reviewed run, never rewrite hashes")
             self.state = state
+            self.state.setdefault("profile_observations", {})
+            self.state.setdefault("profile_errors", {})
         else:
             self.state = {"run_id": run_id, "engine": engine(), "started_at": now(), "queries": list(QUERIES),
                           "threshold": MIN_STARS, "queue": [{"base": q, "start": "2008-01-01",
                           "end": date.today().isoformat(), "low": MIN_STARS, "high": None} for q in QUERIES],
-                          "pages": {}, "partitions": [], "candidates": {}, "metadata": {}, "completed": {}, "errors": {}}
+                          "pages": {}, "partitions": [], "candidates": {}, "metadata": {}, "completed": {}, "errors": {},
+                          "profile_observations": {}, "profile_errors": {}}
             self.save()
 
     def save(self):
@@ -167,10 +180,13 @@ class Run:
             raise ValueError("Replay requires identical, finished discovery scope")
         completed = {}
         for rid, old in source["completed"].items():
-            if not old.get("detail") or old.get("public") is not True:
-                continue
             if not re.fullmatch(r"[0-9]+", rid) or not re.fullmatch(r"[a-f0-9]{40}", old["revision"]):
                 raise ValueError("Unsafe replay identity")
+            if not old.get("detail") or old.get("public") is not True:
+                item, _ = profile(old, None)
+                item["reason"] = old["reason"]
+                completed[rid] = item
+                continue
             raw_path = self.root / "data/raw/lists" / rid / old["revision"] / "README.md"
             if raw_path.is_symlink() or not raw_path.resolve().is_relative_to((self.root / "data/raw/lists").resolve()):
                 raise ValueError("Unsafe replay input path")
@@ -182,13 +198,99 @@ class Run:
             observed = {**source["metadata"][rid], **{key: old[key] for key in
                         ("readme_path", "readme_sha256", "content_updated_at", "content_update_status")}}
             item, detail = profile(observed, parsed, text)
-            atomic_json(self.root / "data/staging" / item["detail"], detail)
+            immutable_json(self.root / "data/staging" / item["detail"], detail)
             completed[rid] = item
         self.state.update({key: source[key] for key in
             ("started_at", "queries", "threshold", "queue", "pages", "partitions", "candidates", "metadata", "discovery_completed_at")})
         self.state.update(completed=completed, errors={}, replay={"source_run": source_id,
             "source_digest": checksum, "source_engine": source["engine"], "replayed_at": now(),
-            "raw_inputs_reparsed": len(completed)})
+            "raw_inputs_reparsed": sum(bool(x.get("detail")) for x in completed.values())},
+            profile_observations={}, profile_errors={})
+        self.save()
+
+    def profiles(self, interrupt_after=None, batch_size=8):
+        """Observe pinned content history and bounded public contributors locally."""
+        progress_path = self.directory / "profile-checkpoint.json"
+        base_digest = digest(self.state)
+        if progress_path.exists():
+            if progress_path.is_symlink():
+                raise ValueError("Symlink profile checkpoint")
+            progress = json.loads(progress_path.read_text(encoding="utf-8")); checksum = progress.pop("digest", None)
+            if checksum != digest(progress) or progress.get("engine") != engine() or progress.get("run_id") != self.state["run_id"]:
+                raise ValueError("Profile checkpoint identity mismatch")
+            if progress.get("base_digest") != base_digest:
+                merged = all(self.state.get("profile_observations", {}).get(key) == value
+                             for key, value in progress.get("observations", {}).items())
+                if not merged or self.state.get("profile_errors", {}) != progress.get("errors", {}):
+                    raise ValueError("Profile checkpoint identity mismatch")
+                progress_path.unlink()
+                progress = {"engine": engine(), "run_id": self.state["run_id"], "base_digest": base_digest,
+                            "observations": dict(self.state.get("profile_observations", {})),
+                            "errors": dict(self.state.get("profile_errors", {}))}
+        else:
+            progress = {"engine": engine(), "run_id": self.state["run_id"], "base_digest": base_digest,
+                        "observations": dict(self.state.get("profile_observations", {})), "errors": dict(self.state.get("profile_errors", {}))}
+        observations, profile_errors = progress["observations"], progress["errors"]
+        todo = [item for rid, item in self.state["completed"].items()
+                if item.get("state") == "eligible" and item.get("detail") and rid not in observations]
+        todo.sort(key=lambda item: (-item["stars"], item["id"]))
+        batches, total = 0, len(todo) + len(observations)
+        for offset in range(0, len(todo), batch_size):
+            batch = todo[offset:offset + batch_size]; fields = []
+            for i, item in enumerate(batch):
+                owner, name = item["name"].split("/"); rev, path = item["revision"], item["readme_path"]
+                fields.append(f'r{i}:repository(owner:{json.dumps(owner)},name:{json.dumps(name)}) {{ id isPrivate '
+                    f'root:object(expression:{json.dumps(rev)}) {{ ... on Commit {{ history(first:100,path:{json.dumps(path)}) '
+                    '{ totalCount pageInfo { hasNextPage } nodes { committedDate author { user { login url } } } } } } '
+                    f'c0:object(expression:{json.dumps(rev+":CONTRIBUTING.md")}) {{ ... on Blob {{ oid }} }} '
+                    f'c1:object(expression:{json.dumps(rev+":.github/CONTRIBUTING.md")}) {{ ... on Blob {{ oid }} }} }}')
+            response = self.api.graphql("query { " + " ".join(fields) + " }")
+            bad = {str(error.get("path", [None])[0]) for error in response.get("errors", [])}
+            data = response.get("data") or {}
+            for i, item in enumerate(batch):
+                alias, value, rid = f"r{i}", data.get(f"r{i}"), item["id"]
+                if not value or alias in bad or "None" in bad or value.get("id") != item.get("node_id") or value.get("isPrivate") is not False:
+                    profile_errors[rid] = "Pinned profile history unavailable or repository identity/privacy changed"; continue
+                history = (value.get("root") or {}).get("history")
+                nodes = history.get("nodes") if history else None
+                if not isinstance(nodes, list) or any(not node.get("committedDate") for node in nodes):
+                    profile_errors[rid] = "Pinned README path history unavailable"; continue
+                counts, urls = Counter(), {}
+                for node in nodes:
+                    user = (node.get("author") or {}).get("user") or {}; login, url = user.get("login"), user.get("url")
+                    if re.fullmatch(r"[A-Za-z0-9-]{1,39}", login or "") and url == f"https://github.com/{login}":
+                        counts[login] += 1; urls[login] = url
+                contributors = [{"login": login, "url": urls[login], "contributions": count}
+                                for login, count in sorted(counts.items(), key=lambda pair: (-pair[1], pair[0].casefold()))[:10]]
+                contributing = next((path for key, path in (("c0", "CONTRIBUTING.md"), ("c1", ".github/CONTRIBUTING.md")) if value.get(key)), None)
+                observation = {"status": "observed", "description": "Public GitHub identities observed in the latest 100 commits affecting this README; sampled, not an all-time contributor total.",
+                    "commit_limit": 100, "observed_commits": len(nodes), "has_more": bool(history["pageInfo"]["hasNextPage"]),
+                    "path_commit_count": history.get("totalCount"), "public_contributors": len(counts), "observed_at": now()}
+                observations[rid] = {"content_updated_at": nodes[0]["committedDate"] if nodes else None,
+                    "content_update_status": "Newest commit affecting the pinned README path", "contributors": contributors,
+                    "contributor_observation": observation,
+                    "contributing_url": (f"https://github.com/{item['name']}/blob/{item['revision']}/{contributing}" if contributing else None)}
+                profile_errors.pop(rid, None)
+            progress.update(observations=observations, errors=profile_errors)
+            atomic_json(progress_path, {**progress, "digest": digest(progress)}); batches += 1
+            print(f"Profiles: {len(observations)}/{total}; {len(profile_errors)} pending errors", flush=True)
+            if interrupt_after and batches >= interrupt_after:
+                raise InterruptedError("Injected after durable profile batch; published index unchanged")
+        self.state.update(profile_observations=observations, profile_errors=profile_errors)
+        self.rebuild_profiles()
+        progress_path.unlink(missing_ok=True)
+
+    def rebuild_profiles(self):
+        for rid, observation in self.state["profile_observations"].items():
+            old = self.state["completed"].get(rid)
+            if not old or not old.get("detail"):
+                continue
+            raw = (self.root / "data/raw/lists" / rid / old["revision"] / "README.md").read_bytes()
+            if hashlib.sha256(raw).hexdigest() != old["readme_sha256"]:
+                raise ValueError("Profile rebuild raw digest mismatch")
+            text = raw.decode("utf-8-sig"); parsed = parse_readme(text, old["name"], old["revision"], old["readme_path"])
+            item, detail = profile({**old, **observation}, parsed, text)
+            immutable_json(self.root / "data/staging" / item["detail"], detail); self.state["completed"][rid] = item
         self.save()
 
     def discover(self, interrupt_after=None):
@@ -324,7 +426,7 @@ class Run:
                     raw_path = self.root / "data/raw/lists" / meta["id"] / meta["revision"] / "README.md"
                     raw_path.parent.mkdir(parents=True, exist_ok=True); raw_path.write_bytes(raw)
             if detail:
-                atomic_json(self.root / "data/staging" / item["detail"], detail)
+                immutable_json(self.root / "data/staging" / item["detail"], detail)
             self.state["completed"][meta["id"]] = item
             self.state["errors"].pop(meta["id"], None)
         self.save()
@@ -356,7 +458,7 @@ class Run:
                 item, _ = profile(meta, None)
                 item["reason"] = self.state["errors"].get(rid, item["reason"]); items.append(item)
         items.sort(key=lambda m: (-m["stars"], m["name"].casefold()))
-        index = {"format_version": 2, "min_stars": MIN_STARS, "run_id": self.state["run_id"],
+        index = {"format_version": FORMAT, "min_stars": MIN_STARS, "run_id": self.state["run_id"],
             "started_at": self.state["started_at"], "generated_at": self.state.get("discovery_completed_at", self.state["started_at"]),
             "engine_digest": self.state["engine"], "queries": self.state["queries"],
             "replay": self.state.get("replay"),
@@ -393,7 +495,7 @@ def publish(expected, root=ROOT, interrupt_after=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["discover", "enrich", "stage", "publish", "validate", "replay"])
+    parser.add_argument("command", choices=["discover", "enrich", "profiles", "stage", "publish", "validate", "replay"])
     parser.add_argument("--run-id", default="lists-20260903")
     parser.add_argument("--expected-digest")
     parser.add_argument("--interrupt-after", type=int)
@@ -422,6 +524,10 @@ def main():
                 if not 1 <= args.batch_size <= 32:
                     parser.error("--batch-size must be 1..32")
                 run.enrich(args.interrupt_after, args.batch_size)
+            elif args.command == "profiles":
+                if not 1 <= args.batch_size <= 16:
+                    parser.error("--batch-size must be 1..16")
+                run.profiles(args.interrupt_after, args.batch_size)
             elif args.command == "replay":
                 if not args.source_run or not args.expected_digest:
                     parser.error("Replay requires --source-run and --expected-digest")

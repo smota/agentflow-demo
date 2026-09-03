@@ -111,9 +111,16 @@ def render(root: Path, preview=False):
         st.link_button("Meet the upstream contributors ↗", item["url"] + "/graphs/contributors")
         with st.container(key="list_metrics"):
             metrics = st.columns(4)
-        for column, label, key in zip(metrics, ("Stars", "Forks", "Indexed entries", "Contributors"), ("stars", "forks", "entry_count", "contributors_count")):
+        for column, label, key in zip(metrics, ("Stars", "Forks", "Indexed entries", "Contributors seen"), ("stars", "forks", "entry_count", "contributors_count")):
             column.metric(label, number(item.get(key)))
-        st.caption(f"Content freshness: {item['freshness']['range']} · Observed {item['observed_at'][:10]} · Status: {item['state']}")
+        changed = item.get("content_updated_at")
+        freshness_index = item["freshness"].get("index")
+        st.caption(
+            f"Last content change: {changed[:10] if changed else 'Unknown'} · "
+            f"Freshness: {item['freshness']['range']}"
+            f"{' · Index ' + str(freshness_index) + '/100' if freshness_index is not None else ''} · "
+            f"Observed {item['observed_at'][:10]} · Status: {item['state']}"
+        )
         if item["state"] != "eligible": st.info(item["reason"])
         if item.get("detail"):
             try:
@@ -143,11 +150,23 @@ def render(root: Path, preview=False):
                 else: st.info("No entries match. Try another category or search.")
                 st.subheader("Curated by people")
                 st.write(detail["attribution"])
-                st.caption("Contributor counts are shown only when observed; unknown does not mean zero.")
+                observation = detail.get("contributor_observation")
+                if observation:
+                    st.caption(observation["description"])
+                    if detail.get("contributors"):
+                        columns = st.columns(min(5, len(detail["contributors"])))
+                        for column, contributor in zip(columns, detail["contributors"][:5]):
+                            column.link_button(f"@{contributor['login']} · {contributor['contributions']}", contributor["url"], width="stretch")
+                    if detail.get("contributing_url"):
+                        st.link_button("How to contribute ↗", detail["contributing_url"])
+                else:
+                    st.caption("Contributor counts are shown only when observed; unknown does not mean zero.")
                 with st.expander("Source, taxonomy & permissions"):
                     st.write("Original category names are preserved. Topic labels are derived separately from public repository metadata.")
                     st.text("Listed properties: " + (", ".join(detail["properties"]) or "No supported structured properties observed"))
                     st.write(item["content_policy"])
+                    for source_link in detail.get("source_data_links", []):
+                        st.link_button("Open labelled source data ↗", source_link)
                     st.caption(f"Source license: {item.get('license') or 'Unknown'} · Commit {detail['revision']}")
         else: st.info("Content indexing is pending or this README format is unsupported. Explore the original list above.")
     else:
