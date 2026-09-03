@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-09-03T20:28:00Z",
+  "run": {
+    "id": "awesomeawesomeness-2-final",
+    "goal": "issue:24",
+    "sourceBranch": "agentflow-state",
+    "sourceCommit": "22ba1f6f52a866867f673c667ce040c42d6da2fe",
+    "revision": "fe637ba49eaada1d35a827d92388be036c552309c9370f8b4afc113b220ed836",
+    "status": "active",
+    "role": "product-manager",
+    "generation": 1,
+    "candidateDigest": "f3e3405a0fb84918310aa6d4370040442ac4536f9636a35faca952c7ce32dcf0"
+  },
+  "recovery": {
+    "previousOwnerStopped": true,
+    "candidateInvalidatedOnTransfer": true,
+    "stalePlanExitCode": 4,
+    "obsoleteWriterExitCode": 4,
+    "failedObservation": "040ce5b22edcfc18c5293929ddd75962360105d2fa87093e331eb6be727ce465",
+    "passingObservation": "af84febee3d44a8d5f79ae173fffa3df75dbed3ac78998b2c0b1e5bd14e6ce48"
+  },
+  "publication": {
+    "attempts": 2,
+    "createdComments": 1,
+    "state": "confirmed",
+    "url": "https://github.com/smota/agentflow-demo/issues/24#issuecomment-5531638894"
+  },
+  "freshContext": {
+    "mode": "ephemeral-read-only-codex-cli",
+    "conversationHistoryUsed": false,
+    "localScratchUsed": false,
+    "networkRequired": false,
+    "source": "docs/demo/evidence/fresh-context-rc1.json",
+    "result": "pass"
+  },
+  "limitations": [
+    "Writer/process isolation is cooperative host evidence, not hostile-host authentication.",
+    "A fetched GitHub ref is a point-in-time observation and must be refreshed before a later recovery decision.",
+    "Release and deployment acceptance are not implied by this recovery result."
+  ]
+}
