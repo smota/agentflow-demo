@@ -68,7 +68,7 @@ def preview(tmp_path, monkeypatch):
     (directory / "lists").mkdir()
     (directory / "list-index.json").write_text(json.dumps(index), encoding="utf-8")
     for path, detail in details.items(): (directory / path).write_text(json.dumps(detail), encoding="utf-8")
-    (tmp_path / "package.json").write_text('{"version":"2.0.0-alpha.2"}')
+    (tmp_path / "package.json").write_text('{"version":"2.0.0-alpha.3"}')
     monkeypatch.delenv("GH_TOKEN", raising=False); monkeypatch.delenv("GITHUB_TOKEN", raising=False)
     def denied(*args, **kwargs): raise AssertionError("Hosted UI attempted networking")
     monkeypatch.setattr(socket.socket, "connect", denied)
