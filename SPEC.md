@@ -1,47 +1,47 @@
-# Issue #20: fix: discover Awesome lists at 100 stars without a source allowlist
+# Issue #21: feat: publish early list-first AwesomeAwesomeness preview
 
 **Epic:** #16
 
 ## Background & Problem Statement
 
-V1 discovered awesome-selfhosted but a three-source review allowlist incorrectly marked it and other unreviewed repositories non-lists. Discovery, eligibility and content permissions need independent states.
+The public v1 interface indexes linked projects. Users need to discover and explore the lists themselves, using the new auditable catalogue without hosted processing.
 
 ## Requirements
 
-Use broad public awesome search plus awesome/awesome-list topics with at least100 observed stars, including forks explicitly and retaining their identity. Exhaust partitioned page sets within stated GitHub limitations, retain candidate decisions, and locally generate a list-first index plus immutable detail shards. Preserve live v1 until preview promotion.
+Ship a polished list-first alpha: list cards/table, scope/topic/search/star filters, detail with original taxonomy and in-list search, public source access, honest metrics/coverage and shareable state. Preserve freehosting/localprocessing constraints. Publish actual2.0.0-alpha.1 only after protected CI and independent public verification.
 
 ## Technical Design
 
-Pure schema/classification/parser in awesome/lists.py; local resumable tools/lists.py. Date partitions with star tie-breaks stay below1,000results; saturated unsplittable buckets remain unresolved. Page checkpoints, stable-ID dedup, observation interval and reconciliation receipts. Batch GraphQL read-only public README observations pinned to the same commit as content history; partial errors remain per-repository pending. No repository code execution or arbitrary linked URL fetching. Immutable content-addressed detail shards validate before the index pointer switches atomically. Unknown licenses permit metadata/link-only presentation, not blanket exclusion or full-text republication. Original taxonomy preserved; normalized topics additional and derived.
+Contained codex/list-preview worktree isolates UI code from the root crawler. One agent performs one formal phase at a time; issue20 waits on its approved procedural datajob while UI phases proceed. Pure awesome/explore.py handles filter/state/share logic; awesome/list_ui.py renders native Streamlit controls and escaped editorial HTML. Main app switches only after local preview checks. Compact index and lazy digest-verified detail shards, bounded caches, no ingestion imports/network. Localpreview uses an explicitly labelled read-only snapshot under .cache, never committed as accepted data. Integrate accepted issue20 generation before alpha promotion.
 
 ## Business logic
 
-- **BR-1 (rule):** At least100 stars, public and evidence of actual curated list;99 fails. No fixed source allowlist.
-- **BR-2 (rule):** Exhaust every selected partition/page or report incomplete; pending/error is not excluded or zero.
-- **BR-3 (rule):** Local processing only; preserve provenance, safe links and permissions; publish validated current candidate.
-- **BR-4 (rule):** Recovery preserves completed inputs, rejects changed engine/candidate and leaves last-good publication intact.
+- **BR-1 (rule):** Lists are the primary entity; filters operate over the whole observed catalogue, minimum100stars.
+- **BR-2 (rule):** Preserve unknown/pending/coverage semantics, original taxonomy and exact source provenance.
+- **BR-3 (rule):** Hosted UI only reads validated published files; localpreview data is labelled and never silently promoted.
+- **BR-4 (rule):** Keyboard/mobile/share/reset work; alpha identity and behavior require public verification, not local inference.
 
 ## Acceptance criteria
 
 ### Feature-specific
 
-- [ ] AC-1 (BR-1): Boundary/classifier regressions pass, including selfhosted and awesome-named non-list apps, badges, tables and directory lists.
-- [ ] AC-2 (BR-2): Partition/page/tie/dedup/partial-response tests pass; live query receipts reconcile without top-N or global completeness claims.
-- [ ] AC-3 (BR-3): Index/detail validate observed metrics, original taxonomy, derived topics, safe source provenance and explicit missing/permission states.
-- [ ] AC-4 (BR-4): Interrupted/resumed crawl is idempotent; stale engine, missing/wrong shard and stale publication rejected; v1 tests remain green.
+- [ ] AC-1 (BR-1): Users find selfhosted and100-star lists, open profiles, search/filter/reset and paginate all results.
+- [ ] AC-2 (BR-2): Metrics label unknowns and parsed scope; original taxonomy and in-list links work; coverage visible.
+- [ ] AC-3 (BR-3): Offline AppTest passes without credentials/network; accepted index/shards bound to released candidate.
+- [ ] AC-4 (BR-4): Mobile/keyboard/share QA passes; exact alpha tag/release/live version/digest and behavior verified with localserver stopped.
 
 ## Test plan
 
-Boundary/classification/Markdown/table fixtures; fake API capped/tied/incomplete/paginated results; partial GraphQL aliases; digest/atomic publication/unknown metrics/link safety; injected interruption and exact resume. Separately record actual GitHub search/enrichment observations.
+Pure filter/state/share tests, offline AppTest and detail cases, hostile/repeated URL inputs, browser390px/desktop screenshots and exploration; then exact protectedCI/tag/release/public deployment checks.
 
 ## Workflow classification
 
 - **Profile:** standard
 - **Risk:** medium
 - **Effort:** large
-- **Change surfaces:** public-catalogue, local-tooling
-- **Collaboration:** architecture council for public contract; single writer, read-only advice and explicit self-review. Public metadata is not sensitive user-data migration.
+- **Change surfaces:** public-UI, local-preview, hosting
+- **Collaboration:** public-contract and UX councils; single accountable agent, explicit self-review and agent-simulated stakeholders.
 
 ## Open questions
 
-GitHub search is not transactional: expose observation interval and reconciliation discrepancies. Unsupported content remains visible with its reason. Reproduction permissions do not determine list inclusion. Keep v1 validation independent until actual v2 migration.
+Issue20 dataset acceptance remains a promotion dependency. UI preparation may proceed against labelled cached observations; do not infer complete classification, content metrics or contributor enrichment.
