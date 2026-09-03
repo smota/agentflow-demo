@@ -202,10 +202,19 @@ def validate_detail(detail: dict, item: dict) -> None:
         raise ValueError("Detail digest mismatch")
     if detail["digest"] != item.get("detail_digest") or detail["repository_id"] != item["id"]:
         raise ValueError("Detail identity mismatch")
+    for key in ("name", "revision", "readme_path", "readme_sha256"):
+        if detail.get(key) != item.get(key):
+            raise ValueError("Detail source identity mismatch")
+    source = f"https://github.com/{item['name']}/blob/{item['revision']}/{quote(item['readme_path'], safe='/')}"
+    def pinned(url):
+        return safe_url(url) and (url == source or url.startswith(source + "#"))
+    for section in detail["sections"]:
+        if not pinned(section["source_url"]):
+            raise ValueError("Unsafe or unpinned section provenance")
     if len(detail["entries"]) != item["entry_count"]:
         raise ValueError("Entry count mismatch")
     for entry in detail["entries"]:
-        if not safe_url(entry["url"]) or not safe_url(entry["source_url"]):
+        if not safe_url(entry["url"]) or not pinned(entry["source_url"]):
             raise ValueError("Unsafe detail link")
 
 
