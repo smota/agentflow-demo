@@ -1,30 +1,29 @@
 name: Validate PR
-
 on:
   pull_request:
-    branches:
-      - development
-      - staging
-      - main
+    branches: [development, main]
     types: [opened, edited, synchronize, reopened]
-
 permissions:
   contents: read
-
 jobs:
   validate-pr-body:
     name: Validate PR body
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+      - uses: actions/checkout@v4
+        with:
+          repository: smota/agentflow-sdlc
+          ref: 60a0e800dc4d4ce9476c72231a0b853998131213
+          path: .tooling/agentflow-next
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-
-      - name: Check PR manifest contract
+          node-version: '24'
+      - name: Check current PR manifest contract
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
         run: |
-          printf '%s' "$PR_BODY" > /tmp/pr-body.md
-          node scripts/validate-pr-manifest.mjs --path /tmp/pr-body.md
+          mkdir -p .agent-runs/ci
+          printf '%s' "$PR_BODY" > .agent-runs/ci/pr-body.md
+          node .tooling/agentflow-next/scripts/validate-pr-manifest.mjs --path .agent-runs/ci/pr-body.md

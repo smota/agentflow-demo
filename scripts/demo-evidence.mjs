@@ -29,6 +29,8 @@ if (command === 'record') {
   const ledger = existsSync(safe(ledgerPath)) ? JSON.parse(readFileSync(safe(ledgerPath), 'utf8')) : []
   if (ledger.length && !entry.inputs.includes(ledger.at(-1).path)) throw new Error('Read and reference the previous role pass before recording the next')
   const phase = entry.phase
+  const epic = entry.epic ?? (entry.issue >= 16 ? 16 : 1)
+  const authorizationDate = entry.issue >= 16 ? '2026-09-03' : '2026-09-02'
   const role = roles[phase]
   const stamp = new Date().toISOString()
   const branch = git('branch', '--show-current')
@@ -48,8 +50,8 @@ if (command === 'record') {
   execFileSync(process.execPath, ['scripts/validate-sdlc-role-pass.mjs', '--path', path], {stdio:'inherit'})
   ledger.push({phase, role, status, summary:entry.summary, next:entry.next, timestamp:stamp, path, digest:hash(markdown), commit:git('rev-parse','HEAD')})
   save(ledgerPath, JSON.stringify(ledger,null,2)+'\n')
-  save(`${dir}/handover.md`, `<!-- agent-handover -->\n## Role handover ledger — issue #${entry.issue}\n\nOne accountable Codex executor; same-platform helpers are advisory, not cross-platform role alternation. Approval: user activated the scoped demo goal on 2026-09-02.\n\n` + ledger.map(x => `### ${x.phase} — ${x.role} (${x.status})\n\n${x.summary}\n\nNext contract: ${x.next}\n\nRole-pass SHA-256: ${x.digest}\n\nSigned-off-by: codex (${x.role}), ${x.timestamp}\n`).join('\n'))
-  save('.agent-runs/checkpoint.json', JSON.stringify({schemaVersion:1, repository:repo, epic:1, issue:entry.issue, branch, commit:git('rev-parse','HEAD'), phase, lastRolePass:path, lastRolePassDigest:hash(markdown), nextSafeAction:entry.next, openRework:entry.openRework ?? [], updatedAt:stamp},null,2)+'\n')
+  save(`${dir}/handover.md`, `<!-- agent-handover -->\n## Role handover ledger — issue #${entry.issue}\n\nOne accountable Codex executor; same-platform helpers are advisory, not cross-platform role alternation. Approval: user activated the scoped demo goal on ${authorizationDate}.\n\n` + ledger.map(x => `### ${x.phase} — ${x.role} (${x.status})\n\n${x.summary}\n\nNext contract: ${x.next}\n\nRole-pass SHA-256: ${x.digest}\n\nSigned-off-by: codex (${x.role}), ${x.timestamp}\n`).join('\n'))
+  save('.agent-runs/checkpoint.json', JSON.stringify({schemaVersion:1, repository:repo, epic, issue:entry.issue, branch, commit:git('rev-parse','HEAD'), phase, lastRolePass:path, lastRolePassDigest:hash(markdown), nextSafeAction:entry.next, openRework:entry.openRework ?? [], updatedAt:stamp},null,2)+'\n')
   console.log(path)
 } else if (command === 'publish') {
   const issue = Number(input)

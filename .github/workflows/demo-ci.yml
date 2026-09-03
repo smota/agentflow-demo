@@ -12,6 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: smota/agentflow-sdlc
+          ref: 60a0e800dc4d4ce9476c72231a0b853998131213
+          path: .tooling/agentflow-next
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
