@@ -7,6 +7,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 from awesome.lists import load_index, validate_detail
+from awesome.insights import dashboard, eligible_lists, comparison
 from awesome.explore import (DEFAULTS, SORTS, STATES, FRESHNESS, normalize,
                              filtered, page_slice, share_url, content_filter, number)
 
@@ -42,7 +43,7 @@ CSS = """<style>
 .list-card .fresh{font-size:.76rem;color:#53635e;margin-top:.5rem}
 a:focus-visible,button:focus-visible{outline:3px solid #bd7210!important;outline-offset:3px}
 @media(max-width:640px){.block-container{padding:3.5rem 1rem 2rem}.hero{font-size:2.6rem}.list-card{min-height:0}.list-card p{min-height:0}h1:not(.hero){font-size:1.9rem}
-.st-key-list_metrics [data-testid="stColumn"],.st-key-discovery_metrics [data-testid="stColumn"]{min-width:calc(50% - 1rem)!important;flex:1 1 calc(50% - 1rem)!important}
+.st-key-list_metrics [data-testid="stColumn"],.st-key-discovery_metrics [data-testid="stColumn"],.st-key-insight_metrics [data-testid="stColumn"]{min-width:calc(50% - 1rem)!important;flex:1 1 calc(50% - 1rem)!important}
 [data-testid="stMetricValue"]{font-size:1.75rem}}
 </style>"""
 
@@ -87,20 +88,92 @@ def render(root: Path, preview=False):
         st.session_state.pop("list_shared", None)
         st.query_params.clear()
 
+    def compare_change():
+        state["compare"] = ",".join(st.session_state.compare_ids[:4])
+        st.session_state.pop("list_shared", None)
+        st.query_params.clear()
+
+    def reset_insights():
+        state.update(q="", topic="All topics", freshness="Any freshness", compare="")
+        st.session_state.pop("list_shared", None)
+        st.query_params.clear()
+
     def choose(field, label, options, target=st):
         key = "le_" + field
         st.session_state[key] = state[field]
         return target.selectbox(label, options, key=key, on_change=change, args=(field, key))
 
-    navigation = st.columns([1, 1, 3])
+    navigation = st.columns([1, 1, 1, 2])
     navigation[0].button("Explore lists", on_click=go, args=("Discover",), width="stretch")
-    navigation[1].button("Delivery story", on_click=go, args=("Delivery story",), width="stretch")
+    navigation[1].button("Insights", on_click=go, args=("Insights",), width="stretch")
+    navigation[2].button("Delivery story", on_click=go, args=("Delivery story",), width="stretch")
     if state["view"] == "Delivery story":
         st.title("Built in the open.")
         st.write("Follow the decisions, reviews, tests and releases behind this application.")
         st.link_button("Read the demo story", "https://github.com/smota/agentflow-demo/blob/main/docs/demo/story.md")
         st.link_button("Follow the 2.0 delivery", "https://github.com/smota/agentflow-demo/issues/16")
         st.caption("Agent-simulated stakeholder reviews are advisory, not human approval. Local processing; read-only free hosting.")
+    elif state["view"] == "Insights":
+        st.html('<div class="eyebrow">Catalogue intelligence</div><h1 class="hero">See the landscape.<br><em>Compare the curators.</em></h1><p class="intro">Understand what the Awesome community maintains, then compare a few lists side by side. Every measure comes from the current versioned snapshot—never an invented trend.</p>')
+        filter_columns = st.columns([2, 1, 1, 1])
+        st.session_state.insight_q = state["q"]
+        filter_columns[0].text_input("Filter dashboard lists", key="insight_q", placeholder="Search scope, topic or list name",
+                                     on_change=change, args=("q", "insight_q"))
+        topics = ["All topics", *sorted({topic for item in eligible_lists(index) for topic in item.get("topics", [])})]
+        choose("topic", "Topic", topics, filter_columns[1])
+        choose("freshness", "Freshness", FRESHNESS, filter_columns[2])
+        filter_columns[3].button("Reset dashboard", on_click=reset_insights, width="stretch")
+        insight_state = {**DEFAULTS, "q": state["q"], "topic": state["topic"], "freshness": state["freshness"]}
+        insight = dashboard(index, filtered(index, insight_state)); population = insight["population"]
+        with st.container(key="insight_metrics"):
+            metrics = st.columns(4)
+        metrics[0].metric("Eligible lists", number(population))
+        metrics[1].metric("Indexed entries", number(insight["total_entries"]))
+        metrics[2].metric("Median stars", number(insight["median_stars"]))
+        metrics[3].metric("Fresh ≤30 days", number(insight["fresh_30"]))
+        st.caption(f"Population: {population:,} filtered eligible public lists · Freshness known: {insight['freshness_known']:,}; unknown: {insight['freshness_unknown']:,} · Snapshot observed {insight['observed_at']}")
+        st.caption(f"Indexed-content counts known: {insight['entries_known']:,}; unknown: {insight['entries_unknown']:,}. Observed entry totals never convert unknown counts to zero.")
+        if not population:
+            st.info("No eligible lists match these dashboard filters. Reset them to restore the full catalogue view.")
+        else:
+            topics_tab, freshness_tab, relationship_tab = st.tabs(("Topics", "Freshness", "Stars & content"))
+            with topics_tab:
+                topic_frame = pd.DataFrame(insight["topics"][:15])
+                st.bar_chart(topic_frame, x="Topic", y="Lists", height=390)
+                st.caption("Top 15 derived topics. A list may contribute to more than one topic; original categories remain on its profile.")
+                with st.expander("Accessible topic data"): st.dataframe(topic_frame, hide_index=True, width="stretch")
+            with freshness_tab:
+                fresh_frame = pd.DataFrame(insight["freshness"])
+                st.bar_chart(fresh_frame, x="Range", y="Lists", height=390)
+                st.caption(f"All {population:,} matching lists by last pinned README content change; unknown values are retained explicitly.")
+                with st.expander("Accessible freshness data"): st.dataframe(fresh_frame, hide_index=True, width="stretch")
+            with relationship_tab:
+                scatter_frame = pd.DataFrame(insight["scatter"])
+                st.scatter_chart(scatter_frame, x="Stars", y="Entries", color="Topic", height=430)
+                st.caption(f"Observed stars versus indexed entries for {population:,} matching lists. This is a current-snapshot relationship, not growth history.")
+                with st.expander("Accessible stars and content data"): st.dataframe(scatter_frame, hide_index=True, width="stretch", height=360)
+
+        st.subheader("Compare lists")
+        eligible = eligible_lists(index); ids = [item["id"] for item in eligible]
+        selected = [rid for rid in state["compare"].split(",") if rid in ids]
+        if not selected: selected = ids[:2]; state["compare"] = ",".join(selected)
+        st.session_state.compare_ids = selected
+        st.multiselect("Choose 2–4 eligible lists", ids, format_func=lambda rid: next(x["name"] for x in eligible if x["id"] == rid),
+                       max_selections=4, key="compare_ids", on_change=compare_change)
+        rows = comparison(index, st.session_state.compare_ids)
+        if len(rows) < 2:
+            st.info("Choose at least two lists for a meaningful comparison.")
+        else:
+            compare_frame = pd.DataFrame(rows)
+            st.dataframe(compare_frame, hide_index=True, width="stretch",
+                column_config={"GitHub": st.column_config.LinkColumn(display_text="Open ↗")})
+            metric = st.selectbox("Comparison metric", ("Stars", "Forks", "Entries", "Categories", "Contributors seen", "Freshness index"), key="compare_metric")
+            chart_rows = compare_frame[["List", metric]].rename(columns={metric: "Value"})
+            st.bar_chart(chart_rows, x="List", y="Value", height=360)
+            st.caption("One metric and unit is charted at a time; the table above is the accessible exact-value reference.")
+            target = st.selectbox("Open a compared list", st.session_state.compare_ids,
+                                  format_func=lambda rid: next(x["name"] for x in eligible if x["id"] == rid), key="compare_open")
+            st.button("Explore compared list →", on_click=go, args=("List", target))
     elif state["view"] == "List":
         item = next(x for x in index["lists"] if x["id"] == state["list"])
         st.button("← Back to results", on_click=go, args=("Discover",))

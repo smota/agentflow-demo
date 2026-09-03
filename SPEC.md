@@ -1,49 +1,53 @@
-# Issue #22: feat: enrich list profiles and contributor credit
+# Issue #23: feat: add list comparison dashboards and responsive exploration
 
 **Epic:** #16
 
 ## Background & Problem Statement
 
-Users need consistent, evidence-backed information to choose and explore lists, including original taxonomy, real content freshness, and the people maintaining them. The alpha intentionally leaves freshness and contributor counts unknown.
+The list-profile snapshot is complete, but users still have to inspect lists one at a
+time. They need an honest overview of the catalogue and an easy way to compare a small
+set of lists without inventing time series or loading thousands of detail shards.
 
 ## Requirements
 
-Extend list profiles with useful scope/topics, original categories and property names, observed numeric KPIs, real content freshness, public contributor promotion, contribution/source-data links and stronger list classification. Keep unknown distinct from zero and all enrichment local.
-
-## Technical Design
-
-Continue from completed frozen run D: 8,370 of 8,373 candidates have content observations and three source-integrity errors remain pending. Reparse verified raw inputs with a new reviewed engine generation; never rewrite engine or checkpoint identities. Content freshness uses README/source-content path history at the pinned revision, not repository push time. Contributor observations are bounded and labelled: public logins/URLs and counts only, never emails. Classifier improvements use evidence patterns, not repository allowlists. Generated README source-data attribution is linked where detected. Publish a new snapshot only after source validation, review and exact-digest acceptance.
+Add a first-class insights dashboard with population-labelled KPIs, topic and freshness
+distributions, stars-versus-indexed-content analysis and ranked list access. Let users
+compare two to four eligible lists across observed stars, forks, entries, categories,
+contributors and freshness. Keep controls keyboard accessible, responsive, URL-shareable
+and bounded for Streamlit Community Cloud. Derive everything from the loaded index only.
 
 ## Business logic
 
-- **BR-1 (rule):** Profile facts are pinned, public observations with explicit completeness/bounds; unknown is never converted to zero.
-- **BR-2 (rule):** Content freshness reflects the observed list source path, not repository-wide pushes, using a documented formula/range.
-- **BR-3 (rule):** Contributor promotion uses public identities/URLs and bounded contribution observations; never retain or publish email addresses.
-- **BR-4 (rule):** Original taxonomy remains distinct from normalized topics; classification uses general evidence, never a repository allowlist.
-- **BR-5 (rule):** Hosted UI remains read-only; every new detail/source/contributor URL and identity is schema-bound and safe.
+- **BR-1 (rule):** Dashboard denominators and unknown counts are explicit; no historical trend is inferred.
+- **BR-2 (rule):** Comparison accepts at most four current eligible lists and preserves metric units/observation meaning.
+- **BR-3 (rule):** Dashboard filters and comparison selections normalize safely, survive share/reopen and reset predictably.
+- **BR-4 (rule):** Aggregate rendering uses the index only; detail shards remain lazy and no hosted network/AI processing is added.
+- **BR-5 (rule):** Desktop and 390px mobile layouts retain readable labels, keyboard access, contrast and bounded chart density.
 
 ## Acceptance criteria
 
 ### Feature-specific
 
-- [ ] AC-1 (BR-1): List profiles expose scope, original taxonomy/properties and observed stars/forks/contributor/content KPIs with bounds.
-- [ ] AC-2 (BR-2): Last content change and freshness range/index use dated path-specific evidence and a documented formula.
-- [ ] AC-3 (BR-3): Public contributors and contributing/source-data links work without hosted API calls; no email enters the accepted snapshot.
-- [ ] AC-4 (BR-4): High-star legitimate lists no longer stay pending for narrow wording; classification tests are general and allowlist-free.
-- [ ] AC-5 (BR-5): In-list filtering and every enriched source URL remain pinned, validated and safe; unsupported content stays explicit.
+- [ ] AC-1 (BR-1): KPIs and topic/freshness charts show their population, known/unknown coverage and observation date.
+- [ ] AC-2 (BR-2): Two-to-four-list comparison renders an accessible equivalent table plus bounded metric charts.
+- [ ] AC-3 (BR-3): Dashboard filters, comparisons, reset and shared URLs round-trip with malformed/extreme input tests.
+- [ ] AC-4 (BR-4): AppTest proves dashboard/profile navigation is offline and benchmark evidence fits free hosting.
+- [ ] AC-5 (BR-5): Browser acceptance passes desktop and 390px mobile without horizontal overflow or hidden controls.
 
 ## Test plan
 
-Parser/classifier fixtures; missing/zero/bounded metrics; path-history timestamps and freshness boundaries; public contributor sanitization and truncation; generated-source attribution; safe links and source binding; three unresolved encoding cases; browser exploration across multiple real list formats; source-bound full suite and protected CI.
+Pure aggregation/filter/normalization tests; AppTest for dashboard, comparison, empty and reset/share states; complete
+suite and source-bound Agentflow observation; measured index/load/render memory and time; fresh local browser desktop/mobile
+checks followed by exact hosted acceptance after protected promotion.
 
 ## Workflow classification
 
 - **Profile:** standard
 - **Risk:** medium
-- **Effort:** large
-- **Change surfaces:** catalogue-schema, local-crawler, public-UI, committed-snapshot
-- **Collaboration:** data-contract and privacy councils; single accountable agent, explicit self-review and simulated stakeholder perspectives.
+- **Effort:** medium
+- **Change surfaces:** public UI, URL state, index analytics, tests, release/story documentation
+- **Collaboration:** chief-designer/UX, data-honesty and performance advisory council; single accountable executor.
 
 ## Open questions
 
-None. Unsupported encodings remain pending unless exact bytes can be safely decoded under the reviewed contract. GitHub rate limits may require checkpointed continuation, not reduced coverage or fabricated counts.
+None. Alpha.2 remains the last-good public rollback until this increment passes hosted acceptance.

@@ -10,7 +10,7 @@ FRESHNESS = ("Any freshness", "Within 30 days", "Within 90 days", "Within 180 da
 DEFAULTS = {"q": "", "topic": "All topics", "min_stars": 100, "state": "Curated lists",
             "freshness": "Any freshness", "archived": "Include archived", "forks": "Include forks",
             "sort": "Most starred", "page": 1, "view": "Discover", "list": "", "layout": "Cards",
-            "content_q": "", "content_category": "all"}
+            "content_q": "", "content_category": "all", "compare": ""}
 PAGE_SIZE = 12
 
 
@@ -21,17 +21,19 @@ def normalize(params: dict, index: dict) -> dict:
         if key in {"page", "min_stars"}:
             try: result[key] = max(1 if key == "page" else 100, min(1_000_000_000, int(value)))
             except (ValueError, TypeError, OverflowError): pass
-        elif isinstance(value, str): result[key] = value[:200] if key in {"q", "content_q", "content_category"} else value
+        elif isinstance(value, str): result[key] = value[:400] if key == "compare" else (value[:200] if key in {"q", "content_q", "content_category"} else value)
     options = {"topic": {"All topics", *(t for item in index["lists"] for t in item["topics"])},
                "state": STATES, "freshness": FRESHNESS, "sort": SORTS,
                "archived": ("Include archived", "Active only"), "forks": ("Include forks", "Originals only"),
-               "view": ("Discover", "List", "Delivery story"), "layout": ("Cards", "Table")}
+               "view": ("Discover", "Insights", "List", "Delivery story"), "layout": ("Cards", "Table")}
     for key, values in options.items():
         if result[key] not in values: result[key] = DEFAULTS[key]
     if result["list"] not in {x["id"] for x in index["lists"]}:
         result["list"] = ""
         if result["view"] == "List": result["view"] = "Discover"
     result["q"] = " ".join(result["q"].split())
+    eligible = {x["id"] for x in index["lists"] if x.get("state") == "eligible" and x.get("public") is True}
+    result["compare"] = ",".join(list(dict.fromkeys(x for x in result["compare"].split(",") if x in eligible))[:4])
     return result
 
 
@@ -45,10 +47,12 @@ def filtered(index: dict, state: dict) -> list[dict]:
         if state["topic"] != "All topics" and state["topic"] not in item["topics"]: continue
         if state["archived"] == "Active only" and item.get("archived"): continue
         if state["forks"] == "Originals only" and item.get("is_fork"): continue
-        age = item.get("freshness", {}).get("days"); freshness = state["freshness"]
-        if freshness.startswith("Within") and (age is None or age > int(freshness.split()[1])): continue
-        if freshness == "Unknown" and age is not None: continue
-        if freshness == "Older than a year" and (age is None or age <= 365): continue
+        fresh_range = item.get("freshness", {}).get("range", "Unknown"); freshness = state["freshness"]
+        order = {"Within 30 days": 0, "Within 90 days": 1, "Within 180 days": 2,
+                 "Within 365 days": 3, "Older than a year": 4}
+        if freshness.startswith("Within") and (fresh_range not in order or order[fresh_range] > order[freshness]): continue
+        if freshness == "Unknown" and fresh_range != "Unknown": continue
+        if freshness == "Older than a year" and fresh_range != "Older than a year": continue
         text = " ".join([item["name"], item.get("scope") or "", item.get("description") or "", *item["topics"], *item.get("github_topics", [])]).casefold()
         if all(word in text for word in words): results.append(item)
     sort = state["sort"]
