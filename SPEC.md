@@ -1,61 +1,44 @@
-# Issue #7: qa: verify publication and the complete delivery story
+# Issue #17: chore: transition demo to current Agentflow delivery contracts
 
-**Epic:** #1
+**Epic:** #16
 
 ## Background & Problem Statement
 
-Completion requires both a usable public application and an honest, reproducible
-execution story. Current feature slices are complete; final release acceptance remains.
+The legacy Agentflow installation must be explicitly retired before supported fresh adoption of the current merged delivery revision.
 
 ## Requirements
 
-Audit the goal matrix, run a bounded QA/operations/evidence release council, resolve
-blocking findings, finish illustrated documentation and rollback instructions,
-publish a release candidate then stable release, and verify public identity.
+Preserve the application, history and project ownership. Pin upstream60a0e800dc4d4ce9476c72231a0b853998131213; use current roles, skills and validation, project-contained receipts and no global/outside-folder writes.
 
 ## Technical Design
 
-Keep the validated catalogue and dependency lock unchanged. Create a tagged
-1.0.0-rc.1 candidate on the feature branch after tests/review/CI; do not merge
-that candidate as stable. The readiness gate returns to implementation for the
-stable version/notes, reruns checks, then promotes through development to main.
+Reviewed digest177095e9f3f718354e663e0b416bcd9622bc9b17c12c5acf271b564627ad3e9b covers335 pristine managed files:171 refreshed project-support files,146 retired obsolete files,18 retired overlaps for fresh133-file github-profile adoption. Archive exact prior bytes and lock in ignored project-local storage. Official adopt plan/apply writes the v2 lock and contained receipt. Replace CI/adapter entrypoints deliberately. Verify installation and fixture rollback separately.
+
+## Business logic
+
+- **BR-1 (rule):** Preserve application/data/history and authored configuration; no fabricated ownership or bypassed guards.
+- **BR-2 (rule):** Bind fresh adoption to its current preview and store receipts in the demo folder.
+- **BR-3 (rule):** Latest means the verified merged source revision, not a new published release claim.
 
 ## Acceptance criteria
 
 ### Feature-specific
 
-- [ ] AC-1 (BR-1): Every goal matrix item maps to concrete current evidence.
-- [ ] AC-2 (BR-2): Release council objections are resolved or explicitly deferred as follow-up issues.
-- [ ] AC-3 (BR-3): Illustrated story and install/run/refresh/recovery/rollback instructions are accurate.
-- [ ] AC-4 (BR-4): Candidate and stable releases exist; final main commit, catalogue and public app agree.
-- [ ] AC-5 (BR-5): Goal issues have verified closeout; local tracked worktree is clean.
-
-### Standard compliance
-
-- [ ] Full workflow, unit, AppTest, catalogue and public browser checks pass.
-- [ ] Simulated stakeholders and untested limitations remain explicit; no heartbeat.
-
-## Business logic
-
-- **BR-1 (rule):** Planned or historical checks do not establish current final acceptance.
-- **BR-2 (rule):** Councils advise; standard-profile self-review stays explicit and no human gate is fabricated.
-- **BR-3 (rule):** Documentation describes supported project-local commands, evidence and rollback boundaries.
-- **BR-4 (rule):** Publication identity requires separate tag, release, commit and actual hosted UI checks.
-- **BR-5 (rule):** Closeout follows verified publication, preserving unrelated work and all user folder constraints.
+- [ ] AC-1 (BR-1): Hashed retirement inventory and recoverable original bytes match; application regressions pass.
+- [ ] AC-2 (BR-2): Official fresh adoption and contained receipt verified, no current conflicts, rollback exercised in a fixture.
+- [ ] AC-3 (BR-3): Current role/skill/configuration/CI entrypoints and source identity are documented and validated.
 
 ## Test plan
 
-Full automated suite and validators; actual browser search/filter/share/source/story,
-keyboard and responsive checks. Review release/tag refs, immutable catalogue digest
-and public version with local server stopped. Verify clean tracked checkout.
+Ownership inventory, official adoption preview/apply/verify, contained fixture rollback, configuration/workflow checks,72 baseline app tests and independent migration audit.
 
 ## Workflow classification
 
 - **Profile:** standard
 - **Risk:** medium
 - **Effort:** medium
-- **Change surfaces:** UI, docs, release
+- **Change surfaces:** tooling, docs
 
 ## Open questions
 
-None.
+None: supported explicit retirement/fresh adoption confirmed in upstream breaking-change policy and migration council. Actual acceptance waits for validation.
