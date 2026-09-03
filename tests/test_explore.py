@@ -36,6 +36,9 @@ def test_state_bounds_and_share_roundtrip():
     params = {k: v[0] for k, v in parse_qs(urlsplit(share_url(state)).query).items()}
     assert normalize(params, index) == state
     assert normalize({"view": "List", "list": "unknown"}, index)["view"] == "Discover"
+    compared = normalize({"view": "Insights", "compare": "14,13,14,bad,12,11,10"}, index)
+    assert compared["view"] == "Insights" and compared["compare"] == "14,13,12,11"
+    assert normalize({k: v[0] for k, v in parse_qs(urlsplit(share_url(compared)).query).items()}, index) == compared
 
 
 def test_all_results_boundaries_and_freshness():
@@ -150,3 +153,19 @@ def test_corrupt_section_is_not_rendered_as_link(preview, tmp_path):
     preview.query_params.update({"view": "List", "list": "14"}); app = preview.run()
     assert not app.exception
     assert any("could not be verified" in x.value for x in app.error)
+
+
+def test_dashboard_comparison_and_share_are_offline(preview):
+    app = preview.run(); button(app, "Insights").click().run()
+    assert not app.exception and app.metric[0].value == "15"
+    assert any("Population: 15 filtered eligible public lists" in x.value for x in app.caption)
+    app.text_input(key="insight_q").set_value("no-such-list").run()
+    assert app.metric[0].value == "0" and any("No eligible lists match" in x.value for x in app.info)
+    button(app, "Reset dashboard").click().run()
+    assert app.metric[0].value == "15"
+    assert app.multiselect(key="compare_ids").value == ["0", "1"]
+    app.multiselect(key="compare_ids").set_value(["14", "2", "3"]).run()
+    assert not app.exception and len(app.dataframe[-1].value) == 3
+    assert app.selectbox(key="compare_metric").value == "Stars"
+    button(app, "Share this view").click().run()
+    assert "view=Insights" in app.code[0].value and "compare=14%2C2%2C3" in app.code[0].value
