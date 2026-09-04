@@ -37,6 +37,22 @@ Design constraints (issue #52's Requirements/Acceptance criteria):
 sequence: it is a destructive maintenance command whose own docs require reviewing a dry run before
 `--apply`, which is exactly the kind of human-in-the-loop step this epic explicitly does not extend
 to. It stays a separate, manually-run tool.
+
+## Optional H2 stage: headless-CLI eligibility interpretation (issue #53, Epic H)
+
+`--enable-cli-interpretation` appends one more optional stage after the core lists/projects sequence
+above: `tools.derive_interpretations build -> publish -> validate` (same stage/independent-
+reverify/publish discipline as every other stage here -- see `verify_interpretation_stage`). OFF by
+default -- the pipeline runs, publishes, and validates the full lists/projects catalogue exactly as
+before with zero CLI-assisted stories when this flag is not passed, satisfying issue #53's own
+requirement that the wrapper never requires the CLI stage to run. When explicitly enabled, a failure
+in this stage is still reported honestly (the run's overall `status` becomes `failed`, matching this
+module's fail-loud discipline everywhere else) but never rolls back or blocks the lists/projects
+publish that already completed before it -- this stage runs last, and every publish step in this
+module is already independent/non-rolling-back by design (see "No partial publish" above).
+`awesome.headless_cli`/`awesome.interpret_eligibility` never invoke a model from the hosted
+Streamlit app's own request path; this stage only ever runs from this offline, manually- or
+Task-Scheduler-invoked wrapper.
 """
 from __future__ import annotations
 
@@ -47,6 +63,7 @@ import sys
 from pathlib import Path
 
 from awesome.catalogue import digest
+from awesome.interpret_eligibility import validate_interpretations
 from awesome.lists import validate_index
 from awesome.projects import shard_path as project_shard_path
 from awesome.projects import validate_projects
@@ -129,6 +146,30 @@ def verify_project_stage(expected_digest: str, data_root: Path) -> dict:
     return data
 
 
+def verify_interpretation_stage(expected_digest: str, data_root: Path) -> dict:
+    """Independently re-verify a staged H2 interpretation candidate before it may be published --
+    same discipline as `verify_list_stage`/`verify_project_stage`: never trust the digest `build`
+    printed on its own, re-read the staged bytes, recompute, and re-run full validation (which
+    itself re-checks every record's `list_id` still corresponds to a currently `pending` list)."""
+    staging = data_root / "staging"
+    path = staging / "interpretations-index.json"
+    if not path.exists():
+        raise StepFailed("Staged interpretation index missing before publish verification")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    recomputed = digest({k: v for k, v in data.items() if k != "digest"})
+    if recomputed != data.get("digest") or recomputed != expected_digest:
+        raise StepFailed("Independent digest recomputation did not match the staged interpretation index")
+    list_index_path = data_root / "list-index.json"
+    if not list_index_path.exists():
+        raise StepFailed("Published list index missing before interpretation publish verification")
+    list_index = json.loads(list_index_path.read_text(encoding="utf-8"))
+    try:
+        validate_interpretations(data, list_index)
+    except ValueError as exc:
+        raise StepFailed(f"Staged interpretation index failed independent validation: {exc}") from exc
+    return data
+
+
 def run_step(log: dict, name: str, module_args: list[str], root: Path, python: str | None = None) -> dict | None:
     """Run one CLI step, record it in `log["steps"]`, and return its parsed JSON result.
 
@@ -186,12 +227,21 @@ def write_log(log: dict, log_dir: Path) -> Path:
 
 def run_pipeline(run_id: str, root: Path = ROOT, batch_size: int = 32, workers: int = 4,
                   log_dir: Path | None = None, skip: tuple[str, ...] = (),
-                  python: str | None = None) -> dict:
+                  python: str | None = None, enable_cli_interpretation: bool = False,
+                  cli_interpretation_batch_size: int | None = None,
+                  cli_interpretation_model: str | None = None,
+                  cli_interpretation_timeout: int | None = None) -> dict:
     """Run the full unattended sequence once and return the structured log dict.
 
     `skip` (any of "discover", "enrich", "profiles") lets a test or a maintainer's manual re-run
     start from an existing checkpoint's later stage; it never skips stage/publish/validate, which
     always run so a candidate is always independently re-verified before publication.
+
+    `enable_cli_interpretation` (default `False`, matching `--enable-cli-interpretation`'s CLI
+    default) opts into H2's optional headless-CLI eligibility interpretation stage after the core
+    lists/projects sequence -- see the module docstring's "Optional H2 stage" section. Off by
+    default, so this function's behaviour and published artifacts are byte-identical to before H2
+    existed unless a caller explicitly opts in.
     """
     data_root = root / "data"
     log = {"run_id": run_id, "started_at": now(), "steps": [], "status": "running"}
@@ -223,6 +273,26 @@ def run_pipeline(run_id: str, root: Path = ROOT, batch_size: int = 32, workers: 
                  ["tools.derive_projects", "publish", "--expected-digest", staged_projects["digest"]], root, python)
         run_step(log, "projects-validate", ["tools.derive_projects", "validate"], root, python)
 
+        if enable_cli_interpretation:
+            interp_args = ["tools.derive_interpretations", "build", "--run-id", run_id]
+            if cli_interpretation_batch_size is not None:
+                interp_args += ["--batch-size", str(cli_interpretation_batch_size)]
+            if cli_interpretation_model:
+                interp_args += ["--model", cli_interpretation_model]
+            if cli_interpretation_timeout is not None:
+                interp_args += ["--timeout", str(cli_interpretation_timeout)]
+            staged_interp = run_step(log, "interpretation-build", interp_args, root, python)
+            if not staged_interp or not staged_interp.get("digest"):
+                raise StepFailed("interpretation-build did not report a digest to verify")
+            verify_interpretation_stage(staged_interp["digest"], data_root)
+            run_step(log, "interpretation-publish",
+                     ["tools.derive_interpretations", "publish", "--expected-digest", staged_interp["digest"]],
+                     root, python)
+            run_step(log, "interpretation-validate", ["tools.derive_interpretations", "validate"], root, python)
+        else:
+            skip_step(log, "interpretation-build",
+                      "CLI interpretation disabled (opt-in via --enable-cli-interpretation)")
+
         log["status"] = "success"
     except StepFailed as exc:
         log["status"] = "failed"
@@ -243,11 +313,21 @@ def main() -> None:
                          choices=["discover", "enrich", "profiles"],
                          help="Skip early crawl stages; testing/manual re-run only, never stage/publish/validate")
     parser.add_argument("--python", help="Python executable used for each subprocess step; defaults to this interpreter")
+    parser.add_argument("--enable-cli-interpretation", action="store_true",
+                         help="Opt into H2's optional headless-CLI eligibility interpretation stage (issue #53). "
+                              "Off by default; the pipeline is fully functional with zero CLI-assisted stories.")
+    parser.add_argument("--cli-interpretation-batch-size", type=int, default=None)
+    parser.add_argument("--cli-interpretation-model", default=None)
+    parser.add_argument("--cli-interpretation-timeout", type=int, default=None)
     args = parser.parse_args()
     run_id = args.run_id or f"lists-{now()[:10].replace('-', '')}"
     log = run_pipeline(run_id, batch_size=args.batch_size, workers=args.workers,
                         log_dir=Path(args.log_dir) if args.log_dir else None,
-                        skip=tuple(args.skip), python=args.python)
+                        skip=tuple(args.skip), python=args.python,
+                        enable_cli_interpretation=args.enable_cli_interpretation,
+                        cli_interpretation_batch_size=args.cli_interpretation_batch_size,
+                        cli_interpretation_model=args.cli_interpretation_model,
+                        cli_interpretation_timeout=args.cli_interpretation_timeout)
     print(json.dumps({"run_id": log["run_id"], "status": log["status"],
                        "steps": [{"name": s["name"], "status": s.get("status")} for s in log["steps"]]}))
     sys.exit(0 if log["status"] == "success" else 1)

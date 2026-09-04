@@ -37,6 +37,15 @@
     Optional list of early stages to skip (discover, enrich, profiles) -- testing/manual re-run
     only. stage/publish/validate always run.
 
+.PARAMETER EnableCliInterpretation
+    Opt into H2's optional headless-CLI eligibility interpretation stage (issue #53, Epic H). Off
+    by default -- omitting this switch runs the exact same lists/projects sequence as before H2
+    existed, with zero CLI-assisted stories.
+
+.PARAMETER CliInterpretationBatchSize
+    Passed through to tools.derive_interpretations build --batch-size when -EnableCliInterpretation
+    is set. Defaults to tools.derive_interpretations's own default when omitted.
+
 .EXAMPLE
     # What Task Scheduler runs weekly (see the registration command in the PR description):
     powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools\run_pipeline.ps1
@@ -52,7 +61,9 @@ param(
     [int]$BatchSize = 32,
     [int]$Workers = 4,
     [string[]]$Skip = @(),
-    [string]$LogDir
+    [string]$LogDir,
+    [switch]$EnableCliInterpretation,
+    [int]$CliInterpretationBatchSize
 )
 
 $ErrorActionPreference = 'Stop'
@@ -87,6 +98,8 @@ $PythonArgs = @('-m', 'tools.run_pipeline', '--batch-size', $BatchSize, '--worke
 if ($RunId) { $PythonArgs += @('--run-id', $RunId) }
 if ($LogDir) { $PythonArgs += @('--log-dir', $LogDir) }
 foreach ($stage in $Skip) { $PythonArgs += @('--skip', $stage) }
+if ($EnableCliInterpretation) { $PythonArgs += '--enable-cli-interpretation' }
+if ($CliInterpretationBatchSize) { $PythonArgs += @('--cli-interpretation-batch-size', $CliInterpretationBatchSize) }
 
 "[$(Get-UtcNow 'o')] run_pipeline.ps1 starting: $PythonExe $($PythonArgs -join ' ')" |
     Tee-Object -FilePath $TranscriptPath -Append | Write-Host
