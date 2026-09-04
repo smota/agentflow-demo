@@ -13,6 +13,9 @@ from awesome.insights import dashboard, eligible_lists, comparison
 from awesome.explore import (DEFAULTS, SORTS, STATES, FRESHNESS, normalize,
                              filtered, page_slice, share_url, content_filter, number)
 from awesome.delivery import render_delivery
+from awesome.network import (MIN_SHARED_PROJECTS, NEAR_DUP_COPY_FRACTION, NEAR_DUP_JACCARD,
+                             neighbor_graph, neighbors_of, validate_network)
+from awesome.network_view import CANVAS_HEIGHT, CANVAS_WIDTH, NEIGHBOR_LIMIT, layout_positions, render_svg
 from awesome.project_search import citation_label, search_projects
 from awesome.projects import project_id, shard_path as project_shard_path, validate_projects as validate_project_index
 from awesome.search_index import shard_path as search_shard_path, validate_search_index
@@ -54,6 +57,18 @@ def project_top_index(path: str, stamp: int, list_index_digest: str):
 def search_top_index(path: str, stamp: int, project_index_digest: str):
     data = json.loads(Path(path).read_text(encoding="utf-8"))
     validate_search_index(data, {"digest": project_index_digest})  # same cheap top-level-only check
+    return data
+
+
+@st.cache_data(max_entries=2, show_spinner=False)
+def network_data(path: str, stamp: int, project_index_digest: str):
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    # Unlike project_top_index/search_top_index (deliberately top-level-only checks against a
+    # 900k+-project sharded corpus), D1's network artifact is small and unsharded (100 hub rows,
+    # tens of thousands of list-pair rows -- see awesome/network.py), so a full validate_network()
+    # here costs about as much as catalogue()'s own full validate_index() over ~8k list records, not
+    # a corpus-scale re-scan.
+    validate_network(data, {"digest": project_index_digest})
     return data
 
 
@@ -240,6 +255,11 @@ def render(root: Path, preview=False):
         st.session_state.pop("list_shared", None)
         st.query_params.clear()
 
+    def go_network(list_id):
+        state.update(view="Network", network_list=list_id)
+        st.session_state.pop("list_shared", None)
+        st.query_params.clear()
+
     def reset():
         st.session_state.list_explorer = dict(DEFAULTS)
         st.session_state.pop("list_shared", None)
@@ -265,6 +285,7 @@ def render(root: Path, preview=False):
     navigation[1].button("Search projects", on_click=go, args=("Search projects",), width="stretch")
     navigation[2].button("Insights", on_click=go, args=("Insights",), width="stretch")
     navigation[3].button("Delivery story", on_click=go, args=("Delivery story",), width="stretch")
+    navigation[4].button("Explore network", on_click=go, args=("Network",), width="stretch")
     if state["view"] == "Delivery story":
         render_delivery(root, index)
     elif state["view"] == "Search projects":
@@ -335,7 +356,8 @@ def render(root: Path, preview=False):
         if not population:
             st.info("No eligible lists match these dashboard filters. Reset them to restore the full catalogue view.")
         else:
-            topics_tab, freshness_tab, relationship_tab = st.tabs(("Topics", "Freshness", "Stars & content"))
+            topics_tab, freshness_tab, relationship_tab, stars_tab, entries_tab = st.tabs(
+                ("Topics", "Freshness", "Stars & content", "Stars distribution", "Entries distribution"))
             with topics_tab:
                 topic_frame = pd.DataFrame(insight["topics"][:15])
                 st.bar_chart(topic_frame, x="Topic", y="Lists", height=390)
@@ -351,6 +373,16 @@ def render(root: Path, preview=False):
                 st.scatter_chart(scatter_frame, x="Stars", y="Entries", color="Topic", height=430)
                 st.caption(f"Observed stars versus indexed entries for {population:,} matching lists. This is a current-snapshot relationship, not growth history.")
                 with st.expander("Accessible stars and content data"): st.dataframe(scatter_frame, hide_index=True, width="stretch", height=360)
+            with stars_tab:
+                stars_frame = pd.DataFrame(insight["stars_distribution"])
+                st.bar_chart(stars_frame, x="Stars", y="Lists", height=390)
+                st.caption(f"How {population:,} matching lists spread across observed star-count ranges. Stars measure popularity, never quality.")
+                with st.expander("Accessible stars-distribution data"): st.dataframe(stars_frame, hide_index=True, width="stretch")
+            with entries_tab:
+                entries_frame = pd.DataFrame(insight["entries_distribution"])
+                st.bar_chart(entries_frame, x="Entries", y="Lists", height=390)
+                st.caption("How matching lists spread across observed indexed-entry-count ranges. \"Unknown\" means content indexing is pending or unsupported for that list, never zero entries.")
+                with st.expander("Accessible entries-distribution data"): st.dataframe(entries_frame, hide_index=True, width="stretch")
 
         st.subheader("Compare lists")
         eligible = eligible_lists(index); ids = [item["id"] for item in eligible]
@@ -373,6 +405,77 @@ def render(root: Path, preview=False):
             target = st.selectbox("Open a compared list", st.session_state.compare_ids,
                                   format_func=lambda rid: next(x["name"] for x in eligible if x["id"] == rid), key="compare_open")
             st.button("Explore compared list →", on_click=go, args=("List", target))
+    elif state["view"] == "Network":
+        st.html('<div class="eyebrow">Opt-in secondary view</div><h1 class="hero">See how lists<br><em>relate to each other.</em></h1>'
+               '<p class="intro">Explore one list’s nearest neighbors in the citation network — other lists citing many of the same projects. '
+               'This is a secondary, filtered view: it never replaces list-first Discover/List browsing, and it never renders the whole catalogue at once '
+               '(6,377+ lists would be too heavy to lay out responsively in a browser tab) — only a selected list’s bounded neighborhood.</p>')
+        try:
+            project_index_path = directory / "project-index.json"
+            network_index_path = directory / "network-index.json"
+            project_index = project_top_index(str(project_index_path), project_index_path.stat().st_mtime_ns, index["digest"])
+            network = network_data(str(network_index_path), network_index_path.stat().st_mtime_ns, project_index["digest"])
+        except (OSError, ValueError, KeyError):
+            st.error("The network exploration data is unavailable. Please try again later.")
+        else:
+            names_by_id = {item["id"]: item["name"] for item in index["lists"]}
+            neighbor_ids = {row["a"] for row in network["list_pairs"]} | {row["b"] for row in network["list_pairs"]}
+            options = [""] + sorted((rid for rid in neighbor_ids if rid in names_by_id),
+                                    key=lambda rid: names_by_id[rid].casefold())
+            st.session_state.network_select = state["network_list"]
+            st.selectbox("Choose a list to explore its network neighborhood", options,
+                        format_func=lambda rid: "— choose a list —" if rid == "" else names_by_id[rid],
+                        key="network_select", on_change=change, args=("network_list", "network_select"))
+            st.caption(f"{len(neighbor_ids):,} of {index['counts'].get('eligible', 0):,} eligible lists have at least one "
+                      f"qualifying neighbor (sharing ≥ {MIN_SHARED_PROJECTS} projects with another list) at the published threshold. "
+                      f"Snapshot {network['generated_at'][:10]}.")
+            if not state["network_list"]:
+                st.info("Choose a list above to see other lists that cite many of the same projects.")
+            else:
+                graph = neighbor_graph(network["list_pairs"], state["network_list"], limit=NEIGHBOR_LIMIT)
+                selected_name = names_by_id.get(state["network_list"], state["network_list"])
+                if len(graph["nodes"]) <= 1:
+                    st.info(f"{selected_name} has no other eligible list sharing at least {MIN_SHARED_PROJECTS} "
+                           "projects at the published threshold.")
+                else:
+                    labels = {node_id: names_by_id.get(node_id, node_id) for node_id in graph["nodes"]}
+                    positions = layout_positions(graph["nodes"], graph["edges"], state["network_list"])
+                    svg = render_svg(graph, positions, labels)
+                    # st.html() sanitizes with DOMPurify's html-only profile, which strips <svg>
+                    # entirely -- embed it as a base64 data-URI <img> instead (an allowed tag, and
+                    # the same technique identity_footer() already uses for the brand/AgentFlow
+                    # logos above), rather than switching to an iframe-based component.
+                    encoded_svg = base64.b64encode(svg.encode("utf-8")).decode("ascii")
+                    st.html(f'<img src="data:image/svg+xml;base64,{encoded_svg}" width="{CANVAS_WIDTH}" '
+                           f'height="{CANVAS_HEIGHT}" style="width:100%;max-width:{CANVAS_WIDTH}px;height:auto;'
+                           f'display:block;margin:0 auto" alt="Network neighborhood of {html.escape(selected_name)}">')
+                    st.caption(f"Showing up to {NEIGHBOR_LIMIT} nearest neighbors of {selected_name} by shared-project similarity, "
+                              "plus any qualifying links between those neighbors. Dashed amber edges mark pairs flagged "
+                              f"near-duplicate (jaccard ≥ {NEAR_DUP_JACCARD}, copy-lineage fraction ≥ {NEAR_DUP_COPY_FRACTION}) — "
+                              "likely same-owner, forked, or templated sibling lists, not two independently curated collections.")
+                    neighbor_rows = neighbors_of(network["list_pairs"], state["network_list"], limit=NEIGHBOR_LIMIT)
+                    table_rows = [{"List": labels[row["neighbor"]], "Shared projects": row["shared"],
+                                  "Jaccard similarity": row["jaccard"], "Copy-lineage fraction": row["copy_fraction"],
+                                  "Near-duplicate": "Yes" if row["near_duplicate"] else "No"} for row in neighbor_rows]
+                    with st.expander("Accessible neighbor data"):
+                        st.dataframe(pd.DataFrame(table_rows), hide_index=True, width="stretch")
+                    open_target = st.selectbox("Open a neighboring list", [row["neighbor"] for row in neighbor_rows],
+                                               format_func=lambda rid: labels.get(rid, rid), key="network_open")
+                    st.button("Explore neighboring list →", on_click=go, args=("List", open_target))
+            with st.expander(f"Hub projects (top {len(network['hub_projects'])}, copy-lineage discounted)"):
+                hub_rows = [{"Project": row["title"], "Cited by (raw)": row["list_count"],
+                            "Cited by (independent)": row["independent_list_count"],
+                            "Copy-lineage discount": row["hub_discount"], "URL": row["url"]}
+                           for row in network["hub_projects"][:25]]
+                st.dataframe(pd.DataFrame(hub_rows), hide_index=True, width="stretch",
+                            column_config={"URL": st.column_config.LinkColumn(display_text="Open ↗")})
+                st.caption("Ranked by independent_list_count — the copy-lineage-discounted citation count (issue #65's "
+                          "validated heuristic), never a quality or trust score. Copy-lineage discount is the raw "
+                          "citation count minus that discounted count, an observed fact about how much of the raw "
+                          "count came from same-owner/forked sibling lists, not a hidden adjustment.")
+            with st.expander("How this network view is derived"):
+                st.write(network["content_policy"])
+                st.caption("See issue #50 (D1) for the full methodology and the real-catalogue measurement that set these thresholds.")
     elif state["view"] == "List":
         item = next(x for x in index["lists"] if x["id"] == state["list"])
         st.button("← Back to results", on_click=go, args=("Discover",))
@@ -381,6 +484,7 @@ def render(root: Path, preview=False):
         st.html('<p class="intro">' + html.escape(item["scope"]) + '</p>')
         st.link_button("Open original list ↗", item["url"], type="primary")
         st.link_button("Meet the upstream contributors ↗", item["url"] + "/graphs/contributors")
+        st.button("See this list's network neighborhood →", on_click=go_network, args=(item["id"],))
         with st.container(key="list_metrics"):
             metrics = st.columns(4)
         for column, label, key in zip(metrics, ("Stars", "Forks", "Indexed entries", "Contributors seen"), ("stars", "forks", "entry_count", "contributors_count")):
