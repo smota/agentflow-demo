@@ -1,5 +1,6 @@
 """Read-only Streamlit list explorer. All ingestion stays in local tools."""
 from __future__ import annotations
+import base64
 import html
 import json
 from pathlib import Path
@@ -41,11 +42,37 @@ CSS = """<style>
 .list-card p{font-size:.88rem;line-height:1.6;color:#53635e;min-height:70px}
 .list-card .numbers{font-size:.8rem;color:#173c35;margin-top:1rem}
 .list-card .fresh{font-size:.76rem;color:#53635e;margin-top:.5rem}
+.identity-strip{display:flex;flex-wrap:wrap;gap:.75rem;margin:1.15rem 0 .65rem}
+.identity-link{display:flex;align-items:center;gap:.65rem;min-width:210px;padding:.6rem .8rem;border:1px solid #dce8e4;border-radius:12px;background:#f7faf9;color:#173c35!important;text-decoration:none!important;transition:border-color .15s ease,transform .15s ease}
+.identity-link:hover{border-color:#73b8ad;transform:translateY(-1px)}
+.identity-link img{width:34px;height:34px;object-fit:contain;flex:0 0 34px}
+.identity-link small{display:block;color:#62716c;font-size:.68rem;line-height:1.15;text-transform:uppercase;letter-spacing:.08em}
+.identity-link strong{display:block;font-size:.86rem;line-height:1.25;margin-top:.12rem}
 a:focus-visible,button:focus-visible{outline:3px solid #bd7210!important;outline-offset:3px}
-@media(max-width:640px){.block-container{padding:3.5rem 1rem 2rem}.hero{font-size:clamp(2rem,10vw,2.35rem);overflow-wrap:anywhere}.hero em{display:inline-block;max-width:100%;overflow-wrap:anywhere}.list-card{min-height:0}.list-card p{min-height:0}h1:not(.hero){font-size:1.9rem}
+@media(max-width:640px){.block-container{padding:3.5rem 1rem 2rem}.hero{font-size:clamp(2rem,10vw,2.35rem);overflow-wrap:anywhere}.hero em{display:inline-block;max-width:100%;overflow-wrap:anywhere}.list-card{min-height:0}.list-card p{min-height:0}h1:not(.hero){font-size:1.9rem}.identity-strip{display:grid}.identity-link{min-width:0}
 .st-key-list_metrics [data-testid="stColumn"],.st-key-discovery_metrics [data-testid="stColumn"],.st-key-insight_metrics [data-testid="stColumn"]{min-width:calc(50% - 1rem)!important;flex:1 1 calc(50% - 1rem)!important}
 [data-testid="stMetricValue"]{font-size:1.75rem}}
 </style>"""
+
+
+IDENTITY_LINKS = (
+    ("Maintained by", "Move the Needle", "https://movetheneedle.info/", "move-the-needle-icon.png"),
+    ("Built with", "AgentFlow", "https://movetheneedle.info/agent-sdlc/", "agentflow-icon.png"),
+)
+
+
+def identity_footer(asset_dir: Path | None = None) -> str:
+    asset_dir = asset_dir or Path(__file__).resolve().parent / "assets"
+    links = []
+    for relationship, name, url, filename in IDENTITY_LINKS:
+        encoded = base64.b64encode((asset_dir / filename).read_bytes()).decode("ascii")
+        links.append(
+            f'<a class="identity-link" href="{url}" target="_blank" rel="noopener noreferrer" '
+            f'aria-label="{relationship} {name} (opens in a new tab)">'
+            f'<img src="data:image/png;base64,{encoded}" alt="{name} logo" width="34" height="34">'
+            f'<span><small>{relationship}</small><strong>{name}</strong></span></a>'
+        )
+    return '<div class="identity-strip" aria-label="Application identity">' + "".join(links) + "</div>"
 
 
 def render(root: Path, preview=False):
@@ -304,5 +331,6 @@ def render(root: Path, preview=False):
         st.write("Discovery, curation eligibility and content indexing are separate. Pending is not excluded; unknown is not zero. Stars indicate popularity, not quality.")
         st.json({"states": index["counts"], "enrichment_pending": index["coverage"]["enrichment_pending"], "queued_partitions": index["coverage"]["queued_partitions"]}, expanded=False)
         st.caption("All crawling and processing happens locally. This website reads a versioned snapshot; it never runs repository code.")
+    st.html(identity_footer())
     version = json.loads((root / "package.json").read_text(encoding="utf-8"))["version"]
     st.caption(f"{'Local preview of next version · base ' if preview else ''}v{version} · {index['counts'].get('eligible', 0):,} curated lists · Snapshot {index['generated_at'][:10]} · Data {index['digest'][:12]}")
