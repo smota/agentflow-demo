@@ -272,7 +272,8 @@ def render(root: Path, preview=False):
         if not population:
             st.info("No eligible lists match these dashboard filters. Reset them to restore the full catalogue view.")
         else:
-            topics_tab, freshness_tab, relationship_tab = st.tabs(("Topics", "Freshness", "Stars & content"))
+            topics_tab, freshness_tab, relationship_tab, stars_tab, entries_tab = st.tabs(
+                ("Topics", "Freshness", "Stars & content", "Stars distribution", "Entries distribution"))
             with topics_tab:
                 topic_frame = pd.DataFrame(insight["topics"][:15])
                 st.bar_chart(topic_frame, x="Topic", y="Lists", height=390)
@@ -288,6 +289,16 @@ def render(root: Path, preview=False):
                 st.scatter_chart(scatter_frame, x="Stars", y="Entries", color="Topic", height=430)
                 st.caption(f"Observed stars versus indexed entries for {population:,} matching lists. This is a current-snapshot relationship, not growth history.")
                 with st.expander("Accessible stars and content data"): st.dataframe(scatter_frame, hide_index=True, width="stretch", height=360)
+            with stars_tab:
+                stars_frame = pd.DataFrame(insight["stars_distribution"])
+                st.bar_chart(stars_frame, x="Stars", y="Lists", height=390)
+                st.caption(f"How {population:,} matching lists spread across observed star-count ranges. Stars measure popularity, never quality.")
+                with st.expander("Accessible stars-distribution data"): st.dataframe(stars_frame, hide_index=True, width="stretch")
+            with entries_tab:
+                entries_frame = pd.DataFrame(insight["entries_distribution"])
+                st.bar_chart(entries_frame, x="Entries", y="Lists", height=390)
+                st.caption("How matching lists spread across observed indexed-entry-count ranges. \"Unknown\" means content indexing is pending or unsupported for that list, never zero entries.")
+                with st.expander("Accessible entries-distribution data"): st.dataframe(entries_frame, hide_index=True, width="stretch")
 
         st.subheader("Compare lists")
         eligible = eligible_lists(index); ids = [item["id"] for item in eligible]
