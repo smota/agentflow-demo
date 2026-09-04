@@ -116,3 +116,54 @@ At every promotion, validate the whole generation locally. The hosted app lazily
 validates the selected shard against the index's repository name, revision, README
 path and SHA-256, and binds category/entry source links to that exact source. A JSON
 digest alone does not make arbitrary links or inconsistent provenance acceptable.
+
+## Project-level dedup structure (`data/project-index.json`)
+
+A sibling offline stage, `tools/derive_projects.py`, reads the published `list-index.json` and its
+`eligible` detail shards and deduplicates every parsed entry by canonical URL, producing one record
+per distinct project with the set of eligible lists that cite it. Run it the same way as the list
+pipeline, from the demo root:
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_projects stage
+# Review counts and the exact staged digest first:
+.venv/Scripts/python.exe -m tools.derive_projects publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_projects validate
+```
+
+Sharded the same way `data/lists/` is, and for the same reason: at this catalogue's scale
+(932,511 distinct projects in the current generation) even a summary-only row per project would
+exceed GitHub's 100 MB single-file limit, so `data/project-index.json` itself stays tiny — counts
+plus a `prefix -> shard digest` map (256 buckets, keyed by the first two hex characters of each
+project's id) — and every actual project field lives in `data/projects/<2-hex-prefix>.json`. A
+sha256-derived id is close to uniformly distributed, so no shard concentrates a meaningful share of
+the total (observed: 256 shards, largest ~3.2 MB).
+
+Each project record carries `list_count` (the number of **distinct** eligible lists citing the URL)
+separately from `occurrence_count` (the raw number of parsed entries, which can exceed `list_count`
+when one list cites the same URL more than once — for example under two categories). Collapsing
+that distinction would silently let one list's internal repetition look like cross-list agreement.
+Every occurrence keeps that citing list's own title/category/source link — never a merged or
+invented description.
+
+`list_count`/`occurrence_count` are **factual counts, not a validated trust or quality signal.** A
+sampled validation of whether cross-list co-occurrence reflects independent curator judgment found
+it does not, predominantly: of 60 sampled projects with `list_count >= 2` (30 highest-occurrence,
+30 stratified-random), 54 (90%) showed copy-lineage signals (near-identical entry text across lists,
+including same-owner sibling lists and forked/derivative lists) and only 6 (10%) showed genuinely
+independent-curation signals. This holds even when controlling for the confound that extremely
+famous, short-named projects are expected to have identical citation text regardless of copying
+(a harder longer-title subset, less subject to that confound, showed the same 90/10 split). This
+structure is therefore published as a factual cross-reference only; it is not presented in the app
+as a consensus/trust cue, and any future UI use of `list_count` for ranking must account for this
+finding rather than treat raw occurrence count as validated agreement.
+
+## Data contract for third parties
+
+`data/list-index.json` and `data/catalogue.json` are also a published, versioned data contract, not
+only this app's internal state: `../consuming-catalogue-data.md` shows an external consumer how to
+fetch and validate the committed snapshot directly from `raw.githubusercontent.com` with no new
+endpoint and no credentials, `../../schemas/list-index.schema.json` and
+`../../schemas/catalogue.schema.json` are the formal JSON Schemas for each file, and
+`../data-schema-changelog.md` tracks the data *shape's* own semantic version — separate from both
+`package.json`'s app version and each file's internal `format_version` guard.
