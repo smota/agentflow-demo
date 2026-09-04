@@ -1,0 +1,290 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/smota/agentflow-demo/main/schemas/list-index.schema.json",
+  "title": "AwesomeAwesomeness list-index.json",
+  "description": "Committed, digest-verified snapshot of the list-first discovery/classification pipeline (`tools/lists.py`, validated at runtime by `awesome/lists.py::validate_index`). This schema documents the data *shape*; it deliberately does not re-derive cross-field integrity rules enforced only in code (digest recomputation, counts reconciliation against `lists[].state`, per-shard detail-file validation) — see docs/data-schema-changelog.md for what the schema covers versus what remains code-only validation.",
+  "type": "object",
+  "required": [
+    "format_version",
+    "min_stars",
+    "run_id",
+    "started_at",
+    "generated_at",
+    "engine_digest",
+    "queries",
+    "replay",
+    "coverage",
+    "counts",
+    "lists",
+    "digest"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "format_version": {
+      "const": 3,
+      "description": "Runtime compatibility gate read by awesome/lists.py (FORMAT). Distinct from the data-shape semver policy in docs/data-schema-changelog.md."
+    },
+    "min_stars": {
+      "const": 100,
+      "description": "Minimum star threshold applied at discovery time (awesome/lists.py MIN_STARS)."
+    },
+    "run_id": { "type": "string", "minLength": 1 },
+    "started_at": { "type": "string", "format": "date-time" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "engine_digest": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "queries": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "replay": {
+      "description": "Present (object) only when this generation was produced by `tools.lists replay`; null for a normal discover/enrich generation.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source_run",
+            "source_digest",
+            "source_engine",
+            "replayed_at",
+            "raw_inputs_reparsed"
+          ],
+          "properties": {
+            "source_run": { "type": "string", "minLength": 1 },
+            "source_digest": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "source_engine": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "replayed_at": { "type": "string", "format": "date-time" },
+            "raw_inputs_reparsed": { "type": "integer", "minimum": 0 }
+          }
+        }
+      ]
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scope", "queued_partitions", "partitions", "enrichment_pending"],
+      "properties": {
+        "scope": { "type": "string" },
+        "queued_partitions": { "type": "integer", "minimum": 0 },
+        "enrichment_pending": { "type": "integer", "minimum": 0 },
+        "partitions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["query", "status", "total", "observed_at"],
+            "properties": {
+              "query": { "type": "string" },
+              "status": { "enum": ["split", "reconciled"] },
+              "total": { "type": "integer", "minimum": 0 },
+              "observed_at": { "type": "string", "format": "date-time" },
+              "reason": {
+                "type": "string",
+                "description": "Present when status is 'split' (result cap or incomplete API response)."
+              },
+              "received": { "type": "integer", "minimum": 0 },
+              "unique": { "type": "integer", "minimum": 0 },
+              "pages": { "type": "integer", "minimum": 0 },
+              "completed_at": {
+                "type": "string",
+                "format": "date-time",
+                "description": "Present when status is 'reconciled'."
+              }
+            }
+          }
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["eligible", "pending", "excluded"],
+      "description": "Must reconcile with a tally of lists[].state (enforced in code, not by this schema).",
+      "properties": {
+        "eligible": { "type": "integer", "minimum": 0 },
+        "pending": { "type": "integer", "minimum": 0 },
+        "excluded": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "lists": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/listItem" }
+    },
+    "digest": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "sha256 of the canonical JSON serialization of every other top-level field (see awesome/lists.py::validate_index); not re-derived by this schema."
+    }
+  },
+  "$defs": {
+    "listItem": {
+      "type": "object",
+      "description": "One observed GitHub repository, classified as eligible/pending/excluded. Fields marked optional below are present for the large majority of records but are genuinely absent (not just null) for a small number of records where classification stopped before that evidence was gathered.",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "node_id",
+        "name",
+        "url",
+        "description",
+        "public",
+        "stars",
+        "forks",
+        "is_fork",
+        "archived",
+        "github_topics",
+        "license",
+        "created_at",
+        "repository_pushed_at",
+        "observed_at",
+        "queries",
+        "state",
+        "reason",
+        "topics",
+        "topic_method",
+        "scope",
+        "scope_method",
+        "freshness",
+        "entry_count",
+        "unique_links",
+        "category_count",
+        "contributors_count",
+        "contributors_status",
+        "contributor_observation",
+        "contributing_url",
+        "content_policy",
+        "detail"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "description": "Stable GitHub repository (REST) id." },
+        "node_id": { "type": "string", "minLength": 1, "description": "GitHub GraphQL node id." },
+        "name": { "type": "string", "pattern": "^[^/]+/[^/]+$", "description": "owner/repo." },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "description": { "type": "string" },
+        "public": { "type": "boolean" },
+        "stars": { "type": "integer", "minimum": 0 },
+        "forks": { "type": "integer", "minimum": 0 },
+        "is_fork": { "type": "boolean" },
+        "archived": { "type": "boolean" },
+        "github_topics": { "type": "array", "items": { "type": "string" } },
+        "license": { "type": ["string", "null"], "description": "SPDX id, GitHub's 'NOASSERTION', or null when GitHub reports no license." },
+        "created_at": { "type": "string", "format": "date-time" },
+        "repository_pushed_at": { "type": "string", "format": "date-time" },
+        "observed_at": { "type": "string", "format": "date-time" },
+        "queries": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "parent": {
+          "description": "Fork parent identity; present only when is_fork is true, otherwise null or absent.",
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["nameWithOwner", "url"],
+              "properties": {
+                "nameWithOwner": { "type": "string" },
+                "url": { "type": "string", "format": "uri" }
+              }
+            }
+          ]
+        },
+        "revision": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$",
+          "description": "Pinned commit SHA the README was read from. Optional: absent when the repository was not yet enriched."
+        },
+        "default_branch": { "type": "string", "description": "Optional: absent when not yet enriched." },
+        "readme_path": { "type": "string", "description": "Optional: absent when not yet enriched." },
+        "readme_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$", "description": "Optional: absent when not yet enriched." },
+        "content_updated_at": {
+          "type": ["string", "null"],
+          "format": "date-time",
+          "description": "Path-specific last-content-change date; null/absent until that history lookup completes."
+        },
+        "content_update_status": { "type": "string", "description": "Optional: absent when not yet enriched." },
+        "state": { "enum": ["eligible", "pending", "excluded"] },
+        "reason": { "type": "string", "minLength": 1 },
+        "topics": { "type": "array", "items": { "type": "string" } },
+        "topic_method": { "type": "string" },
+        "scope": { "type": "string" },
+        "scope_method": { "type": "string" },
+        "freshness": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["days", "range", "index"],
+          "properties": {
+            "days": { "type": ["integer", "null"], "minimum": 0 },
+            "range": { "type": "string" },
+            "index": {
+              "type": ["number", "null"],
+              "description": "Derived freshness index 100 * 2^(-days/180); not a quality score. Requires content_updated_at when non-null."
+            }
+          }
+        },
+        "entry_count": { "type": ["integer", "null"], "minimum": 0 },
+        "unique_links": { "type": ["integer", "null"], "minimum": 0 },
+        "category_count": { "type": ["integer", "null"], "minimum": 0 },
+        "contributors_count": { "type": ["integer", "null"], "minimum": 0 },
+        "contributors_status": { "type": "string" },
+        "contributor_observation": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "description",
+                "commit_limit",
+                "observed_commits",
+                "has_more",
+                "path_commit_count",
+                "public_contributors",
+                "observed_at"
+              ],
+              "properties": {
+                "status": { "type": "string" },
+                "description": { "type": "string" },
+                "commit_limit": { "type": "integer", "minimum": 1 },
+                "observed_commits": { "type": "integer", "minimum": 0 },
+                "has_more": { "type": "boolean" },
+                "path_commit_count": { "type": "integer", "minimum": 0 },
+                "public_contributors": { "type": "integer", "minimum": 0 },
+                "observed_at": { "type": "string", "format": "date-time" }
+              }
+            }
+          ]
+        },
+        "contributors": {
+          "type": "array",
+          "description": "Optional: present only when contributor_observation.status is 'observed'. Never contains email fields (docs/demo/list-data.md).",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["login", "url", "contributions"],
+            "properties": {
+              "login": { "type": "string", "minLength": 1 },
+              "url": { "type": "string", "format": "uri" },
+              "contributions": { "type": "integer", "minimum": 0 }
+            }
+          }
+        },
+        "contributing_url": { "type": ["string", "null"], "format": "uri" },
+        "content_policy": { "type": "string" },
+        "detail": {
+          "description": "Relative path (under data/) to this list's immutable digest-named detail shard, or null when no detail has been published for this record.",
+          "oneOf": [
+            { "type": "null" },
+            { "type": "string", "pattern": "^lists/[a-f0-9]{64}\\.json$" }
+          ]
+        },
+        "detail_digest": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "Optional: sha256 identity of the detail shard; absent when detail has never been produced."
+        }
+      }
+    }
+  }
+}
