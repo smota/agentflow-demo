@@ -31,23 +31,23 @@ This is a factual, disclosed heuristic -- like every other classification in thi
 from __future__ import annotations
 
 import argparse
-import difflib
 import json
 import random
-import re
 from pathlib import Path
 
 from tools.derive_projects import load_details, load_index
+from awesome.copy_lineage import COPY_THRESHOLD, INDEPENDENT_THRESHOLD, normalize_title
+from awesome.copy_lineage import title_similarity as _title_similarity
 from awesome.projects import derive_projects
 from tools.lists import now
 
 ROOT = Path(__file__).resolve().parents[1]
-COPY_THRESHOLD = 0.92
-INDEPENDENT_THRESHOLD = 0.60
 
-
-def normalize(text: str) -> str:
-    return re.sub(r"\s+", " ", text.casefold()).strip()
+# `normalize`/thresholds now live in `awesome/copy_lineage.py` so this spike tool and the A3/A4
+# full-corpus offline derivation (`tools/derive_search_index.py`) share one validated heuristic
+# rather than two copies that could silently drift. Re-exported under the original name for
+# backward compatibility with this module's own call sites below.
+normalize = normalize_title
 
 
 def pairwise_evidence(occurrences: list[dict], list_source_links: dict[str, list[str]],
@@ -62,7 +62,7 @@ def pairwise_evidence(occurrences: list[dict], list_source_links: dict[str, list
             a, b = occurrences[i], occurrences[j]
             if a["list_id"] == b["list_id"]:
                 continue
-            ratio = difflib.SequenceMatcher(None, normalize(a["title"]), normalize(b["title"])).ratio()
+            ratio = _title_similarity(a["title"], b["title"])
             explicit = (list_urls.get(a["list_id"]) in list_source_links.get(b["list_id"], [])
                         or list_urls.get(b["list_id"]) in list_source_links.get(a["list_id"], []))
             if explicit or ratio > best["title_similarity"]:

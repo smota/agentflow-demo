@@ -7,11 +7,15 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+from awesome.catalogue import digest
 from awesome.lists import load_index, validate_detail
 from awesome.insights import dashboard, eligible_lists, comparison
 from awesome.explore import (DEFAULTS, SORTS, STATES, FRESHNESS, normalize,
                              filtered, page_slice, share_url, content_filter, number)
 from awesome.delivery import render_delivery
+from awesome.project_search import citation_label, search_projects
+from awesome.projects import shard_path as project_shard_path, validate_projects as validate_project_index
+from awesome.search_index import shard_path as search_shard_path, validate_search_index
 
 
 @st.cache_data(max_entries=2, show_spinner=False)
@@ -27,6 +31,68 @@ def detail_file(directory: str, item: dict):
     detail = json.loads(path.read_text(encoding="utf-8"))
     validate_detail(detail, item)
     return detail
+
+
+@st.cache_data(max_entries=2, show_spinner=False)
+def project_top_index(path: str, stamp: int, list_index_digest: str):
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    # Cheap top-level linkage check only (small file, no per-project rows) -- the corpus itself
+    # (data/projects/*.json) is validated by the offline pipeline (`python -m tools.derive_projects
+    # validate`), not re-scanned live on every session load.
+    validate_project_index(data, {"digest": list_index_digest})
+    return data
+
+
+@st.cache_data(max_entries=2, show_spinner=False)
+def search_top_index(path: str, stamp: int, project_index_digest: str):
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    validate_search_index(data, {"digest": project_index_digest})  # same cheap top-level-only check
+    return data
+
+
+@st.cache_data(max_entries=2, show_spinner=False)
+def search_records(directory: str, shard_digests: tuple):
+    """Load every offline-computed search shard once per data version, cached across reruns for
+    the whole session -- the only "live computation" this view performs is text filtering/ranking
+    over these already-precomputed records (`awesome.project_search.search_projects`).
+
+    Verifies each shard's own digest against the published top index's registry, the same
+    lightweight per-file integrity check `detail_file` applies to list content, but does not
+    re-run the full per-record validator (`awesome.search_index.validate_search_shard`) against
+    every one of 900k+ records on every session load -- that full validation is the offline
+    pipeline's own responsibility (`python -m tools.derive_search_index validate`, run as part of
+    this product's CI-equivalent checks) and would be disproportionate to repeat on every cold
+    Streamlit cache."""
+    records = []
+    for prefix, shard_digest in shard_digests:
+        shard = json.loads((Path(directory) / search_shard_path(prefix)).read_text(encoding="utf-8"))
+        if shard.get("digest") != shard_digest or digest({k: v for k, v in shard.items() if k != "digest"}) != shard_digest:
+            raise ValueError("Search shard digest mismatch")
+        records.extend(shard["projects"])
+    return records
+
+
+@st.cache_data(max_entries=32, show_spinner=False)
+def project_citation_shard(directory: str, prefix: str, expected_shard_digest: str):
+    """On-demand, per-shard lookup used only to fetch full citation/provenance detail (occurrence
+    list with source_url links) for the small set of results actually displayed on a search results
+    page -- never the whole corpus. Cached per shard, so results sharing a shard reuse one read.
+    `expected_shard_digest` comes from the published project index's own `shards` registry (the
+    same prefix -> shard-digest map `awesome.projects.validate_projects` checks), not the project
+    shard's own `source_index_digest` field (which instead names the upstream *list* index)."""
+    shard = json.loads((Path(directory) / project_shard_path(prefix)).read_text(encoding="utf-8"))
+    if shard.get("digest") != expected_shard_digest or digest({k: v for k, v in shard.items() if k != "digest"}) != expected_shard_digest:
+        raise ValueError("Project shard digest mismatch")
+    return shard
+
+
+def project_citations(directory: str, project_id: str, project_index: dict) -> dict | None:
+    prefix = project_id[:2]
+    expected_digest = project_index.get("shards", {}).get(prefix)
+    if not expected_digest:
+        return None
+    shard = project_citation_shard(directory, prefix, expected_digest)
+    return next((record for record in shard["projects"] if record["id"] == project_id), None)
 
 
 CSS = """<style>
@@ -131,12 +197,58 @@ def render(root: Path, preview=False):
         st.session_state[key] = state[field]
         return target.selectbox(label, options, key=key, on_change=change, args=(field, key))
 
-    navigation = st.columns([1, 1, 1, 2])
+    navigation = st.columns([1, 1, 1, 1, 1])
     navigation[0].button("Explore lists", on_click=go, args=("Discover",), width="stretch")
-    navigation[1].button("Insights", on_click=go, args=("Insights",), width="stretch")
-    navigation[2].button("Delivery story", on_click=go, args=("Delivery story",), width="stretch")
+    navigation[1].button("Search projects", on_click=go, args=("Search projects",), width="stretch")
+    navigation[2].button("Insights", on_click=go, args=("Insights",), width="stretch")
+    navigation[3].button("Delivery story", on_click=go, args=("Delivery story",), width="stretch")
     if state["view"] == "Delivery story":
         render_delivery(root, index)
+    elif state["view"] == "Search projects":
+        st.html('<div class="eyebrow">Search across every list</div><h1 class="hero">One search.<br><em>Every eligible list.</em></h1><p class="intro">Search once and see matching projects from any curated list — ranked by text relevance, never by how many lists happen to cite a result. Citation counts, when shown, are a separate, honestly labeled fact, not a trust score.</p>')
+        try:
+            project_index_path = directory / "project-index.json"
+            search_index_path = directory / "search-index.json"
+            project_index = project_top_index(str(project_index_path), project_index_path.stat().st_mtime_ns, index["digest"])
+            search_index = search_top_index(str(search_index_path), search_index_path.stat().st_mtime_ns, project_index["digest"])
+            records = search_records(str(directory), tuple(sorted(search_index["shards"].items())))
+        except (OSError, ValueError, KeyError):
+            st.error("The cross-list search index is unavailable. Please try again later.")
+        else:
+            st.session_state.search_q = state["search_q"]
+            st.text_input("Search projects across every eligible list",
+                          placeholder="Try self-hosted photo gallery, machine learning, or a project name…",
+                          max_chars=200, key="search_q", on_change=change, args=("search_q", "search_q"))
+            query = state["search_q"]
+            st.caption(f"{search_index['counts']['projects']:,} projects indexed across every eligible list · "
+                       f"Snapshot {search_index['generated_at'][:10]}")
+            if not query:
+                st.info("Type a search term to see matching projects from across the whole catalogue — not just one list you happen to already know.")
+            else:
+                results = search_projects(records, query, limit=50)
+                st.subheader(f"{len(results):,} matching projects" + (" (showing up to 50, ranked by text relevance)" if len(results) == 50 else ""))
+                if not results:
+                    st.info("No projects match. Try fewer or broader words.")
+                for record in results:
+                    with st.container(border=True):
+                        st.markdown(f"**{html.escape(record['title'])}**")
+                        if record.get("topics"):
+                            st.caption("Topics: " + ", ".join(record["topics"]))
+                        label = citation_label(record["list_count"], record["independent_list_count"])
+                        (st.success if label["kind"] == "independent" else st.caption)(label["text"])
+                        detail = project_citations(str(directory), record["id"], project_index)
+                        cols = st.columns([1, 1])
+                        cols[0].link_button("Open project ↗", record["url"], width="stretch")
+                        if detail:
+                            shown_occurrences = detail["occurrences"][:10]
+                            for occurrence in shown_occurrences:
+                                st.link_button(f"Also listed in {occurrence['list_name']} ↗",
+                                              occurrence["source_url"], width="stretch")
+                            if len(detail["occurrences"]) > len(shown_occurrences):
+                                st.caption(f"+ {len(detail['occurrences']) - len(shown_occurrences)} more source list(s), all counted in the totals above.")
+            with st.expander("How independent citation counts are derived"):
+                st.write(search_index["content_policy"])
+                st.caption("See issue #65 for the full validation method and finding behind this methodology.")
     elif state["view"] == "Insights":
         st.html('<div class="eyebrow">Catalogue intelligence</div><h1 class="hero">See the landscape.<br><em>Compare the curators.</em></h1><p class="intro">Understand what the Awesome community maintains, then compare a few lists side by side. Every measure comes from the current versioned snapshot—never an invented trend.</p>')
         filter_columns = st.columns([2, 1, 1, 1])
