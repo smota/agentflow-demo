@@ -1,6 +1,7 @@
 """Pure list discovery state, filtering and share links."""
 from __future__ import annotations
 import math
+import re
 from urllib.parse import urlencode
 
 APP_URL = "https://awesomeawesomeness.streamlit.app/"
@@ -10,7 +11,8 @@ FRESHNESS = ("Any freshness", "Within 30 days", "Within 90 days", "Within 180 da
 DEFAULTS = {"q": "", "topic": "All topics", "min_stars": 100, "state": "Curated lists",
             "freshness": "Any freshness", "archived": "Include archived", "forks": "Include forks",
             "sort": "Most starred", "page": 1, "view": "Discover", "list": "", "layout": "Cards",
-            "content_q": "", "content_category": "all", "compare": ""}
+            "content_q": "", "content_category": "all", "compare": "", "project": ""}
+PROJECT_ID = re.compile(r"[0-9a-f]{20}")
 PAGE_SIZE = 12
 
 
@@ -25,12 +27,15 @@ def normalize(params: dict, index: dict) -> dict:
     options = {"topic": {"All topics", *(t for item in index["lists"] for t in item["topics"])},
                "state": STATES, "freshness": FRESHNESS, "sort": SORTS,
                "archived": ("Include archived", "Active only"), "forks": ("Include forks", "Originals only"),
-               "view": ("Discover", "Insights", "List", "Delivery story"), "layout": ("Cards", "Table")}
+               "view": ("Discover", "Insights", "List", "Project", "Delivery story"), "layout": ("Cards", "Table")}
     for key, values in options.items():
         if result[key] not in values: result[key] = DEFAULTS[key]
     if result["list"] not in {x["id"] for x in index["lists"]}:
         result["list"] = ""
         if result["view"] == "List": result["view"] = "Discover"
+    if not PROJECT_ID.fullmatch(result["project"]):
+        result["project"] = ""
+        if result["view"] == "Project": result["view"] = "Discover"
     result["q"] = " ".join(result["q"].split())
     eligible = {x["id"] for x in index["lists"] if x.get("state") == "eligible" and x.get("public") is True}
     result["compare"] = ",".join(list(dict.fromkeys(x for x in result["compare"].split(",") if x in eligible))[:4])
