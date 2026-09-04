@@ -5,6 +5,7 @@ import hashlib
 import ipaddress
 import json
 import re
+from functools import lru_cache
 from pathlib import Path
 from urllib.parse import unquote, urlsplit, urlunsplit
 
@@ -18,10 +19,24 @@ def digest(value: object) -> str:
                                      separators=(",", ":")).encode()).hexdigest()
 
 
-def safe_url(value: str) -> str | None:
-    """Conservative canonicalization, not an endorsement of destination content."""
+def safe_url(value) -> str | None:
+    """Conservative canonicalization, not an endorsement of destination content.
+
+    Callers across this codebase pass arbitrary, sometimes-untrusted JSON values (any type, not
+    just `str`) -- the type/length guard below must run uncached and outside `lru_cache` so a
+    non-hashable value (a `list`/`dict` from malformed input) returns `None` exactly as before
+    instead of raising `TypeError` when used as a cache key. Only validated, hashable strings reach
+    the cached implementation, which memoizes the expensive part (IDNA encoding, `ipaddress`
+    parsing, regex) -- a real win at this catalogue's scale, where the same handful of popular
+    project URLs are revalidated many times over (e.g. once per list that cites them, and once per
+    place they appear as another project's "see alternatives" match)."""
     if not isinstance(value, str) or not value or len(value) > 4096:
         return None
+    return _safe_url_cached(value)
+
+
+@lru_cache(maxsize=2_000_000)
+def _safe_url_cached(value: str) -> str | None:
     if "\\" in value or any(ord(c) < 33 or ord(c) == 127 for c in value):
         return None
     decoded = unquote(value)
