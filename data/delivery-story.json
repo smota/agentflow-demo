@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "observedAt": "2026-09-04",
   "repository": {
-    "issues": 17,
-    "closedIssues": 14,
-    "pullRequests": 25,
-    "mergedPullRequests": 23,
-    "releases": 11
+    "issues": 54,
+    "closedIssues": 49,
+    "pullRequests": 37,
+    "mergedPullRequests": 35,
+    "releases": 12
   },
   "episodes": [
     {
@@ -35,6 +35,15 @@
       "release": "v2.0.1",
       "issue": 39,
       "url": "https://github.com/smota/agentflow-demo/issues/39"
+    },
+    {
+      "id": "build-4",
+      "label": "Build 4 · From lists to intelligence",
+      "short": "Eight parallel epics, an evidence-driven redesign, and a corrected agent boundary",
+      "tests": 409,
+      "release": "v2.2.0",
+      "issue": 92,
+      "url": "https://github.com/smota/agentflow-demo/issues/92"
     }
   ],
   "testCheckpoints": [
@@ -47,7 +56,9 @@
     {"checkpoint": "Profiles", "tests": 136, "episode": "Build 2"},
     {"checkpoint": "Insights", "tests": 156, "episode": "Build 2"},
     {"checkpoint": "v2.0", "tests": 157, "episode": "Build 2"},
-    {"checkpoint": "v2.0.1", "tests": 158, "episode": "Build 3"}
+    {"checkpoint": "v2.0.1", "tests": 158, "episode": "Build 3"},
+    {"checkpoint": "First epic merged", "tests": 161, "episode": "Build 4"},
+    {"checkpoint": "v2.2.0", "tests": 409, "episode": "Build 4"}
   ],
   "consistency": [
     {"field": "Active goal", "recorded": "Issue #24", "reconstructed": "Issue #24", "match": "Matched"},
@@ -114,6 +125,27 @@
       "observation": "Temporary preview roots could not resolve package-owned identity assets.",
       "rule": "Preview and production must resolve the same bundled application assets.",
       "result": "Asset resolution was separated from data roots; focused and full suites passed."
+    },
+    {
+      "label": "A validation spike contradicts the planned design",
+      "episode": "Build 4",
+      "observation": "A sampling spike found 90% of high cross-list co-occurrence was copy-lineage between related lists, not independent curation — the planned trust signal for cross-list search.",
+      "rule": "A gating spike's finding changes downstream scope; it is not optional evidence to route around.",
+      "result": "Cross-list search was redesigned before implementation: citation count became disclosed provenance, never a trust score; an independent-citation count reused the spike's own copy-lineage detector instead."
+    },
+    {
+      "label": "A subagent correctly refuses an unverifiable authorization",
+      "episode": "Build 4",
+      "observation": "A background subagent, isolated in its own worktree, declined to create issues, push, or merge — it had no way to independently verify the human authorization a parent session claimed on its behalf.",
+      "rule": "Delegated authority must be exercised by the party that actually holds a verified authorization chain, not asserted into a context that cannot check it.",
+      "result": "Execution was restructured: subagents draft and commit locally only; the orchestrating session — which holds the real, chat-verified authorization — performs every GitHub-facing action itself."
+    },
+    {
+      "label": "Autonomous execution still stops for a real human gate",
+      "episode": "Build 4",
+      "observation": "Two stories (community-intake writing to public issues from anonymous content; unattended auto-publish of catalogue data) were classified high-assurance by the Architect phase.",
+      "rule": "High-assurance work requires actual human review before merge; self-review is forbidden outright at that profile, regardless of any standing autonomy grant.",
+      "result": "Both pull requests opened and passed CI, then waited; the maintainer reviewed and merged each one directly."
     }
   ],
   "evidence": [
@@ -125,6 +157,16 @@
     {"concept": "Integration", "artifact": "PR #40", "url": "https://github.com/smota/agentflow-demo/pull/40"},
     {"concept": "Promotion", "artifact": "PR #41", "url": "https://github.com/smota/agentflow-demo/pull/41"},
     {"concept": "Complete narrative", "artifact": "docs/demo/story.md", "url": "https://github.com/smota/agentflow-demo/blob/main/docs/demo/story.md"},
-    {"concept": "Public outcome", "artifact": "AwesomeAwesomeness", "url": "https://awesomeawesomeness.streamlit.app/"}
+    {"concept": "Public outcome", "artifact": "AwesomeAwesomeness", "url": "https://awesomeawesomeness.streamlit.app/"},
+    {"concept": "Wave 3 journal", "artifact": "docs/demo/wave3.md", "url": "https://github.com/smota/agentflow-demo/blob/main/docs/demo/wave3.md"},
+    {"concept": "Cross-list discovery + copy-lineage spike", "artifact": "Epic #47", "url": "https://github.com/smota/agentflow-demo/issues/47"},
+    {"concept": "Community curation intake", "artifact": "Epic #48", "url": "https://github.com/smota/agentflow-demo/issues/48"},
+    {"concept": "Versioned data contract", "artifact": "Epic #49", "url": "https://github.com/smota/agentflow-demo/issues/49"},
+    {"concept": "Network & similarity exploration", "artifact": "Epic #50", "url": "https://github.com/smota/agentflow-demo/issues/50"},
+    {"concept": "Project vitality signals", "artifact": "Epic #54", "url": "https://github.com/smota/agentflow-demo/issues/54"},
+    {"concept": "Unattended local pipeline", "artifact": "Epic #52", "url": "https://github.com/smota/agentflow-demo/issues/52"},
+    {"concept": "Headless-CLI interpretation layer", "artifact": "Epic #53", "url": "https://github.com/smota/agentflow-demo/issues/53"},
+    {"concept": "High-assurance human review (intake)", "artifact": "issue #58", "url": "https://github.com/smota/agentflow-demo/issues/58"},
+    {"concept": "High-assurance human review (unattended publish)", "artifact": "issue #77", "url": "https://github.com/smota/agentflow-demo/issues/77"}
   ]
 }
