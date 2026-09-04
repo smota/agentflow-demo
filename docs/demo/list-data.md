@@ -116,3 +116,13 @@ At every promotion, validate the whole generation locally. The hosted app lazily
 validates the selected shard against the index's repository name, revision, README
 path and SHA-256, and binds category/entry source links to that exact source. A JSON
 digest alone does not make arbitrary links or inconsistent provenance acceptable.
+
+## Data contract for third parties
+
+`data/list-index.json` and `data/catalogue.json` are also a published, versioned data contract, not
+only this app's internal state: `../consuming-catalogue-data.md` shows an external consumer how to
+fetch and validate the committed snapshot directly from `raw.githubusercontent.com` with no new
+endpoint and no credentials, `../../schemas/list-index.schema.json` and
+`../../schemas/catalogue.schema.json` are the formal JSON Schemas for each file, and
+`../data-schema-changelog.md` tracks the data *shape's* own semantic version — separate from both
+`package.json`'s app version and each file's internal `format_version` guard.
