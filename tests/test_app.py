@@ -75,3 +75,16 @@ def test_published_repeated_params_story_and_identity():
     assert any(f"v{version}" in x.value and index["digest"][:12] in x.value for x in app.caption)
     assert not any("Local design preview" in x.value for x in app.warning)
     assert not app.exception
+
+
+def test_identity_footer_uses_local_brand_assets_and_safe_external_links():
+    from awesome.list_ui import identity_footer
+
+    footer = identity_footer(ROOT / "awesome" / "assets")
+    assert 'aria-label="Application identity"' in footer
+    assert 'href="https://movetheneedle.info/"' in footer
+    assert 'href="https://movetheneedle.info/agent-sdlc/"' in footer
+    assert footer.count('target="_blank" rel="noopener noreferrer"') == 2
+    assert "Maintained by" in footer and "Move the Needle" in footer
+    assert "Built with" in footer and "AgentFlow" in footer
+    assert footer.count("data:image/png;base64,") == 2
