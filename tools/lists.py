@@ -505,14 +505,41 @@ def publish(expected, root=ROOT, interrupt_after=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["discover", "enrich", "profiles", "stage", "publish", "validate", "replay"])
-    parser.add_argument("--run-id", default="lists-20260903")
+    parser.add_argument("command", choices=["discover", "enrich", "profiles", "stage", "publish", "validate", "replay", "intake"])
+    parser.add_argument("--run-id", default=None)
     parser.add_argument("--expected-digest")
     parser.add_argument("--interrupt-after", type=int)
     parser.add_argument("--source-run")
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--workers", type=int, default=1)
+    # intake-only: batch-resolve community "propose a list" / "flag an item" GitHub Issues
+    # (tools/intake.py) against this same deterministic pipeline. See that module's docstring.
+    parser.add_argument("--dry-run", action="store_true",
+                         help="intake only: report intended actions without mutating GitHub issues")
+    parser.add_argument("--label-propose", default="intake:propose-list", help="intake only")
+    parser.add_argument("--label-flag", default="intake:flag-item", help="intake only")
     args = parser.parse_args()
+    if args.run_id is None:
+        from datetime import date as _date
+        args.run_id = f"intake-{_date.today().isoformat()}" if args.command == "intake" else "lists-20260903"
+    if args.command == "intake":
+        # Intake keeps its own checkpoint/staging generation (never the primary crawler's run-id)
+        # so ad hoc community submissions never contaminate an in-progress discovery run, and never
+        # takes the exclusive crawler lock read-only issue triage does not need.
+        from tools.intake import IssueSource, load_published_index, run_intake
+        source = IssueSource()
+        api = GitHub()
+        run = Run(args.run_id)
+        index = load_published_index()
+        results = run_intake(source, api, run, index, dry_run=args.dry_run,
+                              propose_label=args.label_propose, flag_label=args.label_flag)
+        summary = {"processed": len(results),
+                   "staged": sum(r["outcome"] == "staged" for r in results),
+                   "resolved": sum(r["outcome"] == "resolved" for r in results),
+                   "queued": sum(r["outcome"] == "queued" for r in results),
+                   "dry_run": args.dry_run, "results": results}
+        print(json.dumps(summary), flush=True)
+        return
     lock = ROOT / ".agent-runs/list-crawler.lock"
     lock.parent.mkdir(parents=True, exist_ok=True)
     # Exclusive writer with explicit identity; no age-based stale-lock deletion.

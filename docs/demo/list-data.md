@@ -90,6 +90,35 @@ remain recoverable from Git history and release tags.
 The free Streamlit host reads these committed files only: no crawler, credentials,
 AI inference or database service runs there.
 
+## Unattended weekly execution
+
+`docs/adr/008-local-pipeline-scheduling.md` (Epic F/#51) decided the mechanism: Windows Task
+Scheduler, weekly, invoking one PowerShell wrapper. Epic G/#52 implements it:
+`tools/run_pipeline.ps1` (a thin invoker, kept deliberately small) calls `tools/run_pipeline.py`,
+which runs the full sequence above -- `discover -> enrich -> profiles -> stage -> publish` followed
+by `derive_projects stage -> publish`, then a final `validate` of each published artifact -- as the
+same `python -m tools.lists <command>` / `python -m tools.derive_projects <command>` subprocess
+calls documented above, so locking and checkpointing are reused unchanged.
+
+The one manual step above, reading and pasting `--expected-digest`, cannot happen unattended.
+`tools/run_pipeline.py` replaces it with an in-process gate, never a relaxed trust boundary: after
+`stage` prints a digest, the module re-reads the staged file(s) from disk, recomputes the digest
+independently, and re-runs the same validator `publish` itself would (`validate_index` /
+`validate_projects`, both already re-checking every referenced shard from bytes on disk) *before*
+`publish` is ever invoked. Publish only runs once that independent pass has already succeeded in
+this process. The first failing or mismatched step aborts every remaining step; because `publish` is
+never reached in that case, the previous published snapshot is left byte-for-byte untouched -- the
+same guarantee a partial/interrupted manual run already had.
+
+Every invocation writes a structured `run-log.json` and a companion `run-log.md` under
+`.agent-runs/pipeline-runs/` (start/end timestamps, per-step status/counts/digest, and a failure
+detail when a step fails), plus a full stdout/stderr transcript under
+`.agent-runs/pipeline-runs/transcripts/` written by the PowerShell wrapper itself -- reviewable the
+next morning without having watched the run. `tools.prune_list_shards` is intentionally not part of
+this sequence: its own contract requires reviewing a dry run before `--apply`, which stays a
+separate, manually-run command. The exact Task Scheduler registration command is in the PR that
+implemented this section (#52) and in `docs/adr/008-local-pipeline-scheduling.md`'s Consequences.
+
 ## Early snapshot versus completed enrichment
 
 The first accepted list-first generation is intentionally partial: 8,373 discovered
