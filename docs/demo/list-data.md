@@ -157,3 +157,13 @@ famous, short-named projects are expected to have identical citation text regard
 structure is therefore published as a factual cross-reference only; it is not presented in the app
 as a consensus/trust cue, and any future UI use of `list_count` for ranking must account for this
 finding rather than treat raw occurrence count as validated agreement.
+
+## Data contract for third parties
+
+`data/list-index.json` and `data/catalogue.json` are also a published, versioned data contract, not
+only this app's internal state: `../consuming-catalogue-data.md` shows an external consumer how to
+fetch and validate the committed snapshot directly from `raw.githubusercontent.com` with no new
+endpoint and no credentials, `../../schemas/list-index.schema.json` and
+`../../schemas/catalogue.schema.json` are the formal JSON Schemas for each file, and
+`../data-schema-changelog.md` tracks the data *shape's* own semantic version — separate from both
+`package.json`'s app version and each file's internal `format_version` guard.
