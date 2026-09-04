@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-09-04",
+  "repository": {
+    "issues": 17,
+    "closedIssues": 14,
+    "pullRequests": 25,
+    "mergedPullRequests": 23,
+    "releases": 11
+  },
+  "episodes": [
+    {
+      "id": "build-1",
+      "label": "Build 1 · Establish",
+      "short": "Establish a governed delivery path",
+      "tests": 72,
+      "release": "v1.0.0",
+      "issue": 7,
+      "url": "https://github.com/smota/agentflow-demo/issues/7"
+    },
+    {
+      "id": "build-2",
+      "label": "Build 2 · Scale & recover",
+      "short": "Scale the product without losing delivery state",
+      "tests": 157,
+      "release": "v2.0.0",
+      "issue": 24,
+      "url": "https://github.com/smota/agentflow-demo/issues/24"
+    },
+    {
+      "id": "build-3",
+      "label": "Build 3 · Repeat",
+      "short": "Apply the same discipline to a bounded change",
+      "tests": 158,
+      "release": "v2.0.1",
+      "issue": 39,
+      "url": "https://github.com/smota/agentflow-demo/issues/39"
+    }
+  ],
+  "testCheckpoints": [
+    {"checkpoint": "v0.1", "tests": 31, "episode": "Build 1"},
+    {"checkpoint": "v0.2", "tests": 48, "episode": "Build 1"},
+    {"checkpoint": "Recovery", "tests": 67, "episode": "Build 1"},
+    {"checkpoint": "v1.0", "tests": 72, "episode": "Build 1"},
+    {"checkpoint": "v2 foundation", "tests": 98, "episode": "Build 2"},
+    {"checkpoint": "Discovery", "tests": 119, "episode": "Build 2"},
+    {"checkpoint": "Profiles", "tests": 136, "episode": "Build 2"},
+    {"checkpoint": "Insights", "tests": 156, "episode": "Build 2"},
+    {"checkpoint": "v2.0", "tests": 157, "episode": "Build 2"},
+    {"checkpoint": "v2.0.1", "tests": 158, "episode": "Build 3"}
+  ],
+  "consistency": [
+    {"field": "Active goal", "recorded": "Issue #24", "reconstructed": "Issue #24", "match": "Matched"},
+    {"field": "Branch & candidate", "recorded": "Exact Git ref + commit", "reconstructed": "Exact Git ref + commit", "match": "Matched"},
+    {"field": "Current gate", "recorded": "Product manager", "reconstructed": "Product manager", "match": "Matched"},
+    {"field": "Evidence history", "recorded": "Failed + passing observations", "reconstructed": "Same ordered sequence", "match": "Matched"},
+    {"field": "External projection", "recorded": "One confirmed issue comment", "reconstructed": "Same confirmed projection", "match": "Matched"},
+    {"field": "Next safe action", "recorded": "Verify exact candidate", "reconstructed": "Verify exact candidate", "match": "Matched"}
+  ],
+  "recovery": {
+    "successfulFreshContext": 2,
+    "partialAttemptsRejected": 1,
+    "initialGeneration": 0,
+    "replacementGeneration": 1,
+    "stalePlanExitCode": 4,
+    "obsoleteWriterExitCode": 4,
+    "publicationAttempts": 2,
+    "createdComments": 1
+  },
+  "commands": [
+    {"stage": "Inspect", "command": "run source-plan", "decision": "Confirm source identity and permissions before mutation"},
+    {"stage": "Inspect", "command": "run status", "decision": "Read the current immutable run state"},
+    {"stage": "Inspect", "command": "run context", "decision": "Recover the gate, evidence and next action"},
+    {"stage": "Control", "command": "checkpoint + pause", "decision": "Freeze durable state before writer replacement"},
+    {"stage": "Control", "command": "run resume · preview", "decision": "Produce a digest-bound recovery intention"},
+    {"stage": "Control", "command": "run resume · confirm", "decision": "Transfer authority from generation 0 to 1"},
+    {"stage": "Reconcile", "command": "status + context + read-back", "decision": "Resolve an uncertain result without a blind retry"},
+    {"stage": "Verify", "command": "check:recovery", "decision": "Reject stale candidate or invalid recovery evidence"},
+    {"stage": "Publish", "command": "run publish · preview", "decision": "Review the exact GitHub projection before writing"},
+    {"stage": "Publish", "command": "run publish · confirm", "decision": "Apply once and reconcile duplicate intent"}
+  ],
+  "decisions": [
+    {
+      "label": "Browser contradicts green tests",
+      "episode": "Build 1",
+      "observation": "The exact Crates journey returned zero results in a long-running process.",
+      "rule": "Review evidence must agree with the user-visible acceptance case.",
+      "result": "Returned Review to Implementation; withdrew the claim; restarted and retested."
+    },
+    {
+      "label": "A consumed plan is reused",
+      "episode": "Build 2",
+      "observation": "The previously confirmed recovery intention was submitted again.",
+      "rule": "A digest-bound plan is single-use and revision-bound.",
+      "result": "Rejected with conflict exit code 4."
+    },
+    {
+      "label": "The previous writer acts after transfer",
+      "episode": "Build 2",
+      "observation": "Generation 0 attempted to mutate state after generation 1 took ownership.",
+      "rule": "Only the active owner generation may write.",
+      "result": "Rejected with conflict exit code 4."
+    },
+    {
+      "label": "A write returns an uncertain response",
+      "episode": "Build 2",
+      "observation": "The resume apply response did not establish whether the event landed.",
+      "rule": "Inspect durable state before retrying an external mutation.",
+      "result": "Read-back confirmed the event; no duplicate mutation was issued."
+    },
+    {
+      "label": "A bounded UI change breaks preview portability",
+      "episode": "Build 3",
+      "observation": "Temporary preview roots could not resolve package-owned identity assets.",
+      "rule": "Preview and production must resolve the same bundled application assets.",
+      "result": "Asset resolution was separated from data roots; focused and full suites passed."
+    }
+  ],
+  "evidence": [
+    {"concept": "Live delivery story", "artifact": "publication issue #42", "url": "https://github.com/smota/agentflow-demo/issues/42"},
+    {"concept": "Goal decomposition", "artifact": "v2 delivery epic #16", "url": "https://github.com/smota/agentflow-demo/issues/16"},
+    {"concept": "Roles & handovers", "artifact": "v1 acceptance ledger #7", "url": "https://github.com/smota/agentflow-demo/issues/7"},
+    {"concept": "Recovery & reconciliation", "artifact": "stable closeout #24", "url": "https://github.com/smota/agentflow-demo/issues/24"},
+    {"concept": "Bounded change", "artifact": "identity update #39", "url": "https://github.com/smota/agentflow-demo/issues/39"},
+    {"concept": "Integration", "artifact": "PR #40", "url": "https://github.com/smota/agentflow-demo/pull/40"},
+    {"concept": "Promotion", "artifact": "PR #41", "url": "https://github.com/smota/agentflow-demo/pull/41"},
+    {"concept": "Complete narrative", "artifact": "docs/demo/story.md", "url": "https://github.com/smota/agentflow-demo/blob/main/docs/demo/story.md"},
+    {"concept": "Public outcome", "artifact": "AwesomeAwesomeness", "url": "https://awesomeawesomeness.streamlit.app/"}
+  ]
+}
