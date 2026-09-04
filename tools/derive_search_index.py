@@ -34,9 +34,24 @@ def load_search_shards(data: dict, data_root: Path) -> dict:
             for prefix in data.get("shards", {})}
 
 
+def load_topic_overrides(data_root: Path) -> dict | None:
+    """H3 (issue #53)'s optional headless-CLI topic overlay, if a published copy exists. Absent by
+    default (the common case: no CLI-assisted stories run) -- `stage()` reproduces byte-identical
+    output to before H3 existed in that case, since `derive_search_shard` treats `None` exactly like
+    "no overrides at all"."""
+    path = data_root / "topic-interpretations.json"
+    if not path.exists():
+        return None
+    from awesome.interpret_topics import as_overrides, validate_interpretations
+    data = json.loads(path.read_text(encoding="utf-8"))
+    validate_interpretations(data)
+    return as_overrides(data)
+
+
 def stage(data_root: Path = ROOT / "data", staging_root: Path = ROOT / "data/staging") -> dict:
     list_index = load_list_index(data_root)
     project_index = load_project_index(data_root)
+    topic_overrides = load_topic_overrides(data_root)
     shard_digests: dict[str, str] = {}
     total_projects = 0
     for prefix, expected_digest in project_index.get("shards", {}).items():
@@ -44,7 +59,7 @@ def stage(data_root: Path = ROOT / "data", staging_root: Path = ROOT / "data/sta
         if project_shard.get("digest") != expected_digest:
             raise ValueError("Project shard digest does not match the published project index")
         validate_project_shard(project_shard, prefix, list_index)
-        search_shard = derive_search_shard(project_shard, project_index["digest"])
+        search_shard = derive_search_shard(project_shard, project_index["digest"], topic_overrides)
         atomic_json(staging_root / shard_path(prefix), search_shard)
         shard_digests[prefix] = search_shard["digest"]
         total_projects += len(search_shard["projects"])
