@@ -17,8 +17,15 @@ from awesome.network import (MIN_SHARED_PROJECTS, NEAR_DUP_COPY_FRACTION, NEAR_D
                              neighbor_graph, neighbors_of, validate_network)
 from awesome.network_view import CANVAS_HEIGHT, CANVAS_WIDTH, NEIGHBOR_LIMIT, layout_positions, render_svg
 from awesome.project_search import citation_label, search_projects
-from awesome.projects import shard_path as project_shard_path, validate_projects as validate_project_index
+from awesome.projects import project_id, shard_path as project_shard_path, validate_projects as validate_project_index
 from awesome.search_index import shard_path as search_shard_path, validate_search_index
+from awesome.liveness import shard_path as liveness_shard_path
+from awesome.usage import shard_path as usage_shard_path
+from awesome.alternatives import shard_path as alternatives_shard_path
+from awesome.vitality import project_profile, liveness_status, usage_total
+
+LIVENESS_COLORS = {"active": "#0e8a16", "slowing": "#bd7210", "stale": "#b42318",
+                    "archived": "#53635e", "unknown": "#8a97a0"}
 
 
 @st.cache_data(max_entries=2, show_spinner=False)
@@ -110,6 +117,57 @@ def project_citations(directory: str, project_id: str, project_index: dict) -> d
     return next((record for record in shard["projects"] if record["id"] == project_id), None)
 
 
+def _stamp(path: Path) -> int:
+    try:
+        return path.stat().st_mtime_ns
+    except OSError:
+        return 0
+
+
+@st.cache_data(max_entries=4, show_spinner=False)
+def artifact_index(path: str, stamp: int):
+    """Load a small versioned Epic E top-level index (project/liveness/usage/alternatives). `stamp`
+    of 0 means the file does not exist yet -- an artifact whose story hasn't published anything for
+    this shard yet, not an error. Returns None in that case; callers treat that as "not observed"."""
+    if stamp == 0:
+        return None
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
+@st.cache_data(max_entries=256, show_spinner=False)
+def artifact_shard(path: str, stamp: int):
+    if stamp == 0:
+        return None
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
+def _project_record(directory: Path, index_name: str, shard_path_fn, pid: str) -> dict | None:
+    index_path = directory / index_name
+    index_data = artifact_index(str(index_path), _stamp(index_path))
+    prefix = pid[:2]
+    if not index_data or prefix not in index_data.get("shards", {}):
+        return None
+    shard_path_value = directory / shard_path_fn(prefix)
+    shard = artifact_shard(str(shard_path_value), _stamp(shard_path_value))
+    if not shard:
+        return None
+    return next((record for record in shard.get("projects", []) if record["id"] == pid), None)
+
+
+def load_project_profile(directory: Path, pid: str) -> dict | None:
+    """Resolve one deduplicated project's full Epic E profile: its #69 dedup record plus whatever
+    E2 (liveness)/E3 (usage)/E4 (alternatives) artifacts already carry a record for it -- each
+    independently optional. Returns None only when the project itself isn't in the published dedup
+    catalogue at all (an invalid/unknown id), never when a signal is simply not yet computed."""
+    project_record = _project_record(directory, "project-index.json", project_shard_path, pid)
+    if not project_record:
+        return None
+    liveness_record = _project_record(directory, "liveness-index.json", liveness_shard_path, pid)
+    usage_record = _project_record(directory, "usage-index.json", usage_shard_path, pid)
+    alternatives_record = _project_record(directory, "alternatives-index.json", alternatives_shard_path, pid)
+    return project_profile(project_record, liveness_record, usage_record, alternatives_record)
+
+
 CSS = """<style>
 .block-container{max-width:1200px;padding-top:3rem;padding-bottom:3rem}
 .brand{font-size:1.1rem;font-weight:800;letter-spacing:-.04em;overflow-wrap:anywhere}
@@ -189,6 +247,11 @@ def render(root: Path, preview=False):
         if view == "List" and rid != state["list"]:
             state.update(content_q="", content_category="all")
         state.update(view=view, list=rid)
+        st.session_state.pop("list_shared", None)
+        st.query_params.clear()
+
+    def go_project(pid):
+        state.update(view="Project", project=pid)
         st.session_state.pop("list_shared", None)
         st.query_params.clear()
 
@@ -460,6 +523,12 @@ def render(root: Path, preview=False):
                     st.dataframe(pd.DataFrame(rows), hide_index=True, width="stretch", height=460,
                         column_config={"Open": st.column_config.LinkColumn("Open", display_text="Visit ↗"),
                                        "Source": st.column_config.LinkColumn("Source", display_text="At source ↗")})
+                    profile_options = {e["title"]: project_id(e["url"]) for e in entries}
+                    profile_pick = st.selectbox("View a project's vitality profile", list(profile_options),
+                                                key="profile_pick_" + item["id"])
+                    st.button("View project profile ↗", key="profile_go_" + item["id"],
+                             on_click=go_project, args=(profile_options[profile_pick],))
+                    st.caption("Liveness, real usage and alternatives — computed offline, factual only.")
                 else: st.info("No entries match. Try another category or search.")
                 st.subheader("Curated by people")
                 st.write(detail["attribution"])
@@ -482,6 +551,71 @@ def render(root: Path, preview=False):
                         st.link_button("Open labelled source data ↗", source_link)
                     st.caption(f"Source license: {item.get('license') or 'Unknown'} · Commit {detail['revision']}")
         else: st.info("Content indexing is pending or this README format is unsupported. Explore the original list above.")
+    elif state["view"] == "Project":
+        st.button("← Back to results", on_click=go, args=("Discover",))
+        profile = load_project_profile(directory, state["project"])
+        if not profile:
+            st.error("This project's profile is not available. It may not yet be published, or the link is invalid.")
+        else:
+            st.caption("Project profile · deduplicated across every citing list (#69)")
+            st.title(profile["title"])
+            st.link_button("Open project ↗", profile["url"], type="primary")
+
+            status = liveness_status(profile["liveness"])
+            color = LIVENESS_COLORS[status["bucket"]]
+            if status["days_since_commit"] is not None:
+                detail_text = f"Last observed push {status['days_since_commit']:,} day(s) ago"
+            elif status["bucket"] == "archived":
+                detail_text = "Archived by its owner on GitHub"
+            else:
+                detail_text = "Liveness has not been computed for this project yet"
+            st.html(
+                '<div style="border:3px solid ' + color + ';border-radius:14px;padding:1.2rem 1.5rem;margin:1rem 0 1.3rem">'
+                '<div style="font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:' + color + ';font-weight:800">Liveness</div>'
+                '<div style="font-size:2rem;font-weight:800;color:#173c35;margin:.15rem 0;line-height:1.15">' + html.escape(status["label"]) + '</div>'
+                '<div style="color:#53635e;font-size:.95rem">' + html.escape(detail_text) + '</div></div>'
+            )
+            if profile["liveness"]:
+                releases = profile["liveness"].get("releases", {})
+                cadence = releases.get("median_interval_days")
+                st.caption(
+                    f"Default branch: {profile['liveness'].get('default_branch') or 'Unknown'} · "
+                    f"Releases observed: {releases.get('observed_count', 0)}"
+                    + (f" · Latest {releases['latest_at'][:10]}" if releases.get("latest_at") else "")
+                    + (f" · Median interval {cadence:.0f}d" if cadence is not None else "")
+                    + f" · Observed {profile['liveness']['observed_at'][:10]}"
+                )
+            else:
+                st.caption("Liveness is computed offline for a growing batch of projects; this one is not covered yet.")
+
+            st.subheader("Real usage")
+            usage = usage_total(profile["usage"])
+            if not usage["observed"]:
+                st.caption("No verified package registry usage observed for this project yet.")
+            else:
+                columns = st.columns(len(usage["sources"]))
+                for column, source in zip(columns, usage["sources"]):
+                    column.metric(source["registry"].upper(), number(source["count"]), help=source["matched_via"])
+                st.caption("Downloads/pulls are observed registry facts — never blended with stars or cross-list citation count.")
+
+            st.subheader("See alternatives")
+            alternatives = profile.get("alternatives")
+            headings = (alternatives or {}).get("headings") or []
+            if not headings:
+                st.caption("No same-heading alternatives observed for this project yet.")
+            else:
+                for h_index, heading in enumerate(headings):
+                    with st.expander(f"{heading['list_name']} › {heading['category']} ({heading['total_alternatives']} alternative(s))"):
+                        for a_index, alternative in enumerate(heading["alternatives"]):
+                            st.button(alternative["title"] + " →", key=f"alt_{state['project']}_{h_index}_{a_index}",
+                                     on_click=go_project, args=(alternative["id"],))
+                        if heading["truncated"]:
+                            st.caption(f"Showing {len(heading['alternatives'])} of {heading['total_alternatives']}; capped for display.")
+
+            st.caption(
+                f"Cited by {profile['list_count']:,} distinct list(s), {profile['occurrence_count']:,} occurrence(s). "
+                "Citation count is a factual tally, not a validated trust signal — see Delivery story."
+            )
     else:
         st.html('<div class="eyebrow">Community knowledge, beautifully connected</div><h1 class="hero">A world of knowledge.<br><em>Curated by people.</em></h1><p class="intro">Discover the Awesome lists worth exploring—from self-hosting to science. Find a topic, meet its curators, and dive into their collections.</p>')
         with st.container(key="discovery_metrics"):

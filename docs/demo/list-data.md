@@ -187,6 +187,74 @@ structure is therefore published as a factual cross-reference only; it is not pr
 as a consensus/trust cue, and any future UI use of `list_count` for ranking must account for this
 finding rather than treat raw occurrence count as validated agreement.
 
+## Vitality and trust signals (Epic E: liveness, usage, alternatives)
+
+Three sibling offline stages join the project dedup structure above with factual, disclosed
+signals — never a synthesized rating (`docs/demo/list-data.md`'s own no-invented-signal policy
+applies identically here). Each publishes a tiny top index (counts + `prefix -> shard digest` map)
+plus `<artifact>/<2-hex-prefix>.json` shards, sharded and keyed by the same project id
+`data/projects/` uses, so a UI can resolve all four artifacts for one project with one prefix.
+
+### Liveness (`data/liveness-index.json`, `tools/derive_liveness.py`) — issue #71
+
+The gate signal, shown with the most visual prominence of any Epic E signal on the Project profile
+view: last commit date (GitHub's own `pushed_at` — a push to any branch, disclosed as such, not
+claimed to be a verified default-branch HEAD commit), release cadence (median interval across up to
+the 5 most recently published releases; `null`, not zero, below two observed releases), and
+archived status. Only published for `github.com/<owner>/<repo>` project URLs, via the already-
+authenticated `gh api` (the operator's own CLI login, not a new credential). Because this calls a
+rate-limited API across a 900k+ project catalogue, one run intentionally covers a bounded,
+checkpointed batch — prioritized by `list_count` (highest cross-list visibility first) — and merges
+onto whatever is already published rather than replacing it, growing incrementally across repeated
+runs (see Epic G/#52 for unattended scheduling of future runs):
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_liveness build --run-id <id> --batch-size 300
+.venv/Scripts/python.exe -m tools.derive_liveness publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_liveness validate
+```
+
+### Real usage (`data/usage-index.json`, `tools/derive_usage.py`) — issue #72
+
+Package-registry download counts, distinct from and never blended with stars or `list_count`.
+Public, unauthenticated registries only, per the maintainer's no-new-credentials constraint: npm
+(`registry.npmjs.org` + `api.npmjs.org`) and PyPI (`pypi.org` + `pypistats.org`) are accepted only
+when the registry's own metadata (`repository.url`, `project_urls`/`home_page`) cross-references
+back to the candidate GitHub `owner/repo`; Docker Hub (`hub.docker.com` public v2 API) has no such
+cross-check field, so it is accepted on a weaker `namespace/name == owner/repo` heuristic and always
+labelled as such in `matched_via` — a false "usage" record would be worse than a missing one.
+GitHub's own dependents/"used by" count was investigated and found to have no public, unauthenticated,
+non-scraping API (its REST/GraphQL dependency-graph surface describes a repository's own declared
+dependencies, not the reverse); this is a disclosed scope limit, not a silent omission — see #72.
+Same bounded-batch, checkpointed, incremental-merge discipline as liveness:
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_usage build --run-id <id> --batch-size 150
+.venv/Scripts/python.exe -m tools.derive_usage publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_usage validate
+```
+
+### See alternatives (`data/alternatives-index.json`, `tools/derive_alternatives.py`) — issue #73
+
+Reuses #69's exact inputs (`list-index.json` + eligible detail shards) with no new crawling: groups
+every parsed entry by `(list_id, category)` — the original heading a curator filed it under — so a
+project's alternatives are the other distinct projects a real curator placed under the same heading,
+disclosed per heading it actually occupies (never merged into one generic "similar projects" list).
+A project appearing under different headings in different lists gets separate alternative sets per
+heading. Each heading caps at 3 alternatives (`MAX_ALTERNATIVES_PER_HEADING` — chosen after an
+initial full-catalogue run at the naive design's default cap of 20 produced a ~4 GB artifact;
+capping tighter, and dropping each alternative's own `url` in favor of resolving it by id against
+the already-published `data/projects/` shard, keeps the published shards in the same order of
+magnitude as `data/projects/`), always disclosed via `total_alternatives`/`truncated` rather than a
+silent drop. Pure computation, no network calls and no rate limit, so — unlike liveness/usage — one
+run covers the full published catalogue:
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_alternatives stage
+.venv/Scripts/python.exe -m tools.derive_alternatives publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_alternatives validate
+```
+
 ## Data contract for third parties
 
 `data/list-index.json` and `data/catalogue.json` are also a published, versioned data contract, not
