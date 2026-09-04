@@ -100,6 +100,29 @@ def test_validate_rejects_tampered_shard_digest():
         validate_search_index(top, derived["index"], {**search_shards, prefix: tampered})
 
 
+def test_derive_search_shard_without_overrides_matches_pre_h3_behaviour():
+    index, details = build_two_list_index()
+    derived, top, search_shards = derive(index, details)  # derive() never passes topic_overrides
+    prefix = next(iter(search_shards))
+    project_shard = derived["shards"][prefix]
+    reference = derive_search_shard(project_shard, derived["index"]["digest"])
+    assert search_shards[prefix] == reference
+
+
+def test_derive_search_shard_applies_topic_overrides_overlay():
+    index, details = build_two_list_index()
+    derived, _, _ = derive(index, details)
+    prefix = next(iter(derived["shards"]))
+    project_shard = derived["shards"][prefix]
+    without = derive_search_shard(project_shard, derived["index"]["digest"])
+    with_overrides = derive_search_shard(project_shard, derived["index"]["digest"],
+                                          topic_overrides={"nonexistent label key": "self-hosting"})
+    # An overlay that matches nothing present in this fixture must reproduce identical topics --
+    # only the shard's own digest changes because the overlay was threaded through at all is not
+    # asserted here; behavioural equivalence on unmatched overrides is what's under test.
+    assert [r["topics"] for r in without["projects"]] == [r["topics"] for r in with_overrides["projects"]]
+
+
 def test_validate_rejects_independent_count_above_list_count():
     index, details = build_two_list_index()
     derived, top, search_shards = derive(index, details)

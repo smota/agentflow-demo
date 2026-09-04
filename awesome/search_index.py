@@ -44,7 +44,7 @@ def shard_path(prefix: str) -> str:
     return f"search/{prefix}.json"
 
 
-def derive_shard_record(project_record: dict) -> dict:
+def derive_shard_record(project_record: dict, topic_overrides: dict | None = None) -> dict:
     occurrences = project_record["occurrences"]
     return {
         "id": project_record["id"],
@@ -52,16 +52,18 @@ def derive_shard_record(project_record: dict) -> dict:
         "title": project_record["title"],
         "list_count": project_record["list_count"],
         "independent_list_count": independent_count(occurrences),
-        "topics": normalized_topics(occurrences),
+        "topics": normalized_topics(occurrences, overrides=topic_overrides),
     }
 
 
-def derive_search_shard(project_shard: dict, source_project_digest: str) -> dict:
+def derive_search_shard(project_shard: dict, source_project_digest: str, topic_overrides: dict | None = None) -> dict:
     """`project_shard` is one already-validated `data/projects/<prefix>.json` shard document (see
     `awesome.projects.validate_shard`). A pure, single-shard transform -- callers own streaming
     shard-by-shard from disk so the full 900k+-project corpus is never held in memory at once (see
-    `tools/derive_search_index.py`)."""
-    records = [derive_shard_record(record) for record in project_shard["projects"]]
+    `tools/derive_search_index.py`). `topic_overrides` is H3 (issue #53)'s optional headless-CLI
+    overlay (`awesome.interpret_topics.as_overrides`); omitted or `None` reproduces the exact
+    heuristic-only output this module always produced before H3 existed."""
+    records = [derive_shard_record(record, topic_overrides) for record in project_shard["projects"]]
     shard = {"format_version": FORMAT, "prefix": project_shard["prefix"],
               "source_project_digest": source_project_digest, "projects": records}
     shard["digest"] = digest(shard)

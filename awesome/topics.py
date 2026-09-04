@@ -70,8 +70,15 @@ _SYNONYMS = {
 }
 
 
-def normalize_topic(label: str) -> str:
-    """Map one raw category/topic label to a single canonical tag, or "" for an empty label."""
+def normalize_topic(label: str, overrides: dict | None = None) -> str:
+    """Map one raw category/topic label to a single canonical tag, or "" for an empty label.
+
+    `overrides` is an optional `{normalized-phrase: tag}` overlay -- H3 (issue #53)'s headless-CLI-
+    derived mapping for labels this function's own `_SYNONYMS` table does not cover (see
+    `awesome.interpret_topics`). It is consulted ONLY as a fallback after `_SYNONYMS`: a label
+    `_SYNONYMS` already resolves is never looked up in `overrides`, so the deterministic heuristic
+    table is never replaced or shadowed by the CLI-assisted overlay, only supplemented where it was
+    already going to fall back to the raw hyphenated phrase anyway."""
     if not label:
         return ""
     text = re.sub(r"[/_]+", " ", label.casefold())
@@ -80,16 +87,21 @@ def normalize_topic(label: str) -> str:
     if not words:
         return ""
     joined = " ".join(words)
-    return _SYNONYMS.get(joined, "-".join(words))
+    if joined in _SYNONYMS:
+        return _SYNONYMS[joined]
+    if overrides and joined in overrides:
+        return overrides[joined]
+    return "-".join(words)
 
 
-def normalized_topics(occurrences: list[dict], limit: int = 6) -> list[str]:
+def normalized_topics(occurrences: list[dict], limit: int = 6, overrides: dict | None = None) -> list[str]:
     """Deduplicated, order-preserving canonical topic tags aggregated across a project's
     occurrences' own `category` text -- capped at `limit` so a heavily-cited project's topic list
-    stays small and reviewable rather than accumulating every raw category variant seen."""
+    stays small and reviewable rather than accumulating every raw category variant seen. See
+    `normalize_topic` for the optional H3 `overrides` overlay's precedence rule."""
     tags: list[str] = []
     for occurrence in occurrences:
-        tag = normalize_topic(occurrence.get("category", ""))
+        tag = normalize_topic(occurrence.get("category", ""), overrides)
         if tag and tag not in tags:
             tags.append(tag)
         if len(tags) >= limit:
