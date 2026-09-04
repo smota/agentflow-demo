@@ -270,6 +270,11 @@ def render_delivery(root: Path, index: dict) -> None:
         "The third episode added persistent maintainer and AgentFlow identity links. A focused test exposed that temporary preview roots could not resolve package-owned assets. The implementation separated data location from bundled identity assets, then passed focused UI checks, desktop and measured 390-pixel inspection, the 158-test suite, workflow validation and catalogue integrity. The change moved through issue #39, integration PR #40, promotion PR #41 and v2.0.1. AgentFlow remained the operating model even when the change was small."
     )
 
+    _section(
+        "Build 4 · From lists to intelligence",
+        "The fourth episode ran eight epics end to end — cross-list project search, community curation intake, a versioned data contract, list-similarity and network exploration, project vitality signals, and an unattended local pipeline with a scoped headless-CLI interpretation layer. Independent worktrees let unrelated epics progress in parallel while AgentFlow's phase contract, evidence, and review model applied to each one individually. A validation spike changed the plan mid-flight: cross-list citation count, the planned trust signal for search ranking, turned out to be 90% copy-lineage between related lists rather than independent curation. The design was corrected before it shipped — citation count became disclosed provenance, never a score. A background subagent also did something worth recording: asked to publish work to a real, authenticated repository, it correctly refused, because it had no way to independently verify the authorization a parent session claimed on its behalf. Execution was restructured around that refusal, not past it — subagents draft locally, the orchestrating session (holding the real, chat-verified authorization) performs every public-facing action itself. Two stories were classified high-assurance by their own Architect pass and, per AgentFlow's review model, waited for the maintainer's own review before merge — autonomy did not override that gate."
+    )
+
     st.subheader("Decision replay")
     _decision_replay(story, episode)
 

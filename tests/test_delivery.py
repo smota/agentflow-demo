@@ -11,11 +11,11 @@ from awesome.delivery import load_story, watermarked_image
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def test_delivery_manifest_has_three_publicly_evidenced_episodes():
+def test_delivery_manifest_has_four_publicly_evidenced_episodes():
     path = ROOT / "data" / "delivery-story.json"
     story = load_story(path)
-    assert [item["id"] for item in story["episodes"]] == ["build-1", "build-2", "build-3"]
-    assert story["episodes"][-1]["tests"] == 158
+    assert [item["id"] for item in story["episodes"]] == ["build-1", "build-2", "build-3", "build-4"]
+    assert story["episodes"][-1]["tests"] == 409
     assert story["recovery"] == {
         "successfulFreshContext": 2,
         "partialAttemptsRejected": 1,
