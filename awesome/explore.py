@@ -10,7 +10,7 @@ FRESHNESS = ("Any freshness", "Within 30 days", "Within 90 days", "Within 180 da
 DEFAULTS = {"q": "", "topic": "All topics", "min_stars": 100, "state": "Curated lists",
             "freshness": "Any freshness", "archived": "Include archived", "forks": "Include forks",
             "sort": "Most starred", "page": 1, "view": "Discover", "list": "", "layout": "Cards",
-            "content_q": "", "content_category": "all", "compare": "", "search_q": ""}
+            "content_q": "", "content_category": "all", "compare": "", "search_q": "", "network_list": ""}
 PAGE_SIZE = 12
 
 
@@ -25,12 +25,16 @@ def normalize(params: dict, index: dict) -> dict:
     options = {"topic": {"All topics", *(t for item in index["lists"] for t in item["topics"])},
                "state": STATES, "freshness": FRESHNESS, "sort": SORTS,
                "archived": ("Include archived", "Active only"), "forks": ("Include forks", "Originals only"),
-               "view": ("Discover", "Search projects", "Insights", "List", "Delivery story"), "layout": ("Cards", "Table")}
+               "view": ("Discover", "Search projects", "Insights", "List", "Delivery story", "Network"),
+               "layout": ("Cards", "Table")}
     for key, values in options.items():
         if result[key] not in values: result[key] = DEFAULTS[key]
-    if result["list"] not in {x["id"] for x in index["lists"]}:
+    valid_ids = {x["id"] for x in index["lists"]}
+    if result["list"] not in valid_ids:
         result["list"] = ""
         if result["view"] == "List": result["view"] = "Discover"
+    if result["network_list"] not in valid_ids:
+        result["network_list"] = ""
     result["q"] = " ".join(result["q"].split())
     result["search_q"] = " ".join(result["search_q"].split())
     eligible = {x["id"] for x in index["lists"] if x.get("state") == "eligible" and x.get("public") is True}
