@@ -69,7 +69,10 @@ def test_published_repeated_params_story_and_identity():
     app.run()
     assert app.text_input(key="le_q").value == ""
     action(app, "Delivery story").click().run()
-    assert app.title[0].value == "Built in the open."
+    assert app.title[0].value == "Different agents. Deterministic workflow. Consistent delivery."
+    assert app.metric[0].label == "Delivery episodes"
+    assert app.metric[0].value == "3"
+    assert any("point-in-time snapshot" in x.value for x in app.caption)
     version = json.loads((ROOT / "package.json").read_text())["version"]
     index = json.loads((ROOT / "data/list-index.json").read_text(encoding="utf-8"))
     assert any(f"v{version}" in x.value and index["digest"][:12] in x.value for x in app.caption)

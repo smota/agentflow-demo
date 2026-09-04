@@ -11,6 +11,7 @@ from awesome.lists import load_index, validate_detail
 from awesome.insights import dashboard, eligible_lists, comparison
 from awesome.explore import (DEFAULTS, SORTS, STATES, FRESHNESS, normalize,
                              filtered, page_slice, share_url, content_filter, number)
+from awesome.delivery import render_delivery
 
 
 @st.cache_data(max_entries=2, show_spinner=False)
@@ -135,11 +136,7 @@ def render(root: Path, preview=False):
     navigation[1].button("Insights", on_click=go, args=("Insights",), width="stretch")
     navigation[2].button("Delivery story", on_click=go, args=("Delivery story",), width="stretch")
     if state["view"] == "Delivery story":
-        st.title("Built in the open.")
-        st.write("Follow the decisions, reviews, tests and releases behind this application.")
-        st.link_button("Read the demo story", "https://github.com/smota/agentflow-demo/blob/main/docs/demo/story.md")
-        st.link_button("Follow the 2.0 delivery", "https://github.com/smota/agentflow-demo/issues/16")
-        st.caption("Agent-simulated stakeholder reviews are advisory, not human approval. Local processing; read-only free hosting.")
+        render_delivery(root, index)
     elif state["view"] == "Insights":
         st.html('<div class="eyebrow">Catalogue intelligence</div><h1 class="hero">See the landscape.<br><em>Compare the curators.</em></h1><p class="intro">Understand what the Awesome community maintains, then compare a few lists side by side. Every measure comes from the current versioned snapshot—never an invented trend.</p>')
         filter_columns = st.columns([2, 1, 1, 1])
