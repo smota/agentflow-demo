@@ -232,3 +232,60 @@ On the real 6,377-list index, a cold validated load took 1.778 seconds, the comp
 dashboard aggregation took 0.026 seconds, and Python's measured peak was 251.3 MiB. The
 complete local suite passed 156 tests. These measurements describe the tested Windows
 process, not a promise about every Community Cloud cold start.
+
+## 13. Recovery is a protocol, not a stale lock timeout
+
+[Issue #24](https://github.com/smota/agentflow-demo/issues/24) exercises the latest
+installed Agentflow run service against an actual GitHub-backed run. Its immutable
+events live on the state-only `agentflow-state` branch; product code remains on
+`codex/recovery-stable-2`, and the hosted alpha remains a third, separately observed
+system. The [recovery contract](evidence/recovery-contract.json) makes those boundaries
+testable.
+
+The first collector attempt found a real harness defect: the delivery candidate named
+an npm lock that this Python application does not have. It was replaced with the actual
+uv-compiled `requirements.txt`. The run had already paused, so attempts to refreeze or
+verify while inactive were refused. A digest-confirmed recovery plan then observed the
+original process was gone and transferred generation 0 to a live generation-1 writer.
+The apply response was uncertain; read-back—not a blind retry—proved the resumed event
+had landed. Reusing the consumed plan and acting as generation 0 both failed with
+conflict exit code 4.
+
+The next check also failed honestly. All three JUnit tests passed, but the acceptance
+contract expected one aggregate assertion name while the collector exposed the three
+case names. Refreezing the corrected definition produced passing observation
+`af84febee3d44a8d5f79ae173fffa3df75dbed3ac78998b2c0b1e5bd14e6ce48`.
+The exact issue-projection plan was applied twice and reconciled to
+[one comment](https://github.com/smota/agentflow-demo/issues/24#issuecomment-5531638894).
+The [sanitized result](evidence/recovery-rc1.json) retains both the failed and passing
+observations.
+
+Fresh-context recovery was tested twice. The first ephemeral read-only Codex process
+recovered the issue, branch and commit but could not reach GitHub from its sandbox, so
+its partial result was rejected. After the durable state branch was fetched as an
+immutable remote-tracking ref, a second process—without conversation, memory, network
+or `.agent-runs`—reconstructed issue 24, exact product commit, current gate, recovery
+and rework sequence, passing observation, confirmed projection and next safe action.
+The checked [fresh-context report](evidence/fresh-context-rc1.json) records that result.
+
+The public alpha.3 dashboard supplied the visual baseline for the final candidate:
+
+![Public 2.0 Insights desktop baseline](images/v2-insights-public-desktop.png)
+
+A real 390-pixel capture then exposed a tight italic headline even though the document
+had no horizontal scroll. Review returned it to implementation; the emphasized phrase
+is now width-bounded and covered by a regression. The RC and stable screenshots are
+accepted only after their cold public deployments, not from this pre-release narrative.
+
+![Local 2.0.0-rc.1 dashboard after responsive rework](images/v2-rc1-local-desktop.jpg)
+
+![Local 2.0.0-rc.1 dashboard at 390 pixels](images/v2-rc1-local-mobile.jpg)
+
+These two images are the fresh local RC process used for exploratory acceptance. They
+show the corrected phrase and candidate footer, but are deliberately not labelled as
+public RC or stable deployment proof.
+
+This recovery remains cooperative host evidence. A local process ID does not authenticate
+a hostile machine, a fetched ref can become stale, a checkpoint cannot restore unpublished
+code, and neither a passing test nor a tag proves the public app. Commit, checks, tag,
+GitHub Release and hosted behavior stay separate through the final two release gates.

@@ -42,7 +42,7 @@ CSS = """<style>
 .list-card .numbers{font-size:.8rem;color:#173c35;margin-top:1rem}
 .list-card .fresh{font-size:.76rem;color:#53635e;margin-top:.5rem}
 a:focus-visible,button:focus-visible{outline:3px solid #bd7210!important;outline-offset:3px}
-@media(max-width:640px){.block-container{padding:3.5rem 1rem 2rem}.hero{font-size:2.6rem}.list-card{min-height:0}.list-card p{min-height:0}h1:not(.hero){font-size:1.9rem}
+@media(max-width:640px){.block-container{padding:3.5rem 1rem 2rem}.hero{font-size:clamp(2rem,10vw,2.35rem);overflow-wrap:anywhere}.hero em{display:inline-block;max-width:100%;overflow-wrap:anywhere}.list-card{min-height:0}.list-card p{min-height:0}h1:not(.hero){font-size:1.9rem}
 .st-key-list_metrics [data-testid="stColumn"],.st-key-discovery_metrics [data-testid="stColumn"],.st-key-insight_metrics [data-testid="stColumn"]{min-width:calc(50% - 1rem)!important;flex:1 1 calc(50% - 1rem)!important}
 [data-testid="stMetricValue"]{font-size:1.75rem}}
 </style>"""

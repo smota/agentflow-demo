@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "runId": "awesomeawesomeness-2-final",
+  "goal": "issue:24",
+  "source": {"kind":"github","repository":"smota/agentflow-demo","coordinationBranch":"agentflow-state"},
+  "recovery": {"initialGeneration":0,"replacementGeneration":1,"requiresCheckpoint":true,"requiresPause":true,"rejectsObsoleteWriter":true,"rejectsStalePlan":true},
+  "publication": {"issue":24,"attempts":2,"maximumCreatedComments":1,"requiresReconciliation":true},
+  "freshContext": {"conversationHistoryAllowed":false,"localScratchRequired":false,"requiredFields":["issue","branch","candidate","gate","findings","nextSafeAction"]},
+  "releaseObservations": ["commit","checks","tag","githubRelease","deployment"]
+}
