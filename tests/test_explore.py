@@ -128,7 +128,7 @@ def test_preview_repeated_params_table_and_empty_state(preview):
     app.text_input(key="le_q").set_value("zz-no-match-zz").run()
     assert any("No lists match" in x.value for x in app.info)
     button(app, "Delivery story").click().run()
-    assert app.title[0].value == "Built in the open."
+    assert app.title[0].value == "Different agents. Deterministic workflow. Consistent delivery."
     assert not app.exception
 
 
