@@ -289,3 +289,42 @@ This recovery remains cooperative host evidence. A local process ID does not aut
 a hostile machine, a fetched ref can become stale, a checkpoint cannot restore unpublished
 code, and neither a passing test nor a tag proves the public app. Commit, checks, tag,
 GitHub Release and hosted behavior stay separate through the final two release gates.
+
+## 14. The release candidate meets the public system
+
+Integration [PR #35](https://github.com/smota/agentflow-demo/pull/35) passed the PR-body,
+workflow and complete application checks before it was squash-merged to `development`.
+A main-based replay kept the repository's earlier squash histories from being mistaken
+for product differences. Its [RC promotion PR #36](https://github.com/smota/agentflow-demo/pull/36)
+passed the same three protected checks.
+
+The protected-`main` action then stopped at a real authority boundary: same-platform
+review was not independent human review. No alternate merge route was used. After the
+user explicitly approved that disclosed exception, PR #36 merged at
+`c8f563eb9d8f48fa7804b70659687b4c91b90c4d`. Lifecycle automation closed issue 24 at
+merge; the issue was reopened because release and hosted gates were still unfinished.
+
+The [2.0.0-rc.1 prerelease](https://github.com/smota/agentflow-demo/releases/tag/v2.0.0-rc.1)
+targets that exact commit. The first local release-closeout check returned a failure
+because the new tag had not been fetched; after explicit tag reconciliation, Git and
+GitHub agreed on the target, publication, title and release notes.
+
+Community Cloud then loaded the RC independently of local Streamlit. Public acceptance
+verified the `v2.0.0-rc.1` footer and data digest, 6,377 eligible lists, 8,373 candidates,
+the 100-star threshold, the 1,282,722-entry Insights dashboard and its accessible chart,
+plus `awesome-selfhosted/awesome-selfhosted` with 316,830 stars, 14,893 forks, 86
+categories, README-path freshness and 1,300 source-linked entries.
+
+One mobile screenshot initially appeared clipped and was returned for investigation.
+Measurement showed the headless browser had enforced a 492-pixel layout viewport and
+cropped it into a 390-pixel bitmap—the application itself had no overflow. A true CDP
+device override was therefore required. At exactly 390 by 844 pixels, both the outer
+page and embedded app reported `innerWidth = scrollWidth = 390`, no element crossed the
+viewport and the complete headline, navigation, metrics and 100-star threshold rendered.
+The invalid capture remains scratch evidence; only the measured viewport counts as the
+mobile gate.
+
+Stable 2.0.0 changes only release identity and this evidence narrative. It still requires
+its own integration checks, protected `main` promotion, exact tag/Release reconciliation,
+cold public footer check and clean-checkout audit. Those future facts are not claimed by
+this pre-promotion commit; the final issue receipt records them after they happen.
