@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "build-3",
+  "kind": "rollup",
+  "title": "Build 3 · Repeat",
+  "summary": "Apply the same discipline to a bounded change: identity links, integration PR #40, promotion PR #41, v2.0.1.",
+  "mergedAt": "2026-09-04T09:44:14+02:00",
+  "wave": "Build 3 · Repeat",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "issues": [
+      {
+        "number": 39,
+        "url": "https://github.com/smota/agentflow-demo/issues/39",
+        "relation": "refs"
+      }
+    ]
+  },
+  "verification": {},
+  "decisions": [
+    {
+      "label": "A bounded UI change breaks preview portability",
+      "observation": "Temporary preview roots could not resolve package-owned identity assets.",
+      "rule": "Preview and production must resolve the same bundled application assets.",
+      "result": "Asset resolution was separated from data roots; focused and full suites passed."
+    }
+  ],
+  "findings": [],
+  "followUps": [],
+  "children": [
+    "pr-40",
+    "pr-41"
+  ],
+  "evidence": [
+    {
+      "kind": "journal",
+      "system": "git",
+      "uri": "https://github.com/smota/agentflow-demo/blob/main/docs/demo/story.md",
+      "authority": "authoritative",
+      "relationship": "documents"
+    }
+  ]
+}

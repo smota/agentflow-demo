@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-82",
+  "kind": "pr",
+  "title": "Project vitality and trust signals",
+  "summary": "Epic E: vitality/trust signal computation (E1-E4).",
+  "mergedAt": "2026-09-04T20:09:01+02:00",
+  "wave": "Build 4",
+  "harness": {
+    "platform": "claude",
+    "executor": "claude-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "child-worktree",
+    "contextBoundary": "worktree"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 82,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/82",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 54,
+        "url": "https://github.com/smota/agentflow-demo/issues/54",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ]
+  },
+  "decisions": [],
+  "findings": [
+    {
+      "summary": "An O(n²) heading-sort in the alternatives pipeline took over 45 minutes and 2GB RAM on the full catalogue.",
+      "howFound": "Found by running the full pipeline against the complete catalogue instead of a small sample; fixed to sort once per heading."
+    }
+  ],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/82",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

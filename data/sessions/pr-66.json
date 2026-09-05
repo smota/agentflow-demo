@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-66",
+  "kind": "pr",
+  "title": "Versioned catalogue data contract",
+  "summary": "Epic C: schema, changelog, and consumer docs for a versioned catalogue data contract.",
+  "mergedAt": "2026-09-04T16:51:08+02:00",
+  "wave": "Build 4",
+  "harness": {
+    "platform": "claude",
+    "executor": "claude-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "child-worktree",
+    "contextBoundary": "worktree"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 66,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/66",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 49,
+        "url": "https://github.com/smota/agentflow-demo/issues/49",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ]
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/66",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

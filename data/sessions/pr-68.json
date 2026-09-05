@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-68",
+  "kind": "pr",
+  "title": "Community curation intake",
+  "summary": "Epic B: community curation intake; classified high-assurance for writing to public issues from anonymous content and SSRF-adjacent outbound checks.",
+  "mergedAt": "2026-09-04T18:36:11+02:00",
+  "wave": "Build 4",
+  "harness": {
+    "platform": "claude",
+    "executor": "claude-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "child-worktree",
+    "contextBoundary": "worktree"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "high-assurance",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "human",
+    "humanReviewRequired": true,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 68,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/68",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 48,
+        "url": "https://github.com/smota/agentflow-demo/issues/48",
+        "relation": "implements"
+      },
+      {
+        "number": 58,
+        "url": "https://github.com/smota/agentflow-demo/issues/58",
+        "relation": "refs"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ]
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [
+    67
+  ],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/68",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

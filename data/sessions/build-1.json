@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "build-1",
+  "kind": "rollup",
+  "title": "Build 1 · Establish",
+  "summary": "Establish a governed delivery path: role-owned work, signed handovers, issue-scoped branches, protected PRs, explicit release gates.",
+  "mergedAt": "2026-09-02T23:28:38+02:00",
+  "wave": "Build 1 · Establish",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "issues": [
+      {
+        "number": 7,
+        "url": "https://github.com/smota/agentflow-demo/issues/7",
+        "relation": "refs"
+      }
+    ]
+  },
+  "verification": {},
+  "decisions": [
+    {
+      "label": "Browser contradicts green tests",
+      "observation": "The exact Crates journey returned zero results in a long-running process.",
+      "rule": "Review evidence must agree with the user-visible acceptance case.",
+      "result": "Returned Review to Implementation; withdrew the claim; restarted and retested."
+    }
+  ],
+  "findings": [],
+  "followUps": [],
+  "children": [
+    "pr-3",
+    "pr-8",
+    "pr-10",
+    "pr-12",
+    "pr-14"
+  ],
+  "evidence": [
+    {
+      "kind": "journal",
+      "system": "git",
+      "uri": "https://github.com/smota/agentflow-demo/blob/main/docs/demo/story.md",
+      "authority": "authoritative",
+      "relationship": "documents"
+    }
+  ]
+}

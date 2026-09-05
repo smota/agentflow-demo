@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-19",
+  "kind": "pr",
+  "title": "Adopt pinned current Agentflow delivery contracts",
+  "summary": "Tooling increment adopting pinned Agentflow delivery contracts ahead of the v2 scale-out.",
+  "mergedAt": "2026-09-03T09:23:40+02:00",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 19,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/19",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 17,
+        "url": "https://github.com/smota/agentflow-demo/issues/17",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ],
+    "testsPassed": 98
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/19",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

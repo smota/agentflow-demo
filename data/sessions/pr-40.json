@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-40",
+  "kind": "pr",
+  "title": "Add application identity links",
+  "summary": "Persistent maintainer/AgentFlow identity links added; asset resolution separated from data roots after a preview-portability defect.",
+  "mergedAt": "2026-09-04T09:31:42+02:00",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 40,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/40",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 39,
+        "url": "https://github.com/smota/agentflow-demo/issues/39",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ]
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/40",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}
