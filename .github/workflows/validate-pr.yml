@@ -27,3 +27,8 @@ jobs:
           mkdir -p .agent-runs/ci
           printf '%s' "$PR_BODY" > .agent-runs/ci/pr-body.md
           node .tooling/agentflow-next/scripts/validate-pr-manifest.mjs --path .agent-runs/ci/pr-body.md
+      - name: Check session-record ledger contract
+        run: |
+          node scripts/validate-session-record.mjs --glob "data/sessions/*.json" \
+            --pr-number "${{ github.event.pull_request.number }}" \
+            --pr-body .agent-runs/ci/pr-body.md
