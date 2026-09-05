@@ -90,6 +90,35 @@ remain recoverable from Git history and release tags.
 The free Streamlit host reads these committed files only: no crawler, credentials,
 AI inference or database service runs there.
 
+## Unattended weekly execution
+
+`docs/adr/008-local-pipeline-scheduling.md` (Epic F/#51) decided the mechanism: Windows Task
+Scheduler, weekly, invoking one PowerShell wrapper. Epic G/#52 implements it:
+`tools/run_pipeline.ps1` (a thin invoker, kept deliberately small) calls `tools/run_pipeline.py`,
+which runs the full sequence above -- `discover -> enrich -> profiles -> stage -> publish` followed
+by `derive_projects stage -> publish`, then a final `validate` of each published artifact -- as the
+same `python -m tools.lists <command>` / `python -m tools.derive_projects <command>` subprocess
+calls documented above, so locking and checkpointing are reused unchanged.
+
+The one manual step above, reading and pasting `--expected-digest`, cannot happen unattended.
+`tools/run_pipeline.py` replaces it with an in-process gate, never a relaxed trust boundary: after
+`stage` prints a digest, the module re-reads the staged file(s) from disk, recomputes the digest
+independently, and re-runs the same validator `publish` itself would (`validate_index` /
+`validate_projects`, both already re-checking every referenced shard from bytes on disk) *before*
+`publish` is ever invoked. Publish only runs once that independent pass has already succeeded in
+this process. The first failing or mismatched step aborts every remaining step; because `publish` is
+never reached in that case, the previous published snapshot is left byte-for-byte untouched -- the
+same guarantee a partial/interrupted manual run already had.
+
+Every invocation writes a structured `run-log.json` and a companion `run-log.md` under
+`.agent-runs/pipeline-runs/` (start/end timestamps, per-step status/counts/digest, and a failure
+detail when a step fails), plus a full stdout/stderr transcript under
+`.agent-runs/pipeline-runs/transcripts/` written by the PowerShell wrapper itself -- reviewable the
+next morning without having watched the run. `tools.prune_list_shards` is intentionally not part of
+this sequence: its own contract requires reviewing a dry run before `--apply`, which stays a
+separate, manually-run command. The exact Task Scheduler registration command is in the PR that
+implemented this section (#52) and in `docs/adr/008-local-pipeline-scheduling.md`'s Consequences.
+
 ## Early snapshot versus completed enrichment
 
 The first accepted list-first generation is intentionally partial: 8,373 discovered
@@ -116,3 +145,122 @@ At every promotion, validate the whole generation locally. The hosted app lazily
 validates the selected shard against the index's repository name, revision, README
 path and SHA-256, and binds category/entry source links to that exact source. A JSON
 digest alone does not make arbitrary links or inconsistent provenance acceptable.
+
+## Project-level dedup structure (`data/project-index.json`)
+
+A sibling offline stage, `tools/derive_projects.py`, reads the published `list-index.json` and its
+`eligible` detail shards and deduplicates every parsed entry by canonical URL, producing one record
+per distinct project with the set of eligible lists that cite it. Run it the same way as the list
+pipeline, from the demo root:
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_projects stage
+# Review counts and the exact staged digest first:
+.venv/Scripts/python.exe -m tools.derive_projects publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_projects validate
+```
+
+Sharded the same way `data/lists/` is, and for the same reason: at this catalogue's scale
+(932,511 distinct projects in the current generation) even a summary-only row per project would
+exceed GitHub's 100 MB single-file limit, so `data/project-index.json` itself stays tiny — counts
+plus a `prefix -> shard digest` map (256 buckets, keyed by the first two hex characters of each
+project's id) — and every actual project field lives in `data/projects/<2-hex-prefix>.json`. A
+sha256-derived id is close to uniformly distributed, so no shard concentrates a meaningful share of
+the total (observed: 256 shards, largest ~3.2 MB).
+
+Each project record carries `list_count` (the number of **distinct** eligible lists citing the URL)
+separately from `occurrence_count` (the raw number of parsed entries, which can exceed `list_count`
+when one list cites the same URL more than once — for example under two categories). Collapsing
+that distinction would silently let one list's internal repetition look like cross-list agreement.
+Every occurrence keeps that citing list's own title/category/source link — never a merged or
+invented description.
+
+`list_count`/`occurrence_count` are **factual counts, not a validated trust or quality signal.** A
+sampled validation of whether cross-list co-occurrence reflects independent curator judgment found
+it does not, predominantly: of 60 sampled projects with `list_count >= 2` (30 highest-occurrence,
+30 stratified-random), 54 (90%) showed copy-lineage signals (near-identical entry text across lists,
+including same-owner sibling lists and forked/derivative lists) and only 6 (10%) showed genuinely
+independent-curation signals. This holds even when controlling for the confound that extremely
+famous, short-named projects are expected to have identical citation text regardless of copying
+(a harder longer-title subset, less subject to that confound, showed the same 90/10 split). This
+structure is therefore published as a factual cross-reference only; it is not presented in the app
+as a consensus/trust cue, and any future UI use of `list_count` for ranking must account for this
+finding rather than treat raw occurrence count as validated agreement.
+
+## Vitality and trust signals (Epic E: liveness, usage, alternatives)
+
+Three sibling offline stages join the project dedup structure above with factual, disclosed
+signals — never a synthesized rating (`docs/demo/list-data.md`'s own no-invented-signal policy
+applies identically here). Each publishes a tiny top index (counts + `prefix -> shard digest` map)
+plus `<artifact>/<2-hex-prefix>.json` shards, sharded and keyed by the same project id
+`data/projects/` uses, so a UI can resolve all four artifacts for one project with one prefix.
+
+### Liveness (`data/liveness-index.json`, `tools/derive_liveness.py`) — issue #71
+
+The gate signal, shown with the most visual prominence of any Epic E signal on the Project profile
+view: last commit date (GitHub's own `pushed_at` — a push to any branch, disclosed as such, not
+claimed to be a verified default-branch HEAD commit), release cadence (median interval across up to
+the 5 most recently published releases; `null`, not zero, below two observed releases), and
+archived status. Only published for `github.com/<owner>/<repo>` project URLs, via the already-
+authenticated `gh api` (the operator's own CLI login, not a new credential). Because this calls a
+rate-limited API across a 900k+ project catalogue, one run intentionally covers a bounded,
+checkpointed batch — prioritized by `list_count` (highest cross-list visibility first) — and merges
+onto whatever is already published rather than replacing it, growing incrementally across repeated
+runs (see Epic G/#52 for unattended scheduling of future runs):
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_liveness build --run-id <id> --batch-size 300
+.venv/Scripts/python.exe -m tools.derive_liveness publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_liveness validate
+```
+
+### Real usage (`data/usage-index.json`, `tools/derive_usage.py`) — issue #72
+
+Package-registry download counts, distinct from and never blended with stars or `list_count`.
+Public, unauthenticated registries only, per the maintainer's no-new-credentials constraint: npm
+(`registry.npmjs.org` + `api.npmjs.org`) and PyPI (`pypi.org` + `pypistats.org`) are accepted only
+when the registry's own metadata (`repository.url`, `project_urls`/`home_page`) cross-references
+back to the candidate GitHub `owner/repo`; Docker Hub (`hub.docker.com` public v2 API) has no such
+cross-check field, so it is accepted on a weaker `namespace/name == owner/repo` heuristic and always
+labelled as such in `matched_via` — a false "usage" record would be worse than a missing one.
+GitHub's own dependents/"used by" count was investigated and found to have no public, unauthenticated,
+non-scraping API (its REST/GraphQL dependency-graph surface describes a repository's own declared
+dependencies, not the reverse); this is a disclosed scope limit, not a silent omission — see #72.
+Same bounded-batch, checkpointed, incremental-merge discipline as liveness:
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_usage build --run-id <id> --batch-size 150
+.venv/Scripts/python.exe -m tools.derive_usage publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_usage validate
+```
+
+### See alternatives (`data/alternatives-index.json`, `tools/derive_alternatives.py`) — issue #73
+
+Reuses #69's exact inputs (`list-index.json` + eligible detail shards) with no new crawling: groups
+every parsed entry by `(list_id, category)` — the original heading a curator filed it under — so a
+project's alternatives are the other distinct projects a real curator placed under the same heading,
+disclosed per heading it actually occupies (never merged into one generic "similar projects" list).
+A project appearing under different headings in different lists gets separate alternative sets per
+heading. Each heading caps at 3 alternatives (`MAX_ALTERNATIVES_PER_HEADING` — chosen after an
+initial full-catalogue run at the naive design's default cap of 20 produced a ~4 GB artifact;
+capping tighter, and dropping each alternative's own `url` in favor of resolving it by id against
+the already-published `data/projects/` shard, keeps the published shards in the same order of
+magnitude as `data/projects/`), always disclosed via `total_alternatives`/`truncated` rather than a
+silent drop. Pure computation, no network calls and no rate limit, so — unlike liveness/usage — one
+run covers the full published catalogue:
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_alternatives stage
+.venv/Scripts/python.exe -m tools.derive_alternatives publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_alternatives validate
+```
+
+## Data contract for third parties
+
+`data/list-index.json` and `data/catalogue.json` are also a published, versioned data contract, not
+only this app's internal state: `../consuming-catalogue-data.md` shows an external consumer how to
+fetch and validate the committed snapshot directly from `raw.githubusercontent.com` with no new
+endpoint and no credentials, `../../schemas/list-index.schema.json` and
+`../../schemas/catalogue.schema.json` are the formal JSON Schemas for each file, and
+`../data-schema-changelog.md` tracks the data *shape's* own semantic version — separate from both
+`package.json`'s app version and each file's internal `format_version` guard.

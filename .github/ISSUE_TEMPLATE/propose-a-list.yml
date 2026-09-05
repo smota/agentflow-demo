@@ -1,0 +1,39 @@
+name: Propose a list
+description: Suggest an awesome-list the catalogue is missing.
+title: "feat: propose list — "
+labels: ["intake:propose-list", "feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a list! No account beyond GitHub is required. This issue is picked up
+        automatically by a batch process that runs your suggestion through the same deterministic
+        eligibility rules used for every other list in the catalogue (public repository, curated-list
+        intent, at least 100 observed stars, at least three distinct linked resources). You will get a
+        comment here explaining the outcome — eligible suggestions are queued for the next publish,
+        ineligible ones are closed with the specific reason, and genuinely ambiguous ones stay open for
+        a maintainer to look at.
+  - type: input
+    id: list-name
+    attributes:
+      label: List name
+      description: The name of the awesome-list (repository name is fine).
+      placeholder: e.g. sindresorhus/awesome
+    validations:
+      required: true
+  - type: input
+    id: list-url
+    attributes:
+      label: List URL
+      description: Link to the list's GitHub repository (must be a github.com repository URL).
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why does this list belong in the catalogue? What does it curate?
+      placeholder: This is a curated list of ... with ... entries, maintained since ...
+    validations:
+      required: true

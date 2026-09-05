@@ -1,0 +1,41 @@
+name: Flag an item
+description: Report a duplicate, dead link, or miscategorized entry in the catalogue.
+title: "fix: flag item — "
+labels: ["intake:flag-item", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for flagging this! No account beyond GitHub is required. This issue is picked up
+        automatically by a batch process that checks it against the published catalogue: duplicates
+        are checked by exact URL match, dead links by a reachability check, and miscategorization by
+        recomputing the same deterministic topic rules used to publish every entry. You will get a
+        comment here explaining the outcome — confirmable flags are resolved and closed automatically,
+        and anything the automation cannot confirm on its own stays open for a maintainer to look at.
+  - type: dropdown
+    id: flag-type
+    attributes:
+      label: Flag type
+      description: What's wrong with this entry?
+      options:
+        - Duplicate
+        - Dead link
+        - Miscategorized
+    validations:
+      required: true
+  - type: input
+    id: entry-url
+    attributes:
+      label: Entry URL
+      description: Link to the catalogue entry, list, or repository this flag is about.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything else that helps confirm the flag (e.g. what it's a duplicate of, what the correct category should be).
+      placeholder: Optional additional context.
+    validations:
+      required: false

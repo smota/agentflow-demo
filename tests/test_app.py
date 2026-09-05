@@ -80,6 +80,30 @@ def test_published_repeated_params_story_and_identity():
     assert not app.exception
 
 
+def test_project_profile_reachable_from_list_and_shows_liveness_gate():
+    app = AppTest.from_file(ROOT / "app.py", default_timeout=30)
+    app.query_params.update({"view": "List", "list": "36633370"})
+    app.run()
+    assert not app.exception
+    picker = next(sb for sb in app.selectbox if sb.key and sb.key.startswith("profile_pick_"))
+    first_option = picker.options[0]
+    picker.select(first_option).run()
+    action(app, "View project profile ↗").click().run()
+    assert not app.exception
+    assert app.title[0].value == first_option
+    subheaders = [s.value for s in app.subheader]
+    assert "Real usage" in subheaders and "See alternatives" in subheaders
+    assert any("Cited by" in c.value for c in app.caption)
+
+
+def test_project_profile_unknown_id_shows_explicit_not_available_state():
+    app = AppTest.from_file(ROOT / "app.py", default_timeout=30)
+    app.query_params.update({"view": "Project", "project": "0" * 20})
+    app.run()
+    assert not app.exception
+    assert any("not available" in e.value for e in app.error)
+
+
 def test_identity_footer_uses_local_brand_assets_and_safe_external_links():
     from awesome.list_ui import identity_footer
 
