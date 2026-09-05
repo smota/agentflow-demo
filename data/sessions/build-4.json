@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "build-4",
+  "kind": "rollup",
+  "title": "Build 4 · From lists to intelligence",
+  "summary": "Eight parallel epics, an evidence-driven redesign, and a corrected agent boundary — issues #47-#54, Wave 3.",
+  "mergedAt": "2026-09-05T00:06:58+02:00",
+  "wave": "Build 4 · From lists to intelligence",
+  "harness": {
+    "platform": "claude",
+    "executor": "claude-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "high-assurance",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "human",
+    "humanReviewRequired": true,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "issues": [
+      {
+        "number": 47,
+        "url": "https://github.com/smota/agentflow-demo/issues/47",
+        "relation": "refs"
+      },
+      {
+        "number": 48,
+        "url": "https://github.com/smota/agentflow-demo/issues/48",
+        "relation": "refs"
+      },
+      {
+        "number": 49,
+        "url": "https://github.com/smota/agentflow-demo/issues/49",
+        "relation": "refs"
+      },
+      {
+        "number": 50,
+        "url": "https://github.com/smota/agentflow-demo/issues/50",
+        "relation": "refs"
+      },
+      {
+        "number": 51,
+        "url": "https://github.com/smota/agentflow-demo/issues/51",
+        "relation": "refs"
+      },
+      {
+        "number": 52,
+        "url": "https://github.com/smota/agentflow-demo/issues/52",
+        "relation": "refs"
+      },
+      {
+        "number": 53,
+        "url": "https://github.com/smota/agentflow-demo/issues/53",
+        "relation": "refs"
+      },
+      {
+        "number": 54,
+        "url": "https://github.com/smota/agentflow-demo/issues/54",
+        "relation": "refs"
+      }
+    ]
+  },
+  "verification": {},
+  "decisions": [
+    {
+      "label": "A validation spike contradicts the planned design",
+      "observation": "A sampling spike found 90% of high cross-list co-occurrence was copy-lineage between related lists, not independent curation — the planned trust signal for cross-list search.",
+      "rule": "A gating spike's finding changes downstream scope; it is not optional evidence to route around.",
+      "result": "Cross-list search was redesigned before implementation: citation count became disclosed provenance, never a trust score; an independent-citation count reused the spike's own copy-lineage detector instead."
+    },
+    {
+      "label": "A subagent correctly refuses an unverifiable authorization",
+      "observation": "A background subagent, isolated in its own worktree, declined to create issues, push, or merge — it had no way to independently verify the human authorization a parent session claimed on its behalf.",
+      "rule": "Delegated authority must be exercised by the party that actually holds a verified authorization chain, not asserted into a context that cannot check it.",
+      "result": "Execution was restructured: subagents draft and commit locally only; the orchestrating session — which holds the real, chat-verified authorization — performs every GitHub-facing action itself."
+    },
+    {
+      "label": "Autonomous execution still stops for a real human gate",
+      "observation": "Two stories (community-intake writing to public issues from anonymous content; unattended auto-publish of catalogue data) were classified high-assurance by the Architect phase.",
+      "rule": "High-assurance work requires actual human review before merge; self-review is forbidden outright at that profile, regardless of any standing autonomy grant.",
+      "result": "Both pull requests opened and passed CI, then waited; the maintainer reviewed and merged each one directly."
+    }
+  ],
+  "findings": [],
+  "followUps": [
+    79
+  ],
+  "children": [
+    "pr-63",
+    "pr-66",
+    "pr-69",
+    "pr-80",
+    "pr-68",
+    "pr-81",
+    "pr-87",
+    "pr-82",
+    "pr-91",
+    "pr-93"
+  ],
+  "evidence": [
+    {
+      "kind": "journal",
+      "system": "git",
+      "uri": "https://github.com/smota/agentflow-demo/blob/main/docs/demo/wave3.md",
+      "authority": "authoritative",
+      "relationship": "documents"
+    }
+  ]
+}

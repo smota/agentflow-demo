@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-41",
+  "kind": "pr",
+  "title": "Publish AwesomeAwesomeness 2.0.1",
+  "summary": "Promotion PR publishing v2.0.1 to main.",
+  "mergedAt": "2026-09-04T09:44:14+02:00",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 41,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/41",
+    "targetBranch": "main",
+    "issues": [
+      {
+        "number": 39,
+        "url": "https://github.com/smota/agentflow-demo/issues/39",
+        "relation": "refs"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ],
+    "testsPassed": 158
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/41",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

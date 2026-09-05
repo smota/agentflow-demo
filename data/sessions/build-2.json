@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "build-2",
+  "kind": "rollup",
+  "title": "Build 2 · Scale & recover",
+  "summary": "Scale the product without losing delivery state across a fresh-context recovery.",
+  "mergedAt": "2026-09-04T08:35:40+02:00",
+  "wave": "Build 2 · Scale & recover",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "issues": [
+      {
+        "number": 24,
+        "url": "https://github.com/smota/agentflow-demo/issues/24",
+        "relation": "refs"
+      },
+      {
+        "number": 16,
+        "url": "https://github.com/smota/agentflow-demo/issues/16",
+        "relation": "refs"
+      }
+    ]
+  },
+  "verification": {},
+  "decisions": [
+    {
+      "label": "A consumed plan is reused",
+      "observation": "The previously confirmed recovery intention was submitted again.",
+      "rule": "A digest-bound plan is single-use and revision-bound.",
+      "result": "Rejected with conflict exit code 4."
+    },
+    {
+      "label": "The previous writer acts after transfer",
+      "observation": "Generation 0 attempted to mutate state after generation 1 took ownership.",
+      "rule": "Only the active owner generation may write.",
+      "result": "Rejected with conflict exit code 4."
+    },
+    {
+      "label": "A write returns an uncertain response",
+      "observation": "The resume apply response did not establish whether the event landed.",
+      "rule": "Inspect durable state before retrying an external mutation.",
+      "result": "Read-back confirmed the event; no duplicate mutation was issued."
+    }
+  ],
+  "findings": [],
+  "followUps": [],
+  "children": [
+    "pr-19",
+    "pr-36",
+    "pr-38"
+  ],
+  "evidence": [
+    {
+      "kind": "journal",
+      "system": "git",
+      "uri": "https://github.com/smota/agentflow-demo/blob/main/docs/demo/wave2.md",
+      "authority": "authoritative",
+      "relationship": "documents"
+    }
+  ]
+}

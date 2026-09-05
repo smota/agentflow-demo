@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-63",
+  "kind": "pr",
+  "title": "Accept ADR for local pipeline scheduling mechanism",
+  "summary": "Epic F: architecture decision record accepted for unattended local pipeline scheduling.",
+  "mergedAt": "2026-09-04T16:34:30+02:00",
+  "wave": "Build 4",
+  "harness": {
+    "platform": "claude",
+    "executor": "claude-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "child-worktree",
+    "contextBoundary": "worktree"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 63,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/63",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 51,
+        "url": "https://github.com/smota/agentflow-demo/issues/51",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ]
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/63",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

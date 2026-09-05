@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-93",
+  "kind": "pr",
+  "title": "Publish live delivery story for Wave 3 (Epics A-H)",
+  "summary": "Documentation PR publishing this wave's delivery story update (issue #92).",
+  "mergedAt": "2026-09-05T00:06:58+02:00",
+  "wave": "Build 4",
+  "harness": {
+    "platform": "claude",
+    "executor": "claude-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 93,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/93",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 92,
+        "url": "https://github.com/smota/agentflow-demo/issues/92",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ]
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/93",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

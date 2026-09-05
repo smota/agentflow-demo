@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-12",
+  "kind": "pr",
+  "title": "Checkpoint local refresh and reject stale recovery",
+  "summary": "Recovery protocol (checkpoint/pause/resume, stale-plan rejection) merged and published as v0.3.0.",
+  "mergedAt": "2026-09-02T23:01:11+02:00",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 12,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/12",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 6,
+        "url": "https://github.com/smota/agentflow-demo/issues/6",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ],
+    "testsPassed": 67
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/12",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

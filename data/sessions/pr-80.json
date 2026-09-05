@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-80",
+  "kind": "pr",
+  "title": "Unattended local pipeline execution",
+  "summary": "Epic G: unattended local pipeline execution; classified high-assurance for auto-publish of catalogue data the live app reads directly.",
+  "mergedAt": "2026-09-04T18:33:05+02:00",
+  "wave": "Build 4",
+  "harness": {
+    "platform": "claude",
+    "executor": "claude-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "child-worktree",
+    "contextBoundary": "worktree"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "high-assurance",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "human",
+    "humanReviewRequired": true,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 80,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/80",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 52,
+        "url": "https://github.com/smota/agentflow-demo/issues/52",
+        "relation": "implements"
+      },
+      {
+        "number": 77,
+        "url": "https://github.com/smota/agentflow-demo/issues/77",
+        "relation": "refs"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ]
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/80",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}
