@@ -169,7 +169,7 @@ def load_project_profile(directory: Path, pid: str) -> dict | None:
 
 
 CSS = """<style>
-.block-container{max-width:1200px;padding-top:3rem;padding-bottom:3rem}
+.block-container{max-width:1200px;padding-top:3.5rem;padding-bottom:3rem}
 .brand{font-size:1.1rem;font-weight:800;letter-spacing:-.04em;overflow-wrap:anywhere}
 .brand span{color:#087f73;margin-right:.5rem}
 .eyebrow{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#087f73;font-weight:800;margin-top:1.2rem}

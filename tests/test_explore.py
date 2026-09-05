@@ -17,6 +17,14 @@ def test_mobile_hero_emphasis_is_width_bounded():
     assert ".hero em{display:inline-block;max-width:100%;overflow-wrap:anywhere}" in mobile
 
 
+def test_desktop_header_clears_streamlit_chrome_without_changing_mobile_spacing():
+    from awesome.list_ui import CSS
+
+    desktop, mobile = CSS.split("@media(max-width:640px)", 1)
+    assert ".block-container{max-width:1200px;padding-top:3.5rem;padding-bottom:3rem}" in desktop
+    assert ".block-container{padding:3.5rem 1rem 2rem}" in mobile
+
+
 def fixture_index():
     records, details = [], {}
     for i in range(15):
