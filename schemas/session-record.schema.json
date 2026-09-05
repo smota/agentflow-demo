@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agentflow.dev/schemas/session-record.schema.json",
+  "title": "AgentFlow Session Record",
+  "description": "One record per merged PR (kind: pr), or one record per multi-PR orchestration run (kind: rollup) pointing at its child PR records via `children[]`. Every field already exists because AGENTS.md already requires the PR's own `## Agent review` / `## Implemented issues` / `## Role attribution matrix` sections to carry it -- this schema does not invent new authoring burden, it gives the existing evidence a portable shape. See docs/evidence-contracts.md and docs/execution-targets.md for the vocabulary this schema reuses rather than re-derives.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "kind",
+    "title",
+    "summary",
+    "mergedAt",
+    "harness",
+    "sdlc",
+    "repository",
+    "verification"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable record id, e.g. `pr-87` for a PR record or `build-4` for a rollup."
+    },
+    "kind": { "enum": ["pr", "rollup", "release"] },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "mergedAt": { "type": "string", "format": "date-time" },
+    "wave": {
+      "type": "string",
+      "description": "Optional editorial grouping label (see data/delivery-story.json); purely cosmetic, never load-bearing for validation."
+    },
+    "harness": {
+      "type": "object",
+      "description": "Shaped exactly like a transition-envelope `provenance` object (schemas/transition-envelope.schema.json) plus optional model/contextBoundary. `platform` is validated against manifests/runtime-platforms.json and `executor`/`transport`/`delegationBoundary` against docs/execution-targets.md's enums by the validator script, not baked in here as a closed schema enum, so a new registered platform never requires a schema change.",
+      "required": ["platform", "executor", "transport", "delegationBoundary"],
+      "properties": {
+        "platform": { "type": "string", "minLength": 1 },
+        "executor": { "type": "string", "minLength": 1 },
+        "transport": { "type": "string", "minLength": 1 },
+        "delegationBoundary": { "type": "string", "minLength": 1 },
+        "model": { "type": "string" },
+        "contextBoundary": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "sdlc": {
+      "type": "object",
+      "required": ["mode", "workflowProfile", "phasesRun", "review", "humanReviewRequired", "mergeOwner"],
+      "properties": {
+        "mode": { "enum": ["single-agent", "multi-agent"] },
+        "workflowProfile": { "enum": ["bounded", "standard", "high-assurance", "exploratory"] },
+        "phasesRun": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "description": "Canonical role slugs (schemas/role-catalog.schema.json / docs/evidence-contracts.md canonical vocabulary)."
+        },
+        "review": { "enum": ["self-review", "independent", "human"] },
+        "selfReviewDisclosure": { "type": "string" },
+        "humanReviewRequired": { "type": "boolean" },
+        "mergeOwner": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "repository": {
+      "type": "object",
+      "required": ["issues"],
+      "description": "prNumber/prUrl/targetBranch are required for kind: pr (one merged PR has exactly one identity); a kind: rollup record instead points at its own child PR records via the top-level `children[]` and may omit them -- see the top-level allOf below.",
+      "properties": {
+        "prNumber": { "type": "integer", "minimum": 1 },
+        "prUrl": { "type": "string", "minLength": 1 },
+        "mergeCommit": { "type": "string" },
+        "targetBranch": { "type": "string", "minLength": 1 },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["number", "url", "relation"],
+            "properties": {
+              "number": { "type": "integer", "minimum": 1 },
+              "url": { "type": "string", "minLength": 1 },
+              "relation": { "enum": ["implements", "closes", "refs"] }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "testsPassed": { "type": "integer", "minimum": 0 },
+        "testsSkipped": { "type": "integer", "minimum": 0 },
+        "validators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "result"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "result": { "enum": ["passed", "failed", "not-run-with-reason"] }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "observation", "rule", "result"],
+        "properties": {
+          "label": { "type": "string", "minLength": 1 },
+          "observation": { "type": "string", "minLength": 1 },
+          "rule": { "type": "string", "minLength": 1 },
+          "result": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": true
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["summary", "howFound"],
+        "properties": {
+          "summary": { "type": "string", "minLength": 1 },
+          "howFound": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": true
+      }
+    },
+    "followUps": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 }
+    },
+    "children": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Other session-record `id` values; only meaningful for kind: rollup."
+    },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "artifact-ref.schema.json" }
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "pr" } } },
+      "then": {
+        "properties": {
+          "repository": { "required": ["prNumber", "prUrl", "targetBranch", "issues"] }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "kind": { "enum": ["rollup", "release"] } } },
+      "then": {
+        "required": ["children"],
+        "properties": { "children": { "minItems": 1 } }
+      }
+    }
+  ]
+}

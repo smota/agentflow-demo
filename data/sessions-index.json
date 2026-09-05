@@ -1,0 +1,720 @@
+{
+  "formatVersion": 1,
+  "generatedAt": "2026-09-05T07:21:53.484806+00:00",
+  "counts": {
+    "sessions": 24,
+    "pr": 20,
+    "rollup": 4,
+    "release": 0
+  },
+  "timeline": [
+    {
+      "id": "pr-3",
+      "kind": "pr",
+      "title": "Establish governed demo foundation",
+      "summary": "Foundation branch merged: repository baseline and governed workflow scaffolding established.",
+      "mergedAt": "2026-09-02T21:46:21+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 3,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/3",
+      "issues": [
+        {
+          "number": 2,
+          "url": "https://github.com/smota/agentflow-demo/issues/2",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-8",
+      "kind": "pr",
+      "title": "Build a locally curated searchable preview",
+      "summary": "Early preview merged and published as v0.1.0.",
+      "mergedAt": "2026-09-02T22:11:41+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 8,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/8",
+      "issues": [
+        {
+          "number": 4,
+          "url": "https://github.com/smota/agentflow-demo/issues/4",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-10",
+      "kind": "pr",
+      "title": "Refine discovery through UX council",
+      "summary": "UX-council-refined discovery experience merged and published as v0.2.0.",
+      "mergedAt": "2026-09-02T22:43:38+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 10,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/10",
+      "issues": [
+        {
+          "number": 5,
+          "url": "https://github.com/smota/agentflow-demo/issues/5",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-12",
+      "kind": "pr",
+      "title": "Checkpoint local refresh and reject stale recovery",
+      "summary": "Recovery protocol (checkpoint/pause/resume, stale-plan rejection) merged and published as v0.3.0.",
+      "mergedAt": "2026-09-02T23:01:11+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 12,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/12",
+      "issues": [
+        {
+          "number": 6,
+          "url": "https://github.com/smota/agentflow-demo/issues/6",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "build-1",
+      "kind": "rollup",
+      "title": "Build 1 · Establish",
+      "summary": "Establish a governed delivery path: role-owned work, signed handovers, issue-scoped branches, protected PRs, explicit release gates.",
+      "mergedAt": "2026-09-02T23:28:38+02:00",
+      "wave": "Build 1 · Establish",
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": null,
+      "prUrl": null,
+      "issues": [
+        {
+          "number": 7,
+          "url": "https://github.com/smota/agentflow-demo/issues/7",
+          "relation": "refs"
+        }
+      ],
+      "children": [
+        "pr-3",
+        "pr-8",
+        "pr-10",
+        "pr-12",
+        "pr-14"
+      ]
+    },
+    {
+      "id": "pr-14",
+      "kind": "pr",
+      "title": "Complete council acceptance and candidate evidence",
+      "summary": "Acceptance council evidence completed; browser-contradicts-tests defect found and repaired before v1.0.0 stable release.",
+      "mergedAt": "2026-09-02T23:28:38+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 14,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/14",
+      "issues": [
+        {
+          "number": 7,
+          "url": "https://github.com/smota/agentflow-demo/issues/7",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-19",
+      "kind": "pr",
+      "title": "Adopt pinned current Agentflow delivery contracts",
+      "summary": "Tooling increment adopting pinned Agentflow delivery contracts ahead of the v2 scale-out.",
+      "mergedAt": "2026-09-03T09:23:40+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 19,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/19",
+      "issues": [
+        {
+          "number": 17,
+          "url": "https://github.com/smota/agentflow-demo/issues/17",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-36",
+      "kind": "pr",
+      "title": "Prepare recoverable AwesomeAwesomeness 2.0 RC",
+      "summary": "Release-candidate promotion PR for v2.0.0-rc.1; disclosed exception approved by the maintainer.",
+      "mergedAt": "2026-09-04T08:10:03+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 36,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/36",
+      "issues": [
+        {
+          "number": 24,
+          "url": "https://github.com/smota/agentflow-demo/issues/24",
+          "relation": "refs"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "build-2",
+      "kind": "rollup",
+      "title": "Build 2 · Scale & recover",
+      "summary": "Scale the product without losing delivery state across a fresh-context recovery.",
+      "mergedAt": "2026-09-04T08:35:40+02:00",
+      "wave": "Build 2 · Scale & recover",
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": null,
+      "prUrl": null,
+      "issues": [
+        {
+          "number": 24,
+          "url": "https://github.com/smota/agentflow-demo/issues/24",
+          "relation": "refs"
+        },
+        {
+          "number": 16,
+          "url": "https://github.com/smota/agentflow-demo/issues/16",
+          "relation": "refs"
+        }
+      ],
+      "children": [
+        "pr-19",
+        "pr-36",
+        "pr-38"
+      ]
+    },
+    {
+      "id": "pr-38",
+      "kind": "pr",
+      "title": "Prepare AwesomeAwesomeness 2.0 stable",
+      "summary": "Stable v2.0.0 promotion to main after fresh-context recovery evidence and full acceptance.",
+      "mergedAt": "2026-09-04T08:35:40+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 38,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/38",
+      "issues": [
+        {
+          "number": 24,
+          "url": "https://github.com/smota/agentflow-demo/issues/24",
+          "relation": "closes"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-40",
+      "kind": "pr",
+      "title": "Add application identity links",
+      "summary": "Persistent maintainer/AgentFlow identity links added; asset resolution separated from data roots after a preview-portability defect.",
+      "mergedAt": "2026-09-04T09:31:42+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 40,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/40",
+      "issues": [
+        {
+          "number": 39,
+          "url": "https://github.com/smota/agentflow-demo/issues/39",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "build-3",
+      "kind": "rollup",
+      "title": "Build 3 · Repeat",
+      "summary": "Apply the same discipline to a bounded change: identity links, integration PR #40, promotion PR #41, v2.0.1.",
+      "mergedAt": "2026-09-04T09:44:14+02:00",
+      "wave": "Build 3 · Repeat",
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": null,
+      "prUrl": null,
+      "issues": [
+        {
+          "number": 39,
+          "url": "https://github.com/smota/agentflow-demo/issues/39",
+          "relation": "refs"
+        }
+      ],
+      "children": [
+        "pr-40",
+        "pr-41"
+      ]
+    },
+    {
+      "id": "pr-41",
+      "kind": "pr",
+      "title": "Publish AwesomeAwesomeness 2.0.1",
+      "summary": "Promotion PR publishing v2.0.1 to main.",
+      "mergedAt": "2026-09-04T09:44:14+02:00",
+      "wave": null,
+      "platform": "codex",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 41,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/41",
+      "issues": [
+        {
+          "number": 39,
+          "url": "https://github.com/smota/agentflow-demo/issues/39",
+          "relation": "refs"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-63",
+      "kind": "pr",
+      "title": "Accept ADR for local pipeline scheduling mechanism",
+      "summary": "Epic F: architecture decision record accepted for unattended local pipeline scheduling.",
+      "mergedAt": "2026-09-04T16:34:30+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 63,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/63",
+      "issues": [
+        {
+          "number": 51,
+          "url": "https://github.com/smota/agentflow-demo/issues/51",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-66",
+      "kind": "pr",
+      "title": "Versioned catalogue data contract",
+      "summary": "Epic C: schema, changelog, and consumer docs for a versioned catalogue data contract.",
+      "mergedAt": "2026-09-04T16:51:08+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 66,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/66",
+      "issues": [
+        {
+          "number": 49,
+          "url": "https://github.com/smota/agentflow-demo/issues/49",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-69",
+      "kind": "pr",
+      "title": "Cross-list project dedup structure + co-occurrence validation",
+      "summary": "Epic A1/A2: project dedup structure and copy-lineage co-occurrence validation spike.",
+      "mergedAt": "2026-09-04T17:53:51+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 69,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/69",
+      "issues": [
+        {
+          "number": 47,
+          "url": "https://github.com/smota/agentflow-demo/issues/47",
+          "relation": "implements"
+        },
+        {
+          "number": 65,
+          "url": "https://github.com/smota/agentflow-demo/issues/65",
+          "relation": "refs"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-80",
+      "kind": "pr",
+      "title": "Unattended local pipeline execution",
+      "summary": "Epic G: unattended local pipeline execution; classified high-assurance for auto-publish of catalogue data the live app reads directly.",
+      "mergedAt": "2026-09-04T18:33:05+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "high-assurance",
+      "mode": "single-agent",
+      "humanReviewRequired": true,
+      "prNumber": 80,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/80",
+      "issues": [
+        {
+          "number": 52,
+          "url": "https://github.com/smota/agentflow-demo/issues/52",
+          "relation": "implements"
+        },
+        {
+          "number": 77,
+          "url": "https://github.com/smota/agentflow-demo/issues/77",
+          "relation": "refs"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-68",
+      "kind": "pr",
+      "title": "Community curation intake",
+      "summary": "Epic B: community curation intake; classified high-assurance for writing to public issues from anonymous content and SSRF-adjacent outbound checks.",
+      "mergedAt": "2026-09-04T18:36:11+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "high-assurance",
+      "mode": "single-agent",
+      "humanReviewRequired": true,
+      "prNumber": 68,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/68",
+      "issues": [
+        {
+          "number": 48,
+          "url": "https://github.com/smota/agentflow-demo/issues/48",
+          "relation": "implements"
+        },
+        {
+          "number": 58,
+          "url": "https://github.com/smota/agentflow-demo/issues/58",
+          "relation": "refs"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-81",
+      "kind": "pr",
+      "title": "Cross-list project search view (redesigned)",
+      "summary": "Epic A3/A4: cross-list search view, redesigned per the #65 copy-lineage spike; citation count shipped as disclosed provenance, never a trust score.",
+      "mergedAt": "2026-09-04T18:39:40+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 81,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/81",
+      "issues": [
+        {
+          "number": 47,
+          "url": "https://github.com/smota/agentflow-demo/issues/47",
+          "relation": "implements"
+        },
+        {
+          "number": 65,
+          "url": "https://github.com/smota/agentflow-demo/issues/65",
+          "relation": "refs"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-87",
+      "kind": "pr",
+      "title": "Secondary network exploration view",
+      "summary": "Epic D: graph/distributions network view; opt-in, deferring community-detection clustering as a follow-up.",
+      "mergedAt": "2026-09-04T20:03:04+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 87,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/87",
+      "issues": [
+        {
+          "number": 50,
+          "url": "https://github.com/smota/agentflow-demo/issues/50",
+          "relation": "implements"
+        },
+        {
+          "number": 86,
+          "url": "https://github.com/smota/agentflow-demo/issues/86",
+          "relation": "refs"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-82",
+      "kind": "pr",
+      "title": "Project vitality and trust signals",
+      "summary": "Epic E: vitality/trust signal computation (E1-E4).",
+      "mergedAt": "2026-09-04T20:09:01+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 82,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/82",
+      "issues": [
+        {
+          "number": 54,
+          "url": "https://github.com/smota/agentflow-demo/issues/54",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "pr-91",
+      "kind": "pr",
+      "title": "Scoped headless-CLI interpretation layer",
+      "summary": "Epic H: spike, advisory eligibility, and topic overlay for a scoped headless-CLI interpretation layer.",
+      "mergedAt": "2026-09-04T23:45:57+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 91,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/91",
+      "issues": [
+        {
+          "number": 53,
+          "url": "https://github.com/smota/agentflow-demo/issues/53",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "build-4",
+      "kind": "rollup",
+      "title": "Build 4 · From lists to intelligence",
+      "summary": "Eight parallel epics, an evidence-driven redesign, and a corrected agent boundary — issues #47-#54, Wave 3.",
+      "mergedAt": "2026-09-05T00:06:58+02:00",
+      "wave": "Build 4 · From lists to intelligence",
+      "platform": "claude",
+      "workflowProfile": "high-assurance",
+      "mode": "single-agent",
+      "humanReviewRequired": true,
+      "prNumber": null,
+      "prUrl": null,
+      "issues": [
+        {
+          "number": 47,
+          "url": "https://github.com/smota/agentflow-demo/issues/47",
+          "relation": "refs"
+        },
+        {
+          "number": 48,
+          "url": "https://github.com/smota/agentflow-demo/issues/48",
+          "relation": "refs"
+        },
+        {
+          "number": 49,
+          "url": "https://github.com/smota/agentflow-demo/issues/49",
+          "relation": "refs"
+        },
+        {
+          "number": 50,
+          "url": "https://github.com/smota/agentflow-demo/issues/50",
+          "relation": "refs"
+        },
+        {
+          "number": 51,
+          "url": "https://github.com/smota/agentflow-demo/issues/51",
+          "relation": "refs"
+        },
+        {
+          "number": 52,
+          "url": "https://github.com/smota/agentflow-demo/issues/52",
+          "relation": "refs"
+        },
+        {
+          "number": 53,
+          "url": "https://github.com/smota/agentflow-demo/issues/53",
+          "relation": "refs"
+        },
+        {
+          "number": 54,
+          "url": "https://github.com/smota/agentflow-demo/issues/54",
+          "relation": "refs"
+        }
+      ],
+      "children": [
+        "pr-63",
+        "pr-66",
+        "pr-69",
+        "pr-80",
+        "pr-68",
+        "pr-81",
+        "pr-87",
+        "pr-82",
+        "pr-91",
+        "pr-93"
+      ]
+    },
+    {
+      "id": "pr-93",
+      "kind": "pr",
+      "title": "Publish live delivery story for Wave 3 (Epics A-H)",
+      "summary": "Documentation PR publishing this wave's delivery story update (issue #92).",
+      "mergedAt": "2026-09-05T00:06:58+02:00",
+      "wave": "Build 4",
+      "platform": "claude",
+      "workflowProfile": "standard",
+      "mode": "single-agent",
+      "humanReviewRequired": false,
+      "prNumber": 93,
+      "prUrl": "https://github.com/smota/agentflow-demo/pull/93",
+      "issues": [
+        {
+          "number": 92,
+          "url": "https://github.com/smota/agentflow-demo/issues/92",
+          "relation": "implements"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "harnessComparison": [
+    {
+      "platform": "claude",
+      "sessions": 11,
+      "highAssuranceRate": 0.2727,
+      "findingsRate": 0.3636
+    },
+    {
+      "platform": "codex",
+      "sessions": 13,
+      "highAssuranceRate": 0.0,
+      "findingsRate": 0.0
+    }
+  ],
+  "sdlcConformance": [
+    {
+      "workflowProfile": "standard",
+      "sessions": 21
+    },
+    {
+      "workflowProfile": "high-assurance",
+      "sessions": 3
+    }
+  ],
+  "reviewDistribution": [
+    {
+      "review": "self-review",
+      "sessions": 21
+    },
+    {
+      "review": "human",
+      "sessions": 3
+    }
+  ],
+  "testsOverTime": [
+    {
+      "mergedAt": "2026-09-02",
+      "id": "pr-8",
+      "title": "Build a locally curated searchable preview",
+      "testsPassed": 31
+    },
+    {
+      "mergedAt": "2026-09-02",
+      "id": "pr-10",
+      "title": "Refine discovery through UX council",
+      "testsPassed": 48
+    },
+    {
+      "mergedAt": "2026-09-02",
+      "id": "pr-12",
+      "title": "Checkpoint local refresh and reject stale recovery",
+      "testsPassed": 67
+    },
+    {
+      "mergedAt": "2026-09-02",
+      "id": "pr-14",
+      "title": "Complete council acceptance and candidate evidence",
+      "testsPassed": 72
+    },
+    {
+      "mergedAt": "2026-09-03",
+      "id": "pr-19",
+      "title": "Adopt pinned current Agentflow delivery contracts",
+      "testsPassed": 98
+    },
+    {
+      "mergedAt": "2026-09-04",
+      "id": "pr-36",
+      "title": "Prepare recoverable AwesomeAwesomeness 2.0 RC",
+      "testsPassed": 156
+    },
+    {
+      "mergedAt": "2026-09-04",
+      "id": "pr-38",
+      "title": "Prepare AwesomeAwesomeness 2.0 stable",
+      "testsPassed": 157
+    },
+    {
+      "mergedAt": "2026-09-04",
+      "id": "pr-41",
+      "title": "Publish AwesomeAwesomeness 2.0.1",
+      "testsPassed": 158
+    },
+    {
+      "mergedAt": "2026-09-04",
+      "id": "pr-91",
+      "title": "Scoped headless-CLI interpretation layer",
+      "testsPassed": 409
+    }
+  ],
+  "digest": "81f533c0271286f59dcb2c7680bb0069e8b4269039838273862413f261b756e0"
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-3",
+  "kind": "pr",
+  "title": "Establish governed demo foundation",
+  "summary": "Foundation branch merged: repository baseline and governed workflow scaffolding established.",
+  "mergedAt": "2026-09-02T21:46:21+02:00",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 3,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/3",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 2,
+        "url": "https://github.com/smota/agentflow-demo/issues/2",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ]
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/3",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}

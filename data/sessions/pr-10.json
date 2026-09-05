@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "pr-10",
+  "kind": "pr",
+  "title": "Refine discovery through UX council",
+  "summary": "UX-council-refined discovery experience merged and published as v0.2.0.",
+  "mergedAt": "2026-09-02T22:43:38+02:00",
+  "harness": {
+    "platform": "codex",
+    "executor": "codex-cli",
+    "transport": "local-cli",
+    "delegationBoundary": "current-session",
+    "contextBoundary": "current-session"
+  },
+  "sdlc": {
+    "mode": "single-agent",
+    "workflowProfile": "standard",
+    "phasesRun": [
+      "product-manager",
+      "analyst",
+      "architect",
+      "implementation-planner",
+      "developer",
+      "tester",
+      "reviewer",
+      "technical-writer",
+      "pr-readiness"
+    ],
+    "review": "self-review",
+    "humanReviewRequired": false,
+    "mergeOwner": "human/operator"
+  },
+  "repository": {
+    "prNumber": 10,
+    "prUrl": "https://github.com/smota/agentflow-demo/pull/10",
+    "targetBranch": "development",
+    "issues": [
+      {
+        "number": 5,
+        "url": "https://github.com/smota/agentflow-demo/issues/5",
+        "relation": "implements"
+      }
+    ]
+  },
+  "verification": {
+    "validators": [
+      {
+        "name": "pytest -q",
+        "result": "passed"
+      },
+      {
+        "name": "node scripts/validate-pr-manifest.mjs",
+        "result": "passed"
+      }
+    ],
+    "testsPassed": 48
+  },
+  "decisions": [],
+  "findings": [],
+  "followUps": [],
+  "evidence": [
+    {
+      "kind": "pull-request",
+      "system": "github",
+      "uri": "https://github.com/smota/agentflow-demo/pull/10",
+      "authority": "authoritative",
+      "relationship": "delivers"
+    }
+  ]
+}
