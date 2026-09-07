@@ -1,10 +1,11 @@
 # Data schema changelog and semver policy
 
-This document versions the **shape** of the two data files this project publishes as a versioned
+This document versions the **shape** of the data files this project publishes as a versioned
 data contract:
 
 - `data/list-index.json`
 - `data/catalogue.json`
+- `data/landscape-index.json` (optional sibling artifact; see below)
 
 It is deliberately a separate axis from two other version numbers already present in this
 repository, which it does not replace:
@@ -110,9 +111,26 @@ This file predates the list-first pipeline and reflects the original three-sourc
 design; it has not changed shape since `format_version: 1` was introduced, so there is no
 pre-v1.0.0 history to record for it.
 
+### landscape-index.json
+
+#### v1.0.0 — 2026-04-08
+
+New **optional** artifact family. Existing `list-index.json` / `catalogue.json` consumers are
+unaffected (data-shape **minor** relative to the published catalogue: additive sibling files, no
+required field removed from those contracts). Documented in `schemas/landscape-index.schema.json`.
+
+Tiny top-level `data/landscape-index.json` (`format_version: 1`) plus compact
+`data/landscape/<2-hex>.json` shards keyed by `sha256(list_id)[:2]`. The index holds per eligible
+list `{id, x, y, community_id, unique, family, shared, hub}`, `hub_ids`, community labels,
+layout/community method metadata, `source_network_digest`, `source_project_digest`,
+`content_policy`, counts, and a shard digest map. Shards hold compact membership `[{id,title}]`
+and top-N neighbor shared-previews split independent vs copy-lineage, with `truncated`/`total`
+disclosed. Communities are candidate clustering used as map color (issue #86), not an ontology.
+
 ## How to use this when consuming the data
 
-1. Fetch the schema (`schemas/list-index.schema.json` or `schemas/catalogue.schema.json`) at the
+1. Fetch the schema (`schemas/list-index.schema.json`, `schemas/catalogue.schema.json`, or the optional
+`schemas/landscape-index.schema.json`) at the
    same commit/ref as the data file — see `docs/consuming-catalogue-data.md`.
 2. Compare the version you last validated against to the entries above. If nothing newer than your
    last-known version has landed, your existing parsing code is safe to reuse unchanged.

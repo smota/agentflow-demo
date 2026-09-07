@@ -39,6 +39,14 @@ def test_catalogue_schema_is_valid_draft_2020_12():
     Draft202012Validator.check_schema(_load("schemas/catalogue.schema.json"))
 
 
+def test_landscape_index_schema_is_valid_draft_2020_12():
+    Draft202012Validator.check_schema(_load("schemas/landscape-index.schema.json"))
+
+
+def test_committed_landscape_index_matches_schema():
+    _validate("schemas/landscape-index.schema.json", "data/landscape-index.json")
+
+
 def test_committed_list_index_matches_schema():
     _validate("schemas/list-index.schema.json", "data/list-index.json")
 

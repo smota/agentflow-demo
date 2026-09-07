@@ -255,6 +255,32 @@ run covers the full published catalogue:
 .venv/Scripts/python.exe -m tools.derive_alternatives validate
 ```
 
+## Network pairs and landscape map (`data/network-index.json`, `data/landscape-index.json`)
+
+Two sibling offline stages sit **outside** the unattended `tools/run_pipeline.py` lists/projects
+sequence (the same choice as `derive_network` itself). Both stream published
+`data/projects/<prefix>.json` one shard at a time and never hold the corpus.
+
+`python -m tools.derive_network` publishes `data/network-index.json` (hub projects and list pairs
+with copy-lineage / near-duplicate flags). `python -m tools.derive_landscape` then reads that
+network plus the project shards and writes a tiny `data/landscape-index.json` (coordinates,
+candidate communities used as map color — issue #86, not an ontology — Unique · Family · Shared ·
+Hub composition, hub_ids, shard digest map) plus compact `data/landscape/<2-hex>.json` shards
+(membership `{id,title}` and capped neighbor shared-previews with `truncated`/`total`). Isolated
+lists still receive coordinates and a disclosed unclustered community_id.
+
+```powershell
+.venv/Scripts/python.exe -m tools.derive_network stage
+.venv/Scripts/python.exe -m tools.derive_network publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_network validate
+.venv/Scripts/python.exe -m tools.derive_landscape stage
+.venv/Scripts/python.exe -m tools.derive_landscape publish --expected-digest <reviewed-digest>
+.venv/Scripts/python.exe -m tools.derive_landscape validate
+```
+
+The hosted Explore **Network** view is this landscape. Discover stays list-first. See
+`docs/demo/landscape.md`.
+
 ## Data contract for third parties
 
 `data/list-index.json` and `data/catalogue.json` are also a published, versioned data contract, not

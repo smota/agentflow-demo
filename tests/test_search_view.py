@@ -4,6 +4,7 @@ import socket
 import pytest
 from streamlit.testing.v1 import AppTest
 
+from awesome.alternatives import derive_alternatives, shard_path as alternatives_shard_path
 from awesome.catalogue import digest
 from awesome.projects import derive_projects, shard_path as project_shard_path
 from awesome.search_index import build_top_index, derive_search_shard, shard_path as search_shard_path
@@ -42,6 +43,11 @@ def write_search_snapshot(directory):
     top = build_top_index(derived["index"]["digest"], GENERATED_AT, shard_digests,
                            {"projects": total, "shards": len(shard_digests)})
     (directory / "search-index.json").write_text(json.dumps(top), encoding="utf-8")
+    alternatives = derive_alternatives(index, details, GENERATED_AT)
+    (directory / "alternatives").mkdir(exist_ok=True)
+    for prefix, shard in alternatives["shards"].items():
+        (directory / alternatives_shard_path(prefix)).write_text(json.dumps(shard), encoding="utf-8")
+    (directory / "alternatives-index.json").write_text(json.dumps(alternatives["index"]), encoding="utf-8")
     return index
 
 
@@ -110,3 +116,12 @@ def test_search_result_never_states_trust_or_quality_from_citation_count_alone(p
     rendered_text = " ".join(x.value for x in app.markdown) + " ".join(x.value for x in app.caption)
     for banned in ("high quality", "trusted", "best project", "top rated"):
         assert banned not in rendered_text.lower()
+
+
+def test_search_same_shelf_stays_per_heading(preview):
+    app = preview.run()
+    button(app, "Search projects").click().run()
+    app.text_input(key="search_q").set_value("tool 0").run()
+    captions = " ".join(c.value for c in app.caption)
+    assert "per (list, heading)" in captions
+    assert "never one merged similar-projects list" in captions

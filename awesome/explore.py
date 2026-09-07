@@ -12,7 +12,8 @@ DEFAULTS = {"q": "", "topic": "All topics", "min_stars": 100, "state": "Curated 
             "freshness": "Any freshness", "archived": "Include archived", "forks": "Include forks",
             "sort": "Most starred", "page": 1, "view": "Discover", "list": "", "layout": "Cards",
             "content_q": "", "content_category": "all", "compare": "", "project": "", "search_q": "",
-            "network_list": ""}
+            "network_list": "", "hide_clones": "0", "network_edge": "",
+            "landscape_color": "community"}
 PROJECT_ID = re.compile(r"[0-9a-f]{20}")
 PAGE_SIZE = 12
 
@@ -29,7 +30,9 @@ def normalize(params: dict, index: dict) -> dict:
                "state": STATES, "freshness": FRESHNESS, "sort": SORTS,
                "archived": ("Include archived", "Active only"), "forks": ("Include forks", "Originals only"),
                "view": ("Discover", "Search projects", "Insights", "List", "Project", "Delivery story", "Network"),
-               "layout": ("Cards", "Table")}
+               "layout": ("Cards", "Table"),
+               "hide_clones": ("0", "1"),
+               "landscape_color": ("community", "topic")}
     for key, values in options.items():
         if result[key] not in values: result[key] = DEFAULTS[key]
     valid_ids = {x["id"] for x in index["lists"]}
@@ -41,6 +44,8 @@ def normalize(params: dict, index: dict) -> dict:
         if result["view"] == "Project": result["view"] = "Discover"
     if result["network_list"] not in valid_ids:
         result["network_list"] = ""
+    if result["network_edge"] not in valid_ids:
+        result["network_edge"] = ""
     result["q"] = " ".join(result["q"].split())
     result["search_q"] = " ".join(result["search_q"].split())
     eligible = {x["id"] for x in index["lists"] if x.get("state") == "eligible" and x.get("public") is True}
