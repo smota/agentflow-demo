@@ -13,9 +13,13 @@ from awesome.insights import dashboard, eligible_lists, comparison
 from awesome.explore import (DEFAULTS, SORTS, STATES, FRESHNESS, normalize,
                              filtered, page_slice, share_url, content_filter, number)
 from awesome.delivery import render_delivery
-from awesome.network import (MIN_SHARED_PROJECTS, NEAR_DUP_COPY_FRACTION, NEAR_DUP_JACCARD,
-                             neighbor_graph, neighbors_of, validate_network)
+from awesome.network import NEAR_DUP_COPY_FRACTION, NEAR_DUP_JACCARD, neighbor_graph, validate_network
 from awesome.network_view import CANVAS_HEIGHT, CANVAS_WIDTH, NEIGHBOR_LIMIT, layout_positions, render_svg
+from awesome.landscape import list_shard_prefix, shard_path as landscape_shard_path, validate_landscape
+from awesome.landscape_view import (
+    SIGNATURE_CAPTION, edge_inspector_rows, neighbors_filtered, scatter_rows, scatter_spec,
+    set_diff_rows, signature_stack,
+)
 from awesome.project_search import citation_label, search_projects
 from awesome.projects import project_id, shard_path as project_shard_path, validate_projects as validate_project_index
 from awesome.search_index import shard_path as search_shard_path, validate_search_index
@@ -70,6 +74,25 @@ def network_data(path: str, stamp: int, project_index_digest: str):
     # a corpus-scale re-scan.
     validate_network(data, {"digest": project_index_digest})
     return data
+
+
+@st.cache_data(max_entries=2, show_spinner=False)
+def landscape_data(path: str, stamp: int, network_digest: str, project_digest: str):
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    validate_landscape(
+        data,
+        {"digest": network_digest, "source_project_digest": project_digest},
+        {"digest": project_digest},
+    )
+    return data
+
+
+@st.cache_data(max_entries=32, show_spinner=False)
+def landscape_shard_file(directory: str, prefix: str, expected_digest: str):
+    shard = json.loads((Path(directory) / landscape_shard_path(prefix)).read_text(encoding="utf-8"))
+    if shard.get("digest") != expected_digest:
+        raise ValueError("Landscape shard digest mismatch")
+    return shard
 
 
 @st.cache_data(max_entries=2, show_spinner=False)
@@ -330,6 +353,18 @@ def render(root: Path, preview=False):
                                               occurrence["source_url"], width="stretch")
                             if len(detail["occurrences"]) > len(shown_occurrences):
                                 st.caption(f"+ {len(detail['occurrences']) - len(shown_occurrences)} more source list(s), all counted in the totals above.")
+                        alternatives_record = _project_record(directory, "alternatives-index.json", alternatives_shard_path, record["id"])
+                        headings = (alternatives_record or {}).get("headings") or []
+                        if headings:
+                            st.caption("Same shelf — per (list, heading), never one merged similar-projects list.")
+                            for h_index, heading in enumerate(headings):
+                                st.caption(f"{heading['list_name']} › {heading['category']}")
+                                for a_index, alternative in enumerate(heading["alternatives"]):
+                                    st.button(alternative["title"] + " →",
+                                              key=f"search_alt_{record['id']}_{h_index}_{a_index}",
+                                              on_click=go_project, args=(alternative["id"],))
+                                if heading.get("truncated"):
+                                    st.caption(f"Showing {len(heading['alternatives'])} of {heading['total_alternatives']}; capped for display.")
             with st.expander("How independent citation counts are derived"):
                 st.write(search_index["content_policy"])
                 st.caption("See issue #65 for the full validation method and finding behind this methodology.")
@@ -405,63 +440,124 @@ def render(root: Path, preview=False):
             target = st.selectbox("Open a compared list", st.session_state.compare_ids,
                                   format_func=lambda rid: next(x["name"] for x in eligible if x["id"] == rid), key="compare_open")
             st.button("Explore compared list →", on_click=go, args=("List", target))
+            landscape_index_path = directory / "landscape-index.json"
+            try:
+                project_index_path = directory / "project-index.json"
+                network_index_path = directory / "network-index.json"
+                project_index = project_top_index(str(project_index_path), project_index_path.stat().st_mtime_ns, index["digest"])
+                network = network_data(str(network_index_path), network_index_path.stat().st_mtime_ns, project_index["digest"])
+                landscape = landscape_data(str(landscape_index_path), landscape_index_path.stat().st_mtime_ns,
+                                           network["digest"], project_index["digest"])
+                memberships = {}
+                for rid in st.session_state.compare_ids:
+                    prefix = list_shard_prefix(rid)
+                    expected = landscape["shards"].get(prefix)
+                    if not expected:
+                        continue
+                    shard = landscape_shard_file(str(directory), prefix, expected)
+                    record = next((item for item in shard["lists"] if item["id"] == rid), None)
+                    if record:
+                        memberships[rid] = record["membership"]
+                if len(memberships) >= 2:
+                    names = {item["id"]: item["name"] for item in eligible}
+                    diff_rows = set_diff_rows(memberships, landscape.get("hub_ids", []), names)
+                    st.subheader("Content set-diff")
+                    st.caption("Shared independent vs copy-lineage vs unique-and-not-a-hub, from compact landscape shards — not a live scan of project files.")
+                    st.dataframe(pd.DataFrame(diff_rows), hide_index=True, width="stretch")
+            except (OSError, ValueError, KeyError):
+                pass
     elif state["view"] == "Network":
-        st.html('<div class="eyebrow">Opt-in secondary view</div><h1 class="hero">See how lists<br><em>relate to each other.</em></h1>'
-               '<p class="intro">Explore one list’s nearest neighbors in the citation network — other lists citing many of the same projects. '
-               'This is a secondary, filtered view: it never replaces list-first Discover/List browsing, and it never renders the whole catalogue at once '
-               '(6,377+ lists would be too heavy to lay out responsively in a browser tab) — only a selected list’s bounded neighborhood.</p>')
+        st.html('<div class="eyebrow">Opt-in landscape</div><h1 class="hero">See the lists<br><em>on one map.</em></h1>'
+               '<p class="intro">Every eligible list is placed from a committed landscape snapshot — not a live layout of the full graph, '
+               'and not a selectbox-first 15-node star. Discover stays list-first. Communities color the map as candidate clustering '
+               '(issue #86); they do not replace topics. Near-duplicate is a lens, never a quality rank.</p>')
         try:
             project_index_path = directory / "project-index.json"
             network_index_path = directory / "network-index.json"
+            landscape_index_path = directory / "landscape-index.json"
             project_index = project_top_index(str(project_index_path), project_index_path.stat().st_mtime_ns, index["digest"])
             network = network_data(str(network_index_path), network_index_path.stat().st_mtime_ns, project_index["digest"])
+            landscape = landscape_data(str(landscape_index_path), landscape_index_path.stat().st_mtime_ns,
+                                       network["digest"], project_index["digest"])
         except (OSError, ValueError, KeyError):
             st.error("The network exploration data is unavailable. Please try again later.")
         else:
             names_by_id = {item["id"]: item["name"] for item in index["lists"]}
-            neighbor_ids = {row["a"] for row in network["list_pairs"]} | {row["b"] for row in network["list_pairs"]}
-            options = [""] + sorted((rid for rid in neighbor_ids if rid in names_by_id),
-                                    key=lambda rid: names_by_id[rid].casefold())
+            st.session_state.landscape_color = state["landscape_color"]
+            st.selectbox("Color map by", ("community", "topic"), key="landscape_color",
+                         on_change=change, args=("landscape_color", "landscape_color"))
+            rows = scatter_rows(landscape["lists"], index, color_mode=state["landscape_color"])
+            st.altair_chart(scatter_spec(rows, color_title=state["landscape_color"]), width="stretch")
+            st.caption(f"{len(landscape['lists']):,} eligible lists from the committed landscape snapshot {landscape['generated_at'][:10]}. "
+                       "Point size uses indexed entries; unknown counts use a disclosed default size, never zero.")
+            nav = pd.DataFrame([{"id": row["id"], "List": row["name"], "Topic": row["topic"],
+                                 "Entries": row["entry_count"], "Community": row["community_id"]} for row in rows])
+            selection = st.dataframe(nav, hide_index=True, width="stretch", on_select="rerun",
+                                     selection_mode="single-row", key="landscape_nav")
+            selected_rows = getattr(getattr(selection, "selection", None), "rows", None) or []
+            if selected_rows:
+                picked = nav.iloc[selected_rows[0]]["id"]
+                if picked != state["network_list"]:
+                    state["network_list"] = picked
+                    state["network_edge"] = ""
+            options = [""] + [row["id"] for row in rows]
             st.session_state.network_select = state["network_list"]
-            st.selectbox("Choose a list to explore its network neighborhood", options,
-                        format_func=lambda rid: "— choose a list —" if rid == "" else names_by_id[rid],
-                        key="network_select", on_change=change, args=("network_list", "network_select"))
-            st.caption(f"{len(neighbor_ids):,} of {index['counts'].get('eligible', 0):,} eligible lists have at least one "
-                      f"qualifying neighbor (sharing ≥ {MIN_SHARED_PROJECTS} projects with another list) at the published threshold. "
-                      f"Snapshot {network['generated_at'][:10]}.")
-            if not state["network_list"]:
-                st.info("Choose a list above to see other lists that cite many of the same projects.")
-            else:
-                graph = neighbor_graph(network["list_pairs"], state["network_list"], limit=NEIGHBOR_LIMIT)
+            st.selectbox("Selected list", options,
+                         format_func=lambda rid: "— none —" if rid == "" else names_by_id.get(rid, rid),
+                         key="network_select", on_change=change, args=("network_list", "network_select"))
+            st.session_state.hide_clones_box = state["hide_clones"] == "1"
+            def _hide_clones_change():
+                state["hide_clones"] = "1" if st.session_state.hide_clones_box else "0"
+                st.session_state.pop("list_shared", None)
+            st.checkbox("Hide near-duplicate families", key="hide_clones_box", on_change=_hide_clones_change)
+            if state["network_list"]:
                 selected_name = names_by_id.get(state["network_list"], state["network_list"])
-                if len(graph["nodes"]) <= 1:
-                    st.info(f"{selected_name} has no other eligible list sharing at least {MIN_SHARED_PROJECTS} "
-                           "projects at the published threshold.")
-                else:
-                    labels = {node_id: names_by_id.get(node_id, node_id) for node_id in graph["nodes"]}
-                    positions = layout_positions(graph["nodes"], graph["edges"], state["network_list"])
-                    svg = render_svg(graph, positions, labels)
-                    # st.html() sanitizes with DOMPurify's html-only profile, which strips <svg>
-                    # entirely -- embed it as a base64 data-URI <img> instead (an allowed tag, and
-                    # the same technique identity_footer() already uses for the brand/AgentFlow
-                    # logos above), rather than switching to an iframe-based component.
-                    encoded_svg = base64.b64encode(svg.encode("utf-8")).decode("ascii")
-                    st.html(f'<img src="data:image/svg+xml;base64,{encoded_svg}" width="{CANVAS_WIDTH}" '
-                           f'height="{CANVAS_HEIGHT}" style="width:100%;max-width:{CANVAS_WIDTH}px;height:auto;'
-                           f'display:block;margin:0 auto" alt="Network neighborhood of {html.escape(selected_name)}">')
-                    st.caption(f"Showing up to {NEIGHBOR_LIMIT} nearest neighbors of {selected_name} by shared-project similarity, "
-                              "plus any qualifying links between those neighbors. Dashed amber edges mark pairs flagged "
-                              f"near-duplicate (jaccard ≥ {NEAR_DUP_JACCARD}, copy-lineage fraction ≥ {NEAR_DUP_COPY_FRACTION}) — "
-                              "likely same-owner, forked, or templated sibling lists, not two independently curated collections.")
-                    neighbor_rows = neighbors_of(network["list_pairs"], state["network_list"], limit=NEIGHBOR_LIMIT)
-                    table_rows = [{"List": labels[row["neighbor"]], "Shared projects": row["shared"],
-                                  "Jaccard similarity": row["jaccard"], "Copy-lineage fraction": row["copy_fraction"],
-                                  "Near-duplicate": "Yes" if row["near_duplicate"] else "No"} for row in neighbor_rows]
-                    with st.expander("Accessible neighbor data"):
-                        st.dataframe(pd.DataFrame(table_rows), hide_index=True, width="stretch")
+                index_row = next((row for row in landscape["lists"] if row["id"] == state["network_list"]), None)
+                if index_row:
+                    st.subheader(selected_name)
+                    st.caption(SIGNATURE_CAPTION)
+                    st.bar_chart(pd.DataFrame(signature_stack(index_row)), x="Part", y="Projects", height=180)
+                hide = state["hide_clones"] == "1"
+                neighbor_rows = neighbors_filtered(network["list_pairs"], state["network_list"], hide_clones=hide,
+                                                   limit=NEIGHBOR_LIMIT)
+                table_rows = [{"id": row["neighbor"], "List": names_by_id.get(row["neighbor"], row["neighbor"]),
+                               "Shared projects": row["shared"], "Jaccard similarity": row["jaccard"],
+                               "Copy-lineage fraction": row["copy_fraction"],
+                               "Near-duplicate": "Yes" if row["near_duplicate"] else "No"} for row in neighbor_rows]
+                st.caption(f"nearest neighbors of {selected_name}" + (" (near-duplicate families hidden)" if hide else ""))
+                st.dataframe(pd.DataFrame(table_rows), hide_index=True, width="stretch")
+                if neighbor_rows:
                     open_target = st.selectbox("Open a neighboring list", [row["neighbor"] for row in neighbor_rows],
-                                               format_func=lambda rid: labels.get(rid, rid), key="network_open")
+                                               format_func=lambda rid: names_by_id.get(rid, rid), key="network_open")
                     st.button("Explore neighboring list →", on_click=go, args=("List", open_target))
+                    edge_options = [row["neighbor"] for row in neighbor_rows]
+                    if state["network_edge"] not in edge_options:
+                        state["network_edge"] = edge_options[0]
+                    st.session_state.network_edge_select = state["network_edge"]
+                    edge = st.selectbox("Inspect shared projects with", edge_options,
+                                        format_func=lambda rid: names_by_id.get(rid, rid), key="network_edge_select",
+                                        on_change=change, args=("network_edge", "network_edge_select"))
+                    prefix = list_shard_prefix(state["network_list"])
+                    expected = landscape["shards"].get(prefix)
+                    if expected:
+                        shard = landscape_shard_file(str(directory), prefix, expected)
+                        record = next((item for item in shard["lists"] if item["id"] == state["network_list"]), None)
+                        preview = next((row for row in (record or {}).get("neighbor_previews", []) if row["neighbor"] == edge), None)
+                        if preview:
+                            st.caption(f"Shared-project preview · {preview['total']} shared, truncated={preview['truncated']}")
+                            st.dataframe(pd.DataFrame(edge_inspector_rows(preview)), hide_index=True, width="stretch")
+                graph = neighbor_graph(network["list_pairs"], state["network_list"], limit=NEIGHBOR_LIMIT)
+                if len(graph["nodes"]) > 1:
+                    with st.expander("15-node neighborhood detail"):
+                        labels = {node_id: names_by_id.get(node_id, node_id) for node_id in graph["nodes"]}
+                        positions = layout_positions(graph["nodes"], graph["edges"], state["network_list"])
+                        svg = render_svg(graph, positions, labels)
+                        encoded_svg = base64.b64encode(svg.encode("utf-8")).decode("ascii")
+                        st.html(f'<img src="data:image/svg+xml;base64,{encoded_svg}" width="{CANVAS_WIDTH}" '
+                               f'height="{CANVAS_HEIGHT}" style="width:100%;max-width:{CANVAS_WIDTH}px;height:auto;'
+                               f'display:block;margin:0 auto" alt="Network neighborhood of {html.escape(selected_name)}">')
+                        st.caption(f"Optional detail: up to {NEIGHBOR_LIMIT} nearest neighbors of {selected_name}. Dashed amber edges mark "
+                                   f"near-duplicate pairs (jaccard ≥ {NEAR_DUP_JACCARD}, copy-lineage fraction ≥ {NEAR_DUP_COPY_FRACTION}).")
             with st.expander(f"Hub projects (top {len(network['hub_projects'])}, copy-lineage discounted)"):
                 hub_rows = [{"Project": row["title"], "Cited by (raw)": row["list_count"],
                             "Cited by (independent)": row["independent_list_count"],
@@ -473,9 +569,10 @@ def render(root: Path, preview=False):
                           "validated heuristic), never a quality or trust score. Copy-lineage discount is the raw "
                           "citation count minus that discounted count, an observed fact about how much of the raw "
                           "count came from same-owner/forked sibling lists, not a hidden adjustment.")
-            with st.expander("How this network view is derived"):
+            with st.expander("How this landscape is derived"):
+                st.write(landscape["content_policy"])
                 st.write(network["content_policy"])
-                st.caption("See issue #50 (D1) for the full methodology and the real-catalogue measurement that set these thresholds.")
+                st.caption("See issue #50 (D1) and issue #86 (communities as map color, not an ontology).")
     elif state["view"] == "List":
         item = next(x for x in index["lists"] if x["id"] == state["list"])
         st.button("← Back to results", on_click=go, args=("Discover",))
@@ -485,6 +582,20 @@ def render(root: Path, preview=False):
         st.link_button("Open original list ↗", item["url"], type="primary")
         st.link_button("Meet the upstream contributors ↗", item["url"] + "/graphs/contributors")
         st.button("See this list's network neighborhood →", on_click=go_network, args=(item["id"],))
+        landscape_index_path = directory / "landscape-index.json"
+        try:
+            project_index_path = directory / "project-index.json"
+            network_index_path = directory / "network-index.json"
+            project_index = project_top_index(str(project_index_path), project_index_path.stat().st_mtime_ns, index["digest"])
+            network = network_data(str(network_index_path), network_index_path.stat().st_mtime_ns, project_index["digest"])
+            landscape = landscape_data(str(landscape_index_path), landscape_index_path.stat().st_mtime_ns,
+                                       network["digest"], project_index["digest"])
+            sig = next((row for row in landscape["lists"] if row["id"] == item["id"]), None)
+            if sig:
+                st.caption(SIGNATURE_CAPTION)
+                st.bar_chart(pd.DataFrame(signature_stack(sig)), x="Part", y="Projects", height=160)
+        except (OSError, ValueError, KeyError):
+            pass
         with st.container(key="list_metrics"):
             metrics = st.columns(4)
         for column, label, key in zip(metrics, ("Stars", "Forks", "Indexed entries", "Contributors seen"), ("stars", "forks", "entry_count", "contributors_count")):
@@ -516,7 +627,14 @@ def render(root: Path, preview=False):
                 query = st.text_input("Search within this list", placeholder="Find an entry or listed property…", max_chars=200, key=content_key, on_change=change, args=("content_q", content_key))
                 entries = content_filter(detail, query, category)
                 st.caption(f"{len(entries):,} matching entries · {detail['unique_links']:,} unique indexed links")
-                if category != "all": st.link_button("View this category at source ↗", sections[category]["source_url"])
+                if category != "all":
+                    st.link_button("View this category at source ↗", sections[category]["source_url"])
+                    siblings = [e for e in detail["entries"] if e["category"] == category]
+                    st.caption("Same shelf — siblings in this heading only, never merged across headings.")
+                    cols = st.columns(min(4, max(1, len(siblings))))
+                    for column, sibling in zip(cols, siblings[:4]):
+                        column.button(sibling["title"] + " →", key=f"shelf_{item['id']}_{sibling['url']}",
+                                      on_click=go_project, args=(project_id(sibling["url"]),))
                 if entries:
                     rows = [{"Entry": e["title"], "Category": sections.get(e["category"], {}).get("title", "General"),
                              "Open": e["url"], "Source": e["source_url"], **e.get("properties", {})} for e in entries]

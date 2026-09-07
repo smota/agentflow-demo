@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/smota/agentflow-demo/main/schemas/landscape-index.schema.json",
+  "title": "AwesomeAwesomeness landscape-index.json",
+  "description": "Optional committed landscape artifact: tiny per-list coordinates, candidate communities (issue #86 map color, not an ontology), Unique/Family/Shared/Hub citation composition, and a shard digest map. Compact membership and neighbor previews live in data/landscape/<2-hex>.json. Runtime integrity (digest recomputation, source network/project digest match, shard coverage) is enforced by awesome.landscape.validate_landscape, not this schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format_version",
+    "generated_at",
+    "source_network_digest",
+    "source_project_digest",
+    "content_policy",
+    "layout",
+    "communities",
+    "hub_ids",
+    "counts",
+    "lists",
+    "shards",
+    "digest"
+  ],
+  "properties": {
+    "format_version": {
+      "const": 1,
+      "description": "Runtime compatibility gate read by awesome/landscape.py (FORMAT)."
+    },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "source_network_digest": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "source_project_digest": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "content_policy": { "type": "string", "minLength": 1 },
+    "layout": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["algorithm", "eigenvectors", "isolated_placement"],
+      "properties": {
+        "algorithm": { "type": "string", "minLength": 1 },
+        "eigenvectors": {
+          "type": "array",
+          "items": { "type": "integer" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "isolated_placement": { "type": "string", "minLength": 1 }
+      }
+    },
+    "communities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["algorithm", "resolution", "labels", "isolated"],
+      "properties": {
+        "algorithm": { "type": "string", "minLength": 1 },
+        "resolution": { "type": "number" },
+        "labels": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "isolated": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "hub_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lists", "shards", "communities", "isolated"],
+      "properties": {
+        "lists": { "type": "integer", "minimum": 0 },
+        "shards": { "type": "integer", "minimum": 0 },
+        "communities": { "type": "integer", "minimum": 0 },
+        "isolated": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "lists": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "x", "y", "community_id", "unique", "family", "shared", "hub"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "x": { "type": "number" },
+          "y": { "type": "number" },
+          "community_id": { "type": "string", "minLength": 1 },
+          "unique": { "type": "integer", "minimum": 0 },
+          "family": { "type": "integer", "minimum": 0 },
+          "shared": { "type": "integer", "minimum": 0 },
+          "hub": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "shards": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+    },
+    "digest": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  }
+}

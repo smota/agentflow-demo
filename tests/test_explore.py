@@ -54,6 +54,22 @@ def test_state_bounds_and_share_roundtrip():
     compared = normalize({"view": "Insights", "compare": "14,13,14,bad,12,11,10"}, index)
     assert compared["view"] == "Insights" and compared["compare"] == "14,13,12,11"
     assert normalize({k: v[0] for k, v in parse_qs(urlsplit(share_url(compared)).query).items()}, index) == compared
+    landscape = normalize({
+        "view": "Network", "network_list": "14", "network_edge": "13",
+        "hide_clones": "1", "landscape_color": "topic",
+    }, index)
+    assert landscape["view"] == "Network"
+    assert landscape["hide_clones"] == "1" and landscape["landscape_color"] == "topic"
+    assert landscape["network_list"] == "14" and landscape["network_edge"] == "13"
+    params = {k: v[0] for k, v in parse_qs(urlsplit(share_url(landscape)).query).items()}
+    assert normalize(params, index) == landscape
+    invalid = normalize({
+        "hide_clones": "yes", "landscape_color": "rainbow", "network_edge": "missing",
+        "compare": "14,13,12,11,10",
+    }, index)
+    assert invalid["hide_clones"] == "0" and invalid["landscape_color"] == "community"
+    assert invalid["network_edge"] == ""
+    assert invalid["compare"] == "14,13,12,11"
 
 
 def test_all_results_boundaries_and_freshness():

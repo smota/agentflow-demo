@@ -16,6 +16,7 @@ are looking for how the data is produced or locally refreshed, see `docs/demo/li
 | ------------------------ | --------------------------------------------------------------------------- | -------------------------------------------- |
 | `data/list-index.json`   | The full list-first discovery/classification index (~8k observed repositories, `eligible`/`pending`/`excluded`) | `schemas/list-index.schema.json`             |
 | `data/catalogue.json`    | The three-source CC0 preview catalogue of deduplicated resource entries     | `schemas/catalogue.schema.json`              |
+| `data/landscape-index.json` | Optional list-landscape index (coordinates, candidate communities as map color, citation composition). Compact shards in `data/landscape/` | `schemas/landscape-index.schema.json`        |
 
 Both files are plain JSON over HTTPS, served by GitHub's raw content host — no rate-limited or
 authenticated GitHub API call is required to read them.
@@ -62,8 +63,9 @@ requests; this project does not offer a higher-throughput or authenticated alter
 ## Validating what you fetched
 
 Before parsing a fetched file, validate it against the published JSON Schema for that file
-(`schemas/list-index.schema.json` / `schemas/catalogue.schema.json`, fetched the same way as the
-data file above, at the same ref). For example, with Python's `jsonschema` package:
+(`schemas/list-index.schema.json` / `schemas/catalogue.schema.json` / the optional
+`schemas/landscape-index.schema.json`, fetched the same way as the data file above, at the same
+ref). For example, with Python's `jsonschema` package:
 
 ```python
 import json

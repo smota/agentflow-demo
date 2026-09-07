@@ -12,6 +12,30 @@ def action(app, label):
     return next(x for x in app.button if x.label == label)
 
 
+def test_network_landscape_on_published_snapshot_does_not_read_projects(monkeypatch):
+    monkeypatch.delenv("GH_TOKEN", raising=False)
+    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    def denied(*args, **kwargs): raise AssertionError("Hosted app attempted networking")
+    monkeypatch.setattr(socket.socket, "connect", denied)
+    opened = []
+    real_open = open
+
+    def tracing_open(path, *args, **kwargs):
+        text = str(path).replace("\\", "/")
+        if "/data/projects/" in text or text.endswith("/data/projects") or "\\data\\projects\\" in str(path):
+            opened.append(str(path))
+        return real_open(path, *args, **kwargs)
+
+    import builtins
+    monkeypatch.setattr(builtins, "open", tracing_open)
+    app = AppTest.from_file(ROOT / "app.py", default_timeout=30).run()
+    action(app, "Explore network").click().run()
+    assert not app.exception
+    assert app.session_state.list_explorer["view"] == "Network"
+    assert not any("Choose a list above" in getattr(x, "value", "") for x in app.info)
+    assert opened == []
+
+
 def test_credential_free_offline_list_app(monkeypatch):
     monkeypatch.delenv("GH_TOKEN", raising=False)
     monkeypatch.delenv("GITHUB_TOKEN", raising=False)

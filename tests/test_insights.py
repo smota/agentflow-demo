@@ -1,5 +1,7 @@
 from awesome.insights import dashboard, comparison, entries_distribution, stars_distribution
+from awesome.landscape_view import set_diff_rows
 from tests.test_explore import fixture_index
+from tests.test_landscape import build_landscape_artifact
 
 
 def test_dashboard_uses_only_eligible_population_and_explicit_unknowns():
@@ -55,3 +57,24 @@ def test_dashboard_includes_distribution_breakdowns():
     result = dashboard(index)
     assert sum(row["Lists"] for row in result["stars_distribution"]) == 15
     assert sum(row["Lists"] for row in result["entries_distribution"]) == 15
+
+
+def test_content_set_diff_shaping_from_compact_membership():
+    artifact, network, _project_index = build_landscape_artifact()
+    memberships = {}
+    for shard in artifact["shards"].values():
+        for record in shard["lists"]:
+            if record["id"] in {"111", "333"}:
+                memberships[record["id"]] = record["membership"]
+    hub_ids = [row["id"] for row in network["hub_projects"]]
+    rows = set_diff_rows(memberships, hub_ids, names={"111": "A", "333": "C"})
+    buckets = {row["Bucket"] for row in rows}
+    assert "shared_independent" in buckets
+    assert "unique_and_not_a_hub" in buckets
+    memberships_ab = {}
+    for shard in artifact["shards"].values():
+        for record in shard["lists"]:
+            if record["id"] in {"111", "222"}:
+                memberships_ab[record["id"]] = record["membership"]
+    copy_rows = set_diff_rows(memberships_ab, hub_ids)
+    assert any(row["Bucket"] == "shared_copy_lineage" for row in copy_rows)
