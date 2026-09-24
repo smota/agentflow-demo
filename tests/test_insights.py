@@ -1,5 +1,5 @@
 from awesome.insights import dashboard, comparison, entries_distribution, stars_distribution
-from awesome.landscape_view import set_diff_rows
+from awesome.landscape import set_diff_rows
 from tests.test_explore import fixture_index
 from tests.test_landscape import build_landscape_artifact
 

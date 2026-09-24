@@ -9,7 +9,45 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 
+from typing import Callable
+from awesome.alternatives import shard_path as alternatives_shard_path
+from awesome.liveness import shard_path as liveness_shard_path
+from awesome.projects import shard_path as project_shard_path
+from awesome.usage import shard_path as usage_shard_path
+
 LIVENESS_BUCKETS = ("active", "slowing", "stale", "archived", "unknown")
+
+# Signature: (index_name: str, shard_path_rel: str, prefix: str) -> shard dict or None
+ProjectRecordLoader = Callable[[str, str, str], dict | None]
+
+
+def resolve_project_record(
+    index_name: str,
+    shard_path_fn: Callable[[str], str],
+    pid: str,
+    loader: ProjectRecordLoader,
+) -> dict | None:
+    """Resolve a single project record from an index/shard family using the provided loader seam."""
+    prefix = pid[:2]
+    shard = loader(index_name, shard_path_fn(prefix), prefix)
+    if not shard:
+        return None
+    return next((record for record in shard.get("projects", []) if record["id"] == pid), None)
+
+
+def resolve_project_profile(pid: str, loader: ProjectRecordLoader) -> dict | None:
+    """Resolve one deduplicated project's full profile across dedup and Epic E signal shards.
+
+    Uses an injectable ProjectRecordLoader seam: (index_name, shard_path, prefix) -> shard dict.
+    Returns None only when the project itself is missing from the project dedup index.
+    """
+    project_rec = resolve_project_record("project-index.json", project_shard_path, pid, loader)
+    if not project_rec:
+        return None
+    liveness_rec = resolve_project_record("liveness-index.json", liveness_shard_path, pid, loader)
+    usage_rec = resolve_project_record("usage-index.json", usage_shard_path, pid, loader)
+    alternatives_rec = resolve_project_record("alternatives-index.json", alternatives_shard_path, pid, loader)
+    return project_profile(project_rec, liveness_rec, usage_rec, alternatives_rec)
 
 
 def project_profile(project_record: dict, liveness_record: dict | None = None,

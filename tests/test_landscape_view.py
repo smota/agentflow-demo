@@ -1,4 +1,4 @@
-from awesome.landscape_view import (
+from awesome.landscape import (
     SIGNATURE_CAPTION,
     UNKNOWN_POINT_SIZE,
     edge_inspector_rows,

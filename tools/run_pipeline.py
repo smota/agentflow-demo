@@ -72,10 +72,6 @@ from tools.lists import atomic_json, now
 ROOT = Path(__file__).resolve().parents[1]
 
 
-class StepFailed(RuntimeError):
-    """Raised for any step that fails, is unreachable, or fails independent verification."""
-
-
 def run_cli(module_args: list[str], root: Path, python: str | None = None) -> subprocess.CompletedProcess:
     """Invoke `python -m tools....` exactly as a human would type it per docs/demo/list-data.md."""
     executable = python or sys.executable
@@ -95,79 +91,13 @@ def parse_result_line(stdout: str | None) -> dict | None:
     return None
 
 
-def verify_list_stage(expected_digest: str, data_root: Path) -> dict:
-    """Independently re-verify a staged list-index candidate before it may be published.
-
-    Re-reads `data/staging/list-index.json` from disk (never trusts the digest `stage` printed on
-    its own), recomputes its digest the same way `validate_index` does, and runs `validate_index`
-    with `data_root` set so every `eligible` item's detail shard is also re-validated from bytes on
-    disk. Raises `StepFailed` on any mismatch or validation error.
-    """
-    staging = data_root / "staging"
-    path = staging / "list-index.json"
-    if not path.exists():
-        raise StepFailed("Staged list index missing before publish verification")
-    index = json.loads(path.read_text(encoding="utf-8"))
-    recomputed = digest({k: v for k, v in index.items() if k != "digest"})
-    if recomputed != index.get("digest") or recomputed != expected_digest:
-        raise StepFailed("Independent digest recomputation did not match the staged list index")
-    try:
-        validate_index(index, staging)
-    except ValueError as exc:
-        raise StepFailed(f"Staged list index failed independent validation: {exc}") from exc
-    return index
-
-
-def verify_project_stage(expected_digest: str, data_root: Path) -> dict:
-    """Independently re-verify a staged project-index candidate before it may be published.
-
-    Mirrors `verify_list_stage`: re-reads the staged project index and every shard it references
-    from disk, recomputes the digest, and runs the full `validate_projects` (index + shards) against
-    the already-published list index those projects were derived from.
-    """
-    staging = data_root / "staging"
-    path = staging / "project-index.json"
-    if not path.exists():
-        raise StepFailed("Staged project index missing before publish verification")
-    data = json.loads(path.read_text(encoding="utf-8"))
-    recomputed = digest({k: v for k, v in data.items() if k != "digest"})
-    if recomputed != data.get("digest") or recomputed != expected_digest:
-        raise StepFailed("Independent digest recomputation did not match the staged project index")
-    list_index_path = data_root / "list-index.json"
-    if not list_index_path.exists():
-        raise StepFailed("Published list index missing before project publish verification")
-    index = json.loads(list_index_path.read_text(encoding="utf-8"))
-    try:
-        shards = {prefix: json.loads((staging / project_shard_path(prefix)).read_text(encoding="utf-8"))
-                  for prefix in data.get("shards", {})}
-        validate_projects(data, index, shards)
-    except (ValueError, OSError) as exc:
-        raise StepFailed(f"Staged project index failed independent validation: {exc}") from exc
-    return data
-
-
-def verify_interpretation_stage(expected_digest: str, data_root: Path) -> dict:
-    """Independently re-verify a staged H2 interpretation candidate before it may be published --
-    same discipline as `verify_list_stage`/`verify_project_stage`: never trust the digest `build`
-    printed on its own, re-read the staged bytes, recompute, and re-run full validation (which
-    itself re-checks every record's `list_id` still corresponds to a currently `pending` list)."""
-    staging = data_root / "staging"
-    path = staging / "interpretations-index.json"
-    if not path.exists():
-        raise StepFailed("Staged interpretation index missing before publish verification")
-    data = json.loads(path.read_text(encoding="utf-8"))
-    recomputed = digest({k: v for k, v in data.items() if k != "digest"})
-    if recomputed != data.get("digest") or recomputed != expected_digest:
-        raise StepFailed("Independent digest recomputation did not match the staged interpretation index")
-    list_index_path = data_root / "list-index.json"
-    if not list_index_path.exists():
-        raise StepFailed("Published list index missing before interpretation publish verification")
-    list_index = json.loads(list_index_path.read_text(encoding="utf-8"))
-    try:
-        validate_interpretations(data, list_index)
-    except ValueError as exc:
-        raise StepFailed(f"Staged interpretation index failed independent validation: {exc}") from exc
-    return data
+from tools.pipeline_gate import (
+    StepFailed,
+    verify_interpretation_stage,
+    verify_list_stage,
+    verify_project_stage,
+    verify_staged_artifact,
+)
 
 
 def run_step(log: dict, name: str, module_args: list[str], root: Path, python: str | None = None) -> dict | None:

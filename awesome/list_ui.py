@@ -15,18 +15,15 @@ from awesome.explore import (DEFAULTS, SORTS, STATES, FRESHNESS, normalize,
 from awesome.delivery import render_delivery
 from awesome.network import NEAR_DUP_COPY_FRACTION, NEAR_DUP_JACCARD, neighbor_graph, validate_network
 from awesome.network_view import CANVAS_HEIGHT, CANVAS_WIDTH, NEIGHBOR_LIMIT, layout_positions, render_svg
-from awesome.landscape import list_shard_prefix, shard_path as landscape_shard_path, validate_landscape
-from awesome.landscape_view import (
-    SIGNATURE_CAPTION, edge_inspector_rows, neighbors_filtered, scatter_rows, scatter_spec,
-    set_diff_rows, signature_stack,
+from awesome.landscape import (
+    SIGNATURE_CAPTION, edge_inspector_rows, list_shard_prefix, neighbors_filtered,
+    scatter_rows, scatter_spec, set_diff_rows, shard_path as landscape_shard_path,
+    signature_stack, validate_landscape,
 )
 from awesome.project_search import citation_label, search_projects
 from awesome.projects import project_id, shard_path as project_shard_path, validate_projects as validate_project_index
 from awesome.search_index import shard_path as search_shard_path, validate_search_index
-from awesome.liveness import shard_path as liveness_shard_path
-from awesome.usage import shard_path as usage_shard_path
-from awesome.alternatives import shard_path as alternatives_shard_path
-from awesome.vitality import project_profile, liveness_status, usage_total
+from awesome.vitality import liveness_status, resolve_project_profile, usage_total
 
 LIVENESS_COLORS = {"active": "#0e8a16", "slowing": "#bd7210", "stale": "#b42318",
                     "archived": "#53635e", "unknown": "#8a97a0"}
@@ -164,31 +161,17 @@ def artifact_shard(path: str, stamp: int):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
-def _project_record(directory: Path, index_name: str, shard_path_fn, pid: str) -> dict | None:
-    index_path = directory / index_name
-    index_data = artifact_index(str(index_path), _stamp(index_path))
-    prefix = pid[:2]
-    if not index_data or prefix not in index_data.get("shards", {}):
-        return None
-    shard_path_value = directory / shard_path_fn(prefix)
-    shard = artifact_shard(str(shard_path_value), _stamp(shard_path_value))
-    if not shard:
-        return None
-    return next((record for record in shard.get("projects", []) if record["id"] == pid), None)
-
-
 def load_project_profile(directory: Path, pid: str) -> dict | None:
-    """Resolve one deduplicated project's full Epic E profile: its #69 dedup record plus whatever
-    E2 (liveness)/E3 (usage)/E4 (alternatives) artifacts already carry a record for it -- each
-    independently optional. Returns None only when the project itself isn't in the published dedup
-    catalogue at all (an invalid/unknown id), never when a signal is simply not yet computed."""
-    project_record = _project_record(directory, "project-index.json", project_shard_path, pid)
-    if not project_record:
-        return None
-    liveness_record = _project_record(directory, "liveness-index.json", liveness_shard_path, pid)
-    usage_record = _project_record(directory, "usage-index.json", usage_shard_path, pid)
-    alternatives_record = _project_record(directory, "alternatives-index.json", alternatives_shard_path, pid)
-    return project_profile(project_record, liveness_record, usage_record, alternatives_record)
+    """Resolve one deduplicated project's full Epic E profile using the deepened vitality module."""
+    def cached_loader(index_name: str, shard_rel_path: str, prefix: str) -> dict | None:
+        idx_path = directory / index_name
+        idx_data = artifact_index(str(idx_path), _stamp(idx_path))
+        if not idx_data or prefix not in idx_data.get("shards", {}):
+            return None
+        shard_file = directory / shard_rel_path
+        return artifact_shard(str(shard_file), _stamp(shard_file))
+
+    return resolve_project_profile(pid, cached_loader)
 
 
 CSS = """<style>
