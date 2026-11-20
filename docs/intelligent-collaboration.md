@@ -34,15 +34,53 @@ Use the least coordination that reduces meaningful risk:
 
 ## Collaboration modes
 
-| Mode                 | Use when                                                                         | Harness leverage                               | Guardrail                                                 |
-| -------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------- |
-| `auto-minimal`       | Default mode. Select the smallest safe mode from issue metadata and uncertainty. | Resolver-selected.                             | Explain why in one sentence.                              |
-| `single-agent`       | Low-risk, clear work.                                                            | None beyond normal workflow.                   | Default for routine changes.                              |
-| `advisory`           | One or more focused second opinions would reduce risk.                           | Read-only helpers or provider calls.           | Parent synthesizes; helpers do not sign gates.            |
-| `council`            | Major ambiguous strategy decision.                                               | Role-local panel of scouts/critics.            | Record synthesis and dissent; no raw transcript required. |
-| `parallel-discovery` | Broad repo discovery exceeds parent context budget.                              | Read-only fanout with scoped file/tool limits. | No mutation; parent validates findings.                   |
-| `spike`              | Uncertain implementation path needs experiment.                                  | Isolated child worktree or session.            | Explicit opt-in; parent ports or rejects.                 |
-| `human-gated`        | Authority or high-assurance review is required.                                  | Human handoff plus optional advisory helpers.  | Human owns security/acceptance gate.                      |
+| Mode                 | Use when                                                                         | Harness leverage                                                | Guardrail                                                         |
+| -------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `auto-minimal`       | Default mode. Select the smallest safe mode from issue metadata and uncertainty. | Resolver-selected.                                              | Explain why in one sentence.                                      |
+| `single-agent`       | Low-risk, clear work.                                                            | None beyond normal workflow.                                    | Default for routine changes.                                      |
+| `advisory`           | One or more focused second opinions would reduce risk.                           | Read-only helpers or provider calls.                            | Parent synthesizes; helpers do not sign gates.                    |
+| `sparring`           | Adversarial review before code write (pre-code review) or contract verification. | Read-only adversary CLI or forced sparring view inner subagent. | Multi-round resolution ledger; zero open blockers to unlock gate. |
+| `council`            | Major ambiguous strategy decision.                                               | Role-local panel of scouts/critics.                             | Record synthesis and dissent; no raw transcript required.         |
+| `parallel-discovery` | Broad repo discovery exceeds parent context budget.                              | Read-only fanout with scoped file/tool limits.                  | No mutation; parent validates findings.                           |
+| `spike`              | Uncertain implementation path needs experiment.                                  | Isolated child worktree or session.                             | Explicit opt-in; parent ports or rejects.                         |
+| `human-gated`        | Authority or high-assurance review is required.                                  | Human handoff plus optional advisory helpers.                   | Human owns security/acceptance gate.                              |
+
+## Two-level execution hierarchy (L1 seats vs. L2 native subagents)
+
+AgentFlow separates **governance boundaries (L1)** from **parallel task fanout (L2)** so projects do not pay inter-seat queue serialization tax for intra-slice work:
+
+1. **Level 1 (L1 — Governance & Trust Boundaries):**
+   - Owned by the active substrate: a single CLI session (`S0`), orthogonal local CLIs (`S1`), or the OpenRig **Lean 4-Seat Squad** (`S2`: `orch.arch`, `dev.build`, `dev.qa`, `rev.review`).
+   - Enforces path-ownership rules (`AGENTS.md`), oracle digest pinning before Phase 4 code edits, and Four-Eyes independence between Phase 4 (`developer`) and Phase 6 (`review`).
+2. **Level 2 (L2 — Intra-Slice Native Subagents):**
+   - Inside a single role turn (and inside the builder's isolated `.worktrees/<branch>`), the L1 parent uses native client subagents (`invoke_subagent`, `Task()`, `pi-subagent`) for codebase exploration, sibling module edits, local test-runner verification, and clean-context `effort: high` security/architecture sparring.
+   - L2 subagents are ephemeral helpers: they return compact structured summaries to the L1 parent and never sign lifecycle gates directly.
+
+## The effort-degradation law
+
+Frontier reasoning models degrade when `effort: high` is combined with accumulated tool outputs (`>40k–80k` tokens). Collaboration plans enforce three rules:
+
+- **Rule 1 (`effort: low` for scouts, QA, and `P0`):** `parallel-discovery` scouts, test-runner verification subagents, and `P0` bounded slices run on fast models (`antigravity/gemini-3.8-flash`, `grok-cli/grok-4.7`, `gpt-5.3-codex-spark`, `claude-haiku-4-5`) at `effort: low`.
+- **Rule 2 (`effort: medium` for primary L1 loops):** `architect`, `developer` (`Gemini 4 Argon`), and `review` (`GPT-6 Astra`) default to `effort: medium` in stateful multi-turn sessions.
+- **Rule 3 (`effort: high` only in clean `<30k–40k` token subagents):** When `council` or `sparring` mode requires deep reasoning (`GPT-6.1 Sol`, `Gemini 3.1 Pro`, `Claude Opus 4.6`), the parent dispatches a **fresh L2 child subagent** with a distilled `<15k` token brief rather than escalating reasoning effort inside a polluted parent transcript.
+
+## Sparring mode (Adversarial Pre-Code Review)
+
+Sparring mode introduces structured red-team adversarial evaluation before code changes are committed, reducing architectural churn and preventing defects early:
+
+1. **Dual-Gate Lifecycle:**
+   - **Specification Sparring Gate (Pre-Code):** The specification, architecture proposal, and contract slice undergo formal sparring before implementation starts.
+   - **Implementation Acceptance Gate (Post-Code):** Traditional test execution, deterministic criteria verification, and multi-agent review attest to the completed implementation.
+2. **Review Target Identity Binding:** Approvals are strictly bound to a composite `ReviewTargetIdentity` (`workItemId`, `cycle`, `contractDigest`, `sliceManifestDigest`, `policyDigest`). If code, contracts, or policies change, previous round approvals are automatically invalidated.
+3. **Strict Finding Taxonomy:**
+   - `[B]` **Blocker:** Critical invariant violation, security defect, or contract inconsistency. Prevents gate advancement.
+   - `[S]` **Structural:** Abstraction leakage, architectural divergence, or testability risk.
+   - `[N]` **Nit:** Non-blocking stylistic, formatting, or naming observation.
+4. **Separation of Powers:** Reviewers only observe `open` or `verified_closed` statuses. Only the author can submit resolution evidence for findings, and only human/policy authority can grant waivers.
+5. **Execution Topologies:**
+   - **Mode A (External Harness / Cross-Review):** Dispatches to an external CLI (e.g., `codex exec -s read-only` or `claude`) using stdin streaming.
+   - **Mode B (Single-Harness Inner Agent):** When operating in a single harness, an inner subagent is spawned with the forced sparring brief template (`agents/templates/sparring-brief.md`), recording `delegationTopology: "child-subagent"` and `independenceClassification: "same-harness-child"`. Under `high-assurance`, this triggers an explicit human sign-off requirement before gate unlock.
+6. **Cumulative Snapshot Ledger:** All rounds, fencing tokens, and finding lifecycles are persisted in `.agentflow/review-ledger.json`, providing a self-contained snapshot document that can be handed off across harnesses at any time.
 
 ## Role-local panels
 
