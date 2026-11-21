@@ -19,7 +19,7 @@
 
 ## Installation
 
-Use the exact revision in agentflow-source.json:60a0e800dc4d4ce9476c72231a0b853998131213. This is merged development, not a newer published release. The old v1 installation was explicitly retired and replaced by official fresh github-profile adoption; see wave2.md. Do not run retired init/sync commands.
+Use the exact release in agentflow-source.json: tag v1.12.0, revision 3095083f9e371af4643c9590c9e965b1e232bf67. The old v1 installation was explicitly retired and replaced by official fresh github-profile adoption; see wave2.md. Do not run retired init/sync commands.
 
 Current adoption supports --storage project, with ignored receipts under .agentflow/transactions. Review adopt plan before applying the exact token. Never invent or modify lock hashes. JSON payload bytes are preserved with Git -text attributes because managed hashes are byte-based.
 
@@ -36,14 +36,17 @@ $env:PYTHONDONTWRITEBYTECODE = '1'
 if (!(Test-Path .tooling/agentflow-next)) {
   git clone --config core.autocrlf=false --no-checkout https://github.com/smota/agentflow-sdlc.git .tooling/agentflow-next
   if ($LASTEXITCODE) { throw 'Framework clone failed' }
-  git -C .tooling/agentflow-next checkout --detach 60a0e800dc4d4ce9476c72231a0b853998131213
+  git -C .tooling/agentflow-next checkout --detach 3095083f9e371af4643c9590c9e965b1e232bf67
   if ($LASTEXITCODE) { throw 'Framework checkout failed' }
   # Fresh tooling clone only: retain the raw pinned bytes, without text filters.
   node -e "const fs=require('fs'), cp=require('child_process'), path=require('path'); const base=path.resolve('.tooling/agentflow-next'); const git=(...a)=>cp.execFileSync('git',['-c','safe.directory='+base,'-C',base,...a]); for(const e of git('ls-tree','-rz','HEAD').toString().split('\0').filter(Boolean)){const [m,p]=e.split('\t'); const [mode,type,oid]=m.split(' '); const f=path.resolve(base,p); if(type!=='blob'||!['100644','100755'].includes(mode)||!f.startsWith(base+path.sep))throw Error('Unexpected source entry'); fs.writeFileSync(f,git('cat-file','blob',oid));}"
   if ($LASTEXITCODE) { throw 'Framework byte materialization failed' }
+  # The release runtime imports its own dependencies (for example yaml); install them from its frozen lockfile.
+  pnpm --dir .tooling/agentflow-next install --frozen-lockfile --ignore-scripts
+  if ($LASTEXITCODE) { throw 'Framework dependency install failed' }
 }
 $frameworkSha = git -c safe.directory="$demoRoot/.tooling/agentflow-next" -C .tooling/agentflow-next rev-parse HEAD
-if ($frameworkSha -ne '60a0e800dc4d4ce9476c72231a0b853998131213') { throw 'Unexpected framework revision' }
+if ($frameworkSha -ne '3095083f9e371af4643c9590c9e965b1e232bf67') { throw 'Unexpected framework revision' }
 node scripts/check-framework.mjs
 if ($LASTEXITCODE) { throw 'Framework validation failed' }
 ```

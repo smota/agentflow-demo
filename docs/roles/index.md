@@ -14,11 +14,12 @@ Workflow profile = applicability, transition, and gate policy
 
 ## Product taxonomy
 
-The catalog in `manifests/role-catalog.json` defines nine lifecycle roles and one optional
-sidecar:
+The catalog in `manifests/role-catalog.json` defines nine lifecycle roles, one bootstrap
+predecessor, and one optional sidecar:
 
 | Identity                           | Owns                                       | Does not own                               |
 | ---------------------------------- | ------------------------------------------ | ------------------------------------------ |
+| `agentflow:requester`              | opening request                            | product problem, outcome, implementation   |
 | `agentflow:product-manager`        | problem, outcome, release intent           | requirements, architecture, implementation |
 | `agentflow:analyst`                | requirements, acceptance, scope            | priority, architecture, implementation     |
 | `agentflow:architect`              | design, risk, workflow profile             | implementation, test verdict               |
@@ -30,7 +31,10 @@ sidecar:
 | `agentflow:pr-readiness`           | PR manifest, traceability, follow-up state | specialist or merge decisions              |
 | `agentflow:qa-expert`              | exploratory findings                       | deterministic test or review verdicts      |
 
-`qa-expert` is a sidecar attached to testing and review. It is not a tenth lifecycle phase.
+`requester` is the bootstrap predecessor of phase 0. It sends a core handoff to
+`agentflow:product-manager` and owns acceptance of that delivery. It is not a lifecycle phase.
+`qa-expert` is a sidecar attached to testing and review. It is not a tenth lifecycle phase and it
+is not the phase-0 sender.
 
 Role definitions use qualified `agentflow:<slug>` identities. CLI input may use the matching current
 short slug, such as `reviewer`; aliases from earlier releases are rejected.
@@ -48,13 +52,13 @@ to an external owner or operational lifecycle.
 ## CLI
 
 ```bash
-node bin/cli.mjs roles catalog --json
-node bin/cli.mjs roles inspect developer --json
-node bin/cli.mjs roles validate --json
-node bin/cli.mjs roles resolve analyst --methods agentflow:method:event-storming --json
-node bin/cli.mjs roles sync --harness all --dry-run --target /path/to/project --json
-node bin/cli.mjs roles sync --harness all --apply --target /path/to/project --json
-node bin/cli.mjs roles status --harness all --target /path/to/project --json
+agentflow-sdlc roles catalog --json
+agentflow-sdlc roles inspect developer --json
+agentflow-sdlc roles validate --json
+agentflow-sdlc roles resolve analyst --methods agentflow:method:event-storming --json
+agentflow-sdlc roles sync --harness all --dry-run --target /path/to/project --json
+agentflow-sdlc roles sync --harness all --apply --target /path/to/project --json
+agentflow-sdlc roles status --harness all --target /path/to/project --json
 ```
 
 Generated role projections live under `.agentflow/roles/<harness>/`. They are portable adapter

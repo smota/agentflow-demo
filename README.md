@@ -22,10 +22,9 @@ Actual local design-stage screenshot, not a deployment claim. The live footer id
 
 ## Agentflow baseline
 
-This wave uses Agentflow's merged development revision
-`60a0e800dc4d4ce9476c72231a0b853998131213`, pinned in `agentflow-source.json`.
-It is an **unreleased integration revision**, not a claimed published Agentflow 2.0
-release. The [journal](docs/demo/wave2.md) records adoption, advisory councils,
+This demo runs on released Agentflow 1.12.0 (tag `v1.12.0`, revision
+`3095083f9e371af4643c9590c9e965b1e232bf67`), pinned in `agentflow-source.json`.
+The [journal](docs/demo/wave2.md) records adoption, advisory councils,
 typed acceptance, actual rework, tests and recovery. Agentflow supplies the process;
 AI-assisted execution requires a supported client and any required subscription or API access.
 
