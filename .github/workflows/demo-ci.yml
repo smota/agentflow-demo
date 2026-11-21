@@ -15,12 +15,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: smota/agentflow-sdlc
-          ref: 60a0e800dc4d4ce9476c72231a0b853998131213
+          ref: 3095083f9e371af4643c9590c9e965b1e232bf67
           path: .tooling/agentflow-next
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - run: pnpm --dir .tooling/agentflow-next install --frozen-lockfile --ignore-scripts
       - run: npm run check:workflow
   app:
     name: App tests
